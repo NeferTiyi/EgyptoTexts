@@ -1,9 +1,12 @@
+# LaTeX stuff
+# ===========
 *.acn
 *.acr
 *.alg
 *.aux
 *.bbl
 *.blg
+*.dic
 *.dvi
 *.fdb_latexmk
 *.glg
@@ -31,7 +34,15 @@
 *.xdy
 *.tdo
 
+*_full.htx
+*_tmp.tex
+
+# Sublime text worspace
+# =====================
 *.sublime-workspace
+
+# Images
+# ======
 *.jpg
 *.jpeg
 *.png
@@ -39,9 +50,8 @@
 
 *.pdf
 
-*_full.htx
-*_tmp.tex
-
+# Misc
+# ====
 *.odt
 *.doc
 *.docx

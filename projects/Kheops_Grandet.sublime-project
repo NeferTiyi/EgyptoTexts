@@ -25,12 +25,16 @@
       "name": "Sources"
     },
     {
-      "path": "../img/Grandet",
+      "path": "../../images/Kheops/Grandet",
       "name": "Images"
     },
     {
-      "path": "../utils",
-      "name": "Utilitaires"
+      "path": "../../utils",
+      "name": "Fichiers communs"
+    },
+    {
+      "path": "../../neferlatex",
+      "name": "Styles LaTeX"
     }
   ]
 }

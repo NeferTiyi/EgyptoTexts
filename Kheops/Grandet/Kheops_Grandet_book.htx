@@ -115,7 +115,10 @@
 \checkandfixthelayout
 
 
-\graphicspath{{../../img/Grandet/}{../../img/Barbotin/}}
+\graphicspath{%
+  {../../../images/Kheops/Grandet/}%
+  {../../../images/Barbotin/}%
+}
 
 
 \setfloatadjustment{figure}{\centerfloat}
