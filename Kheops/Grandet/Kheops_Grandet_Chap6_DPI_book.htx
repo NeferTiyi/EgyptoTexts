@@ -1,0 +1,818 @@
+%!TEX root = Kheops_Grandet_book.htx
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\book{La \DPI{} \datation{(1781-1550)}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\part{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Généralités}
+%======================================================================
+
+\faitle{19 février 2013}
+
+La \DPI comprend les \bsc{xiii}\ieme, \bsc{xiv}\ieme, \bsc{xv}\ieme, 
+\bsc{xvi}\ieme et \dyn{xvii}s, et le début de la \dyn{xviii}.
+
+\begin{table}
+  \centerfloat
+  \begin{tikzpicture}[scale=2.5, every node/.style={font=\small}]
+    \SchemaDPI
+  \end{tikzpicture}
+  \caption{La \DPI : vue d'ensemble}
+  \label{fig:DPI}
+\end{table}
+
+Une \og Période intermédiaire \fg est caractérisée par la coexistence 
+de plusieurs centres de pouvoir. 
+Différents facteurs rendent difficile la compréhension d'une telle 
+période. Tout d'abord, c'est le vainqueur qui écrit l'histoire, dans 
+laquelle il se présente comme le seul pouvoir légitime. De plus, la 
+tradition historiographique de la \og dynastie \fg donne l'impression 
+d'une succession séquentielle alors qu'elles se développent en 
+parallèle.
+
+\section{Pouvoirs en présence}
+%----------------------------------------------------------------------
+
+La \dyn{xiii} est l'héritière de la \dyn{xii}. Elle continue à 
+régner sur l'ensemble du pays jusque vers 1700\,BC, quand un centre 
+de pouvoir concurrent apparaît dans l'est du Delta et s'étend 
+progressivement à toute la \BE, obligeant la \dyn{xiii} à se replier 
+en \HE, autour de Thèbes. On a alors une situation similaire à la \PPI.
+
+Vers 1650\,BC, une nouvelle lignée émerge dans le Delta : les 
+\og Hyksos \fg. Ce sont les souverains du \NK qui leur donneront ce 
+nom, signifiant \emph{chefs étrangers}, pour ne pas les qualifier de 
+roi. Mais eux-mêmes se considèrent bien comme des rois égyptiens, se
+donnant le titre de \tl{n(y)-sw.t-bjt(y)}, avec une titulature 
+classique. Ils gouvernent la \BE et la \ME.
+
+À la même époque à Thèbes, les descendants de la \dyn{xiii} fondent 
+la \dyn{xvii} (pourquoi deux dynasties ?).
+
+La \bsc{xv}\ieme et la \dyn{xvii} revendiquent toutes deux la royauté 
+et les thébains déclenchent la guerre civile vers 1600\,BC. Ce n'est 
+que vers 1540\,BC que leurs héritiers, la \dyn{xviii}, obtiendront la 
+victoire totale.
+
+Dans les textes législatifs thébains, le pouvoir rival hyksos est 
+désigné par la circonlocution \og l'autorité de fait \fg, \tl{sxm 
+jry=f} (par opposition à l'autorité de droit) : les mesures sont 
+proclamées \og pour tout roi ou \uline{toute autorité de fait} à 
+venir \fg\footnote{On trouve quelque chose de similaire dans notre 
+législation, pour désigner le régime de Vichy : \emph{\og les actes 
+dits lois de l'autorité de fait se prétendant gouvernement de l'État 
+Français \fg}.}.
+
+Manéthon mentionne des \og Grands Hyksos \fg, la \dyn{xv}, et des 
+\og Petits Hyksos \fg, la \dyn{xvi}. De ces derniers, on ne sait 
+rien : aucun autre texte, pas de traces archéologiques\dots
+
+\bigskip
+
+\begin{warning}
+  La notion de dynastie ne correspond pas à des liens génétiques, mais 
+  plutôt politiques : le premier roi de la \dyn{xviii} et le frère du 
+  dernier de la \bsc{xvii}\ieme.
+\end{warning}
+
+\bigskip
+
+D'après le \emph{Papyrus de Turin}, la \dyn{xiii} comporterait 
+\num{62}~rois en \num{130}~ans, soit une moyenne de \num{2.5}~ans 
+par roi, sans compter le fait que plusieurs rois ont régner dix ans 
+ou plus. C'est encore pire pour la \dyn{xiv} : \num{74}~rois se 
+seraient succédé sur une période de \num{60}~ans. 
+
+On peut donc se demander si ces dynasties, ainsi que la 
+\bsc{xvii}\ieme, ne correspondraient pas également à des 
+\og sous-dynasties \fg. Certains égyptologues ont proposé une 
+monarchie élective, avec des mandats courts. Mais on n'a aucune 
+trace d'un tel système, et cela semble trop éloigné des conceptions 
+égyptiennes pour être vraiment envisageable. On parle également de 
+la dévalorisation du rôle du roi : s'il y en a beaucoup, c'est qu'il 
+n'est pas si important.
+Pour \PG, il faut sûrement y voir des dynasties parallèles, avec des 
+dynastes locaux qui se donnent des cartouches, et même des commandants 
+de forteresses nubiennes. C'est par exemple le cas du dynaste 
+Oupouaoutemsaf, que l'on connaît par une stèle d'Abydos.
+On peut noter qu'il y a peu de rois dont les enfants règnent après 
+eux, ce qui est un signe classique d'instabilité politique.
+
+\section{Curiosités onomastiques}
+%----------------------------------------------------------------------
+
+À côté de l'onomastique traditionnelle qui se poursuit (on a une 
+flopée d'Amenemhat, Montouhotep, Sésostris,~\dots), on trouve 
+aussi des noms plus bizarres : Ougaf, Khendjer (de \emph{khenzir},
+\td{sanglier} en sémitique), Âamou, Oupouaoutemsaf (construction 
+classique en \og X est sa protection \fg, mais Oupouaout est un 
+dieu d'Assiout plutôt obscur), Mermécha (\tl{Jmy-rA-mSa}, 
+\td{général}),~\dots
+
+\begin{remarque}
+  La \emph{papponymie}, le fait de donner à son fils le nom de son 
+  père, est très répandue en \kmt (voir par exemple le début de la 
+  \dyn{xii} ou de la \dyn{xix}).
+\end{remarque}
+
+\section{Administration} 
+%----------------------------------------------------------------------
+
+Paradoxalement, on connaît bien l'appareil administratif de cette 
+époque. Il reste intact -- y compris le personnel -- complexe et 
+précis (texte juridique de Karnak) et passe tel quel au \NK. \og 
+Pendant que les rois valsent, les vizirs restent. \fg Ceci dit, 
+famille royale et familles de vizirs s'entremêlent\dots Le pouvoir 
+est détenu par l'administration, plus par le roi\footnote{Comme sous 
+certains califes, ou entre la Troisième République et Vichy.}. C'est 
+là encore un signe connu en période de crise.
+
+\section{Politique extérieure}
+%----------------------------------------------------------------------
+
+La Nubie, fleuron de la \dyn{xii}, est progressivement abandonnée : 
+l'\kmt n'a plus les moyens d'entretenir ses forteresses. Certaines 
+deviennent indépendantes (les gouverneurs utilisent un cartouche), 
+d'autres passent au service de Kouch dont l'émergence est favorisée 
+par l'affaiblissement de l'\kmt. Le royaume nubien entre alors dans 
+son époque classique. La frontière remonte vers Éléphantine.
+
+Dès la \dyn{xvii}, la reconquête est présentée comme une croisade 
+nationale. Elle sera effective au début de la \dyn{xviii} et 
+s'accompagne de la volonté de prendre et anéantir Kouch. L'armée est 
+alors essentiellement constituée de mercenaires nubiens\footnote{On a 
+quelque chose de similaire avec Franco, dont l'armée comprenait de 
+nombreux soldats marocains.}.
+
+\section{Arts}
+%----------------------------------------------------------------------
+
+On note une baisse sensible du niveau dans tous les domaines 
+artistiques. Il y a malgré tout quelques exceptions : la pyramide de 
+Khendjer, une statue en bois de Hor,~\dots
+Cependant, les Hyksos relancent l'art traditionnel, avec un bon niveau 
+de production culturelle (Papyrus Westcar, Conte des Rameuses~\dots)
+
+\section{Démographie}
+%----------------------------------------------------------------------
+
+Le pouvoir hyksos repose sur une forte immigration asiatique, mais on 
+n'en connais pas la dynamique.
+
+\chapter{Sources : listes de rois}
+%======================================================================
+
+\faitle{26 février 2013}
+
+\section{Le Canon de Turin}
+%----------------------------------------------------------------------
+
+C'est la \og liste complète des rois d'\kmt \fg, compilée sous 
+Ramsès~II, et trouvé, morceau par morceau, par Champollion. Plus 
+détaillé que la Liste d'Abydos, il lui a certainement servi de base, 
+ainsi qu'à Manéthon. Il donne les durées de règne, réparties par 
+dynastie, et les cumuls par dynastie.
+
+Il est mieux conservé pour la \DPI que pour les autres périodes.
+
+\subsection{\texorpdfstring{\dyn{xi}}{XIe dynastie}}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D'après le Canon, elle comprend \num{6}~rois et dure \num{107}~ans.
+
+\subsection{\texorpdfstring{\dyn{xii}}{XIIe dynastie}}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cette dynastie est nommée \og les rois de la résidence 
+d'Itchy-Taouy \fg.
+Elle dure \num{213}~ans, \num{1}~mois et \num{17}~jours.
+
+\subsection{\texorpdfstring{\dyn{xiii}}{XIIIe dynastie}}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Parmi les rois cités : 
+\begin{itemize}
+  \item Khoutaouy (\tl[black]{\#w-tA.wy}, le 3\ieme roi) ;
+  \item Amenemhat (\tl[black]{Jmn-m-HA.t}, le 4\ieme roi) ;
+  \item Iouefeni (\tl[black]{Jw=f-n=j}) ;
+  \item Séhétepibrê (\tl[black]{\%Htp-jb-Ra}) ;
+  \item Sobekhotep~I\ier (\tl[black]{\%bk-Htp}) ;
+  \item Aoutibrê (\tl[black]{Aw.t-jb-Ra}, le fameux Hor) ;
+  \item Sémenkarê le général ;
+  \item Antef (\tl[black]{jn(w)-jt=f}) ;
+  \item Seth (\tl[black]{\Smaj{}tX}) ;
+  \item Sahouthor (\tl[black]{\%A-Hw.t-Hr}) ;
+  \item \dots
+\end{itemize}
+
+\subsection{\texorpdfstring{\dyn{xiv}}{XIVe dynastie}}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Elle comprendrait \num{47}~rois + \num{47}~rois dont la séquence est 
+inconnue. 
+
+Le premier roi mentionné est en fait le deuxième de la dynastie : 
+Néhésy. Merdjefarê et lui sont les deux seuls connus par d'autres 
+sources que le Canon de Turin.
+
+La dynastie comprendrait Hépou, Ibis, Oiseau, \og Aux nobles 
+femmes \fg,~\dots Ces noms sont bizarres, ce ne sont pas des noms 
+d'humains. Il s'agit peut-être d'un problème de remontage du papyrus : 
+on aurait un mélange avec des rois mythiques ?
+
+\section{Chapelle des ancêtres}
+%----------------------------------------------------------------------
+
+Datée de Thoutmosis~III et initialement installée dans l'Akh-Ménou à 
+Karnak, elle a été ramenée par Prisse d'Avesnes et est aujourd'hui au 
+Louvre (\inv{E\,13481\,bis}, \fref{fig:E13481b} \pref{fig:E13481b}).
+
+Elle comporte une représentations des rois antérieurs à 
+Thoutmosis~III, assis, mais leur classement est aberrant et la rend 
+difficile à utiliser. Elle mentionne cependant des rois dont on n'a 
+aucune autre attestation.
+
+Il serait intéressant d'étudier ce qui a causé le défaut d'ordre, en 
+s'inspirant par exemple de l'étude de Françoise~\bsc{B???} sur un 
+texte de la tombe de Séthi~I\ier : il n'y avait pas la place pour un 
+texte déjà formaté et il a donc été tronqué et les morceaux restant 
+positionnés au hasard.
+
+\begin{remarque}
+  Dans les textes de cette époque, \emph{Khoubak}, \td{le brillant 
+  protecteur}, est une désignation fréquente du roi.
+\end{remarque}
+
+\part{\texorpdfstring{\dyn{xiii}}{XIIIe dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{\TeD / Qantîr}
+%======================================================================
+
+Le site connaît une évolution importante au milieu de la \dyn{xiii}.
+
+\begin{figure}[htb]
+  \includegraphics[width=\textwidth]{TeD_2}
+  \caption{Le site de \TeD}
+  \label{fig:TeD}
+\end{figure}
+
+Chevauchant un angle de la ville PPI/ME, on a trouvé un palais 
+(\dimDD{40}{60}{\meter}) daté de la \dyn{xiii}, entouré d'un parc 
+contenant un cimetière.
+On ne sait pas quelle était la finalité de ce lieu : résidence 
+d'un gouverneur local ? Palais d'été d'un roi ? L'évolution du site 
+s'arrête au début de la période hyksos.
+
+(lieu contemporain : Boubastis)
+
+Le site s'agrandit vers l'est (\TeD, centre religieux, entouré d'une 
+aire de peuplement) et l'ouest (vers le Nil, aire palatiale).
+
+À \TeD même, on voit une urbanisation lâche : maisons avec peu 
+d'angles droits, rues, bâtiments dont des temples, aires sacrées. Le 
+tout est marqué par des traits culturels syriens (caractéristiques du 
+Moyen Bronze) saupoudrés d'un vernis égyptien.
+Il y a notamment un grand temple donnant sur une esplanade où l'on a 
+retrouvé un autel à sacrifice en briques crues et un puits. Il y avait 
+encore de la cendre sur l'autel. C'est un holocauste, typique du \PO. 
+Les cendres et les restes des animaux sacrifiés sont jetés dans le 
+puits. On y trouvé toutes sortes d'animaux, mais pas de porc. 
+Faisait-il déjà l'objet d'un interdit alimentaire ? Ce n'était pas le 
+cas en \kmt. à l'écart, un autre temple, plus petit et partiellement 
+recouvert par des vestiges ramessides (enceinte du grand temple de 
+Seth d'Horemheb).
+
+On note ensuite un hiatus, marqué par une couche de cendres, due à des 
+incendies.
+
+Le niveau d'occupation suivant est caractérisé par un urbanisme dense, 
+un fort développement : rues, maisons à étages, boutiques (amphores de 
+Syrie). On voit une différenciation sociale (petites et grandes 
+maisons). Il n'y pas de cimetière mais des enclos pour enterrer les 
+morts chez soi. Un des bâtiments pourrait être un temple.
+
+Selon les fouilleurs du site, la population aurait finalement été 
+décimée, peut-être à cause d'une épidémie.
+% puis renouvelée par un apport extérieur (Hyksos). 
+Ils basent cette hypothèse sur le nombre très élevé de sépulture. 
+Mais \PG pense qu'il faut rester prudent : la datation des sépultures 
+est en effet sujette à caution en l'absence des niveaux supérieurs.
+
+Plus tard, on verra la formation d'une unique vaste agglomération, à 
+partir d'une population venant d'ailleurs, puis des Hyksos.
+
+Le palais \dyn{xiii} est centré autour d'une salle péristyle d'un 
+type courant en Syrie, le parc comporte des plantations d'arbres, de 
+fleurs, des rangées plus ou moins régulières de tombes (on n'a que les 
+infrastructures, on suppose des superstructures en briques). C'est de 
+là que vient le sceau de Baal Saphon (cf la documentation 
+proche-orientale, notamment syrienne, hourrite, hittite : les dieux 
+sur deux montagnes).
+
+\chapter{Les rois}
+%======================================================================
+
+\section{Ougaf}
+%----------------------------------------------------------------------
+
+C'est le premier roi répertorié. Il n'a pas de lien connu avec la 
+\dyn{xii} et son nom est bizarre. On lui attribue deux ans de règne. 
+Il a effectué des travaux, mais ils sont mal connus.
+
+\subsection{Décret de la stèle de Néferhotep}
+
+\emph{Néferhotep} est un ajout postérieur, la stèle date en fait de 
+l'an~4 d'Ougaf ou de \uwave{???}. 
+
+Elle relate la constitution, à Abydos -- ville sacrée que se disputent 
+les pouvoirs rivaux -- d'une zone interdite à tous sauf aux prêtres de 
+service, et dans laquelle la construction de tombes est proscrite. 
+Elle fait partie d'un groupe de quatre stèles délimitant la zone en 
+question (placées aux angles ou sur les côtés). Toute personne non 
+autorisée trouvée là sera brûlée vive.
+
+Il s'agit certainement de protéger la zone des mystères d'Osiris 
+(entre \OeQ et \KeS), dont le culte était victime de sa popularité.
+
+La tombe de Djer (\dyn[\iere]{i}, voir \Bref{bk:PT}, \Cref{cha:djer}, 
+\pref{cha:djer}) à \OeQ avait été réinterprétée comme le tombeau 
+d'Osiris. Les égyptiens ne savaient plus qui était enterré là, 
+peut-être des dieux\dots On y a trouvé le \og Lit d'Osiris \fg dont 
+la datation est incertaine (fouilles de 1898). En effet, si le nom 
+de Nectanébo (\dyn{xxx}) y apparaît, il a été usurpé plusieurs fois. 
+Différents noms ont été proposés : Khendjer, Nebiry\uwave{herâou} 
+(\dyn{xvii}). On ne sait pas non plus de quand date l'identification 
+de la tombe de Djer à celle d'Osiris : début de la \DPI, 
+\bsc{xii}\ieme, voire même \dyn{xi}. On n'a pas de parallèle pour une 
+éventuelle datation stylistique.
+
+\section{Rois 2 à 8}
+%----------------------------------------------------------------------
+
+On n'en connaît rien. Ils ne sont attestés que par quelques blocs, 
+quelques scarabées\dots
+
+\section{Hornedjhérytef}
+%----------------------------------------------------------------------
+
+Hétepibrê.
+
+C'est le neuvième roi, fils d'un certain 
+\begin{hieroglyph}T14\end{hieroglyph}.
+Ce signe a deux lectures possibles : 
+\begin{itemize}
+  \item \tl[black]{QmAw}, de sens incertain
+  \item \tl[black]{aAmw}, \emph{âamou}, asiatique
+\end{itemize}
+La seconde ouvre la voie à des spéculations : asiatique\dots Hyksos !
+
+On a retrouvé quelques monuments au nom de ce roi, notamment une base 
+de statue dans le temple de \TeD, 
+% avec (Néfrousobek ?) 
+une dédicace à Ptah de Memphis. Et une masse d'arme (\fref{???}) à 
+son nom à Ebla\footnote{Royaume syrien au sud d'Alep, dans la steppe. 
+Puissance politique et commerciale importante.}, un cadeau 
+diplomatique pour ménager un partenaire commercial.
+
+\begin{remarque}
+  Plusieurs rois sont mentionnés à Byblos, ce qui montre que les 
+  relations diplomatiques sont maintenues.
+\end{remarque}
+
+\section{Rois 10 à 14}
+%----------------------------------------------------------------------
+
+Certains de ces rois ne sont connus que par le Canon de Turin\dots
+C'est un indicateur de la faiblesse du pouvoir royal.
+
+\section{Aoutibrê Hor}
+%----------------------------------------------------------------------
+
+L'histoire politique de ce règne est mal connue. Il est surtout 
+célèbre pour sa tombe à Dahchour, entre les deux enceintes 
+concentriques de la pyramide d'Amenemhat~III.
+
+Elle comporte un puits de construction comblé, un puits d'accès, un 
+caveau maçonné en pierre couvert de chevrons, un sarcophage et une 
+caisse à canopes.
+
+\begin{figure}[htb]
+  \includegraphics[width=\textwidth]{Hor_tombe}
+  \caption{Le caveau de Hor}
+  \label{fig:Hot_tombe}
+\end{figure}
+
+On y a trouvé un naos avec une statue de \emph{ka} en bois plus grande 
+que nature (\musee{Le Caire} \inv{???}, \fref{???}). Sous le naos, il 
+y avait une stèle en albâtre portant un extrait des \TP (le rituel de 
+l'offrande funéraire), écrit en h\iero s bleus d'une grande qualité 
+(cf BIFAO\,101).
+
+Cette tombe fait partie d'un groupe d'une dizaine, fouillées par 
+\bsc{De~Morgan} en 1894. Ce groupe comprend aussi la tombe de la 
+fille de Hor, Nébouhétepti la
+jeune\footnote{\begin{hieroglyph}nbw:Htp-t:p-ti-X:r:d\end{hieroglyph}
+\tl[black]{nbw Htp=\fbox{tj} Xrd} : \td{\og l'or-est-satisfait \fg 
+la jeune}. L'accord au féminin de \tl[black]{Htp=tj} s'explique par 
+le fait que \tl[black]{nbw} -- qui apparait dans de nombreux noms 
+propres -- est une désignation d'Hathor.}, du même type que celle de 
+son père.
+Sur les dalles couvrant son sarcophage et la caisse à canopes, on a 
+trouvé des objets et des coffres :
+\begin{itemize}
+  \item armes (flèches, casse-tête) ;
+  \item objets de toilette (miroir, porte-perruque) ;
+  \item un kit à huiles canoniques (il y en a sept).
+\end{itemize}
+La momie était parée de bijoux : cette tradition (cf \Sref{???} MK) 
+survit malgré des conditions peu favorables.
+
+\section{Amenemhat~VII}
+%----------------------------------------------------------------------
+
+Il aurait épousé la fille de Hor, Nébouhétepti la jeune. Leur fils, 
+Sobekhotep~II, lui succède.
+
+\section{Sobekhotep~II}
+%----------------------------------------------------------------------
+
+On a des traces de travaux à \DeB, à Médamoud. Les quelques signes 
+que l'on a donnent l'impression d'un intérêt, déjà, pour la \HE 
+(\nospace{???}).
+Mais il pourrait s'agir d'un biais vu le peu de données dont on 
+dispose.
+
+La Nubie est encore occupée jusqu'à Semna.
+
+\subsection{Le papyrus \emph{Boulaq~18} (\musee{Le Caire})}
+\label{sub:boulaq18}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+La datation de ce document est incertaine : il y est question de 
+l'an~3 de Sobekhotep~II mais une section est datée de l'an~5 de son 
+successeur, Khendjer. C'est un document administratif et comptable, 
+un \og journal de la cour \fg. Il relate des événements politiques 
+ou religieux marquants : un déplacement à Médamoud, des banquets de 
+fonctionnaires,~\dots Ces banquets pouvaient compter jusqu'à 
+\num{75}~participants, cités nommément. Des institutions sont 
+également nommées (elles sont sources d'approvisionnement, avec un 
+système complexe de virements).
+
+Individus :
+\begin{itemize}
+  \item le dieu le plus important, Montou
+  \item la reine Ihy
+  \item le vizir Ânkhou (en poste sous ce règne, le suivant et 
+        peut-être encore cellui d'après).
+\end{itemize}
+
+\begin{remarque}
+  Ânkhou est fils de vizir, vizir lui-même, et père de deux autres. 
+  On peut parler de dynastie parallèle à celles des rois, et plus 
+  durable que celles des rois.
+\end{remarque}
+
+Institutions :
+\begin{itemize}
+  \item Le \emph{kap} : au \NK, les enfants élevés à la cour sont 
+        appelés \og enfants du \emph{kap} \fg. $\equiv$~gynécée. 
+        En fait, c'est la cour.
+  \item Le \emph{bureau de la répartition du personnel} (\col~DRH). 
+        C'est en quelque sorte un ministère du travail forcé.
+  \item Le \emph{trésor}.
+  \item Le \emph{district de l'extrême-sud} (= \emph{la tête du sud}), 
+        une division administrative du territoire.
+  \item La \emph{grande chambre close}, c'est à dire l'administration 
+        du vizir. C'est une allusion à la chambre forte contenant les 
+        archives.
+\end{itemize}
+Le papyrus mentionne également la visite de dignitaires nubiens, des 
+\emph{medjayous}, venant de \uwave{Auchek} et reçus en grande pompe. 
+Ils viennent préparer la visite de leurs chefs. Les égyptiens 
+cherchent à les ménager en vue des négociations pour l'embauche 
+de futurs mercenaires.
+
+\section{Khendjer}
+%----------------------------------------------------------------------
+
+L'origine sémitique de son nom, signifiant \td{sanglier}, est à 
+l'origine de spéculations : serait-ce un chef militaire ayant pris 
+le pouvoir ?
+La date la plus haute de son règne est l'an~5 (papyrus Boulaq~18, 
+\Sref{sub:boulaq18}). 
+
+Son règne a pu être plus long. Il a en effet eu le temps de se faire 
+construire une pyramide à Saqqara sud, de type \MK, avec une double 
+enceinte à décor en façade de palais. On a retrouvé le pyramidion en 
+morceaux. Le couvercle du sarcophage avait été fermé à l'aide d'un 
+vérin à sable (\fref{fig:verin}). L'entrée des appartements funéraires 
+se fait par l'ouest, la chambre a un toit à chevrons. Il y a un 
+système complexe de couloirs pour l'insertion du sarcophage et de la 
+caisse à canopes entre la cuve et le couvercle et la man\oe uvre des 
+vérins.
+
+Puisque sa sépulture est à Saqqara, on peut supposer que le roi 
+réside encore dans la région de Memphis (à Itchy-taouy ?), et que 
+le pays n'est pas encore coupé en deux.
+
+On a quelques traces de travaux à Abydos, notamment la restauration 
+du temple d'Osiris.
+
+Les stèles \inv{C11} et \inv{C12} du \musee{Louvre} datent de ce 
+règne.
+Le lit d'Osiris (\Bref{bk:PT}, \Cref{cha:djer}) pourrait également 
+dater de ce règne (ou Khendjer est-il le premier usurpateur ?).
+Le papyrus composite \musee{Brooklyn} \inv{35.1446} a été rédigé, en 
+partie à cette époque.
+
+\faitle{9 avril 2013}
+
+\section{Mermécha}
+%----------------------------------------------------------------------
+
+Il est le dix-huitième roi de la dynastie.
+Son nom signifie \td{général}.
+
+\section{Antef~VI}
+%----------------------------------------------------------------------
+
+On n'a pas grand chose.
+
+\section{Antef~VII}
+%----------------------------------------------------------------------
+
+Pas grand chose non plus.
+
+\section{Sobekhotep~III}
+%----------------------------------------------------------------------
+
+Ce fils de particuliers, un prêtre et une dame, aurait régner à peu 
+près cinq ans, dans la région thébaine.
+
+Il a réalisé des travaux à Médamoud, Tôd, Ermant et peut-être à 
+Boubastis.
+
+L'essentiel du papyrus \musee{Brooklyn} \inv{35.1446} a été rédigé 
+sous ce règne.
+C'est un dossier juridique concernant une affaire remontant au 
+milieu de la \dyn{xiii}. Il s'agit d'établir les droits de propriété 
+de la dame Sénebtysy, veuve du haut fonctionnaire Haânkhef, 
+\titre{chancelier du roi de \BE} et \titre{directeur des terres 
+dans la ville du sud}. Les biens en question sont un groupe de 
+\num{95}~esclaves (hommes, femmes et enfants) qui appartenaient à son 
+mari. Une quarantaine portent des noms égyptiens, les autres sont 
+désignés par \og \tl[black]{aAmw} Untel \fg. Ils sont qualifiés de 
+\og \tl[black]{Hm} et \tl[black]{Hm.t} \tl[black]{ny-sw.t} Untel \fg, 
+\td{esclave du roi Untel}.
+Le papyrus comprend huit documents. Du plus récent au plus ancien :
+\begin{enumerate}
+  \item Déclaration sous serment : affirmation de propriété
+  \item Copie de l'acte de donation de son mari envers Sénebtysy 
+        fait en l'an~2 de Sobekhotep~III. Il indique qu'il lui donne 
+        tous ses biens. Il s'agissait d'exclure une autre femme 
+        (\tl[black]{\&jhnw.t}, fille de Haânkhef) et sa descendance.
+  \item La liste nominative des \num{95}~esclaves occupe presque tout 
+        le verso
+  \item Copie d'acte certifiant que Haânkhef avait reçu ces esclaves 
+        des autorités en l'an~1 de Sobekhotep~III après qu'il a fait 
+        la demande. Avant ça, ils étaient sous la tutelle des 
+        autorités.
+  \item Décret royal allouant ces esclaves à Haânkhef en l'an~6 de 
+        Khendjer. Ils étaient auparavant contrôlés par Pay, qui a été 
+        condamné pour malversation dans leur utilisation.
+  \item Copie d'un extrait du décret de l'an~5 de Khendjer : 
+        destitution de Pay de son droit sur les esclaves.
+  \item Copie partielle d'un registre administratif justifiant la 
+        condition d'esclave des ancêtres des esclaves en question. 
+        Ça occupe presque tout le recto. Ils ont été condamnés sous 
+        \uwave{Amenemhat~III} pour anachorèse\footnote{\og se mettre 
+        à côté des terres cultivées \fg. Ce phénomène est connu sous 
+        ce nom à l'époque \ptol. Il s'agit d'échapper aux corvées 
+        agricoles annuelles. C'est aussi à ça que servent les 
+        ouchebtis.}. On a des extraits \emph{in extenso}, sous forme 
+        de table. Le processus se fait en plusieurs étapes :
+        \begin{itemize}
+          \item Rapport officiel signalant la fuite d'un individu.
+          \item Saisine d'un tribunal local pour entamer des 
+                poursuites juridiques et policières (arrestation des 
+                amis et de la famille).
+          \item Jugement, éventuellement par Contumace, y compris des 
+                parents et amis. Il revêt un caractère mécanique, les 
+                lois sont appliquées sans débat.
+          \item Jugement soumis au vizir pour validation.
+          \item Validation (formalité) puis envoi du document.
+          \item Les condamnés sont placés sous tutelle du bureau de 
+                la répartition du personnel, en attente d'allocation 
+                à des gens qui en font la demande et que le roi veut 
+                récompenser (comme les bijoux, les meubles, les 
+                tombes\dots). Ce bureau dispose de différentes 
+                institutions : prisons, camps de travail.
+        \end{itemize}
+  \item Texte trop mutilé.
+\end{enumerate}
+
+\bigskip
+
+On voit que l'administration fonctionne encore bien. C'est seulement 
+le pouvoir royal qui se porte mal (cf Vichy).
+
+\begin{remarque}
+  \begin{itemize}
+    \item On n'a jamais trouvé de document montrant l'existence d'un 
+          contrôle administratif du mariage. Serait-ce un affaire 
+          purement privée, entre individus ? Mais on sait qu'ils font 
+          la différence entre les gens mariés et ceux qui ne le sont 
+          pas. Cette absence semble en contradiction avec la volonté 
+          de contrôle de la population. On a en revanche plus d'infos 
+          sur les séparations, notamment sur le problème de 
+          l'entretien de la femme qui, normalement, ne travaille pas 
+          pour gagner sa vie (elle est la domestique de son mari, 
+          seules les servantes, esclaves, travaillent). C'est la même 
+          chose pour les personnes âgées, qui doivent alors retourner 
+          dans leur famille. On a des mentions de contrats de mariage 
+          stipulant des pensions alimentaires (en démotique, entre 
+          \num{40} et \num{50} contrats de mariage : pas des documents 
+          administratifs fait par les autorités, mais seulement entre 
+          familles).
+    \item L'âge idéal, inaccessible, semble être \num{110}~ans. 
+          La médecine hypocratique dérive de la médecine égyptienne.
+    \item Cas particulier : \og celui qui s'absente de son travail 
+          pour six mois \fg : délai de grâce, mentionné par Sinouhé 
+          qui entre au service d'un chef local au bout de six mois.
+  \end{itemize}
+\end{remarque}
+
+\section{Néferhotep~I\ier}
+%----------------------------------------------------------------------
+Néferhotep~I\ier est fils de particuliers et règne une dizaine 
+d'années. Il est chef d'une sous-dynastie : deux frères et le fils de 
+l'un d'eux règnent après lui.
+
+
+\begin{figure}[htb]
+  \centerfloat
+  \begin{tikzpicture}
+     \geneaNfrhtp
+  \end{tikzpicture}
+  \caption{Généalogie de Néferhotep~I\ier}
+  \label{fig:geneaNfrhtp}
+\end{figure}
+
+
+\section{Sobekhotep~IV}
+%----------------------------------------------------------------------
+
+\section{27e (Sobekhotep~V) ?}
+%----------------------------------------------------------------------
+
+\section{Sobekhotep~VI}
+%----------------------------------------------------------------------
+
+\section{Sobekhotep~VII}
+%----------------------------------------------------------------------
+
+\section{Dédoumosé}
+%----------------------------------------------------------------------
+
+\section{Les non classés}
+%----------------------------------------------------------------------
+
+\bigskip \bigskip
+
+\dots
+
+\bigskip \bigskip
+
+
+\part{\texorpdfstring{\dyn{xvii}}{XVIIe dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Gouverne en \HE seulement, mais montre une volonté de réunification du 
+pays à la fin de la dynastie.
+
+Ces rois sont mal connus, mais beaucoup sont cités sur la 
+\emph{Chambre des Ancêtres} (et nulle part ailleurs).
+
+\begin{figure}[htb]
+  \centerfloat
+  \begin{tikzpicture}
+     \geneaXVII
+  \end{tikzpicture}
+  \caption{Généalogie de la \dyn{xvii}}
+  \label{fig:geneaXVII}
+\end{figure}
+
+\chapter{Antef~V}
+%======================================================================
+
+On connaît de ce règne un décret trouvé dans le temple de Coptos : un 
+prêtre du temple de Min a fait l'objet d'une enquête menée par un 
+fonctionnaire du temple d'Amon pour avoir confondu les biens du temple 
+et les siens\dots Il a été limogé, privé de ses biens et condamné à la 
+damnatio memori\ae.
+Le document évoque la concurrence entre deux pouvoirs, et se conclut 
+par : \begin{hieroglyph}sw-t:n\end{hieroglyph} \tl{n(y)-sw.t}, 
+appellation classique du roi, et 
+\begin{hieroglyph}sxm-ir:f-A40\end{hieroglyph} \tl{sxm-jr=f}, 
+\td{pouvoir agissant}, un néologisme désignant une autorité de fait.
+
+Le principal monument connu pour ce roi est sa tombe à 
+\DAN\footnote{Le point culminant de cette zone est le Thot Berg.}, 
+où sont enterrés tous les rois de la dynastie jusqu'à Kamosis. La 
+zone est également occupée par des tombes à esplanades assez tardives. 
+La tombe d'Antef était une pyramide de \SI{10}{\m} de côté, dont il 
+reste le puits de construction du caveau. Les tombes des contemporains 
+sont -- comme d'habitude -- associées à la pyramide. Un obélisque 
+était situé devant. Un morceau du pyramidion de la pyramide est 
+aujourd'hui au British Museum, ainsi qu'une partie du mobilier 
+funéraire (sarcophage, bijoux de la reine,~\dots).
+Suite au pillage des tombes à la fin de la \dyn{xx}, une partie des 
+rois et reines a été transférée dans la Vallée des Rois et dans la 
+cachette de \DeB. Plus tard, ces tombes ont servi de carrières.
+
+Son sarcophage est plaqué de feuilles d'or, comporte un décor de 
+plumes (référence à Isis et Nephthys). On parle de sarcophage de 
+type \og rishi\footnote{Nisbé, \og à plumes \fg en arabe.} \fg
+
+\chapter{Râhotep}
+%======================================================================
+
+On ne connaît que quelques scarabées et stèles, ainsi qu'un arc dédié 
+au culte de Min de Coptos.
+
+Ce roi serait mentionné dans un conte intitulé \emph{Une histoire 
+de revenant} ou \emph{Khonsouemheb et l'esprit} et connu seulement 
+par des copies très abîmées des XIX\ieme et \dyn{xx}s. Khonsouemheb, 
+un Premier Prêtre d'Amon, y invoque un esprit qui vivait sous 
+Râhotep\footnote{Certains lisent \emph{Montouhotep} plutôt que 
+\emph{Râhotep}.} et qui lui demande de restaurer sa tombe. La suite 
+de l'histoire n'est pas lisible. Ce conte en évoque d'autres, d'époque 
+démotique (cf Sethy Khâemouaset, réminiscence du fils de Ramsès~II qui 
+a restauré des tombes à Saqqara).
+
+\chapter{Sobekemsaf~I\ier}
+%======================================================================
+
+Relief de Médamoud (centre important à cette époque).
+
+Imitation de l'art du \MK (Sésostris~III), mais en moins bien : très 
+plat, pas de modelé\dots (à comparer avec la chapelle blanche).
+
+\chapter{Thot et Montouhotep~VII}
+%======================================================================
+
+R.A.S.
+
+On note à la fois un renouvellement onomastique et des noms 
+traditionnels.
+
+\chapter{Nebiryeraou~I\ier}
+%======================================================================
+
+On a un monument daté de l'an~\num{1} de ce règne : la \emph{stèle 
+juridique de Karnak}. 
+Ce document montre bien le maintien de tous les rouages administratifs 
+mis en place au \MK. Il rapporte la cession forcée du poste de 
+gouverneur d'El-Kab par le gouverneur en place au profit de son 
+demi-frère pour rembourser des dettes. Ce poste a donc une valeur 
+marchande !
+Les deux frères sont issus d'une famille bien connue, celle du vizir 
+Iymérou de la \dyn{xiii}.
+Le texte a été placé dans le temple d'Amon-Rê pour être rendu public 
+par faveur du souverain. L'opinion publique est donc importante, mais 
+pourquoi ?
+Le document explique d'où vient cette charge de gouverneur. 
+La cession de la charge s'accompagne de la cession de tous les biens, 
+pain, bière, prêtres funéraires, domaines,~\dots qui y sont associés. 
+Et elle est évaluée à \num{60}~débens d'or payés en biens divers.
+Il est également précisé que nul autre n'était légitime pour le 
+transfert.
+À la fin, il y a un paragraphe sur l'enregistrement de l'acte au 
+bureau du rapporteur du district du Nord.
+
+\chapter{Nebiryeraou~II}
+%======================================================================
+\chapter{Deux rois}
+%======================================================================
+\chapter{Sobekemsaf~II}
+%======================================================================
+
+
+
+\vdots
+
+
+\begin{figure}[htb]
+  \begin{tikzpicture}
+     \geneaElKab
+  \end{tikzpicture}
+  \caption{\og Dynastie \fg des gouverneurs d'El-Kab}
+  \label{fig:geneaElKab}
+\end{figure}
+
+
+
+
+% \part{\texorpdfstring{\dyn{xviii}}{XVIIIe dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

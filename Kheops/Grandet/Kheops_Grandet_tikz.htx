@@ -1,0 +1,1359 @@
+%% Ce fichier est encodé en UTF-8 (juste pour WinMerge)
+
+\tikzset{soleil/.style   = {
+  thick, 
+  color = LightOrange, 
+  ball color = LightOrange
+  }}
+\tikzset{aile/.style     = {thick, draw = black, fill = black!10}}
+\tikzset{ba/.style       = {BaColor}}
+\tikzset{ka/.style       = {KaColor}}
+\tikzset{xt/.style       = {XtColor}}
+\tikzset{roi/.style      = {draw = red}}
+\tikzset{gouv/.style     = {draw = blue}}
+\tikzset{homme/.style = {%
+  rectangle, rounded corners, 
+  font           = \smaller, 
+  fill           = gray!50!blue!20, 
+  inner sep      = 1ex, 
+  minimum height = 0.5cm, 
+  minimum width  = 2.2cm,
+  text width     = 2.2cm,
+  align          = center
+}}
+\tikzset{femme/.style = {%
+  rectangle, rounded corners, 
+  font           = \smaller, 
+  fill           = gray!50!red!20,  
+  inner sep      = 1ex, 
+  minimum height = 0.5cm, 
+  minimum width  = 2.2cm,
+  text width     = 2.2cm,
+  align          = center
+}}
+\tikzset{lien/.style     = {rounded corners, thick}}
+\tikzset{poteau/.style   = {
+  thick, 
+  fill = brown!80!white
+%  opacity=0.7
+}}
+\tikzset{porte/.style    = {fill = white, thick}}
+\tikzset{mur/.style      = {%
+  thick, 
+  fill = brown!50!yellow!50
+%  opacity=0.7
+}}
+\tikzset{sol/.style      = {very thick}}
+\tikzset{block/.style    = {%
+  rounded corners = 1, 
+  thick, 
+  fill = gray!25
+}}
+\tikzset{pyram/.style    = {fill = red!50}}
+\tikzset{temple/.style   = {fill = gray!33}}
+\tikzset{enceinte/.style = {thick}}
+\tikzset{pylone/.style   = {thick, fill = gray!50}}
+\tikzset{colonne/.style  = {fill = gray!50}}
+\tikzset{chemin/.style   = {%
+  rounded corners, 
+  thick, 
+  DarkRed, 
+  opacity=0.7, 
+  ->, >=stealth
+}}
+
+\newcommand{\axes}{%
+  \draw [->] ( 0.00, 0.00) -- ( 0.00, 5.00) ;
+  \draw [->] (-7.00, 0.00) -- ( 7.00, 0.00) ;
+  \foreach \m in {-7, -6, ..., 7} {%
+    \node at (\m, 0.00) {$|$} ;
+  }
+  \foreach \m in {0, 1, ..., 5} {%
+    \node at ( 0.00,\m) {--} ;
+  }
+}
+
+\newcommand{\chapelle}{%
+  ( 0.00, 0.00) rectangle ++ ( 0.50, 0.50)
+}
+
+\newcommand{\caveau}{%
+  ( 0.00, 0.00) circle (0.25)
+}
+
+\newcommand{\pyramide}{%
+  ( 0.00, 0.00) rectangle ( 1.00, 1.00) -- ++ (-1.00,-1.00) 
+  ( 0.00, 1.00)     -- ++ ( 1.00,-1.00)
+}
+
+\newcommand{\mastaba}[2][0]{%
+  \filldraw [fill=green!20!gray!5, rotate=#1] 
+            (#2) rectangle ++ ( 1.00, 0.50) ; 
+}
+
+\newcommand{\soleil}{%
+  \foreach \a in {0, 30, ..., 330} {%
+    \draw [soleil] ( 0.00, 0.00) -- (\a:5.00) ;
+  }
+  \shade [soleil, shade=ball] ( 0.00, 0.00) circle (3);
+}
+
+\newcommand{\terre}{%
+   (-10.00, 0.00) -- ( 10.00, 0.00) -- ( 10.00, 2.00) 
+-- (  8.40, 0.40) -- ( -8.40, 0.40) -- (-10.00, 2.00) -- cycle
+}
+
+\newcommand{\aile}[1][+1]{%
+  \draw [aile] ( 0.00*#1, 1.50) -- ( 7.00*#1, 1.50) -- ( 7.00*#1, 0.00) 
+            -- ( 3.00*#1, 0.00) .. controls +(-2.50*#1, 0.10) and 
+              +( 0.20*#1,-0.45) .. ( 0.00*#1, 1.50) -- cycle ;
+
+  \draw [aile] ( 7.00*#1, 0.70) -- ( 4.50*#1, 0.70) 
+               ( 2.00*#1, 1.50) .. controls +( 0.60*#1,-0.70) and 
+              +(-1.25*#1, 0.05) .. ( 4.50*#1, 0.70) ;
+
+  \foreach \a in {6.7,6.4,6.1,5.8,5.5,5.2,4.9,4.6,4.3} {%
+    \draw [aile] (\a*#1,0) -- (\a*#1,0.7) ;
+  }
+
+  \foreach \a/\b/\c/\d in {3.99/4.00/0.00/0.72, 3.63/3.70/0.00/0.75, 
+                           3.26/3.43/0.00/0.77, 2.85/3.15/0.00/0.82, 
+                           2.40/2.84/0.05/0.91, 1.78/2.55/0.15/1.03, 
+                           1.00/2.33/0.40/1.19, 0.35/2.14/0.88/1.34} {% 
+    \draw [aile] (\a*#1,\c) -- (\b*#1,\d) ;
+  }
+}
+
+% .. Construction en vagues ..
+% ============================
+\newcommand{\vagues}{%
+  \coordinate (A) at ( 0.25, 1.00) ;
+  \coordinate (B) at (17.75, 1.00) ;
+  \coordinate (C) at (16.75, {3*tan(60)-1.00}) ;
+  \coordinate (D) at ( 1.25, {3*tan(60)-1.00}) ;
+  \clip (A) -- (B) -- (C) -- (D) -- cycle ;
+
+  \foreach \s in {0, 6, 12} {%
+    \foreach \a in {3.9, 3.6, 3.3, 3.0, 2.7, 2.4, 2.1} {%
+      \draw [shift={(\s,0)}] ( 0.00, 0.00) ++ (90:\a) arc (90:60:\a) 
+            arc (240:300:6-\a) arc (120:90:\a)  ;
+      \draw [shift={(\s,0)}, thin, red!50] 
+            ( 0.00, 0.00) -- ++ (60:6) -- ++ (-60:6) ;
+    }
+    \foreach \r in {2.1, 2.7, 3.3} {%
+      \foreach \a in {66, 72, ..., 90} {%
+        \draw [shift={(\s,0)}, thin, gray] 
+              ( 0.00, 0.00)  ++ (\a:0.3+\r) -- ++ (\a:0.3) ;
+        \draw [shift={(\s,0)}, thin, gray] 
+              ( 0.00, 0.00)  ++ (\a-3:\r) -- ++ (\a-3:0.3) ;
+      }
+      \foreach \a in {240, 246, ..., 294} {%
+        \draw [shift={(\s,0)}, thin, gray] 
+              ( 0.00, 0.00)  ++ (60:6) ++ (\a:\r) -- ++ (\a:0.3) ;
+        \draw [shift={(\s,0)}, thin, gray] 
+              ( 0.00, 0.00)  ++ (60:6) ++ 
+              (3+\a:0.3+\r) -- ++ (3+\a:0.3) ;
+      }
+      \foreach \a in {96, 102, ..., 120} {%
+        \draw [shift={(\s,0)}, thin, gray] 
+              ( 0.00, 0.00)  ++ (0:6) ++ (\a:0.3+\r) -- ++ (\a:0.3) ;
+        \draw [shift={(\s,0)}, thin, gray] 
+              ( 0.00, 0.00)  ++ (0:6) ++ (\a-3:\r) -- ++ (\a-3:0.3) ;
+      }
+    }
+  }
+}
+
+% .. Plan de lavage ..
+% ====================
+\newcommand{\lavage}{%
+  \draw ( 0.00, 0.00) -- ( 0.00, 2.00) -- ( 4.00, 1.00) 
+     -- ( 4.00, 0.00) -- ( 6.00, 0.00) -- ( 6.00, 1.00) ;
+  \fill [pattern=dots] ( 4.00, 0.00) rectangle ( 6.00, 0.75) ;
+  \fill [pattern=north east lines] 
+        ( 0.00, 0.00) rectangle ( 4.00, 1.00) ;
+}
+
+% .. Constitution de la personne humaine ..
+% =========================================
+\newcommand{\personne}{%
+  % Terre
+  \fill (-1.00,-0.10) rectangle (13.00, 0.00) ;
+  % Légendes
+  \node[gray] at (11.8, 0.40) {\emph{En-deçà}} ;
+  \node[gray] at (11.8,-0.60) {\emph{Au-delà}} ;
+  % Chapelle
+  \filldraw [fill=gray!33]      ( 0.00, 0.00) --    ( 0.67, 2.00) 
+         -- ( 9.00, 2.00) -- ++ (-60:0.50)    -- ++ (180:0.20) 
+         -- ++ (120:0.30) -- ++ (180:2.90)    --    ( 6.00, 0.00) ;
+  \draw [fill=white] ( 2.00, 2.00) -- ( 2.00,-3.00) -- ( 3.60,-3.00) 
+                  -- ( 3.60,-2.30) -- ( 2.20,-2.30) -- ( 2.20, 2.00) 
+                  --cycle ;
+  \node at ( 9.00, 2.30) {chapelle de culte} ;
+  % Corps
+  \node [xt] (C) at ( 2.80,-2.70) 
+        {\begin{hieroglyph}A54\end{hieroglyph}} ;
+  \node at (C.south) [xt, above] {corps} ;
+  \node at (C.north east) [below] {caveau} ;
+  % ka
+  \node [ka] (K) at ( 6.80, 0.60) 
+        {\begin{hieroglyph}A51\ \end{hieroglyph}} ;
+  \node[ka] at (K.south) {\emph{ka}} ;
+  % Ba
+  \coordinate (B1) at ( 0.00,-1.30) ;
+  \coordinate (B2) at ( 9.80,-0.70) ;
+  % Flèches
+  \draw [ba]            (C.west) edge[out=180,in=-90] (B1) ;
+  \draw [ba,->,>=latex] (B1)     edge[out=90,in=180]  (K.west) ;
+  \draw [ba]            (K.east) edge[out=0,in=90]    (B2) ;
+  \draw [ba,->,>=latex] (B2)     edge[out=-90,in=0]   (C.east) ;
+  \node [ba,fill=white] at (B1) {\emph{ba}} ;
+  \node [ba,fill=white] at (B2) {\emph{ba}} ;
+  \node [ba]            at (B1) [left] 
+        {\SmallerText\begin{hieroglyph}G53 \end{hieroglyph}} ;
+}
+
+% .. Course du ba du soleil ..
+% ============================
+\newcommand{\basoleil}{%
+  \begin{scope}[scale=0.5]
+    \draw [gray] ( 0.00, 0.00) circle (4.9) ;
+    \draw [gray] (-7.00, 0.00) --     ( 7.00, 0.00) ;
+    \path ( 4.90, 0.00)  arc (0:20:4.9) node (fl1) {} ;
+    \draw [ba,thick,<-,>=stealth] (fl1)  arc (20:45:4.9) ;
+    \path (-4.9,0)  arc (180:200:4.9) node (fl2) {} ;
+    \draw [ba,thick,<-,>=stealth] (fl2)  arc (200:225:4.9) ;
+    \node at ( 4.70, 2.80) [ba]              {\emph{ba}} ;
+    \node at ( 0.00,-4.80) [xt] 
+          {\begin{hieroglyph}A54\end{hieroglyph}} ;
+    \node at ( 0.00,-5.00) [xt, below]       {corps} ;
+    \node at ( 0.60, 5.20) [ka, above right] {\emph {ka}} ;
+    \node at (-5.10, 0.20) [left]            {terre} ;
+  \end{scope}
+  \filldraw [scale=0.255] \terre ;
+  \begin{scope}[shift={(-1.90, 2.25)}, scale=0.24]
+    \aile[+1]
+  \end{scope}
+  \begin{scope}[shift={( 1.90, 2.25)}, scale=0.24]
+    \aile[-1]
+  \end{scope}
+  \begin{scope}[shift={( 0.00, 2.45)}, scale=0.1]
+    \soleil
+  \end{scope}
+}
+
+
+% .. Généalogie de Néferhotep~I\ier ..
+% ====================================
+\newcommand{\geneaNfrhtp}[1][0.65]{%
+  \node [homme]     (haanxf)                        {Haânkhef} ;
+  \node [femme]     (km)      [right=#1 of haanxf]  {Kem} ;
+  \draw [lien]      (haanxf) -- (km) node [midway] (n) {} ;
+  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
+  \node [homme,roi] (sahthr1) [below=of n.south]    {Sahathor} ;
+  \draw [lien]       (n.center) -- (m) -| (sahthr1) ;
+  \node [homme,roi] (nfrhtp)  [left=#1 of sahthr1]  {Néferhotep~I\ier} ;
+  \draw [lien]       (n.center) -- (m) -| (nfrhtp) ;
+  \node [homme,roi] (sbkhtp4) [right=#1 of sahthr1] {Sobekhotep~IV} ;
+  \draw [lien]       (n.center) -- (m) -| (sbkhtp4) ;
+  \node [femme]     (snbsn)   [left=#1 of nfrhtp]   {Sénebsen} ;
+  \draw [lien]      (nfrhtp) -- (snbsn) ;
+  \node [femme]     (tan)     [right=#1 of sbkhtp4] {Tjan} ;
+  \draw [lien]      (sbkhtp4) -- (tan) node [midway] (n) {} ;
+  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
+  % \node [homme,roi] (sbkhtp5) [below=of n.south]    {Sobekhotep~V} ;
+  \node [homme,roi] (sbkhtp5) [below=of sahthr1]    {Sobekhotep~V} ;
+  \draw [lien]       (n.center) -- (m) -| (sbkhtp5) ;
+  \node [homme]     (sahthr2) [left=#1 of sbkhtp5]  {Sahathor} ;
+  \draw [lien]       (n.center) -- (m) -| (sahthr2) ;
+  \node [homme]     (haankhr) [left=#1 of sahthr2]  {Haânkhhor} ;
+  \draw [lien]       (n.center) -- (m) -| (haankhr) ;
+  \node [homme]     (untel1) [right=#1 of sbkhtp5]  {$\times$} ;
+  \draw [lien]       (n.center) -- (m) -| (untel1) ;
+  \node [homme]     (untel2) [right=#1 of untel1]   {$\times$} ;
+  \draw [lien]       (n.center) -- (m) -| (untel2) ;
+}
+
+
+% .. Généalogie des gouverneurs d'El-Kab ..
+% =========================================
+\newcommand{\geneaElKab}[1][0.65]{%
+  \node [homme,roi]  (sbkhtp)                       {Sobekhotep~V} ;
+  \node [femme]      (nbwxas)  [right=#1 of sbkhtp] {Néboukhâes} ;
+
+  \draw [lien]       (sbkhtp) -- (nbwxas) node [midway] (n) {} ;
+  \node [femme]      (xnsw)    [below=of n.south] 
+        {Khonsou\\\rem{fille de roi}} ;
+
+  \draw [lien]       (n.center) -- (xnsw) ;
+  \node [homme]      (iymrw1)  [right=#1 of nbwxas] {Iymérou} ;
+  \node [femme]      (rdtnsni) [right=#1 of iymrw1] 
+        {Rédouténeséni\\\rem{\tl[black]{jry.t pa.t}}} ;
+
+  \draw [lien]       (iymrw1) -- (rdtnsni) node [midway] (n) {} ;
+  \node [homme,gouv] (iy)      [below=of n.south] 
+        {Iy \\\rem{vizir, gouverneur}} ;
+  \node at (iy.north east) {\ding{172}} ;
+  \draw [lien]       (n.center) -- (iy) ;
+
+  \draw [lien]       (xnsw) -- (iy) node [midway] (n) {} ;
+  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
+  \node [homme]      (rnisnb) [below=of xnsw.center] 
+        {Reniséneb\\\rem{chef d'équipe du roi}} ;
+  \draw [lien]       (n.center) -- (m) -| (rnisnb) ;
+
+  \node [femme]      (rdwtns)  [right=#1 of iy] 
+        {Rédouténes\\\rem{fille de roi}} ;
+  \draw [lien]       (iy) -- (rdwtns) node [midway] (n) {} ;
+  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
+
+  \node [homme,gouv] (iysri)  [right=#1 of rnisnb] 
+        {Iy-shéri\\\rem{gouverneur}} ;
+  \node at (iysri.north east) {\ding{173}} ;
+  \draw [lien]       (n.center) -- (m) -| (iysri) ;
+
+  \node [femme]      (dame1)  [right=#1 of iysri] {$\times$} ;
+  \node [homme]      (iymrw2)  [right=#1 of dame1] 
+        {Iymérou\\\emph{\smaller vizir, gouverneur}} ;
+  \draw [lien]       (n.center) -- (m) -| (iymrw2) ;
+  \node [femme]      (dame2)  [right=#1 of iymrw2] {$\times$} ;
+
+  \draw [lien]       (dame1) -- (iymrw2) node [midway] (n) {} ;
+  \node [homme,gouv] (kbsi) [below=of n.south] 
+        {Kénési\\\rem{gouverneur}} ;
+  \node at (kbsi.north east) {\ding{174}} ;
+  \draw [lien]       (n.center) -- (kbsi) ;
+
+  \draw [lien]       (dame2) -- (iymrw2) node [midway] (n) {} ;
+  \node [homme,gouv] (sbknxt) [below=of n.south] 
+        {Sobeknakhté\\\rem{gouverneur}} ;
+  \node at (sbknxt.north east) {\ding{175}} ;
+  \draw [lien]       (n.center) -- (sbknxt) ;
+}
+
+
+
+% .. Généalogie de la IVe dynastie ..
+% ===================================
+\newcommand{\geneaIV}[1][0.65]{%
+  \node [homme] (houni)                              {Houni} ;
+  \node [femme] (meres)     [right=#1 of houni]    {Meresânkh~I} ;
+  \node [femme] (f-houni)   [left=#1 of houni]     {$\times$} ;
+  \draw [lien]  (f-houni)   -- (houni) node [midway] (n) {} ;
+  \draw [lien]  (meres)     -- (houni) node [midway] (m) {} ;
+  \node [homme] (snefrou)   [below=of m.south]       {Snéfrou} ;
+  \node [femme] (hetep1)    [below=of n.south]       {Hétepheres~I} ;
+  \draw [lien]  (m.center)  -- (snefrou) ;
+  \draw [lien]  (n.center)  -- (hetep1) ;
+  \draw [lien]  (hetep1)    -- (snefrou) node [midway] (n) {} ;
+  \node [homme] (kheops)    [below=of n.south]       {Khéops} ;
+  \draw [lien]  (n.center)  -- (kheops) ;
+  \node [femme] (f-kheops1) [left=#1 of kheops]    {$\times$} ;
+  \node [femme] (f-kheops2) [right=#1 of kheops]   {$\times$} ;
+  \draw [lien]  (kheops)    -- (f-kheops1) node [midway] (n) {} ;
+  \draw [lien]  (kheops)    -- (f-kheops2) node [midway] (m) {} ;
+  \node [homme] (redjed)    [below=of m.south]       {Rêdjedef} ;
+  \node [homme] (khephr)    [below=of n.south]       {Khephren} ;
+  \draw [lien]  (m.center)  -- (redjed) ;
+  \draw [lien]  (n.center)  -- (khephr) ;
+  \node [femme] (hetep2)    [right=#1 of redjed]   {Hétepheres~II} ;
+  \draw [lien]  (redjed)    -- (hetep2) node [midway] (n) {} ;
+  \node [femme] (nefer)     [below=of n.south]       {Néferhetepes} ;
+  \draw [lien]  (n.center)  -- (nefer) ;
+  \node [homme] (m-nefer)   [right=#1 of nefer]    {$\times$} ;
+  \draw [lien]  (nefer)     -- (m-nefer) node [midway] (n) {} ;
+  \node [homme] (ouser)     [below=of n.south]       {Ouserkaf} ;
+  \draw [lien]  (n.center)  -- (ouser) ;
+  \node [femme] (khame1)    [left=#1 of khephr]    {Khâmérernebty~I} ;
+  \draw [lien]  (khephr)    -- (khame1) node [midway] (n) {} ;
+  \node [homme] (myker)     [below=of n.south]       {Mykérinos} ;
+  \draw [lien]  (n.center)  -- (myker) ;
+  \node [femme] (khame2)    [left=#1 of myker]     {Khâmérernebty~II} ;
+  \draw [lien]  (myker)     -- (khame2) node [midway] (n) {} ;
+  \node [homme] (chepses)   [below=of n.south]       {Chepseskaf} ;
+  \draw [lien]  (n.center)  -- (chepses) ;
+  \node [femme] (khenty)    [right=#1 of chepses]  {Khentykaous} ;
+  \draw [lien]  (chepses)   -- (khenty) node [midway] (n) {} ;
+  \node [homme] (sahoure)   [below=of chepses.south] {Sahourê} ;
+  \node [homme] (neferir)   [below=of khenty.south]  {Neferirkarê} ;
+  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
+  \draw [lien]  (n.center)  -- (m) -| (sahoure) ;
+  \draw [lien]  (n.center)  -- (m) -| (neferir) ;
+  % Frontières
+  \draw [thick, dashed, DarkGreen] (-7.20,-0.60) -- ( 7.00,-0.60) ;
+  \draw [thick, dashed, DarkGreen] (-7.20,-7.70) -- ( 1.50,-7.70) 
+                                -- ( 1.50,-6.40) -- ( 7.00,-6.40) ;
+  % Légendes
+  \node [DarkGreen] (III) at (5.8, 0.0) {\dyn{iii}} ;
+  \node [DarkGreen] (IV)  at (5.8,-2.6) {\dyn{iv}} ;
+  \node [DarkGreen] (V)   at (5.8,-8.2) {\dyn{v}} ;
+}
+
+
+% .. Généalogie de la XVIIe dynastie ..
+% =====================================
+\newcommand{\geneaXVII}[1][0.65]{%
+  \node [homme,roi] (antef5)                             {Antef~V} ;
+  \node [femme]     (sbkmsaf)   [right=#1 of antef5]     {Sobekemsaf} ;
+  \draw [lien]      (antef5)    -- (sbkmsaf) node [midway] (n) {} ;
+  \node [homme,roi] (rahtp)     [below=of n.south]       {Râhotep} ;
+  \draw [lien]      (n.center)  -- (rahtp) ;
+  \node [femme]     (sbkhaanxs) [left=#1 of rahtp]       {Sobekemsaf Haânkhes} ;
+  \draw [lien]      (rahtp)     -- (sbkhaanxs) node [midway] (n) {} ;
+  \node [homme]     (imny)      [below=of n.south]       {Imeny} ;
+  \draw [lien]      (n.center)  -- (imny) ;
+  \node [femme]     (sbkmhb)    [right=#1 of imny]       {Sobekemheb} ;
+  \draw [lien]      (sbkmhb)    -- (imny) ;
+  \node [homme,roi] (sbkmsaf1)  [right=#1 of rahtp]    {Sobekemsaf~I\ier} ;
+  \node [femme]     (nbwmhat)   [right=#1 of sbkmsaf1]   {Nébouemhat} ;
+  \draw [lien]      (sbkmsaf1)  -- (nbwmhat) node [midway] (n) {} ;
+  \node [homme,roi] (sbkmsaf2)  [below=of n.south]       {Sobekemsaf (II ?)} ;
+  \draw [lien]      (n.center)  -- (sbkmsaf2) ;
+  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
+  \draw [lien]      (n.center)  -- (m) -| (sbkmhb) ;
+  % \draw [lien]      (m) -| (sbkmhb) ;
+  \node [femme]     (nbwxas)    [right=#1 of sbkmsaf2]   {Néboukhâes} ;
+  \node [homme]     (intef)     [right=#1 of nbwxas]   {Intef} ;
+  \draw [lien]      (n.center)  -- (m) -| (intef) ;
+  % \draw [lien]      (m) -| (intef) ;
+  \draw [lien]      (sbkmsaf2)  -- (nbwxas) node [midway] (n) {} ;
+  \node [homme,roi] (antef6)   [below=of sbkmsaf2.south] {Antef~VI} ;
+  \node [homme,roi] (antef7)   [below=of nbwxas.south]   {Antef~VII} ;
+  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
+  \draw [lien]      (n.center)  -- (m) -| (antef6) ;
+  \draw [lien]      (n.center)  -- (m) -| (antef7) ;
+}
+
+
+% .. Généalogie de la XVIIIe dynastie ..
+% ======================================
+\newcommand{\geneaXVIIIa}[1][0.65]{%
+  \node [homme,roi] (snxtnra) 
+        {Sénakhtenrê-Ahmosis} ;
+  \node [femme]     (ttisri)   [right=#1 of snxtnra] 
+        {Téti-Shéri} ;
+  \draw [lien]      (snxtnra) -- (ttisri) node [midway] (n) {} ;
+  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
+  \node [homme,roi] (sqnnra)   [below=1.5 of snxtnra.center] 
+        {Seqenenrê Taa} ;
+  \node [femme]     (ahhtp1)   [below=1.5 of ttisri.center] 
+        {Ahhotep~I\iere} ;
+  \draw [lien]      (n.center) -- (m) -| (sqnnra) ;
+  \draw [lien]      (n.center) -- (m) -| (ahhtp1) ;
+  \node [femme]     (satdhty)  [left=#1 of sqnnra] 
+        {Satdjéhouty} ;
+  \draw [lien]      (sqnnra)   -- (satdhty) node [midway] (n) {} ;
+  \node [femme]     (ahms1)    [below=of n.south] 
+        {Ahmès} ;
+  \draw [lien]      (n.center) -- (ahms1) ;
+  \draw [lien]      (sqnnra)   -- (ahhtp1)  node [midway] (n) {} ;
+  \coordinate [shift={(0,-2.1)}] (m) at (n.south) ;
+  \node [homme,roi] (ahmosis)  [below=#1 of m.south] 
+        {Ahmosis} ;
+  \draw [lien]      (n.center) -- (m) -| (ahmosis) ;
+  \node [femme]     (nfrtari)  [right=#1 of ahmosis] 
+        {Ahmès-Néfertari} ;
+  \draw [lien]      (n.center) -- (m) -| (nfrtari) ;
+  \node [femme]     (inhapi)   [left=#1*0.8 of ahmosis] 
+        {Inhâpi} ;
+  \node [homme,roi] (kamosis)  [left=#1*0.8 of inhapi] 
+        {Kamosis} ;
+  \draw [lien]      (n.center) -- (m) -| (kamosis) ;
+  \node [homme]     (fils)     [right=#1*0.8 of nfrtari] 
+        {plusieurs Ahmès} ;
+  \draw [lien]      (n.center) -- (m) -| (fils) ;
+  \draw [lien]      (ahmosis)  -- (inhapi) ;
+  \draw [lien]      (ahmosis)  -- (nfrtari) node [midway] (n) {} ;
+  \coordinate [shift={(0,-0.6)}] (m) at (n.south) ;
+  \node [femme,shift={(3.6,0)}] (ahms2) [below=of n.south] 
+        {Ahmès} ;
+  \draw [lien]      (n.center) -- (m) -| (ahms2) ;
+  \node [homme,roi] (imnhtp1)  [below= of n.south] 
+        {Aménophis~I\ier} ;
+  \node [femme]     (ahhtp2)   [left=#1 of imnhtp1] 
+        {Ahhotep~II} ;
+  \draw [lien]      (n.center) -- (m) -| (imnhtp1) ;
+  \node [homme]     (sapair)   [left=#1 of ahhtp2] 
+        {Ahmès-Sapaïr\\\emph{\smaller(meurt enfant)}} ;
+  \draw [lien]      (n.center) -- (m) -| (sapair) ;
+  \draw [lien]      (imnhtp1)  -- (ahhtp2) node [midway] (n) {} ;
+  \node [homme]     (imnmhat)  [below=of n.south] 
+        {Amenemhat\\\emph{\smaller(meurt enfant)}} ;
+  \draw [lien]      (n.center) -- (imnmhat) ;
+  \node [homme,roi] (TI)       [right=#1 of ahms2] 
+        {Thoutmosis~I\ier} ;
+  \draw [lien]      (ahms2) -- (TI) ;
+  \node (n) [above=3 of TI] {} ;
+  \draw [lien]      (n.center) -- (TI) ;
+  \node [homme]     (h-snisnb) [left=#1*0.5 of n] 
+        {$\times$} ;
+  \node [femme]     (snisnb)   [right=#1*0.5 of n] 
+        {Séniséneb} ;
+  \draw [lien]      (snisnb)   -- (h-snisnb) ;
+  % Frontières
+  \draw [thick, dashed, DarkGreen] 
+        (-6.00,-5.50) -- (-3.00,-5.50) -- 
+        (-3.00,-3.70) -- ( 6.00,-3.70) -- 
+        ( 6.00, 0.50) ;
+  % Légendes
+  \node [DarkGreen] (XVII)  at (-4.00, 0.00) {\dyn{xvii}} ;
+  \node [DarkGreen] (XVIII) at (10.00, 0.00) {\dyn{xviii}} ;
+
+}
+
+% .. Généalogie de la XVIIIe dynastie, suite ..
+% =============================================
+\newcommand{\geneaXVIIIb}[1][0.65]{%
+  \node [homme]     (h-snisnb)                          {$\times$} ;
+  \node [femme]     (snisnb)   [right=#1 of h-snisnb]   {Séniséneb} ;
+  \draw [lien]      (snisnb)   -- (h-snisnb) node [midway] (n) {} ;
+  \node [homme,roi] (TI)       [below=of n.south] 
+        {Thoutmosis~I\ier} ;
+  \draw [lien]      (n.center) -- (TI) ;
+  \node [femme]     (ahms2)    [left=#1*2 of TI] 
+        {Ahmès} ;
+  \node [femme]     (mwtnfrt)  [right=#1*2 of TI] 
+        {Moutnéfret} ;
+  \draw [lien]      (ahms2)    -- (TI) node [midway] (n) {} ;
+  \coordinate [shift={(0,-0.6)}] (m) at (n.south) ;
+  \node [femme,shift={(0.3,0)}]       (nfrbity) 
+        [below=of n.south]       {Néfroubity} ;
+  \node [femme,roi,shift={(0.6,-1.2)}] (hat) 
+        [left=#1*0 of nfrbity] {Hatchepsout} ;
+  \draw [lien]      (n.center) -- (m) -| (nfrbity) ;
+  \draw [lien]      (n.center) -- (m) -| (hat) ;
+  \draw [lien]      (mwtnfrt)  -- (TI) node [midway] (n) {} ;
+  \coordinate [shift={(0,-0.6)}] (m) at (n.south) ;
+  \node [homme,shift={(-0.3,0)}]      (imnms) 
+        [below=of n.south]       {\dag~Amenmosé} ;
+  \node [homme]     (wdjms)    [right=#1 of imnms] 
+        {\dag~Ouadjmosé} ;
+  \node [homme,roi,shift={(-0.6,-1.2)}] (TII)      
+        [right=#1*0 of wdjms]  {Thoutmosis~II} ;
+  \draw [lien]      (n.center) -- (m) -| (wdjms) ;
+  \draw [lien]      (n.center) -- (m) -| (imnms) ;
+  \draw [lien]      (n.center) -- (m) -| (TII) ;
+  \node [femme]     (isis)     [right=#1 of TII] 
+        {Isis} ;
+  \draw [lien]      (TII)      -- (isis) node [midway] (n) {} ;
+  \node [homme,roi] (TIII)     [below=of n.south] 
+        {Thoutmosis~III} ;
+  \draw [lien]      (n.center) -- (TIII) ;
+  \draw [lien]      (hat)      -- (TII)  node [midway] (n) {} ;
+  \node [femme]     (nfrwre)   [below=of n.south] 
+        {Néférourê} ;
+  \draw [lien]      (n.center) -- (nfrwre) ;
+}
+
+% .. Généalogie de la XVIIIe dynastie, suite ..
+% =============================================
+\newcommand{\geneaXVIIIc}[1][0.65]{%
+  \node [homme,roi] (TII)                        {Thoutmosis~II} ;
+  \node [femme]     (isis)    [right=#1 of TII]  {Isis} ;
+  \draw [lien]      (TII)     -- (isis) node [midway] (n) {} ;
+  \node [homme,roi] (TIII)    [below=of n.south] {Thoutmosis~III} ;
+  \draw [lien]      (n.center) -- (TIII) ;
+  \node [femme]     (satiah)  [left=#1 of TIII]  {Satiâh} ;
+  \draw [lien]      (TIII)    -- (satiah) node [midway] (n) {} ;
+  \node [homme]     (imnmhat) [below=of n.south] {\dag~Amenemhat} ;
+  \draw [lien]      (n.center) -- (imnmhat) ;
+  \node [femme]     (mrytra)  [right=#1 of TIII] {Mérytrê-Hatchepsout~I} ;
+  \draw [lien]      (TIII)    -- (mrytra) node [midway] (n) {} ;
+  \node [homme,roi] (imnhtp) [below=of n.south] {Aménophis~II} ;
+  \draw [lien]      (n.center) -- (imnhtp) ;
+}
+
+% .. Fausse voûte ..
+% ==================
+\newcommand{\block}{(-3.00, 0.00) rectangle ++ ( 6.00, 1.00)}
+\newcommand{\voute}{%
+  \clip (-5.50, 0.00) -- (-5.50, 5.00) 
+      arc (180:0:5.5) -- ( 5.50, 0.00) --cycle ;
+
+  \draw [block, shift={(0,8)}] \block ;
+  \foreach \x/\y in {3.5/7.00, 4.50/6.00, 5.50/5.00, 5.50/4.00,
+                     5.50/3.00, 5.50/2.00, 5.50/1.00, 5.50/0.00} {%
+    \draw [block, shift={( \x,\y)}] \block ;
+    \draw [block, shift={(-\x,\y)}] \block ;
+  }
+}
+
+% .. Complexe de Redjedef ..
+% ==========================
+\newcommand{\redjedef}{%
+  % Enceinte
+  \draw (0,0) rectangle (3.5,5) ;
+  % Pyramide
+  \begin{scope}[shift={(0.50,0.50)}]
+    \filldraw [pyram, scale=2] \pyramide ;
+  \end{scope}
+  % Chaussée
+  \begin{scope}[shift={(2.80,3.00)}, double distance = 3.0]
+    \draw [double] ( 0.05,-0.05) -- (-0.70, 2.00) -- ( 0.50, 4.00) ;
+  \end{scope}
+  % Temple
+  \begin{scope}[temple, shift={(2.6,1.5)}]
+    \filldraw (0,0) rectangle (0.4,1.5) ;
+  \end{scope}
+}
+
+% .. Complexe de Djoser ..
+% ========================
+\newcommand{\PathE}{%
+        ( 0.00, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) 
+  -- ++ ( 2.00, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) -- cycle
+}
+\newcommand{\PathD}{%
+        ( 4.18, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.32, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) 
+  -- ++ ( 2.00, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) [rounded corners] 
+  -- ++ ( 0.32, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) -- cycle
+}
+\newcommand{\PathC}{%
+        (10.00, 0.00) [rounded corners] 
+  -- ++ ( 0.00, 0.60) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) 
+  -- ++ ( 2.10, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.30,-0.60) -- cycle
+}
+\newcommand{\PathB}{%
+        ( 4.50, 0.00) [rounded corners] 
+  -- ++ (.75/2, 0.75) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) 
+  -- ++ ( 6.45, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ (.75/2,-0.75) -- cycle
+}
+\newcommand{\PathA}{%
+        ( 5.00, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 1.00) [rounded corners=0] 
+  -- ++ ( 0.50, 0.00) 
+  -- ++ ( 5.00, 0.00) [rounded corners] 
+  -- ++ ( 0.50, 0.00) [rounded corners=0] 
+  -- ++ ( 0.50,-1.00) -- cycle
+}
+
+\newcommand{\djoser}{%
+  \tikzset{P5/.style = {fill=gray!50!blue!42}}
+  \tikzset{P4/.style = {fill=gray!50!blue!35}}
+  \tikzset{P3/.style = {fill=gray!50!blue!28}}
+  \tikzset{P2/.style = {fill=gray!50!blue!20}}
+  \tikzset{P1/.style = {fill=gray!50!blue!10}}
+  \tikzset{PP/.style = {pattern=bricks, pattern color=gray!75}}
+  % Projet 5 : pyramide à 6 degrés
+  \fill [P5] \PathE ;
+  \fill [PP] \PathE ;
+  \draw      \PathE ;
+  % Projet 4 : pyramide à 4 degrés
+  \fill [P4] \PathD ;
+  \fill [PP] \PathD ;
+  \draw      \PathD ;
+  % Projet 3 : agrandissement 2
+  \fill [P3] \PathC ;
+  \fill [PP] \PathC ;
+  \draw      \PathC ;
+  % Projet 2 : agrandissement 1
+  \fill [P2] \PathB ;
+  \fill [PP] \PathB ;
+  \draw      \PathB ;
+  % Projet 1 : mastaba
+  \fill [P1] \PathA ;
+  \fill [PP] \PathA ;
+  \draw      \PathA ;
+  % Sous-sol
+  \shade [shading=radial, top color=brown!75, bottom color=brown!25] 
+         (-1.00, 0.00) rectangle (15.00, -3.50) ;
+  % Infrastructure
+  \begin{scope}[fill=white]
+    \filldraw [rounded corners=0.5] 
+              ( 8.25, 0.00) -- ++ ( 0.15, 0.15) 
+        -- ++ ( 0.20, 0.00) -- ++ ( 0.15,-0.15) ;
+    \filldraw [rounded corners=2] 
+              ( 8.00,-2.00) rectangle ++ ( 1.00,-0.50) ;
+    \draw [fill=black]        
+              ( 8.41,-2.34) rectangle ++ ( 0.18, 0.18) ;
+    \draw [double distance=6] 
+              ( 8.50, 0.00)        -- ++ ( 0.00,-2.00) ;
+    \draw [double distance=4] 
+              ( 8.00,-2.25)        -- ++ (-2.50, 0.00) ;
+
+    \draw [double distance=4] 
+                (13.00, 0.00) -- ++ ( 0.00,-3.00) -- ++ (-3.50, 0.00) ;
+    \filldraw   ( 9.50,-2.34) rectangle ++ ( 1.00, 0.18) ;
+    \filldraw   ( 9.50,-2.34) rectangle ++ ( 1.00, 0.18) ;
+    \filldraw   (12.00,-2.34) rectangle ++ ( 0.50, 0.18) ;
+    \filldraw [double distance=4, thin, dashed] 
+                (10.55,-2.25) -- ++ ( 1.40, 0.00) ;
+    \fill       (10.55,-2.34) rectangle ++ ( 1.40, 0.18) ;
+  \end{scope}
+  % Sol
+  \draw [thick] (-1.25, 0.00) -- (15.25, 0.00) ;
+  % Légende
+  \foreach \p in {5, 4, 3, 2, 1} {%
+    \node [minimum width=3em, draw, thin, P\p] 
+          (P\p) at ( 0.00, 6.5-0.8*\p) {\scriptsize Projet \p} ;
+  }
+}
+
+% .. Sanctuaires de Haute et Basse-Egypte ..
+% ==========================================
+\newcommand{\sanctBE}{%
+  (-2.20, 0.00) -- (-2.20, 3.20) 
+  .. controls +(1/3,2/3) and +(-4/5,0)   .. ( 0.00, 4.00) 
+  .. controls +(4/5,0)   and +(-1/3,2/3) .. ( 2.20, 3.20) 
+  -- ( 2.20, 3.20) -- ( 2.20, 0.00) -- cycle
+}
+\newcommand{\sanctuaire}{%
+  \begin{scope}
+    % Murs
+    \fill [mur] (-2.20, 0.00) rectangle ( 2.20, 1.10) ;
+    \filldraw [thick, pattern=crosshatch dots, pattern color=gray] 
+              (-2.20, 0.00) rectangle ( 2.20, 1.10) ;
+    % Poteaux
+    \foreach \s in {1, -1} {%
+      \draw [poteau, xscale=\s]    (-2.50, 0.00) -- (-2.50, 3.80) 
+            [rounded corners]   -- (-2.20, 3.50) 
+            [rounded corners=0] -- (-2.20, 0.00) --cycle ;
+    }
+    \begin{scope}
+      \clip \sanctBE ;
+      \foreach \s in {-0.5, -1.4, 0.5, 1.4} {%
+        \filldraw [shift={(\s,0)}, poteau] 
+                  (-0.10, 0.00) rectangle ( 0.10, 4.00) ; 
+      }
+    \end{scope}
+    % Porte
+    \filldraw [porte] (-0.20, 0.00) -- (-0.20, 0.80) 
+                  arc (180:0:0.20)  -- ( 0.20, 0.00) -- cycle ;
+    % Sanctuaire
+    \draw [thick] \sanctBE ;
+    % Sol
+    \draw [sol] (-2.75, 0.00)        -- ( 2.75, 0.00) ;
+    % Légende
+    \node [below right] (b) at (-2.75, 4.50) {a)} ;
+  \end{scope}
+  \begin{scope}[shift={(6,0)}]
+    \coordinate (A) at (-1.80, 0.00) ; \coordinate (B) at (-1.50, 4.00) ;
+    \coordinate (C) at ( 1.50, 4.00) ; \coordinate (D) at ( 1.80, 0.00) ;
+    % Sanctuaire
+    \fill [fill=gray!50] (A) -- (B) -- (C) -- (D) ;
+    \filldraw [thick, pattern=bricks, pattern color=gray] 
+              (A) -- (B) -- (C) -- (D) ;
+    % Encadrement
+    \filldraw [thick, fill=gray!75] 
+              (-0.50, 0.00) -- (-0.40, 1.80) 
+           -- ( 0.40, 1.80) -- ( 0.50, 0.00) ;
+    % Porte
+    \filldraw [porte] (-0.20, 0.00) rectangle ( 0.20, 1.00) ;
+    % Gorge
+    \begin{scope}[shift={(0,4)}]
+      \shadedraw [thick, top color=gray!25, bottom color=gray!75] 
+            (-1.60, 0.00) arc (-60:60:0.29) -- ++ ( 3.20, 0.00) 
+            arc (120:240:0.29) -- cycle ;
+      \node (gorge) at ( 1.60, 0.25) {} ;
+    \end{scope}
+    % Sol
+    \draw [sol] (-2.05, 0.00) -- ( 2.05, 0.00) ;
+    % Légende
+    \node [below right] (a) at (-2.50, 4.50) {b)} ;
+  \end{scope}
+}
+
+% .. Temple haut type ..
+% ======================
+\newcommand{\templehaut}{%
+  \foreach \s in {1.40, 2.00} {%
+    \draw [shift={(\s,0.50)}] 
+          (0.0,0.0) -- ++ (0.0,1.0) arc (0:180:0.20) -- ++ (0.0,-1.0) ;
+  }
+  \begin{scope}[fill=white]
+    \coordinate (A) at (0.0,0.0) ; \coordinate (B) at (3.0,0.0) ;
+    \coordinate (C) at (2.5,1.0) ; \coordinate (D) at (0.5,1.0) ;
+
+    \filldraw (D) -- (A) -- (B) [rounded corners] -- (C) -- cycle ;
+    \draw ( 0.75, 0.00) rectangle ++ ( 0.25, 0.50) ;
+  \end{scope}
+}
+
+% .. Chicane ..
+% =============
+\newcommand{\chicane}{%
+  \fill       (-1.00, 0.00) -- ++ (-1.00, 0.00) -- ++ ( 0.00, 5.00) 
+        -- ++ ( 4.00, 0.00) -- ++ ( 0.00,-5.00) -- ++ (-2.50, 0.00) 
+        -- ++ ( 0.00, 0.50) -- ++ ( 2.00, 0.00) -- ++ ( 0.00, 2.50) 
+        -- ++ (-1.25, 0.00) -- ++ ( 0.00, 0.50) -- ++ ( 1.25, 0.00) 
+        -- ++ ( 0.00, 1.00) -- ++ (-3.00, 0.00) -- ++ ( 0.00,-1.00) 
+        -- ++ ( 1.25, 0.00) -- ++ ( 0.00,-0.50) -- ++ (-1.25, 0.00) 
+        -- ++ ( 0.00,-1.00) -- ++ ( 2.50, 0.00) -- ++ ( 0.00,-0.50) 
+        -- ++ (-2.50, 0.00) -- ++ ( 0.00,-1.00) -- ++ ( 0.50, 0.00) 
+        -- cycle ;
+
+  \fill [gray, draw=black] 
+              (-0.25, 3.65) -- ++ ( 0.00, 0.50) 
+        -- ++ (-0.65, 0.00) -- ++ ( 0.00,-0.50) -- cycle ;
+  \fill [gray, draw=black] 
+              ( 0.25, 3.65) -- ++ ( 0.00, 0.50) 
+        -- ++ ( 0.65, 0.00) -- ++ ( 0.00,-0.50) -- cycle ;
+
+  \fill [gray, draw=black] 
+              (-0.20, 3.70) -- ++ ( 0.00, 0.40) -- ++ ( 0.40, 0.00) 
+        -- ++ ( 0.00,-0.40) -- ++ (-0.17, 0.00) -- ++ ( 0.00,-0.05) 
+          arc (0:-180:0.03) -- ++ ( 0.00, 0.05) -- cycle ;
+}
+
+% .. Temple de Karnak ..
+% ======================
+\newcommand{\pylone}{%
+  \draw [pylone] (-0.25, 0.35) rectangle ++ ( 0.50, 1.55) ;
+  \draw [pylone] (-0.25,-0.35) rectangle ++ ( 0.50,-1.55) ;
+}
+\newcommand{\karnak}{%
+  \begin{scope}[fill=gray]
+    % Axe de symétrie
+    \draw [thick, gray, loosely dashdotted] 
+          (-8.50, 0.00) -- ( 9.50, 0.00) ; 
+    % Enceinte
+    \draw [enceinte] (-7.00,-2.00) -- ++ ( 15.00,0.00) 
+    -- ++ ( 0.00, 4.00) -- ++ (-15.00,0.00) ;
+    \draw [enceinte] ( 6.00, 2.00) -- ++ ( 0.00,-3.25) 
+       ++ ( 0.00,-0.50) -- ++ ( 0.00,-0.25) ;
+    \draw [enceinte] ( 5.75,-1.75) -- ++ ( 0.50, 0.00) ;
+    \draw [enceinte] ( 5.75,-1.25) -- ++ ( 0.50, 0.00) ;
+    % Sanctuaire
+    \draw ( 7.00, 0.50) rectangle ++ ( 0.70, 1.00) ;
+    \fill ( 7.20, 1.30) -- ++ ( 0.30, 0.00) 
+    -- ++ ( 0.00,-0.25) -- ++ (-0.30, 0.00) -- cycle ;
+  \end{scope}
+  % Pylones
+  \begin{scope}[pylone]
+    \foreach \a in {0.00, 1.50, -3.00, -6.75} {%
+      \filldraw [shift={(\a,0)}] 
+                (-0.25, 0.35) rectangle ++ ( 0.50, 1.55) ;
+      \filldraw [shift={(\a,0)}] 
+                (-0.25,-0.35) rectangle ++ ( 0.50,-1.55) ;
+    }
+    \filldraw ( 5.00, 0.25) rectangle ++ ( 0.90,-0.50) ;
+  \end{scope}
+  % Colonnes
+  \begin{scope}
+    \foreach \a in {0.75, 1.25, 1.75, 2.25} {%
+      \foreach \b in {0.60, 1.10, 1.60} {%
+        \fill [colonne] (-\a, \b) circle (0.1) ;
+        \fill [colonne] (-\a,-\b) circle (0.1) ;
+      }
+    }
+  \end{scope}
+  % Chemin
+  \begin{scope}[chemin]
+    \draw (-1.25, 0.00) -- ( 2.25, 0.00) -> ( 2.25,-1.00) ;
+    \draw ( 2.25,-1.00) -- ( 2.25,-1.50) -> ( 4.00,-1.50) ;
+    \draw ( 4.00,-1.50) -- ( 6.50,-1.50) -> ( 6.50,-0.50) ;
+    \draw ( 6.50,-0.50) -- ( 6.50, 0.00) -- 
+          ( 7.33, 0.00) -> ( 7.33, 0.95) ;
+  \end{scope}
+}
+
+% .. Complexe pyramidal type ..
+% =============================
+\newcommand{\cplxpyram}{%
+  % Enceintes
+  \begin{scope}[shift={(-1.5,-1.5)}]
+    \draw ( 0.00, 0.00) rectangle ( 6.00, 6.00) ;
+    \draw ( 0.00, 0.00) rectangle ( 1.00, 1.00) ;
+  \end{scope}
+  % Grande pyramide
+  \filldraw [temple] ( 1.00, 3.00) rectangle ++ ( 1.00, 0.50) 
+            node {chapelle nord};
+  \filldraw [pyram, scale=3] \pyramide ;
+  \filldraw [fill=white] (1.60, 1.60) -- (1.60, 3.00) 
+                         (1.40, 3.00) -- (1.40, 1.60) ;
+%  \filldraw (1.60, 1.60) -- (1.60, 3.00) ;
+%  \filldraw (1.40, 1.60) -- (1.40, 3.00) ;
+  % Pyramides de reines
+  \foreach \a in {-1, 1, 3} {%
+    \begin{scope}[shift={(\a,-3)}]
+      \draw (-0.10,-0.10) rectangle ++ ( 1.20, 1.20) ;
+      \draw [pyram] \pyramide ;
+    \end{scope}
+  }
+  \node at ( 1.50,-3.50) {Pyramides de reines} ;
+  % Pyramide satellite
+  \draw [pyram, shift={(-1.5,-1.5)}, scale=0.9] \pyramide ;
+  \node [right] at (-0.50,-1.20) {Pyramide satellite} ;
+  % Temple haut
+  \filldraw [temple, draw=black] 
+            ( 3.00, 0.75) rectangle ++ ( 3.00, 1.50) 
+            node [midway, text width=2cm, align=center] 
+            {Temple funéraire (ou \emph{temple haut})} ;
+  % Ville
+  \begin{scope}[shift={(8.5,-3.5)}, draw=black]
+    \draw ( 0.00, 0.00) rectangle ++ ( 5.75, 3.00) ;
+    \foreach \a in {0.50, 1.75, 3.00, 4.25} {%
+      \foreach \b in {0.50, 1.25, 2.00} {%
+        \mastaba{\a,\b}
+      }
+    }
+    \node at (5.75/2, 0.20) {Ville de pyramide} ;
+  \end{scope}
+  % Chaussée-tunnel et tunnel
+  \begin{scope}[shift={(6,1.25)}, draw=black, fill=white]
+    \draw ( 4.50,-1.75) -- ++ ( 0.00, 4.50) 
+          node (T) [very near end, left, text width=3cm, align=right]
+          {Passage souterrain d'accès à la ville} ;
+    \draw ( 5.00,-1.75) -- ++ ( 0.00, 4.50) ;
+    \fill [draw] ( 0.00, 0.00) rectangle ++ (10.5, 0.50) 
+          node (C) [midway] {\og Chaussée-tunnel \fg} ;
+  \end{scope}
+  % Cimetière
+  \begin{scope}[shift={(-0.25,7.75)}, draw=black]
+    \foreach \a in {0.00, 1.00, ..., 7.00} {%
+      \foreach \b in {0.00, 1.50} {%
+        \mastaba[-90]{\b,\a}
+      }
+    }
+    \node at ( 3.75, 0.30) 
+          {Cimetière des princes, dignitaires et courtisans} ;
+  \end{scope}
+  % Canal
+  \begin{scope}[shift={(16.5,0.5)}, draw=black, fill=white]
+    \shade [top color=white, bottom color=blue!30] 
+                     ( 1.00, 5.50) rectangle ( 2.50, 8.00) ;
+    \fill  [blue!30] ( 1.00,-2.00) rectangle ( 2.50, 5.50) ;
+    \shade [top color=blue!30, bottom color=white] 
+                     ( 1.00,-4.50) rectangle ( 2.50,-2.00) ;
+    \node (LegB) [left, text width=2.4cm, align=right] at ( 1.00, 7.00) 
+          {Canal \mbox{parallèle} au Nil} ;
+  \end{scope}
+  % Temple bas
+  \draw [temple] (16.50, 0.50) rectangle ++ ( 1.00, 2.00) ;
+  \node (LegB) [left, text width=2cm, align=right] at (17.00, 3.00) 
+        {Temple d'accueil (ou \emph{temple bas})} ;
+}
+
+% .. Mastaba Faraoun ..
+% =====================
+\newcommand{\faraoun}{%
+  \tikzset{front/.style = {draw=black, fill=red!10!gray!50, opacity=1.0}}
+  \tikzset{back/.style  = {draw=black, dashed}}
+
+  %      E_______F
+  %      /      /\G
+  %    D/_____C/ /
+  %    /_______\/
+  %   A        B
+  \begin{scope}
+    \coordinate (A) at (0.0, 0.0, 5.0) ; \coordinate (B) at (3.0 ,0.0, 5.0) ;
+    \coordinate (C) at (2.5, 1.0, 4.5) ; \coordinate (D) at (0.5 ,1.0, 4.5) ;
+    \coordinate (E) at (0.5, 1.0, 0.5) ; \coordinate (F) at (2.5 ,1.0, 0.5) ;
+    \coordinate (G) at (3.0 ,0.0, 0.0) ; \coordinate (H) at (0.0, 0.0, 0.0) ; 
+
+    \foreach \n in {A, B, C, D, E, F, G, H} {%
+      \node at (\n) {} ;
+    }
+
+    \draw [back]  (H) edge (E) edge (G) edge (A) ;
+    \fill [front] (A) -- (B) -- (C) -- (D) -- cycle ;
+    \fill [front] (G) -- (B) -- (C) -- (F) -- cycle ;
+    \fill [front] (C) -- (D) -- (E) -- (F) -- cycle ;
+  \end{scope}
+
+  %   E____F
+  %   /   /\
+  % D/___/C \G
+  %  \   \  /
+  %   \___\/
+  %   A    B
+  \begin{scope}[shift={(2.75,0,1.8)}]
+
+    \coordinate (A) at (0.25, 0.0, 1.4) ; \coordinate (B) at (0.75 ,0.0, 1.4) ;
+    \coordinate (C) at (0.50, 0.5, 1.4) ; \coordinate (D) at (0.00 ,0.5, 1.4) ;
+    \coordinate (E) at (0.00, 0.5, 0.0) ; \coordinate (F) at (0.50 ,0.5, 0.0) ;
+    \coordinate (G) at (0.75 ,0.0, 0.0) ; \coordinate (H) at (0.25, 0.0, 0.0) ; 
+
+    \foreach \n in {A, B, C, D, E, F, G, H} {%
+      \node at (\n) {} ;
+    }
+
+    \draw [back]  (H) edge (E) edge (G) edge (A) ;
+    \fill [front] (A) -- (B) -- (C) -- (D) -- cycle ;
+    \fill [front] (G) -- (B) -- (C) -- (F) -- cycle ;
+    \fill [front] (C) -- (D) -- (E) -- (F) -- cycle ;
+  \end{scope}
+
+  \begin{scope}[shift={(3.50,0,2.5)}]
+    \fill [gray!50] ( 0.00, 0.00,-0.35) -- ++ ( 2.00, 0.00, 0.00) 
+              -- ++ ( 0.00, 0.00, 0.70) -- ++ (-2.00, 0.00, 0.00) -- cycle ;
+    \draw           ( 0.00, 0.00,-0.35) -- ++ ( 2.00, 0.00, 0.00) 
+                 ++ ( 0.00, 0.00, 0.70) -- ++ (-2.00, 0.00, 0.00) ;
+  \end{scope}
+}
+
+% .. Qasr el-Sagha ..
+% ===================
+\newcommand{\quartier}[1][( 0.00, 0.00)]{%
+  \foreach \f in {1, -1}{%
+    \filldraw [shift={#1}, fill=gray!18] 
+              ( 1.00*\f, 0.00) rectangle ++ ( 5.00*\f, 5.00) ;
+    \draw [shift={#1}] ( 3.00*\f, 0.00) -- ++ ( 0.00,    5.00) ;
+    \foreach \x in {1, 2, 3, 4} {%
+      \draw [shift={#1}] ( 3.00*\f, \x) -- ++ ( 3.00*\f, 0.00) ;
+    }
+  }
+}
+
+\newcommand{\sagha}{%
+  % Maisons
+  \begin{scope}
+    \foreach \s in { 0, 5, ..., 20}{%
+      \quartier[( 0.00, \s)]
+    }
+  \end{scope}
+  \begin{scope}
+    \foreach \s in { 0, 5, ..., 20}{%
+      \quartier[(-12.00, \s)]
+    }
+  \end{scope}
+  \begin{scope}
+    \foreach \s in { 0, 5, ..., 20}{%
+      \quartier[(12.00, \s)]
+    }
+  \end{scope}
+  % Enceinte extérieure
+  \draw [shift={(-19.00, -1.00)}, line width=5] 
+        ( 0.00, 0.00) rectangle ++ (38.00, 27.00) ; 
+}
+
+% .. Vérin à sable ..
+% ===================
+\newcommand{\verin}[1]{%
+  % Styles
+  \tikzset{massif/.style = {fill=gray!5, opacity=0.5}}
+  \tikzset{cuve/.style   = {dotted, fill=yellow!10, opacity=0.75}}
+  \tikzset{bloc/.style   = {fill=red!75!black, opacity=0.75}}
+  \tikzset{trou/.style   = {fill=yellow!10, opacity=0.75}}
+
+  % Coordonnées
+  % .. Massif ..
+  %                    x     z     y
+  \coordinate (Ma) at ( 0.00, 0.00, 0.00) ;
+  \coordinate (Mb) at ( 5.00, 0.00, 0.00) ;
+  \coordinate (Mc) at ( 5.00, 0.00, 5.00) ;
+  \coordinate (Md) at ( 0.00, 0.00, 5.00) ;
+  \coordinate (Me) at ( 0.00, 4.00, 0.00) ;
+  \coordinate (Mf) at ( 5.00, 4.00, 0.00) ;
+  \coordinate (Mg) at ( 5.00, 4.00, 5.00) ;
+  \coordinate (Mh) at ( 0.00, 4.00, 5.00) ;
+  % .. Cuve ..
+  %                    x     z     y
+  \coordinate (Ca) at ( 1.00, 0.75, 1.00) ;
+  \coordinate (Cb) at ( 4.00, 0.75, 1.00) ;
+  \coordinate (Cc) at ( 4.00, 0.75, 4.00) ;
+  \coordinate (Cd) at ( 1.00, 0.75, 4.00) ;
+  \coordinate (Ce) at ( 1.00, 4.00, 1.00) ;
+  \coordinate (Cf) at ( 4.00, 4.00, 1.00) ;
+  \coordinate (Cg) at ( 4.00, 4.00, 4.00) ;
+  \coordinate (Ch) at ( 1.00, 4.00, 4.00) ;
+  % .. Bloc ..
+  %                    x     z     y
+  \coordinate (Ba) at ( 1.25, 4.00, 1.25) ;
+  \coordinate (Bb) at ( 3.75, 4.00, 1.25) ;
+  \coordinate (Bc) at ( 3.75, 4.00, 3.75) ;
+  \coordinate (Bd) at ( 1.25, 4.00, 3.75) ;
+  \coordinate (Be) at ( 1.25, 5.50, 1.25) ;
+  \coordinate (Bf) at ( 3.75, 5.50, 1.25) ;
+  \coordinate (Bg) at ( 3.75, 5.50, 3.75) ;
+  \coordinate (Bh) at ( 1.25, 5.50, 3.75) ;
+  \coordinate (Bi) at ( 1.25, 3.65, 1.25) ;
+  \coordinate (Bj) at ( 3.75, 3.65, 1.25) ;
+  \coordinate (Bk) at ( 3.75, 3.65, 3.75) ;
+  \coordinate (Bl) at ( 1.25, 3.65, 3.75) ;
+  % .. Trou ..
+  %                     x     z     y
+  \coordinate (Y)  at ( 1.75, 1.00, 5.00) ;
+  \coordinate (Yt) at ( {1.75-sin(45)*#1}, {1.00+sin(45)*#1}, 5.00) ;
+  \coordinate (Yb) at ( {1.75+sin(45)*#1}, {1.00-sin(45)*#1}, 5.00) ;
+  \coordinate (Z)  at ( 1.75, 1.00, 4.00) ;
+  \coordinate (Zt) at ( {1.75-sin(45)*#1}, {1.00+sin(45)*#1}, 4.00) ;
+  \coordinate (Zb) at ( {1.75+sin(45)*#1}, {1.00-sin(45)*#1}, 4.00) ;
+
+  % Dessin
+  % .. Arrière du massif ..
+  \draw     [massif, dashed] (Ma) edge (Mb) edge (Md) edge (Me) ;
+  % .. Bloc dans le sable ..
+  \filldraw [dashed, bloc] (Bi) -- (Bj) -- (Bk) -- (Bl) -- cycle ;
+  \filldraw [dashed, bloc] (Bc) -- (Bd) -- (Bl) -- (Bk) -- cycle ;
+  \filldraw [dashed, bloc] (Bb) -- (Bc) -- (Bk) -- (Bj) -- cycle ;
+  % .. Cuve ..
+  \filldraw [cuve] (Ce) -- (Cf) -- (Cg) -- (Ch) -- cycle ;
+  \filldraw [cuve] (Cc) -- (Cd) -- (Ch) -- (Cg) -- cycle ;
+  \filldraw [cuve] (Cb) -- (Cc) -- (Cg) -- (Cf) -- cycle ;
+  \draw     [cuve] (Ca) edge (Cb) edge (Cd) edge (Ce) ;
+  % .. Avant du massif ..
+  \filldraw [massif] (Me) -- (Mf) -- (Mg) -- (Mh) -- cycle ;
+  \filldraw [massif] (Mc) -- (Md) -- (Mh) -- (Mg) -- cycle ;
+  \filldraw [massif] (Mb) -- (Mc) -- (Mg) -- (Mf) -- cycle ;
+  % .. Bloc ..
+  \filldraw [bloc] (Be) -- (Bf) -- (Bg) -- (Bh) -- cycle ;
+  \filldraw [bloc] (Bc) -- (Bd) -- (Bh) -- (Bg) -- cycle ;
+  \filldraw [bloc] (Bb) -- (Bc) -- (Bg) -- (Bf) -- cycle ;
+  \draw     [bloc, dashed] (Ba) edge (Bb) edge (Bd) edge (Be) ;
+  % .. Trou ..
+  \draw [trou, dotted]        (Z)  circle (#1) ;
+  \draw [trou, dotted, thick] (Zt) --  ++ ( 0.00, 0.00, 1.00) ;
+  \draw [trou, dotted, thick] (Zb) --  ++ ( 0.00, 0.00, 1.00) ;
+  \fill [trou, dotted]        (Zt) -- (Yt) -- (Yb) -- (Zb) -- cycle ;
+  \draw [trou]                (Y)  circle (#1) ;
+
+  % Légendes
+  \node at (-3.00, 4.00) 
+        [text width=2cm, align=flush right] {Bloc posé sur le sable} ;
+  \node at (-4.00, 2.00) 
+        [text width=2cm, align=flush right] {Massif plein} ;
+  \node at (-4.00, 0.00) 
+        [text width=1.5cm, align=flush right] {Cuve remplie de sable} ;
+}
+
+
+% .. Dahchour ..
+% ===================
+% \definecolor{desert}{RGB}{255,238,170}
+% \definecolor{culture}{RGB}{90,160,44}
+\newcommand{\dahchour}{%
+  % Styles
+  \tikzset{desert/.style  = {Dandelion!50}}
+  \tikzset{culture/.style = {YellowGreen, rounded corners=0}}
+
+  \begin{scope}[desert]
+    \filldraw  ( 0.00, 18.52) rectangle ( 14.40, 0.00) ;
+  \end{scope}
+
+  \begin{scope}[culture]
+    \filldraw ( 12.20,  0.00) .. controls ( 12.20,  0.00) and (12.20,  0.04) ..
+              ( 12.24,  0.04) .. controls ( 12.64,  0.04) and (12.60,  0.03) ..
+              ( 12.60,  0.12) .. controls ( 12.60,  0.24) and (12.40,  0.75) ..
+              ( 12.32,  0.84) .. controls ( 12.04,  1.20) and (12.20,  1.40) ..
+              ( 12.16,  1.44) .. controls ( 11.70,  1.90) and (12.28,  2.40) ..
+              ( 12.32,  2.56) .. controls ( 12.37,  2.76) and (12.16,  2.56) ..
+              ( 12.24,  2.76) .. controls ( 12.32,  2.96) and (12.28,  3.28) ..
+              ( 12.28,  3.28) .. controls ( 12.28,  3.28) and (12.52,  3.32) ..
+              ( 12.44,  3.68) .. controls ( 12.39,  3.92) and (12.16,  4.96) ..
+              ( 12.16,  4.96) .. controls ( 12.16,  4.96) and (12.08,  6.64) ..
+              ( 12.12,  7.04) .. controls ( 12.16,  7.44) and (11.96,  7.80) ..
+              ( 11.92,  8.32) .. controls ( 11.88,  8.84) and (12.28,  8.96) ..
+              ( 12.24,  9.36) .. controls ( 12.19,  9.88) and (11.91, 10.20) ..
+              ( 11.96, 10.44) .. controls ( 12.20, 11.56) and (11.88, 12.04) ..
+              ( 12.32, 12.08) .. controls ( 12.41, 12.09) and (12.80, 13.08) ..
+              ( 12.76, 13.12) .. controls ( 12.53, 13.35) and (12.52, 13.48) ..
+              ( 12.56, 13.80) .. controls ( 12.56, 13.84) and (12.56, 13.80) ..
+              ( 12.56, 13.80) .. controls ( 12.56, 13.80) and (12.04, 14.20) ..
+              ( 12.32, 14.64) .. controls ( 12.39, 14.75) and (12.21, 15.70) ..
+              ( 12.40, 15.76) .. controls ( 12.80, 15.88) and (12.72, 16.12) ..
+              ( 12.72, 16.12) .. controls ( 12.72, 16.12) and (12.61, 18.14) ..
+              ( 12.60, 18.24) .. controls ( 12.59, 18.34) and (12.40, 18.48) ..
+              ( 12.40, 18.48) -- 
+              ( 14.40, 18.48) -- 
+              ( 14.40,  0.00) -- 
+              cycle ;
+  \end{scope}
+
+  \begin{scope}[shift={(1.54,12.22)}]
+    \draw [pyram, thin, scale=1.08] \pyramide 
+          node [right] {Rouge} ;
+  \end{scope}
+  \begin{scope}[shift={(9.82,10.42)}]
+    \draw [DarkRed, scale=0.36] \pyramide 
+          node [below left=0 and -0.5] {\uline{Amenemhat~II}} ;
+  \end{scope}
+  \begin{scope}[shift={(10.94,17.54)}]
+    \draw [pyram, thin, scale=0.44] \pyramide 
+          node [below left=0 and -0.5] {Sésostris~III} ;
+  \end{scope}
+  \begin{scope}[shift={(3.10,2.34)}]
+    \draw [pyram, thin, scale=0.92] \pyramide 
+          node [below] {Rhomboïdale} ;
+  \end{scope}
+  \begin{scope}[shift={(9.94,2.98)}]
+    \draw [pyram, thin, scale=0.68] \pyramide 
+          node [above left=0.3 and -0.5] {Amenemhat~III} ;
+  \end{scope}
+}
+
+% .. Pyramide d'Amenemhat Ier ..
+% ==============================
+\newcommand{\pyramameny}{%
+  % Descenderie
+  \draw [shift={(1.50,1.50)}, double, double distance=3]
+        ( 0.00, 0.13) rectangle ( 0.00, 1.25) ;
+  % Caveau
+  \draw [shift={(1.50,1.50)}] 
+        (-0.20,-0.13) rectangle ( 0.20, 0.13) ;
+  % Pyramide
+  \draw [pyram, shift={(0.25,0.25)}, scale=2.5] \pyramide ;
+  % Enceinte intérieure
+  \draw ( 0.00, 0.00) rectangle ( 3.00, 3.00) ;
+  % Enceinte extérieure 
+  \draw [shift={(-1.50,-1.00)}] 
+        ( 0.00, 0.00) rectangle ( 7.00, 5.00) ;
+  % Route
+  \draw [double, double distance=5] 
+        ( 4.50, 1.50) -- ++ ( 3.00, 0.00) ;
+  % Temple
+  \draw [shift={(3.00,1.00)}] 
+        ( 0.00, 0.00) rectangle ( 1.50, 1.00) ;
+  % Tombe ?
+  \draw [shift={(-0.60,-0.50)}] 
+        ( 0.00, 0.00) rectangle ( 0.35, 0.60) ;
+  % Tombes
+  \foreach \y in {0.25, 0.50, ..., 2.75}{%
+    \foreach \x in {-0.25, -0.50}{%
+      \draw [shift={(\x,\y)}] 
+            (-0.07,-0.07) rectangle ( 0.07, 0.07) ;
+    }
+  }
+}
+
+% .. Société d'ordres ..
+% ======================
+\newcommand{\socordres}{%
+  \draw ( 0.00, 0.00) -- ++ ( 300:4.00) -- ++ ( 180:4.00) -- cycle ;
+  \draw ( 0.00, 0.00) ( 300:0.40) -- ++ ( 180:0.40) ;
+  \draw ( 0.00, 0.00) ( 300:2.00) -- ++ ( 180:2.00) ;
+
+  \draw (-2.50, 0.15) node [above right] {archives}
+        rectangle (-2.10, -0.45) ;
+
+  \draw [->, >=latex, very thick, blue]
+        (-2.30, 0.00) --    (-0.50, 0.00) ;
+  \draw [<-, >=latex, very thick, blue]
+        (-2.30,-0.30) --    (-0.50,-0.30) ;
+  \draw [->, >=latex, very thick, blue]
+        ( 0.80,-0.80) -- ++ ( 300:2.00) ;
+  \draw [<-, >=latex, very thick, blue]
+        (-0.80,-0.80) -- ++ ( 240:2.00) ;
+
+  \draw [<-] let \p{R} = ( 0.00,-0.20) in
+        (\p{R}) -- ( 2.00, \y{R})
+        node [right, text width=2.5cm, align=left] {Roi} ;
+  \draw [<-] let \p{A} = ( 0.00,-1.00) in
+        (\p{A}) -- ( 2.00, \y{A})
+        node [right, text width=2.5cm, align=left]
+             {administrateurs (scribes)} ;
+  \draw [<-] let \p{P} = ( 0.00,-2.80) in
+        (\p{P}) -- ( 2.00, \y{P})
+        node [right, text width=2.5cm, align=left] {producteurs} ;
+}
+
+
+% .. Sociétés humaine et divine ..
+% ================================
+\newcommand{\sochumdiv}{%
+  \begin{scope}
+    \draw ( 0.00, 0.00)
+          -- ++ (  0:2)
+          -- ++ (120:2) node [above, text width=2.5cm, align=center] 
+                             {roi}
+    -- cycle ;
+
+    \node at ( 0.00, 3.00) {\uline{En-deçà}} ;
+    \node at ( 1.00, 0.00) [below, text width=2.5cm, align=center]
+                           {Société humaine} ;
+  \end{scope}
+
+  \draw [dashed] ( 3.50, -1.00) -- ( 3.50, 3.50) ;
+
+  \begin{scope}[shift={(5,0)}]
+    \draw ( 0.00, 0.00)
+          -- ++ (  0:2)
+          -- ++ (120:2) node [above, text width=2.5cm, align=center]
+                             {roi des dieux}
+    -- cycle ;
+
+    \node at ( 0.00, 3.00) {\uline{Au-delà}} ;
+    \node at ( 1.00, 0.00) [below, text width=2.5cm, align=center]
+                           {Société divine} ;
+  \end{scope}
+}
+
+
+% .. Trinité ..
+% =============
+\newcommand{\trinite}{%
+  \draw ( 0.00, 0.00) node [left,  text width=2.0cm, align=right]
+                           {Rê\\\emph{= apparence}}
+        -- ++ (  0:2) node [right, text width=2.0cm, align=left]
+                           {Ptah\\\emph{= substance}}
+        -- ++ (120:2) node [above, text width=2.0cm, align=center]
+                           {Amon\\\emph{= nom}}
+  -- cycle ;
+}
+
+
+% .. DPI ..
+% =========
+\newcommand{\SchemaDPI}{%
+  \tikzset{DPI/.style = {fill=blue!10, opacity=0.9}}
+  \tikzset{NE/.style  = {fill=green!10, opacity=0.9}}
+  \tikzset{dyn/.style = {pos=0.5, text width=50, align=center, 
+                         opacity=1}}
+  \draw ( 0.00, 15.00) -- ( 0.00, 18.00) ;
+  \foreach \i\t in {15.40/1540, 15.50/1550, 16.50/1650, 
+                    17.00/1700, 17.81/1781} {%
+    \node at ( 0.00, \i) [left] {\smaller\t} ;
+    \draw [dotted, thick] ( 0.00, \i) -- ++ ( 3.40, 0.00) ;
+  }
+  \fill [DPI] ( 0.01, 16.51) rectangle ( 0.99, 17.80)
+       node [dyn] {\bsc{xiii}\ieme{}\\{\smaller\kmt puis \HE}} ;
+  \fill [DPI] ( 0.01, 15.51) rectangle ( 0.99, 16.49) 
+       node [dyn] {\bsc{xvii}\ieme{}\\{\smaller\HE puis \kmt}} ;
+  \fill [NE]  ( 0.01, 15.21) rectangle ( 0.99, 15.49) 
+       node [dyn] {\bsc{xviii}\ieme} ;
+  \fill [DPI] ( 1.01, 16.51) rectangle ( 1.99, 17.19) 
+       node [dyn] {\bsc{xiv}\ieme{}\\{\smaller Delta oriental}} ;
+  \fill [DPI] ( 1.01, 15.41) rectangle ( 1.99, 16.49) 
+       node [dyn] {\bsc{xv}\ieme{}\\{\smaller \og Hyksos \fg Delta}} ;
+  \fill [DPI] ( 2.01, 15.51) rectangle ( 2.99, 16.49) 
+       node [dyn] {\bsc{xvi}\ieme{}\\{\smaller \og Hyksos \fg Delta}} ;
+  \fill [DPI] ( 3.10, 15.51) rectangle ( 3.40, 17.80) 
+       node [dyn] {DPI} ;
+  \fill [NE]  ( 3.10, 15.21) rectangle ( 3.40, 15.49) 
+       node [dyn] {NE} ;
+}
