@@ -1,0 +1,36 @@
+{
+  "folders":
+  [
+    {
+      "file_exclude_patterns":
+      [
+        "*.aux",
+        "*.bak",
+        "*.bbl",
+        "*.blg",
+        "*.dic",
+        "*.lof",
+        "*.lot",
+        "*.maf",
+        "*.mtc",
+        "*.mtc0",
+        "*.out",
+        "*.pdf",
+        "*.toc",
+        "*_tmp.tex",
+        "*_full.htx",
+        "*.*~"
+      ],
+      "path": "../Kheops/Grandet",
+      "name": "Sources"
+    },
+    {
+      "path": "../img/Grandet",
+      "name": "Images"
+    },
+    {
+      "path": "../utils",
+      "name": "Utilitaires"
+    }
+  ]
+}
