@@ -1,0 +1,199 @@
+\documentclass[a4paper,twoside,10pt,openany,article,draft]{memoir}
+%\usepackage{float}
+%\usepackage[framemethod=tikz]{mdframed}
+%\usetikzlibrary{calc,patterns,arrows,positioning,shadows,decorations.text}
+%\usepackage{fourier}
+\usepackage{multicol}
+\usepackage{nefertiyi}
+\usepackage[format=hang,labelsep=endash,font=sf,labelfont={bf,sc}]{caption}
+\usepackage{neferhiero}
+
+\addto\captionsfrancais{%
+   \renewcommand\chaptername{Devoir}%
+}
+
+%% .. Memoir caption definitions ..
+%%    => does't work with babel...
+%\captiondelim{\quad}
+%\captionnamefont{\bfseries\sffamily}
+%\captiontitlefont{\sffamily}
+%\hangcaption
+
+% TOC settings without chapter
+%\cftsetindents{subsection}{\cftsectionindent}{\cftsectionnumwidth}
+%\cftsetindents{section}{\cftchapterindent}{\cftchapternumwidth}
+%\cftsetindents{subsection}{\cftsectionindent}{3.2em}
+%\cftsetindents{section}{\cftchapterindent}{2.4em}
+\cftsetindents{section}{\cftsectionindent}{1.5em}
+\cftsetindents{chapter}{\cftchapterindent}{2.5em}
+
+% .. Change dimensions a bit ..
+\addtolength{\hoffset}{2cm}
+\addtolength{\textwidth}{-4cm}
+\addtolength{\voffset}{2cm}
+\addtolength{\textheight}{-2cm}
+%\isopage[12]
+
+\frenchbsetup{ReduceListSpacing=false,CompactItemize=false}
+
+%\maxtocdepth{subsection}
+%\maxsecnumdepth{subsection}
+%\counterwithout{figure}{chapter}
+%\counterwithout{figure}{chapter}
+%\counterwithout{section}{chapter}
+%\counterwithout{subsection}{section}
+%\counterwithin{subsection}{section}
+%\chapterstyle{article}
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+%\newcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesection}{\arabic{section}}
+
+% \newcommand{\DiImg}{../img//}
+\graphicspath{{../../../images/Naufrage/}}
+
+
+
+\title{\textbf{Le conte du naufragé}}
+\author{NeferTiyi}
+\date{\today}
+
+\makeatletter
+  \makepagestyle{ruled}
+  \makeevenhead{ruled}{\normalfont\itshape\@title}{}{\normalfont\itshape\leftmark}
+  \makeoddhead{ruled}{\normalfont\itshape\rightmark}{}{\normalfont\itshape\@author}
+  \makeevenfoot{ruled}{}{\thepage}{}
+  \makeoddfoot{ruled}{}{\thepage}{}
+  \makeheadrule{ruled}{\textwidth}{\normalrulethickness}
+%  \makefootrule{ruled}{\textwidth}{\normalrulethickness}{1pt}
+\makeatother
+
+\makepsmarks{ruled}{%
+  \nouppercaseheads
+  \createmark{chapter}{both}{shownumber}{}{.\ }
+  \createplainmark{toc}{both}{\contentsname}
+  \createplainmark{lof}{both}{\listfigurename}
+  \createplainmark{lot}{both}{\listtablename}
+  \createplainmark{bib}{both}{\bibname}
+  \createplainmark{index}{both}{\indexname}
+  \createplainmark{glossary}{both}{\glossaryname}
+}
+
+\pagestyle{ruled}
+
+
+\newlength{\drop}% for my convenience
+\makeatletter
+  % Redefine title page
+  \def\maketitle{%
+    \drop = 0.1\textheight
+    \vfill%
+    \hbox{%
+      \hspace*{0.2\textwidth}%
+      \rule{1pt}{\textheight}
+      \hspace*{0.05\textwidth}%
+      \parbox[b]{0.75\textwidth}{
+        \vbox{%
+          \vspace{\drop}
+          {\noindent\HUGE\bfseries \@title}\\[3\baselineskip]
+          {\huge\itshape \@author}\\[7\baselineskip]
+%          {\Large Cours de \textsf{l'Institut Khéops} par\\[0.5\baselineskip] 
+%                  \@lecturer}\par
+          \vspace{0.5\textheight}
+%          {\noindent \@author}\\[\baselineskip]
+          {\Large\noindent \@date}%\\[\baselineskip]
+        }% end of vbox
+      }% end of parbox
+    }% end of hbox
+    \vfill%
+  }
+
+  \newif\iffelinenonum
+  \makechapterstyle{daleif3}{
+    \renewcommand\chapternamenum{}
+    \renewcommand\printchaptername{}
+    \renewcommand\chapnamefont{\large\itshape\centering} 
+    \setlength\midchapskip{7pt}
+    \setlength\afterchapskip{\baselineskip}
+    \renewcommand\printchapternum{%
+      \par\chapnamefont\decofourleft\enspace%
+      \ifanappendix
+        \appendixname\space\thechapter%
+      \else%
+        \chaptername\space\thechapter%
+      \fi%
+      \/\enspace\decofourright}
+    \renewcommand\printchapternonum{\par\felinenonumtrue}
+    \renewcommand\chaptitlefont{\huge\bfseries\itshape\centering}
+    \renewcommand\afterchapternum{%
+      \par\nobreak\vskip5pt%
+    }
+    \renewcommand\afterchaptertitle{%
+      \par\vskip-2\midchapskip%
+      \rule\textwidth\normalrulethickness
+      \felinenonumfalse
+      \nobreak\vskip\afterchapskip%
+    }
+  }
+
+\makeatother
+
+\chapterstyle{daleif3}
+
+
+%\floatstyle{plain}
+%\newfloat{photo}{!h}{lop}
+%\floatname{photo}{Photo}
+
+%\renewcommand\rem[1]{\textnormal{\itshape #1}}
+
+\renewcommand\DJ[2]{\cite{DJ}, Vol.#1/#2}
+\newcommand\EG[2]{\cite{EG}, #1.\,Band, p.#2}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\input{Naufrage_00}
+
+\mainmatter
+\input{Naufrage_01}
+\input{Naufrage_02}
+\input{Naufrage_03}
+\input{Naufrage_04}
+\input{Naufrage_05}
+\input{Naufrage_06}
+\input{Naufrage_07}
+\input{Naufrage_08}
+\input{Naufrage_09}
+\input{Naufrage_10}
+\input{Naufrage_11}
+\input{Naufrage_12}
+\input{Naufrage_13}
+\input{Naufrage_14}
+\input{Naufrage_15}
+\input{Naufrage_16}
+
+\backmatter
+\listoffigures
+\clearpage
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+\section{Texte}
+ 
+\footnotetext{\cite{Faulkner} n. \og praise (to god) \fg}
+
+\newpage
+\vspace*{0pt}
+
+\nocite{*}
+\bibliographystyle{apalike-fr}
+\bibliography{../utils/biblio}

@@ -1,0 +1,147 @@
+%##HieroDef.txt
+
+\chapter{Lignes 111 à 123}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage10}
+  \caption{Lignes 111 à 123}
+  \label{fig:img10}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{111}] le scribe, voulant écrire \tl[black]{m snD.(w), 
+        m snD.(w)}, n'a écrit que \tl[black]{m snD.(w), m}, s'avisant, 
+        après avoir écrit le second \tl[black]{m} (qu'il a omis 
+        d'effacer), qu'il pouvait employer \tl[black]{sp-sn} au lieu 
+        de répéter \tl[black]{m snD.(w)}
+  \item [\lgn{112}] \tl[black]{m A(y)t(w) Hr=k}, vétitif du verbe 
+        \tl[black]{A(y)t} \vl{3}, \emph{pâlir} ; pour la construction 
+        avec un pseudo-complément d'objet, cf.~\S~~25.2,~b
+  \item [\lgn{114}] \tl[black]{jw pn n(y) k3}, \emph{cette île fantôme} 
+        (\litt \emph{cette île d'apparence})
+  \item [\lgn{116}] \tl[black]{mH}, \vl{2}, \emph{emplir}, 
+        +\,\tl[black]{Xr}, \emph{de} ; \tl[black]{nfr.t}, \emph{biens}, 
+        \emph{produits}, \emph{bonnes choses}
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{111}+s Dd'-i-n:f n:\!A1
+  \end{hieroglyph}
+
+  \tl{\lgn{111} Dd\col jn=f n=j :}
+
+  \tg{forme narrative \tl[Gramm]{wnm\col jn=f} introduisant un 
+      discours direct}
+
+  \td{Alors, il me dit : }%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    m G54-A2 m zp:y +l\lgn{112}+s nDs-A1 m A-t-\!w-A24 Hr*1:k'
+  \end{hieroglyph}
+
+  \tl{\og m snD(w) {m} sp-2 \lgn{112} nDs} \ex\ 
+  \tl{m A(y)tw Hr=k} \ex
+
+  \tg{séquence d'impératifs vétitifs}
+
+  \td{\og n'aie pas peur (bis), petit ! Ne palis pas !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{113}+s p-H-F22-n:k' w-A1
+  \end{hieroglyph}
+
+  \tl{\lgn{113} pH\col n=k wj}
+
+  \tg{accompli agentiel}
+
+  \td{Tu m'as atteint.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    m-a:k' nTr-1 r:a-n:f +l\lgn{114}+s anx-n:x-k'
+    ini-n:f t-\!w r iw:N23*1 p:n n:kA*1
+  \end{hieroglyph}
+
+  \tl{mk, nTr rd\col n=f \lgn{114} anx=k / jn\col n=f tw r jw pn 
+      n(y) kA}
+
+  \tg{accompli agentiel de verbe opérateur + CO au prospectif 
+      complétif / accompli agentiel}
+
+  \td{Vois, le dieu a permis que tu vives ! Il t'a amené sur cette 
+      île fantôme (\litt d'apparence).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{115}+s nn n:t*t nn s-t m-Xn:n-nw-\!w-pr:f
+    +l\lgn{116}+s i-w-f mH:Y1 Xr:r nfr-f:r:t-Y1:3 nb:t
+  \end{hieroglyph}
+
+  \tl{\lgn{115} nn (\zero wn=w) nty nn s.t m-Xnw pr=f / 
+      \lgn{116} jw=f mH(=w) Xr nfr.t nb.t}
+
+  \tg{négation existentielle + syntagme relatif en \tl[Gramm]{nty} + 
+      négation de PPA sans LV / accompli non agentiel}
+
+  \td{Il n'y a rien qui ne s'y trouve pas, elle est emplie de toutes 
+      sortes de bonnes choses.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{117}+s m-a:k' t-\!w r ir:t Abd:\!dwA-d:ra*1 Hr-1 
+    +l\lgn{118}+s Abd:\!dwA-d:ra*1 r:km-m-t:Y1-k' 
+    Abd:\!dwA-d:ra-1*1*1*1 +l\lgn{119}+s m-Xn:n-nw-\!w-pr:n 
+    iw:N23*1 p:n
+  \end{hieroglyph}
+
+  \tl{\lgn{117} mk, tw r jr.t Abd Hr \lgn{118} Abd r km.t=k 4 Abd 
+      \lgn{119} m-Xnw n(y) jw pn} \ex
+
+  \tg{allatif exclamatif / circonstancielle temporelle avec forme 
+      \tl[Gramm]{wnmt=f}}
+
+  \td{Vois, tu vas passer mois après mois jusqu'à ce que tu aies 
+      atteint quatre mois à l'intérieur de cette île !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-w +l\lgn{120}+s d:p*t-P1 r ii-i-t:D54 m-Xn:n-nw-\!w-pr
+    +l\lgn{121}+s s-qd-d-w-A30-A1:3 i-m-s r:x:Y1-n:k'
+  \end{hieroglyph}
+
+  \tl{jw \lgn{120} dp.t r jj.t m Xnw \lgn{121} sod.w jm=s 
+      rx(w.w)\col n=k}
+
+  \tg{allatif, participe perfectif passif agentiel}
+
+  \td{Un navire va venir du pays, des marins que tu connais à son 
+      bord.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{122}+s Sm-m-D54:k' H-n:a-s-n:3 r-Xn:n-nw-\!w-pr
+    +l\lgn{123}+s m-t:Z6-k' m niwt:t*1-k'
+  \end{hieroglyph}
+
+  \tl{\lgn{122} Sm=k Hna=sn r Xnw / \lgn{123} mwt=k m njw.t=k} \ex
+
+  \tg{séquence de prospectifs}
+
+  \td{Tu rentreras au (\litt partiras vers) pays avec eux, 
+      tu mourras dans ta ville !}%
+\end{hierobox}

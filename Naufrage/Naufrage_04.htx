@@ -1,0 +1,104 @@
+%##HieroDef.txt
+
+\chapter{Lignes 32 à 39 \rem{(jusqu'à \tl[black]{jm})}}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage04}
+  \caption{Lignes 32 à 39}
+  \label{fig:img04}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{34-36}] \tl[black]{fAt TAw, jr=f wHm.yt}, 
+        circonstancielle temporelle en protase débutant par 
+        \tl[black]{wnmt=f} (\S~~38.2), et contenant une séquentielle 
+        à l'aoriste (\tl[black]{jr=f wHm.yt}) ; l'apodose est 
+        \tl[black]{nw.yt jm=f n(y).t 8~mH} ; \tl[black]{fAj} pour 
+        \emph{se lever} ; \tl[black]{TAw}, \emph{le vent} ; 
+        \tl[black]{wHmy.t}, \emph{redoublement} ; \tl[black]{nw.yt}, 
+        \emph{vague(s)}, \emph{lame(s)}
+  \item [\lgn{36}]    \tl[black]{xt}, dans le sens d'\emph{espar}, 
+        ou similaire 
+  \item [\lgn{36-37}] \tl[black]{HH} \vl{2} \emph{(?)}, \emph{briser 
+        la force de (quelque chose) (?)} +\,\tl[black]{n}, \emph{pour}, 
+        c'est-à-dire \emph{préserver (quelqu'un) de (quelque chose)}
+  \item [\lgn{38}]    noter la graphie \tl[black]{mwt} pour 
+        \tl[black]{mwt=t(j)}, le \tl[black]{t} final de \tl[black]{mwt} 
+        et le \tl[black]{t} de la désinence se confondant dans la 
+        prononciation
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    D:\!\!\!a\s2  -TAw pr:r-D54 +l\lgn{33}+s i-w n:3 m M14-wr:r-N36
+    tp:1-a:1 +l\lgn{34}+s sAH:Y1 n:3 tA:N23*1
+  \end{hieroglyph}
+
+  \tl{DA pr(=w) \lgn{33} jw=n m WAD-wr tp-a \lgn{34} sAH=n tA}
+
+  \tg{accompli des intransitifs, PPA sans LV consécutive, 
+      circonstancielle temporelle au prospectif}
+
+  \td{Une tempête survint (alors que) nous étions en mer 
+  et avant que nous eussions touché terre.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    f-A-\!\!t:.-A9:\!\!a TAw-w +l\lgn{35}+s ir:f wHm-m-i-i-t-A2
+    n:U19-nw:W-i-i-t-mw +l\lgn{36}+s i-m f n:t mH:a 1:1-1:1-1:1-1:1
+  \end{hieroglyph}
+
+  \tl{fAt TAw, \lgn{35} jr=f wHm.yt / nw.yt \lgn{36} jm=f n(y).t 8~mH}
+
+  \tg{circonstancielle en protase avec forme \tl[Gramm]{wnmt=f} 
+      et aoriste séquentiel / apodose $=$ PPA sans LV}
+
+  \td{À peine le vent se fût-il levé en redoublant (\litt 
+      faisant un redoublement), qu'une lame de 8~coudées y apparut
+      (\litt fut dans lui).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-n xt:t*1 H-H +l\lgn{37}+s A25-A24 n:\!A1 s
+  \end{hieroglyph}
+
+  \tl{jn xt HH(w) \lgn{37} n=j s(.y)}
+
+  \tg{PPN argumentative, explicitation du sujet au participe 
+      perfectif actif}
+
+  \td{C'est un espar qui m'en préserva (\litt brisa sa force 
+      pour moi).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan d:p*t-P1 +l\lgn{38}+s m-t:Z6
+  \end{hieroglyph}
+
+  \tl{aHa\col n dp.t \lgn{38} mwt(=tj)}
+
+  \tg{accompli narratif des intransitifs}
+
+  \td{Alors, le navire périt.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    n:t-tyw-3 i-m-s n' :z:p*zp +l\lgn{39}+s wa:a-A1-1 i-m
+  \end{hieroglyph}
+
+  \tl{nty.w jm=s, n sp \lgn{39} wa s jm(=sn)}
+
+  \tg{thématisation sans \tl[Gramm]{jr}, négation de l'accompli}
+
+  \td{Quant à ceux qui s'y trouvaient, aucun d'entre eux 
+      ne survécut.}%
+\end{hierobox}

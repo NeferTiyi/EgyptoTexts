@@ -1,0 +1,166 @@
+%##HieroDef.txt
+
+\chapter{Lignes 124 à 132 \rem{(jusqu'à \tl[black]{wa.t})}}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage11}
+  \caption{Lignes 124 à 132}
+  \label{fig:img11}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{124}]     de la 1.~124 à la 1.~176, le texte est écrit 
+        horizontalement ; \tl[black]{rSw} \vi{3}, \emph{se réjouir}, 
+        \emph{devenir réjoui}
+  \item [\lgn{125}]     le serpent va raconter au naufragé, pour le 
+        réconforter, une fable morale analogue à celle que raconte au 
+        début du texte, dans le même but, le \tl[black]{Smsw jor} au 
+        \tl[black]{HAty-a} ; \tl[black]{mjt.t jry xpr(=w)}, cf.~1.~22
+  \item [\lgn{127}]     \tl[black]{km} \vl{2}, \emph{compléter}, 
+        \emph{atteindre le nombre de}
+  \item [\lgn{127-128}] \tl[black]{m sn-nw.w=j Hna msw.w=j}, rendre 
+        \tl[black]{m \dots{} Hna} par \emph{tant \dots{} que} 
+        (\litt \emph{en tant que \dots{} et})
+  \item [\lgn{128}]     \tl[black]{sxA} \vl{3}, \emph{mentionner}, 
+        +\,\tl[black]{n}, \emph{à}
+  \item [\lgn{129}]     \tl[black]{kt(y).t}, \emph{petite} ; 
+        \tl[black]{jnj}, dans le sens d'\emph{acquérir}, 
+        \emph{se procurer} ; \tl[black]{sSA}, \emph{prière} ; 
+        peut-être pour \tl[black]{SsA}, \emph{habileté}, \emph{ruse} ; 
+        la présence de la petite fille en question, seul être humain 
+        sur l'île, aurait ainsi résulté de l'utilisation, par le 
+        serpent, de ses pouvoirs magiques
+  \item [\lgn{130}]     \tl[black]{prj \dots{} m x.t}, 
+        \emph{s'embraser} (\litt \emph{sortir en flamme(s)}) ; 
+        \tl[black]{nA}, pour \emph{ceux-ci} (se réfère aux congénères 
+        du serpent précédemment mentionnés) ; \tl[black]{m-a}, 
+        \emph{à cause de} ; \tl[black]{xpr\col n}, emploi impersonnel 
+        de la forme nominale accomplie de \tl[black]{xpr}, \litt 
+        \emph{que c'est arrivé} ; \tl[black]{r=s}, probablement pour 
+        \tl[black]{r=s(n)}, \emph{à eux} (\litt \emph{contre eux}) ; 
+        \tl[black]{Hna} pour \tl[black]{Hna(=sn)}
+  \item [\lgn{131}]     \tl[black]{Am\col ny} pour 
+        \tl[black]{Am\col n=sn} (forme nominale) ; \tl[black]{Am} 
+        \vl{2}, \emph{brûler} ; \tl[black]{m(w)t}, dans le sens de 
+        \emph{mourir (de chagrin)}
+  \item [\lgn{132}]     \tl[black]{st}, var. du pronom dépendant 
+        \tl[black]{sn} se référant à une collectivité ; 
+        \tl[black]{X3y.t}, \emph{tas de cadavres}
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{124}+s r:S-D20-A2-wy s-Dd'-A2 d:p*t-ns-A2-n:f z:n-X5:D54 
+    x:t-Y1:3 Ab-m:r-G37 
+  \end{hieroglyph}
+
+  \tl{\lgn{124} \zero rS={w}y, sDd(w) dp(w).t\col n=f sn x.t mr}
+
+  \tg{}
+
+  \td{\saispas}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{125}+s s-Dd'-A2-A1 r:f n:k' mi-i-t*t:Y1 i-r:y xpr:\!r-w 
+    m iw:N23*1 p:n 
+  \end{hieroglyph}
+
+  \tl{\lgn{125} sDd=j (j)rf n=k mjt.t jr(y).y xprw=w m jw pn}
+
+  \tg{}
+
+  \td{Je vais te raconter une chose semblable qui est arrivé 
+      sur cette île.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{126}+s wn:n-A1 i-m-f H-n:a sn-n:nw-w-A1*B1:3-A1 
+    X:r:d-w-A17-A1*B1:3 +l\lgn{127}+s m q-A-b-F46 s-n:3
+  \end{hieroglyph}
+
+  \tl{\lgn{126} wn=j jm=f Hna sn-nw.w=j Xrd.w \lgn{127} m-qAb=sn}
+
+  \tg{}
+
+  \td{Je m'y trouvais avec mes semblables, des enfants au milieu 
+      d'eux.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    km-m-Y1:n-n:3 H-f-A-W:I15 10:10-10:10-10:10-10:1-1:1-1:1 m 
+    +l\lgn{128}+s ms-s-w-A1*B1:3-A1 H-n:a sn-n:nw-w-A1*B1:3-A1
+  \end{hieroglyph}
+
+  \tl{km\col n=n 75 HfA.w m \lgn{128} msw.w=j Hna sn-nw.w=j}
+
+  \tg{}
+
+  \td{Nous avions atteint le nombre de \num{75}~serpents, tant mes 
+      descendants que mes compagnons.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn s-x-xA-A-A2-A1 n:k'+l\lgn{129}+s zA-t:B1-k':t*t-G37-B1 
+    ini-n:t-n:\!A1 m z:M8-A-F5-Y1v
+  \end{hieroglyph}
+
+  \tl{nn sxA=j n=k \lgn{129} sA.t kt(y).t jn(w).t\col n=j m sSa}
+
+  \tg{}
+
+  \td{Je ne mentionnerai pas la petite fille que j'avais amenée par 
+      la prière.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan s-b-A-dwA:ra +l\lgn{130}+s h-A-W:D54 pr:r-D54:n 
+    n:A m-x:t-Q7 m-a:f
+  \end{hieroglyph}
+
+  \tl{aHa\col n sbA \lgn{130} hA=w / pr\col n nA m xt m-a=f}
+
+  \tg{}
+
+  \td{Alors une étoile est descendue et c'est à cause d'elle qu'ils 
+      se sont embrasés.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    xpr:\!r-n :r-s nn w-A1 H-n:a +l\lgn{131}+s A-m-Q7-n:y nn w-A1 m 
+    Hr:r ib-s-n:3
+  \end{hieroglyph}
+
+  \tl{xpr\col n r=s(n) nn wj Hna(=sn) \lgn{131} Am=ny nn wj 
+      m-Hr(y)-jb=sn}
+
+  \tg{}
+
+  \td{C'est sans moi avec eux que ça leur est arrivé et c'est sans 
+      moi en leur sein qu'ils ont brûlé !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan-A1 m-t:Z6-k':W-A1 n s-n:3 gm-m-n:\!A1 s-t m XA-A-i-i-t-Aa2:3
+    wa:\!a\s1:t\s1*1\s1
+  \end{hieroglyph}
+
+  \tl{aHa\col n=j m(w)t=kw n=sn / gm\col n=j s.t m XAy.t wa.t}
+
+  \tg{}
+
+  \td{Alors, je mourrus de chagrin pour eux. Je les découvris formant 
+      formant un unique tas de cadavres.}%
+\end{hierobox}

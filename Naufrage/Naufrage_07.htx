@@ -1,0 +1,147 @@
+%##HieroDef.txt
+
+\chapter{Lignes 67 à 76 \rem{(jusqu'à \tl[black]{wj})}}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage07}
+  \caption{Lignes 67 à 76}
+  \label{fig:img07}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{67}]    on attendrait \tl[black]{aHa\col n} plutôt que 
+        \tl[black]{jw} ; \tl[black]{wpj} \vi{3}, \emph{ouvrir}
+  \item [\lgn{69}]    \tl[black]{(j)n-m(j)}, etc., proposition 
+        argumentative à prédicat nominal interrogatif
+  \item [\lgn{70}]    \tl[black]{wdf} \vl{3}, tarder, 
+        +\,\tl[black]{m}, \emph{à}
+  \item [\lgn{72}]    \tl[black]{rd(w)=j}, prospectif ancien employé 
+        comme prospectif autonome ; \tl[black]{rx}, dans le sens de 
+        \emph{se retrouver} ; \tl[black]{ss}, \emph{cendre}
+  \item [\lgn{73-74}] \tl[black]{jw mdw=k}, erreur pour 
+        \tl[black]{jw mdw=f}
+  \item [\lgn{74}]    le signe de l'homme, après \tl[black]{sDm} est 
+        une erreur du scribe pour le déterminatif de l'homme portant 
+        la main à la bouche
+  \item [\lgn{75}]    \tl[black]{m-bAH=k}, erreur pour 
+        \tl[black]{m-bAH=f}
+  \item [\lgn{76}]    \tl[black]{xm} \vl{2}, \emph{devenir ignorant}, 
+        dans le sens de \emph{perdre connaissance}, \emph{s'évanouir} ; 
+        le signe de la négation est le déterminatif du verbe
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \lgn{67}\red{\begin{hieroglyph}
+    $r-i-w wp:p-Z9:n:f-$b
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    r*1:f r-A1 i-W A1 +l\lgn{68}+s Hr-1 X:t*1-A1 m-b-bA-A-H-D53:Y1-f
+  \end{hieroglyph}
+
+  \tl{\red{jw wp\col n=f} r(A)=f r=j / jw=j \lgn{68} Hr X.t=j m-bAH=f}
+
+  \tg{Accompli narratif agentiel / PPA sans LV séquentielle}
+
+  \td{Alors, il ouvrit sa gueule vers moi alors que j'étais sur 
+      mon ventre devant lui}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{69}+s Dd' f:n-A1
+  \end{hieroglyph}
+
+  \tl{\lgn{69} Dd=f n=j}
+
+  \tg{}
+
+  \td{Il me dit :}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    jnmj ini:\!n t-\!w zp:y nDs
+    +l\lgn{70}+s jnmj ini:\!n t-\!w
+  \end{hieroglyph}
+
+  \tl{\og (j)n-m(j) jn(w) tw sp-2, nDs / 
+      \lgn{70} (j)n-m(j) jn(w) tw ?}
+
+  \tg{PPN argumentative interrogative avec participe perfectif actif}
+
+  \td{Qui t'a amené (bis), petit, qui t'a amené ?}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-r w-d:f-pA'-D54 +l\lgn{71}+s k' m Dd' n-A1 ini:\!n t-\!w 
+    r iw:N23*1 p:n +l\lgn{72}+s r:a A1 r:x-Y1:k' t-\!w i-w-k' m z:z-Q7
+  \end{hieroglyph}
+
+  \tl{jr wdf(w)\lgn{71}=k m Dd n=j jn(w) tw r jw pn / 
+      \lgn{72} rd(w)=j rx=k tw jw=k m ss}
+
+  \tg{circonstancielle finale en protase au prospectif ancien, 
+      participe perfectif actif / apodose au prospectif ancien 
+      + CO au prospectif et PPA sans LV séquentielle}
+
+  \td{Si tu tardes à me révéler celui qui t'a amené sur cette île, 
+      je ferai que tu te retrouves en cendres.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{73}+s xpr-r:t m n:t*y n' U2:ir-A-t:f
+  \end{hieroglyph}
+
+  \tl{\lgn{73} xpr(w).t \zero, m nty n mA=t(w)=f \fg}
+
+  \tg{PPN sans \tl[Gramm]{pw}, avec participe perfectif actif / 
+      syntagme nominal en \tl[Gramm]{nty} + négation de l'accompli}
+
+  \td{C'est ce qu'il advient de celui que \uwave{l'on n'a jamais vu}.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-W md-d-+l\lgn{74}+s-w-A2 k':n-A1 nn w-A1 Hr-1 F21-m A1 
+    +l\lgn{75}+s s-t
+  \end{hieroglyph}
+
+  \tl{jw mdw\lgn{74}=<f> n=j / nn wj Hr : \og sDm=j \lgn{75} s.t \fg}
+
+  \tg{PPA sans LV / négation de PPA sans LV / discours direct au 
+      prospectif introduit par \tl[Gramm]{Hr} (§48.3)}
+
+  \td{Son discours m'était adressé, mais je ne l'entendais pas 
+      (\litt je n'étais pas sur : \og que j'entende cela ! \fg).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-w A1 m b-bA-A-H-D53:Y1-k'
+  \end{hieroglyph}
+
+  \tl{jw=j m-bAH=<f>}
+
+  \tg{PPA sans LV}
+
+  \td{j'étais devant lui}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{76}+s x-m-nn w-A1
+  \end{hieroglyph}
+
+  \tl{\lgn{76} xm\col n(=j) wj}
+
+  \tg{accompli agentiel}
+
+  \td{Je m'étais évanoui.}%
+\end{hierobox}

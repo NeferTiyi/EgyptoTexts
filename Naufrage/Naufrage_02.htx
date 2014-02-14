@@ -1,0 +1,126 @@
+%##HieroDef.txt
+
+\chapter{Lignes 12 à 21 \rem{(jusqu'à \tl[black]{Dd n=k})}}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage02}
+  \caption{Lignes 12 à 21}
+  \label{fig:img02}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{12-13}] corriger en \tl[black]{jnk Sw <m> HAw} ; 
+        \tl[black]{Sw} \vl{2}, \emph{devenir vide}, \emph{exempt}, 
+        +\,\tl[black]{m}, \emph{de}
+  \item [\lgn{13}]    \tl[black]{HAw}, \emph{surplus}, \emph{excès}, 
+        \emph{exagération} ; \tl[black]{jaj} \vi{3}, \emph{laver}
+  \item [\lgn{16}]    \tl[black]{jb=k m-a=k}, expression servant à 
+        exprimer la pleine maîtrise de soi-même
+  \item [\lgn{19}]    \tl[black]{TAm} \vl{3} \tl[black]{Hr n}, 
+        \emph{montrer de l'indulgence à (quelqu'un)}, \litt \emph{le 
+        visage se dévoile pour (quelqu'un)}
+  \item [\lgn{20}]    \tl[black]{Hr.t-jb}, \emph{humeur}, \emph{guise}, 
+        \litt \emph{condition du coeur}
+  \item [\lgn{20-21}] \tl[black]{swrd} \vcl{3}, \emph{fatiguer}, 
+        \emph{se fatiguer}
+\end{itemize}
+
+\newpage
+
+\section{traduction}
+
+\begin{hierobox}
+  \lgn{12}\red{\begin{hieroglyph}
+    $r-sDm-m r:k' n:\!A1-$b\end{hieroglyph}}
+  \begin{hieroglyph}
+    HAtya-A1 nw:k'-A1 Sw-W:\!G37 +l\lgn{13}+s HA-A-w-Y1:3
+  \end{hieroglyph}
+
+  \tl{\lgn{12} \red{sDm (j)r=k n=j} HAt(y)-a / 
+      jnk, Sw(w) <m> \lgn{13} HAw} \ex
+
+  \tg{impératif renforcé / PPN sans \tl[Gramm]{pw}, prédicat $=$ 
+      participe perfectif actif + pronom indépendant en thématisation}
+
+  \td{\'Ecoute moi donc, gouverneur, (car) je n'exagère pas 
+      (\litt je suis un qui est exempt d'exagération) !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-a-mw a:t*W i-im:m-a +l\lgn{14}+s mw Hr*1 D50-3:k'
+    i-x:Y1 w-S-\!b-A2-k'
+  \end{hieroglyph}
+
+  \tl{ja tw / jm \lgn{14} mw Hr Dba.w=k / jx wSb=k} \ex
+
+  \tg{impératif renforcé / impératifs / auxiliaire d'énonciation, 
+      prospectif consécutif}
+
+  \td{Lave-toi, mets de l'eau sur tes doigts, et tu répondras !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{15}+s w-Sd-d:t-A2-k'
+    md-d-w-A2 k':n +l\lgn{16}+s sw-t:n-G7 ib*1:k' m-a:k'
+  \end{hieroglyph}
+
+  \tl{\lgn{15}(m) wSd=t(w)=k / mdw=k n \lgn{16} n(y)-sw.t 
+      jb=k m-a=k} \ex
+
+  \tg{circonstancielle temporelle en protase au prospectif 
+      autonome / PPA argumentative avec sujet $=$ forme nominale 
+      prospective et prédicat $=$ PPA sans LV}
+
+  \td{Quand on \emph{($=$ le roi)} t'interrogera, c'est maître 
+      de toi-même (\litt ton c\oe ur en ton pouvoir) que tu 
+      parleras au roi !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    w-S-+l\lgn{17}+s-b-A2 k' nn:n-i-t-i-t-A2
+  \end{hieroglyph}
+
+  \tl{wS\lgn{17}b=k nn njtjt} \ex
+
+  \tg{PPA argumentative avec sujet $=$ forme nominale prospective 
+      et prédicat $=$ négation en \tl[Gramm]{nn}+infinitif}
+
+  \td{C'est sans baffouiller que tu répondras !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-w r*1:n z:\!A1\s2*1 +l\lgn{18}+s n:N42-m-a:f sw-w
+    i-w md-d-w-+l\lgn{19}+s-A2-f di':f TA-A-m-S28 n:f Hr-1
+  \end{hieroglyph}
+
+  \tl{jw r(A) n(y) s \lgn{18} nHm=f sw / 
+      jw mdw\lgn{19}=f d=f TAm n=f Hr}
+
+  \tg{aoriste / aoriste de verbe opérateur 
+      + CO au prospectif complétif}
+
+  \td{La parole d'un homme le sauve ; son éloquence fait se 
+      montrer indulgent envers lui (\litt que le visage se 
+      dévoile en sa faveur).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{20}+s ir:r:k' m x:r-t:Y1:3 ib*1:k'
+    s-wr-+l\lgn{21}+s-r:d-G37 p:W Dd' n:k'
+  \end{hieroglyph}
+
+  \tl{\lgn{20} jr (j)r=k m xr.t-jb=k / sw\lgn{21}rd pw Dd n=k}
+
+  \tg{impératif renforcé / PPN, avec prédicat et explicitation du 
+      sujet à l'infinitif}
+
+  \td{Agis donc à ta guise, car te parler c'est se fatiguer !}%
+\end{hierobox}

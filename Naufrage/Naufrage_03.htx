@@ -1,0 +1,121 @@
+%##HieroDef.txt
+
+\chapter{Lignes 21 à 32 \rem{(jusqu'à \tl[black]{xprt=f})}}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage03}
+  \caption{Lignes 21 à 32}
+  \label{fig:img03}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{21}]    \tl[black]{sDd} \vcl{2}, \emph{raconter}
+  \item [\lgn{22}]    \tl[black]{xpr} \vl{3}, \emph{arriver} 
+        +\,\tl[black]{m-a}, \emph{à (quelqu'un)} ; curieusement, 
+        bien que le verbe se rapporte à \tl[black]{mjt.t}, on a ici 
+        \tl[black]{xpr(=w)} au lieu de \tl[black]{xpr=tj}
+  \item [\lgn{24}]    \tl[black]{jty}, cf.~\S~~13.2
+  \item [\lgn{26-27}] \tl[black]{sxw}, \emph{largeur}
+  \item [\lgn{28}]    \tl[black]{stp}, \emph{choix}, \emph{élite} 
+        (var. \tl[black]{stpw}, l.~94)
+  \item [\lgn{28-29}] \tl[black]{mA=sn p.t, mA=sn tA}, protases avec 
+        ellipse de \tl[black]{m} devant \tl[black]{mA=sn}
+  \item [\lgn{29}]    \tl[black]{mak3} \vl{4}, \emph{devenir brave}
+  \item [\lgn{30}]    \tl[black]{mA(j)}, \emph{lion}
+  \item [\lgn{30-31}] \tl[black]{sr} \vl{2}, \emph{prédire}
+  \item [\lgn{31}]    \tl[black]{Da}, \emph{tempête} ; 
+        \tl[black]{n jjt}, comprendre \tl[black]{n jjt<=f>}
+  \item [\lgn{31-32}] \tl[black]{nSn.y}, \emph{orage}
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \red{\begin{hieroglyph}
+    s-Dd' A1 r:f
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    +l\lgn{22}+s n:k' mi-i-t*t:Y1 i-r:y xpr:r m-a-A1 
+    +l\lgn{23}+s D:\!\!\!z\s1-A1
+  \end{hieroglyph}
+
+  \tl{\red{sDd=j rf} \lgn{22} n=k mjt.t jr(y).y 
+      xpr(=w) m-a=j \lgn{23} Ds=j} \ex
+
+  \tg{prospectif autonome + particule enclitique / 
+      accompli des intransitifs}
+
+  \td{Je vais donc te raconter une chose semblable qui m'est 
+      arrivée (\litt arrivée à moi-même) !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Sm-m-D54:k'-w-A1 r b-i-+l\lgn{24}+s-id:Hw-xAst:n I3:I3-G7
+  \end{hieroglyph}
+
+  \tl{Sm=kw r bj\lgn{24}A(w) n jty}
+
+  \tg{accompli des intransitifs}
+
+  \td{Je suis parti vers le Sinaï pour le souverain.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    h-A+l\lgn{25}+s-D54:k'-w-A1 r M14-wr:r-N36 m d:p*t-P1 
+    +l\lgn{26}+s n:t mH:\!a 100-10:10 m Aw-W-s mH:\!a 
+    10:10-10:10 m s-x-+l\lgn{27}+s-w-iab-s s-qd-d-A30-A1 
+    100-10:10 i-m-s +l\lgn{28}+s m stp:Y1 n:km-m-t:niwt
+  \end{hieroglyph}
+
+  \tl{hA\lgn{25}=kw r WAD-wr m dp.t \lgn{26} n(y).t 120~mH 
+      m Aw=s, 40~mH m sx\lgn{27}w=s, 120~sod jm=s 
+      \lgn{28} m stp n(y) Km.t}
+
+  \tg{accompli des intransitifs / antéposition badale dans les 
+      mesures de longueurs et de quantité}
+
+  \td{je suis allé en mer dans un navire, de 120~coudées de long 
+      (\litt dans sa longueur), 40~coudées de large (\litt dans 
+      sa largeur), 120~marins à son bord (\litt en lui), de 
+      l'élite de l'\kmt.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+     U2:ir-A s-n:3 +l\lgn{29}+s p*t:pt U2:ir-A s-n:3 tA:N23*1
+    m-a:k'-A:a +l\lgn{30}+s ib:1 s-n:3 r U2:ir-A-w-F27:3
+  \end{hieroglyph}
+
+  \tl{(m) mA=sn \lgn{29} p.t, mA=sn tA / \zero makA(=w) 
+      \lgn{30} jb=sn r mA(j).w} \ex
+
+  \tg{circonstancielles temporelles en protase / apodose à 
+      l'accompli des verbes intransitifs exclamatifs}
+
+  \td{Lorsqu'ils voyaient le ciel, lorsqu'ils voyaient la terre, 
+      leurs c\oe urs étaient plus braves que (ceux de) lions !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \red{\begin{hieroglyph}
+    $r-z:r-+l\lgn{31}+s-E27-A2 s-n:3-$b
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    D:\!\!\!a\s2-TAw n' ii-i-t:D54 n:S-+l\lgn{32}+s-n:y-E20-A24 
+    n' xpr:r-t:f
+  \end{hieroglyph}
+
+  \tl{\red{sr\lgn{31}=sn} Da n jjt<=f>, 
+      nS\lgn{32}n.y n xprt=f} \ex
+
+  \tg{aoriste exclamatif avec sujet pronominal en ellipse / 
+      deux négations séquentielles en \tl[Gramm]{n wnmt=f}}
+
+  \td{Ils prédisaient une tempête avant qu'elle ne fût venue, 
+      un orage avant qu'il ne fût advenu !}%
+\end{hierobox}

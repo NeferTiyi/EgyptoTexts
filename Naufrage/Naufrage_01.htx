@@ -1,0 +1,173 @@
+%##HieroDef.txt
+
+\chapter{Lignes 1 à 11}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage01}
+  \caption{Lignes 1 à 11}
+  \label{fig:img01}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{01}]    \tl[black]{smsw}, \emph{suivant}, 
+        \emph{serviteur} ; \tl[black]{jor}, \emph{excellent} ; 
+        \tl[black]{wDA} \vl{3}, \emph{devenir intact}, 
+        \emph{se préserver}, \emph{se rasséréner}
+  \item [\lgn{02}]    la valeur de \tl[black]{mk} s'applique jusqu'à 
+        la l.~10
+  \item [\lgn{03}]    \tl[black]{Xnw}, \litt \emph{l'intérieur}, 
+        désigne généralement l'\kmt{} dans ce conte ; \tl[black]{Ssp} 
+        \vl{3}, \emph{saisir} ; \tl[black]{xrpw}, \emph{maillet}
+  \item [\lgn{04}]    \tl[black]{Hwj} \vi{3}, \emph{frapper} ; 
+        \tl[black]{mnj.t}, \emph{piquet d'amarrage} (l'objet représenté 
+        par l'avant-dernier déterminatif du mot) ; 
+        \tl[black]{HAt.t}, \emph{amarre de proue}
+  \item [\lgn{05}]    \tl[black]{Hknw}, \emph{action de grâce} ; 
+        \tl[black]{dwA} \vl{3}, \emph{adorer}
+  \item [\lgn{05-06}] ici et dans d'autres passages du conte, 
+        \tl[black]{nTr} est en antéposition honorifique dans 
+        l'expression \tl[black]{dwA nTr}
+  \item [\lgn{06}]    \tl[black]{Hpj} \vi{3}, \emph{embrasser}
+  \item [\lgn{07}]    \tl[black]{jsw.t}, \emph{équipe}, 
+        \emph{équipage} ; ignorer le second \tl[black]{t} ; 
+        \tl[black]{ad} \vl{2}, \emph{devenir sain (et sauf)}
+  \item [\lgn{08}]    \tl[black]{nhw}, \emph{perte} ; \tl[black]{mSa}, 
+        \emph{armée}, \emph{troupe}
+  \item [\lgn{09}]    \tl[black]{WAwA.t}, \emph{Ouaouat}, 
+        la Basse-Nubie ; \tl[black]{snj} \vi{3}, \emph{passer}, 
+        \emph{dépasser}
+  \item [\lgn{10}]    \tl[black]{\%nmw.t}, \emph{Senmout}, nom de l'île 
+        de Biggéh, en face de Phil\ae , au sud d'\'Eléphantine, 
+        marquant la frontière méridionale de l'\kmt{} ; 
+        \tl[black]{jj=(w)n} ; la désinence \tl[black]{=(w)n} a été 
+        ajoutée à gauche du déterminatif de \tl[black]{jj}
+  \item [\lgn{11}]    corriger probablement en \tl[black]{pH<\col n>=n}
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \red{\begin{hieroglyph}
+    +l\lgn{01}+s $r-Dd'-i-n Sms-w-A1-$b\end{hieroglyph}}
+  \begin{hieroglyph}i-q:r-Y1v\end{hieroglyph}
+
+  \tl{\lgn{01} \red{Dd~jn Smsw} jor :}
+
+  \tg{forme narrative \tl[Gramm]{wnm\col jn=f} introduisant un 
+      discours direct}
+
+  \td{Et, un suivant excellent dit : }%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    w-DA-A-Y1v+l\lgn{02}+s-ib*1:k' HAtya-A1
+  \end{hieroglyph}
+
+  \tl{\og wDA \lgn{02} jb=k, HAt(y)-a} \ex
+
+  \tg{prospectif autonome}
+
+  \td{\og Que ton c\oe ur se rassérène, gouverneur !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    m-a:k' pH:D54 n:n:3 +l\lgn{03}+s Xn:n-nw-\!w-pr
+  \end{hieroglyph}
+
+  \tl{mk, pH\col n=n \lgn{03} Xnw} \ex
+
+  \tg{auxiliaire d'énonciation, accompli agentiel}
+
+  \td{Vois, nous avons atteint le pays !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Ssp:p-a x:r-p*W:xt +l\lgn{04}+s H-A19-A24 mn:n-i-t-P11-xt 
+    HAt:t*t-W r:a:t +l\lgn{05}+s Hr-1 tA:N23*1
+  \end{hieroglyph}
+
+  \tl{\zero Ssp(=w) xrpw / \lgn{04} \zero Hw(=w) mnj.t / 
+      HAt.t rd=t(j) \lgn{05} Hr tA} \ex
+
+  \tg{séquence d'accomplis non agentiels}
+
+  \td{Le maillet a été saisi, le piquet d'amarrage a été frappé 
+      et l'amarre de proue a été posée à terre !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    r:a H-k':n-nw:W-A2 nTr-dwA-\!A+l\lgn{06}+s-A30-A2
+  \end{hieroglyph}
+
+  \tl{\zero rd(=w) Hknw, \zero dwA(=w) nTr} \ex
+
+  \tg{séquence d'accomplis des intransitifs}
+
+  \td{Les actions de grâce ont été faites, le dieu a été adoré !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    z:\!A1\s2*1 nb :Hr*1 H-p:t-D32:\!a sn-n:nw-w-A1-.*1*1*.:f
+  \end{hieroglyph}
+
+  \tl{\lgn{06} s nb Hr Hp.t sn-nw=f} \ex
+
+  \tg{progressif}
+
+  \td{Chaque homme embrasse son frère !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{07}+s-iz-w:t-A1-3:t-n:3 ii-i-t:D54 aD:d-t:Y1
+    nn +l\lgn{08}+s n:h-w-G37:n mSa-A1:3-n:3
+  \end{hieroglyph}
+
+  \tl{\lgn{07} jsw{t}.t=n jj=t(j) ad=t(j) / nn 
+      \lgn{08} (\zero wn=w) nhw n mSa=n} \ex
+
+  \tg{séquence d'accomplis des intransitifs / négation 
+      existentielle séquentielle}
+
+  \td{Notre équipage est revenu sain et sauf, sans perte 
+      pour notre troupe !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    pH:D54-n:n:3 +l\lgn{09}+s pH-wy wA-wA-t:xAst
+    z:n-X5:D54-n:n:3 +l\lgn{10}+s z:n-mwt-t:xAst
+  \end{hieroglyph}
+
+  \tl{pH\col n=n \lgn{09} pH.wy WAwA.t / 
+      sn\col n=n \lgn{10} \%nmw.t} \ex
+
+  \tg{séquence d'accomplis agentiels}
+
+  \td{Nous avons atteint la limite de Ouaouat, 
+      nous avons dépassé Senmout !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+     m-a:k' r:f n:3 ii-i-D54-n:3 +l\lgn{11}+s m Htp:t-p:Y1
+    tA:N23*1 n:3 pH:D54-n:3 sw-W
+  \end{hieroglyph}
+
+  \tl{mk rf, n jj=(w)n \lgn{11} m Htp / tA=n, pH<\col n>=n sw} \ex
+
+  \tg{auxiliaire d'énonciation + particule enclitique, 
+      accompli des intransitifs / accompli agentiel 
+      avec thématisation sans \tl[Gramm]{jr}}
+
+  \td{Vois donc, nous sommes revenus en paix, notre pays, 
+      nous l'avons atteint !}%
+\end{hierobox}

@@ -1,0 +1,3 @@
+# Ignore tex files except a fex ones
+*.tex
+!Naufrage_img.tex

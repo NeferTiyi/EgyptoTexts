@@ -1,0 +1,144 @@
+\chapter{Introduction}
+
+\paragraph{} Pour vous permettre d'appliquer vos connaissances 
+grammaticales, nous vous proposons l'étude intégrale d'un classique 
+de la littérature du \MK, le \emph{Conte du Naufragé}, écrit en 
+hiératique au recto du Papyrus Saint-Pétersbourg~1115, dont la 
+provenance est inconnue. Ce document, aujourd'hui conservé à Moscou, 
+mesure \SI{3.80}{\meter} de long sur une dizaine de centimètres de 
+hauteur environ. Il comprend \num{189}~lignes, écrites les unes 
+verticalement (1.~\num{1} à~\num{123} et~\num{177} à~\num{189}), les 
+autres horizontalement (1.~\num{124} à~\num{176}). L'emploi de l'encre 
+rouge sert à y souligner quelques-unes des divisions de la narration. 
+À titre d'exemple, voici une photographie de la partie du document 
+portant les lignes~\num{24} à~\num{37} (\fig{fig:img00}).
+
+\addtocounter{figure}{-1}
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage00}
+  \caption[Le papyrus Saint-Pétersbourg~\num{1115}, 
+           lignes~\num{24}-\num{37}]%
+          {Le papyrus Saint-Pétersbourg~\num{1115}, 
+           lignes~\num{24}-\num{37}. %\\ 
+           D'après W.~\bsc{Golénischef}, \emph{Les papyrus 
+           hiératiques~\nos\num{1115}, \num{1116}\,A et \num{1116}\,B 
+           de l'Ermitage impérial à Saint-Pétersbourg} 
+           [Saint-Pétersbourg, 1913], pl.~\num{8}.}
+  \label{fig:img00}
+\end{figure}
+
+\paragraph{} Pour une bonne traduction française, 
+cf.~G.~\bsc{Lefèbvre}, \emph{Romans et contes égyptiens de l'Époque 
+pharaonique}\footnote{Paris, 1976}, p.~29-40. Pour une transcription 
+hiéroglyphique, cf.~A.M.~\bsc{Blackman}, \emph{Middle-Egyptian 
+Stories}\footnote{\emph{Bibliotheca Aegyptiaca}~II, Bruxelles, 1972}, 
+p.~41-48. Celle que nous vous proposons ici est une nouvelle 
+transcription, réalisée par Dominique~\bsc{Farout} à partir de 
+l'original, en y respectant la disposition des lignes et des signes. 
+La taille de l'ensemble représente \SI{56}{\percent} de celle de 
+l'original. Les signes écrits en rouge sont longés à gauche par un 
+trait continu vertical dans les parties du texte qui sont écrites 
+verticalement ou soulignés dans celles qui sont écrites horizontalement.
+
+\paragraph{} Le texte, qui était sans doute, à l'origine, l'un 
+des éléments d'un recueil de contes, se donne pour un récit
+autobiographique, raconté par un \emph{\og suivant excellent \fg{}} 
+(\tl[black]{Smsw jor}) à un \emph{\og gouverneur \fg{}} 
+(\tl[black]{HAty-a}), inquiet, au retour d'une mission en Nubie, 
+d'avoir à comparaître devant le roi pour lui en rendre compte. Le 
+narrateur rapporte comment, s'étant trouvé naguère le seul rescapé 
+d'un naufrage en Mer Rouge et ayant été jeté sur une île déserte, 
+il y trouva de la nourriture et rencontra une divinité, ayant 
+l'apparence d'un gigantesque serpent, qui prit soin de lui, avant 
+d'être plus tard recueilli par un navire égyptien et de rentrer à 
+la cour, rapportant des produits précieux qui lui valurent des 
+récompenses du roi. Hormis la valeur morale qui lui sert de prétexte 
+(il s'agit de démontrer que, dans la pire des situations, il ne faut 
+jamais désespérer), son contenu apparaît comme l'un des ancêtres de 
+nombreux récits de fiction plus tardifs, tels certains passages de 
+\emph{L'Odyssée}, l'une des aventures de Sindbad le marin, dans 
+les \emph{Mille et une Nuits}, ou le \emph{Robinson Crusoé} de 
+Daniel~\bsc{Defoe}. 
+
+\paragraph{} Nous vous demanderons de translittérer et de traduire le 
+texte en 16~devoirs (à raison, en principe, d'un par semaine), que vous 
+nous retournerez pour correction, en respectant le découpage suivant :
+
+\begin{multicols}{2}
+  \begin{enumerate}
+    \item Lignes~1-11
+    \item Lignes~12-21 (jusqu'à \tl[black]{Dd n=k})
+    \item Lignes~21-32 (jusqu'à \tl[black]{xprt=f})
+    \item Lignes~32-39 (jusqu'à \tl[black]{jm})
+    \item Lignes~39-52 (jusqu'à \tl[black]{m-Xnw=f})
+    \item Lignes~52-66
+    \item Lignes~67-76 (jusqu'à \tl[black]{wj})
+    \item Lignes~76-88
+    \item Lignes~89-110
+    \item Lignes~111-123
+    \item Lignes~124-132 (jusqu'à \tl[black]{wa.t})
+    \item Lignes~132-142 (jusqu'à \tl[black]{=f})
+    \item Lignes~142-152
+    \item Lignes~153-165
+    \item Lignes~166-175
+    \item Lignes~176-189
+  \end{enumerate}
+\end{multicols}
+
+
+\paragraph{} Votre traduction ne doit évidemment pas être une simple 
+copie de celle de Lefèbvre, qu'il est aisé de se procurer, mais un 
+travail personnel, garantie de progrès. Vous présenterez votre 
+translittération en respectant le découpage en propositions, et en 
+l'accompagnant d'une analyse grammaticale consistant à nommer de 
+manière précise (mais succinte) les constructions et les formes 
+verbales rencontrées (par exemple : \og accompli \fg, \og aoriste \fg, 
+\og circonstancielle en protase \fg, \og progressif séquentiel \fg, 
+etc.). Nous vous suggérons de présenter de la manière suivante la 
+translittération, l'analyse et la traduction de chaque proposition :
+
+\begin{center}
+  \begin{minipage}{0.48\textwidth}
+    \tl[black]{Dd\col jn Smsw jqr}\\
+    {\smaller forme narrative \tl[black]{wnm\col jn=f}}\\
+    Et, un suivant excellent dit :
+
+    \bigskip
+    \tl[black]{\og wDA jb=k, HAty-a} \ex[black]\\
+    {\smaller prospectif autonome}\\
+    \og Que ton c\oe ur se rassérène, gouverneur !
+
+    \bigskip
+    \tl[black]{\og mk, \hspace{2cm} pH\col n=n Xnw} \ex[black]\\
+    {\smaller auxiliaire narratif \hspace{0.5cm} accompli agentiel}\\
+    \og Vois, nous avons atteint le pays !
+
+    \begin{flushright}
+      etc.
+    \end{flushright}
+  \end{minipage}
+\end{center}
+
+\paragraph{} Pour votre travail, la meilleure méthode consiste à 
+progresser par groupe de deux ou trois propositions, en recherchant 
+dans un premier temps le vocabulaire employé (et en évitant, à ce 
+stade, toute traduction hâtive), puis à procéder à l'analyse 
+grammaticale, en puisant dans les connaissances acquises, et à 
+établir une première traduction fondée sur cette analyse. Enfin, 
+après avoir revu l'ensemble du passage étudié pour tenir compte du 
+contexte et du cadre narratif, vous établirez la translittération 
+et la traduction définitives. En ce qui concerne la grammaire et 
+le vocabulaire, nous apporterons, sous forme de notes, quelques 
+éclaircissements aux principales difficultés et donnerons, de 
+manière succinte, la traduction des termes que vous ne connaissez 
+pas. Cependant, à ce stade de votre étude de la langue égyptienne, 
+nous vous recommandons vivement de commencer à employer soit le 
+dictionnaire égyptien-anglais de R.~O.~\bsc{Faulkner}, 
+\emph{\og A~Concise Dictionary of Middle Egyptian \fg{}}, Oxford, 1972, 
+soit celui, égyptien-allemand, de R.~\bsc{Hannig}, \emph{\og Grosses 
+Handworterbuch Agyptisch-Deutsch \fg{}}, Mayence, 1995.
+
+\begin{flushright}
+  Bon courage et\dots{} bon voyage!
+\end{flushright}

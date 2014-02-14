@@ -1,0 +1,173 @@
+%##HieroDef.txt
+
+\chapter{Lignes 166 à 175}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage15}
+  \caption{Lignes 166 à 175}
+  \label{fig:img15}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{166}] \tl[black]{Atp}, \emph{charger}, 
+        \emph{transborder}, +\,\tl[black]{r}, \emph{sur} ; 
+        \tl[black]{xpr\col n}, auxiliaire narratif, \emph{il arriva 
+        que} ; \tl[black]{rdt wj}, pour \tl[black]{rdt(=j) wj}
+  \item [\lgn{167}] \tl[black]{aHa\col n Dd\col n=f n=j} introduit 
+        ici une apodose
+  \item [\lgn{168}] \tl[black]{n(y) 2 Abd}, \emph{dans deux mois} ; 
+        \tl[black]{rnpj}, \emph{se régénérer}, \emph{(re)devenir 
+        vigoureux}, \litt \emph{(re)devenir jeune} \vi{4} ; 
+        \tl[black]{ors}, \emph{inhumer} \vl{3} ; après 
+        \tl[black]{ors=t(w)=k}, restituer peut-être \tl[black]{<jm=f>}
+  \item [\lgn{172}] dans \tl[black]{nty.w jm=s r mjt.t jry}, il y a 
+        ellipse de \tl[black]{rd\col n \dots{} Hknw} : 
+        \tl[black]{(rd\col n) nty.w jm=s (Hknw) r mjt.t jry}
+  \item [\lgn{175}] \tl[black]{jnw}, \emph{produits}, \emph{cadeaux} 
+        (apportés ou rapportés)
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \lgn{166}\red{\begin{hieroglyph}
+    $r-aHan A-t:p-A9-a:n-A1 s-t-$b
+  \end{hieroglyph}}%
+  \begin{hieroglyph}r d:p*t-P1 t:n\end{hieroglyph}
+
+  \tl{\lgn{166} \red{aHa\col n Atp\col n=j s.t} r dp.t tn}
+
+  \tg{}
+
+  \td{Alors, je transbordai cela sur ce navire.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    xpr-r:n-r:a-t-\!w-A1 Hr-1 X:t*1-A1 +l\lgn{167}+s r nTr-dwA-A-A30 
+    n:f aHan Dd'-n:f n:\!A1
+  \end{hieroglyph}
+
+  \tl{(m-xt) xpr\col n \zero rdt(=j) wj Hr X.t=j \lgn{167} r dwA n=f 
+      nTr aHa\col n Dd\col n=f n=j :}
+
+  \tg{}
+
+  \td{M'étant mis sur mon ventre pour le remercier, il me dit :}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    m-a:k' t:W r spr:r-D54:r-Xn:n-nw*W:pr +l\lgn{168}+s n:Abd-d:ra 
+    1-1 mH:Y1-k' q:n-i-D32-k' m X:r:d-w-Xrd-A1*B1:3-k'
+  \end{hieroglyph}
+
+  \tl{\og mk, tw r spr r Xnw \lgn{168} n(y) 2 Abd / mH=k ony=k m 
+      Xrd.w=k}
+
+  \tg{}
+
+  \td{\og Vois, tu vas atteindre le pays dans deux mois, tu 
+      étreindras tes enfants.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    r:n:p-i-i-rnp-k' +l\lgn{169}+s m-Xn:n-nw*W:pr q:r-s-t:Q6-a:k'
+  \end{hieroglyph}
+
+  \tl{rnpy=k \lgn{169} m Xnw / ors=t(w)=k (jm=f)}
+
+  \tg{}
+
+  \td{Tu te régénèreras au pays, tu y seras inhumé !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan h-A-D54:k'-w-A1 r U7:r-i-i-t:N23*1 +l\lgn{170}+s 
+    m-h-A-w-Y1:3 d:p*t-P1 t:n
+  \end{hieroglyph}
+
+  \tl{aHa\col n hA=kw r mry.t \lgn{170} m-hAw dp.t tn}
+
+  \tg{}
+
+  \td{Alors, je descendis sur le quai, près de ce navire.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan-A1 Hr-1 i-A-S-A2 n mSa-A1:3 +l\lgn{171}+s n:t*y m d:p*t-P1 t:n
+  \end{hieroglyph}
+
+  \tl{aHa\col n=j Hr jAS n mSa \lgn{171} nty m dp.t tn}
+
+  \tg{}
+
+  \td{Alors, je me mis à héler les soldats qui se trouvaient à bord 
+      de ce navire.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    r:a-n:\!A1 H-k':n-nw:W-A2 Hr-1 U7:r-i-i-t:N23*1 n:nb-G7 n iw:N23*1 
+    p:n +l\lgn{172}+s n:t-G4-A1:3 i-m-s r-mi-i-t*t:Y1 i-r:y
+  \end{hieroglyph}
+
+  \tl{rd\col n=j Hknw Hr mry.t n nb n(y) jw pn \lgn{172} (rd\col n) 
+      nty.w jm=s (Hknw) r mjt.t jry}
+
+  \tg{}
+
+  \td{Je rendis grâces sur la berge au maître de cette île. Ceux qui
+      étaient à bord (rendirent grâces) de la même façon.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \red{\begin{hieroglyph}$r-n:a-t-P1-p:W ir:n-$b\end{hieroglyph}}%
+  \begin{hieroglyph}
+    -n:3 m-x:d-P1 +l\lgn{173}+s r-Xn:n-nw-\!w-pr:n I3:I3-G7 
+    spr:r-D54:n-n:3-r-Xn:n-nw*W:pr +l\lgn{174}+s Hr-1 Abd:dwA-d:ra-1-1 
+    mi-i Dd'-t:n:f nb:t
+  \end{hieroglyph}
+
+  \tl{\red{na.t pw, jr(w)}\col n=n m xd \lgn{173} r Xnw n(y) jty / 
+      spr\col n=n r Xnw \lgn{174} Hr 2 Abd mj Dd(w).t\col n=f nb.t}
+
+  \tg{}
+
+  \td{Alors nous navigâmes en aval vers le pays du souverain. Nous
+      atteignîmes le pays en 2 mois conformément à tout ce qu'il 
+      avait dit.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan aq-q:D54-k'-w-A1 Hr-1 I3:I3-G7
+  \end{hieroglyph}
+
+  \tl{aHa\col n ao=kw Hr jty}
+
+  \tg{}
+
+  \td{Je suis entré chez le souverain}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{175}+s m:a-zb:D54-n:\!A1 -n:f ini-nw:3 p:n ini-n:n-A1 
+    m-Xn:n-nw*W:pr n iw:N23*1 p:n
+  \end{hieroglyph}
+
+  \tl{\lgn{175} m-a sb\col n=j n=f jnw pn jn(w)\col n=j m-Xnw n(y) 
+      jw pn}
+
+  \tg{}
+
+  \td{\saispas ces présents que j'ai rapportés de l'intérieur de 
+      cette île.}%
+\end{hierobox}

@@ -1,0 +1,190 @@
+%##HieroDef.txt
+
+\chapter{Lignes 142 à 152}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage13}
+  \caption{Lignes 142 à 152}
+  \label{fig:img13}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{142-143}] \tl[black]{sDd} pour \tl[black]{sDd<=>} ; 
+        \tl[black]{xpr}, \emph{arriver}, +\,\tl[black]{Hr}, \emph{à}
+  \item [\lgn{143}]     \tl[black]{m}, dans le sens de \emph{ainsi 
+        que} ; \tl[black]{mAA}, \emph{voir}, +\,\tl[black]{m}, 
+        \emph{de} ; \tl[black]{bAw=f}, erreur pour \tl[black]{bAw=k}
+  \item [\lgn{144}]     \tl[black]{Njw.t}, \emph{la Ville} par 
+        excellence, la capitale du pays (au Nouvel Empire, désignation 
+        de Thèbes) ; \tl[black]{onb.t tA r-Dr=f}, \emph{le conseil du 
+        pays entier}, c'est-à-dire \emph{le gouvernement} ; 
+        \tl[black]{sft}, anc. \tl[black]{sfT} \vl{3}, 
+        \emph{sacrifier}, \emph{abattre}
+  \item [\lgn{145}]     lire \tl[black]{wSn=j n=k} ; \tl[black]{wSn} 
+        \vl{3}, \emph{sacrifier}, \litt \emph{tordre le cou}
+  \item [\lgn{146}]     \tl[black]{Haw}, \emph{bateau}
+  \item [\lgn{146-147}] \tl[black]{Atp}, \emph{charger}, 
+        +\,\tl[black]{Xr}, \emph{de}
+  \item [\lgn{147}]     noter que le déterminatif de \tl[black]{Km.t} 
+        est écrit comme le mot \tl[black]{njw.t}
+  \item [\lgn{148}]     \tl[black]{wA}, \emph{éloigné}, \emph{lointain}
+  \item [\lgn{149}]     \tl[black]{sbt} (anc. \tl[black]{sbT}) 
+        \vl{3}, \emph{rire}, + \tl[black]{m}, \emph{de} ; 
+        \tl[black]{nf}, \emph{(quelque chose d') insensé}
+  \item [\lgn{150}]     lire \tl[black]{(j)n wr n=k}, etc. ; 
+        \tl[black]{antyw}, \emph{myrrhe} ; lire \tl[black]{xpr=t(j) 
+        <m> nb}, etc. (avec \tl[black]{jn} non répété et 
+        \tl[black]{jw=k} sous-entendu)
+  \item [\lgn{151}]     \tl[black]{Pwn.t}, \emph{Pount} (nom d'un 
+        pays riverain de la Mer rouge, dans l'actuel Soudan, où les 
+        Égyptiens allaient chercher l'encens et la myrrhe) ; lire 
+        \tl[black]{antyw, n=j-jm(y) sw}
+  \item [\lgn{152}]     \tl[black]{Dd}, ici dans le sens de 
+        \emph{parler de} ; \tl[black]{bw}, chose, dans le contexte, 
+        \emph{produit} ; \tl[black]{wr}, \emph{principal}
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    s-Dd'-A2 r:f xpr-r:t-Y1:3 +l\lgn{143}+s Hr-1-A1 m U2:ir-A-t:3:n-A1 
+    m G30-Y1:f
+  \end{hieroglyph}
+
+  \tl{sDd(=j) (j)rf xpr(w).t \lgn{143} Hr=j m mA(w).t\col n=j m bAw=k}
+
+  \tg{}
+
+  \td{Je raconterai ce qui m'est arrivé ainsi que ce que j'ai vu de 
+      ta puissance.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nTr dwA-A-A30 t-\!w n:k' +l\lgn{144}+s m niwt:t*1 x*t:f Hr-1 
+    q:n-b-t:O38-A1:3 tA:N23*1 r-Dr:r-f
+  \end{hieroglyph}
+
+  \tl{dwA=tw n=k nTr \lgn{144} m Njw.t xft-Hr onb.T-tA r-Dr=f}
+
+  \tg{}
+
+  \td{Tu seras remercié devant le gouvernement (\litt le conseil du 
+      pays tout entier).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \red{\begin{hieroglyph}
+    $r-z:f-t:T30-A24-A1-$b
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    +l\lgn{145}+s n:k' D52-E1-1:3 m zb-G37:n-Z9:t-Q7
+  \end{hieroglyph}
+
+  \tl{\red{sft=j} \lgn{145} n=k kA.w m sb-n(y)-sD.t}
+
+  \tg{}
+
+  \td{Je sacrifierai pour toi des taureaux, par l'holocauste.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    w-S:n-H1:\!a-n:\!A1 n:k' +l\lgn{146}+s A-p:d-w-pA':\!3
+  \end{hieroglyph}
+
+  \tl{wSn=j n=k \lgn{146} Apd.w}
+
+  \tg{}
+
+  \td{Je sacrifierai pour toi des oiseaux.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    a:A1 ini-n:t n:k' H-a-w-P1:3 A-t:p-w-A2-A24 
+    +l\lgn{147}+s Xr:r Sps-s-s-Y1v nb:n km-m-\!\!t:.-niwt:t*1
+  \end{hieroglyph}
+
+  \tl{d=j jn(t)=t(w) n=k Haw Atp=w \lgn{147} Xr Spssw nb n(y) Km.t}
+
+  \tg{}
+
+  \td{Je ferai qu'on t'amène des bateaux chargés de toutes sortes de 
+      biens précieux d'\kmt.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    mi-i ir:r-t:n nTr-1 U7:r:r-A2 +l\lgn{148}+s r:T-A1*B1:3 m tA:N23*1 
+    wA-A-N31 n' r:x:Y1 sw-W r:T-A1*B1:3
+  \end{hieroglyph}
+
+  \tl{mj \uwave{jrr t n nTr mrr \lgn{148} rmT m Ta wA n rx sw rmT}}
+
+  \tg{}
+
+  \td{\saispas}%
+\end{hierobox}
+
+\begin{hierobox}
+  \lgn{149}\red{\begin{hieroglyph}
+    $r-aHan s-b-t:F18-A2-n:f i-m-A1 m M22-M22 Dd'-n:\!A1 -$b
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    m n:f-G37 m ib*1:f 
+  \end{hieroglyph}
+
+  \tl{\lgn{149} \uwave{\red{aHa\col n sbt\col n=f jm=j m nn Dd\col n=j} 
+      m nf m jb=f}}
+
+  \tg{}
+
+  \td{\saispas}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{150}+s Dd'-f:n-A1 n'-wr:r n:k' a:n-G4-W23:3 xpr-r:t nb 
+    nTr-sn-n:t:r-M6-N33:3
+  \end{hieroglyph}
+
+  \tl{\lgn{150} Dd=f n=j \uwave{(j)n wr n=k antyw xpr=t(j) (m) 
+      nb snTr}}
+
+  \tg{}
+
+  \td{\saispas}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{151}+s nw:k'-A1 i-s HqA-q-A-G7 p-wn:n-t:N25 a:n-G4-W23:3 
+    n:\!A1 i-m sw-W 
+  \end{hieroglyph}
+
+  \tl{\lgn{151} jnk js \zero HoA Pwn.t antyw, n=j-jm(y) sw}
+
+  \tg{}
+
+  \td{\'Etant le souverain de Pount, la myrrhe, elle m'appartient.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{152}+s H-k':n-nw:W-N33:3 p:f Dd'-n:k' ini-n:t:f b-w p:W 
+    wr:r-n iw:N23*1 p:n 
+  \end{hieroglyph}
+
+  \tl{\lgn{152} Hknw pf Dd(w)\col n=k jn(t)=t(w)=f bw pw, wr n(y) 
+      jw pn}
+
+  \tg{}
+
+  \td{Cette huile \emph{hékénou} dont tu dis qu'on m'en apportera, 
+      c'est le produit principal de cette île.}%
+\end{hierobox}

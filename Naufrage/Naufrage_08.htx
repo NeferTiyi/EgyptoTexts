@@ -1,0 +1,164 @@
+%##HieroDef.txt
+
+\chapter{Lignes 76 à 88}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage08}
+  \caption{Lignes 76 à 88}
+  \label{fig:img08}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{76}]    \tl[black]{aHa\col n rd=f}, erreur pour 
+        \tl[black]{aHa\col n rd<\col n>=f}
+  \item [\lgn{77}]    \tl[black]{jt=f} pour \tl[black]{jt<\col n>=f}
+  \item [\lgn{78}]    \tl[black]{snDm} \vcl{3}, \emph{s'asseoir}, 
+        \emph{résider}
+  \item [\lgn{78-79}] \tl[black]{wAH=f} pour \tl[black]{wAH<\col n>=f}
+  \item [\lgn{79}]    \tl[black]{dmj}, dans le sens de \emph{faire du 
+        mal} (traité ici comme un verbe \emph{3-inf})
+  \item [\lgn{80}]    \tl[black]{jtj} \vi{3}, \emph{prendre}, 
+        +\,\tl[black]{m}, \emph{de} (quelqu'un), avec un complément 
+        d'objet \emph{\og quelque chose \fg} sous-entendu, dans le 
+        sens de \emph{mutiler} quelqu'un
+  \item [\lgn{85}]    \tl[black]{gs}, \emph{côté}, \emph{bord} ; 
+        \tl[black]{gs=fy}, pour \tl[black]{gs=f}
+  \item [\lgn{85-86}] \tl[black]{nwy}, \emph{eau}, \emph{flot}
+  \item [\lgn{87}]    \tl[black]{xAm} \vl{3}, \emph{courber}, 
+        \emph{fléchir} (les bras), dans la posture traditionnelle, 
+        selon l'\kmt{} ancienne, de la personne s'adressant à un 
+        supérieur ou à un dieu ; cf. ci-contre le déterminatif usuel 
+        de \tl[black]{dwA}, \emph{adorer}
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan r:a:f w-A1 +l\lgn{77}+s m r*1:f
+  \end{hieroglyph}
+
+  \tl{aHa<\col n> rn(\col n)=f wj \lgn{77} m r(A)=f}
+
+  \tg{accompli narratif agentiel}
+
+  \td{Alors, il me plaça dans sa gueule}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    iTi:t-A24-f w-A1 r st-t*pr:f +l\lgn{78}+s n:t s-nDm-m-Xrd 
+  \end{hieroglyph}
+
+  \tl{jt(\col n)=f wj r s.t=f \lgn{78} n(y).t snDm}
+
+  \tg{accompli agentiel}
+
+  \td{Il m'amena dans son lieu de résidence (\litt résider)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    wA-A-H-wAH-+l\lgn{79}+s-A24-f w-A1 nn d-mi-i-t:a-A1
+  \end{hieroglyph}
+
+  \tl{wAH\lgn{79}<\col n>=f wj nn dmj.t=j}
+
+  \tg{accompli agentiel / négation séquentielle en 
+      \tl[Gramm]{nn}+infinitif}
+
+  \td{Il me déposa sans me faire de mal.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    w-DA-+l\lgn{80}+s-A-Y1:k'-w-A1 nn iTi:t*t-A24 i-m-A1
+  \end{hieroglyph}
+
+  \tl{wAH\lgn{80}=kw nn jt.t jm=j}
+
+  \tg{accompli non agentiel / négation séquentielle en 
+      \tl[Gramm]{nn}+infinitif}
+
+  \td{Je fus rassuré sans être mutilé.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \lgn{81}\red{\begin{hieroglyph}
+    $r-i-w wp:p-Z9:n:f-$b
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    r*1:f r-A1 i-w-A1 +l\lgn{82}+s Hr-1 X:t*1-A1 m-b-bA-A-H-D53:Y1-f
+  \end{hieroglyph}
+
+  \tl{\lgn{81} \red{jw wp\col n=f} r(A)=f r=j / jw=j \lgn{82} Hr X.t=j 
+      m-bAH=f}
+
+  \tg{accompli agentiel / PPA sans LV séquentielle}
+
+  \td{Il ouvrit sa gueule vers moi alors que j'étais sur mon 
+      ventre devant lui.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{83}+s aHan Dd' n:f n:\!A1
+    jnmj ini-n:t*W zp:y +l\lgn{84}+s nDs-A1
+  \end{hieroglyph}
+
+  \tl{\lgn{83} aHa\col n Dd\col n=f n=j : \og (j)n-m(j) jn(w) tw 
+      sp-2, \lgn{84} nDs}
+
+  \tg{accompli narratif agentiel / PPN argumentative interrogative 
+      avec participe perfectif actif}
+
+  \td{Alors, il me dit : \og Qui t'a amené (bis), petit ?}%
+\end{hierobox}
+
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    jnmj ini:\!n-t-\!w r iw:N23*1 p:n +l\lgn{85}+s n M14-wr:r-N36 
+    n:t*y gs:1-f:y m n:U19-nw:W+l\lgn{86}+s-i-i-mw
+  \end{hieroglyph}
+
+  \tl{(j)n-m(j) jn(w) tw r jw pn \lgn{85} n(y) WAD-wr nty gs=fy m 
+      nw\lgn{86}y}
+
+  \tg{PPN argumentative interrogative 
+      avec participe perfectif actif / syntagme relatif en 
+      \tl[Gramm]{nty}+PPA sans LV}
+
+  \td{Qui t'a amené sur cette île de la mer dont les bords sont 
+      dans les flots ?}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan w-S-\!b-Z9-A2-n:\!A1 +l\lgn{87}+s n:f s-t 
+    a:1-w-\!\!y:.-i-i-A1 x-xA-A-m-\!\!D41:. +l\lgn{88}+s 
+    m-b-bA-A-H-D53:Y1-f
+  \end{hieroglyph}
+
+  \tl{aHa\col n wSb\col n=j \lgn{87} n=f s.t, a.wy=j xAm(=w) 
+      \lgn{88} m-bAH=f}
+
+  \tg{accompli narratif agentiel / accompli non agentiel séquentiel}
+
+  \td{Alors, je lui répondis ceci, mes bras courbés.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Dd'-A1 n:f
+  \end{hieroglyph}
+
+  \tl{Dd\col n=j n=f}
+
+  \tg{accompli agentiel}
+
+  \td{Je lui dit :}%
+\end{hierobox}

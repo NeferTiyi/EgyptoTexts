@@ -1,0 +1,186 @@
+%##HieroDef.txt
+
+\chapter{Lignes 52 à 66}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage06}
+  \caption{Lignes 52 à 66}
+  \label{fig:img06}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{53}]    \tl[black]{ssAj} \vci{3}, \emph{rassasier} ; 
+        comprendre \tl[black]{aHa\col n ssA\col n(=j) wj} ; le pronom 
+        suffixe \tl[black]{=j} de \tl[black]{\col n=j}, dans l'accompli 
+        agentiel de la 1\iere{} personne, est régulièrement omis dans 
+        le conte, lorsqu'il est suivi du pronom dépendant 
+        \tl[black]{wj} : \tl[black]{(jw) wnm\col n(=j) wj}, 
+        \tl[black]{(aHa\col n) wnm\col n(=j) wj}, etc. ; après 
+        \tl[black]{rd\col n=j} comprendre un complément d'objet 
+        sous-entendu, tel que \emph{une partie}
+  \item [\lgn{54}]    comprendre \tl[black]{n \zero wr(=w)}, avec 
+        \tl[black]{n} pour \tl[black]{n-nt(y).t} (\S~~37.2, Rem.\,1)
+  \item [\lgn{56}]    \tl[black]{sb-n(y)-sD.t}, \emph{holocauste} 
+        (\litt \emph{destruction à la flamme})
+  \item [\lgn{57}]    \tl[black]{orj}, \emph{tonnerre}
+  \item [\lgn{57-58}] \tl[black]{jb} \vl{2}, \emph{supposer}, 
+        \emph{penser} (à l'accompli, comme \tl[black]{rx})
+  \item [\lgn{58-59}] \tl[black]{wAw pw n(y) WAD-wr}, à traduire 
+        comme une complétive (exprime littéralement, sous la forme 
+        d'une citation, la pensée du naufragé à ce moment du récit)
+  \item [\lgn{59}]    \tl[black]{gmgm} \vl{4}, \emph{craquer}
+  \item [\lgn{60}]    \tl[black]{mnmn} \vl{4}, \emph{trembler} ; 
+        \tl[black]{kf} \vl{2}, \emph{découvrir}
+  \item [\lgn{62-63}] \tl[black]{n(y)-sw 30~mH}, à traduire \emph{il 
+        faisait 30~coudées (de long)} ; cf.~\S~~28.3.
+  \item [\lgn{63}]    \tl[black]{xbsw.t=f}, thématisation sans 
+        \tl[black]{jr} ; comme dans la représentation traditionnelle 
+        des dieux égyptiens, le serpent est doté d'une barbe postiche
+  \item [\lgn{64}]    \tl[black]{sxr} \vl{3}, \emph{recouvrir}
+  \item [\lgn{65}]    \tl[black]{nbw}, \emph{or} ; 
+        \tl[black]{jn<H>.wy=fy}, \emph{ses sourcils} ; 
+        \tl[black]{xsbd}, \emph{lapis-lazuli}
+  \item [\lgn{66}]    \tl[black]{aro} \vl{3}, \emph{se recourber}, 
+        \emph{se dresser (comme un cobra)} ; \tl[black]{xnt}, 
+        \emph{l'avant}
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan +l\lgn{53}+s s-s-Aa17-A-A2 n w-A1
+  \end{hieroglyph}
+
+  \tl{aHa\col n \lgn{53} ssA\col n(=j) wj}
+
+  \tg{accompli narratif agentiel}
+
+  \td{Alors, je me rassasiai.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    r:a:n A1 r tA:N23*1 +l\lgn{54}+s n wr:r Hr-1 a:1 w-\!\!y:.-A1
+  \end{hieroglyph}
+
+  \tl{rd\col n=j r tA n(-nty.t) \zero wr(=w) Hr a.wy=j}
+
+  \tg{accompli agentiel / circonstancielle causale avec accompli 
+      des intransitifs}
+
+  \td{J'en posai (une partie) à terre parce que c'était (trop) 
+      lourd pour mes bras.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{55}+s Sd:d-t:a-A1 DA-A-Z9:xt s-xpr-r:n-A1 x:t-Q7
+    ir:n-A1 +l\lgn{56}+s zb-G37:n-Z9:t-Q7 n nTr-1:3
+  \end{hieroglyph}
+
+  \tl{\lgn{55} (m-xt) Sd.t DA / sxpr\col n=j x.t / jr\col n=j 
+      \lgn{56} sb-n(y)-sD.t n nTr.w}
+
+  \tg{circonstancielle en protase avec infinitif / 
+      séquence d'accomplis agentiels}
+
+  \td{Après m'être saisi d'un bâton à feu, je fis naître 
+      une flamme, et accomplis l'holocauste pour les dieux.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \red{\begin{hieroglyph}
+    $r-aHan sDm-m n:\!A1-$b
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    +l\lgn{57}+s x:r-P8-E23-w-A2 q:r-i-E21-A24 
+    i-b-+l\lgn{58}+s-E8-k'-w-A1 wA-A-w-mw p:W +l\lgn{59}+s n 
+    M14-wr:r-N36
+  \end{hieroglyph}
+
+  \tl{\red{aHa\col n sDm\col n=j} \lgn{57} xrw orj jb\lgn{58}=kw wAw 
+      pw, \lgn{58} n(y) WAD-wr}
+
+  \tg{accompli narratif agentiel / accompli des intransitifs / 
+      PPN complétive}
+
+  \td{Alors, j'entendis la voix du tonnerre et supposai que c'était 
+      une vague de la mer.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    xt:t*1:3 Hr-1 gm-m-gm-m-Z9 +l\lgn{60}+s tA:N23*1 Hr-1 
+    mn:n-mn:n-D54
+  \end{hieroglyph}
+
+  \tl{xt Hr gmgm / \lgn{60} tA Hr mnmn}
+
+  \tg{séquence de progressifs}
+
+  \td{Le bois craquait, la terre tremblait.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    k':f-S28 n:\!A1 +l\lgn{61}+s Hr-1-A1
+    gm-m n:\!A1 H-f-A-w-I15 +l\lgn{62}+s p-w
+    i-w-f m ii-i-t:D54
+  \end{hieroglyph}
+
+  \tl{kf\col n=j \lgn{61} Hr=j / gm\col n=j HfAw \lgn{62} pw / 
+      jw=f m jj.t}
+
+  \tg{séquence d'accomplis agentiels / PPN complétive / 
+      progressif interne séquentiel}
+
+  \td{Je découvris mon visage et constatai que c'était un serpent 
+      qui venait.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    n:ns-sw-W +l\lgn{63}+s V22:a-10*10:10
+    x-b-z:\!w-t:Sny-f wr:r-s +l\lgn{64}+s r mH:a-1-1
+  \end{hieroglyph}
+
+  \tl{n(y)-sw \lgn{63} 30~mH / 
+      xbsw.t=f, \zero wr(=w) s(.y) \lgn{64} r 2~mH}
+
+  \tg{PPN exprimant l'attribution / thématisation sans 
+      \tl[Gramm]{jr}, accompli des intransitifs}
+
+  \td{Il faisait \num{30}~coudées (de long) ; sa barbe, elle 
+      mesurait plus de \num{2}~coudées.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    H-a:F51-3:f z:x:r-w-T11-A24 +l\lgn{65}+s m nbw:\!N33:3
+    i-in:n-D13:y-f:y m x-s-b-d:N33:3
+  \end{hieroglyph}
+
+  \tl{Haw=f sxr=w \lgn{65} m nbw, jn(H).wy=fy, m xsbd}
+
+  \tg{accompli non agentiel / PPA sans LV}
+
+  \td{Son corps était recouvert d'or, ses sourcils étaient 
+      de lapis-lazuli \\
+      (\emph{ou} ses sourcils, de lapis-lazuli \emph{?}}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{66}+s mA-mAa:a-H2:Y1 a:r:q-V12:Y1 sw-w r xnt-n:t
+  \end{hieroglyph}
+
+  \tl{mAa aro(=w) sw r xnt}
+
+  \tg{accompli des intransitifs}
+
+  \td{La tête s'était dressée vers l'avant.}%
+\end{hierobox}

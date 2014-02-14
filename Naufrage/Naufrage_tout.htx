@@ -1,0 +1,2968 @@
+%##preambule.tex
+%##title  Le conte du naufragé
+%##author NeferTiyi
+%##HieroDef.txt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+
+\section*{Introduction}
+
+\paragraph{} Pour vous permettre d'appliquer vos connaissances 
+grammaticales, nous vous proposons l'étude intégrale d'un classique 
+de la littérature du \MK, le \emph{Conte du Naufragé}, écrit en 
+hiératique au recto du Papyrus Saint-Pétersbourg~1115, dont la 
+provenance est inconnue. Ce document, aujourd'hui conservé à Moscou, 
+mesure \SI{3.80}{\meter} de long sur une dizaine de centimètres de 
+hauteur environ. Il comprend \num{189}~lignes, écrites les unes 
+verticalement (1.~\num{1} à~\num{123} et~\num{177} à~\num{189}), les 
+autres horizontalement (1.~\num{124} à~\num{176}). L'emploi de l'encre 
+rouge sert à y souligner quelques-unes des divisions de la narration. 
+À titre d'exemple, voici une photographie de la partie du document 
+portant les lignes~\num{24} à~\num{37} (\fig{img00}).
+
+\addtocounter{figure}{-1}
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage00}
+  \caption{Le papyrus Saint-Pétersbourg~\num{1115}, 
+           lignes~\num{24}-\num{37}. %\\ 
+           D'après W.~Golénischef, \emph{Les papyrus 
+           hiératiques~\nos\num{1115}, \num{1116}\,A et \num{1116}\,B 
+           de l'Ermitage impérial à Saint-Pétersbourg} 
+           [Saint-Pétersbourg, 1913], pl.~\num{8}.}
+  \label{fig:img00}
+\end{figure}
+
+\paragraph{} Pour une bonne traduction française, cf.~G.~\bsc{Lefèbvre}, 
+\emph{Romans et contes égyptiens de l'Époque pharaonique} (Paris, 1976), 
+p.~29-40. Pour une transcription hiéroglyphique, cf.~A.M.~Blackman, 
+\emph{Middle-Egyptian Stories} (\emph{Bibliotheca Aegyptiaca}~II, 
+Bruxelles, 1972), p.~41-48.
+Celle que nous vous proposons ici est une nouvelle transcription, 
+réalisée par Dominique~\bsc{Farout} à partir de l'original, en y 
+respectant la disposition des lignes et des signes. La taille de 
+l'ensemble représente \SI{56}{\percent} de celle de l'original. 
+Les signes écrits en rouge sont longés à gauche par un trait continu 
+vertical dans les parties du texte qui sont écrites verticalement ou 
+soulignés dans celles qui sont écrites horizontalement.
+
+\paragraph{} Le texte, qui était sans doute, à l'origine, l'un 
+des éléments d'un recueil de contes, se donne pour un récit
+autobiographique, raconté par un \emph{\og suivant excellent \fg{}} 
+(\tl[black]{Smsw jor}) à un \emph{\og gouverneur \fg{}} 
+(\tl[black]{HAty-a}), inquiet, au retour d'une mission en Nubie, 
+d'avoir à comparaître devant le roi pour lui en rendre compte. Le 
+narrateur rapporte comment, s'étant trouvé naguère le seul rescapé 
+d'un naufrage en Mer rouge et ayant été jeté sur une île déserte, 
+il y trouva de la nourriture et rencontra une divinité, ayant 
+l'apparence d'un gigantesque serpent, qui prit soin de lui, avant 
+d'être plus tard recueilli par un navire égyptien et de rentrer à 
+la cour, rapportant des produits précieux qui lui valurent des 
+récompenses du roi. Hormis la valeur morale qui lui sert de prétexte 
+(il s'agit de démontrer que, dans la pire des situations, il ne faut 
+jamais désespérer), son contenu apparaît comme l'un des ancêtres de 
+nombreux récits de fiction plus tardifs, tels certains passages de 
+\emph{L'Odyssée}, l'une des aventures de Sindbad le marin, dans 
+les \emph{Mille et une Nuits}, ou le \emph{Robinson Crusoé} de 
+Daniel~\bsc{Defoe}. 
+
+\paragraph{} Nous vous demanderons de translittérer et de traduire le 
+texte en 16~devoirs (à raison, en principe, d'un par semaine), que vous 
+nous retournerez pour correction, en respectant le découpage suivant :
+
+\begin{multicols}{2}
+  \begin{enumerate}
+    \item Lignes~1-11
+    \item Lignes~12-21 (jusqu'à \tl[black]{Dd n=k})
+    \item Lignes~21-32 (jusqu'à \tl[black]{xprt=f})
+    \item Lignes~32-39 (jusqu'à \tl[black]{jm})
+    \item Lignes~39-52 (jusqu'à \tl[black]{m-Xnw=f})
+    \item Lignes~52-66
+    \item Lignes~67-76 (jusqu'à \tl[black]{wj})
+    \item Lignes~76-88
+    \item Lignes~89-110
+    \item Lignes~111-123
+    \item Lignes~124-132 (jusqu'à \tl[black]{wa.t})
+    \item Lignes~132-142 (jusqu'à \tl[black]{=f})
+    \item Lignes~142-152
+    \item Lignes~153-165
+    \item Lignes~166-175
+    \item Lignes~176-189
+  \end{enumerate}
+\end{multicols}
+
+
+\paragraph{} Votre traduction ne doit évidemment pas être une simple 
+copie de celle de Lefèbvre, qu'il est aisé de se procurer, mais un 
+travail personnel, garantie de progrès. Vous présenterez votre 
+translittération en respectant le découpage en propositions, et en 
+l'accompagnant d'une analyse grammaticale consistant à nommer de 
+manière précise (mais succinte) les constructions et les formes 
+verbales rencontrées (par exemple : \og accompli \fg, \og aoriste \fg, 
+\og circonstancielle en protase \fg, \og progressif séquentiel \fg, 
+etc.). Nous vous suggérons de présenter de la manière suivante la 
+translittération, l'analyse et la traduction de chaque proposition :
+
+\begin{center}
+  \begin{minipage}{0.48\textwidth}
+    \tl[black]{Dd\col jn Smsw jqr}\\
+    {\smaller forme narrative \tl[black]{wnm\col jn=f}}\\
+    Et, un suivant excellent dit :
+
+    \bigskip
+    \tl[black]{\og wDA jb=k, HAty-a} \ex[black]\\
+    {\smaller prospectif autonome}\\
+    \og Que ton c\oe ur se rassérène, gouverneur !
+
+    \bigskip
+    \tl[black]{\og mk, \hspace{2cm} pH\col n=n Xnw} \ex[black]\\
+    {\smaller auxiliaire narratif \hspace{0.5cm} accompli agentiel}\\
+    \og Vois, nous avons atteint le pays !
+
+    \begin{flushright}
+      etc.
+    \end{flushright}
+  \end{minipage}
+\end{center}
+
+\paragraph{} Pour votre travail, la meilleure méthode consiste à 
+progresser par groupe de deux ou trois propositions, en recherchant 
+dans un premier temps le vocabulaire employé (et en évitant, à ce 
+stade, toute traduction hâtive), puis à procéder à l'analyse 
+grammaticale, en puisant dans les connaissances acquises, et à 
+établir une première traduction fondée sur cette analyse. Enfin, 
+après avoir revu l'ensemble du passage étudié pour tenir compte du 
+contexte et du cadre narratif, vous établirez la translittération 
+et la traduction définitives. En ce qui concerne la grammaire et 
+le vocabulaire, nous apporterons, sous forme de notes, quelques 
+éclaircissements aux principales difficultés et donnerons, de 
+manière succinte, la traduction des termes que vous ne connaissez 
+pas. Cependant, à ce stade de votre étude de la langue égyptienne, 
+nous vous recommandons vivement de commencer à employer soit le 
+dictionnaire égyptien-anglais de R.~O.~Faulkner, \emph{\og A~Concise 
+Dictionary of Middle Egyptian \fg{}}, Oxford, 1972, soit celui, 
+égyptien-allemand, de R.~Hannig, \emph{\og Grosses Handworterbuch 
+Agyptisch-Deutsch \fg{}}, Mayence, 1995.
+
+\begin{flushright}
+  Bon courage et\dots{} bon voyage!
+\end{flushright}
+
+\section{Lignes 1 à 11}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage01}
+  \caption{Lignes 1 à 11}
+  \label{fig:img01}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{01}]    \tl[black]{smsw}, \emph{suivant}, 
+        \emph{serviteur} ; \tl[black]{jor}, \emph{excellent} ; 
+        \tl[black]{wDA} \vl{3}, \emph{devenir intact}, 
+        \emph{se préserver}, \emph{se rasséréner}
+  \item [\lgn{02}]    la valeur de \tl[black]{mk} s'applique jusqu'à 
+        la l.~10
+  \item [\lgn{03}]    \tl[black]{Xnw}, \litt \emph{l'intérieur}, 
+        désigne généralement l'\kmt{} dans ce conte ; \tl[black]{Ssp} 
+        \vl{3}, \emph{saisir} ; \tl[black]{xrpw}, \emph{maillet}
+  \item [\lgn{04}]    \tl[black]{Hwj} \vi{3}, \emph{frapper} ; 
+        \tl[black]{mnj.t}, \emph{piquet d'amarrage} (l'objet représenté 
+        par l'avant-dernier déterminatif du mot) ; 
+        \tl[black]{HAt.t}, \emph{amarre de proue}
+  \item [\lgn{05}]    \tl[black]{Hknw}, \emph{action de grâce} ; 
+        \tl[black]{dwA} \vl{3}, \emph{adorer}
+  \item [\lgn{05-06}] ici et dans d'autres passages du conte, 
+        \tl[black]{nTr} est en antéposition honorifique dans 
+        l'expression \tl[black]{dwA nTr}
+  \item [\lgn{06}]    \tl[black]{Hpj} \vi{3}, \emph{embrasser}
+  \item [\lgn{07}]    \tl[black]{jsw.t}, \emph{équipe}, 
+        \emph{équipage} ; ignorer le second \tl[black]{t} ; 
+        \tl[black]{ad} \vl{2}, \emph{devenir sain (et sauf)}
+  \item [\lgn{08}]    \tl[black]{nhw}, \emph{perte} ; \tl[black]{mSa}, 
+        \emph{armée}, \emph{troupe}
+  \item [\lgn{09}]    \tl[black]{WAwA.t}, \emph{Ouaouat}, 
+        la Basse-Nubie ; \tl[black]{snj} \vi{3}, \emph{passer}, 
+        \emph{dépasser}
+  \item [\lgn{10}]    \tl[black]{\%nmw.t}, \emph{Senmout}, nom de l'île 
+        de Biggéh, en face de Phil\ae , au sud d'\'Eléphantine, 
+        marquant la frontière méridionale de l'\kmt{} ; 
+        \tl[black]{jj=(w)n} ; la désinence \tl[black]{=(w)n} a été 
+        ajoutée à gauche du déterminatif de \tl[black]{jj}
+  \item [\lgn{11}]    corriger probablement en \tl[black]{pH<\col n>=n}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \red{\begin{hieroglyph}
+      +l\lgn{01}+s $r-D:d-i-n Sms-w-A1-$b\end{hieroglyph}}
+    \begin{hieroglyph}i-q:r-Y1v\end{hieroglyph}
+
+    \tl{\lgn{01} \red{Dd~jn Smsw} jor :}
+
+    \tg{forme narrative \tl[Gramm]{wnm\col jn=f} introduisant un 
+        discours direct}
+
+    \td{Et, un suivant excellent dit : }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      w-DA-A-Y1v+l\lgn{02}+s-ib*1:k' HAtya-A1
+    \end{hieroglyph}
+
+    \tl{\og wDA \lgn{02} jb=k, HAt(y)-a} \ex
+
+    \tg{prospectif autonome}
+
+    \td{\og Que ton c\oe ur se rassérène, gouverneur !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      m-a:k' pH:D54 n:n:3 +l\lgn{03}+s Xn:n-nw-w-pr
+    \end{hieroglyph}
+
+    \tl{mk, pH\col n=n \lgn{03} Xnw} \ex
+
+    \tg{auxiliaire d'énonciation, accompli agentiel}
+
+    \td{Vois, nous avons atteint le pays !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      Ssp:p-a x:r-p*W:xt +l\lgn{04}+s H-A25-A24 mn:n-i-t-P11-xt 
+      HAt:t*t-W r:a:t +l\lgn{05}+s Hr:1 tA:N23*1
+    \end{hieroglyph}
+
+    \tl{\zero Ssp(=w) xrpw / \lgn{04} \zero Hw(=w) mnj.t / 
+        HAt.t rd=t(j) \lgn{05} Hr tA} \ex
+
+    \tg{séquence d'accomplis non agentiels}
+
+    \td{Le maillet a été saisi, le piquet d'amarrage a été frappé 
+        et l'amarre de proue a été posée à terre !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      r:a H-k':n-nw:W-A2 nTr-dwA+l\lgn{06}+s-A30-A2
+    \end{hieroglyph}
+
+    \tl{\zero rd(=w) Hknw, \zero dwA(=w) nTr} \ex
+
+    \tg{séquence d'accomplis des intransitifs}
+
+    \td{Les actions de grâce ont été faites, le dieu a été adoré !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      z:A1*1 nb Hr:1 H-p:t-D32:a sn-n:nw-w-A1-y:f
+    \end{hieroglyph}
+
+    \tl{\lgn{06} s nb Hr Hp.t sn-nw=f} \ex
+
+    \tg{progressif}
+
+    \td{Chaque homme embrasse son frère !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{07}+s-iz-w:t-A1-3:t-n:3 ii-i-t:D54 aD:d-t:Y1
+      nn +l\lgn{08}+s n:h-w-wr:n mSa-A1:3-n:3
+    \end{hieroglyph}
+
+    \tl{\lgn{07} jsw{t}.t=n jj=t(j) ad=t(j) / nn 
+        \lgn{08} (\zero wn=w) nhw n mSa=n} \ex
+
+    \tg{séquence d'accomplis des intransitifs / négation 
+        existentielle séquentielle}
+
+    \td{Notre équipage est revenu sain et sauf, sans perte 
+        pour notre troupe !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      pH:D54-n:n:3 +l\lgn{09}+s pH-w-y wA-wA-t:xAst
+      z:n-X5:D54-n:n:3 +l\lgn{10}+s z:n-mwt-t:xAst
+    \end{hieroglyph}
+
+    \tl{pH\col n=n \lgn{09} pH.wy WAwA.t / 
+        sn\col n=n \lgn{10} \%nmw.t} \ex
+
+    \tg{séquence d'accomplis agentiels}
+
+    \td{Nous avons atteint la limite de Ouaouat, 
+        nous avons dépassé Senmout !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+       m-a:k' r:f n:3 ii-i-D54-n:3 +l\lgn{11}+s m Htp:t-p:Y1
+      tA:N23*1 n:3 pH:D54-n:3 sw-W
+    \end{hieroglyph}
+
+    \tl{mk rf, n jj=(w)n \lgn{11} m Htp / tA=n, pH<\col n>=n sw} \ex
+
+    \tg{auxiliaire d'énonciation + particule enclitique, 
+        accompli des intransitifs / accompli agentiel 
+        avec thématisation sans \tl[Gramm]{jr}}
+
+    \td{Vois donc, nous sommes revenus en paix, notre pays, 
+        nous l'avons atteint !}%
+  \end{hierobox}
+}
+
+\section{Lignes 12 à 21 \rem{(jusqu'à \tl[black]{Dd n=k})}}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage02}
+  \caption{Lignes 12 à 21}
+  \label{fig:img02}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{12-13}] corriger en \tl[black]{jnk Sw <m> HAw} ; 
+        \tl[black]{Sw} \vl{2}, \emph{devenir vide}, \emph{exempt}, 
+        +\,\tl[black]{m}, \emph{de}
+  \item [\lgn{13}]    \tl[black]{HAw}, \emph{surplus}, \emph{excès}, 
+        \emph{exagération} ; \tl[black]{jaj} \vi{3}, \emph{laver}
+  \item [\lgn{16}]    \tl[black]{jb=k m-a=k}, expression servant à 
+        exprimer la pleine maîtrise de soi-même
+  \item [\lgn{19}]    \tl[black]{TAm} \vl{3} \tl[black]{Hr n}, 
+        \emph{montrer de l'indulgence à (quelqu'un)}, \litt \emph{le 
+        visage se dévoile pour (quelqu'un)}
+  \item [\lgn{20}]    \tl[black]{Hr.t-jb}, \emph{humeur}, \emph{guise}, 
+        \litt \emph{condition du coeur}
+  \item [\lgn{20-21}] \tl[black]{swrd} \vcl{3}, \emph{fatiguer}, 
+        \emph{se fatiguer}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \lgn{12}\red{\begin{hieroglyph}
+      $r-sDm-m r:k' n:A1-$b\end{hieroglyph}}
+    \begin{hieroglyph}
+      HAtya-A1 nw:k'-A1 Sw-W:\!wr +l\lgn{13}+s HA-A-w-Y1:3
+    \end{hieroglyph}
+
+    \tl{\lgn{12} \red{sDm (j)r=k n=j} HAt(y)-a / 
+        jnk, Sw(w) <m> \lgn{13} HAw} \ex
+
+    \tg{impératif renforcé / PPN sans \tl[Gramm]{pw}, prédicat = 
+        participe perfectif actif + pronom indépendant en thématisation}
+
+    \td{\'Ecoute moi donc, gouverneur, (car) je n'exagère pas 
+        (\litt je suis un qui est exempt d'exagération) !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-a-mw a:t*W i-im:m-a +l\lgn{14}+s mw Hr:1 D50-3:k'
+      i-x:Y1 w-S-\!b-A2-k'
+    \end{hieroglyph}
+
+    \tl{ja tw / jm \lgn{14} mw Hr Dba.w=k / jx wSb=k} \ex
+
+    \tg{impératif renforcé / impératifs / auxiliaire d'énonciation, 
+        prospectif consécutif}
+
+    \td{Lave-toi, mets de l'eau sur tes doigts, et tu répondras !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{15}+s w-Sd-d:t-A2-k'
+      md-d-w-A2 k':n +l\lgn{16}+s sw-t:n-G7 ib*1:k' m-a:k'
+    \end{hieroglyph}
+
+    \tl{\lgn{15}(m) wSd=t(w)=k / mdw=k n \lgn{16} n(y)-sw.t 
+        jb=k m-a=k} \ex
+
+    \tg{circonstancielle temporelle en protase au prospectif 
+        autonome / PPA argumentative avec sujet = forme nominale 
+        prospective et prédicat = PPA sans LV}
+
+    \td{Quand on \emph{(= le roi)} t'interrogera, c'est maître 
+        de toi-même (\litt ton c\oe ur en ton pouvoir) que tu 
+        parleras au roi !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      w-S-+l\lgn{17}+s-b-A2 k' nn n-i-t-i-t-A2
+    \end{hieroglyph}
+
+    \tl{wS\lgn{17}b=k nn njtjt} \ex
+
+    \tg{PPA argumentative avec sujet = forme nominale prospective 
+        et prédicat = négation en \tl[Gramm]{nn}+infinitif}
+
+    \td{C'est sans baffouiller que tu répondras !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-w r*1:n z:A1*1 +l\lgn{18}+s n:N42-m-a:f sw-w
+      i-w md-d-w-+l\lgn{19}+s-A2-f di':f TA-A-m-S28 n:f Hr:1
+    \end{hieroglyph}
+
+    \tl{jw r(A) n(y) s \lgn{18} nHm=f sw / 
+        jw mdw\lgn{19}=f d=f TAm n=f Hr}
+
+    \tg{aoriste / aoriste de verbe opérateur 
+        + CO au prospectif complétif}
+
+    \td{La parole d'un homme le sauve ; son éloquence fait se 
+        montrer indulgent envers lui (\litt que le visage se 
+        dévoile en sa faveur).}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{20}+s ir:r-k' m x:r-t:Y1:3 ib*1:k'
+      s-wr-+l\lgn{21}+s-r:d-G37 p:W D:d n:k'
+    \end{hieroglyph}
+
+    \tl{\lgn{20} jr (j)r=k m xr.t-jb=k / sw\lgn{21}rd pw Dd n=k}
+
+    \tg{impératif renforcé / PPN, avec prédicat et explicitation du sujet à l'infinitif}
+
+    \td{Agis donc à ta guise, car te parler c'est se fatiguer !}%
+  \end{hierobox}
+}
+
+\section{Lignes 21 à 32 \rem{(jusqu'à \tl[black]{xprt=f})}}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage03}
+  \caption{Lignes 21 à 32}
+  \label{fig:img03}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{21}]    \tl[black]{sDd} \vcl{2}, \emph{raconter}
+  \item [\lgn{22}]    \tl[black]{xpr} \vl{3}, \emph{arriver} 
+        +\,\tl[black]{m-a}, \emph{à (quelqu'un)} ; curieusement, 
+        bien que le verbe se rapporte à \tl[black]{mjt.t}, on a ici 
+        \tl[black]{xpr(=w)} au lieu de \tl[black]{xpr=tj}
+  \item [\lgn{24}]    \tl[black]{jty}, cf.~\S~~13.2
+  \item [\lgn{26-27}] \tl[black]{sxw}, \emph{largeur}
+  \item [\lgn{28}]    \tl[black]{stp}, \emph{choix}, \emph{élite} 
+        (var. \tl[black]{stpw}, l.~94)
+  \item [\lgn{28-29}] \tl[black]{mA=sn p.t, mA=sn tA}, protases avec 
+        ellipse de \tl[black]{m} devant \tl[black]{mA=sn}
+  \item [\lgn{29}]    \tl[black]{mak3} \vl{4}, \emph{devenir brave}
+  \item [\lgn{30}]    \tl[black]{mA(j)}, \emph{lion}
+  \item [\lgn{30-31}] \tl[black]{sr} \vl{2}, \emph{prédire}
+  \item [\lgn{31}]    \tl[black]{Da}, \emph{tempête} ; 
+        \tl[black]{n jjt}, comprendre \tl[black]{n jjt<=f>}
+  \item [\lgn{31-32}] \tl[black]{nSn.y}, \emph{orage}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \red{\begin{hieroglyph}
+      s-D:d A1 r:f
+    \end{hieroglyph}}
+    \begin{hieroglyph}
+      +l\lgn{22}+s n:k' mi-i-t*t:Y1 i-r:y xpr:r m-a-A1 
+      +l\lgn{23}+s D:\!\!\!z\s1-A1
+    \end{hieroglyph}
+
+    \tl{\red{sDd=j rf} \lgn{22} n=k mjt.t jr(y).y 
+        xpr(=w) m-a=j \lgn{23} Ds=j} \ex
+
+    \tg{prospectif autonome + particule enclitique / 
+        accompli des intransitifs}
+
+    \td{Je vais donc te raconter une chose semblable qui m'est 
+        arrivée (\litt arrivée à moi-même) !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      Sm-m-D54:k'-w-A1 r b-i-+l\lgn{24}+s-id:Hw-xAst:n sAq:sAq-G7
+    \end{hieroglyph}
+
+    \tl{Sm=kw r bj\lgn{24}A(w) n jty}
+
+    \tg{accompli des intransitifs}
+
+    \td{Je suis parti vers le Sinaï pour le souverain.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      h-A+l\lgn{25}+s-D54:k'-w-A1 r M14-wr:r-N36 m d:p*t-P1 
+      +l\lgn{26}+s n:t mH:\!a 100-10:10 m Aw-W-s mH:\!a 
+      10:10-10:10 m s-x-+l\lgn{27}+s-w-iab-s s-qd-d-A30-A1 
+      100-10:10 i-m-s +l\lgn{28}+s m stp:Y1 n:km-m-t:niwt
+    \end{hieroglyph}
+
+    \tl{hA\lgn{25}=kw r WAD-wr m dp.t \lgn{26} n(y).t 120~mH 
+        m Aw=s, 40~mH m sx\lgn{27}w=s, 120~sod jm=s 
+        \lgn{28} m stp n(y) Km.t}
+
+    \tg{accompli des intransitifs / antéposition badale dans les 
+        mesures de longueurs et de quantité}
+
+    \td{je suis allé en mer dans un navire, de 120~coudées de long 
+        (\litt dans sa longueur), 40~coudées de large (\litt dans 
+        sa largeur), 120~marins à son bord (\litt en lui), de 
+        l'élite de l'\kmt.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+       mA:ir-A s-n:3 +l\lgn{29}+s p*t:pt mA:ir-A s-n:3 tA:N23*1
+      m-a:k'-A-a +l\lgn{30}+s ib:1 s-n:3 r mA:ir-A-w-F27:3
+    \end{hieroglyph}
+
+    \tl{(m) mA=sn \lgn{29} p.t, mA=sn tA / \zero makA(=w) 
+        \lgn{30} jb=sn r mA(j).w} \ex
+
+    \tg{circonstancielles temporelles en protase / apodose à 
+        l'accompli des verbes intransitifs exclamatifs}
+
+    \td{Lorsqu'ils voyaient le ciel, lorsqu'ils voyaient la terre, 
+        leurs c\oe urs étaient plus braves que (ceux de) lions !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \red{\begin{hieroglyph}
+      $r-z:r-+l\lgn{31}+s-E27-A2 s-n:3-$b
+    \end{hieroglyph}}
+    \begin{hieroglyph}
+      D:\!\!\!a\s2-TAw n' ii-i-t:D54 n:S-+l\lgn{32}+s-n:y-E20-A24 
+      n' xpr:r-t:f
+    \end{hieroglyph}
+
+    \tl{\red{sr\lgn{31}=sn} Da n jjt<=f>, 
+        nS\lgn{32}n.y n xprt=f} \ex
+
+    \tg{aoriste exclamatif avec sujet pronominal en ellipse / 
+        deux négations séquentielles en \tl[Gramm]{n wnmt=f}}
+
+    \td{Ils prédisaient une tempête avant qu'elle ne fût venue, 
+        un orage avant qu'il ne fût advenu !}%
+  \end{hierobox}
+}
+
+\section{Lignes 32 à 39 \rem{(jusqu'à \tl[black]{jm})}}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage04}
+  \caption{Lignes 32 à 39}
+  \label{fig:img04}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{34-36}] \tl[black]{fAt TAw, jr=f wHm.yt}, 
+        circonstancielle temporelle en protase débutant par 
+        \tl[black]{wnmt=f} (\S~~38.2), et contenant une séquentielle 
+        à l'aoriste (\tl[black]{jr=f wHm.yt}) ; l'apodose est 
+        \tl[black]{nw.yt jm=f n(y).t 8~mH} ; \tl[black]{fAj} pour 
+        \emph{se lever} ; \tl[black]{TAw}, \emph{le vent} ; 
+        \tl[black]{wHmy.t}, \emph{redoublement} ; \tl[black]{nw.yt}, 
+        \emph{vague(s)}, \emph{lame(s)}
+  \item [\lgn{36}]    \tl[black]{xt}, dans le sens d'\emph{espar}, 
+        ou similaire 
+  \item [\lgn{36-37}] \tl[black]{HH} \vl{2} \emph{(?)}, \emph{briser 
+        la force de (quelque chose) (?)} +\,\tl[black]{n}, \emph{pour}, 
+        c'est-à-dire \emph{préserver (quelqu'un) de (quelque chose)}
+  \item [\lgn{38}]    noter la graphie \tl[black]{mwt} pour 
+        \tl[black]{mwt=t(j)}, le \tl[black]{t} final de \tl[black]{mwt} 
+        et le \tl[black]{t} de la désinence se confondant dans la 
+        prononciation
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      D:\!\!\!a\s2-TAw pr:r-D54 +l\lgn{33}+s i-w n:3 m M14-wr:r-N36
+      tp:1-a:1 +l\lgn{34}+s sAH:Y1 n:3 tA:N23*1
+    \end{hieroglyph}
+
+    \tl{DA pr(=w) \lgn{33} jw=n m WAD-wr tp-a \lgn{34} sAH=n tA}
+
+    \tg{accompli des intransitifs, PPA sans LV consécutive, 
+        circonstancielle temporelle au prospectif}
+
+    \td{Une tempête survint (alors que) nous étions en mer 
+    et avant que nous eussions touché terre.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      f-A-\!\!t:.-A9:\!\!a TAw-w +l\lgn{35}+s ir:f wHm-m-i-i-t-A2
+      n:U19-nw:W-i-i-t-mw +l\lgn{36}+s i-m f n:t mH:a 1:1-1:1-1:1-1:1
+    \end{hieroglyph}
+
+    \tl{fAt TAw, \lgn{35} jr=f wHm.yt / nw.yt \lgn{36} jm=f n(y).t 8~mH}
+
+    \tg{circonstancielle en protase avec forme \tl[Gramm]{wnmt=f} 
+        et aoriste séquentiel / apodose = PPA sans LV}
+
+    \td{À peine le vent se fût-il levé en redoublant (\litt 
+        faisant un redoublement), qu'une lame de 8~coudées y apparut
+        (\litt fut dans lui).}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-n xt:t*1 H-H +l\lgn{37}+s A25-A24 n:A1 s
+    \end{hieroglyph}
+
+    \tl{jn xt HH(w) \lgn{37} n=j s(.y)}
+
+    \tg{PPN argumentative, explicitation du sujet au participe 
+        perfectif actif}
+
+    \td{C'est un espar qui m'en préserva (\litt brisa sa force 
+        pour moi).}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:n d:p*t-P1 +l\lgn{38}+s m-t:Z6
+    \end{hieroglyph}
+
+    \tl{aHa\col n dp.t \lgn{38} mwt(=tj)}
+
+    \tg{accompli narratif des intransitifs}
+
+    \td{Alors, le navire périt.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      n:t-tyw-3 i-m-s n' z:p*zp +l\lgn{39}+s wa:a-A1-1 i-m
+    \end{hieroglyph}
+
+    \tl{nty.w jm=s, n sp \lgn{39} wa s jm(=sn)}
+
+    \tg{thématisation sans \tl[Gramm]{jr}, négation de l'accompli}
+
+    \td{Quant à ceux qui s'y trouvaient, aucun d'entre eux 
+        ne survécut.}%
+  \end{hierobox}
+}
+
+\section{Lignes 39 à 52 (jusqu'à \tl[black]{m-Xnw=f})}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage05}
+  \caption{Lignes 39 à 52}
+  \label{fig:img05}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{40}]    \tl[black]{wAw}, \emph{vague}
+  \item [\lgn{41}]    \tl[black]{waj} \vi{3}, \emph{devenir seul}
+  \item [\lgn{42}]    \tl[black]{sDr} \vl{3}, \emph{s'allonger}, 
+        \emph{s'étendre}
+  \item [\lgn{43-44}] \tl[black]{kAp}, \emph{abri} ou \emph{cabane}
+  \item [\lgn{44}]    \tl[black]{xt}, \emph{arbre} ou \emph{bois} ; 
+        \tl[black]{onj} \vl{3}, \emph{embrasser}, dans le sens de 
+        \emph{rechercher avidemment (quelque chose)}
+  \item [\lgn{45}]    \tl[black]{dwn} \vl{3}, \emph{étendre}
+  \item [\lgn{46}]    \tl[black]{rx} \vl{2}, dans le sens de 
+        \emph{rechercher}
+  \item [\lgn{47-52}] après \tl[black]{gm\col n=j}, séquence de 
+        propositions à prédicat adverbial et une proposition négative 
+        assumant la fonction de complétives (cf.~\S~~39.10, Rem.\,1-2)
+  \item [\lgn{48}]    \tl[black]{jAo.t}, \emph{légumes} (collectif) ; 
+        \tl[black]{Sps(y)}, \emph{magnifique}
+  \item [\lgn{50}]    \tl[black]{Ssp.t}, \emph{concombres} 
+        (collectif) ; \tl[black]{mj jr=t(w)=s}, avec \tl[black]{jrj} 
+        dans le sens de \emph{cultiver}
+  \item [\lgn{51-52}] \tl[black]{nn \zero, nt(y).t nn st m-Xnw=f} ; 
+        \tl[black]{nt(y).t nn st m-Xnw=f} explicite le sujet 
+        \zero du prédicat négatif \tl[black]{nn} ; \tl[black]{nt(y).t}, 
+        pronom relatif de sens neutre sans antécédent
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:n-A1 r:a-k'-w-A1 +l\lgn{40}+s r iw:N23*1 
+      i-n wA-A-w-mw n M14-+l\lgn{41}+s-wr:r-N36
+    \end{hieroglyph}
+
+    \tl{aHa\col n=j rd=kw \lgn{40} r jw jn wAw n(y) WAD-\lgn{41}wr}
+
+    \tg{accompli narratif agentiel}
+
+    \td{Alors je fus déposé sur une île par une vague de la mer.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      ir:n-A1 h:r-w-ra 1-1-1 wa:a-1-G37-k':W-A1 
+      +l\lgn{42}+s ib:1-A1 m sn-n:nw-w-A1-1-1-A1
+    \end{hieroglyph}
+
+    \tl{Jr\col n=j 3 (ny) hrw wa=kw / \lgn{42} jb=j m sn-nw=j}
+
+    \tg{accompli agentiel, accompli des intransitifs séquentiel / 
+        PPA sans LV séquentielle}
+
+    \td{Je passai trois jours seul, mon c\oe ur étant mon compagnon.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      z:Dr:r-A55:k'+l\lgn{43}+s-w-A1 m Xn:n-nw*W:pr 
+      n:k'-A-p+l\lgn{44}+s-Aa19-pr:n xt:t*1
+      q:n-i-D32:a-n-A1 Sw-W+l\lgn{45}+s i-i-t:ra
+    \end{hieroglyph}
+
+    \tl{sDr=k\lgn{43}w m Xnw n(y) kAp \lgn{44} n(y) xt / 
+        onj\col n=j Sw\lgn{45}.yt }
+
+    \tg{séquence d'accomplis agentiels}
+
+    \td{Je me suis allongé à l'intérieur d'une cabane en bois 
+        et recherchai l'ombre avidemment.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:n d-wn:n-D54:n-A1 r:d+l\lgn{46}+s-rd-rd-A1
+      r:r-x:Y1 a:t-A1 m r:1-A1
+    \end{hieroglyph}
+
+    \tl{aHa\col n dwn\col n=j rd\lgn{46}.wy=j r rx d.t(j)=j m r(A)=j}
+
+    \tg{accompli narratif agentiel / circonstancielle 
+        finale en \tl[Gramm]{r}+\tl[Gramm]{infinitif} / 
+        CO au participe prospectif passif agentiel}%
+
+    \td{Alors, j'étendis mes jambes pour rechercher ce que je 
+        placerais dans ma bouche.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \lgn{47}\red{\begin{hieroglyph}
+      $r-gm-m-n-A1-$b\end{hieroglyph}}
+    \begin{hieroglyph}
+      d-A-b-M43-N33:3 i-A+l\lgn{48}+s r:r-t:D5-N33:3 i-m
+       i-A-q:t-Hn-Z3A nb:t Sps-s-t:Y1
+    \end{hieroglyph}
+
+    \tl{\lgn{47} \red{gm\col n=j} 
+        (jw) dAb.w jA\lgn{48}rr.t jm jAq.t nb.t Sps(y).t}
+
+    \tg{accompli agentiel / PPA sans LV complétive}
+
+    \td{Je découvris qu'il y avait là des figues, du raisin 
+        et toutes sortes de légumes magnifiques, }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{49}+s k'-A-w-N33:3 i-m H-n:a n:q-w-t-N33:3
+    \end{hieroglyph}
+
+    \tl{\lgn{49} kAw jm Hna noAw}
+
+    \tg{PPA sans LV complétive}
+
+    \td{qu'il y avait là des figues de sycomore non entaillées , 
+        ainsi que des figues de sycomore entaillées, }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{50}+s Ssp-p:t-N33:3 mi-i-ir:t-s
+    \end{hieroglyph}
+
+    \tl{\lgn{50} Sps.t mj jr=t(w)=s}
+
+    \tg{circonstancielle avec prospectif ?}
+
+    \td{des concombres comme lorsqu'on les cultive, }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      r-m-W-K5:3 +l\lgn{51}+s i-m H-n:a A-p:d-w-zA:3
+    \end{hieroglyph}
+
+    \tl{rm.w \lgn{51} jm Hna Apd.w}
+
+    \tg{PPA sans LV complétive}
+
+    \td{qu'il y avait là des poissons, ainsi que des volailles ;}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      nn n:t*t +l\lgn{52}+s nn s-t m Xn:n-nw-w-pr:f
+    \end{hieroglyph}
+
+    \tl{nn (\zero wn=w), \lgn{52} nt(y).t nn st m-Xnw=f}
+
+    \tg{négation existentielle / syntagme relatif avec négation 
+        de PPA sans LV (\tl[Gramm]{st} = pronom de rappel)}
+
+    \td{il n'y a rien qui ne s'y trouvait pas. (\litt cela 
+        n'existait pas, ce qui n'était pas à l'intérieur de 
+        lui)}%
+  \end{hierobox}
+}
+
+\section{Lignes 52 à 66}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage06}
+  \caption{Lignes 52 à 66}
+  \label{fig:img06}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{53}]    \tl[black]{ssAj} \vci{3}, \emph{rassasier} ; 
+        comprendre \tl[black]{aHa\col n ssA\col n(=j) wj} ; le pronom 
+        suffixe \tl[black]{=j} de \tl[black]{\col n=j}, dans l'accompli 
+        agentiel de la 1\iere{} personne, est régulièrement omis dans 
+        le conte, lorsqu'il est suivi du pronom dépendant 
+        \tl[black]{wj} : \tl[black]{(jw) wnm\col n(=j) wj}, 
+        \tl[black]{(aHa\col n) wnm\col n(=j) wj}, etc. ; après 
+        \tl[black]{rd\col n=j} comprendre un complément d'objet 
+        sous-entendu, tel que \emph{une partie}
+  \item [\lgn{54}]    comprendre \tl[black]{n \zero wr(=w)}, avec 
+        \tl[black]{n} pour \tl[black]{n-nt(y).t} (\S~~37.2, Rem.\,1)
+  \item [\lgn{56}]    \tl[black]{sb-n(y)-sD.t}, \emph{holocauste} 
+        (\litt \emph{destruction à la flamme})
+  \item [\lgn{57}]    \tl[black]{orj}, \emph{tonnerre}
+  \item [\lgn{57-58}] \tl[black]{jb} \vl{2}, \emph{supposer}, 
+        \emph{penser} (à l'accompli, comme \tl[black]{rx})
+  \item [\lgn{58-59}] \tl[black]{wAw pw n(y) WAD-wr}, à traduire 
+        comme une complétive (exprime littéralement, sous la forme 
+        d'une citation, la pensée du naufragé à ce moment du récit)
+  \item [\lgn{59}]    \tl[black]{gmgm} \vl{4}, \emph{craquer}
+  \item [\lgn{60}]    \tl[black]{mnmn} \vl{4}, \emph{trembler} ; 
+        \tl[black]{kf} \vl{2}, \emph{découvrir}
+  \item [\lgn{62-63}] \tl[black]{n(y)-sw 30~mH}, à traduire \emph{il 
+        faisait 30~coudées (de long)} ; cf.~\S~~28.3.
+  \item [\lgn{63}]    \tl[black]{xbsw.t=f}, thématisation sans 
+        \tl[black]{jr} ; comme dans la représentation traditionnelle 
+        des dieux égyptiens, le serpent est doté d'une barbe postiche
+  \item [\lgn{64}]    \tl[black]{sxr} \vl{3}, \emph{recouvrir}
+  \item [\lgn{65}]    \tl[black]{nbw}, \emph{or} ; 
+        \tl[black]{jn<H>.wy=fy}, \emph{ses sourcils} ; 
+        \tl[black]{xsbd}, \emph{lapis-lazuli}
+  \item [\lgn{66}]    \tl[black]{aro} \vl{3}, \emph{se recourber}, 
+        \emph{se dresser (comme un cobra)} ; \tl[black]{xnt}, 
+        \emph{l'avant}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:n +l\lgn{53}+s s-s-Aa18-A-A2 n w-A1
+    \end{hieroglyph}
+
+    \tl{aHa\col n \lgn{53} ssA\col n(=j) wj}
+
+    \tg{accompli narratif agentiel}
+
+    \td{Alors, je me rassasiai.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      r:a:n A1 r tA:N23*1 +l\lgn{54}+s n wr:r Hr:1 a:1 w-\!\!y:.-A1
+    \end{hieroglyph}
+
+    \tl{rd\col n=j r tA n(-nty.t) \zero wr(=w) Hr a.wy=j}
+
+    \tg{accompli agentiel / circonstancielle causale avec accompli 
+        des intransitifs}
+
+    \td{J'en posai (une partie) à terre parce que c'était (trop) 
+        lourd pour mes bras.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{55}+s Sd:d-t:a-A1 DA-A-Z9:xt s-xpr-r:n-A1 x:t-Q7
+      ir:n-A1 +l\lgn{56}+s zb:wr-n:Z9*t-Q7 n nTr-1:3
+    \end{hieroglyph}
+
+    \tl{\lgn{55} (m-xt) Sd.t DA / sxpr\col n=j x.t / jr\col n=j 
+        \lgn{56} sb-n(y)-sD.t n nTr.w}
+
+    \tg{circonstancielle en protase avec infinitif / 
+        séquence d'accomplis agentiels}
+
+    \td{Après m'être saisi d'un bâton à feu, je fis naître 
+        une flamme, et accomplis l'holocauste pour les dieux.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:n sDm-m n:\!A1 +l\lgn{57}+s x:r-P8-E23-w-A2 q:r-i-E21-A24
+      i-b-+l\lgn{58}+s-E8-k'-w-A1 wA-A-w-mw p:W +l\lgn{59}+s 
+      n M14-wr-r:N36
+    \end{hieroglyph}
+
+    \tl{aHa\col n sDm\col n=j \lgn{57} xrw orj jb\lgn{58}=kw wAw pw, 
+        \lgn{58} n(y) WAD-wr}
+
+    \tg{accompli narratif agentiel / accompli des intransitifs / 
+        PPN complétive}
+
+    \td{Alors, j'entendis la voix du tonnerre et supposai que c'était 
+        une vague de la mer.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      xt:t*1:3 Hr-1 gm-m-gm-m-Z9 +l\lgn{60}+s tA:N23*1 Hr-1 
+      mn:n-mn:n-D54
+    \end{hieroglyph}
+
+    \tl{xt Hr gmgm / \lgn{60} tA Hr mnmn}
+
+    \tg{séquence de progressifs}
+
+    \td{Le bois craquait, la terre tremblait.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      k':f-S28 n:\!A1 +l\lgn{61}+s Hr-1-A1
+      gm-m n:\!A1 H-f-A-w-I15 +l\lgn{62}+s p-w
+      i-w-f m ii-i-t:D54
+    \end{hieroglyph}
+
+    \tl{kf\col n=j \lgn{61} Hr=j / gm\col n=j HfAw \lgn{62} pw / 
+        jw=f m jj.t}
+
+    \tg{séquence d'accomplis agentiels / PPN complétive / 
+        progressif interne séquentiel}
+
+    \td{Je découvris mon visage et constatai que c'était un serpent 
+        qui venait.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      n:ns-sw-W +l\lgn{63}+s V22:a-10*10:10
+      x-b-z:\!w-t:Sny-f wr:r-s +l\lgn{64}+s r mH:a:(1-1)
+    \end{hieroglyph}
+
+    \tl{n(y)-sw \lgn{63} 30~mH / 
+        xbsw.t=f, \zero wr(=w) s(.y) \lgn{64} r 2~mH}
+
+    \tg{PPN exprimant l'attribution / thématisation sans 
+        \tl[Gramm]{jr}, accompli des intransitifs}
+
+    \td{Il faisait \num{30}~coudées (de long) ; sa barbe, elle 
+        mesurait plus de \num{2}~coudées.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      H-a:F51-3:f z:x:r-w-T11-A24 +l\lgn{65}+s m nbw:N33:3
+      i-in:n-D13:y-f:y m x-s-b-d:N33:3
+    \end{hieroglyph}
+
+    \tl{Haw=f sxr=w \lgn{65} m nbw, jn(H).wy=fy, m xsbd}
+
+    \tg{accompli non agentiel / PPA sans LV}
+
+    \td{Son corps était recouvert d'or, ses sourcils étaient 
+        de lapis-lazuli \\
+        (\emph{ou} ses sourcils, de lapis-lazuli \emph{?}}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{66}+s mA-mAa:a-H2 a:r:q-V12:Y1 sw-w r xnt-n:t
+    \end{hieroglyph}
+
+    \tl{mAa aro(=w) sw r xnt}
+
+    \tg{accompli des intransitifs}
+
+    \td{La tête s'était dressée vers l'avant.}%
+  \end{hierobox}
+}
+
+\section{Lignes 67 à 76 (jusqu'à \tl[black]{wj})}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage07}
+  \caption{Lignes 67 à 76}
+  \label{fig:img07}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{67}]    on attendrait \tl[black]{aHa\col n} plutôt que 
+        \tl[black]{jw} ; \tl[black]{wpj} \vi{3}, \emph{ouvrir}
+  \item [\lgn{69}]    \tl[black]{(j)n-m(j)}, etc., proposition 
+        argumentative à prédicat nominal interrogatif
+  \item [\lgn{70}]    \tl[black]{wdf} \vl{3}, tarder, 
+        +\,\tl[black]{m}, \emph{à}
+  \item [\lgn{72}]    \tl[black]{rd(w)=j}, prospectif ancien employé 
+        comme prospectif autonome ; \tl[black]{rx}, dans le sens de 
+        \emph{se retrouver} ; \tl[black]{ss}, \emph{cendre}
+  \item [\lgn{73-74}] \tl[black]{jw mdw=k}, erreur pour 
+        \tl[black]{jw mdw=f}
+  \item [\lgn{74}]    le signe de l'homme, après \tl[black]{sDm} est 
+        une erreur du scribe pour le déterminatif de l'homme portant 
+        la main à la bouche
+  \item [\lgn{75}]    \tl[black]{m-bAH=k}, erreur pour 
+        \tl[black]{m-bAH=f}
+  \item [\lgn{76}]    \tl[black]{xm} \vl{2}, \emph{devenir ignorant}, 
+        dans le sens de \emph{perdre connaissance}, \emph{s'évanouir} ; 
+        le signe de la négation est le déterminatif du verbe
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \lgn{67}\red{\begin{hieroglyph}
+      $r-i-w wp:p-Z9:n:f-$b
+    \end{hieroglyph}}
+    \begin{hieroglyph}
+      r*1:f r-A1 i-W A1 +l\lgn{68}+s Hr:1 X:t*1-A1 m-b-bA-A-H-D53:Y1-f
+    \end{hieroglyph}
+
+    \tl{\red{jw wp\col n=f} r(A)=f r=j / jw=j \lgn{68} Hr X.t=j m-bAH=f}
+
+    \tg{Accompli narratif agentiel / PPA sans LV séquentielle}
+
+    \td{Alors, il ouvrit sa gueule vers moi alors que j'étais sur 
+        mon ventre devant lui}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{69}+s D:\!\!\!d\s1 f:n-A1
+    \end{hieroglyph}
+
+    \tl{\lgn{69} Dd=f n=j}
+
+    \tg{}
+
+    \td{Il me dit :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      n-m:a-ini:\!n t-w zp:y n:D:\!\!z-G37
+      +l\lgn{70}+s n-m:a ini:\!n t-w
+    \end{hieroglyph}
+
+    \tl{\og (j)n-m(j) jn(w) tw sp-2, nDs / 
+        \lgn{70} (j)n-m(j) jn(w) tw ?}
+
+    \tg{PPN argumentative interrogative avec participe perfectif actif}
+
+    \td{Qui t'a amené (bis), petit, qui t'a amené ?}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-r w-d:f-gb-D54 +l\lgn{71}+s k' m D:\!\!\!d\s1 n-A1 ini:\!n t-w 
+      r iw:N23*1 p:n +l\lgn{72}+s r:a A1 r:x-Y1:k' t-w i-w-k' m z:z-Q7
+    \end{hieroglyph}
+
+    \tl{jr wdf(w)\lgn{71}=k m Dd n=j jn(w) tw r jw pn / 
+        \lgn{72} rd(w)=j rx=k tw jw=k m ss}
+
+    \tg{circonstancielle finale en protase au prospectif ancien, 
+        participe perfectif actif / apodose au prospectif ancien 
+        + CO au prospectif et PPA sans LV séquentielle}
+
+    \td{Si tu tardes à me révéler celui qui t'a amené sur cette île, 
+        je ferai que tu te retrouves en cendres.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{73}+s xpr-r:t m n:t*y n' U2:ir-A-t:f
+    \end{hieroglyph}
+
+    \tl{\lgn{73} xpr(w).t m nty n mA t f \fg}
+
+    \tg{participe perfectif actif / syntagme nominal en 
+        \tl[Gramm]{nty}+négation de \dots}
+
+    \td{C'est ce qu'il advient de celui qui \dots}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-W md-d-+l\lgn{74}+s-w-A2 k' n:\!A1 nn w-A1 Hr:1 F21-m A1 
+      +l\lgn{75}+s s-t
+    \end{hieroglyph}
+
+    \tl{jw mdw\lgn{74}=<f> n=j / nn wj Hr sDm \lgn{75} s.t}
+
+    \tg{PPA sans LV / négation du prospectif !?}
+
+    \td{Son discours m'était adressé, mais je ne l'entendais pas.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-w A1 m b-bA-A-H-D53-Y1:k'
+    \end{hieroglyph}
+
+    \tl{jw=j m-bAH=<f>}
+
+    \tg{PPA sans LV}
+
+    \td{j'étais devant lui}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{76}+s x-m-nn w-A1
+    \end{hieroglyph}
+
+    \tl{\lgn{76} xm\col n(=j) wj}
+
+    \tg{accompli agentiel}
+
+    \td{Je m'étais évanoui.}%
+  \end{hierobox}
+}
+
+\section{Lignes 76 à 88}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage08}
+  \caption{Lignes 76 à 88}
+  \label{fig:img08}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{76}]    \tl[black]{aHa\col n rd=f}, erreur pour 
+        \tl[black]{aHa\col n rd<\col n>=f}
+  \item [\lgn{77}]    \tl[black]{jt=f} pour \tl[black]{jt<\col n>=f}
+  \item [\lgn{78}]    \tl[black]{snDm} \vcl{3}, \emph{s'asseoir}, 
+        \emph{résider}
+  \item [\lgn{78-79}] \tl[black]{wAH=f} pour \tl[black]{wAH<\col n>=f}
+  \item [\lgn{79}]    \tl[black]{dmj}, dans le sens de \emph{faire du 
+        mal} (traité ici comme un verbe \emph{3-inf})
+  \item [\lgn{80}]    \tl[black]{jtj} \vi{3}, \emph{prendre}, 
+        +\,\tl[black]{m}, \emph{de} (quelqu'un), avec un complément 
+        d'objet \emph{\og quelque chose \fg} sous-entendu, dans le 
+        sens de \emph{mutiler} quelqu'un
+  \item [\lgn{85}]    \tl[black]{gs}, \emph{côté}, \emph{bord} ; 
+        \tl[black]{gs=fy}, pour \tl[black]{gs=f}
+  \item [\lgn{85-86}] \tl[black]{nwy}, \emph{eau}, \emph{flot}
+  \item [\lgn{87}]    \tl[black]{xAm} \vl{3}, \emph{courber}, 
+        \emph{fléchir} (les bras), dans la posture traditionnelle, 
+        selon l'\kmt{} ancienne, de la personne s'adressant à un 
+        supérieur ou à un dieu ; cf. ci-contre le déterminatif usuel 
+        de \tl[black]{dwA}, \emph{adorer}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:n r:a:f w-A1 +l\lgn{77}+s m r*1:f
+    \end{hieroglyph}
+
+    \tl{aHa<\col n> rn(\col n)=f wj \lgn{77} m r(A)=f}
+
+    \tg{accompli narratif agentiel}
+
+    \td{Alors, il me plaça dans sa gueule}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      iTi:t-A24-f w-A1 r st-t*pr:f +l\lgn{78}+s n:t s-nDm-m-Xrd 
+    \end{hieroglyph}
+
+    \tl{jt(\col n)=f wj r s.t=f \lgn{78} n(y).t snDm}
+
+    \tg{accompli agentiel}
+
+    \td{Il m'amena dans son lieu de résidence (\litt résider)}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      wA-A-H-wAH-+l\lgn{79}+s-A24-f w-A1 nn d-mi-i-t:a-A1
+    \end{hieroglyph}
+
+    \tl{wAH\lgn{79}<\col n>=f wj nn dmj.t=j}
+
+    \tg{accompli agentiel / négation séquentielle en 
+        \tl[Gramm]{nn}+infinitif}
+
+    \td{Il me déposa sans me faire de mal.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      w-DA-+l\lgn{80}+s-A-Y1:k'-w-A1 nn iTi:t*t-A24 i-m-A1
+    \end{hieroglyph}
+
+    \tl{wAH\lgn{80}=kw nn jt.t jm=j}
+
+    \tg{accompli non agentiel / négation séquentielle en 
+        \tl[Gramm]{nn}+infinitif}
+
+    \td{Je fus rassuré sans être mutilé.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \lgn{81}\red{\begin{hieroglyph}
+      $r-i-w wp:p-Z9:n:f-$b
+    \end{hieroglyph}}
+    \begin{hieroglyph}
+      r*1:f r-A1 i-w-A1 +l\lgn{82}+s Hr:1 X:t*1-A1 m-b-bA-A-H-D53-Y1:f
+    \end{hieroglyph}
+
+    \tl{\lgn{81} \red{jw wp\col n=f} r(A)=f r=j / jw=j \lgn{82} Hr X.t=j 
+        m-bAH=f}
+
+    \tg{accompli agentiel / PPA sans LV séquentielle}
+
+    \td{Il ouvrit sa gueule vers moi alors que j'étais sur mon 
+        ventre devant lui.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{83}+s aHa-a:n D:d n:f n:A1
+      n-m:a ini-n:t*W zp:1*1 +l\lgn{84}+s n:D:z-G37-A1
+    \end{hieroglyph}
+
+    \tl{\lgn{83} aHa\col n Dd\col n=f n=j : \og (j)n-m(j) jn(w) tw 
+        sp-2, \lgn{84} nDs}
+
+    \tg{accompli narratif agentiel / PPN argumentative interrogative 
+        avec participe perfectif actif}
+
+    \td{Alors, il me dit : \og Qui t'a amené (bis), petit ?}%
+  \end{hierobox}
+}
+
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      n-m:\!\!a ini:n-t-\!w r iw:N23*1 p:n +l\lgn{85}+s n M14-wr:r-N36 
+      n:t*y gs:1-f:y m n:U19-nw-W+l\lgn{86}+s-i-i-mw
+    \end{hieroglyph}
+
+    \tl{(j)n-m(j) jn(w) tw r jw pn \lgn{85} n(y) WAD-wr nty gs=fy m 
+        nw\lgn{86}y}
+
+    \tg{PPN argumentative interrogative 
+        avec participe perfectif actif / syntagme relatif en 
+        \tl[Gramm]{nty}+PPA sans LV}
+
+    \td{Qui t'a amené sur cette île de la mer dont les bords sont 
+        dans les flots ?}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:n w-S-b-Z9-A2-n:A1 +l\lgn{87}+s n:f s-t 
+      a:1-w-\!\!y:.-i-i-A1 x-xA-A-m-D41 +l\lgn{88}+s 
+      m-b-bA-A-H-D53:1-f
+    \end{hieroglyph}
+
+    \tl{aHa\col n wSb\col n=j \lgn{87} n=f s.t, a.wy=j xAm(=w) 
+        \lgn{88} m-bAH=f}
+
+    \tg{accompli narratif agentiel / accompli non agentiel séquentiel}
+
+    \td{Alors, je lui répondis ceci, mes bras courbés.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      D:\!\!\!d-A1 n:f
+    \end{hieroglyph}
+
+    \tl{Dd\col n=j n=f}
+
+    \tg{accompli agentiel}
+
+    \td{Je lui dit :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{12}+s 
+    \end{hieroglyph}
+
+    \tl{\lgn{12} }
+
+    \tg{}
+
+    \td{}%
+  \end{hierobox}
+}
+
+\section{Lignes 89 à 110}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage09a}
+  \includegraphics[scale=1.0]{naufrage09b}
+  \caption{Lignes 89 à 110}
+  \label{fig:img09}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{89}]     \tl[black]{jnk pw hA=kw}, cf.~\S~~47.5 ; 
+        les lignes 89-110 sont un doublet partiel des 1.~24-41 
+        (noter les différences)
+  \item [\lgn{99-100}] \tl[black]{makA} et \tl[black]{nxt} sont 
+        coordonnés
+  \item [\lgn{101}]    \tl[black]{wxA}, \emph{ignorant}, 
+        \emph{incompétent}
+  \item [\lgn{108}]    \tl[black]{Hr-xw}, \emph{sauf}, \emph{excepté} 
+        (préposition)
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{89}+s nw:k'-A1 p-w h-A-D54-k'-A1 +l\lgn{90}+s r 
+      b-i-N41:F18-xAst m wp:p-w-t:D54 +l\lgn{91}+s sAq:sAq-G7
+      m-d:p*t-P1 n:t +l\lgn{92}+s mH:a 100-10:10 m Aw:W s mH:a 
+      10:10-10:10 m s-x:w+l\lgn{93}+s-iab:Y1 s s-qd-d-A30-A1 
+      100-10:10 i-m s +l\lgn{94}+s m s-t:p-w-U21:Y1 n:km-m-t:niwt
+    \end{hieroglyph}
+
+    \tl{\lgn{89} jnk pw, hA=kw \lgn{90} r bjA m wpw.t \lgn{91} jty m 
+        dp.t n(y).t 120 mH m Aw=s, 40 mH m sxw=s, 120 sod jm=s m stpw 
+        n(y) Km.t}
+
+    \tg{construction narrative PPN + PPA séquentielle à l'accompli des 
+        intransitifs}
+
+    \td{Me voici parti vers les mines en mission du souverain, dans 
+        un navire de \num{120}~coudées de long, \num{40}~coudées de 
+        large, \num{120}~marins de l'élite de l'\kmt à son bord.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{95}+s mA:ir-A s-n:3 p*t:pt mA:ir-A s-n:3 tA:N23*1 
+      +l\lgn{96}+s m-a:k'-A-A24 ib-1 s-n:3 r mA:ir-A+l\lgn{97}+s-w-F27:3
+    \end{hieroglyph}
+
+    \tl{\lgn{95} (m) mA=sn p.t, mA=sn tA, \lgn{96} \zero makA(=w) 
+        jb=sn r mA(j)\lgn{97}.w}
+
+    \tg{circonstancielle temporelle en protase avec séquence de 
+        prospectifs / apodose à l'accompli des intransitifs}
+
+    \td{Losrsqu'ils voyaient le ciel, lorsqu'ils voyaient la terre, 
+        leurs c\oe{}ur étaient plus braves (que ceux) de lions.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \red{\begin{hieroglyph}
+      $r-z:r-E27-A2 s-n:3-$b
+    \end{hieroglyph}}%
+    \begin{hieroglyph}
+      D:\!\!\!a\s1-TAw +l\lgn{98}+s n' ii-i-t:D54-f 
+      n:S-n:y-E21 n' xpr-r*t:f !
+    \end{hieroglyph}
+
+    \tl{\red{sr=sn} Da \lgn{98} n jjt=f, nSny n xprt=f} \ex
+
+    \tg{aoriste exclamatif / deux négations séquentielles en 
+        \tl[Gramm]{n wnmt=f}}
+
+    \td{Ils prédisaient une tempête avant qu'elle ne fût venue, 
+        un orage avant qu'il ne fût advenu !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{99}+s wa:a-A1-1 i-m nb m-a:k'-A-A24 ib*1:f
+      +l\lgn{100}+s n:xt:x*t-A24 a*1:f r sn-n:nw-w-A1-1*1:f
+    \end{hieroglyph}
+
+    \tl{\lgn{99} wA s jm(=sn) nb, makA(=w) jb=f \lgn{100} nxt(=w) a=f 
+        r sn-nw.w=f}
+
+    \tg{thématisation sans \tl[Gramm]{jr} / séquence d'accomplis des 
+        intransitifs}
+
+    \td{Chacun d'entre eux, son c\oe{}ur était plus brave, son bras 
+        plus puissant que (ceux de) ses compagnons.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      nn +l\lgn{101}+s w-x-xA-wr:A1 m Hr:r-ib-s-n:3
+    \end{hieroglyph}
+
+    \tl{nn (\zero wn=w) \lgn{101} wxA m-Hr(y)-jb=sn}
+
+    \tg{négation existentielle}
+
+    \td{Il n'y avait pas d'incompétant parmi eux.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      D:a-TAw +l\lgn{102}+s pr-r:D54 i-w-n:=3 m M14-wr-r:N36 
+      +l\lgn{103}+s tp:1-a:1 D61-D54-n:3 tA:N23*1
+    \end{hieroglyph}
+
+    \tl{Da \lgn{102} pr(=w) / jw=n m WAD-wr \lgn{103} tp-a sAH=n tA}
+
+    \tg{accompli des intransitifs / PPA sans LV séquentielle / 
+        circonstancielle temporelle au prospectif}
+
+    \td{Une tempête survint alors que nous étions en mer, avant que 
+        nous eussions touché terre.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      f-A-\!\!t:.-A9:\!\!a +l\lgn{104}+s TAw-w ir:f wHm-m-i-i-t-A2
+      n:U19-nw:w-i-i-t-mw +l\lgn{105}+s i-m f n:t mH:a 1:1-1:1-1:1-1:1
+    \end{hieroglyph}
+
+    \tl{fAt \lgn{104} TAw, jr=f wHm.yt / nw.yt \lgn{105} jm=f 
+        n(y).t 8~mH}
+
+    \tg{circonstancielle en protase avec forme \tl[Gramm]{wnmt=f} 
+        et aoriste séquentiel / apodose = PPA sans LV}
+
+    \td{À peine le vent se fût-il levé en redoublant (\litt 
+        faisant un redoublement), qu'une lame de \num{8}~coudées y 
+        apparut (\litt fut dans lui).}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-n xt:t*1 H-H A20-a +l\lgn{106}+s n:A1-s
+    \end{hieroglyph}
+
+    \tl{jn xt HH(w) \lgn{106} n=j s(.y)}
+
+    \tg{PPN argumentative, explicitation du sujet au participe 
+        perfectif actif}
+
+    \td{C'est un espar qui m'en préserva (\litt brisa sa force 
+        pour moi).}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:n d:p*t-P1 m-\!\!t:.-Z6:t
+    \end{hieroglyph}
+
+    \tl{aHa\col n dp.t mwt=t(j)}
+
+    \tg{accompli narratif des intransitifs}
+
+    \td{Alors, le navire périt.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{107}+s n:t-tyw-3 i-m-s n':z:p*zp wa:a-A1-1 i-m 
+      +l\lgn{108}+s Hr-1 x*x:x-A1
+    \end{hieroglyph}
+
+    \tl{\lgn{107} nty.w jm=s, n sp wa s jm(=sn) \lgn{108} Hr-xw=j}
+
+    \tg{thématisation sans \tl[Gramm]{jr}, négation de l'accompli}
+
+    \td{Quant à ceux qui s'y trouvaient, aucun d'entre eux 
+        ne survécut sauf moi.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      m-a:k' w-A1 r-gs*1:=k'
+    \end{hieroglyph}
+
+    \tl{mk, wj r-gs=k} \ex
+
+    \tg{PPA sans LV exclamative}
+
+    \td{Vois, je suis à côté de toi !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \lgn{109}\red{\begin{hieroglyph}
+      $r-aHa-a:n ini-n:k'-w-A1-$b
+    \end{hieroglyph}}
+    \begin{hieroglyph}
+      r iw:N23*1 p:n +l\lgn{110}+s i-n wA-A-w-mw-1:n M14-wr:r-N36
+    \end{hieroglyph}
+
+    \tl{\lgn{109} \red{aHa\col n jn=kw} r jw pn \lgn{110} jn wAw n(y) WAD-wr}
+
+    \tg{accompli narratif avec complément d'agent}
+
+    \td{Alors je fus amené sur cette île par une vague de la mer.}%
+  \end{hierobox}
+}
+
+\section{Lignes 111 à 123}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage10}
+  \caption{Lignes 111 à 123}
+  \label{fig:img10}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{111}] le scribe, voulant écrire \tl[black]{m snD.(w), 
+        m snD.(w)}, n'a écrit que \tl[black]{m snD.(w), m}, s'avisant, 
+        après avoir écrit le second \tl[black]{m} (qu'il a omis 
+        d'effacer), qu'il pouvait employer \tl[black]{sp-sn} au lieu 
+        de répéter \tl[black]{m snD.(w)}
+  \item [\lgn{112}] \tl[black]{m A(y)t(w) Hr=k}, vétitif du verbe 
+        \tl[black]{A(y)t} \vl{3}, \emph{pâlir} ; pour la construction 
+        avec un pseudo-complément d'objet, cf.~\S~~25.2,~b
+  \item [\lgn{114}] \tl[black]{jw pn n(y) k3}, \emph{cette île fantôme} 
+        (\litt \emph{cette île d'apparence})
+  \item [\lgn{116}] \tl[black]{mH}, \vl{2}, \emph{emplir}, 
+        +\,\tl[black]{Xr}, \emph{de} ; \tl[black]{nfr.t}, \emph{biens}, 
+        \emph{produits}, \emph{bonnes choses}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{111}+s D:\!\!d-i-n:f n-A1
+    \end{hieroglyph}
+
+    \tl{\lgn{111} Dd\col jn=f n=j :}
+
+    \tg{forme narrative \tl[Gramm]{wnm\col jn=f} introduisant un 
+        discours direct}
+
+    \td{Alors, il me dit : }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      m G54-A2 m zp:y +l\lgn{112}+s n:D-z:G37-A1 m A-t-\!w-A24 Hr*1:k'
+    \end{hieroglyph}
+
+    \tl{\og m snD(w) {m} sp-2 \lgn{112} nDs} \ex
+    \tl{m A(y)tw Hr=k} \ex
+
+    \tg{séquence d'impératifs vétitifs}
+
+    \td{\og n'aie pas peur (bis), petit ! Ne palis pas !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{113}+s p-H-F22-n:k' w-A1
+    \end{hieroglyph}
+
+    \tl{\lgn{113} pH\col n=k wj}
+
+    \tg{accompli agentiel}
+
+    \td{Tu m'as atteint.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      m-a:k' nTr-1 r:a-n:f +l\lgn{114}+s anx-n:x-k'
+      ini-n:f t-\!w r iw:N23*1 p:n n:kA*1
+    \end{hieroglyph}
+
+    \tl{mk, nTr rd\col n=f \lgn{114} anx=k / jn\col n=f tw r jw pn 
+        n(y) kA}
+
+    \tg{accompli agentiel de verbe opérateur + CO au prospectif 
+        complétif / accompli agentiel}
+
+    \td{Vois, le dieu a permis que tu vives ! Il t'a amené sur cette 
+        île fantôme (\litt d'apparence).}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{115}+s nn n:t*t nn s-t m-Xn:n-nw-w-pr:f
+      +l\lgn{116}+s i-w-f mH:Y1 Xr:r nfr-f:r:t-Y1:3 nb:t
+    \end{hieroglyph}
+
+    \tl{\lgn{115} nn (\zero wn=w) nty nn s.t m-Xnw pr=f / 
+        \lgn{116} jw=f mH(=w) Xr nfr.t nb.t}
+
+    \tg{négation existentielle + syntagme relatif en \tl[Gramm]{nty} + 
+        négation de PPA sans LV / accompli non agentiel}
+
+    \td{Il n'y a rien qui ne s'y trouve pas, elle est emplie de toutes 
+        sortes de bonnes choses.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{117}+s m-a:k' t-w r ir:t Abd:\!dwA-d:ra*1 Hr-1 
+      +l\lgn{118}+s Abd:\!dwA-d:ra*1 r:km-m-t:1-k' 
+      Abd:\!dwA-d:ra-1*1*1*1 +l\lgn{119}+s m-Xn:n-nw-w-pr:n 
+      iw:N23*1 p:n
+    \end{hieroglyph}
+
+    \tl{\lgn{117} mk, tw r jr.t Abd Hr \lgn{118} Abd r km.t=k 4 Abd 
+        \lgn{119} m-Xnw n(y) jw pn} \ex
+
+    \tg{allatif exclamatif / circonstancielle temporelle avec forme 
+        \tl[Gramm]{wnmt=f}}
+
+    \td{Vois, tu vas passer mois après mois jusqu'à ce que tu aies 
+        atteint quatre mois à l'intérieur de cette île !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-w +l\lgn{120}+s d:p*t-P1 r ii-i-t:D54 m-Xn:n-nw-w-pr
+      +l\lgn{121}+s s-qd-d-w-A30-A1:3 i-m-s r:x:Y1:n-k'
+    \end{hieroglyph}
+
+    \tl{jw \lgn{120} dp.t r jj.t m Xnw \lgn{121} sod.w jm=s 
+        rx(w.w)\col n=k}
+
+    \tg{allatif, participe perfectif passif agentiel}
+
+    \td{Un navire va venir du pays, des marins que tu connais à son 
+        bord.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{122}+s Sm-m-D54:k' H-n:a-s-n:3 r-Xn:n-nw-w-pr
+      +l\lgn{123}+s m-t-Z6-t:k' m niwt:t*1-k'
+    \end{hieroglyph}
+
+    \tl{\lgn{122} Sm=k Hna=sn r Xnw / \lgn{123} mwt=k m njw.t=k} \ex
+
+    \tg{séquence de prospectifs}
+
+    \td{Tu rentreras au (\litt partiras vers) pays avec eux, 
+        tu mourras dans ta ville !}%
+  \end{hierobox}
+}
+
+\section{Lignes 124 à 132 (jusqu'à \tl[black]{wa.t})}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage11}
+  \caption{Lignes 124 à 132}
+  \label{fig:img11}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{124}]     de la 1.~124 à la 1.~176, le texte est écrit 
+        horizontalement ; \tl[black]{rSw} \vi{3}, \emph{se réjouir}, 
+        \emph{devenir réjoui}
+  \item [\lgn{125}]     le serpent va raconter au naufragé, pour le 
+        réconforter, une fable morale analogue à celle que raconte au 
+        début du texte, dans le même but, le \tl[black]{Smsw jor} au 
+        \tl[black]{HAty-a} ; \tl[black]{mjt.t jry xpr(=w)}, cf.~1.~22
+  \item [\lgn{127}]     \tl[black]{km} \vl{2}, \emph{compléter}, 
+        \emph{atteindre le nombre de}
+  \item [\lgn{127-128}] \tl[black]{m sn-nw.w=j Hna msw.w=j}, rendre 
+        \tl[black]{m \dots{} Hna} par \emph{tant \dots{} que} 
+        (\litt \emph{en tant que \dots{} et})
+  \item [\lgn{128}]     \tl[black]{sxA} \vl{3}, \emph{mentionner}, 
+        +\,\tl[black]{n}, \emph{à}
+  \item [\lgn{129}]     \tl[black]{kt(y).t}, \emph{petite} ; 
+        \tl[black]{jnj}, dans le sens d'\emph{acquérir}, 
+        \emph{se procurer} ; \tl[black]{sSA}, \emph{prière} ; 
+        peut-être pour \tl[black]{SsA}, \emph{habileté}, \emph{ruse} ; 
+        la présence de la petite fille en question, seul être humain 
+        sur l'île, aurait ainsi résulté de l'utilisation, par le 
+        serpent, de ses pouvoirs magiques
+  \item [\lgn{130}]     \tl[black]{prj \dots{} m x.t}, 
+        \emph{s'embraser} (\litt \emph{sortir en flamme(s)}) ; 
+        \tl[black]{nA}, pour \emph{ceux-ci} (se réfère aux congénères 
+        du serpent précédemment mentionnés) ; \tl[black]{m-a}, 
+        \emph{à cause de} ; \tl[black]{xpr\col n}, emploi impersonnel 
+        de la forme nominale accomplie de \tl[black]{xpr}, \litt 
+        \emph{que c'est arrivé} ; \tl[black]{r=s}, probablement pour 
+        \tl[black]{r=s(n)}, \emph{à eux} (\litt \emph{contre eux}) ; 
+        \tl[black]{Hna} pour \tl[black]{Hna(=sn)}
+  \item [\lgn{131}]     \tl[black]{Am\col ny} pour 
+        \tl[black]{Am\col n=sn} (forme nominale) ; \tl[black]{Am} 
+        \vl{2}, \emph{brûler} ; \tl[black]{m(w)t}, dans le sens de 
+        \emph{mourir (de chagrin)}
+  \item [\lgn{132}]     \tl[black]{st}, var. du pronom dépendant 
+        \tl[black]{sn} se référant à une collectivité ; 
+        \tl[black]{X3y.t}, \emph{tas de cadavres}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{124}+s r:S-D20-A2-w-y s-D:d-A2 d:p*t-ns-A2-n:f z:n-X5:D54 
+      x:t-Y1:3 Ab-m:r-G37 
+    \end{hieroglyph}
+
+    \tl{\lgn{124} rS={w}y sDd(w) dp t n=f sn x.t mr}
+
+    \tg{}
+
+    \td{\saispas}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{125}+s s-D:d-A2-A1 r:f n:k' mi-i-t*t:Y1 i-r:y xpr:r-w 
+      m iw-N23*1 p:n 
+    \end{hieroglyph}
+
+    \tl{\lgn{125} sDd=j (j)rf n=k mjt.t jr(y).y xprw(.t) m jw pn}
+
+    \tg{}
+
+    \td{Je vais te raconter une chose semblable qui s'est produite 
+        sur cette île.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{126}+s wn:n-A1 i-m-f H-n:a sn-n:nw-w-A1*B1:3-A1 
+      X:r-d-w-A17-A1*B1:3 +l\lgn{127}+s m q-A-b-F46 s-n:3
+    \end{hieroglyph}
+
+    \tl{\lgn{126} wn=j jm=f Hna sn-nw.w=j Xrd.w \lgn{127} m-qAb=sn}
+
+    \tg{}
+
+    \td{Je m'y trouvais avec mes semblables, des enfants au milieu 
+        d'eux.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      km-m-Y1:n-n:3 H-f-A-W:I15 10*10*10*10:10*10*10-1*1*1*1:1*1*1 m 
+      +l\lgn{128}+s ms-s-w-A1*B1:3-A1 H-n:a sn-n:nw-w-A1*B1:3-A1
+    \end{hieroglyph}
+
+    \tl{km\col n=n 75 HfA.w m \lgn{128} msw.w=j Hna sn-nw.w=j}
+
+    \tg{}
+
+    \td{Nous avons atteint le nombre de \num{75}~serpents, tant mes 
+        descendants que mes compagnons.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      nn s-x-M12-A2-A1 n:k'+l\lgn{129}+s zA-t:B1-k':t*t-G37:B1 
+      ini-n:t-n:A1 m z:M8-A-F5-Y1
+    \end{hieroglyph}
+
+    \tl{nn sxA=j n=k \lgn{129} sA.t kt(y).t jn(w).t\col n=j m sSa}
+
+    \tg{}
+
+    \td{Je ne mentionnerai pas la petite fille que j'avais amenée par 
+        la prière.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \red{\begin{hieroglyph}
+      $r-aHa-a:n s-b-A-dwA-ra-$b
+    \end{hieroglyph}}
+    \begin{hieroglyph}
+      +l\lgn{130}+s h-A-W-D54 pr:r-D54:n n:A m-x:t-Q7 m-a:f
+    \end{hieroglyph}
+
+    \tl{aHa\col n sbA \lgn{130} hA=w / pr\col n nA m xt m-a=f}
+
+    \tg{}
+
+    \td{Alors une étoile est descendue et c'est à cause d'elle qu'ils 
+        se sont embrasés.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      xpr-r:n r-s nn w-A1 H-n:a +l\lgn{131}+s A-m-Q7-n:y nn w-A1 m 
+      Hr:r ib-s-n:3
+    \end{hieroglyph}
+
+    \tl{xpr\col n r=s(n) nn wj Hna(=sn) \lgn{131} Am=ny nn wj 
+        m-Hr(y)-jb=sn}
+
+    \tg{}
+
+    \td{C'est sans moi avec eux que ça leur est arrivé et c'est sans 
+        moi en leur sein qu'ils ont brûlé !}%
+  \end{hierobox}
+}
+
+\section{Lignes 132 à 142 \rem{(jusqu'à \tl[black]{=f})}}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage12}
+  \caption{Lignes 132 à 142}
+  \label{fig:img12}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{132}]     \tl[black]{jr on\col n=k}, \emph{si tu 
+        es brave} (\litt \emph{devenu brave}) ; \tl[black]{r(w)D} 
+        \vl{3}, \emph{devenir dur}, \emph{s'endurcir}
+  \item [\lgn{133}]     \tl[black]{mH}, \litt \emph{emplir} 
+        +\,\tl[black]{onj}, \emph{(l'espace entre) les bras}, 
+        +\,\tl[black]{m}, \emph{au moyen de (quelqu'un)}, pour 
+        \emph{embrasser (quelqu'un)}, dans le sens de \emph{serrer 
+        quelqu'un dans ses bras}, par opposition à \tl[black]{sn}, 
+        \emph{embrasser}, dans le sens de \emph{donner un baiser à 
+        (quelqu'un)}
+  \item [\lgn{136-137}] comprendre \tl[black]{wn=k(w), rf, dmA=kw} 
+        (protase) ; \tl[black]{dm3} \vl{3}, \emph{s'étendre}
+  \item [\lgn{138}]     devant \tl[black]{Dd=j rf n=k}, on peut 
+        supposer l'ommission, par exemple, de \tl[black]{aHa\col n 
+        Dd\col n=j n=f}
+  \item [\lgn{139-140}] \tl[black]{sSA}, pour \tl[black]{Ss3} \vl{3}, 
+        \emph{devenir conscient}, \emph{devenir informé}, 
+        +\,\tl[black]{m}, \emph{de}
+  \item [\lgn{140}]     \tl[black]{aA}, \emph{grandeur} ; ce qui 
+        est écrit \tl[black]{jnt} peut se lire \tl[black]{jn.t} ou 
+        \tl[black]{jn(t)=t(w)} ; \tl[black]{jbj}, pour 
+        \tl[black]{jbnw}, \emph{alun} (?) ; \tl[black]{Hknw}, 
+        \emph{huile}-hékénou (une huile employée dans le culte)
+  \item [\lgn{141}]     \tl[black]{jwdnb}, \emph{laudanum} ; 
+        \tl[black]{XsAy.t}, \emph{gomme}-khésayt (un produit nubien 
+        que les Égyptiens mâchaient pour se parfumer l'haleine après 
+        les repas) ; \tl[black]{snTr}, \emph{encens} (le signe 
+        \tl[black]{nTr}, en antéposition honorifique apparente, note 
+        simplement les consonnes \tl[black]{nTr} entrant dans la 
+        prononciation du mot) ; \tl[black]{gs.w-pr.w}, \emph{magasins 
+        des temples} (\litt \emph{les côtés des maisons})
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-r q:n-A24-n:k'-T12-A24 ib-1-k'
+    \end{hieroglyph}
+
+    \tl{jr on\col n=k r(w)D jb=k}
+
+    \tg{}
+
+    \td{Si tu es brave et que ton c\oe{}ur s'endurcit (, ton c\oe{}ur 
+        s'endurcira), }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{133}+s mH:Y1-k' q:n-i-D32-k' m-A17-A1*B1:3-k' 
+      s-n-D20-A2-k' +l\lgn{134}+s N41:t-B1-k' mA:ir-A-k' pr-1-k'
+    \end{hieroglyph}
+
+    \tl{\lgn{133} mH=k onj=k m Xrd.w=k / sn=k \lgn{134} Hm.t=k / 
+        mA=k pr=k}
+
+    \tg{}
+
+    \td{tu étreindras tes enfants et tu embrasseras ta femme !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      mA:ir-A-k' pr-1-k' nfr-f:r s-t r x:t-Y1:3 nb:t
+    \end{hieroglyph}
+
+    \tl{mA=k pr=k \saispas}
+
+    \tg{}
+
+    \td{Tu verras ta maison \saispas}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{135}+s p-H-pH-D54:k' Xn:n-nw-w-pr wn:n-k' i-m-f 
+      +l\lgn{136}+s m q-A-b-F46:D54 n sn-n:nw-w-A1*B1:3-k'
+    \end{hieroglyph}
+
+    \tl{\lgn{135} pH=k Xnw wn=k jm=f \lgn{136} m-oAb n(y) sn-nw.w=k \fg}
+
+    \tg{}
+
+    \td{Tu atteindras le pays et tu seras au milieu de tes 
+        semblables ! \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      wn:n-k' r:f +l\lgn{137}+s d-mA-A-U32-Y1-k'-W-A1 Hr-1 
+      X:t*1-A1 d-mi-i-D41:n-A1 +l\lgn{138}+s z:zA-A-t-w-N23:3 
+      m-b-bA-A-H-D53:Y1-f
+    \end{hieroglyph}
+
+    \tl{wn=k(w) (j)rf \lgn{137} dmA=kw Hr X.t=j / dmj\col n=j 
+        \lgn{138} sAtw m-bAH=f}
+
+    \tg{}
+
+    \td{Je me retrouvai étendu sur mon ventre. Je touchai le sol 
+        devant lui.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \red{\begin{hieroglyph}
+          $r-D:d-A1 r:f n:k'-$b
+    \end{hieroglyph}}
+
+    \tl{(aHa\col n Dd\col n=j n=f) \red{Dd=j (j)rf n=k}}
+
+    \tg{}
+
+    \td{(Alors, je lui dis) ce que je te dis :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{139}+s s-D:d-A2-A1 G30-Y1:3-k':n sAq-sAq-G7 a:A1 
+      z:S-A-Y1:f +l\lgn{140}+s m aA:a-A-Y1:k'
+    \end{hieroglyph}
+
+    \tl{\lgn{139} \og sDd=j bAw=k n jty / d=j SsA=f \lgn{140} m aA=k}
+
+    \tg{}
+
+    \td{\og Je raconterai ta puissance au souverain, je ferai en 
+        sorte qu'il soit informé de ta grandeur.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      a:A1 ini-n:t n:k' i-b-E8-i-Hnqt H-k':n-nw:W-N33:3 
+      +l\lgn{141}+s D54-w-d:n-b-N33:3 X:z-A-i-i-t-N33:3 
+      sn-n:t-r-tr-N33:3 n Aa13*1:3 pr:3 +l\lgn{142}+s s-Htp:t-p-w-Y1 
+      nTr-1 nb i-m-f
+
+    \end{hieroglyph}
+
+    \tl{d=j jn(t)=t(w) jbj, Hknw, \lgn{141} jwdnb, XsAy.t, snTr n(y) 
+        gs.w-pr.w \lgn{142} sHtpw nTr nb jm=f}
+
+    \tg{}
+
+    \td{Je ferai qu'on t'apporte de l'alun, de l'huile \emph{hékénou}, 
+        du laudanum, de la gomme \emph{khésayt} et de l'encens des
+        magasins des temples \uwave{dont chaque dieu se satisfait}.}%
+  \end{hierobox}
+}
+
+\section{Lignes 142 à 152}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage13}
+  \caption{Lignes 142 à 152}
+  \label{fig:img13}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{142-143}] \tl[black]{sDd} pour \tl[black]{sDd<=>} ; 
+        \tl[black]{xpr}, \emph{arriver}, +\,\tl[black]{Hr}, \emph{à}
+  \item [\lgn{143}]     \tl[black]{m}, dans le sens de \emph{ainsi 
+        que} ; \tl[black]{mAA}, \emph{voir}, +\,\tl[black]{m}, 
+        \emph{de} ; \tl[black]{bAw=f}, erreur pour \tl[black]{bAw=k}
+  \item [\lgn{144}]     \tl[black]{Njw.t}, \emph{la Ville} par 
+        excellence, la capitale du pays (au Nouvel Empire, désignation 
+        de Thèbes) ; \tl[black]{onb.t tA r-Dr=f}, \emph{le conseil du 
+        pays entier}, c'est-à-dire \emph{le gouvernement} ; 
+        \tl[black]{sft}, anc. \tl[black]{sfT} \vl{3}, 
+        \emph{sacrifier}, \emph{abattre}
+  \item [\lgn{145}]     lire \tl[black]{wSn=j n=k} ; \tl[black]{wSn} 
+        \vl{3}, \emph{sacrifier}, \litt \emph{tordre le cou}
+  \item [\lgn{146}]     \tl[black]{Haw}, \emph{bateau}
+  \item [\lgn{146-147}] \tl[black]{Atp}, \emph{charger}, 
+        +\,\tl[black]{Xr}, \emph{de}
+  \item [\lgn{147}]     noter que le déterminatif de \tl[black]{Km.t} 
+        est écrit comme le mot \tl[black]{njw.t}
+  \item [\lgn{148}]     \tl[black]{wA}, \emph{éloigné}, \emph{lointain}
+  \item [\lgn{149}]     \tl[black]{sbt} (anc. \tl[black]{sbT}) 
+        \vl{3}, \emph{rire}, + \tl[black]{m}, \emph{de} ; 
+        \tl[black]{nf}, \emph{(quelque chose d') insensé}
+  \item [\lgn{150}]     lire \tl[black]{(j)n wr n=k}, etc. ; 
+        \tl[black]{antyw}, \emph{myrrhe} ; lire \tl[black]{xpr=t(j) 
+        <m> nb}, etc. (avec \tl[black]{jn} non répété et 
+        \tl[black]{jw=k} sous-entendu)
+  \item [\lgn{151}]     \tl[black]{Pwn.t}, \emph{Pount} (nom d'un 
+        pays riverain de la Mer rouge, dans l'actuel Soudan, où les 
+        Égyptiens allaient chercher l'encens et la myrrhe) ; lire 
+        \tl[black]{antyw, n=j-jm(y) sw}
+  \item [\lgn{152}]     \tl[black]{Dd}, ici dans le sens de 
+        \emph{parler de} ; \tl[black]{bw}, chose, dans le contexte, 
+        \emph{produit} ; \tl[black]{wr}, \emph{principal}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      s-D:d-A1 r:f xpr-r:t-Y1:3 +l\lgn{143} Hr-1-A1 m mA:ir-A-t:3:n-A1 
+      m G30-Y1:f
+    \end{hieroglyph}
+
+    \tl{sDd(=j) (j)rf xpr(w).t \lgn{143} Hr=j m mA(w).t\col n=j m bAw=k}
+
+    \tg{}
+
+    \td{Je raconterai ce qui m'est arrivé ainsi que ce que j'ai vu de 
+        ta puissance.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      nTr dwA-A-A30 t-w n:k' +l\lgn{144} m niwt:t*1 x*t:f Hr-1 
+      q:n-b-t-O38-A1:3 tA:N23*1 r-Dr:r-f
+    \end{hieroglyph}
+
+    \tl{dwA=tw n=k nTr \lgn{144} m Njw.t xft-Hr onb.T-tA r-Dr=f}
+
+    \tg{}
+
+    \td{Tu seras remercié devant le gouvernement (\litt le conseil du 
+        pays tout entier).}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \red{\begin{hieroglyph}
+      $r-z:f-t:T30-A24-A1-$b
+    \end{hieroglyph}}
+    \begin{hieroglyph}
+      +l\lgn{145} n:k' D52-E1-1:3 m zb-G37:n-Z9-t-Q7
+    \end{hieroglyph}
+
+    \tl{sft=j \lgn{145} n=k kA.w m sb-n(y)-sD.t}
+
+    \tg{}
+
+    \td{Je sacrifierai pour toi des taureaux, par l'holocauste.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      w-S:n-H1:a-n:A1 n:k' +l\lgn{146} A-p-d-w-zA:3
+    \end{hieroglyph}
+
+    \tl{wSn=j n=k \lgn{146} Apd.w}
+
+    \tg{}
+
+    \td{Je sacrifierai pour toi des oiseaux.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      a:A1 ini-n:t n:k' H-a-w-P1:3 A-t:p-w-A2-A24 
+      +l\lgn{147} Xr:r Sps-s-s-Y1:3 nb:n km-m-t-niwt:t*1
+    \end{hieroglyph}
+
+    \tl{d=j jn(t)=t(w) n=k Haw Atp=w \lgn{147} Xr Spssw nb n(y) Km.t}
+
+    \tg{}
+
+    \td{Je ferai qu'on t'amène des bateaux chargés de toutes sortes de 
+        biens précieux d'\kmt.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      mi-i ir:r-t n nTr-1 mr:r-r-A2 +l\lgn{148} r:T-A1*B1:3 m tA:N23*1 
+      wA-A-N31 n' r:x-Y1 sw-W r-T-A1*B1:3
+    \end{hieroglyph}
+
+    \tl{mj \uwave{jrr t n nTr mrr \lgn{148} rmT m Ta wA n rx sw rmT}}
+
+    \tg{}
+
+    \td{\saispas}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    +l\lgn{149}\red{\begin{hieroglyph}
+      $r-aHa-a:n s-b-t:F18-A2-n:f i-m-A1 m M22-M22 D:d-n:A1 -$b
+    \end{hieroglyph}}
+    \begin{hieroglyph}
+      m n:f-G37 m ib*1:f 
+    \end{hieroglyph}
+
+    \tl{\lgn{149} \uwave{aHa\col n sbt\col n=f jm=j m nn Dd\col n=j 
+        m nf m jb=f}}
+
+    \tg{}
+
+    \td{\saispas}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{150} D:d-f:n-A1 n'-wr:r n:k' a:n-G4-W23:3 xpr-r:t nb 
+      nTr-sn-n:t:r-M6-N33:3
+    \end{hieroglyph}
+
+    \tl{\lgn{150} Dd=f n=j \uwave{(j)n wr n=k antyw xpr=t(j) (m) 
+        nb snTr}}
+
+    \tg{}
+
+    \td{\saispas}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{151} nw:k'-A1 i-s HqA-q-A-G7 p-wn:n-t:N25 a:n-G4-W23:3 
+      n:A1 i-m sw-W 
+    \end{hieroglyph}
+
+    \tl{\lgn{151} jnk js \zero HoA Pwn.t antyw, n=j-jm(y) sw}
+
+    \tg{}
+
+    \td{\'Etant le souverain de Pount, la myrrhe, elle m'appartient.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{152} H-k':n-nw-W-N33:3 p:f D:d-n:k' ini-n:t:f b-w p:W 
+      wr-r:n iw:N23*1 p:n 
+    \end{hieroglyph}
+
+    \tl{\lgn{152} Hknw pf Dd(w)\col n=k jn(t)=t(w)=f bw pw, wr n(y) 
+        jw pn}
+
+    \tg{}
+
+    \td{Cette huile \emph{hékénou} dont tu dis qu'on m'en apportera, 
+        c'est le produit principal de cette île.}%
+  \end{hierobox}
+}
+
+\section{Lignes 153 à 165}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage14}
+  \caption{Lignes 153 à 165}
+  \label{fig:img14}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{153}]     \tl[black]{\zero xpr(=w), js, jwd=k tw r s.t 
+        tn}, protase avec \tl[black]{js} comme indicateur de protase ; 
+        \tl[black]{jwd=k tw}, prospectif, explicite le sujet \zero de 
+        \tl[black]{xpr(=w)} ; \tl[black]{jwd} \vl{3}, \emph{écarter}, 
+        \emph{éloigner (quelqu'un)}, +\,\tl[black]{r}, 
+        \emph{d'(un lieu)}
+  \item [\lgn{153-154}] \tl[black]{n(n) sp mA=k}, équivalent 
+        prospectif de \tl[black]{n sp wnm=f} (\S~~33.2, a, Rem.)
+  \item [\lgn{155}]     \tl[black]{xnt}, \emph{auparavant}
+  \item [\lgn{156}]     \tl[black]{oA}, \emph{haut}, \emph{élevé} ; 
+        \tl[black]{sjA} [3-1it.], \emph{reconnaître}
+  \item [\lgn{158}]     \tl[black]{snb=tj} \ex[black], accompli à 
+        valeur exclamative (souhait de bon voyage)
+  \item [\lgn{159}]     \tl[black]{rn}, dans le sens de \emph{renom} ; 
+        \tl[black]{rn=j nfr(=w) m njw.t=k} assume la fonction d'une 
+        complétive
+  \item [\lgn{159-160}] \tl[black]{Xr(y).t}, \emph{ce dont (quelqu'un) 
+        charge}, +\,\tl[black]{m}, \emph{quelqu'un d'autre} 
+        (\tl[black]{Xr(y).t} A \tl[black]{m} B, \emph{ce dont 
+        A~charge~B})
+  \item [\lgn{162}]     \tl[black]{sb.t}, \emph{un chargement}, 
+        +\,\tl[black]{m}, \emph{de}
+  \item [\lgn{163}]     \tl[black]{tjSps(y)}, tichepsy (un bois 
+        aromatique non-identifié) ; \tl[black]{SAas}, chaâs (une 
+        plante aromatique non-identifiée) ; \tl[black]{msdm.t}, 
+        \emph{galène} (employée en poudre, dans l'\kmt{} ancienne, 
+        pour la préparation du khôl) ; \tl[black]{sd}, \emph{queue} 
+        (les queues de divers animaux, dans l'\kmt{} ancienne, 
+        étaient employées comme chasses-mouches)
+  \item [\lgn{164}]     \tl[black]{m(j)m(j)}, \emph{girafe} ; 
+        \tl[black]{mrry.t}, \emph{blocs (?)}, \emph{morceaux (?)} ; 
+        \tl[black]{nDHy.t}, \emph{dent}, \emph{défense}
+  \item [\lgn{165}]     \tl[black]{Abw}, \emph{éléphant} ; 
+        \tl[black]{Tsm}, \emph{chien} ; \tl[black]{gwf}, 
+        \emph{cercopithèque} ; \tl[black]{ky}, \emph{babouin}
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{153} xpr-r i-s E9-w-d:D54 k':t-w r st-t:pr t:n
+    \end{hieroglyph}
+
+    \tl{\lgn{153} \zero xpr(=w) js jwd=k tw r s.t tn}
+
+    \tg{}
+
+    \td{\uwave{C'est advenu que tu t'éloignes de cette île.}}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      n':z-p:zp +l\lgn{154} mA:ir-A-=k' -iw:N23*1 -p:n -xpr-r -m -n:U19-nw:W-i-i-mw
+    \end{hieroglyph}
+
+    \tl{n(n) sp \lgn{154} mA=k jw pn xpr m nwy}
+
+    \tg{}
+
+    \td{\uwave{Tu ne verras cette île se \dots flots.}}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      $r-aHa-a:=n -d:p*t-P1 -t:f -$b
+      +l\lgn{155} ii-i-t:D54 -mi-i -z:r*t-E27-A2-=n:=f -xnt-n:t
+    \end{hieroglyph}
+
+    \tl{aHa\col n dp.t tf \lgn{155} jj=t(j) mj \zero sr(w).t\col n=f 
+        xnt}
+
+    \tg{}
+
+    \td{Alors, ce navire vint, conformément à ce qu'il avait prévu 
+        auparavant.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:=n-=A1 -Sm-m-D54-=k'-=W-=A1 +l\lgn{156} r:a-n :w-=A1 -Hr-1 -xt:t*1 -q-A-A28
+    \end{hieroglyph}
+
+    \tl{aHa\col n=j Sm=kw \lgn{156} rd\col n(=j) wj Hr xt oA}
+
+    \tg{}
+
+    \td{Alors, je partis. Je me plaçai sur un poteau élevé.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      S32-A2-n :=A1 -n:t-G4-A1:3 -m-Xn-n:nw-W-pr-=s
+    \end{hieroglyph}
+
+    \tl{sjA\col n=j nty.w m-Xnw=s}
+
+    \tg{}
+
+    \td{Je reconnus ceux qui étaient à bord (\litt dans elle).}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{157} aHa-a:=n -Sm-m-D54-=k'-=w-=A1 -r -s-mi-i-t-A2 -s-t
+    \end{hieroglyph}
+
+    \tl{\lgn{157} aHa\col n Sm=kw r smj.t s.t}
+
+    \tg{}
+
+    \td{Alors, je m'en allai pour rapporter cela.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      gm-m-=n:=A1 -sw-W -r:x-Y1 -s-t 
+    \end{hieroglyph}
+
+    \tl{gm\col n=j \uwave{sw rx s.t}}
+
+    \tg{}
+
+    \td{Je découvris \saispas}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{158} aHa-a:=n -D:d-=n:=f -n:=A1 -s-n:b-=t -zp :1*1 -n:D-z:wr-A1 -r-pr-1 -=k'
+    \end{hieroglyph}
+
+    \tl{\lgn{158} aHa\col n=f n=j : \og snb=t(j) sp-2, nDs, r pr=k} \ex
+
+    \tg{}
+
+    \td{Alors, il me dit : \og Bon voyage (bis), petit, vers ta maison !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      mA:ir-A-=k'+l\lgn{159} X:r-d-Xrd-A1*B1:3-=k'
+    \end{hieroglyph}
+
+    \tl{mA=k \lgn{159} Xrd.w=k} \ex
+
+    \tg{}
+
+    \td{Tu verras tes enfants !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-Aa13-m:a -r:n-=A1 -nfr-f:r -m -niwt:t*1-=k' -m-a:k'-Xr:r*t-Y1:3-=A1
+      +l\lgn{160} p-W -i-m-=k' 
+    \end{hieroglyph}
+
+    \tl{jm rn=j nfr(=w) m njw.t=k \ex mk, Xr(y).t=j 
+        \lgn{160} pw, jm=k \fg}
+
+    \tg{}
+
+    \td{Fais que mon renom soit parfait dans ta ville ! Vois, c'est ce 
+        dont je te charge ! \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{161} aHa-a:=n -r:a-=n :w-A1 -Hr-1 -X:t*1-=A1 -a:1-w-y-=A1 -xA-A-m-A24 -m -b-bA-A-H-D53-Y1:=f 
+    \end{hieroglyph}
+
+    \tl{\lgn{161} aHa\col n rd\col n(=j) wj Hr X.t=j, a.wy=j xAm(=w) 
+        m-bAH=f}
+
+    \tg{}
+
+    \td{Alors, je me mis sur mon ventre, mes bras fléchis, devant lui.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{162} aHa-a:=n -r:a-=n:=f -n:=A1 -zb-b-t-Y1:3 -m -a:n-G4-W23:3 -H-k'-n:nw*W-N33:3 -D54-w-d:n-b-N33:3 
+      +l\lgn{163} X:z-Aa17-A-i-i-t-N33:3-U33 -Sps-s-N33:3 -SA-A-a:z-O47 -F31-s-d-m-t-N33:3 -s-d-w-M41:3 
+      +l\lgn{164} nw-1 -m:a-m:a-F27 -U7:r-r-i-i-t-iw:3 -aA:a-A-t-Y1 -n:t -nTr-sn-n:t:r-M6-N33:3 -n:D-H-i-i-t-F18:3 
+      +l\lgn{165} n:t -Ab-b-w-T19 -T:z-m-W-E14:3 -g-w-f-E33-Z3A -k'-i-i-w-E32-Z3A -A50-s-s-Y1:3 -nb -nfr-f:r 
+    \end{hieroglyph}
+
+    \tl{\lgn{162} aHa\col n rd\col n=f n=j sb.t m antyw, Hknw, jwdnb, 
+        \lgn{163} XsAy.t, tjSps(y), SAas, msdm.t, sd.w \lgn{164} n(y).w 
+        m(j)m(j), mrry.t aA.t n(y).t snTr, nDhy.wt \lgn{165} n(y.w)t 
+        Abw, Tsm.w, gwf.w, ky.w, Spssw nb nfr}
+
+    \tg{}
+
+    \td{Alors, il me donna une chargement de myrrhe, huile 
+        \emph{hékénou}, alun, gomme \emph{khésayt}, \emph{tichepsy}, 
+        \emph{châas}, galène, queues de girafe, gros blocs d'encens, 
+        défenses d'éléphants, chiens, cercopithèques, babouins, toutes 
+        sortes de bonnes choses préieuses.}%
+  \end{hierobox}
+}
+
+\section{Lignes 166 à 175}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage15}
+  \caption{Lignes 166 à 175}
+  \label{fig:img15}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item [\lgn{166}] \tl[black]{Atp}, \emph{charger}, 
+        \emph{transborder}, +\,\tl[black]{r}, \emph{sur} ; 
+        \tl[black]{xpr\col n}, auxiliaire narratif, \emph{il arriva 
+        que} ; \tl[black]{rdt wj}, pour \tl[black]{rdt(=j) wj}
+  \item [\lgn{167}] \tl[black]{aHa\col n Dd\col n=f n=j} introduit 
+        ici une apodose
+  \item [\lgn{168}] \tl[black]{n(y) 2 Abd}, \emph{dans deux mois} ; 
+        \tl[black]{rnpj}, \emph{se régénérer}, \emph{(re)devenir 
+        vigoureux}, \litt \emph{(re)devenir jeune} \vi{4} ; 
+        \tl[black]{ors}, \emph{inhumer} \vl{3} ; après 
+        \tl[black]{ors=t(w)=k}, restituer peut-être \tl[black]{<jm=f>}
+  \item [\lgn{172}] dans \tl[black]{nty.w jm=s r mjt.t jry}, il y a 
+        ellipse de \tl[black]{rd\col n \dots{} Hknw} : 
+        \tl[black]{(rd\col n) nty.w jm=s (Hknw) r mjt.t jry}
+  \item [\lgn{175}] \tl[black]{jnw}, \emph{produits}, \emph{cadeaux} 
+        (apportés ou rapportés)
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{166} $r-aHa-a:=n -A-t-p-A9-a:=n-=A1 -s-t -$b-r -d-p-t-P1 -t:n
+    \end{hieroglyph}
+
+    \tl{\lgn{166} aHa\col n Atp\col n=j s.t r dp.t tn}
+
+    \tg{}
+
+    \td{Alors, je transbordai cela sur ce navire.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      xpr-r:n-r:a-=t-=w-=A1 -Hr-1 -X:t*1-=A1 +l\lgn{167} r 
+      -nTr-dwA-A-A30 -n:=f -aHa-a:=n -D:d-=n:=f -n:=A1
+    \end{hieroglyph}
+
+    \tl{(m-xt) xpr\col n \zero rdt(=j) wj Hr X.t=j \lgn{167} r dwA n=f 
+        nTr aHa\col n Dd\col n=f n=j :}
+
+    \tg{}
+
+    \td{M'étant mis sur mon ventre pour le remercier, il me dit :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      m-a:k' -t:W -r -spr:r-D54 -r-Xn-n:nw-W-pr
+      +l\lgn{168} n :Abd-d:ra -1-1 -mH:Y1-=k' -q:n-i-D32-=k' -m 
+      -X:r-d-w-Xrd-A1*B1:3-=k'
+    \end{hieroglyph}
+
+    \tl{\og mk, tw r spr r Xnw \lgn{168} n(y) 2 Abd / mH=k ony=k m 
+        Xrd.w=k}
+
+    \tg{}
+
+    \td{\og Vois, tu vas atteindre le pays dans deux mois, tu 
+        étreindras tes enfants.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      r-n:p-i-i-rnp-=k' +l\lgn{169} m -Xn-n:nw-W-pr -q:r-s-t-Q6:a-=k'
+    \end{hieroglyph}
+
+    \tl{rnpy=k \lgn{169} m Xnw / ors=t(w)=k (jm=f)}
+
+    \tg{}
+
+    \td{Tu te régénèreras au pays, tu y seras inhumé !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:=n -h-A-D54-=k'-=w-=A1 -r -mr:r-i-i-t-N23-1
+      +l\lgn{170} m -h-A-w-Y1:3 -d:p*t-P1 -t:n
+    \end{hieroglyph}
+
+    \tl{aHa\col n hA=kw r mry.t \lgn{170} m-hAw dp.t tn}
+
+    \tg{}
+
+    \td{Alors, je descendis sur le quai, près de ce navire.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:=n-=A1 -Hr-1 -i-A-S-A2 -n -mSa-A1:3 +l\lgn{171} n:t*y -m 
+      -d:p*t-P1 -t:n
+    \end{hieroglyph}
+
+    \tl{aHa\col n=j Hr jAS n mSa \lgn{171} nty m dp.t tn}
+
+    \tg{}
+
+    \td{Alors, je me mis à héler les soldats qui se trouvaient à bord 
+        de ce navire.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      r:a-=n:=A1 -H-k':n-nw:W-A2 -Hr-1 -mr:r-i-i-t-N23-1 -n :nb-G7 -n -iw:N23*1 -p:n
+      +l\lgn{172} n:t-G4-A1:3 -i-m-=s -r -mi-i-t:t-Y1 -i-r:y
+    \end{hieroglyph}
+
+    \tl{rd\col n=j Hknw Hr mry.t n nb n(y) jw pn \lgn{172} (rd\col n) 
+        nty.w jm=s (Hknw) r mjt.t jry}
+
+    \tg{}
+
+    \td{Je rendis grâces sur la berge au maître de cette île. Ceux qui
+        étaient à bord (rendirent grâces) de la même façon.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      $r-n:a-t-P1 -p:W -ir:=n-=n:=3 -$b-m -x-d-P1 +l\lgn{173} r 
+      -Xn-n:nw-w-pr :n -sAq-sAq-G7 -spr:r-D54-=n:=n-=3 :r-Xn-n:nw-W-pr
+      +l\lgn{174} Hr-1 -Abd:dwA-d:ra -1-1 -mi-i -D:d-t:=n:=f -nb:t
+    \end{hieroglyph}
+
+    \tl{na.t pw, jr(w)\col n=n m xd \lgn{173} r Xnw n(y) jty / 
+        spr\col n=n r Xnw \lgn{174} Hr 2 Abd mj Dd(w).t\col n=f nb.t}
+
+    \tg{}
+
+    \td{Alors nous navigâmes en aval vers le pays du souverain. Nous
+        atteignîmes le pays en 2 mois conformément à tout ce qu'il 
+        avait dit.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      aHa-a:=n -aq-q-D54-=k'-=w-=A1 -Hr-1 -sAq-sAq-G7
+    \end{hieroglyph}
+
+    \tl{aHa\col n ao=kw Hr jty}
+
+    \tg{}
+
+    \td{Je suis entré chez le souverain}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{175} m:a-zb-D54-=n:=A1 -n:=f -ini-nw:3 -p:n -ini-n:=n-=A1 -m -Xn-n:nw-W-pr -n -iw:N23*1 -p:n
+    \end{hieroglyph}
+
+    \tl{\lgn{175} m-a sb\col n=j n=f jnw pn jn(w)\col n=j m-Xnw n(y) 
+        jw pn}
+
+    \tg{}
+
+    \td{\saispas ces présents que j'ai rapportés de l'intérieur de 
+        cette île.}%
+  \end{hierobox}
+}
+
+\section{Lignes 176 à 189}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=1.0]{naufrage16}
+  \caption{Lignes 176 à 189}
+  \label{fig:img16}
+\end{figure}
+
+\subsection{Notes}
+
+\begin{itemize}
+  \item[\lgn{}] 
+  \item [\lgn{177}] de la 1.~177 à la fin du document, le texte est 
+        de nouveau écrit en colonnes
+  \item [\lgn{178}] \tl[black]{sAH} \vl{3}, \emph{pourvoir} 
+        (1.~180 : \emph{toucher [terre]})
+  \item [\lgn{179}] \tl[black]{tpw}, \emph{esclaves}, \emph{personnes} 
+        (\litt \emph{têtes}) ; \tl[black]{mA wj}, etc. : le 
+        \tl[black]{Smsw jor} s'adresse à nouveau au \tl[black]{HAty-a} 
+        du début du texte
+  \item [\lgn{182}] dans la lacune, restituer probablement 
+        \tl[black]{n r(A)=j}
+  \item [\lgn{183}] \tl[black]{jor}, \emph{l'important}, 
+        \emph{le malin}
+  \item [\lgn{185}] \tl[black]{HD-tA}, comme adverbe, \emph{à l'aube} ; 
+        \tl[black]{n}, \emph{pour}
+  \item [\lgn{186}] \tl[black]{dwA}, comme adverbe, \emph{le matin}
+  \item [\lgn{186-189}] formule du \emph{colophon} (cf. \S~~27.4)
+\end{itemize}
+
+\subsection{traduction}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{176}+s aHa-a:n -nTr-dwA-A-A30-=n:=f -n:=A1 -x*t:f -Hr-1 -q:n-b-t-O38-A1:3 -tA:N23*1 -r -Dr:r-=f 
+    \end{hieroglyph}
+
+    \tl{\lgn{176} aHa\col n dwA\col n=f n=j nTr xft-Hr onb.t-tA r-Dr=f}
+
+    \tg{}
+
+    \td{Alors, il me remercia devant le gouvernement.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{177}+s aHa-a:=n -r:a-=k'-=w-A1 -r -Sms-W-A1 
+      +l\lgn{178}+s s-Aa18-A-H-sAH-Y1:=k'-=w-=A1 -m 
+      +l\lgn{179}+s tp-A1*B1:3-100-100
+    \end{hieroglyph}
+
+    \tl{\lgn{177} aHa\col n rd=kw r Sms(w).w \lgn{178} saH=kw m 
+        \lgn{179} 200 tpw}
+
+    \tg{}
+
+    \td{J'ai été nommé suivant. J'ai été pourvu de \num{200}~esclaves.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      mA:ir-A -w-A1 -r +l\lgn{180}+s Aa18-#b-1 -#e-s-Aa18-A-H-sAH:Y1-=A1 -tA:N23*1 -r -Aa18-1
+      +l\lgn{181}+s mA:ir-A-=A1 -d:p-t:F20-A2-=n:=A1 -sDm-m -r:=k' 
+      +l\lgn{182}+s #b-n -r:1-#e-=A1 -m-a:k' -nfr-f:r -sDm-m -n -r:T-A1*B1:3
+    \end{hieroglyph}
+
+    \tl{mA wj r-\lgn{180}sA sAH=j tA r \lgn{181} 
+        mA=j dp.t n=j sDm r=k \lgn{182} [n r(A)=j] mk nfr sDm n rmT}
+
+    \tg{}
+
+    \td{Regarde moi \saispas}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\lgn{183}+s aHa-a:=n -D:d-=n:=f -n:=A1 -m -ir -i-q:r-Y1-A1 
+      +l\lgn{184}+s x:n-T34-m-s-A21-A1 -i-n -m -r:a:t -mw 
+      +l\lgn{185}+s #b-n -A-#e-p:d-zA -HD-D:ra -tA:N23*1 -n:z:f-t
+      +l\lgn{186}+s T31:a-=f -dwA-A-ra
+    \end{hieroglyph}
+
+    \tl{\lgn{183} aHa\col n Dd\col n=f n=j : \uwave{\lgn{184} \lgn{185} 
+        \lgn{186}}}
+
+    \tg{}
+
+    \td{Alors, il me dit \saispas}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      D54-w-=f :p*W -HAt:t*1-=f 
+      +l\lgn{187}+s r-pH-=f:=y -mi-i -gm-m-i-i-t -m-zS-Y1 
+      +l\lgn{188}+s #b-m -zS-Y1 -#e-zS-A1 -i-q:r:Y1 -n -Dba-Dba-Dba-=f 
+      +l\lgn{189}+s i-#b-mn:n-#e-i-i -zA -i-mn:n-aA:a-A-Y1-A1 -anx-DA-s 
+    \end{hieroglyph}
+
+    \tl{jw(w)=f pw, (m) HA.t=f \lgn{187} r pH(.wy)=fy mj 
+        gmy.t m sS, \lgn{188} m sS sS jor(w)\col n Dba.w=f \lgn{189} 
+        sA Jmny Jmn-aA a.w.s.}
+
+    \tg{}
+
+    \td{C'est ainsi qu'il (le document) doit aller du début à la fin 
+        (\litt venir de son début à sa fin), comme cela a été trouvé 
+        écrit de la main du scribe aux doigts excellents (\litt que 
+        ses doigts sont excellents), le fils d'Ameny, Amenâa, v.s.f.}%
+  \end{hierobox}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+\section{Texte}
+ 
+\footnotetext{\cite{Faulkner} n. \og praise (to god) \fg}
+
+\newpage
+\vspace*{0pt}
+
+\nocite{*}
+\bibliographystyle{apalike-fr}
+\bibliography{../utils/biblio}

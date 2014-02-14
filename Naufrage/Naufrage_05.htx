@@ -1,0 +1,167 @@
+%##HieroDef.txt
+
+\chapter{Lignes 39 à 52 \rem{(jusqu'à \tl[black]{m-Xnw=f})}}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage05}
+  \caption{Lignes 39 à 52}
+  \label{fig:img05}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{40}]    \tl[black]{wAw}, \emph{vague}
+  \item [\lgn{41}]    \tl[black]{waj} \vi{3}, \emph{devenir seul}
+  \item [\lgn{42}]    \tl[black]{sDr} \vl{3}, \emph{s'allonger}, 
+        \emph{s'étendre}
+  \item [\lgn{43-44}] \tl[black]{kAp}, \emph{abri} ou \emph{cabane}
+  \item [\lgn{44}]    \tl[black]{xt}, \emph{arbre} ou \emph{bois} ; 
+        \tl[black]{onj} \vl{3}, \emph{embrasser}, dans le sens de 
+        \emph{rechercher avidemment (quelque chose)}
+  \item [\lgn{45}]    \tl[black]{dwn} \vl{3}, \emph{étendre}
+  \item [\lgn{46}]    \tl[black]{rx} \vl{2}, dans le sens de 
+        \emph{rechercher}
+  \item [\lgn{47-52}] après \tl[black]{gm\col n=j}, séquence de 
+        propositions à prédicat adverbial et une proposition négative 
+        assumant la fonction de complétives (cf.~\S~~39.10, Rem.\,1-2)
+  \item [\lgn{48}]    \tl[black]{jAo.t}, \emph{légumes} (collectif) ; 
+        \tl[black]{Sps(y)}, \emph{magnifique}
+  \item [\lgn{50}]    \tl[black]{Ssp.t}, \emph{concombres} 
+        (collectif) ; \tl[black]{mj jr=t(w)=s}, avec \tl[black]{jrj} 
+        dans le sens de \emph{cultiver}
+  \item [\lgn{51-52}] \tl[black]{nn \zero, nt(y).t nn st m-Xnw=f} ; 
+        \tl[black]{nt(y).t nn st m-Xnw=f} explicite le sujet 
+        \zero du prédicat négatif \tl[black]{nn} ; \tl[black]{nt(y).t}, 
+        pronom relatif de sens neutre sans antécédent
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan-A1 r:a-k'-w-A1 +l\lgn{40}+s r iw:N23*1 
+    i-n wA-A-w-mw n M14-+l\lgn{41}+s-wr:r-N36
+  \end{hieroglyph}
+
+  \tl{aHa\col n=j rd=kw \lgn{40} r jw jn wAw n(y) WAD-\lgn{41}wr}
+
+  \tg{accompli narratif agentiel}
+
+  \td{Alors je fus déposé sur une île par une vague de la mer.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    ir:n-A1 h:r-w-ra 1-1-1 wa:a-1-G37-k':W-A1 
+    +l\lgn{42}+s ib:1-A1 m sn-n:nw-w-A1-1-1-A1
+  \end{hieroglyph}
+
+  \tl{Jr\col n=j 3 (ny) hrw wa=kw / \lgn{42} jb=j m sn-nw=j}
+
+  \tg{accompli agentiel, accompli des intransitifs séquentiel / 
+      PPA sans LV séquentielle}
+
+  \td{Je passai trois jours seul, mon c\oe ur étant mon compagnon.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    z:Dr:r-A55:k'+l\lgn{43}+s-w-A1 m Xn:n-nw*W:pr 
+    n:k'-A-p+l\lgn{44}+s-Aa19-pr:n xt:t*1
+    q:n-i-D32:\!a-n-A1 Sw-W+l\lgn{45}+s i-i-t:ra
+  \end{hieroglyph}
+
+  \tl{sDr=k\lgn{43}w m Xnw n(y) kAp \lgn{44} n(y) xt / 
+      onj\col n=j Sw\lgn{45}.yt }
+
+  \tg{séquence d'accomplis agentiels}
+
+  \td{Je me suis allongé à l'intérieur d'une cabane en bois 
+      et recherchai l'ombre avidemment.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan d-wn:n-D54:n-A1 r:d+l\lgn{46}+s-rd-rd-A1
+    r:r-x:Y1 a:t-A1 m r:1-A1
+  \end{hieroglyph}
+
+  \tl{aHa\col n dwn\col n=j rd\lgn{46}.wy=j r rx d.t(j)=j m r(A)=j}
+
+  \tg{accompli narratif agentiel / circonstancielle 
+      finale en \tl[Gramm]{r}+\tl[Gramm]{infinitif} / 
+      CO au participe prospectif passif agentiel}%
+
+  \td{Alors, j'étendis mes jambes pour rechercher ce que je 
+      placerais dans ma bouche.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \lgn{47}\red{\begin{hieroglyph}$r-gm-m-n-A1-$b\end{hieroglyph}}
+  \begin{hieroglyph}
+    d-A-b-M43-N33:3 i-A+l\lgn{48}+s r:r-t:D5-N33:3 i-m
+     i-A-q:t-Hn-Z3A nb:t Sps-s-t:Y1
+  \end{hieroglyph}
+
+  \tl{\lgn{47} \red{gm\col n=j} 
+      (jw) dAb.w jA\lgn{48}rr.t jm jAq.t nb.t Sps(y).t}
+
+  \tg{accompli agentiel / PPA sans LV complétive}
+
+  \td{Je découvris qu'il y avait là des figues, du raisin 
+      et toutes sortes de légumes magnifiques, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{49}+s k'-A-w-N33:3 i-m H-n:a n:q-w-t-N33:3
+  \end{hieroglyph}
+
+  \tl{\lgn{49} kAw jm Hna noAw}
+
+  \tg{PPA sans LV complétive}
+
+  \td{qu'il y avait là des figues de sycomore non entaillées , 
+      ainsi que des figues de sycomore entaillées, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{50}+s Ssp:p*t-N33:3 mi-i-ir:t-s
+  \end{hieroglyph}
+
+  \tl{\lgn{50} Sps.t mj jr=t(w)=s}
+
+  \tg{circonstancielle avec prospectif ?}
+
+  \td{des concombres comme lorsqu'on les cultive, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    r-m-\!\!W:.-K5:3 +l\lgn{51}+s i-m H-n:a A-p:d-w-pA':\!3
+  \end{hieroglyph}
+
+  \tl{rm.w \lgn{51} jm Hna Apd.w}
+
+  \tg{PPA sans LV complétive}
+
+  \td{qu'il y avait là des poissons, ainsi que des volailles ;}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn n:t*t +l\lgn{52}+s nn s-t m Xn:n-nw-\!w-pr:f
+  \end{hieroglyph}
+
+  \tl{nn (\zero wn=w), \lgn{52} nt(y).t nn st m-Xnw=f}
+
+  \tg{négation existentielle / syntagme relatif avec négation 
+      de PPA sans LV (\tl[Gramm]{st} $=$ pronom de rappel)}
+
+  \td{il n'y a rien qui ne s'y trouvait pas. (\litt cela 
+      n'existait pas, ce qui n'était pas à l'intérieur de 
+      lui)}%
+\end{hierobox}

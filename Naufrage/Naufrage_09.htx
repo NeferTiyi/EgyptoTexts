@@ -1,0 +1,209 @@
+%##HieroDef.txt
+
+\chapter{Lignes 89 à 110}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage09a}
+  \includegraphics[scale=1.0]{naufrage09b}
+  \caption{Lignes 89 à 110}
+  \label{fig:img09}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{89}]     \tl[black]{jnk pw hA=kw}, cf.~\S~~47.5 ; 
+        les lignes 89-110 sont un doublet partiel des 1.~24-41 
+        (noter les différences)
+  \item [\lgn{99-100}] \tl[black]{makA} et \tl[black]{nxt} sont 
+        coordonnés
+  \item [\lgn{101}]    \tl[black]{wxA}, \emph{ignorant}, 
+        \emph{incompétent}
+  \item [\lgn{108}]    \tl[black]{Hr-xw}, \emph{sauf}, \emph{excepté} 
+        (préposition)
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{89}+s nw:k'-A1 p-w h-A-D54:k'-w-A1 +l\lgn{90}+s r 
+    b-i-N41:F18-xAst m wp:p-w-t:D54 +l\lgn{91}+s I3:I3-G7
+    m-d:p*t-P1 n:t +l\lgn{92}+s mH:a 100-10:10 m Aw:W s mH:a 
+    10:10-10:10 m s-x-\!w+l\lgn{93}+s-iab:Y1 s s-qd-d-A30-A1 
+    100-10:10 i-m s +l\lgn{94}+s m s-t:p-w-U21:Y1 n:km-m-t:niwt
+  \end{hieroglyph}
+
+  \tl{\lgn{89} \og jnk pw, hA=kw \lgn{90} r bjA m wpw.t \lgn{91} jty m 
+      dp.t n(y).t 120 mH m Aw=s, 40 mH m sxw=s, 120 sod jm=s m stpw 
+      n(y) Km.t}
+
+  \tg{construction narrative PPN + PPA séquentielle à l'accompli des 
+      intransitifs}
+
+  \td{\og Me voici parti vers les mines en mission du souverain, dans 
+      un navire de \num{120}~coudées de long, \num{40}~coudées de 
+      large, \num{120}~marins de l'élite de l'\kmt à son bord.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{95}+s U2:ir-A s-n:3 p*t:pt U2:ir-A s-n:3 tA:N23*1 
+    +l\lgn{96}+s m-a:k'-A-A24 ib-1 s-n:3 r U2:ir-A+l\lgn{97}+s-w-F27:3
+  \end{hieroglyph}
+
+  \tl{\lgn{95} (m) mA=sn p.t, mA=sn tA, \lgn{96} \zero makA(=w) 
+      jb=sn r mA(j)\lgn{97}.w}
+
+  \tg{circonstancielle temporelle en protase avec séquence de 
+      prospectifs / apodose à l'accompli des intransitifs}
+
+  \td{Losrsqu'ils voyaient le ciel, lorsqu'ils voyaient la terre, 
+      leurs c\oe{}urs étaient plus braves (que ceux) de lions.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \red{\begin{hieroglyph}
+    $r-z:r-E27-A2 s-n:3-$b
+  \end{hieroglyph}}%
+  \begin{hieroglyph}
+    D:\!\!\!a\s2-TAw +l\lgn{98}+s n' ii-i-t:D54-f 
+    n:S-n:y-E21 n' xpr-r*t:f !
+  \end{hieroglyph}
+
+  \tl{\red{sr=sn} Da \lgn{98} n jjt=f, nSny n xprt=f} \ex
+
+  \tg{aoriste exclamatif / deux négations séquentielles en 
+      \tl[Gramm]{n wnmt=f}}
+
+  \td{Ils prédisaient une tempête avant qu'elle ne fût venue, 
+      un orage avant qu'il ne fût advenu !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{99}+s wa:a-A1-1 i-m nb m-a:k'-A-A24 ib*1:f
+    +l\lgn{100}+s n:xt:x*t-A24 a:1:\!f r sn-n:nw-w-A1-.*1*1*.:f
+  \end{hieroglyph}
+
+  \tl{\lgn{99} wA s jm(=sn) nb, makA(=w) jb=f \lgn{100} nxt(=w) a=f 
+      r sn-nw.w=f}
+
+  \tg{thématisation sans \tl[Gramm]{jr} / séquence d'accomplis des 
+      intransitifs}
+
+  \td{Chacun d'entre eux, son c\oe{}ur était plus brave, son bras 
+      plus puissant que (ceux de) ses compagnons.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn +l\lgn{101}+s w-x-xA-A-G37-A1 m Hr:r-ib-s-n:3
+  \end{hieroglyph}
+
+  \tl{nn (\zero wn=w) \lgn{101} wxA m-Hr(y)-jb=sn}
+
+  \tg{négation existentielle}
+
+  \td{Il n'y avait pas d'incompétant parmi eux.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    D:\!\!\!a\s2-TAw +l\lgn{102}+s pr:r-D54 i-w-n:=3 m M14-wr:r-N36 
+    +l\lgn{103}+s tp:1-a:1 D61:\!D54-n:3 tA:N23*1
+  \end{hieroglyph}
+
+  \tl{Da \lgn{102} pr(=w) / jw=n m WAD-wr \lgn{103} tp-a sAH=n tA}
+
+  \tg{accompli des intransitifs / PPA sans LV séquentielle / 
+      circonstancielle temporelle au prospectif}
+
+  \td{Une tempête survint alors que nous étions en mer, avant que 
+      nous eussions touché terre.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    f-A-\!\!t:.-A9:\!\!a +l\lgn{104}+s TAw-w ir:f wHm-m-i-i-t-A2
+    n:U19-nw-\!w-i-i-t-mw +l\lgn{105}+s i-m f n:t mH:a 1:1-1:1-1:1-1:1
+  \end{hieroglyph}
+
+  \tl{fAt \lgn{104} TAw, jr=f wHm.yt / nw.yt \lgn{105} jm=f 
+      n(y).t 8~mH}
+
+  \tg{circonstancielle en protase avec forme \tl[Gramm]{wnmt=f} 
+      et aoriste séquentiel / apodose $=$ PPA sans LV}
+
+  \td{À peine le vent se fût-il levé en redoublant (\litt 
+      faisant un redoublement), qu'une lame de \num{8}~coudées y 
+      apparut (\litt fut dans lui).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-n xt:t*1 H-H A19-a +l\lgn{106}+s n:\!A1-s
+  \end{hieroglyph}
+
+  \tl{jn xt HH(w) \lgn{106} n=j s(.y)}
+
+  \tg{PPN argumentative, explicitation du sujet au participe 
+      perfectif actif}
+
+  \td{C'est un espar qui m'en préserva (\litt brisa sa force 
+      pour moi).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan d:p*t-P1 m-\!\!t:.-Z6:t
+  \end{hieroglyph}
+
+  \tl{aHa\col n dp.t mwt=t(j)}
+
+  \tg{accompli narratif des intransitifs}
+
+  \td{Alors, le navire périt.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{107}+s n:t-tyw-Z3A i-m-s n':z:p*zp wa:a-A1-1 i-m 
+    +l\lgn{108}+s Hr-1 x*x:x-A1
+  \end{hieroglyph}
+
+  \tl{\lgn{107} nty.w jm=s, n sp wa s jm(=sn) \lgn{108} Hr-xw=j}
+
+  \tg{thématisation sans \tl[Gramm]{jr}, négation de l'accompli}
+
+  \td{Quant à ceux qui s'y trouvaient, aucun d'entre eux 
+      ne survécut sauf moi.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    m-a:k' w-A1 r-M'*1:=k'
+  \end{hieroglyph}
+
+  \tl{mk, wj r-gs=k} \ex
+
+  \tg{PPA sans LV exclamative}
+
+  \td{Vois, je suis à côté de toi !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \lgn{109}\red{\begin{hieroglyph}
+    $r-aHan ini-n:k'-w-A1-$b
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    r iw:N23*1 p:n +l\lgn{110}+s i-n wA-A-w-mw-1:n M14-wr:r-N36
+  \end{hieroglyph}
+
+  \tl{\lgn{109} \red{aHa\col n jn=kw} r jw pn \lgn{110} jn wAw n(y) WAD-wr}
+
+  \tg{accompli narratif avec complément d'agent}
+
+  \td{Alors je fus amené sur cette île par une vague de la mer.}%
+\end{hierobox}

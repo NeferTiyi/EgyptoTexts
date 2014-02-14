@@ -1,0 +1,224 @@
+%##HieroDef.txt
+
+\chapter{Lignes 153 à 165}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1.0]{naufrage14}
+  \caption{Lignes 153 à 165}
+  \label{fig:img14}
+\end{figure}
+
+\section{Notes}
+
+\begin{itemize}
+  \item [\lgn{153}]     \tl[black]{\zero xpr(=w), js, jwd=k tw r s.t 
+        tn}, protase avec \tl[black]{js} comme indicateur de protase ; 
+        \tl[black]{jwd=k tw}, prospectif, explicite le sujet \zero de 
+        \tl[black]{xpr(=w)} ; \tl[black]{jwd} \vl{3}, \emph{écarter}, 
+        \emph{éloigner (quelqu'un)}, +\,\tl[black]{r}, 
+        \emph{d'(un lieu)}
+  \item [\lgn{153-154}] \tl[black]{n(n) sp mA=k}, équivalent 
+        prospectif de \tl[black]{n sp wnm=f} (\S~~33.2, a, Rem.)
+  \item [\lgn{155}]     \tl[black]{xnt}, \emph{auparavant}
+  \item [\lgn{156}]     \tl[black]{oA}, \emph{haut}, \emph{élevé} ; 
+        \tl[black]{sjA} [3-1it.], \emph{reconnaître}
+  \item [\lgn{158}]     \tl[black]{snb=tj} \ex[black], accompli à 
+        valeur exclamative (souhait de bon voyage)
+  \item [\lgn{159}]     \tl[black]{rn}, dans le sens de \emph{renom} ; 
+        \tl[black]{rn=j nfr(=w) m njw.t=k} assume la fonction d'une 
+        complétive
+  \item [\lgn{159-160}] \tl[black]{Xr(y).t}, \emph{ce dont (quelqu'un) 
+        charge}, +\,\tl[black]{m}, \emph{quelqu'un d'autre} 
+        (\tl[black]{Xr(y).t} A \tl[black]{m} B, \emph{ce dont 
+        A~charge~B})
+  \item [\lgn{162}]     \tl[black]{sb.t}, \emph{un chargement}, 
+        +\,\tl[black]{m}, \emph{de}
+  \item [\lgn{163}]     \tl[black]{tjSps(y)}, tichepsy (un bois 
+        aromatique non-identifié) ; \tl[black]{SAas}, chaâs (une 
+        plante aromatique non-identifiée) ; \tl[black]{msdm.t}, 
+        \emph{galène} (employée en poudre, dans l'\kmt{} ancienne, 
+        pour la préparation du khôl) ; \tl[black]{sd}, \emph{queue} 
+        (les queues de divers animaux, dans l'\kmt{} ancienne, 
+        étaient employées comme chasses-mouches)
+  \item [\lgn{164}]     \tl[black]{m(j)m(j)}, \emph{girafe} ; 
+        \tl[black]{mrry.t}, \emph{blocs (?)}, \emph{morceaux (?)} ; 
+        \tl[black]{nDHy.t}, \emph{dent}, \emph{défense}
+  \item [\lgn{165}]     \tl[black]{Abw}, \emph{éléphant} ; 
+        \tl[black]{Tsm}, \emph{chien} ; \tl[black]{gwf}, 
+        \emph{cercopithèque} ; \tl[black]{ky}, \emph{babouin}
+\end{itemize}
+
+\section{traduction}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{153}+s xpr:\!r i-s E9-w-d:D54 k':t-w r st-t:pr t:n
+  \end{hieroglyph}
+
+  \tl{\lgn{153} \zero xpr(=w) js jwd=k tw r s.t tn}
+
+  \tg{}
+
+  \td{\uwave{C'est advenu que tu t'éloignes de cette île.}}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    n':z-p:zp +l\lgn{154}+s U2:ir-A-=k' iw:N23*1 p:n xpr:\!r m 
+    n:U19-nw:W-i-i-mw
+  \end{hieroglyph}
+
+  \tl{n(n) sp \lgn{154} mA=k jw pn xpr m nwy}
+
+  \tg{}
+
+  \td{\uwave{Tu ne verras jamais cette île se \dots flots.}}%
+\end{hierobox}
+
+\begin{hierobox}
+  \red{\begin{hieroglyph}
+    $r-aHan d:p*t-P1 t:f-$b
+  \end{hieroglyph}}
+  \begin{hieroglyph}
+    +l\lgn{155}+s ii-i-t:D54 mi-i z:r*t-E27-A2-n:f xnt-n:t
+  \end{hieroglyph}
+
+  \tl{\red{aHa\col n dp.t tf} \lgn{155} jj=t(j) mj \zero 
+      sr(w).t\col n=f xnt}
+
+  \tg{}
+
+  \td{Alors, ce navire vint, conformément à ce qu'il avait prévu 
+      auparavant.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHan-A1 Sm-m-D54-k':W-A1 +l\lgn{156}+s r:a:n-w-A1 Hr-1 xt:t*1 
+    q-A-A28
+  \end{hieroglyph}
+
+  \tl{aHa\col n=j Sm=kw \lgn{156} rd\col n(=j) wj Hr xt oA}
+
+  \tg{}
+
+  \td{Alors, je partis. Je me plaçai sur un poteau élevé.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    S32-A2-n:\!A1 n:t-G4-A1:3 m-Xn:n-nw*W:pr-s
+  \end{hieroglyph}
+
+  \tl{sjA\col n=j nty.w m-Xnw=s}
+
+  \tg{}
+
+  \td{Je reconnus ceux qui étaient à bord (\litt dans elle).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{157}+s aHan Sm-m-D54:k'-w-A1 r s-mi-i-t-A2 s-t
+  \end{hieroglyph}
+
+  \tl{\lgn{157} aHa\col n Sm=kw r smj.t s.t}
+
+  \tg{}
+
+  \td{Alors, je m'en allai pour rapporter cela.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    gm-m-n:\!A1 sw-W r:x-Y1v s-t 
+  \end{hieroglyph}
+
+  \tl{gm\col n=j \uwave{sw rx s.t}}
+
+  \tg{}
+
+  \td{Je découvris \saispas}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{158}+s aHan Dd'-n:f n:\!A1 s-n:b-t zp:y nDs-A1 
+    r pr*1:k'
+  \end{hieroglyph}
+
+  \tl{\lgn{158} aHa\col n=f n=j : \og snb=t(j) sp-2, nDs, r pr=k} \ex
+
+  \tg{}
+
+  \td{Alors, il me dit : \og Bon voyage (bis), petit, vers ta maison !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    U2:ir-A-\!\!k':. +l\lgn{159}+s X:r:d-Xrd-A1*B1:3-k'
+  \end{hieroglyph}
+
+  \tl{mA=k \lgn{159} Xrd.w=k} \ex
+
+  \tg{}
+
+  \td{Tu verras tes enfants !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-M-m-\!\!a:. r:n-A1 nfr-f:r m niwt:t*1-k' m-a:k' Xr:r*t-Y1:3-A1
+    +l\lgn{160}+s p:W i-m-k' 
+  \end{hieroglyph}
+
+  \tl{jm rn=j nfr(=w) m njw.t=k \ex mk, Xr(y).t=j 
+      \lgn{160} pw, jm=k \fg}
+
+  \tg{}
+
+  \td{Fais que mon renom soit parfait dans ta ville ! Vois, c'est ce 
+      dont je te charge ! \fg}%
+\end{hierobox}
+
+\begin{hierobox}
+  \lgn{161}\red{\begin{hieroglyph}
+    $r-aHan -r:a-n:w-A1-$b
+  \end{hieroglyph}}%
+  \begin{hieroglyph}
+    Hr-1 X:t*1-A1 a:1-wy-A1 xA-A-m-A24 m-b-bA-A-H-D53:Y1-f
+  \end{hieroglyph}
+
+  \tl{\lgn{161} \red{aHa\col n rd\col n(=j) wj} Hr X.t=j, a.wy=j 
+      xAm(=w) m-bAH=f}
+
+  \tg{}
+
+  \td{Alors, je me mis sur mon ventre, mes bras fléchis, devant lui.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{162}+s aHan r:a-n:f n:\!A1 zb-\!\!b-t:Y1:3 m a:n-G4-W23:3 
+    H-k':n-nw:W-N33:3 D54-w-d:n-b-N33:3 +l\lgn{163}+s 
+    X:z-Aa17-A-i-i-t-N33:3-U33 Sps-s-N33:3 SA-A-a:z-M37 
+    ms-s-d-m-\!\!t:.-N33:3 s-d-w-sd:3 +l\lgn{164}+s nw-1 m:a-m:a-F27 
+    U7:r:r-i-i-t-iw:3 aA:a-A-t:Y1 n:t nTr-sn-n:t:r-M6-N33:3 
+    n:D-H-i-i-t-F18:3 +l\lgn{165}+s n:t Ab-b-w-T19 T:z-m-\!\!W:.-E14:3 
+    g-w-f-E33-Z3A k'-i-i-w-E32-Z3A A50-s-s-Y1:3 nb nfr-f:r
+  \end{hieroglyph}
+
+  \tl{\lgn{162} aHa\col n rd\col n=f n=j sb.t m antyw, Hknw, jwdnb, 
+      \lgn{163} XsAy.t, tjSps(y), SAas, msdm.t, sd.w \lgn{164} n(y).w 
+      m(j)m(j), mrry.t aA.t n(y).t snTr, nDhy.wt \lgn{165} n(y.w)t 
+      Abw, Tsm.w, gwf.w, ky.w, Spssw nb nfr}
+
+  \tg{}
+
+  \td{Alors, il me donna une chargement de myrrhe, huile 
+      \emph{hékénou}, alun, gomme \emph{khésayt}, \emph{tichepsy}, 
+      \emph{châas}, galène, queues de girafe, gros blocs d'encens, 
+      défenses d'éléphants, chiens, cercopithèques, babouins, toutes 
+      sortes de bonnes choses préieuses.}%
+\end{hierobox}
