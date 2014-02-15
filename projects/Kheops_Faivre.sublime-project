@@ -1,0 +1,26 @@
+{
+  "folders":
+  [
+    {
+      "file_exclude_patterns":
+      [
+        "*.out",
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.dic",
+        "*.toc",
+        "*.pdf",
+        "*_full.htx",
+        "*.*~"
+      ],
+      "path": "../Kheops/Faivre"
+    },
+    {
+      "path": "../img/Faivre"
+    },
+    {
+      "path": "../utils"
+    }
+  ]
+}
