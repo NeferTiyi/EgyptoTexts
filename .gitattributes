@@ -1,0 +1,6 @@
+# Default behaviour
+* text=auto
+
+*.tex text= eol=lf
+*.htx text= eol=lf
+*.sh text= eol=lf
