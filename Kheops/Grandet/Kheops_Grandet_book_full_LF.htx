@@ -1,0 +1,611 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
+
+\includeonly{%
+  Kheops_Grandet_Chap0_Intro_book,
+  Kheops_Grandet_Chap1_PD_book,
+  Kheops_Grandet_Chap2_PT_book,
+  Kheops_Grandet_Chap3_AE_book,
+  Kheops_Grandet_Chap4_PPI_book,
+  Kheops_Grandet_Chap5_ME_book,
+  Kheops_Grandet_Chap6_DPI_book,
+  Kheops_Grandet_Chap7_NE_book
+  % Kheops_Grandet_map,
+  % Kheops_Grandet_ChronoDF
+}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  calc,
+  patterns,
+  arrows,
+  positioning,
+  shadows,
+  decorations.text
+}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\usepackage{minitoc}
+\usepackage{mhchem}
+\usepackage{nefertiyi}
+\usepackage{arabtex}
+\usepackage{neferhiero}
+
+% Numérotation des division et prise en compte dans la TOC
+\maxsecnumdepth{subsection}
+\maxtocdepth{subsection}
+
+\counterwithin{part}{book}
+\counterwithin{chapter}{book}
+%\counterwithout{chapter}{part}
+% \counterwithin{subsection}{section}
+% % \counterwithout{figure}{part}
+% \counterwithout{figure}{chapter}
+
+\renewcommand{\bookname}{Livre}
+
+% Apparence des numéros de divisions
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesubsection}{\alph{subsection})}
+
+% Indentation et largeur des numéros dans la TOC
+\cftsetindents{part}{\cftpartindent}{2.6em}
+\cftsetindents{chapter}{\cftchapterindent}{1.8em}
+\cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
+% Pointillés dans la TOC
+\renewcommand{\cftsectiondotsep}{9}
+\renewcommand{\cftsubsectiondotsep}{1}
+
+
+
+% Entry         Level        Standard        memoir class
+%                         indent numwidth   indent numwidth 
+% ---------------------------------------------------------
+% book             -2       —      —          0.0    —
+% part             -1       0.0    —          0.0    1.5 
+% chapter           0       0.0    1.5        0.0    1.5
+% section           1       1.5    2.3        1.5    2.3
+% subsection        2       3.8    3.2        3.8    3.2
+% subsubsection     3       7.0    4.1        7.0    4.1
+% paragraph         4      10.0    5.0       10.0    5.0
+% subparagraph      5      12.0    6.0       12.0    6.0
+% figure/table     (1)      1.5    2.3        0.0    1.5
+% subfigure/table  (2)      —      —          1.5    2.3
+
+
+% Macro               Default           Usage
+% ---------------------------------------------------------------------
+% \abstractname       Abstract          title for abstract environment
+% \alsoname           see also          used by \seealso
+% \amname             am                used in printing time of day
+% \appendixname       Appendix          name for an appendix heading
+% \appendixpagename   Appendices        name for an \appendixpage
+% \appendixtocname    Appendices        ToC entry announcing appendices
+% \bibname            Bibliography      title for \thebibliography
+% \bookname           Book              name for \book heading
+% \bookrefname        Book              used by \Bref
+% \chaptername        Chapter           name for \chapter heading
+% \chapterrefname     Chapter           used by \Cref
+% \contentsname       Contents          title for \tableofcontents
+% \figurename         Figure            name for ﬁgure \caption
+% \figurerefname      Figure            used by \fref
+% \glossaryname       Glossary          title for \theglossary
+% \indexname          Index             title for \theindex
+% \lcminusname        minus             used in named number formatting
+% \listfigurename     List of Figures   title for \listoffigugres
+% \listtablename      List of Tables    title for \listoftables
+% \minusname          minus             used in named number formatting
+% \namenumberand      and               used in named number formatting
+% \namenumbercomma    ,                 used in named number formatting
+% \notesname          Notes             title of \notedivision
+% \pagename           page              for your use
+% \pagerefname        page              used by \pref
+% \partname           Part              name for \part heading
+% \partrefname        Part              used by \Pref
+% \pmnane             pm                used in printing time of day
+% \sectionrefname     §                 used by \Sref
+% \seename            see               used by \see
+% \tablename          Table             name for table \caption
+% \tablerefname       Table             used by \tref
+% \ucminusname        Minus             used in named number formatting
+% ---------------------------------------------------------------------
+% \renewcommand{\partname}{Part}
+% \renewcommand{\partrefname}{Part~}
+% ---------------------------------------------------------------------
+% \newcommand*{\nNamexi}{\iflowertonumname e\else E\fi leven}
+\renewcommand{\chapterrefname}{Chapitre~}
+\renewcommand{\bookrefname}{Livre~}
+\renewcommand{\partrefname}{Partie~}
+
+
+
+\setpnumwidth{2.55em}
+\setrmarg{3.55em}
+
+\addtolength{\columnsep}{15pt}
+
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+
+\graphicspath{%
+  {../../../images/Kheops/Grandet/}%
+  {../../../images/Barbotin/}%
+}
+
+
+\setfloatadjustment{figure}{\centerfloat}
+\setfloatadjustment{table}{\centerfloat}
+
+\newsubfloat{figure}
+
+% \subcaptionstyle{}
+\subcaptionfont{\sffamily}
+\subcaptionlabelfont{\bfseries\sffamily}
+
+% \DeclareCaptionStyle{petit}{
+% %  format=hang,
+%   format=plain,
+%   justification=RaggedRight,
+%   labelsep=endash,
+%   font=sf,
+%   labelfont=bf,%
+%   margin=0pt
+% }
+
+% \DeclareCaptionStyle{normal}{
+%   format=hang,
+%   % justification=centering,
+%   labelsep=endash,
+%   font=sf,
+%   labelfont=bf,
+%   margin=2cm,
+%   singlelinecheck=true
+% }
+
+% \captionsetup{margin=2cm}
+
+\captionnamefont{\bfseries\sffamily}
+\captiontitlefont{\sffamily}
+\captiondelim{~-- }
+
+\newcommand{\CaptionNormal}{%
+  \captionwidth{0.75\linewidth}
+  \changecaptionwidth
+  \hangcaption
+}
+\newcommand{\CaptionPetit}{%
+  % \captiondelim{~: }
+  \normalcaptionwidth
+  % \changecaptionwidth
+  \normalcaption
+}
+
+
+
+\setlength\fboxsep{0.5mm}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+\newcommand{\faitle}[1]{\hfill\emph{\smaller#1}}
+
+% Formattage
+% ==========
+\newcommand{\datation}[1]{{\normalfont\emph{#1}}}
+\newcommand{\musee}[1]{\emph{\textcolor{MidnightBlue}{#1}}}
+\newcommand{\inv}[1]{\emph{\textcolor{RawSienna}{#1}}}
+\newcommand{\infos}[1]{{\smaller#1}}
+\newcommand{\titre}[1]{{\sffamily#1}}
+\newcommand{\source}[1]{\emph{#1}}
+
+\newcommand{\nouveaute}[1]{\textcolor{DarkBlue}{\flech~#1}}
+\newcommand{\XIIA}{{\normalfont\bfseries\textcolor{ForestGreen}{A\xspace}}}
+\newcommand{\XIIB}{{\normalfont\bfseries\textcolor{Fuchsia}{B\xspace}}}
+\newcommand{\XIIC}{{\normalfont\bfseries\textcolor{RedOrange}{B'\xspace}}}
+
+
+\newcommand{\listeroislabel}[1]{\bfseries\sffamily{#1}\enspace}
+\newenvironment{listerois}
+  {\begin{list}{}{%
+     \setlength\itemsep{0.8\baselineskip}
+     \let\makelabel\listeroislabel%
+     \setlength\labelwidth{2em}%
+     \setlength\leftmargin{\labelwidth+\labelsep}%
+   }
+  }
+  {\end{list}%
+}
+
+\makechapterstyle{monchap}{%
+  \renewcommand{\chapnamefont}{\raggedleft\normalfont\huge\scshape}
+  \renewcommand*{\chapnumfont}{\raggedleft\normalfont\Huge\scshape}
+  \renewcommand*{\chaptitlefont}{\raggedleft\normalfont\Huge\bfseries}
+  \renewcommand*{\afterchaptertitle}{%
+    {%
+      \par\nobreak\vskip 5pt
+      \par\offinterlineskip\hbox{%
+        \rule{\textwidth}{3pt}
+      }
+      \par\nobreak\vskip \afterchapskip
+    }
+  }
+}
+
+
+\definecolor{chaptercolor}{gray}{0.8}
+
+\newcommand{\numlifter}[1]{\raisebox{-2cm}[0pt][0pt]{\smash{#1}}}
+\newcommand{\numindent}{\kern37pt}
+\newlength{\chaptertitleboxheight}
+
+\makechapterstyle{hansen}{%
+  \renewcommand{\printchaptername}{\raggedleft}
+  \renewcommand{\printchapternum}{%
+    \begingroup%
+    \leavevmode%
+    \chapnumfont%
+    \strut%
+    \numlifter{\thechpater}%
+    \numindent%
+    \endgroup%
+  }
+  \renewcommand*{\printchapternonum}{
+    \vphantom{%
+      \begingroup%
+      \leavevmode%
+      \chapnumfont%
+      \numlifter{\vphantom{9}}%
+      \numindent%
+      \endgroup%
+    }
+    \afterchapternum
+  }
+  \setlength\midchapskip{0pt}
+  \setlength\beforechapskip{0.5\baselineskip}
+  \setlength\afterchapskip{3\baselineskip}
+  \renewcommand{\chapnumfont}{%
+    \fontsize{4cm}{0cm}%
+    \bfseries%
+    \sffamily%
+    \color{chaptercolor}%
+  }
+  \renewcommand{\chaptitlefont}{%
+    \normalfont%
+    \huge%
+    \bfseries%
+    \raggedleft%
+  }
+  \settototalheight\chaptertitleboxheight{%
+    \parbox{\textwidth}{\chaptitlefont \strut bg\\bg\strut}
+  }
+  \renewcommand{\printchaptertitle}[1]{%
+    \parbox[t][\chaptertitleboxheight][t]{\textwidth}{%
+      %\microtypesetup{protrusion=false}% add this if you use microtype
+      \chaptitlefont\strut ##1\strut
+    }
+  }
+}
+
+
+\chapterstyle{monchap}
+
+%======================================================================
+\title{Histoire de l'\kmt}
+\short{Histoire de l'\kmt}
+\subtitle{De la préhistoire au \NK}
+\lecturer{\PG}
+\author{Sonia \bsc{Labetoulle}}
+\date{Mars 2012 - juin 2014}
+%======================================================================
+
+
+\newlength{\drop}% for my convenience
+\makeatletter
+  % Redefine title page
+  \def\maketitle{%
+    \drop = 0.1\textheight
+    \vfill%
+    \hbox{%
+      \hspace*{0.2\textwidth}%
+      \rule{1pt}{\textheight}
+      \hspace*{0.05\textwidth}%
+      \parbox[b]{0.75\textwidth}{
+        \vbox{%
+          \vspace{\drop}
+          {\noindent\HUGE\bfseries \@title}\\[2\baselineskip]
+          {\Large\itshape \@subtitle}\\[4\baselineskip]
+          {\Large Cours de \textsf{l'Institut Khéops} par\\[0.5\baselineskip] 
+                  \@lecturer}\par
+          \vspace{0.5\textheight}
+          {\noindent \@author}\\[\baselineskip]
+          {\small\itshape\today, \printtime}
+        }% end of vbox
+      }% end of parbox
+    }% end of hbox
+    \vfill%
+  }
+
+  % Redefnine headings
+%  \markboth{\@lecturer}{\@short}
+  \makepagestyle{ruled}
+  \makeevenhead{ruled}{\normalfont\itshape\@title}{}{\normalfont\itshape\leftmark}
+  \makeoddhead{ruled}{\normalfont\itshape\rightmark}{}{\normalfont\itshape\@lecturer}
+  \makeevenfoot{ruled}{}{\thepage}{}
+  \makeoddfoot{ruled}{}{\thepage}{}
+  \makeheadrule{ruled}{\textwidth}{\normalrulethickness}
+%  \makefootrule{ruled}{\textwidth}{\normalrulethickness}{1pt}
+
+
+  \renewcommand\@memfront@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memmain@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memback@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+    \setcounter{figure}{0}
+    \setcounter{table}{0}
+  }
+
+
+\makeatother
+
+\makepsmarks{ruled}{%
+  \nouppercaseheads
+  \createmark{chapter}{left}{shownumber}{}{.\ }
+  \createmark{section}{right}{shownumber}{}{.\ }
+  \createplainmark{toc}{both}{\contentsname}
+  \createplainmark{lof}{both}{\listfigurename}
+  \createplainmark{lot}{both}{\listtablename}
+  \createplainmark{bib}{both}{\bibname}
+  \createplainmark{index}{both}{\indexname}
+  \createplainmark{glossary}{both}{\glossaryname}
+}
+
+\pagestyle{ruled}
+%\pagestyle{myheadings}
+
+\input{Kheops_Grandet_tikz}
+
+\addbibresource{../../utils/biblio.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\input{../../utils/NeferBabel}
+
+\thispagestyle{empty}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\tableofcontents
+
+\mainmatter
+\CaptionNormal
+\include{Kheops_Grandet_Chap0_Intro_book}
+\include{Kheops_Grandet_Chap1_PD_book}
+\include{Kheops_Grandet_Chap2_PT_book}
+\include{Kheops_Grandet_Chap3_AE_book}
+\include{Kheops_Grandet_Chap4_PPI_book}
+\include{Kheops_Grandet_Chap5_ME_book}
+\include{Kheops_Grandet_Chap6_DPI_book}
+\include{Kheops_Grandet_Chap7_NE_book}
+
+\appendix
+\book{Annexes}
+\include{Kheops_Grandet_map}
+\include{Kheops_Grandet_ChronoDF}
+
+\backmatter
+\newpage
+\listoffigures
+\listoftables
+\nocite{*}
+\printbibliography
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+Biblio
+=======================================================================
+BIFAO 101 : Hor
+http://www.egiptologia.com/historia-de-la-egiptologia/331-vida-y-obra-de-jacques-de-morgan-el-descubridor-de-la-prehistoria-de-egipto.html?start=4
+http://www.ancient-egypt.co.uk/people/the-temple.htm
+http://tinebagh.wordpress.com/
+
+
+
+=======================================================================
+
+Karnak, Amenophis II
+--------------------
+Within the last courtyard, on the eastern wall, is a monument built by Amenhotep II. Borchardt believed that this small building was a sed-festival kiosk of Amenhotep II, which had been destroyed by Akhenaten. He believed that it was restored in its original site by Seti I, with the addition of several blocks of Akhenaten. However, Charles Van Siclen III, an American Egyptologist who recently reconstructed the building thinks that the structure once stood in the area before the Eighth Pylon and that it was removed, stone by stone, during the reign of Horemheb, to be rebuilt in its current location. The building was constructed entirely upon a stylobate (a flat surface upon which columns are normally constructed), and consists of a large square room with a roof supported by pillars, and two small lateral sanctuaries that were fronted on the west by a portico of twelve square pillars. The building is nearly symmetrical in plan and very shallow and broad. A ramp ascends to the portico. The large square hall has four row of five square pillars each that form a central nave bordered on either side by two aisles. In the passage along the inner face of the wall an architrave with cornice crowns the pillars. There was once probably a back doorway to the hall which was replaced with a false door.
+
+9e pylone
+---------
+There is little to be seen in the courtyard between the Eighth and Ninth pylons. The Ninth pylon is built on an axis of and perpendicular to the avenue of sphinxes that leads to the temple of Mut. The fact that the temple of Mut was constructed by Amenhotep III suggests that the ninth pylon, which was build during the reign of Horemheb, might have replaced an older pylon made from brick, and probably built by Amenhotep III. Like the Second Pylon in the Temple of Amun, the Ninth Pylon is hollow. It measures some 66 meters, with a Width of about 11.5 meters. The construction of the Ninth Pylon consists of exterior stone facings formed from a single tier of blocks of varying thickness. All the rest of the construct is hollow, with the exception of the stairway passage. The staircase climbs from the east entrance up to the level of the doorway's lintel and from their a second staircase crosses the west wing and leads to the terrace. The upper section of the pylon is held in place only by the enormous weight of the cap that works much like a keystone in an arch. Unfortunately, if this cap is compromised, than the structure will collapse, which is what has happened to the two hollow pylons at Karnak.
+
+
+
+
+
+
+
+
+
+
+
+=======================================================================
+
+Grande palette à fard en forme d'écusson
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+H. : 52 cm. ; L. : 20 cm. ; Pr. : 1,20 cm.
+
+Don Landau
+Département des Antiquités égyptiennes	
+E 27209
+
+=======================================================================
+
+Grandes palettes à fard à reliefs de la fin de la Préhistoire
+
+Fragment de la palette de la chasse
+vers 3300 - 3100 avant J.-C.
+proviendrait d'Abydos
+grauwacke
+H. : 14,60 cm. ; L. : 40,50 cm.
+
+Décorée d'une scène de chasse dans le désert. Le costume, les armes et 
+certains signes se retrouveront dans la civilisation pharaonique.
+Département des Antiquités égyptiennes
+E 11254
+
+=======================================================================
+
+Palettes à fard en grauwacke
+Ces objets, qui servaient à broyer le fard vert (malachite) pour 
+protéger et décorer les yeux, étaient déposés auprès du mort.
+Pendant la première moitié de Nagada II, des palettes à fard prennent 
+la forme d'écussons ou de croissants surmontés de têtes d'oiseaux.
+
+Palette à fard en croissant
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+l. : 21,10 cm. ; L. : 11,60 cm. ; Pr. : 1,60 cm.
+
+Département des Antiquités égyptiennes	
+E 17337
+
+=======================================================================
+
+Palettes à fard en grauwacke
+Ces objets, qui servaient à broyer le fard vert (malachite) pour 
+protéger et décorer les yeux, étaient déposés auprès du mort.
+Pendant la première moitié de Nagada II, des palettes à fard prennent 
+la forme d'écussons ou de croissants surmontés de têtes d'oiseaux.
+
+Palette à fard en écusson
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+H. : 28,50 cm. ; L. : 12,40 cm.
+
+Département des Antiquités égyptiennes	
+E 11151
+
+=======================================================================
+
+Palettes à fard en grauwacke
+Ces objets, qui servaient à broyer le fard vert (malachite) pour 
+protéger et décorer les yeux, étaient déposés auprès du mort.
+Pendant la première moitié de Nagada II, des palettes à fard prennent 
+la forme d'écussons ou de croissants surmontés de têtes d'oiseaux.
+
+Palette à fard en forme de poisson
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+H. : 8 cm. ; l. : 14,50 cm. ; Pr. : 0,70 cm.
+
+Les palettes à fard en silhouettes d'animaux apparaissent dans la 
+deuxième moitié de Nagada II et sont fabriquées jusqu'à la fin de la 
+préhistoire.
+Département des Antiquités égyptiennes	
+AF 6907
+
+=======================================================================
+
+Palettes à fard en grauwacke
+Ces objets, qui servaient à broyer le fard vert (malachite) pour 
+protéger et décorer les yeux, étaient déposés auprès du mort.
+Pendant la première moitié de Nagada II, des palettes à fard prennent 
+la forme d'écussons ou de croissants surmontés de têtes d'oiseaux.
+
+Palette à fard en forme de poisson
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+H. : 9,30 cm. ; L. : 12,90 cm. ; Pr. : 0,80 cm.
+
+Les palettes à fard en silhouettes d'animaux apparaissent dans la 
+deuxième moitié de Nagada II et sont fabriquées jusqu'à la fin de la 
+préhistoire.
+Département des Antiquités égyptiennes	
+AF 6909
+
+=======================================================================
+
+Palette à tête d'homme ?
+vers 3600 - 3200 avant J.-C.
+grauwacke, yeux incrustés
+H. : 9,75 cm. ; l. : 12 cm.
+
+Don Weill
+Département des Antiquités égyptiennes	
+E 24727
+
+=======================================================================
+
+Palette à têtes d'oiseaux
+vers 3600 - 3200 avant J.-C.
+grauwacke
+H. : 16,40 cm. ; L. : 17,70 cm.
+
+Une des têtes est cassée.
+Don Weill
+Département des Antiquités égyptiennes	
+E 24729
+
+=======================================================================
+
+Grandes palettes à fard à reliefs de la fin de la Préhistoire
+
+Palette célébrant une victoire
+vers 3300 - 3100 avant J.-C.
+grauwacke
+H. : 26,50 cm. ; L. : 14,50 cm.
+
+Le roi, représenté sous la forme d'un taureau, renverse un ennemi.
+Au revers : le roi, représenté sous la forme d'un taureau, renverse un 
+ennemi ; en-dessous, forteresses figurées en plan.
+Don Tigrane Pacha
+Département des Antiquités égyptiennes	
+E 11255
+
+=======================================================================
+
+Grandes palettes à fard à reliefs de la fin de la Préhistoire
+
+Palette encadrée de quadrupèdes, hyènes ou lycaons
+vers 3300 - 3100 avant J.-C.
+grauwacke
+H. : 32 cm. ; L. : 17,70 cm. ; Pr. : 1,80 cm.
+
+Décorée d'animaux : lion, ibis ou flamant, monstre imaginaire.
+Vue de dos : décorée de deux girafes encadrant un palmier.
+Département des Antiquités égyptiennes	
+E 11052
+
+=======================================================================
+
+Palettes en forme de poisson
+vers 3600 - 3200 avant J.-C.
+grauwacke
+l. : 18,50 cm. ; H. : 9,60 cm. ; Pr. : 0,70 cm.
+
+Don L., I. et A. Curtis E 22730, E 22731
+Don Weill E 24731, E 32283, E 24728, E 24724, E 28061, AF 6908
+Département des Antiquités égyptiennes	
+E 22730, E 22731, E 24731, E 32283, E 24728, E 24724, E 28061, AF 6908
+
+=======================================================================
