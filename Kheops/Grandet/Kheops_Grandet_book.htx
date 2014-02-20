@@ -1,15 +1,33 @@
 \documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
+
+\includeonly{%
+  Kheops_Grandet_Chap0_Intro_book,
+  Kheops_Grandet_Chap1_PD_book,
+  Kheops_Grandet_Chap2_PT_book,
+  Kheops_Grandet_Chap3_AE_book,
+  Kheops_Grandet_Chap4_PPI_book,
+  Kheops_Grandet_Chap5_ME_book,
+  Kheops_Grandet_Chap6_DPI_book,
+  Kheops_Grandet_Chap7_NE_book
+  % Kheops_Grandet_map,
+  % Kheops_Grandet_ChronoDF
+}
+
 \usepackage{pgf,tikz}
-%\usepackage[framemethod=tikz]{mdframed}
-\usetikzlibrary{calc,patterns,arrows,positioning,shadows,decorations.text}
-%\usepackage{picins}
+\usetikzlibrary{%
+  calc,
+  patterns,
+  arrows,
+  positioning,
+  shadows,
+  decorations.text
+}
 \usepackage{calc}
 \usepackage{multicol}
 \usepackage{ragged2e}
 \usepackage{minitoc}
 \usepackage{mhchem}
 \usepackage{nefertiyi}
-% \usepackage[format=hang,labelsep=endash,font=sf,labelfont=bf]{caption}
 \usepackage{arabtex}
 \usepackage{neferhiero}
 
@@ -359,10 +377,12 @@
 
 \input{Kheops_Grandet_tikz}
 
+\addbibresource{../../utils/biblio.bib}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\include{NeferBabel}
+\input{../../utils/NeferBabel}
 
 \thispagestyle{empty}
 \maketitle
@@ -383,15 +403,17 @@
 \include{Kheops_Grandet_Chap6_DPI_book}
 \include{Kheops_Grandet_Chap7_NE_book}
 
-% \appendix
-% \book{Annexes}
-% \include{Kheops_Grandet_map}
-% \include{Kheops_Grandet_ChronoDF}
+\appendix
+\book{Annexes}
+\include{Kheops_Grandet_map}
+\include{Kheops_Grandet_ChronoDF}
 
 \backmatter
 \newpage
 \listoffigures
 \listoftables
+\nocite{*}
+\printbibliography
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

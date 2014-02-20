@@ -35,6 +35,10 @@
     {
       "path": "../../neferlatex",
       "name": "Styles LaTeX"
+    },
+    {
+      "path": "../../compil",
+      "name": "Compil"
     }
   ]
 }
