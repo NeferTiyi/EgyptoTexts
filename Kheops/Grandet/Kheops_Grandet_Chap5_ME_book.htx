@@ -48,9 +48,7 @@ Il y a de grandes différences entre les \bsc{xi}\ieme et \dyn{xii}s :
   \includegraphics[width=0.75\textwidth]{E4985}
   \caption[Stèle de Djari (\musee{Bruxelles} \inv{E.4985})]
           {Stèle de Djari (\musee{Bruxelles} \inv{E.4985}) : Antef~II, 
-           Dra Abou el-Naga, calcaire, 
-           \SI{42}{\centi\meter}\texttimes\SI{78}%
-           {\centi\meter}\texttimes\SI{11}{\centi\meter}}
+           Dra Abou el-Naga, calcaire, \SI{42x78x11}{\cm}}
   \label{fig:djari}
 \end{figure}
 
@@ -283,7 +281,7 @@ L'attribution de ce complexe est bien identifiée grâce aux dépôts de
 fondation aux quatre coins.
 
 Le temple est précédé d'une \textbf{chaussée d'accès} de plus 
-d'\SI{1}{\kilo\meter} de long et \SI{30}{\meter} de large avec un 
+d'\SI{1}{\km} de long et \SI{30}{\m} de large avec un 
 temple d'accueil à l'entrée du ouadi. On pourrait en déduire une 
 équivalence avec l'architecture funéraire de l'\OK, mais ce serait 
 erroné car à l'\OK, les chaussées étaient couvertes tandis que celle 
@@ -361,7 +359,7 @@ sont en outre entièrement recouvertes de graffito du \NK, preuve que
 le site était à cette époque un lieu de sortie et de pèlerinage lors 
 des jours de fêtes populaires.
 
-Le corridor souterrain, maçonné et voûté, de \SI{150}{\meter} de long, 
+Le corridor souterrain, maçonné et voûté, de \SI{150}{\m} de long, 
 aboutissait à un caveau en granit comprenant un naos de granit et 
 d'albâtre. Rien d'autre n'y a été trouvé.
 
@@ -407,11 +405,11 @@ La porte menant au sanctuaire et au puits, au fond, est décalée.
 Le sanctuaire consiste en une longue antichambre et un naos (ce 
 pourrait donc être donc le premier spéos connu).
 Il y a une seconde salle hypostyle, avec des niches à statues taillées 
-dans la montagne, et une descenderie de \SI{150}{\meter} menant au 
-caveau en pierre. Dans le sanctuaire, un autel précédé d'une rampe 
-servait à la consécration d'offrandes (les traditions locales sont 
-encore plus fortes que les traditions \og nationales \fg) et un second 
-autel se trouve avant la niche.
+dans la montagne, et une descenderie de \SI{150}{\m} menant au caveau 
+en pierre. Dans le sanctuaire, un autel précédé d'une rampe servait à 
+la consécration d'offrandes (les traditions locales sont encore plus 
+fortes que les traditions \og nationales \fg) et un second autel se 
+trouve avant la niche.
 
 En ce qui concerne l'art, l'aspect technique est bon, l'aspect 
 plastique, moins. Les h\iero{}es sont très enfoncés, très surchargés. 
@@ -862,7 +860,7 @@ texte comme un évangile.}, on annonce la venue d'un sauveur
 C'est la restauration de l'administration. Il y a de nouveau des 
 vizirs, dont le plus célèbre est Antefoqer qui officia également sous 
 Sésostris~I\ier. Sa tombe, de superstructure modeste 
-(\col\SI{10}{\meter}), est située à Licht, près du coin sud-ouest de 
+(\SI{\sim10}{\m}), est située à Licht, près du coin sud-ouest de 
 l'enceinte de la pyramide d'Amenemhat~I\ier.
 
 \section{Roi bâtisseur}
@@ -1185,15 +1183,14 @@ on n'a que peu de traces\dots
 \end{figure}
 
 Un étrange monument (\fref{fig:abgig}), qualifié d'obélisque mais 
-qui n'en est pas un. Il s'agit d'un monolithe de granit rouge, 
-de \SI{13}{\meter} de haut pour \SI{2}{\meter} de large 
-(\SI{1.50}{\meter}
-au sommet) et \SI{80}{\centi\meter} d'épaisseur et comportant une 
-encoche au sommet. C'est en fait une stèle géante. La titulature de 
-Sésostris est inscrite sur les côtés, la face avant est décorée de 
-cinq scènes doubles où le roi fait offrande à des divinités (scènes 
-symétriques avec deux fois deux divinités pour chacune) : Amon et 
-Montou, Ptah et Rêhorakhty sur la première, par exemple.
+qui n'en est pas un. Il s'agit d'un monolithe de granit rouge, de 
+\SI{13}{\m} de haut pour \SI{2}{\m} de large (\SI{1.50}{\m} au sommet) 
+et \SI{80}{\cm} d'épaisseur et comportant une encoche au sommet. C'est 
+en fait une stèle géante. La titulature de Sésostris est inscrite sur 
+les côtés, la face avant est décorée de cinq scènes doubles où le roi 
+fait offrande à des divinités (scènes symétriques avec deux fois deux 
+divinités pour chacune) : Amon et Montou, Ptah et Rêhorakhty sur la 
+première, par exemple.
 La quantité de dieux impliqués pourrait indiquer qu'il s'agit d'un 
 monument jubilaire. Le texte, sur la partie basse de la stèle sous 
 les scènes d'offrande, est trop abîmé pour être lisible.
@@ -1290,7 +1287,7 @@ Par exemple :
 \end{itemize}
 
 \begin{remarque}
-  \num{1}~coudée = \num{7}~paumes = \num{7}\texttimes\num{4}~doigts
+  \num{1}~coudée = \num{7}~paumes = \num{7x4}~doigts
 \end{remarque}
 
 Les lignes (4), (5) et (6) donnent la définition de l'aroure : 
@@ -1306,9 +1303,8 @@ des nombres tels que :
 d'une normalisation. Chaque région avait sa base de mesure (6).
 
 \begin{remarque}
-  %\SI{\textonehalf}{aroure}  = \num{100}$\times$\SI{50}{coudées} \\
-  \num{0.5}~aroure = \num{100}\texttimes\SI{50}{\coudee} \\
-  \num{0.1}~aroure = \num{100}\texttimes\SI{1}{\coudee} \\
+  \num{0.5}~aroure = \SI{100x50}{\coudee} \\
+  \num{0.1}~aroure = \SI{100x1}{\coudee} \\
 \end{remarque}
 
 \begin{tabular}{c l}
@@ -1333,7 +1329,7 @@ d'une normalisation. Chaque région avait sa base de mesure (6).
 À la fin de la liste des nomes, on a la longueur totale du pays 
 (comme somme des longueurs des nomes) en \emph{itérou}, introduite 
 par \begin{hieroglyph}sbA zmA\end{hieroglyph}. Elle est de 
-\SI{106}{itérous}, soit \SI{1108.76}{\kilo\meter}.
+\SI{106}{itérous}, soit \SI{1108.76}{\km}.
 
 \Att C'est un calcul au fil de l'eau, pas à vol d'oiseau !
 
@@ -1341,7 +1337,7 @@ par \begin{hieroglyph}sbA zmA\end{hieroglyph}. Elle est de
   \item d'Éléphantine à Per-Hâpy : \SI{85}{itérous} 
         (en réalité \num{85}) ;
   \item de Per-Hâpy à l'aval de Béhédet : \SI{21}{itérous} 
-        (environ \SI{80}{\kilo\meter})
+        (environ \SI{80}{\km}).
 \end{itemize}
 
 Ce sont des distances liées à la navigation.
@@ -1367,11 +1363,11 @@ tous les domaines.
       (a) & (b) & (c) & (a) à (b) & (b) à (c) 
     \tabularnewline
     \cline{1-5}
-      \SI{10.5}{\meter}        & 
-      \textpm~\SI{6}{\meter}   & 
-      \textpm~\SI{3}{\meter}   & 
-      \textpm~\SI{2.8}{\meter} & 
-      \textpm~\SI{2.2}{\meter} 
+      \SI{10.5}{\m}        & 
+      \SI{\pm6}{\m}   & 
+      \SI{\pm3}{\m}   & 
+      \SI{\pm2.8}{\m} & 
+      \SI{\pm2.2}{\m} 
     \tabularnewline
       \SI{21}{\coudee}~\SI{3}{\paume}~$\frac{1}{3}$  &
       \SI{12}{\coudee}~\SI{3}{\paume}~\SI{3}{\doigt} &
@@ -1497,7 +1493,7 @@ régulièrement.
 À Pount, c'est le début de la construction du fort de Mirgissa.
 
 On a trouvé à Qatna en Syrie un sphinx de la princesse Ita, 
-mesurant à peu près \SI{60}{\centi\meter}
+mesurant à peu près \SI{60}{\cm}
 
 \section{Sépulture}
 %----------------------------------------------------------------------
@@ -1553,32 +1549,32 @@ la fabrication du khôl.} et des lingots de cuivre.
 \end{remarque}
 
 À El-Bercheh, dans la tombe de Djehoutyhotep, se trouve une autre 
-scène célèbre : le déplacement d'un colosse de \SI{6.80}{\meter} de 
-haut, en calcite, à Hatnoub. Le colosse est placé sur un traîneau 
-tracté sur une piste d'argile que l'on arrose. Des expériences menées 
-par Chevrier dans les années 50 ont montré que l'argile mouillée à un 
+scène célèbre : le déplacement d'un colosse de \SI{6.80}{\m} de haut, 
+en calcite, à Hatnoub. Le colosse est placé sur un traîneau tracté 
+sur une piste d'argile que l'on arrose. Des expériences menées par 
+Chevrier dans les années 50 ont montré que l'argile mouillée à un 
 coefficient de frottement équivalent à celui de la glace : une 
-personne peut tracter \SI{1}{t} sur du plat (pente max \ang{10}).
+personne peut tracter \SI{1}{\tonne} sur du plat (pente max \ang{10}).
 
 \begin{remarque}
   Au nord-est de Mirgissa, au niveau de la deuxième cataracte, 
   on peut voir une glissière à bateau, une piste en argile de 
-  \SI{15}{\centi\meter} d'épaisseur et légèrement incurvée. Il y 
-  a des traces de patins et des empreintes d'animaux. Les bateaux 
-  étaient onc placés sur des traîneaux et tractés par des animaux.
+  \SI{15}{\cm} d'épaisseur et légèrement incurvée. Il y a des 
+  traces de patins et des empreintes d'animaux. Les bateaux étaient 
+  donc placés sur des traîneaux et tractés par des animaux.
 \end{remarque}
 
-On a retrouvé une statue de Djehoutyhotep à Megiddo en Canaan. 
+On a retrouvé une statue de Djéhoutyhotep à Megiddo en Canaan. 
 Il s'agit probablement d'un transfert à une date ultérieure.
 
 \section{Nubie}
 %----------------------------------------------------------------------
 
 En Nubie, le règne de Sésostris~II voit l'achèvement de Mirgissa 
-ainsi que l'agrandissement de Qoubbân (accès vers les mines d'or) et 
-Aniba (mines de diorite). À Tochka, à \SI{80}{\kilo\meter} au 
-nord-ouest d'Abou Simbel en plein désert, une piste est marquée par 
-des cairns, parmi lesquels la balise \og L'Atelier de Khéops \fg 
+ainsi que l'agrandissement de Qoubbân (accès vers les mines d'or) 
+et Aniba (mines de diorite). À Tochka, à \SI{80}{\km} au nord-ouest 
+d'Abou Simbel en plein désert, une piste est marquée par des cairns, 
+parmi lesquels la balise \og L'Atelier de Khéops \fg 
 (\musee{Le~Caire}).
 
 \begin{remarque}
@@ -1632,14 +1628,13 @@ des tombes de particuliers dont celle d'Inpi, le supposé constructeur
 de la pyramide.
 
 La ville s'appelait \tl[black]{Htp-\%-n(y)-Wsr.t}. C'est un rectangle 
-de \num{350}\texttimes\SI{400}{\meter}, de plan orthogonal, situé 
-de façon inhabituelle contre le temple bas. Elle est enclose et ne
-comporte que deux portes. Certaines rues sont dotées d'un systèmes 
-d'évacuation d'eau. Elle est divisée en deux quartiers par un mur 
-intérieur : l'un constitué de villas (jusqu'à \num{70}~pièces), 
-l'autre de \og HLM \fg (\num{4}~pièces). On a trouvé des traces de 
-peinture murale, parfois juste un enduit, dans les deux types 
-d'habitation. 
+de \SI{350x400}{\m}, de plan orthogonal, situé de façon inhabituelle 
+contre le temple bas. Elle est enclose et ne comporte que deux portes. 
+Certaines rues sont dotées d'un systèmes d'évacuation d'eau. Elle est 
+divisée en deux quartiers par un mur intérieur : l'un constitué de 
+villas (jusqu'à \num{70}~pièces), l'autre de \og HLM \fg 
+(\num{4}~pièces). On a trouvé des traces de peinture murale, parfois 
+juste un enduit, dans les deux types d'habitation.
 Les villas sont centrées sur une cour. Chacune est non seulement une 
 unité de vie mais aussi une unité économique, avec silos, 
 boulangeries, boucheries, magasins,~\dots dont la capacité excède les 
@@ -1949,18 +1944,18 @@ Toutes ces forteresses sont pour la plupart sous l'eau depuis la mise
 en service du Grand Barrage d'Assouan\dots
 
 \subsubsection{Bouhen} C'est la frontière sud avant Sésostris~III. 
-Ses murs font \SI{10}{\meter} de haut, \SI{5}{\meter} d'épaisseur. 
-Il n'y a qu'une seule porte, côté désert. On y trouve des casernes, 
-silos, magasins, temples, quais. L'enceinte du \MK est dotée de postes 
-de tir abrités, de \slashfrac{1}{2} tours. Elle est dotée de 
-barbacanes, d'un fossé sec. Le temple du \MK, refait par 
-Thoutmosis~III et Hatchepsout est aujourd'hui à Khartoum.
+Ses murs font \SI{10}{\m} de haut, \SI{5}{\m} d'épaisseur. Il n'y a 
+qu'une seule porte, côté désert. On y trouve des casernes, silos, 
+magasins, temples, quais. L'enceinte du \MK est dotée de postes de tir 
+abrités, de \slashfrac{1}{2} tours. Elle est dotée de barbacanes, d'un 
+fossé sec. Le temple du \MK, refait par Thoutmosis~III et Hatchepsout 
+est aujourd'hui à Khartoum.
 
 \faitle{17 janvier 2013}
 
-La deuxième cataracte s'étend sur $\pm$~\SI{25}{\kilo\meter}, entre 
-Bouhen et Mirgissa. C'est un réseau de chenaux, la plupart à sec hors 
-période de crue.
+La deuxième cataracte s'étend sur \SI{\pm25}{\km}, entre Bouhen et 
+Mirgissa. C'est un réseau de chenaux, la plupart à sec hors période de 
+crue.
 
 \begin{remarque}
   \begin{itemize}
@@ -1977,11 +1972,11 @@ Dabenarti, Gimaï.
 
 \subsubsection{Glissière de Matouka} 
 Pour contourner la cataracte. Elle se poursuivait probablement. 
-C'est un fossé dans le sable, d'\SI{1}{\meter} à \SI{1.50}{\meter} 
-de large, arrondi comme un bateau, gainé d'une couche d'argile de 
-\SI{15}{\centi\meter}, et dont les côtés et le centre sont soutenus 
-de lignes de briques crues. Arrosée (par des enfants), l'argile a un 
-coefficient de frottement équivalent à celui de la glace.
+C'est un fossé dans le sable, d'\SI{1}{\m} à \SI{1.50}{\m} de large, 
+arrondi comme un bateau, gainé d'une couche d'argile de \SI{15}{\cm}, 
+et dont les côtés et le centre sont soutenus de lignes de briques 
+crues. Arrosée (par des enfants), l'argile a un coefficient de 
+frottement équivalent à celui de la glace.
 Des traces de patins montrent que les bateaux étaient placés sur des 
 traîneaux tirés par des b\oe{}ufs\footnote{Voir les représentations de 
 processions funéraires et un vrai transport de bateau dans la tombe 
@@ -2012,20 +2007,20 @@ Le système défensif comprend :
 Seuls Ouronarti et Shalfak sont encore au-dessus du niveau des eaux.
 
 \paragraph{Le Mur du Désert}
-Il s'étend sur \SI{10}{\kilo\meter} de long, en briques sur une base 
-en pierres et comporte des tours. Il borde la zone entre Ouronarti et 
+Il s'étend sur \SI{10}{\km} de long, en briques sur une base en 
+pierres et comporte des tours. Il borde la zone entre Ouronarti et 
 Semna, parallèlement au Nil. Il n'en reste qu'une petite partie, les 
-murs font \SI{2.50}{\meter} d'épaisseur.
+murs font \SI{2.50}{\m} d'épaisseur.
 
 \paragraph{Shalfak}
-C'est un nid d'aigle à \SI{50}{\meter} au dessus du Nil, sur un 
-tournant du fleuve, ce qui lui donne une excellente visibilité dans 
-les deux sens. De longs murs n'entourant rien permettent d'occuper 
-la crête et donnent des angles de tir. Il fait \SI{80}{\meter} par 
-\SI{50}{\meter}, et les murs \SI{5}{\meter} d'épaisseur. Un escalier 
-permet d'accéder au Nil. Des greniers dont la capacité excède ce à 
-quoi on pourrait s'attendre, fournissent des réserves en cas de siège 
-et alimentent les autres forteresses.
+C'est un nid d'aigle à \SI{50}{\m} au dessus du Nil, sur un tournant 
+du fleuve, ce qui lui donne une excellente visibilité dans les deux 
+sens. De longs murs n'entourant rien permettent d'occuper la crête et 
+donnent des angles de tir. Il fait \SI{80}{\m} par \SI{50}{\m}, et les 
+murs \SI{5}{\m} d'épaisseur. Un escalier permet d'accéder au Nil. Des 
+greniers dont la capacité excède ce à quoi on pourrait s'attendre, 
+fournissent des réserves en cas de siège et alimentent les autres 
+forteresses.
 
 \paragraph{Ouronarti}
 Installé sur une partie d'une très grande île, en hauteur, avec vue 
@@ -2167,7 +2162,7 @@ tombes de princesses sans superstructure.
 Décor en façade de palais.
 
 Au sud de l'enceinte, on a six sépultures de bateaux, factices, et 
-d'autres encore, \SI{100}{\meter} plus au sud. On ne sait pas quelle 
+d'autres encore, \SI{100}{\m} plus au sud. On ne sait pas quelle 
 était la finalité de ces bateaux, parfois inhumés avec un traîneau 
 (cf glissière, barques funéraires). On a trouvé un aviron de gouverne 
 à décor peint sur stuc. La coque de l'un des bateaux au moins était 
@@ -2194,8 +2189,8 @@ la construction.
 \section{Relation avec l'\kmt}
 %----------------------------------------------------------------------
 
-L'île de Saï, d'une superficie de \SI{50}{\kilo\meter} ne sera 
-utilisée par l'\kmt qu'à partir du \NK.
+L'île de Saï, d'une superficie de \SI{50}{\km} ne sera utilisée par 
+l'\kmt qu'à partir du \NK.
 Plus au sud, c'est la troisième cataracte, et au-delà, le royaume 
 de Kerma, une civilisation indigène formant un état indépendant.
 Les élites présentent des traits empruntés à l'\kmt. Mais Kerma 
@@ -2224,12 +2219,12 @@ La capitale, Kerma, était située dans une zone agricole.
 On a des traces d'une enceinte fortifiée, d'un réseau dense 
 d'habitations, de quelques palais. 
 
-Au centre, un massif de briques crues de \SI{18}{\meter} de haut, 
-la \og deffoufa\footnote{deffoufa = massif de briques en nubien.} 
+Au centre, un massif de briques crues de \SI{18}{\m} de haut, la 
+\og deffoufa\footnote{deffoufa = massif de briques en nubien.}
 occidentale \fg. C'est un bâtiment plein, à l'exception d'un escalier 
-et d'une pièce de \SI{3.50}{\meter} par \SI{0.50}{\meter} au niveau 
-d'un pallier. On suppose qu'il s'agit du soubassement de quelque 
-chose, temple ou palais.
+et d'une pièce de \SI{3.50}{\m} par \SI{0.50}{\m} au niveau d'un 
+palier. On suppose qu'il s'agit du soubassement de quelque chose, 
+temple ou palais.
 
 Tout autour, se trouvent des quartiers d'artisans dans lesquels on 
 a trouvé des briques cuites alors que ça n’apparaît pas avant les 
@@ -2251,7 +2246,7 @@ que les maisons traditionnelles actuelles.
 %----------------------------------------------------------------------
 
 Les tombes, de toutes tailles, sont circulaires (jusqu'à 
-\SI{50}{\meter} de diamètre). Ce sont en fait des tumulus dont le tour 
+\SI{50}{\m} de diamètre). Ce sont en fait des tumulus dont le tour 
 était marqué par un semis d'éclats de basalte qui contraste bien avec 
 le sable du désert. Un grand couloir transversal donnait accès à la 
 chambre funéraire, au centre, contenant des offrandes et les corps de 
@@ -2562,17 +2557,17 @@ L'ensemble est assez soigné.
 
 \subsection{Ville de pyramide}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-La chaussée fait plus de \SI{18}{\meter}, dont \SI{8.50}{\meter} 
-sont pavés. Elle s'élargit plus à l'est, en forme de cour.
+La chaussée fait plus de \SI{18}{\m}, dont \SI{8.50}{\m} sont pavés. 
+Elle s'élargit plus à l'est, en forme de cour.
 
 De part et d'autre de la chaussée, on trouve deux ensembles de 
 bâtiments, des éléments d'une ville de pyramide. Au sud, une zone 
-administrative de \dimDD{50}{100}{\meter} et au nord, sur une surface 
-de \dimDD{130}{130}{\meter}, différents ensembles avec une cour, en 
-grand bâtiment, des séries de bâtiments identiques sans 
-porte\footnote{On est sous le niveau des seuils.}, avec des cours 
-orientées au nord. Il s'agit certainement d'habitations, des logements 
-de fonction pour les phylés\footnote{Équipes de prêtres.}
+administrative de \SI{50x100}{\m} et au nord, sur une surface de 
+\SI{130x130}{\m}, différents ensembles avec une cour, en grand 
+bâtiment, des séries de bâtiments identiques sans porte\footnote{On 
+est sous le niveau des seuils.}, avec des cours orientées au nord. Il 
+s'agit certainement d'habitations, des logements de fonction pour les 
+phylés\footnote{Équipes de prêtres.}
 
 Les deux ensembles de bâtiments sont reliés : il y a une porte dans la 
 chaussée et une autre dans l'ensemble nord. Plus à l'est, au-delà de 

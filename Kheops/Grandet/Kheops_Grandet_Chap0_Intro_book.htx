@@ -49,9 +49,11 @@ exemple.
 
 Les frontières politiques actuelles de l'\kmt ont été tracées à la 
 règle à travers les déserts. Elles forment un quadrilatère d'environ 
-\SI{1e6}{\kilo\meter\squared} (deux fois la France). L'\kmt 
-\og utile \fg{} -- le Nil et sa vallée -- ne représente que \num{30} 
-à \SI{35000}{\kilo\meter\squared}, soit l'équivalent de la Belgique.
+\SI{1e6}{\km\squared} (deux fois la France). L'\kmt \og utile \fg{} 
+-- le Nil et sa vallée -- ne représente que 
+% \num{30} à \SI{35000}{\km\squared}, 
+\SIrange{30000}{35000}{\km\squared}, 
+soit l'équivalent de la Belgique.
 Malgré tout, les déserts ne sont pas improductifs : ils sont sources 
 de produits minéraux : or, cuivre,~\dots
 
@@ -75,7 +77,7 @@ seulement des arbustes impropres à la construction.
 Pendant une grande partie de son histoire, l'\kmt, comme tous les 
 états de l'antiquité jusqu'au premier millénaire~BC, est une 
 civilisation basée sur l'utilisation du bronze (armes, outils,~\dots), 
-un alliage de cuivre et d'étain (10\,Cu / 1\,Sn).
+un alliage de cuivre et d'étain (\ce{10 Cu} / \ce{1 Sn}).
 
 Chypre fournissait du cuivre à l'\kmt ainsi qu'à toute la région 
 et jusqu'en Espagne, voire plus loin. Le deuxième gisement important 
@@ -189,7 +191,7 @@ On connaît différents nom pour le pays :
         C'est l'un des noms de Memphis (on donne au pays le nom de la 
         capitale, comme Tunis/Tunisie, Alger/Algérie,~\dots) ;
   \item {\huge\<m.sr>} \ta{mi\d{s}r} : nom connu depuis 
-        \col\num{2000}~ans, dans différentes langues = \og le pays 
+        \num{\sim2000}~ans, dans différentes langues = \og le pays 
         fermé, protégé \fg.
 \end{itemize}}
 
@@ -278,7 +280,7 @@ main-d'\oe uvre !\\
 \hspace*{2em}\donc~pour les grands projets (architecturaux), 
 \og non productifs \fg, pendant que la population travaille la terre.
 
-L'\kmt est en effet sous-peuplée dans l'Antiquité (\col\SI{4}{M} ?)
+L'\kmt est en effet sous-peuplée dans l'Antiquité (\num{\approx4e6} ?)
 
 Byblos : le port où le bois est commercialisé.
 
@@ -499,12 +501,12 @@ de dieux.
 D'autres listes de rois ont été compilées durant la période 
 pharaonique :
 \begin{itemize}
-  \item le \emph{Canon de Turin} : un papyrus datant de Ramsès~II 
-        trouvé par J.F.~\bsc{Champollion} : chronologie des rois 
-        regroupés en sous-groupes avec, pour chacun, le nom et la 
-        longueur du règne ;
-  \item la \emph{Table des Rois d'Abydos} : version abrégée du Canon 
-        de Turin, gravée dans le temple de Séthi~I\ier.
+  \item le \emph{\CT} : un papyrus datant de Ramsès~II trouvé 
+        par \bsc{Champollion} : chronologie des rois regroupés 
+        en sous-groupes avec, pour chacun, le nom et la longueur 
+        du règne ;
+  \item la \emph{Table des Rois d'Abydos} : version abrégée du \CT, 
+        gravée dans le temple de Séthi~I\ier.
 \end{itemize}
 
 \bigskip
@@ -536,9 +538,8 @@ Il y a déjà des traces des dieux de l'époque historique.
 
 Aride.
 
-Carte des isohyètes (précip.) : à \SI{150}{\milli\meter\per\an}, c'est 
-la frontière du désert, à \SI{200}{\milli\meter\per\an}, la frontière 
-de la steppe.
+Carte des isohyètes (précip.) : à \SI{150}{\mm\per\an}, c'est la 
+frontière du désert, à \SI{200}{\mm\per\an}, la frontière de la steppe.
 Au dessus de \num{200}, l'agriculture est possible sans irrigation.
 
 Les deux grandes civilisations, \kmt et Mésopotamie se sont 
@@ -551,11 +552,10 @@ Le climat actuel apparaît vers la première dynastie, avant ça, il
 L'\kmt est une oasis : elle est tributaire du Nil et de sa crue 
 annuelle, un phénomène irrégulier dans le temps et l'espace.
 
-La domestication du Nil a débuté en \num{1828} avec le barrage du 
-Delta.
+La domestication du Nil a débuté en 1828 avec le barrage du Delta.
 
 Le sol de l'\kmt consiste en une couche d'alluvions de plus de 
-\SI{10}{\meter} de haut.
+\SI{10}{\m} de haut.
 
 La population s'est installée sur les zones qui surnageaient \donc~les 
 villes modernes sont situées sur les sites archéologiques.
@@ -596,8 +596,8 @@ six semaines, puis lente décrue.
 
 Quinze jours d'écart entre Memphis et Assouan.
 
-Idée tardive : la crue idéale fait \SI{16}{coudées} 
-(\col\SI{8}{\meter}) (voir statue romaine du Nil aux Tuileries).
+Idée tardive : la crue idéale fait \SI{16}{coudées} soit à peu près 
+\SI{8}{\m} (voir statue romaine du Nil aux Tuileries, \fref{???}).
 
 L'intensité de la crue est variable. Trop basse, elle ne permet pas 
 les cultures, trop importante, elle détruit.
@@ -705,17 +705,21 @@ dans ces mines :
         cuves : la poussière est entraînée par l'eau alors que l'or, 
         plus lourd, reste sur la rampe.
 \end{itemize}
-Le rendement était, au pire, de \SI{10}{\gram} d'or par tonne de 
-quartz ! C'est le minimum visible à l'\oe il nu.
+Le rendement était, au pire, de \SI{10}{\g} d'or par tonne de quartz ! 
+C'est le minimum visible à l'\oe il nu.
 
 \begin{remarque}
-  Le masque de Toutankhamon contient \col\SI{5}{\kilo\gram} d'or 
+  Le masque de Toutankhamon contient \SI{\sim5}{\kg} d'or 
   \donc~\SI{500}{\tonne} de quartz !
 \end{remarque}
 
 Exemple d'une mine moderne au Soudan (Hassaï sud) : 
-\col\SI{1}{\kilo\meter} de long par \SI{200}{\meter} de large ; 
-[Au] = \col\SI{1,5}{\gram\per\tonne}.
+\begin{itemize}
+  \item \SI{\sim1}{\km} de long par \SI{200}{\m} de large ;
+  \item $\ce{[Au]} \approx \SI{1,5}{\g\per\tonne}$.
+\end{itemize}
+
+\bigskip
 
 L'or est le matériau le plus recyclé, potentiellement à perpétuité.
 

@@ -430,8 +430,8 @@ est nommé gouverneur. Il sera, sous Aménophis~I\ier, le tout premier
 porteront tous ses successeurs au \NK.
 
 Certains pensent qu'Ahmosis aurait poussé sa progression jusqu'à l'île 
-de Saï (d'une superficie de \SI{50}{\kilo\meter\squared}, désertique) 
-où se trouve une forteresse contenant des vestiges à son nom.
+de Saï (d'une superficie de \SI{50}{\km\squared}, désertique) où se 
+trouve une forteresse contenant des vestiges à son nom.
 Faut-il y voir une tête de pont pour la reconquête ?
 
 \section{Travaux}
@@ -494,8 +494,8 @@ que spéculer. S'agit-il d'adorer les dieux de la montagne, baptisée
 \og la porte de l'au-delà \fg ?
 
 La pyramide de Téti-Shéri est un massif de briques crues à caisson, 
-de faibles dimensions (\SI{10}{\meter} de côté) avec un couloir et 
-une niche. Il n'y a pas d'infrastructure.
+de faibles dimensions (\SI{10}{\m} de côté) avec un couloir et une 
+niche. Il n'y a pas d'infrastructure.
 On y a trouvé une stèle (\fref{fig:ahmosis_teti}) qui raconte la 
 raison de la construction et indique qu'il y aurait un lien entre 
 les deux pyramides et le temple, mais on ne comprend pas ce qu'est 
@@ -809,7 +809,7 @@ Aucune trace d'activité.
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Dans son autobiographie, Ahmès fils d'Abina raconte qu'il a emmené 
 le roi de la deuxième cataracte à Éléphantine en deux jours. 
-Cela représente \SI{100}{\kilo\meter} par jour ! C'est une campagne
+Cela représente \SI{100}{\km} par jour ! C'est une campagne
 expansionniste, assortie de massacres et de captures de prisonniers.
 
 Ahmès Touri, gouverneur de Bouhen, devient le premier \titre{fils 
@@ -835,12 +835,12 @@ Aménophis~I\ier a fait faire un reposoir de barque en \og albâtre \fg
 d'Hatnoub (région d'Amarna) doté de portes en cuivre, placé au centre, 
 à peu près à l'emplacement du reposoir actuel. Il est désormais exposé 
 dans le musée en plein air. Il a également ajouté une porte en 
-calcaire de vingt coudées (de l'ordre de \SI{10}{\meter}) de haut
-incluse dans une enceinte en terre au sud de l'axe nord-sud. Ces deux
-éléments -- remployés dans le troisième pylône d'Aménophis~III --, 
-ainsi que de la vaisselle d'offrande, sont mentionnés dans la tombe 
-d'Inéni (TT\,81), \titre{chef des travaux du roi} sous Aménophis~I\ier
-et Thoutmosis~I\ier.
+calcaire de vingt coudées (de l'ordre de \SI{10}{\m}) de haut incluse 
+dans une enceinte en terre au sud de l'axe nord-sud. Ces deux éléments 
+-- remployés dans le troisième pylône d'Aménophis~III --, ainsi que de 
+la vaisselle d'offrande, sont mentionnés dans la tombe d'Inéni 
+(TT\,81), \titre{chef des travaux du roi} sous Aménophis~I\ier et 
+Thoutmosis~I\ier.
 
 \begin{remarque}
   La barque d'Amon, et notamment le décor de sa cabine est tout à fait 
@@ -855,10 +855,10 @@ médicaux.
 
 % photo : cf Thoutmosis~III, Theban Mapping Project, K.R. Weeks)
 \paragraph{Le \source{Livre de l'Amdouat}} Il s'agit d'une 
-illustration de la traversée du monde souterrain pendant les douze
-heures de nuit par la barque solaire traînée par des génies sur un Nil
-souterrain. Peu à peu, les représentations gagnent en détail
-(\SI{4}{\meter} linéaire chez Thoutmosis~III, \SI{100}{\m} chez
+illustration de la traversée du monde souterrain pendant les douze 
+heures de nuit par la barque solaire traînée par des génies sur un 
+Nil souterrain. Peu à peu, les représentations gagnent en détail 
+(\SI{4}{\m} linéaire chez Thoutmosis~III, \SI{100}{\m} chez 
 Séthy~I\ier).
 
 \section{Postérité}
@@ -1977,7 +1977,7 @@ ces travaux.
 Une scène de \DeB commémore le transport des obélisques depuis 
 Assouan :
 \num{36}~bateaux, \num{320}~rameurs, ???~tonnes. Les deux obélisques
-sont placés sur une barge (\num{120}$\times$\num{40}~coudées) tirée par
+sont placés sur une barge (\num{120x40}~coudées) tirée par
 des bateaux remorqueurs, accompagnée par le bateau de la reine (avec
 son trône). La barge est raidie par des cordes. On descend le courant à
 la rame.
@@ -2238,12 +2238,12 @@ décorent les murs.
 La tombe TT\,253 de Sénenmout passe sous cette cour.
 On accédait au sanctuaire d'Hathor grâce à une rampe partant de 
 l'angle sud de la cour et décorée d'une frise de \emph{sékher}.
-Ce décor est un archaïsme, rappelant les enceintes des pyramides de la 
-\dyn{XII}, notamment celle de Sésostris~I\ier).
+Ce décor est un archaïsme, rappelant les enceintes des pyramides de 
+la \dyn{xii}, notamment celle de Sésostris~I\ier).
 
 \paragraph{Deuxième terrasse}
 L'allée centrale menant à la deuxième rampe est encadrée de 
-$2\times3$~sphinx. Une colonnade proto-dorique orne le flanc de 
+\num{2x3}~sphinx. Une colonnade proto-dorique orne le flanc de 
 montagne au nord (\fref{fig:DeB_colonnord}). Il y a également quatre 
 niches, peut-être destinées aux courtisans, comme dans les tombes 
 royales de la \dyn{XI} (voir \Cref{chap:PPI_tombes}, 
@@ -2594,7 +2594,7 @@ On connaît plusieurs tombes et plusieurs sarcophages d'Hatchepsout :
 
 \paragraph{En tant qu'épouse royale : } très à l'écart, dans le Ouadi 
 Sikhat Taga el-Zeyd, à l'ouest de la \KV. L'entrée est située au 
-milieu de la falaise, à \SI{70}{\m} du sol et \SI{42}{m} du sommet. 
+milieu de la falaise, à \SI{70}{\m} du sol et \SI{42}{\m} du sommet. 
 Elle contenait le sarcophage~A
 
 \paragraph{En tant que reine :} la KV\,20 (\fref{fig:KV20}), dans 
@@ -2755,7 +2755,7 @@ immédiatement, mais ses officiers le font attendre le temps que toute
 l'armée ait traversé. 
 
 La forteresse de Megiddo est située sur un tell et jouit d'une 
-excellente visibilité à 360\degres. Elle est très bien fortifiée.
+excellente visibilité à \ang{360}. Elle est très bien fortifiée.
 Elle s'appelle \og Har-Mageddon \fg (har = montagne en hébreu).
 Elle est le siège d'une autre bataille célèbre en 1918 contre les 
 turcs (général Allenby, vicomte de Megiddo).
@@ -3429,7 +3429,7 @@ Sokaris, forme memphite d'Osiris ; la douzième, le lever du soleil
     \includegraphics[width=\textwidth]{ThoutmosisIII_Isis}
     \subcaption{Thoutmosis~III tétant sa mère Isis
                 \label{fig:ThoutIII_Isis}}
-  \end{minipage}
+  \end{minipage}%
   \caption{Tombe KV\,34}
   \label{fig:KV4_decor}
 \end{figure}

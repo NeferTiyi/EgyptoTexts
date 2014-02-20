@@ -66,8 +66,8 @@ législation, pour désigner le régime de Vichy : \emph{\og les actes
 dits lois de l'autorité de fait se prétendant gouvernement de l'État 
 Français \fg}.}.
 
-Manéthon mentionne des \og Grands Hyksos \fg, la \dyn{xv}, et des 
-\og Petits Hyksos \fg, la \dyn{xvi}. De ces derniers, on ne sait 
+\bsc{Manéthon} mentionne des \og Grands Hyksos \fg, la \dyn{xv}, et 
+des \og Petits Hyksos \fg, la \dyn{xvi}. De ces derniers, on ne sait
 rien : aucun autre texte, pas de traces archéologiques\dots
 
 \bigskip
@@ -80,11 +80,11 @@ rien : aucun autre texte, pas de traces archéologiques\dots
 
 \bigskip
 
-D'après le \emph{Papyrus de Turin}, la \dyn{xiii} comporterait 
-\num{62}~rois en \num{130}~ans, soit une moyenne de \num{2.5}~ans 
-par roi, sans compter le fait que plusieurs rois ont régner dix ans 
-ou plus. C'est encore pire pour la \dyn{xiv} : \num{74}~rois se 
-seraient succédé sur une période de \num{60}~ans. 
+D'après le \emph{\CT}, la \dyn{xiii} comporterait \num{62}~rois en 
+\num{130}~ans, soit une moyenne de \num{2.5}~ans par roi, sans compter 
+le fait que plusieurs rois ont régner dix ans ou plus. C'est encore 
+pire pour la \dyn{xiv} : \num{74}~rois se seraient succédé sur une 
+période de \num{60}~ans.
 
 On peut donc se demander si ces dynasties, ainsi que la 
 \bsc{xvii}\ieme, ne correspondraient pas également à des 
@@ -167,7 +167,7 @@ n'en connais pas la dynamique.
 
 \faitle{26 février 2013}
 
-\section{Le Canon de Turin}
+\section{Le \CT}
 %----------------------------------------------------------------------
 
 C'est la \og liste complète des rois d'\kmt \fg, compilée sous 
@@ -212,7 +212,7 @@ inconnue.
 
 Le premier roi mentionné est en fait le deuxième de la dynastie : 
 Néhésy. Merdjefarê et lui sont les deux seuls connus par d'autres 
-sources que le Canon de Turin.
+sources que le \CT.
 
 La dynastie comprendrait Hépou, Ibis, Oiseau, \og Aux nobles 
 femmes \fg,~\dots Ces noms sont bizarres, ce ne sont pas des noms 
@@ -257,8 +257,8 @@ Le site connaît une évolution importante au milieu de la \dyn{xiii}.
 \end{figure}
 
 Chevauchant un angle de la ville PPI/ME, on a trouvé un palais 
-(\dimDD{40}{60}{\meter}) daté de la \dyn{xiii}, entouré d'un parc 
-contenant un cimetière.
+(\SI{40x60}{\m}) daté de la \dyn{xiii}, entouré d'un parc contenant 
+un cimetière.
 On ne sait pas quelle était la finalité de ce lieu : résidence 
 d'un gouverneur local ? Palais d'été d'un roi ? L'évolution du site 
 s'arrête au début de la période hyksos.
@@ -382,7 +382,7 @@ diplomatique pour ménager un partenaire commercial.
 \section{Rois 10 à 14}
 %----------------------------------------------------------------------
 
-Certains de ces rois ne sont connus que par le Canon de Turin\dots
+Certains de ces rois ne sont connus que par le \CT\dots
 C'est un indicateur de la faiblesse du pouvoir royal.
 
 \section{Aoutibrê Hor}
@@ -647,7 +647,6 @@ Néferhotep~I\ier est fils de particuliers et règne une dizaine
 d'années. Il est chef d'une sous-dynastie : deux frères et le fils de 
 l'un d'eux règnent après lui.
 
-
 \begin{figure}[htb]
   \centerfloat
   \begin{tikzpicture}
@@ -657,24 +656,334 @@ l'un d'eux règnent après lui.
   \label{fig:geneaNfrhtp}
 \end{figure}
 
+Il est attesté à Bouhen et à Byblos dont le roi, Yantin, se dit son 
+vassal.
+
+En 2005 on a trouvé un fragment de diade monumentale à Karnak dans 
+une niche sous les fondations de l'obélisque d'Hatchepsout. Elle se 
+trouvait peut-être à l'entrée du temple de l'époque et est de plutôt 
+bonne qualité.
 
 \section{Sobekhotep~IV}
 %----------------------------------------------------------------------
 
+Il a régné moins de dix ans, mais on ne sait presque rien. On lui 
+connaît quelques travaux à Abydos , Karnak et les sites voisins.
+
+On a également un décret, trouvé à Karnak : une liste de revenus et 
+d'esclaves donnés au temple. On y retrouve les mêmes institutions que 
+dans le papyrus \musee{Brooklyn} \inv{35.1446}, notamment le district 
+de l'extrême sud. Cette zone, allant du Gebel el-Silsileh à 
+Éléphantine, est une unité territoriale d'autant plus importante que 
+le royaume se réduit à la \HE.
+Il est précisé que le roi a fait le déplacement depuis Itchy-Taouy.
+
+On a également des mentions d'une expédition au Ouadi Hammamat.
+
+Le vizir de Sobekhotep~IV est Iymérou (cf Louvre). Il est issu d'une 
+véritable lignée de dignitaires, vizirs et gouverneurs d'El-Kab, de la 
+\dyn{xiii} qui se poursuit à la \dyn{xvii}.
+Dédousobek dit Bébi et Nebânkh, deux frères, jouissent d'une grande 
+influence. Cette famille et la famille royale sont fortement 
+imbriquées : Néboukhâes, fille de Dédousobek, épouse Sobekhotep~V. 
+
+\begin{remarque}
+  El-Kab a une grande importance militaire.
+\end{remarque}
+
+Une stèle raconte une campagne militaire en \HN pour contenir 
+l'avancée de Kerma vers le nord.
+
+C'est à partir de ce règne que l'\kmt perd le contrôle de la Nubie. 
+La reprendre sera l'obsession du début de la \dyn{xviii} pendant une 
+cinquantaine d'années.
+
+Bouhen et d'autres forteresses présentent des signes d'attaque 
+extérieure. Elles sont abandonnées par leur hiérarchie et vivent en 
+vase clos.
+Certains commandants de forteresses se déclarent rois. Jyibkhentrê, 
+Qâkarê In(tef), par exemple, sont connus par des graffitis. Leur 
+nombre assez élevé donne une idée de leurs \og souveraineté \fg\dots
+Ils sont pris dans la remontée de Kerma vers le nord et passent à 
+leur service.
+
+L'archéologie révèle une culture locale, dite \emph{groupe~C}, 
+notamment caractérisée par des tombes circulaires, ou \emph{pan 
+tombs}. Ce sont les medjayous qui migrent jusqu'en \kmt et 
+s'installent près des villages auxquels ils finissent par se mêler.
+
+Les rois suivants ne sont connus que par deux ou trois bouts de 
+scarabées.
+
 \section{27e (Sobekhotep~V) ?}
 %----------------------------------------------------------------------
+Un fragment à Karnak, quelques objets à Licht, Abydos, dans l'est 
+du Delta, dans tout le pays. À Fakous, à \SI{25}{\km} de \TeD, on 
+a retrouvé un pyramidion, certainement amené là à une époque
+postérieure : le pyramide devait se trouver dans la région de Licht.
+
+La dynastie règne encore sur tout le pays depuis Itchy-Taouy, mais 
+on date de cette époque la poussée des Hyksos vers le sud.
+
 
 \section{Sobekhotep~VI}
 %----------------------------------------------------------------------
+Rien\dots
 
 \section{Sobekhotep~VII}
 %----------------------------------------------------------------------
+Il est le \num{32}\ieme roi.
+La prise du contrôle du nord du pays par les Hyksos est achevée.
+
 
 \section{Dédoumosé}
 %----------------------------------------------------------------------
+Le \num{37}\ieme roi.
+
+Il est souvent mis en rapport avec un pseudo-roi \emph{Toutimaïos} 
+mentionné dans un fragment de \bsc{Manéthon} connu par le \emph{Contra 
+Apionem} Flavius~\bsc{Josèphe} :\\
+\og sous le règne de Toutimaïos, l'\kmt aurait été envahie par les 
+Hyksos \fg. Jusqu'à il y a une cinquantaine d'années, on n'avait pas 
+d'autres informations que \bsc{Manéthon}, mais ça a changé (\TeD) : 
+on sait qu'il n'y a pas eu d'invasion brutale et le terme Toutimaïos 
+vient de \og tou timaiou onoma \fg et signifie \td{roi au nom 
+respectable}. Ce terme ne désigne donc pas un roi en particulier.
+
+\bigskip
+
+\begin{encadre}[frametitle={Flavius~\bsc{Josèphe}}]
+  Cet historien juif a fait partie de la dernière révolte juive 
+  contre les romains avant de prendre partie pour eux. Le \emph{Contra 
+  Apionem} est un ouvrage polémique dans lequel il démonte les 
+  arguments d'\bsc{Apion}, un polémiste antisémite.
+\end{encadre}
+
+\bigskip
+
+Il y a ensuite une poignée de rois qu'on ne connaît que par des noms 
+dans le \CT\dots
 
 \section{Les non classés}
 %----------------------------------------------------------------------
+En plus des \num{47}~rois dont la succession est connue, la dynastie 
+en compte \num{21}~autres qu'on ne sait pas quand placer. On les 
+désigne par des lettres, de A à U.
+
+\begin{itemize}
+  \item \uwave{Ameni\dots} : il a une pyramide à Dahchour. Il 
+        règne donc encore probablement depuis Itchy-Taouy, ce 
+        qui le placerait avant Sobekhotep~V ;
+  \item Sobekhotep~VIII, roi~M : au moins quatre ans de règne ; une 
+        stèle mentionnant une crue exceptionnelle.
+\end{itemize}
+
+\part{\texorpdfstring{\dyn{xiv}}{XIVe dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+La \dyn{xiv} apparaît dans l'est du Delta vers 1710\,BC. On n'a 
+presque pas de monuments, le \CT donne \num{74}~rois. Pas de tradition 
+onomastique particulière, plein de noms bizarres : peut-être liés à un 
+problème de mise en séquence du \CT.
+
+
+Néhésy
+
+Le deuxième roi de la dynastie. On a des mentions de lui en tant que 
+prince héritier d'un roi dont on ne sait rien. Son nom, signifiant 
+\td{le noir}, est le terme désignant les Nubiens. Il a donné le nom 
+hébraïque \emph{Pinhas}\footnote{Néhésy \donc~Pa-Néhésy \donc~Pinhas}. 
+Il a laissé quelques monuments dans l'est du Delta (mini royaume), 
+notamment une statue dans le temple de Seth à \TeD. D'après le 
+fouilleur du site, ce roi serait serait le fondateur du culte de Seth 
+à Avaris.
+
+L'année 1710 se rattache à la stèle de l'an~\num{400} (musée du 
+Caire), trouvée à Tanis par \bsc{Mariette} avant de la ré-enfouir et 
+de la perdre\dots Elle vient du temple de Seth d'Avaris et est datée 
+de l'an~\num{400} du règne de Seth (il a une titulature !). Elle 
+représente Ramsès~II, mais commémore un événement du règne d'Horemheb. 
+Ramsès fait offrande à Seth représenté sous les traits de Soutekh, un 
+dieu du \PO, et à un officier de la charrerie, père de Ramsès~I\ier, 
+vivant sous Horemheb. Les \num{400}~ans doivent se compter à partir de 
+ce règne-ci. La stèle commémore la restauration du culte de Seth (on a 
+retrouvé un linteau d'Horemheb aimé de Seth dans le temple de \TeD). 
+\num{400}~ans plus tôt, c'est le règne de Néhésy.
+
+Néhésy et ses successeurs ont régné à Avaris, ce sont des Asiatiques.
+
+\TeD, strate~F : arrivée d'habitants cananéens, très peu d'influence 
+égyptienne au début. Nouveau mode d'occupation du sol : résidences 
+plus larges, avec habitations pour les domestiques, \dots Pots avec 
+anses , décorées de striures : poterie de Tell el-Yahoudiyeh (à 
+\SI{25}{\km} du Caire), d'origine syro-palestinienne. Très rapidement 
+elle est fabriquée sur place. Les tombes sont regroupées dans des 
+cimetières, les maisons autour de l'aire sacrée, avec un temple 
+sûrement dédié à Baal. Niveau social élevé : bijoux, \dots ; soldat 
+avec hache et dague ; scarabée en égyptien (directeur des choses 
+scellées). Coutume : le maître est enterré avec ses serviteurs, et un 
+âne à l'entrée de la tombe.
+
+
+Merdjéfarê, le sixième roi. Son nom est sur un monument.
+
+
+Les rois \num{7} à \num{74} ne sont connus que par le \CT : Ibis, 
+Canard, Apis, Celui-aux-nobles-femmes, \dots
+Problème de séquençage du \CT ? \donc~rois mythiques des dynasties 
+antérieures aux dynasties humaines.
+
+
+Périodes des Hyksos
+
+Contemporains de la \dyn{xvii} et du début de la \dyn{xviii}.
+\begin{itemize}
+  \item \dyn{xv} : 1650-1540 (le \NK commence vers 1550) ;
+  \item \dyn{xvi} : connue seulement par \bsc{Manéthon}, mais on n'en 
+        a aucune trace... Peut-être des roitelets locaux ?
+\end{itemize}
+
+Les Hyksos, c'est quoi ?
+
+Des rois mentionnés dans le \CT avec le titre de 
+\begin{hieroglyph}HqA-q-A xAst:t*3\end{hieroglyph}, \tl{HoA-xAs.wt}. 
+Ce titre est utilisé pour parler des souverains étrangers, sans 
+connotation péjorative. Eux-mêmes l'utilisent au début.
+On a fait l'amalgame avec le titre de 
+\begin{hieroglyph}HqA-q-A M8-A-sw-w-T14-A1:3\end{hieroglyph}, 
+\tl{HoA-SAsw}, \td{roi-pasteur}. Mais c'est une fausse étymologie, 
+due à un glissement phonétique de \tl{xAs.t} et un glissement de sens 
+de \tl{SAsw}, \og bédouins \fg, qui, capturés, étaient convertis en 
+bergers (\NK).
+
+D'après \bsc{Flavius} : la colère divine frappe le pays, ce qui 
+provoque l'invasion d'un peuple de l'est qui élit un roi, Samitis, 
+qui s'installe à Memphis, lève des impôts, fortifie l'est du Delta, 
+a sa résidence d'été à Avaris et fonde une dynastie de six rois, 
+renversée par les thébains après le siège d'Avaris. C'est une version 
+cataclysmique qui correspond aux sources égyptiennes postérieures (à 
+partir d'Hatchepsout), un symbole des temps barbares (arrêt du culte = 
+arrêt de la vie civilisée).
+
+L'expulsion des Hyksos et le siège d'Avaris sont réalistes, mais pas 
+le reste (les vainqueurs écrivent l'histoire).
+Quand ils prennent le pouvoir, ils assument le rôle de roi égyptien. 
+Dans l'Antiquité, il y a une certaine indifférence quant à l'ethnie 
+des souverains. En \kmt, on absorbe les souverains étrangers 
+(acculturation) : presque tous ceux de la \LP sont libyens.
+Les fouilles de \TeD dans les années~70 ont mis en évidence une longue 
+tradition de peuplement par des gens du \PO. On a donc affaire à une 
+lente pénétration d'Asiatiques. Ils ont amené avec eux les chevaux et 
+les chars de combat (qui ont révolutionné l'art de la guerre au \PO).
+Ils règnent comme les égyptiens, avec la même administration. La plus 
+grande stabilité permet même un renouveau littéraire (papyrus Westcar 
+(Conte des Rameuses), Rhind (calcul d'aire et de volume, 
+$S_{\text{cercle}} = (\frac{7}{8}d)^2$)). En ce qui concerne la 
+statuaire, on n'a pas suffisamment de pièces, essentiellement des 
+usurpations.
+
+La situation au \PO
+
+\faitle{??? 2013}
+
+Avant la \DPI : morcellement politique, de nombreuses cités-états plus 
+l'Assyrie, la Babylonie, plus importantes mais plus lointaines. Tous 
+ces états vivent du commerce.
+Canaan est une région agricole qui vivote.
+
+La \DPI correspond au Bronze Moyen au \PO, à la période 
+\uwave{amorrite}.
+
+Les Hittites
+
+Ils s'installent dans le nord de l'Anatolie, une zone de vallées 
+enclavées dans les montagnes. Ils parlent une langue indo-européenne 
+et viendraient d'au-delà du Caucase.
+
+Plus à l'est, les \uwave{Hourrites}, dont la langue est agglutinante. 
+Contrairement aus Hittites, ils ne forment pas un état mais vont 
+un peu partout. En Canaan par exemple, que les Égyptiens nomment
+\emph{Kharou}, \td{le pays des Hourrites}. Ils s'adonnent à la 
+métallurgie (cuivre et étain).
+
+\Mtn
+
+C'est l'ennemi par excellence à la \dyn{xviii}. Ils parlent une langue 
+indo-européenne apparentée au sanskrit (\uwave{\emph{pala}}, langue 
+de l'Inde du Nord). Ils seraient venus d'Asie centrale par des routes 
+existant depuis la Préhistoire (route de la soie plus tard, route du 
+lapis-lazuli et surtout de l'étain à cette époque), ou par voie 
+maritime, via la vallée de l'Indus, le Golfe Persique et Babylone.
+Ils ont introduit le cheval et le char au \PO.
+
+L'état mitannien -- souvent appelé \og royaume des Hourrites \fg dans 
+les textes -- est un composite entre un peuple hourrite et une élite 
+mitannienne basée sur le char. Le mot \emph{marya(nnu)} se répand.
+Tout se fond dans la culture sémitique : l'écriture, les dieux,~\dots 
+Ils ne conservent que les noms propres qui se propagent par effet de 
+mode. 
+
+
+Le point culminant est l'unification de la région par Hamourabi 
+(destruction de Mari en 1756) pour fonder le royaume de Mésopotamie.
+
+Les autres royaumes amorrites, Ebla, Qatna, Yamkhad (capitale Alep), 
+qui absorbent progressivement les états de Syrie, vivent du commerce 
+de l'étain.
+
+Au moment où la monarchie hyksos émerge en \kmt, vers 1650, le 
+premier roi hittite important, Hattousil~I\ier, apparait sur la scène 
+internationale avec la volonté de conquérir la Syrie.
+C'est un pays riche en minerai, porté sur la métallurgie, et qui a 
+donc besoin d'étain. \\
+\og les marchands de Kanish (kadish ?) \fg ???\\
+Ils s'approvisionnent via des établissements commerciaux assyriens, 
+les \emph{karouns}, mais c'est loin d'être bon marché. Ils souhaitent 
+donc prendre le contrôle des routes commerciales.
+En 1630, c'est la destruction du royaume d'Alep qui va entraîner la 
+chute des autres royaumes syriens.
+
+Moursil~I\ier, roi du \Htt effectue un raid sur Babylone : c'est la 
+fin des états amorrites de Syrie. Mais il est assassiné à son retour 
+et son pays sombre dans un cycle de guerres intestines qui vont 
+retarder son émergence comme grande puissance (il faudra attendre la 
+\dyn{xix}). L'effondrement des états amorrites crée dans la région un 
+vide qui attire les peuples situés à la périphérie. Le \Mtn, en 
+particulier, s'installe dans le nord de la Mésopotamie en détruisant 
+l'Assyrie ; ils s'arrêtent à l'Euphrate, sans pouvoir contrôler la 
+côte méditerranéenne (concurrence du \Htt, de l'\kmt, des locaux). 
+Les Hourrites continuent leur progression vers le sud. La Babylonie 
+est occupée par les Kassites, descendus eux-aussi des montagnes pour 
+former le royaume de Karduniash.
+
+
+Le lien entre cette situation au \PO et l'émergence des Hyksos en \kmt 
+existe bien mais on ne sait pas le formuler. Est-ce lié à l'expansion 
+démographique ? Un peuple qui en pousse un autre ? Les Hyksos 
+connaissent les avancées technologiques de la région (char).
+
+
+\begin{remarque}
+  La selle n'a pas encore été inventée, il n'y a donc pas de chevaux 
+  montés en combat.
+\end{remarque}
+
+
+L'est du Delta est une terre d'accueil traditionnelle depuis le \MK.
+
+Parallèlement, Canaan voit une période de développement pacifique 
+avec une urbanisation importante, différentes cités (Hazor, la plus 
+importante dans le nord), vallée du Jourdain,~\dots liée, là encore, 
+au commerce de l'étain. L'architecture est caractérisée par des 
+fortifications importantes, des palais et temples massifs. Contre 
+quel ennemi ? Les Hyksos ? Les nomades et semi-nomades locaux ? 
+Ça se retrouve dans l'architecture hyksos.
+
+
+
+\TeD
+
+Consolidation de l'aire sacrée
 
 \bigskip \bigskip
 

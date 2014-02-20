@@ -182,8 +182,8 @@ Une imitation de palais en sous-sol (ornementation avec panneaux de
 plâtre + plaques de verre) ?
 Dans un des corridors, on trouve trois fausses-portes (il y 
 en a également trois sous la pyramide) : éléments du rituel de
-couronnement : course, mais autour de 2$\times$3 bornes et non 
-2$\times$2 ! Attention aux reconstructions !
+couronnement : course, mais autour de \num{2x3}~bornes et non 
+\num{2x2} ! Attention aux reconstructions !
 
 À l'est, la cour de la fête \emph{sed}. Très étroite, l'accès se 
 faisait depuis l'entrée. Au sud, une estrade en pierre, un corridor 
@@ -288,9 +288,9 @@ secondaire.
 On ne sait rien ou presque de son règne.
 
 Son cartouche est gravé sur une dalle de fermeture de la barque de 
-Khéops, sa pyramide est à Abou Rowash, à \SI{10}{\kilo\meter} au nord 
-de Giza, sur un éperon rocheux qui domine la plaine (ce site abrite 
-également des vestiges d'une pyramide à degrés de la \dyn{iii})).
+Khéops, sa pyramide est à Abou Rowash, à \SI{10}{\km} au nord de Giza, 
+sur un éperon rocheux qui domine la plaine (ce site abrite également 
+des vestiges d'une pyramide à degrés de la \dyn{iii})).
 
 La pyramide est probablement inachevée, et on a retrouvé les vestiges 
 du temple funéraire et d'ateliers. La chaussée placée au nord montre 
@@ -298,9 +298,9 @@ que les constructeurs se sont adaptés à la topographie
 (\fref{fig:redjedef}).
 
 De la pyramide, il ne reste qu'un socle rocheux. Sa hauteur aurait 
-atteint \SI{68}{\meter}, soit la moitié de la pyramide de Khéops, 
-mais sa pointe aurait été à la même altitude que celle-ci, grâce à 
-l'éperon rocheux.
+atteint \SI{68}{\m}, soit la moitié de la pyramide de Khéops, mais sa 
+pointe aurait été à la même altitude que celle-ci, grâce à l'éperon 
+rocheux.
 
 La pyramide satellite est également taillée dans la roche.
 
@@ -465,7 +465,7 @@ grands mastabas, mais ils sont pleins).
 \chapter{Ouserkaf}
 %======================================================================
 
-Sa petite (de l'ordre de \SI{20}{\meter}) pyramide est à Saqqara, au 
+Sa petite (de l'ordre de \SI{20}{\m}) pyramide est à Saqqara, au 
 nord-est de Djoser. Elle est en mauvais état.
 À cause de la topographie, le temple funéraire est au sud de la 
 pyramide.

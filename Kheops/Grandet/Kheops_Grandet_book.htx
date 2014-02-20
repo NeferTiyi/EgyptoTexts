@@ -6,8 +6,9 @@
 \usepackage{calc}
 \usepackage{multicol}
 \usepackage{ragged2e}
-\usepackage{nefertiyi}
 \usepackage{minitoc}
+\usepackage{mhchem}
+\usepackage{nefertiyi}
 % \usepackage[format=hang,labelsep=endash,font=sf,labelfont=bf]{caption}
 \usepackage{arabtex}
 \usepackage{neferhiero}
