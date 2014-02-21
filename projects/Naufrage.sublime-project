@@ -7,6 +7,7 @@
         "*.aux",
         "*.bak",
         "*.bbl",
+        "*.bcf",
         "*.blg",
         "*.dic",
         "*.lof",
@@ -19,7 +20,9 @@
         "*.toc",
         "*_tmp.tex",
         "*_full.htx",
-        "*.*~"
+        "*.run.xml",
+        "*.*~",
+        ".git*"
       ],
       "path": "../Naufrage",
       "name": "Sources"
@@ -35,6 +38,10 @@
     {
       "path": "../../neferlatex",
       "name": "Styles LaTeX"
+    },
+    {
+      "path": "../../compil",
+      "name": "Compil"
     }
   ]
 }
