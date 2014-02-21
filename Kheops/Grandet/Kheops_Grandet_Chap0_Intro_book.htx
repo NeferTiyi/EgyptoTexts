@@ -8,18 +8,15 @@
 \faitle{06/03/2012}
 %======================================================================
 
-Durant la période pharaonique (\num{3200}-\num{332}\,BC), l'\kmt a 
-formé une nation, un état indépendant à l'époque préclassique (avant 
-la Grèce et Rome), gouverné par des souverains indigènes qu'on appelle 
+Durant la période pharaonique (\anorange{3200}{332}), l'\kmt a formé 
+une nation, un état indépendant à l'époque préclassique (avant la 
+Grèce et Rome), gouverné par des souverains indigènes qu'on appelle 
 \emph{pharaons}. Ce terme vient de l'égyptien \tl[black]{pr-aA}, 
-\og la grande maison \fg qui désigne le palais royal puis, par 
+\og \td{la grande maison} \fg qui désigne le palais royal puis, par 
 métaphore, son occupant.
 Mais cette indépendance n'a pas été continue, l'\kmt a parfois 
 été occupée par ses voisins, et elle n'est pas restée un bloc 
 monolithique : des centres de pouvoirs se sont parfois opposés.
-
-\num{3000}~ans
-\SI{3000}{ans}
 
 L'un des intérêts de l'étude de l'\kmt ancienne c'est sa longueur, 
 son ancienneté, son unité.
@@ -54,9 +51,7 @@ Les frontières politiques actuelles de l'\kmt ont été tracées à la
 règle à travers les déserts. Elles forment un quadrilatère d'environ 
 \SI{1e6}{\km\squared} (deux fois la France). L'\kmt \og utile \fg{} 
 -- le Nil et sa vallée -- ne représente que 
-% \num{30} à \SI{35000}{\km\squared}, 
-\SIrange{30000}{35000}{\km\squared}, 
-soit l'équivalent de la Belgique.
+\SIrange{30000}{35000}{\km\squared}, soit l'équivalent de la Belgique.
 Malgré tout, les déserts ne sont pas improductifs : ils sont sources 
 de produits minéraux : or, cuivre,~\dots
 
@@ -96,13 +91,13 @@ la soie (c'est la géographie qui impose les routes).
 \bigskip
 
 \begin{remarque}
-  Les premiers essais de fabrication du bronze ont lieu au \PO 
-  vers \num{3000}\,BC. Au départ avec de l'arsenic à la place de 
-  l'étain, mais l'alliage obtenu est de moins bonne qualité et a 
-  rapidement été réservé à la confection d'objets d'apparat 
-  (statuettes), plutôt qu'à des objets utilitaires. L'ajout d'étain 
-  au cuivre rend son travail plus facile (plus souple, plus solide, 
-  T$_{\text{fusion}}$ plus basse).
+  Les premiers essais de fabrication du bronze ont lieu au \PO vers 
+  \ano{3000}. Au départ avec de l'arsenic à la place de l'étain, mais 
+  l'alliage obtenu est de moins bonne qualité et a rapidement été 
+  réservé à la confection d'objets d'apparat (statuettes), plutôt qu'à 
+  des objets utilitaires. L'ajout d'étain au cuivre rend son travail 
+  plus facile (plus souple, plus solide, T$_{\text{fusion}}$ plus 
+  basse).
 \end{remarque}
 
 \bigskip
@@ -135,7 +130,7 @@ Historiquement, le pays est divisé en deux zones :
 \bigskip
 
 \begin{encadre}
-  Les égyptiens pensaient que l'\kmt était l'union de deux royaumes 
+  Les Égyptiens pensaient que l'\kmt était l'union de deux royaumes 
   préexistants.
 \end{encadre}
 
@@ -159,13 +154,15 @@ que Le~Caire est aujourd'hui situé.
 \section{Armoiries}
 %----------------------------------------------------------------------
 
-\begin{wrapfigure}[10]{r}[1cm]{0pt}
+\CaptionPetit
+\begin{wrapfigure}[8]{r}[1cm]{0pt}
   \centerfloat
   \includegraphics[height=4cm]{semataouy}
-  \caption{Le séma-taouy}
+  \caption{Séma-taouy}
   \label{fig:smatawy}
   % \vspace*{-4\baselineskip}
 \end{wrapfigure}
+\CaptionNormal
 
 Le \textbf{séma-taouy} (\fref{fig:smatawy}), symbole politique, peut 
 être considéré comme les armoiries du pays.
@@ -178,7 +175,7 @@ Les représentations peuvent être plus abstraites, stylisées.
 \section{Quelques noms}
 %----------------------------------------------------------------------
 
-On connaît différents nom pour le pays :
+On connaît différents noms pour le pays :
 
 {\SmallerText
 \begin{itemize}\setlength\itemsep{1.0\baselineskip}
@@ -193,8 +190,8 @@ On connaît différents nom pour le pays :
         assyrienne). 
         C'est l'un des noms de Memphis (on donne au pays le nom de la 
         capitale, comme Tunis/Tunisie, Alger/Algérie,~\dots) ;
-  \item {\huge\<m.sr>} \ta{mi\d{s}r} : nom connu depuis 
-        \num{\sim2000}~ans, dans différentes langues = \og le pays 
+  \item {\huge\<m.sr>}, \ta{mi\d{s}r} : nom connu depuis 
+        \num{\sim2000}~ans, dans différentes langues, =~\og le pays 
         fermé, protégé \fg.
 \end{itemize}}
 
@@ -203,7 +200,7 @@ On connaît différents nom pour le pays :
 \begin{remarque}
   \begin{itemize}
     \item {Hikuptah} a donné \emph{Aigyptos} en grec, d'où 
-          \emph{\kmt}. Le \og s \fg{} correspond à la déclinaison 
+          \emph{\kmt}. Le \og s \fg correspond à la déclinaison 
           grecque, il n'existe pas dans le mot original.
     \item Le mot \emph{copte} vient de \emph{Ai\,\fbox{gyptos}}
   \end{itemize}
@@ -215,7 +212,7 @@ On connaît différents nom pour le pays :
 
 \subsection{\HE}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Nékhen, El-Kab, Edfou,~\dots 
+Hiérakonpolis (Nékhen en égyptien), El-Kab, Edfou,~\dots 
 
 C'est probablement la région où l'\kmt s'est formée.
 
@@ -248,7 +245,8 @@ Memphis.
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Silé marque la frontière orientale.
 
-À l'ouest : les Oasis, peuplés dans l'Antiquité, source de minéraux.
+À l'ouest : les Oasis, déjà peuplées dans l'Antiquité, source de 
+minéraux.
 À Dakhla : ville de Balat.
 
 La quatrième cataracte marque l'extension maximale vers le sud, pour 
@@ -256,14 +254,15 @@ le contrôle des mines d'or, les plus importantes du \PO !
 
 \subsection{Les voisins}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pount : source d'encens pour les cultes. Accès par la mer, commerce 
-avec les habitants du littoral.\\
-\hspace*{2em}\puceb~Yémen, plateau éthiopien, de part et d'autre de 
-la Mer Rouge.
-L'encens ne pousse que sur les hauts plateaux (l'altitude combat 
-l'aridité), et a besoin de l'humidité apportée par la mousson.
+\paragraph{Pount}
+Source d'encens pour les cultes. Accès par la mer, commerce avec les 
+habitants du littoral.\\
+Correspond certainement au Yémen et/ou au plateau éthiopien, de part 
+et d'autre de la Mer Rouge.
+L'encens ne pousse que sur les hauts plateaux\footnote{L'altitude 
+combat l'aridité.}, et a besoin de l'humidité apportée par la mousson.
 
-À l'ouest : la Libye.
+\paragraph{La Libye, à l'ouest}
 \begin{itemize}
   \item la Marmarique (côte) : El-Alamein, dépression de Qattâra ;
   \item la Cirénaïque, plus à l'ouest : a attaqué l'\kmt à plusieurs 
@@ -278,22 +277,23 @@ l'aridité), et a besoin de l'humidité apportée par la mousson.
   les pharaons sont tous d'origine libyenne.
 \end{remarque}
 
-Relations avec le \PO : besoin de bois, d'étain, mais aussi de 
+\paragraph{Relations avec le \PO}
+Elles sont liées au besoin en bois, étain, mais aussi en 
 main-d'\oe uvre !\\
 \hspace*{2em}\donc~pour les grands projets (architecturaux), 
 \og non productifs \fg, pendant que la population travaille la terre.
 
-L'\kmt est en effet sous-peuplée dans l'Antiquité (\num{\approx4e6} ?)
+L'\kmt est en effet sous-peuplée dans l'Antiquité (\num{\approx4e6} d'habitants ?)
 
-Byblos : le port où le bois est commercialisé.
+\paragraph{Byblos} Le port où le bois est commercialisé.
 
-Chypre : \emph{Alashiya}
+\paragraph{Chypre} \emph{Alashiya} en égyptien.
 
-Crète Minoenne : \emph{Keftyou}
+\paragraph{Crète Minoenne} Les \emph{Keftyou}.
 
-Grèce, Mycènes
+\paragraph{Grèce, Mycènes}
 
-Anatolie : les Hittites
+\paragraph{Anatolie} Les Hittites.
 
 
 \chapter{Chronologie}
@@ -319,13 +319,13 @@ d'Alexandre et la perte de l'indépendance.
 
 \paragraph{Préhistoire} : 
 \begin{itemize}
-  \item paléolithique - \num{120000}-\num{5350}\,BC ;
+  \item paléolithique -- \anorange{120000}{5350} ;
   \item néolithique :
         \begin{itemize}
-          \item \PD ancien : Nagada~I - \num{5350}-\num{3850}\,BC
-          \item \PD récent : Nagada~II - \num{3850}-\num{3350}\,BC
-          \item protodynastique : Nagada~III, \og dynastie~0 \fg 
-                - \num{5350}-\num{3850}\,BC
+          \item \PD ancien : Nagada~I -- \anorange{5350}{3850}
+          \item \PD récent : Nagada~II -- \anorange{3850}{3350}
+          \item protodynastique : Nagada~III, \og dynastie~0 \fg{} 
+                -- \anorange{5350}{3850}
         \end{itemize}
 \end{itemize}
 
@@ -335,7 +335,7 @@ Le passage du paléolithique au néolithique est caractérisé par le
 passage d'une \emph{économie de prédation} à une \emph{économie de 
 production} :
 
-\begin{minipage}[m]{.42\textwidth}
+\begin{minipage}[t]{.42\textwidth}
   \uline{Économie de prédation}
 
   \bigskip
@@ -351,7 +351,7 @@ production} :
   Grande homogénéité dans le monde entier.
 \end{minipage}%
 \hspace{\fill}\donc\hspace{\fill}%
-\begin{minipage}[m]{.42\textwidth}
+\begin{minipage}[t]{.42\textwidth}
   \uline{Économie de production}
 
   \bigskip
@@ -380,12 +380,16 @@ choses.
 
 \paragraph{Post-histoire} :
 \begin{itemize}
-  \item \kmt grecque, \ptol -- \num{332}-\num{30}\,BC -- 
+  % \item \kmt grecque, \ptol -- \num{332}-\num{30}\,BC -- 
+  \item \kmt grecque, \ptol -- \anorange{332}{30} -- 
         Alexandre le Grand ;
-  \item \kmt romaine -- \num{30}\,BC-\num{395}\,AD ;
-  \item \kmt copte, byzantine -- \num{395}-\num{641}\,AD -- 
+  % \item \kmt romaine -- \num{30}\,BC-\num{395}\,AD ;
+  \item \kmt romaine -- \ano{30}-\ano[1]{395} ;
+  % \item \kmt copte, byzantine -- \num{395}-\num{641}\,AD -- 
+  \item \kmt copte, byzantine -- \anorange[1]{395}{641} -- 
         christianisation complète ;
-  \item conquête arabe - \num{641}\,AD.
+  % \item conquête arabe -- \num{641}\,AD.
+  \item conquête arabe -- \ano[1]{641}.
 \end{itemize}
 \hspace*{2em}\donc~disparition graduelle de la civilisation égyptienne.
 
@@ -406,65 +410,65 @@ choses.
       \multicolumn{2}{c|}{\TblHd{Rome}}                         % 05-06
     \tabularnewline
     \cline{1-6}
-      \num{-3000} &                                          &  % 01-02
-                  &                                          &  % 03-04
-                  &                                             % 05-06
+      \ano[0]{-3000} &                                       &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-                  & \OK                                      &  % 01-02
-                  &                                          &  % 03-04
-                  &                                             % 05-06
+                     & \OK                                   &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-      \num{-2000} &                                          &  % 01-02
-                  &                                          &  % 03-04
-                  &                                             % 05-06
+      \ano[0]{-2000} &                                       &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-                  & \MK                                      &  % 01-02
-                  &                                          &  % 03-04
-                  &                                             % 05-06
+                     & \MK                                   &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-      \num{-1500} &                                          &  % 01-02
-                  &                                          &  % 03-04
-                  &                                             % 05-06
+      \ano[0]{-1500} &                                       &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-                  & \NK                                      &  % 01-02
-                  &                                          &  % 03-04
-                  &                                             % 05-06
+                     & \NK                                   &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-      \num{-1000} &                                          &  % 01-02
-      \num{ -800} &                                          &  % 03-04
-                  &                                             % 05-06
+      \ano[0]{-1000} &                                       &  % 01-02
+      \ano[0]{ -800} &                                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-                  & \LP                                      &  % 01-02
-                  & \'Ep. archaïque                          &  % 03-04
-                  &                                             % 05-06
+                     & \LP                                   &  % 01-02
+                     & \'Ep. archaïque                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-      \num{ -500} &                                          &  % 01-02
-      \num{ -510} &                                          &  % 03-04
-      \num{ -510} &                                             % 05-06
+      \ano[0]{ -500} &                                       &  % 01-02
+      \ano[0]{ -510} &                                       &  % 03-04
+      \ano[0]{ -510} &                                          % 05-06
     \tabularnewline
-                  &                                          &  % 01-02
-                  & \'Ep. classique                          &  % 03-04
-                  &                                             % 05-06
+                     &                                       &  % 01-02
+                     & \'Ep. classique                       &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-      \num{ -342} &                                          &  % 01-02
-      \num{ -323} &                                          &  % 03-04
-                  & République                                  % 05-06
+      \ano[0]{ -342} &                                       &  % 01-02
+      \ano[0]{ -323} &                                       &  % 03-04
+                     & République                               % 05-06
     \tabularnewline
-                  &                                          &  % 01-02
-                  & \'Ep. hellénistique                      &  % 03-04
-                  &                                             % 05-06
+                     &                                       &  % 01-02
+                     & \'Ep. hellénistique                   &  % 03-04
+                     &                                          % 05-06
     \tabularnewline
-                  &                                          &  % 01-02
-      \num{  -30} &                                          &  % 03-04
-      \num{  -27} &                                             % 05-06
+                     &                                       &  % 01-02
+      \ano[0]{  -30} &                                       &  % 03-04
+      \ano[0]{  -27} &                                          % 05-06
     \tabularnewline
-                  &                                          &  % 01-02
-                  &                                          &  % 03-04
-                  & Empire                                      % 05-06
+                     &                                       &  % 01-02
+                     &                                       &  % 03-04
+                     & Empire                                   % 05-06
     \tabularnewline
-                  &                                          &  % 01-02
-                  &                                          &  % 03-04
-      \num{ +395} &                                             % 05-06
+                     &                                       &  % 01-02
+                     &                                       &  % 03-04
+      \ano[0]{ +395} &                                          % 05-06
     \tabularnewline
     \cline{1-6}
   \end{tabular*}
@@ -517,12 +521,16 @@ pharaonique :
 A l'époque archaïque, rappel d'un événement caractéristique par an, 
 sur des tablettes reliées entre elles.
 
+\bigskip
+
 \begin{encadre}
   \og Civilisation \fg{} = manière dont un groupe humain s'adapte à 
-  son milieu pour y survivre et s'y reproduire.
+  son milieu pour y survivre et s'y reproduire.\\
+  \qquad\qquad\donc~Il n'en existe pas deux identiques.
 \end{encadre}
 
-\qquad\qquad\donc~Il n'en existe pas deux identiques.
+\bigskip
+
 
 \donc~Production d'institutions, idées, croyances, morale, coutumes, 
 \dots
@@ -555,7 +563,8 @@ Le climat actuel apparaît vers la première dynastie, avant ça, il
 L'\kmt est une oasis : elle est tributaire du Nil et de sa crue 
 annuelle, un phénomène irrégulier dans le temps et l'espace.
 
-La domestication du Nil a débuté en 1828 avec le barrage du Delta.
+La domestication du Nil a débuté en \ano[0]{1828} avec le barrage du 
+Delta.
 
 Le sol de l'\kmt consiste en une couche d'alluvions de plus de 
 \SI{10}{\m} de haut.
@@ -645,14 +654,14 @@ animal entraîne une roue verticale portant des seaux.\\
 \chapter{Population}
 %======================================================================
 
-Selon Diodore de Sicile : \SI{9}{M} à l'époque romaine (1).
+Selon Diodore de Sicile : \num{9e6}~d'habitants à l'époque romaine [1].
 
 Cela implique une population plus faible avant.
 
-Au 19\ieme~siècle, on dénombrait \num{4} à \SI{5}{M} d'habitants 
-selon les estimations (2).
+Au 19\ieme~siècle, on dénombrait \numrange{4e6}{5e6} habitants 
+selon les estimations [2].
 
-La différence entre (1) et (2) s'explique par l'anarchie politique 
+La différence entre [1] et [2] s'explique par l'anarchie politique 
 qui règne dans le pays au 19\ieme~siècle (donc problèmes dans 
 l'organisation des travaux publics).
 
@@ -733,11 +742,11 @@ L'or est le matériau le plus recyclé, potentiellement à perpétuité.
 
 La campagne d'\kmt a permis d'amasser une grande quantité de 
 documents qui ont permis d'aboutir au déchiffrement des h\iero es 
-par \bsc{Champollion} en 1822.
+par \bsc{Champollion} en \ano[0]{1822}.
 
 \bigskip
 
-\begin{encadre}[frametitle={Le déchiffrement des h\iero es est le 
+\begin{encadre}[frametitle={Déchiffrement des h\iero es : le 
                             grand raté de la Renaissance !}]
   Contrairement au grec et au latin, il y a un hiatus dans la 
   connaissance de l'égyptien. Les \emph{Hieroglyphica} de 

@@ -36,9 +36,9 @@
 
 *_full.htx
 *_tmp.tex
+*.bak
+*~
 
-# Sublime text worspace
-# =====================
 *.sublime-workspace
 
 # Images

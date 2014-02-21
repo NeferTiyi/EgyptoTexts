@@ -6,7 +6,8 @@
       [
         "*.aux",
         "*.bak",
-        "*.bbl",
+/*        "*.bbl",*/
+/*        "*.bcf",*/
         "*.blg",
         "*.dic",
         "*.lof",
@@ -19,6 +20,7 @@
         "*.toc",
         "*_tmp.tex",
         "*_full.htx",
+        "*.run.xml",
         "*.*~"
       ],
       "path": "../Kheops/Grandet",

@@ -24,7 +24,7 @@ Il y a de grandes différences entre les \bsc{xi}\ieme et \dyn{xii}s :
 \begin{itemize}
   \item La \dyn{xi} reste ancrée à Thèbes, fière de son origine 
         provinciale et marquée par la \PPI dans le domaine de l'art 
-        (\musee{Bruxelles} \inv{E.4985}, \fref{fig:djari} et 
+        (\musee{Bruxelles} \inv{E.4985}, \fref{fig:djari}, et 
         \musee{Le~Caire} \inv{TR\,12/4/22/9}). Le dieu tutélaire 
         Montou est mis en avant, à la hauteur d'Amon ;
   \item La \dyn{xii}, au contraire, revendiquant l'héritage de l'\OK 
@@ -92,13 +92,14 @@ du pays.
 \faitle{6 novembre 2012 (Murielle)}
 %======================================================================
 
-%\begin{figure}[htb]
+\CaptionPetit
 \begin{wrapfigure}{i}{0.45\textwidth}
+  \centerfloat
   \includegraphics[width=0.40\textwidth]{MontouhotepII_1}
   \caption{Montouhotep~II (???)}
   \label{fig:mntwhtpII}
 \end{wrapfigure}
-%\end{figure}
+\CaptionNormal
 
 Montouhotep~II est le seul roi important de la \dyn{xi} avec un 
 \textbf{règne de \num{51}~ans} couvrant la fin de la \PPI et le début 
@@ -214,9 +215,9 @@ témoigne ce lot de papyrus dont on peut consulter quelques traductions
 sur le site : \\
 \url{http://www.reshafim.org.il/ad/egypt/texts/heqanakht.htm}
 
-Découverts par une équipe du \musee{Metropolitan} vers 1920, ils 
-furent confiés à un égyptologue du nom de Gunn. Un soir, il en 
-discutait avec \bsc{Mallowan} et c'est ainsi que ces papyrus ont 
+Découverts par une équipe du \musee{Metropolitan} vers \ano[0]{1920}, 
+ils furent confiés à un égyptologue du nom de Gunn. Un soir, il en
+discuta avec \bsc{Mallowan} et c'est ainsi que ces papyrus ont 
 inspiré Agatha~\bsc{Christie} pour \emph{La mort n'est pas une fin}.
 
 \subsection{La tombe du chancelier Méketrê (TT\,280)}
@@ -752,6 +753,7 @@ d'Amonrâsonther (\fref{fig:amonrasonther}).
   \label{fig:vishnu}
 \end{figure}
 
+\CaptionPetit
 \begin{wrapfigure}[12]{o}[1.5cm]{0pt}
   \centerfloat
   \begin{tikzpicture}
@@ -760,6 +762,7 @@ d'Amonrâsonther (\fref{fig:amonrasonther}).
   \caption{Trinité Amon-Rê-Ptah}
   \label{fig:trinite}
 \end{wrapfigure}
+\CaptionNormal
 
 À l'\OK, Rê était la divinité majeure, associée à Osiris au travers 
 des pyramides. Ils représentent deux aspects d'une même chose puisque 
@@ -860,7 +863,8 @@ texte comme un évangile.}, on annonce la venue d'un sauveur
 C'est la restauration de l'administration. Il y a de nouveau des 
 vizirs, dont le plus célèbre est Antefoqer qui officia également sous 
 Sésostris~I\ier. Sa tombe, de superstructure modeste 
-(\SI{\sim10}{\m}), est située à Licht, près du coin sud-ouest de 
+(\SI{\sim 10}{\m}), est située à Licht, près du coin sud-ouest de 
+% (\SI{10}{\m}), est située à Licht, près du coin sud-ouest de 
 l'enceinte de la pyramide d'Amenemhat~I\ier.
 
 \section{Roi bâtisseur}
@@ -1254,10 +1258,10 @@ illustration de la reprise en main de l'administration.
 
 \begin{figure}[h]
   \includegraphics[width=0.90\textwidth]{chapelleblanche_4}
-  \caption{Chapelle Blanche, liste des nomes. 
+  \caption{Chapelle Blanche, liste des nomes.
            Ligne~(1) :~emblème ;
-           ligne~(2) :~dieu principal et métropole ; 
-           ligne~(3) :~longueur en itérou (parallèlement au Nil) ; 
+           ligne~(2) :~dieu principal et métropole ;
+           ligne~(3) :~longueur en itérou (parallèlement au Nil) ;
            lignes~(4), (5) et (6) :~définition de l'aroure}
   \label{fig:nomes}
 \end{figure}
@@ -1363,7 +1367,7 @@ tous les domaines.
       (a) & (b) & (c) & (a) à (b) & (b) à (c) 
     \tabularnewline
     \cline{1-5}
-      \SI{10.5}{\m}        & 
+      \SI{10.5}{\m}   & 
       \SI{\pm6}{\m}   & 
       \SI{\pm3}{\m}   & 
       \SI{\pm2.8}{\m} & 
@@ -1441,10 +1445,10 @@ nobreak=true, frametitle={Le trésor de Tôd (\musee{Musée du Louvre})}]
 
   \paragraph{}
   Dans les fondations d'un temple remontant au règne de 
-  Sésostris~I\ier (\num{1934}-\num{1898} avant \mbox{J.-C.}) 
-  F.~\bsc{Bisson de la Roque} découvrit, en 1936, quatre coffres de 
-  bronze marqués au nom du roi Amenemhat~II (\num{1898}-\num{1866} 
-  avant \mbox{J.-C.}), fils et successeur de Sésostris~I\ier.
+  Sésostris~I\ier (\anorange{1934}{1898}) F.~\bsc{Bisson de la Roque} 
+  découvrit, en \num{1936}, quatre coffres de bronze marqués au nom du 
+  roi Amenemhat~II (\anorange{1898}{1866}), fils et successeur de 
+  Sésostris~I\ier.
 
   \paragraph{}
   Ils contenaient un trésor constitué essentiellement de 
@@ -1458,7 +1462,7 @@ nobreak=true, frametitle={Le trésor de Tôd (\musee{Musée du Louvre})}]
   révélèrent d'un type étranger à l'\kmt. Les meilleurs parallèles 
   trouvés à ce jour sont des céramiques trouvées à Phaïstos et 
   Cnossos en Crète, remontant au Minoen Moyen~\bsc{ib–ii} (avant
-  \num{2000}-\num{1775}) : les pièces de Tôd seraient soit de travail 
+  \anorange{2000}{1775}) : les pièces de Tôd seraient soit de travail 
   minoen, soit des copies de travail minoen. Un des vases de Tôd 
   ressemble en tout point à une coupe en or trouvée dans une tombe 
   mycénienne du 16\ieme~siècle avant \mbox{J.-C.}, ce qui incite 

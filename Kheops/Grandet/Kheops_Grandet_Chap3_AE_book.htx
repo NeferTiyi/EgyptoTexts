@@ -236,24 +236,24 @@ barrières sont gravées -- ouvertes -- dans les murs.
   \label{fig:cplxpyra}
 \end{figure}
 
+\CaptionPetit
 \begin{figure}[htb]
-  \begin{minipage}[b]{0.5\textwidth}
+  \begin{minipage}[b]{0.3\textwidth}
     \centerfloat
-    \begin{tikzpicture}
-      \begin{scope}[thick]
-        \templehaut
-      \end{scope}
-      \begin{scope}[shift={(0,-6)}, scale=0.66]
-        \chicane
-      \end{scope}
+    \begin{tikzpicture}[thick]
+      \templehaut
+    \end{tikzpicture}
+
+    \bigskip
+
+    \begin{tikzpicture}[scale=0.66]
+      \chicane
     \end{tikzpicture}
     \caption{Temple haut type de Snéfrou, avec entrée en chicane}
     \label{fig:templehaut}
   \end{minipage}%
   \hfill%
-  \begin{minipage}[b]{0.5\textwidth}%
-% \end{figure}
-% \begin{figure}[htb]
+  \begin{minipage}[b]{0.4\textwidth}%
     \begin{tikzpicture}[scale=.5]
       \voute
     \end{tikzpicture}
@@ -261,6 +261,7 @@ barrières sont gravées -- ouvertes -- dans les murs.
     \label{fig:voute}
   \end{minipage}%
 \end{figure}
+\CaptionNormal
 
 \begin{figure}[htb]
   \begin{tikzpicture}[scale=0.75]
@@ -362,10 +363,11 @@ laissent penser à des bases de statues, mais on n'y a trouvé que le
 Khéphren au faucon en diorite, et aucun texte.
 
 Le sphinx est un rocher taillé au centre d'une excavation. Il a été 
-l'objet de plusieurs désensablements (le dernier en 1936). Il pose 
-de nombreux problèmes d'interprétation. Le plus probable est qu'il 
-s'agisse d'une représentation de Khéphren. On a retrouvé des fragments 
-de barbe postiche, aujourd'hui conservés au British Museum.
+l'objet de plusieurs désensablements (le dernier en \ano[0]{1936}). 
+Il pose de nombreux problèmes d'interprétation. Le plus probable est
+qu'il s'agisse d'une représentation de Khéphren. On a retrouvé des 
+fragments de barbe postiche, aujourd'hui conservés au \musee{British 
+Museum}.
 Autour de quatre-vingt (ou trente ?) stèles ont été retrouvées 
 encastrées dans le mur d'enceinte du sanctuaire de la \dyn{xviii}. 
 Le sphinx y est représenté accompagné d'une statue royale et portant 

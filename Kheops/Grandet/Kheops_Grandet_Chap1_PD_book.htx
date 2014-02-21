@@ -30,19 +30,19 @@
     \tabularnewline
   %          123
     \hhline{|---|}
-      \TblHd{\PD ancien \\ \emph{\smaller5500-3500}}            &  % 01
+      \TblHd{\PD ancien\\\rem{\anorange[0]{5500}{3500}}}        &  % 01
       Badarien \\ \uline{Nagada~I} (Amratien)                   &  % 02
       Fayoum~A \\ Mérimdé Béni Salamé \\ El-Omari                  % 03
     \tabularnewline
   %          123
     \hhline{|---|}
-      \TblHd{\PD récent \\ \emph{\smaller3500-3200}}            &  % 01
+      \TblHd{\PD récent\\\rem{\anorange[0]{3500}{3200}}}        &  % 01
       \uline{Nagada~II} \\ (Gerzéen ancien)                     &  % 02
       Maadien \\ Bouto                                             % 03
     \tabularnewline
   %          123
     \hhline{|---|}
-      \TblHd{Protodynastique \\ \emph{\smaller3200-3100}}       &  % 01
+      \TblHd{Protodynastique\\\rem{\anorange[0]{3200}{3100}}}   &  % 01
       \multicolumn{2}{c|}{%
         \parbox{8cm}{\centering\uline{Nagada~III} \\
                      (Gerzéen récent, \og dynastie~0 \fg)}
@@ -122,13 +122,6 @@ Apparition de :
 \chapter{Nagada~II}
 %======================================================================
 
-\begin{itemize}
-  \item Industrie lithique (\emph{ripple flakes}) ;
-  \item Pots à décor imitant la pierre ;
-  \item Décors avec bateaux, végétaux, danseuses, paysages naturels
-        \flech navigation de personnages importants.
-\end{itemize}
-
 \CaptionPetit
 \begin{wrapfigure}{l}{0pt}
   \centerfloat
@@ -138,12 +131,24 @@ Apparition de :
 \end{wrapfigure}
 \CaptionNormal
 
+\begin{itemize}
+  \item Industrie lithique (\emph{ripple flakes}) ;
+  \item Pots à décor imitant la pierre ;
+  \item Décors avec bateaux, végétaux, danseuses, paysages naturels
+        \flech navigation de personnages importants.
+\end{itemize}
+
+Ce sont les débuts de la sculpture, avec notamment les palettes 
+à fard (dès Nagada~I). Ces objets, au départ purement utilitaires, 
+géométriques, servent à broyer des pigments. Certaines palettes 
+prennent la forme d'animaux, ou sont affublées d'éléments d'animaux. 
+Le décor est parfois gravé sur les palettes : emblème de Min, Vache 
+du Ciel (Bat, forme locale d'Hathor, \fref{fig:bat}).
+
 \begin{remarque}
   On trouve déjà en germe les réalisations de l'époque historique : 
   art, représentations commémoratives.
 \end{remarque}
-
-Ce sont les débuts de la sculpture, avec notamment les palettes à fard (dès Nagada~I). Ces objets, au départ purement utilitaires, géométriques, servent à broyer des pigments. Certaines palettes prennent la forme d'animaux, ou sont affublées d'éléments d'animaux. Le décor est parfois gravé sur les palettes : emblème de Min, Vache du Ciel (Bat, forme locale d'Hathor, \fref{fig:bat}).
 
 % E11151.jpg
 % E22730.jpg
@@ -215,7 +220,7 @@ Le site comporte :
 \bigskip
 
 \begin{figure}[htb]
-  \includegraphics[height=6cm]{HK100}
+  \includegraphics[width=0.9\paperwidth]{HK100}
   \caption{Tombe décorée de Hiérakonpolis}
   \label{fig:HK100}
 \end{figure}
@@ -255,7 +260,7 @@ un enclos en briques crues à ensuite été ajoutée, et il a subit un
 agrandissement progressif jusqu'à l'époque \ptol. L'espace cultuel de 
 la \dyn{xviii} est exactement au-dessus du temple préhistorique.
 
-Le naos de l'époque de Pépi~I\ier (vers \num{2300}\,BC) est au 
+Le naos de l'époque de Pépi~I\ier (vers \ano[0]{2300}) est au 
 \musee{Louvre} (\inv{E\,12660}, \fref{???}).
 
 \begin{remarque}

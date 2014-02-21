@@ -377,12 +377,12 @@
 
 \input{Kheops_Grandet_tikz}
 
-\addbibresource{../../utils/biblio.bib}
+\addbibresource{../../../utils/Egypto.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\input{../../utils/NeferBabel}
+\input{../../../utils/NeferBabel}
 
 \thispagestyle{empty}
 \maketitle
