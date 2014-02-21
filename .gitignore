@@ -5,6 +5,7 @@
 *.alg
 *.aux
 *.bbl
+*.bcf
 *.blg
 *.dic
 *.dvi
@@ -33,6 +34,7 @@
 *.vrb
 *.xdy
 *.tdo
+*.run.xml
 
 *_full.htx
 *_tmp.tex
@@ -43,10 +45,16 @@
 
 # Images
 # ======
+*.JPG
 *.jpg
 *.jpeg
 *.png
 *.gif
+*.tif
+*.xcf
+*.svg
+*.ppm
+*.pbm
 
 *.pdf
 
