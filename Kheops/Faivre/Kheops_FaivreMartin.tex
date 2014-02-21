@@ -1,14 +1,23 @@
 \documentclass[dvipsnames,a4paper,twoside,10pt,openany]{memoir}
 \usepackage{pgf,tikz}
-%\usepackage[framemethod=tikz]{mdframed}
-\usetikzlibrary{calc,patterns,arrows,positioning,shadows,decorations.text}
-%\usepackage{picins}
-\usepackage{calc}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  calc,
+  patterns,
+  arrows,
+  positioning,
+  shadows,
+  decorations.text
+}
 \usepackage{multicol}
 \usepackage{ragged2e}
 \usepackage{nefertiyi}
-\usepackage[format=hang,labelsep=endash,font=sf,labelfont=bf]{caption}
-% \usepackage{neferhiero}
+
+
+
+
+
 
 \title{Attributs royaux}
 \short{Attributs royaux en \kmt et Mésopotamie}
@@ -45,14 +54,36 @@
 \addtolength{\voffset}{1.5cm}
 \addtolength{\textheight}{-1.0cm}
 
-\newcommand{\DirImg}{../../img/FaivreMartin/}
-\newcommand{\PG}{Pierre~\bsc{Grandet}\xspace}
+\graphicspath{%
+  {../../../images/Kheops/Faivre/}%
+}
+
+% \newcommand{\PG}{Pierre~\bsc{Grandet}\xspace}
+
+\setfloatadjustment{figure}{\centerfloat}
+\setfloatadjustment{table}{\centerfloat}
+
+\newsubfloat{figure}
+
+% \subcaptionstyle{}
+\subcaptionfont{\sffamily}
+\subcaptionlabelfont{\bfseries\sffamily}
+
+\captionnamefont{\bfseries\sffamily}
+\captiontitlefont{\sffamily}
+\captiondelim{~-- }
+
+\newcommand{\CaptionNormal}{%
+  \captionwidth{0.75\linewidth}
+  \changecaptionwidth
+  \hangcaption
+}
+\newcommand{\CaptionPetit}{%
+  \normalcaptionwidth
+  \normalcaption
+}
 
 
-\DeclareCaptionStyle{petit}
-  {format=hang,labelsep=quad,font=sf,labelfont=bf,%
-   justification=RaggedRight,margin=0pt}
-\captionsetup{margin=2cm}
 
 \setlength\fboxsep{0.5mm}
 %\setlength\tabcolsep{0mm}

@@ -22,7 +22,6 @@
   shadows,
   decorations.text
 }
-\usepackage{calc}
 \usepackage{multicol}
 \usepackage{ragged2e}
 \usepackage{minitoc}

@@ -4,23 +4,43 @@
     {
       "file_exclude_patterns":
       [
-        "*.out",
         "*.aux",
+        "*.bak",
         "*.bbl",
+        "*.bcf",
         "*.blg",
         "*.dic",
-        "*.toc",
+        "*.lof",
+        "*.lot",
+        "*.maf",
+        "*.mtc",
+        "*.mtc0",
+        "*.out",
         "*.pdf",
+        "*.toc",
+        "*_tmp.tex",
         "*_full.htx",
+        "*.run.xml",
         "*.*~"
       ],
-      "path": "../Kheops/Faivre"
+      "path": "../Kheops/Faivre",
+      "name": "Sources"
     },
     {
-      "path": "../img/Faivre"
+      "path": "../../images/Kheops/Faivre",
+      "name": "Images"
     },
     {
-      "path": "../utils"
+      "path": "../../utils",
+      "name": "Fichiers communs"
+    },
+    {
+      "path": "../../neferlatex",
+      "name": "Styles LaTeX"
+    },
+    {
+      "path": "../../compil",
+      "name": "Compil"
     }
   ]
 }
