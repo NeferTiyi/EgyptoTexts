@@ -1,5 +1,4 @@
-\documentclass[dvipsnames,a4paper,twoside,10pt,openany]{memoir}
-\usepackage{pgf,tikz}
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
 
 \usepackage{pgf,tikz}
 \usetikzlibrary{%
@@ -19,46 +18,114 @@
 
 
 
-\title{Attributs royaux}
-\short{Attributs royaux en \kmt et Mésopotamie}
-\subtitle{\kmt et Mésopotamie}
-\lecturer{Evelyne~\bsc{Faivre-Martin}}
-\orga{l'Institut Khéops}
-\author{Sonia \bsc{Labetoulle}}
-\date{Juillet 2012}
-%\date{6 mars - 19 juin 2012}
 
 % Numérotation des division et prise en compte dans la TOC
 \maxsecnumdepth{subsection}
 \maxtocdepth{subsection}
 
+\counterwithin{part}{book}
+\counterwithin{chapter}{book}
+%\counterwithout{chapter}{part}
+% \counterwithin{subsection}{section}
+% % \counterwithout{figure}{part}
+% \counterwithout{figure}{chapter}
+
+\renewcommand{\bookname}{Livre}
+
 % Apparence des numéros de divisions
-\renewcommand{\thesubsection}{\alph{subsection})}
+\renewcommand{\thepart}{\arabic{part}}
 \renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesubsection}{\alph{subsection})}
 
 % Indentation et largeur des numéros dans la TOC
-\cftsetindents{part}{\cftpartindent}{2.0em}
+\cftsetindents{part}{\cftpartindent}{2.6em}
 \cftsetindents{chapter}{\cftchapterindent}{1.8em}
 \cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
 % Pointillés dans la TOC
 \renewcommand{\cftsectiondotsep}{9}
 \renewcommand{\cftsubsectiondotsep}{1}
 
+
+
+% Entry         Level        Standard        memoir class
+%                         indent numwidth   indent numwidth 
+% ---------------------------------------------------------
+% book             -2       —      —          0.0    —
+% part             -1       0.0    —          0.0    1.5 
+% chapter           0       0.0    1.5        0.0    1.5
+% section           1       1.5    2.3        1.5    2.3
+% subsection        2       3.8    3.2        3.8    3.2
+% subsubsection     3       7.0    4.1        7.0    4.1
+% paragraph         4      10.0    5.0       10.0    5.0
+% subparagraph      5      12.0    6.0       12.0    6.0
+% figure/table     (1)      1.5    2.3        0.0    1.5
+% subfigure/table  (2)      —      —          1.5    2.3
+
+
+% Macro               Default           Usage
+% ---------------------------------------------------------------------
+% \abstractname       Abstract          title for abstract environment
+% \alsoname           see also          used by \seealso
+% \amname             am                used in printing time of day
+% \appendixname       Appendix          name for an appendix heading
+% \appendixpagename   Appendices        name for an \appendixpage
+% \appendixtocname    Appendices        ToC entry announcing appendices
+% \bibname            Bibliography      title for \thebibliography
+% \bookname           Book              name for \book heading
+% \bookrefname        Book              used by \Bref
+% \chaptername        Chapter           name for \chapter heading
+% \chapterrefname     Chapter           used by \Cref
+% \contentsname       Contents          title for \tableofcontents
+% \figurename         Figure            name for ﬁgure \caption
+% \figurerefname      Figure            used by \fref
+% \glossaryname       Glossary          title for \theglossary
+% \indexname          Index             title for \theindex
+% \lcminusname        minus             used in named number formatting
+% \listfigurename     List of Figures   title for \listoffigugres
+% \listtablename      List of Tables    title for \listoftables
+% \minusname          minus             used in named number formatting
+% \namenumberand      and               used in named number formatting
+% \namenumbercomma    ,                 used in named number formatting
+% \notesname          Notes             title of \notedivision
+% \pagename           page              for your use
+% \pagerefname        page              used by \pref
+% \partname           Part              name for \part heading
+% \partrefname        Part              used by \Pref
+% \pmnane             pm                used in printing time of day
+% \sectionrefname     §                 used by \Sref
+% \seename            see               used by \see
+% \tablename          Table             name for table \caption
+% \tablerefname       Table             used by \tref
+% \ucminusname        Minus             used in named number formatting
+% ---------------------------------------------------------------------
+% \renewcommand{\partname}{Part}
+% \renewcommand{\partrefname}{Part~}
+% ---------------------------------------------------------------------
+% \newcommand*{\nNamexi}{\iflowertonumname e\else E\fi leven}
+\renewcommand{\chapterrefname}{Chapitre~}
+\renewcommand{\bookrefname}{Livre~}
+\renewcommand{\partrefname}{Partie~}
+
+
+
 \setpnumwidth{2.55em}
 \setrmarg{3.55em}
 
 \addtolength{\columnsep}{15pt}
 
-\addtolength{\hoffset}{2.0cm}
-\addtolength{\textwidth}{-4.0cm}
-\addtolength{\voffset}{1.5cm}
-\addtolength{\textheight}{-1.0cm}
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
 
 \graphicspath{%
   {../../../images/Kheops/Faivre/}%
 }
 
-% \newcommand{\PG}{Pierre~\bsc{Grandet}\xspace}
 
 \setfloatadjustment{figure}{\centerfloat}
 \setfloatadjustment{table}{\centerfloat}
@@ -91,9 +158,14 @@
 
 \newcommand{\faitle}[1]{\hfill\emph{\smaller#1}}
 
+% Formattage
+% ==========
 \newcommand{\datation}[1]{{\normalfont\emph{#1}}}
-\newcommand{\musee}[1]{\emph{#1}}
-\newcommand{\inv}[1]{\emph{#1}}
+\newcommand{\musee}[1]{\emph{\textcolor{MidnightBlue}{#1}}}
+\newcommand{\inv}[1]{\emph{\textcolor{RawSienna}{#1}}}
+\newcommand{\infos}[1]{{\smaller#1}}
+\newcommand{\titre}[1]{{\sffamily#1}}
+\newcommand{\source}[1]{\emph{#1}}
 
 \makechapterstyle{monchap}{%
   \renewcommand{\chapnamefont}{\raggedleft\normalfont\huge\scshape}
@@ -111,6 +183,27 @@
 }
 
 \chapterstyle{monchap}
+
+%======================================================================
+\title{Attributs royaux en \kmt et Mésopotamie}
+\short{Attributs royaux}
+\subtitle{\kmt et Mésopotamie}
+\lecturer{Evelyne~\bsc{Faivre-Martin}}
+\orga{l'\IK}
+\author{Sonia \bsc{Labetoulle}}
+\date{Juillet 2012}
+
+\hypersetup{%
+  pdftitle  = {Attributs royaux en \kmt et Mésopotamie, cours d'Evelyne~\bsc{Faivre} à l'\IK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject
+% pdfcreator
+% pdfproducer
+% pdfkeywords
+
+%======================================================================
+
 
 \newlength{\drop}% for my convenience
 \makeatletter
@@ -131,6 +224,7 @@
                   \@lecturer}\par
           \vspace{0.5\textheight}
           {\noindent \@author}\\[\baselineskip]
+          {\small\itshape\today, \printtime}
         }% end of vbox
       }% end of parbox
     }% end of hbox
@@ -163,6 +257,7 @@
     \setcounter{table}{0}
   }
 
+
 \makeatother
 
 \makepsmarks{ruled}{%
@@ -182,19 +277,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
+\input{../../../utils/NeferBabel}
+
 \thispagestyle{empty}
 \maketitle
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\tableofcontents
 
 \mainmatter
 
 \input{Kheops_FaivreMartin_01}
 
+\backmatter
 \newpage
 \listoffigures
 \listoftables
-\tableofcontents
 
 
 
