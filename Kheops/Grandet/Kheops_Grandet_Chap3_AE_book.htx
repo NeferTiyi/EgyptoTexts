@@ -10,12 +10,12 @@
 La \dyn{iii} est presque aussi mal connue que la \bsc{ii}\ieme.
 
 La liste des rois est sujette à caution, car on connaît surtout le 
-complexe fnéraire de Djoser.
+complexe funéraire de Djoser.
 
 \begin{itemize}
   \item Nebka (Sanakht)
   \item Djoser (Netcherierkhet)
-  \item Sekhemkhet
+  \item Sékhemkhet
   \item Khâba
   \item Houni
 \end{itemize}
@@ -23,7 +23,7 @@ complexe fnéraire de Djoser.
 \bigskip
 
 le premier roi -- Nebka -- est l'époux de Nyhepmaât, fille de 
-Khâsekhemouy, le dernier roi de la dynastie précédente.
+Khâsékhemouy, le dernier roi de la dynastie précédente.
 
 Il s'agit d'une période de grand développement technique et 
 technologique.
@@ -56,20 +56,33 @@ parfois associé à Imhotep.
 \bigskip
 
 \begin{figure}[htb]
-  \begin{tikzpicture}[remember picture, scale=1.0]
-    \sanctuaire
-  \end{tikzpicture}
-  \begin{tikzpicture}[remember picture, overlay, shift={(0.0,4.5)}]
-    \node [above right] (legende) at ( 0.00, 0.00) 
-          {gorge égyptienne} ;
-    \node [below right, text width=3cm, align=justify, font=\smaller] 
-          (texte) at ( 0.00, 0.00) 
-          {\flech pétrification des feuilles de palmiers utilisées 
-                  pour rigidifier le haut des murs} ;
-    \draw [->,=>stealth] 
-          (legende.west) to [in=0,out=180] (gorge.center) ;
-  \end{tikzpicture}
-  \caption{Sanctuaire a) \BE ; b) \HE}
+  \noi\begin{minipage}[m]{.45\textwidth}%
+    \centerfloat
+    \begin{tikzpicture}%
+      \sanctBE
+    \end{tikzpicture}
+    \subcaption{Sanctuaire de \BE \label{fig:sanctBE}}
+  \end{minipage}%
+  \quad%
+  \begin{minipage}[m]{.45\textwidth}%
+    \centerfloat
+    \begin{tikzpicture}[remember picture, scale=1.0]
+      \sanctHE
+    \end{tikzpicture}
+    \begin{tikzpicture}[remember picture, overlay, shift={(0.0,4.5)}]
+      \node [above right] (legende) at ( 0.00, 0.00) 
+            {gorge égyptienne} ;
+      \node [below right, text width=2.7cm, font=\smaller] 
+            (texte) at ( 0.00, 0.00) 
+            {\flech pétrification des feuilles de palmiers utilisées 
+                    pour rigidifier le haut des murs} ;
+      \draw [->,=>stealth] 
+            (legende.west) to [in=0,out=180] (gorge.center) ;
+    \end{tikzpicture}
+    \subcaption{Sanctuaire de \HE \label{fig:sanctHE}}
+  \end{minipage}%
+
+  \caption{Sanctuaires}
   \label{fig:sanctuaire}
 \end{figure}
 
@@ -77,32 +90,33 @@ parfois associé à Imhotep.
 \chapter{Djoser}
 %======================================================================
 
-\noi\begin{minipage}[m]{.1\textwidth}
+\begin{wrapfigure}[5]{l}{0pt}
   \EnColonne[1.3\Htm]{%
     \begin{hieroglyph}G5-<S-nTr-r-X->\end{hieroglyph}%
   }
-\end{minipage}%
-\hfill%
-\begin{minipage}[m]{.9\textwidth}
-  Il est connu par des graffiti de touristes de la \dyn{xviii} 
-  \nospace{:)}
+\end{wrapfigure}
 
-  \bigskip
+Il est connu par des graffiti de touristes de la \dyn{xviii} 
+\nospace{:)}
 
-  À partir de là, on copie en pierre ce qui était en briques, 
-  bois,~\dots C'est la \mbox{\emph{pétrification}} 
-\end{minipage}%
+\begin{remarque}
+  La racine \tl[black]{Dsr} signifie \og couper \fg, comme 
+  \emph{César}.
+\end{remarque}
+
+À partir de là, on copie en pierre ce qui était en briques, 
+bois,~\dots C'est la \emph{pétrification}.
 
 Le monument le plus connu de ce règne est la \og Stèle de la 
 Famine \fg (\fref{fig:famine}), sur l'île de Séhel. Le texte mentionne 
 l'an~\num{18} de Djoser, mais il s'agit en fait d'un faux datant de 
-Ptolémée~V ! Elle entérine le don par Djoser de la Basse-Nubie au dieu 
-Khnoum d'Éléphantine pour le remercier d'avoir mis fin à la famine due 
-à sept ans de mauvaises crues. C'est une justification de 
-l'appartenance de la région au temple de Khnoum. Il est impossible de 
-savoir si cela correspond à une réalité ou non.
+Ptolémée~V ! Elle entérine le don par Djoser de la \BN au dieu Khnoum 
+d'Éléphantine pour le remercier d'avoir mis fin à la famine due à sept 
+ans de mauvaises crues. C'est une justification de l'appartenance de 
+la région au temple de Khnoum. Il est impossible de savoir si cela 
+correspond à une réalité ou non.
 
-\begin{figure}[!h]
+\begin{figure}[htb]
   \includegraphics[width=.66\textwidth]{SteleFamine}
   \caption{Stèle de la famine}
   \label{fig:famine}
@@ -144,13 +158,12 @@ pour en réaliser de vraies.
 
 \faitle{22 mai 2012}
 
-Les constructions en briques vivent : le matériau se contracte et 
-se dilate en fonction de l'humidité et la température, et peut se 
-fissurer. Pour pallier à ça, les lits de briques étaient disposés 
-en vagues (\fref{fig:vagues}). À Phil\ae, on retrouve la même chose 
-en pierre, c'est là encore un phénomène de \emph{pétrification}.
-
-\bigskip
+\begin{remarque}
+  Les constructions en briques vivent : le matériau se contracte et 
+  se dilate en fonction de l'humidité et la température, et peut se 
+  fissurer. Pour pallier à ça, les lits de briques étaient disposés 
+  en vagues (\fref{fig:vagues}). À Phil\ae, on retrouve la même chose 
+  en pierre, c'est là encore un phénomène de pétrification.
 
 \begin{figure}[htb]
   \begin{tikzpicture}[scale=0.67]
@@ -159,6 +172,9 @@ en pierre, c'est là encore un phénomène de \emph{pétrification}.
   \caption{Construction en vagues}
   \label{fig:vagues}
 \end{figure}
+\end{remarque}
+
+\bigskip
 
 \paragraph{Course rituelle}
 Lors du couronnement ou de la fête \emph{sed} (renouvellement du 
@@ -170,8 +186,64 @@ génération, symbolique).
         dessinant plus ou moins un cartouche, comme le soleil.
 \end{itemize}
 
+\begin{figure}[htb]
+  \CaptionPetit
+  \includegraphics[width=0.9\paperwidth]{Saqqara}
+  \caption{Complexe funéraire de Djoser à Saqqara\newline\smaller
+           (1)~\uline{Tombe sud} : puits de \SI{28}{\m} de 
+               profondeur ; décoré de représentations en relief du 
+               roi ; il semble qu'il renfermait les vases canopes de 
+               Djoser\newline
+           (2)~\uline{Chapelle de la tombe sud} : l'extérieur est 
+               décoré d'une frise de cobra\newline
+           (3)~\uline{Terrasses occidentales} : non fouillées, elles 
+               recouvrent plusieurs couloirs avec des chambres de 
+               chaque côté ; des magasins pourraient également s'y 
+               trouver\newline
+           (4)~\uline{Édicules} : construits avec des blocs de 
+               calcaire ; ils ont la forme de la lettre~D et indiquent 
+               le parcours de la course du roi lors de la fête 
+               \emph{sed}\newline
+           (5)~\uline{Cour sud} : son secteur septentrional abrite la 
+               pyramide à degré et une tombe au sud ; on y célébrait 
+               certaines cérémonies de la fête \emph{sed}\newline
+           (6)~\uline{Entrée de la galerie saïte} : accès au profond 
+               puits funéraire creusé pour Djoser qui débouche sur la 
+               chambre funéraire en granit\newline
+           (7)~\uline{Colonnade d'entrée} : couloir d'accès bordé de 
+               colonnes de \SI{6.60}{\m} de haut\newline
+           (8)~\uline{Temple~T ou pavillon royal} : sa fonction reste 
+               inconnue, même s'il ne fait aucun doute qu'il servait 
+               pendant la fête \emph{sed}\newline
+           (9)~\uline{Cour du \emph{heb sed}} : rectangulaire, 
+               elle accueillait la fête \emph{sed}, cérémonie du
+               couronnement rituel du roi, souverain de \HBE\newline
+           (10)~\uline{Pyramide à degrés} : cette grande construction 
+               domine l'ensemble du complexe funéraire ; oe{}uvre 
+               d'Imhotep, elle accueillit la dépouille de Djoser 
+               \newline
+           (11)~\uline{Temple funéraire} : situé sur la façade nord 
+               de la pyramide ; la cour et la salle des ablutions 
+               sont deux des espaces qui furent identifiés\newline
+           (12)~\uline{Maison du sud} : semblable à la maison du nord 
+               et posant les mêmes interrogations quant à son 
+               utilisation ; le roi y recevait peut-être les impôts 
+               du sud du pays\newline
+           (13)~\uline{Cour du \emph{serdab}} : ainsi appelée car elle 
+               abrite une petite chapelle (\emph{serdab}) qui renferme 
+               une grande statue de Djoser\newline
+           (14)~\uline{Maison du nord} : des colonnes sont adossées 
+               à la façade ; on ignore la fonction de cet édifice, 
+               qui a peut-être un rapport avec les impôts du nord du 
+               pays\newline
+           (15)~\uline{Zone de l'enceinte} : dans cette grande cour, 
+               la seule construction identifiable est un petit autel 
+               avec une rampe à l'une de ses extrémités}
+  \label{fig:saqqara}
+\end{figure}
+
 Au sud-ouest de la cour se trouve un simulacre de palais orné du décor 
-en \og façade de palais \fg, couronné d'ur\ae i (cela rappelle le 
+en \og façade de palais \fg, couronné d'ur\ae{}i (cela rappelle le 
 bâtiment dans la \SeZ).
 \donc~mastaba avec son puits et un réseau très complexe de 
 souterrains. 
@@ -194,12 +266,49 @@ La cour est bordée de chaque côté par des sanctuaires fictifs,
 Dans le palais de Memphis, il existe la \og maison de la fête 
 \emph{sed} \fg, qui sert à exprimer la symbolique de l'unité de \kmt. 
 Elles hébergent les statues des principales divinités du pays, une 
-rangée pour la \HE, un autre pour a \BE. Avant les cérémonies, on 
+rangée pour la \HE, un autre pour la \BE. Avant les cérémonies, on 
 va chercher ces statues dans les différentes villes du pays. Elles 
 valident ainsi le règne du roi.
 
 Chaque chapelle est dans un enclos délimitée par un muret, les 
 barrières sont gravées -- ouvertes -- dans les murs.
+
+Une fois pétrifiées, ces structures deviennent les modèles des façades 
+de temples (cf Edfou), adaptées en pierre.
+La Chapelle Rouge est du type de la \fref{fig:sanctHE}. Les temples 
+traditionnels peuvent être vus comme l’emboîtement d'un sanctuaire 
+type \HE (naos, \fref{fig:sanctHE}) dans un sanctuaire type \BE 
+(salle hypostyle, \fref{fig:sanctBE}). D'autres types de sanctuaires, 
+visibles chez Djoser, sont en revanche abandonnés.
+
+\begin{encadre}
+  Le règne de Djoser marque l'acte de naissance de l'architecture 
+  égyptienne en pierre.
+\end{encadre}
+
+Les maisons du sud et du nord ont des façades comme les kiosques de 
+\BE. Les entrées sont en cul-de-sac et masquées. On ne sait pas quel 
+était le rôle de ces maisons. Celles du sud sont dans un cour bordée 
+d'un mur orné de colonnes solidaires de la paroi. Ce sont les 
+premières colonnes papyriformes (ou campaniformes).
+
+La pyramide, à six degrés, recouvre des structures préexistantes. Elle 
+a été remaniée à plusieurs reprises. Pour sa construction, c'est la 
+simplicité qui a prévalu : les blocs sont de petite tailles, disposés 
+sur un plan en biais. Ça tient par tassement.
+
+Les différentes étapes de construction (\fref{fig:djoser}) sont 
+visibles grâce à des éboulements :
+\begin{enumerate}
+  \item à l'origine, un mastaba avec son puits
+  \item agrandissement : adjonctions, plus basses (idée des degrés ?)
+  \item augmentation à l'est : fermeture de l'accès aux tombes 
+        secondaires de la famille royale
+  \item première pyramide à quatre degrés
+  \item pyramide actuelle à six degrés
+\end{enumerate}
+
+\bigskip
 
 \begin{figure}[htb]
   \begin{tikzpicture}[scale=0.70]
@@ -209,16 +318,115 @@ barrières sont gravées -- ouvertes -- dans les murs.
  \label{fig:djoser}
 \end{figure}
 
-\vdots
+L'estrade et les bornes sont alignées sur la phase~1.
+
+L'infrastructure est complexe. Il s'agit peut-être d'une réutilisation 
+d'une tombe de la \dyn{ii}. Certains couloirs sont de la \dyn{xxvi}. 
+Une partie reprend le décor du mastaba sud : fausses-portes, 
+plaquettes de verre, fête \emph{sed}.
+
+Il n'y a aucun monument comparable sur lequel s'appuyer pour 
+rechercher des explications.
+
+Le temple funéraire est au nord et non à l'est comme c'est l'habitude, 
+et recouvre la descenderie. Il est en très mauvais état. Il comporte 
+deux cours avec des portiques. À gauche de l'entrée est, il y a un 
+édicule dans une pièce dont les vantaux sont gravés dans la pierre et 
+qui offre une vue sur une statue du roi assis\footnote{Cette statue 
+porte une mention d'Imhotep.}. C'est un simulacre d'abris pour le roi.
+Il remplit la même fonction que le \emph{serdab} dans les mastabas 
+ultérieurs : statue du défunt dans une pièce fermée doté d'une 
+ouverture (pour que la statue voit l'extérieur ?), dans le but de 
+préserver son \emph{ka}. Mais la position est inhabituelle : il 
+devrait être près de l'entrée sud-est.
+
+Au nord : autel, plate-forme avec escalier (comme ce qui existe pour 
+le culte solaire, mais dans ce cadre on regarde vers le soleil) : une 
+estrade pour le roi, pour des cérémonies ?
+
+À l'ouest, de grandes banquettes maçonnées : des magasins factices.
 
 \faitle{29 mai 2012}
 
-\vdots
+On a trouvé un fragment de chapelle au nom de Djoser à Héliopolis, 
+ville qui deviendra le centre de la théologie solaire à la \dyn{iv}.
+
+On ne sait rien de l'administration mais on peut déduire que le 
+pouvoir politique du roi est devenu relativement fort. Les sanctuaires 
+de la cour de la fête \emph{sed}, associés aux divinités de \HBE, 
+indiquent qu'il y a déjà une organisation administrative en provinces.
+
+En plus de Saqqara, il existe sept pyramides de Djoser en \kmt : 
+Éléphantine \uwave{(aussi appelé El-Kola)}, Edfou, El-Koula (au 
+nord de Hiérakonpolis), Ombos (au nord de Louqsor), Sinki (au nord 
+d'Abydos), Zaouiet el-Maiétin (au nord-ouest de la ville \OK, 
+cimetière copte au nord de Béni Hassan), Seïla (dans le Fayoum, à 
+\SI{8}{\km} à l'ouest de Meïdoum). Elles sont petites (la plus haute 
+fait \SI{6}{\m} de haut), ne comportent pas d'infrastructure et sont 
+plus ou moins achevées. à Sinki, les rampes de construction sont 
+encore visibles.
+On ne sait pas à quoi elles servaient, on n'est même pas sûrs qu'elles 
+datent vraiment de Djoser. Elles pourraient symboliser, manifester le 
+pouvoir royal localement. Le rôle de la pyramide est en effet de 
+servir de relais.
+
+\chapter{Les autres rois}
+%======================================================================
+
+On ne sait pas grand chose du reste de la dynastie, on a très peu 
+de monuments.
+
+Il y a un plan d'enceinte du même type que celui de Djoser au 
+sud-ouest de ce dernier. C'est l'ébauche du complexe funéraire de 
+Sékhemkhet. 
+Seule la descenderie a été réalisée, la pyramide, à peine ébauchée, 
+n'est qu'un monticule. On peut en conclure que son règne a été bref.
+
+On voit également des traces d'autres enceintes.
+
+À Zaouiet el-Aryan, au nord de Giza, une pyramide du même type est 
+attribuée à Khâba, faute de mieux.
+
+On a trouvé un fragment de relief de Sanakht dans le Sinaï\footnote{Le 
+Sinaï est une source de cuivre et de turquoise, utilisés pour la 
+fabrication d'outils, et permettant des progrès technologiques.}. Il 
+porte le thème classique du massacre des ennemis.
+
+Le règne d'Ânkhouâ a livré les reliefs en bois d'Hésyrê 
+\fref{fig:hesyre}.
+
+
+\begin{figure}
+  \noi\begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=\textwidth]{Hesyre_CG1426}%
+    \subcaption{CG\,1426}
+  \end{minipage}%
+  \quad%
+  \noi\begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=\textwidth]{Hesyre_CG1427}%
+    \subcaption{CG\,1427}
+  \end{minipage}%
+  \quad%
+  \noi\begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=\textwidth]{Hesyre_CG1428}%
+    \subcaption{CG\,1428}
+  \end{minipage}%
+  \caption{Panneaux d'Hésyrê \rem{(\musee{Le Caire})}}%
+  \label{fig:hesyre}%
+\end{figure}
+
+Le dernier roi de la dynastie est Houni, qui fait la transition avec 
+la période des pyramides classiques.
 
 \part{\texorpdfstring{\dyn{iv}}{IVe dynastie}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vdots
+
+\chapter{Généralités}
+%======================================================================
 
 \begin{figure}[htb]
   \begin{tikzpicture}
@@ -228,6 +436,45 @@ barrières sont gravées -- ouvertes -- dans les murs.
   \label{fig:genealogie}
 \end{figure}
 
+La \dyn{iv} est l'ère des grandes pyramides.
+
+Certains princes seront plus tard considérés comme des rois, mais ils 
+ne le sont pas dans la documentation de l'époque.
+
+Avec les \bsc{v}\ieme et \dyn{vi}s, elle représente un âge d'or 
+du pays que l'on s’efforcera d'imiter à la \dyn{xii} et, plus tard
+encore, à la \dyn{xxvi}.
+
+Mais on ne sait rien de la politique de cette époque, que l'on 
+ne connaît qu'au travers des manifestations artistiques et 
+architecturales.
+
+On voit une accélération technologique et culturelle, une 
+centralisation de l'économie, un pouvoir fort.
+
+Les pyramides sont concentrées dans une zone s'étirant sur 
+\SI{150}{\km}, entre le Caire et le Fayoum.
+La première est bâtie à Meïdoum, puis Dahchour, Giza, Saqqara. Cela 
+accompagne le déplacement de la résidence royale.
+à la \dyn{v}, on construit sur les sites d'Abousir et Saqqara, à la 
+\dyn{vi}, à Saqqara.
+
+Transition \bsc{iii}\ieme-\dyn{iv}s :
+\begin{itemize}
+  \item Djoser, Sékhemkhet, Khâba : assises à lits déversés
+  \item Meidoum : noyau de pyramide à degrés par Houni (simple 
+        supposition), puis conversion en pyramide lisse par Snéfrou, 
+        d'où un manque de cohérence structurale
+  \item Snéfrou a ensuite fait construire deux pyramides lisses, la 
+        Rhomboïdale et la Rouge
+  \item puis Khéops, Khéphren, Mykérinos (ce dernier amorce le reflux 
+        qui se confirme après lui)
+\end{itemize}
+
+Parallèlement à la diminution de la taille des pyramides, les tombes 
+privées deviennent plus grandes, c'est leur âge d'or.
+Est-ce parce que la même main d'\oe{}uvre travaille sur les deux ?
+
 \begin{figure}[htb]
   \begin{tikzpicture}[scale=0.75, font=\scriptsize]
     \cplxpyram
@@ -235,6 +482,32 @@ barrières sont gravées -- ouvertes -- dans les murs.
   \caption{Plan type de complexe pyramidal}
   \label{fig:cplxpyra}
 \end{figure}
+
+La pyramide satellite est un modèle réduit avec une descenderie. 
+À quoi sert-elle ? On n'a aucun texte\dots
+
+La pyramide recouvre une infrastructure dont l'entrée est au nord. 
+L'axe secondaire nord-sud est utilisé pour l'enterrement du roi.
+
+Il n'y a pas de plan type pour le temple bas, chaque cas est unique et 
+fonction de la topographie.
+
+Il y a au moins un cimetière pour les contemporains du roi (famille et 
+courtisans) : on reproduit l'organisation de la société.
+
+La ville de pyramide est utilisée, le temps de leur service, par les 
+prêtres qui rendent le culte. Elle comporte des bâtiments de service.
+
+Meidoum
+
+La structure interne est en lits déversés, sans chaînage entre les 
+différentes couches.
+Le temple funéraire est un enclos en pierre avec une antichambre, 
+collé à la pyramide et contenant deux grandes stèles et une table 
+d'offrande. L'entrée est en chicane.
+Les stèles de Meidoum sont anépigraphes alors qu'habituellement elles 
+portent le nom du roi dans un \emph{sékher} : a t-il été effacé par 
+l'érosion éolienne ?
 
 \CaptionPetit
 \begin{figure}[htb]
@@ -263,6 +536,14 @@ barrières sont gravées -- ouvertes -- dans les murs.
 \end{figure}
 \CaptionNormal
 
+\begin{remarque}
+  L'architecture égyptienne est toujours marquée par un conflit entre 
+  la ligne droite et la chicane, entre procession, ostentation, et 
+  protection. Il faut séparer le sacré du profane.
+  Voir le temple de Karnak (\fref{fig:karnak}), le temple archaïque 
+  d’Éléphantine (\fref{???}).
+\end{remarque}
+
 \begin{figure}[htb]
   \begin{tikzpicture}[scale=0.75]
     \karnak
@@ -270,6 +551,22 @@ barrières sont gravées -- ouvertes -- dans les murs.
   \caption{Temple de Karnak}
   \label{fig:karnak}
 \end{figure}
+
+\faitle{5 juin 2012}
+
+à côté  de la pyramide, au nord, une nécropole de mastabas constitués 
+d'une enveloppe en brique, avec décor en façade de palais, autour d'un 
+massif de gravats. Les infrastructures sont taillées dans la roche. 
+Les briques sont enduites pour donner l'impression de la pierre.
+
+C'est de là que viennent la célèbre statue de Râhotep et Nofret 
+(\musee{???} \inv{???}, \fref{???}) et les oies de Meidoum 
+(\musee{???} \inv{???}, \fref{???}).
+
+Dans la blocaille, des puits et chapelles funéraires : structures 
+cruciformes (par ex. Atet, Néfermaât) avec structure en chicane devant.
+
+
 
 \chapter{Rêdjedef}
 \faitle{19 juin 2012}
@@ -287,6 +584,9 @@ Rêdjedef est le successeur de Khéops, et son fils par une reine
 secondaire.
 
 On ne sait rien ou presque de son règne.
+
+Son nom est parfois transcrit \emph{Didoufri} ou \emph{Djedefrê} en supposant une antéposition honorifique.
+Il se lit \tl{Ra-Dd=f}, \td{Rê est durable}, à l'aoriste.
 
 Son cartouche est gravé sur une dalle de fermeture de la barque de 
 Khéops, sa pyramide est à Abou Rowash, à \SI{10}{\km} au nord de Giza, 

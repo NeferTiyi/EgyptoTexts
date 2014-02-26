@@ -509,7 +509,7 @@ Importation de vin, de cuivre vers l'\kmt.
 
 Arad est sur le trajet vers des mines de cuivre.
 
-Il y a également des traces de Semerkhet (\dyn[\iere]{i}) dans 
+Il y a également des traces de Sémerkhet (\dyn[\iere]{i}) dans 
 le Sinaï (\SeK).
 
 Début du bronze dans la région d'Arad-En Besor.
@@ -534,14 +534,14 @@ L'un des rois se nomme \emph{Nebrê} (qu'il faut peut-être lire
 utilisation de \emph{Rê} dans un nom royal, en lien avec le 
 développement de la religion.
 
-Le dernier roi est connu sous deux noms, \emph{Khâsekhem} \og La 
-puissance est apparue \fg et \emph{Khâsekhemouy} \og Les deux 
+Le dernier roi est connu sous deux noms, \emph{Khâsékhem} \og La 
+puissance est apparue \fg et \emph{Khâsékhemouy} \og Les deux 
 puissances sont apparues \fg, ce qui semble conforter l'idée d'une 
 crise à la fin de la dynastie.
 
 Les tombes de Saqqara sont annoncées par des stèles portant le nom 
-d'Horus. Dans la cas de Peribsen, Seth remplace Horus ! Là encore, un 
-signe de crise ? Et pour Khâsekhemouy, il y a les deux, Horus et Seth 
+d'Horus. Dans la cas de Péribsen, Seth remplace Horus ! Là encore, un 
+signe de crise ? Et pour Khâsékhemouy, il y a les deux, Horus et Seth 
 sont réconciliés. Ce sont eux qui clôturent la dynastie et se font 
 inhumer à \OeQ.
 
@@ -549,44 +549,49 @@ Si une crise a bel et bien eu lieu, elle était certainement liée au
 processus d'unification.
 
 \begin{remarque}
-  Il y a tout au long de l'histoire du pays une alternance entre 
-  des moments où roi et nobles sont enterrés au même endroit et des
-  moments où ce n'est pas le cas.
+  Tout au long de l'histoire de l'\kmt, roi et nobles sont 
+  alternativement enterrés au même endroit et séparément.
 \end{remarque}
 
-Sous la \dyn{ii} : au sud de la pyramide à degrés, à l'emplacement de 
-la pyramide d'Ounas. 
-Il reste celles de Hotepsekhemouy et de Ninetjer : elles sont 
-gigantesques mais on n'a pas les superstructures.
+\chapter{Saqqara}
+%======================================================================
 
-Changement d'échelle par rapport à Abydos : accroissement du pouvoir 
-royal.
+Les tombes de la \dyn{ii} à Saqqara sont concentrées au sud de la 
+pyramide à degrés, à l'emplacement du temple funéraire de la pyramide 
+d'Ounas.
+Seules restent celles de Hotepsékhemouy et de Ninetjer : elles sont 
+gigantesques mais on n'en a pas les superstructures.
 
-On sait très peu de choses :
+On note un changement d'échelle par rapport à Abydos, lié à 
+l'accroissement du pouvoir royal.
 
-\begin{itemize}
-  \item Abandon de la politique d'expansion (mais maintien des 
-        relations commerciales) ;
-  \item Premiers reliefs des temples (Gebelein) : on commence à 
-        construire des temples en dur ;
-  \item Grands cimetières (Saqqara, Hélouan) (tombe~\no\num{3477}) 
-        avec des évolutions intéressantes :\\
-        Caveau en sous-sol + mastaba avec niche dans l'angle SE 
-        = lieu de culte. Parfois une niche par personne inhumée ;
-        À cet emplacement commencent à apparaître des reliefs 
-        montrant le défunt à table.
-\end{itemize}
+\chapter{Politique et architecture}
+%======================================================================
 
-\bigskip
+On sait très peu de choses.
 
-Au début, cette scène est encastrée dans la niche en briques crues. 
-Quand l'ensemble du bâtiment sera fait en pierre, elle prend de 
-l'ampleur et raconte aussi l'origine des produits présentés lors du 
-repas.
+C'est l'abandon de la politique d'expansion, mais les relations 
+commerciales sont maintenues. On commence à construire des temples 
+en dur, avec les premiers reliefs de temples (Gebelein). Les grands 
+cimetières (Saqqara, Hélouan) montrent des évolutions intéressantes 
+(tombe~\no\num{3477}).
+
+\chapter{Pratiques funéraires}
+%======================================================================
+
+Les tombes se composent d'un caveau en sous-sol et d'un mastaba avec 
+une niche dans l'angle sud-est qui sert de lieu de culte. Il y avait 
+parfois une niche par personne inhumée.
+
+À cet emplacement commencent à apparaître des reliefs montrant le 
+défunt à table. Au début, cette scène est encastrée dans la niche en 
+briques crues. Une fois l'ensemble du bâtiment réalisé en pierre, le 
+décor prend de l'ampleur et raconte aussi l'origine des produits 
+présentés dans le repas.
 
 \begin{remarque}
-  Culte funéraire = nourrir le défunt. Représenter les produits 
-  équivaut à les évoquer.
+  Le culte funéraire consiste à nourrir le défunt. Représenter les 
+  produits équivaut à les invoquer.
 \end{remarque}
 
 À l'époque archaïque, il y a encore des offrandes tangibles. On a 
@@ -595,12 +600,100 @@ céréales, fromage blanc,~\dots} dans une tombe de Hélouan.
 
 Voir \musee{Louvre} \inv{\nospace{???}} : produits nommés, quantifiés.
 
-\donc~Mise en place d'un rituel complexe 
-(cf~\TP, \num{160}~articles sur les offrandes).
-
-\vdots
+Un rituel complexe se met en place (\num{\sim160}~articles sur les 
+offrandes dans les \TP).
 
 \hfill 15 mai 2012
 
-\vdots
+\section{Évolution des tombes privées, quelques sites clés}
+%----------------------------------------------------------------------
+
+\subsection{Saqqara Nord, tombe \num{\no3477}}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+La superstructure est un mastaba, un massif de briques avec deux niches 
+dans la paroi est. La principale, où le culte est rendu, est situé à 
+l'angle sud-est. Les appartements souterrains sont assez simples, les 
+magasins dans la superstructure. On a retrouvé un repas servi dans le 
+caveau funéraire : la simple représentation des offrandes ne suffit pas 
+encore.
+
+Par la suite, la scène du repas funéraire se complexifie.
+
+\subsection{Gebelein}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Un fragment de paroi porte le premier relief en pierre de paroi de 
+temple, déjà disposé en registres.
+
+\subsection{Hiérakonpolis}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+La ville prédynastique était dans le désert, celle de la \dyn{ii} 
+dans la plaine (diminution des crues du Nil ?). Ce que l'on nomme le 
+\og fort \fg est en fait l'enclos cultuel de la \dyn{ii}. Cette ville 
+comprend aussi un palais pris dans le tissu urbain assez dense et un 
+temple archaïque recouvert par la suite. Le temple était situé sur une 
+plate-forme irrégulière. On y a trouvé la palette et la tête de massue 
+de Narmer, le faucon de Pépi~I\ier,~\dots Le palais est attribué à 
+Khâsékhemouy (à cause des troubles hypothétiques ?). Les fouilles en 
+cours du \og fort \fg ont mis au jour des reliefs de temple montrant 
+le roi en costume de fête \emph{sed}, des statues de Khâsékhemouy 
+dans le même costume. L'une des statues porte un texte dans lequel un 
+prisonnier avec une touffe de plantes sur le dos et tenu par une corde 
+symbolise le peuple de \BE (47209). On peut en conclure que des 
+troubles se sont produits.
+
+Horus et Seth symbolisent respectivement la Basse et la \HE, Coptos 
+et Hiérakonpolis. Un roi qui a un nom de Seth est centré vers la \HE.
+On peut supposer une guerre de succession, une désunification 
+temporaire. Le nom d'Horus et Seth de Khâsékhemouy montrerait la 
+réconciliation des deux divinités (les \og deux puissances \fg de son 
+nom) et donc des deux parties du pays.
+
+Les sépultures -- enclos cultuel + tombes -- de Péribsen et 
+Khâsékhemouy sont à Abydos. L'enclos de Khâsékhemouy s'appelle la 
+\SeZ\footnote{Cela signifie \td{le magasin des raisins secs} en 
+arabe.}.
+
+\bigskip
+
+\begin{remarque}
+  \begin{itemize}
+    \item La \emph{zebiba}, au singulier, est aussi le nom de la 
+          marque au front des musulmans.
+    \item Le \og paradoxe de la brique crue \fg : c'est un matériau 
+          très léger mais très durable.
+    \item les enceintes sont décorées en \og façade de palais \fg à 
+          l'intérieur et à l'extérieur (cf sarcophage de Mykérinos). 
+          Ce décor est très lié à la brique crue.
+  \end{itemize}
+\end{remarque}
+
+\bigskip
+
+La \SeZ comporte deux enceintes concentriques -- ce qui la rapproche 
+d'une structure militaire -- et une vaste esplanade (\SI{100x50}{\m}). 
+L'entrée est à l'angle sud-est comme la niche des mastabas. Au centre 
+se trouve une structure carrée dont on ne sait rien de l'élévation.
+
+À l'est, on a trouvé des sépultures de bateaux. Peut-être des objets 
+sacrés utilisés pour l'enterrement du roi. 
+
+On ne connaît pas la fonction de la \SeZ, mais elle est liée au culte 
+funéraire. Il faut la comparer au complexe de Djoser, plus récent 
+d'une génération : un grand enclos avec une entrée au sud-est, et la 
+pyramide à degrés au centre. La \SeZ pourrait en être l'ancêtre. La 
+seule différence est l'absence de tombe dans la \SeZ. Le complexe de 
+Djoser est archaïque par rapport aux pyramides de la \dyn{iv}, on peut 
+le considérer comme l'apogée, en pierre, des enclos funéraires 
+archaïques. Il pourrait donner une idée des bâtiments disparus de la 
+\SeZ (éléments de palais factice, le roi continue sa vie de roi).
+
+Il y a une certaine continuité entre la \bsc{ii}\ieme et la 
+\dyn{iii} : 
+la fille de Khâsékhemouy aurait pu transmettre la royauté au premier 
+roi de la \dyn{iii}, Nebka.
+
+Parmi la production artistique de la \dyn{ii}, on peut citer des vases 
+en pierres d'une grande virtuosité. Les tonnes de vases trouvés dans 
+les souterrains du complexe funéraire de Djoser à Saqqara datent de 
+cette époque.
 

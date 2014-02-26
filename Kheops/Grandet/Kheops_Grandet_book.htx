@@ -1,16 +1,16 @@
 \documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
 
 \includeonly{%
-  Kheops_Grandet_Chap0_Intro_book,
-  Kheops_Grandet_Chap1_PD_book,
-  Kheops_Grandet_Chap2_PT_book,
+  % Kheops_Grandet_Chap0_Intro_book,
+  % Kheops_Grandet_Chap1_PD_book,
+  % Kheops_Grandet_Chap2_PT_book,
   Kheops_Grandet_Chap3_AE_book,
-  Kheops_Grandet_Chap4_PPI_book,
-  Kheops_Grandet_Chap5_ME_book,
-  Kheops_Grandet_Chap6_DPI_book,
-  Kheops_Grandet_Chap7_NE_book,
-  Kheops_Grandet_map,
-  Kheops_Grandet_ChronoDF
+  % Kheops_Grandet_Chap4_PPI_book,
+  % Kheops_Grandet_Chap5_ME_book,
+  % Kheops_Grandet_Chap6_DPI_book,
+  % Kheops_Grandet_Chap7_NE_book,
+  % Kheops_Grandet_map,
+  % Kheops_Grandet_ChronoDF
 }
 
 \usepackage{pgf,tikz}
@@ -24,7 +24,7 @@
 }
 \usepackage{multicol}
 \usepackage{ragged2e}
-\usepackage{minitoc}
+% \usepackage{minitoc}
 \usepackage{mhchem}
 \usepackage{nefertiyi}
 \usepackage{arabtex}
@@ -49,6 +49,7 @@
 \renewcommand{\thesubsection}{\alph{subsection})}
 
 % Indentation et largeur des numéros dans la TOC
+\cftsetindents{book}{\cftbookindent}{3.0em}
 \cftsetindents{part}{\cftpartindent}{2.6em}
 \cftsetindents{chapter}{\cftchapterindent}{1.8em}
 \cftsetindents{subsection}{\cftsubsectionindent}{1.4em}

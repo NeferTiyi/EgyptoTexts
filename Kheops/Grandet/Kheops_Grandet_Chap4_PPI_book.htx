@@ -101,8 +101,8 @@ Les \TS se composent de différents \og livres \fg, par exemple le
 \emph{Livre des deux chemins} (terre et eau).
 
 \part{\texorpdfstring{\dyn{viii}}{VIIIe dynastie} 
-      \datation{(\anorange[0]{2195}{2160})}}
-      % \datation{(2195-2160)}}
+      % \datation{(\anorange[0]{2195}{2160})}}
+      \datation{(2195-2160)}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Politique}
