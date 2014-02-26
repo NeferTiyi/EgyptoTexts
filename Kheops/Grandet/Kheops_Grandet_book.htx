@@ -119,7 +119,6 @@
 \renewcommand{\partrefname}{Partie~}
 
 
-
 \setpnumwidth{2.55em}
 \setrmarg{3.55em}
 
@@ -135,6 +134,7 @@
 
 
 \graphicspath{%
+  {../../../utils/}%
   {../../../images/Kheops/Grandet/}%
   {../../../images/Barbotin/}%
 }
@@ -164,171 +164,13 @@
 }
 
 
-
 \setlength\fboxsep{0.5mm}
 %\setlength\tabcolsep{0mm}
 %\setlength\parskip{1.0\baselineskip}
 
 \newcommand{\faitle}[1]{\hfill\emph{\smaller#1}}
 
-% Formattage
-% ==========
-\newcommand{\datation}[1]{{\normalfont\emph{#1}}}
-\newcommand{\musee}[1]{\emph{\textcolor{MidnightBlue}{#1}}}
-\newcommand{\inv}[1]{\emph{\textcolor{RawSienna}{#1}}}
-\newcommand{\infos}[1]{{\smaller#1}}
-\newcommand{\titre}[1]{{\sffamily#1}}
-\newcommand{\source}[1]{\emph{#1}}
-
-\newcommand{\nouveaute}[1]{\textcolor{DarkBlue}{\flech~#1}}
-\newcommand{\XIIA}{{\normalfont\bfseries\textcolor{ForestGreen}{A\xspace}}}
-\newcommand{\XIIB}{{\normalfont\bfseries\textcolor{Fuchsia}{B\xspace}}}
-\newcommand{\XIIC}{{\normalfont\bfseries\textcolor{RedOrange}{B'\xspace}}}
-
-
-\newcommand{\listeroislabel}[1]{\bfseries\sffamily{#1}\enspace}
-\newenvironment{listerois}
-  {\begin{list}{}{%
-     \setlength\itemsep{0.8\baselineskip}
-     \let\makelabel\listeroislabel%
-     \setlength\labelwidth{2em}%
-     \setlength\leftmargin{\labelwidth+\labelsep}%
-   }
-  }
-  {\end{list}%
-}
-
-\makechapterstyle{monchap}{%
-  \renewcommand{\chapnamefont}{\raggedleft\normalfont\huge\scshape}
-  \renewcommand*{\chapnumfont}{\raggedleft\normalfont\Huge\scshape}
-  \renewcommand*{\chaptitlefont}{\raggedleft\normalfont\Huge\bfseries}
-  \renewcommand*{\afterchaptertitle}{%
-    {%
-      \par\nobreak\vskip 5pt
-      \par\offinterlineskip\hbox{%
-        \rule{\textwidth}{3pt}
-      }
-      \par\nobreak\vskip \afterchapskip
-    }
-  }
-}
-
-
-\definecolor{chaptercolor}{gray}{0.8}
-
-\newcommand{\numlifter}[1]{\raisebox{-2cm}[0pt][0pt]{\smash{#1}}}
-\newcommand{\numindent}{\kern37pt}
-\newlength{\chaptertitleboxheight}
-
-\makechapterstyle{hansen}{%
-  \renewcommand{\printchaptername}{\raggedleft}
-  \renewcommand{\printchapternum}{%
-    \begingroup%
-    \leavevmode%
-    \chapnumfont%
-    \strut%
-    \numlifter{\thechpater}%
-    \numindent%
-    \endgroup%
-  }
-  \renewcommand*{\printchapternonum}{
-    \vphantom{%
-      \begingroup%
-      \leavevmode%
-      \chapnumfont%
-      \numlifter{\vphantom{9}}%
-      \numindent%
-      \endgroup%
-    }
-    \afterchapternum
-  }
-  \setlength\midchapskip{0pt}
-  \setlength\beforechapskip{0.5\baselineskip}
-  \setlength\afterchapskip{3\baselineskip}
-  \renewcommand{\chapnumfont}{%
-    \fontsize{4cm}{0cm}%
-    \bfseries%
-    \sffamily%
-    \color{chaptercolor}%
-  }
-  \renewcommand{\chaptitlefont}{%
-    \normalfont%
-    \huge%
-    \bfseries%
-    \raggedleft%
-  }
-  \settototalheight\chaptertitleboxheight{%
-    \parbox{\textwidth}{\chaptitlefont \strut bg\\bg\strut}
-  }
-  \renewcommand{\printchaptertitle}[1]{%
-    \parbox[t][\chaptertitleboxheight][t]{\textwidth}{%
-      %\microtypesetup{protrusion=false}% add this if you use microtype
-      \chaptitlefont\strut ##1\strut
-    }
-  }
-}
-
-
-\chapterstyle{monchap}
-
-%======================================================================
-\title{Histoire de l'\kmt}
-\short{Histoire de l'\kmt}
-\subtitle{De la préhistoire au \NK}
-\lecturer{\PG}
-\orga{l'\IK}
-\author{Sonia \bsc{Labetoulle}}
-\date{Mars 2012 - juin 2014}
-
-\hypersetup{%
-  pdftitle  = {L'\kmt de la préhistoire au \NK, cours de \PG à l'\IK}, 
-  pdfauthor = {Sonia Labetoulle}
-}
-% pdfsubject
-% pdfcreator
-% pdfproducer
-% pdfkeywords
-
-%======================================================================
-
-
-\newlength{\drop}% for my convenience
 \makeatletter
-  % Redefine title page
-  \def\maketitle{%
-    \drop = 0.1\textheight
-    \vfill%
-    \hbox{%
-      \hspace*{0.2\textwidth}%
-      \rule{1pt}{\textheight}
-      \hspace*{0.05\textwidth}%
-      \parbox[b]{0.75\textwidth}{
-        \vbox{%
-          \vspace{\drop}
-          {\noindent\HUGE\bfseries \@title}\\[2\baselineskip]
-          {\Large\itshape \@subtitle}\\[4\baselineskip]
-          {\Large Cours de \textsf{\@orga} par\\[0.5\baselineskip] 
-                  \@lecturer}\par
-          \vspace{0.5\textheight}
-          {\noindent \@author}\\[\baselineskip]
-          {\small\itshape\today, \printtime}
-        }% end of vbox
-      }% end of parbox
-    }% end of hbox
-    \vfill%
-  }
-
-  % Redefnine headings
-%  \markboth{\@lecturer}{\@short}
-  \makepagestyle{ruled}
-  \makeevenhead{ruled}{\normalfont\itshape\@title}{}{\normalfont\itshape\leftmark}
-  \makeoddhead{ruled}{\normalfont\itshape\rightmark}{}{\normalfont\itshape\@lecturer}
-  \makeevenfoot{ruled}{}{\thepage}{}
-  \makeoddfoot{ruled}{}{\thepage}{}
-  \makeheadrule{ruled}{\textwidth}{\normalrulethickness}
-%  \makefootrule{ruled}{\textwidth}{\normalrulethickness}{1pt}
-
-
   \renewcommand\@memfront@floats{%
     \counterwithout{figure}{chapter}
     \counterwithout{table}{chapter}
@@ -343,22 +185,31 @@
     \setcounter{figure}{0}
     \setcounter{table}{0}
   }
-
-
 \makeatother
 
-\makepsmarks{ruled}{%
-  \nouppercaseheads
-  \createmark{chapter}{left}{shownumber}{}{.\ }
-  \createmark{section}{right}{shownumber}{}{.\ }
-  \createplainmark{toc}{both}{\contentsname}
-  \createplainmark{lof}{both}{\listfigurename}
-  \createplainmark{lot}{both}{\listtablename}
-  \createplainmark{bib}{both}{\bibname}
-  \createplainmark{index}{both}{\indexname}
-  \createplainmark{glossary}{both}{\glossaryname}
-}
 
+%======================================================================
+\title{Histoire de l'\kmt}
+\short{Histoire de l'\kmt}
+\subtitle{De la préhistoire au \NK}
+\lecturer{\PG}
+\orga{l'\IK}
+\author{Sonia \bsc{Labetoulle}}
+\date{Mars 2012 - juin 2014}
+
+\hypersetup{%
+  pdftitle  = {L'\kmt de la préhistoire au \NK, cours de \PG à l'\IK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\input{../../../utils/ChapterStyles}
+\input{../../../utils/TitlepageKheops}
+\input{../../../utils/HeadingsKheops}
+
+\chapterstyle{monchap}
 \pagestyle{ruled}
 
 \input{Kheops_Grandet_tikz}
