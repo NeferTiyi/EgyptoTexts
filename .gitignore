@@ -39,6 +39,7 @@
 *_full.htx
 *_tmp.tex
 *.bak
+*.tmp
 *~
 
 *.sublime-workspace
