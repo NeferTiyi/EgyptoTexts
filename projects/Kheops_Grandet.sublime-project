@@ -21,7 +21,8 @@
         "*_tmp.tex",
         "*_full.htx",
         "*.run.xml",
-        "*.*~"
+        "*.*~",
+        ".git*"
       ],
       "path": "../Kheops/Grandet",
       "name": "Sources"
