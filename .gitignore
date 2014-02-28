@@ -5,6 +5,7 @@
 *.alg
 *.aux
 *.bbl
+*.bcf
 *.blg
 *.dic
 *.dvi
@@ -33,20 +34,28 @@
 *.vrb
 *.xdy
 *.tdo
+*.run.xml
 
 *_full.htx
 *_tmp.tex
+*.bak
+*.tmp
+*~
 
-# Sublime text worspace
-# =====================
 *.sublime-workspace
 
 # Images
 # ======
+*.JPG
 *.jpg
 *.jpeg
 *.png
 *.gif
+*.tif
+*.xcf
+*.svg
+*.ppm
+*.pbm
 
 *.pdf
 

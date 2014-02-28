@@ -11,10 +11,10 @@
 \faitle{01/10/2013}
 
 \begin{tabular}{lcl}
-  \dyn{xviii} & 1550-1291 & \\
-  \dyn{xix}   & 1291-1185 & 
+  \dyn{xviii} & \anorange[0]{1550}{1291} & \\
+  \dyn{xix}   & \anorange[0]{1291}{1185} & 
     \multirow{2}{*}{$\Bigg\}$ période ramesside} \\
-  \dyn{xx}    & 1185-1075 \\
+  \dyn{xx}    & \anorange[0]{1185}{1075} \\
 \end{tabular}
 
 \bigskip
@@ -72,30 +72,31 @@ Cette dynastie est caractérisée par l'omniprésence de Thot
 %----------------------------------------------------------------------
 
 \begin{tabular}{lcl}
-  Ahmosis~I\ier          & 1550-1525 & \\
-  Aménophis~I\ier        & 1525-1504 & \\
+  Ahmosis~I\ier          & \anorange[0]{1550}{1525} & \\
+  Aménophis~I\ier        & \anorange[0]{1525}{1504} & \\
   \hline
   \multicolumn{3}{c}{Changement de lignée} \\
   \hline
-  Thoutmosis~I\ier       & 1504-1492 & \\
-  Thoutmosis~II          & 1492-1479 
-                         & hypothèse d'un règne de 13~ans \\
-  Hatchepsout            & 1479-1458 & \\
-  Thoutmosis~III         & 1479-1458 et 1458-1425 & \\
-  Aménophis~II           & 1425-1397 & \\
-  Thoutmosis~IV          & 1397-1387 & \\
-  Aménophis~III          & 1387-1350 & \\
+  Thoutmosis~I\ier       & \anorange[0]{1504}{1492} & \\
+  Thoutmosis~II          & \anorange[0]{1492}{1479} 
+                         & hypothèse d'un règne de \num{13}~ans \\
+  Hatchepsout            & \anorange[0]{1479}{1458} & \\
+  Thoutmosis~III         & \anorange[0]{1479}{1458} et 
+                           \anorange[0]{1458}{1425} & \\
+  Aménophis~II           & \anorange[0]{1425}{1397} & \\
+  Thoutmosis~IV          & \anorange[0]{1397}{1387} & \\
+  Aménophis~III          & \anorange[0]{1387}{1350} & \\
   \hline
   \multicolumn{3}{c}{Amarna} \\
   \hline
-  Aménophis~IV-Akhénaton & 1350-1333 & \\
-  Semenkhkarê            & 1333 & \\
-  Toutankhamon           & 1333-1323 & \\
-  Ay (II)                & 1323-1319 & \\
+  Aménophis~IV-Akhénaton & \anorange[0]{1350}{1333} & \\
+  Semenkhkarê            & \ano[0]{1333}            & \\
+  Toutankhamon           & \anorange[0]{1333}{1323} & \\
+  Ay (II)                & \anorange[0]{1323}{1319} & \\
   \hline
   \multicolumn{3}{c}{Changement de lignée} \\
   \hline
-  Horemheb               & 1319-1291 & \\
+  Horemheb               & \anorange[0]{1319}{1291} & \\
 \end{tabular}
 
 \bigskip
@@ -223,9 +224,8 @@ l'expulsion des Hyksos entre l'an~11 et l'an~16 d'Ahmosis. Mais son
 récit est biaisé et n'offre pas une vue d'ensemble : il parle de ce
 qu'il a vécut.
 
-\bigskip
-
-\begin{encadre}[nobreak=false,frametitle={Autobiographie de Ahmès fils d'Abina}]
+\begin{encadre}[nobreak=false,frametitle={Autobiographie de Ahmès 
+                fils d'Abina}]
   \begin{center}
     \includegraphics[width=\textwidth]{Ahmes_Abina}
   \end{center}
@@ -313,8 +313,6 @@ qu'il a vécut.
   butin. \fg
 \end{encadre}
 
-\bigskip
-
 \begin{remarque}
   Ahmès est souvent appelé \titre{amiral}, il faudrait plutôt voir en
   lui un \titre{chef des rameurs}. Il s'agit d'un chef d'équipage de 
@@ -337,8 +335,6 @@ propriété du roi, mais il est fréquent qu'ils soient offerts en
 récompense à celui qui les a capturés, pour servir d'esclaves. Ahmès 
 a également reçu des terres à El-Kab et dans la région.
 
-\bigskip
-
 \begin{encadre}[frametitle={La guerre comme ascenseur social}]
   C'est particulièrement bien illustré par le texte du procès de Mosé
   (tombe TT\,137), sous Ramsès~II. Il était le descendant de Néchi,
@@ -351,8 +347,6 @@ a également reçu des terres à El-Kab et dans la région.
   et était administrée par un \og syndic \fg. Différents procès eurent
   lieu pour l'attribution de cette fonction.
 \end{encadre}
-
-\bigskip
 
 Ahmès évoque la prise d'Avaris, des combats sur un canal,~\dots 
 Il mentionne la présence de chars au sein de l'armée égyptienne. 
@@ -430,8 +424,8 @@ est nommé gouverneur. Il sera, sous Aménophis~I\ier, le tout premier
 porteront tous ses successeurs au \NK.
 
 Certains pensent qu'Ahmosis aurait poussé sa progression jusqu'à l'île 
-de Saï (d'une superficie de \SI{50}{\kilo\meter\squared}, désertique) 
-où se trouve une forteresse contenant des vestiges à son nom.
+de Saï (d'une superficie de \SI{50}{\km\squared}, désertique) où se 
+trouve une forteresse contenant des vestiges à son nom.
 Faut-il y voir une tête de pont pour la reconquête ?
 
 \section{Travaux}
@@ -494,8 +488,8 @@ que spéculer. S'agit-il d'adorer les dieux de la montagne, baptisée
 \og la porte de l'au-delà \fg ?
 
 La pyramide de Téti-Shéri est un massif de briques crues à caisson, 
-de faibles dimensions (\SI{10}{\meter} de côté) avec un couloir et 
-une niche. Il n'y a pas d'infrastructure.
+de faibles dimensions (\SI{10}{\m} de côté) avec un couloir et une 
+niche. Il n'y a pas d'infrastructure.
 On y a trouvé une stèle (\fref{fig:ahmosis_teti}) qui raconte la 
 raison de la construction et indique qu'il y aurait un lien entre 
 les deux pyramides et le temple, mais on ne comprend pas ce qu'est 
@@ -809,7 +803,7 @@ Aucune trace d'activité.
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Dans son autobiographie, Ahmès fils d'Abina raconte qu'il a emmené 
 le roi de la deuxième cataracte à Éléphantine en deux jours. 
-Cela représente \SI{100}{\kilo\meter} par jour ! C'est une campagne
+Cela représente \SI{100}{\km} par jour ! C'est une campagne
 expansionniste, assortie de massacres et de captures de prisonniers.
 
 Ahmès Touri, gouverneur de Bouhen, devient le premier \titre{fils 
@@ -835,12 +829,12 @@ Aménophis~I\ier a fait faire un reposoir de barque en \og albâtre \fg
 d'Hatnoub (région d'Amarna) doté de portes en cuivre, placé au centre, 
 à peu près à l'emplacement du reposoir actuel. Il est désormais exposé 
 dans le musée en plein air. Il a également ajouté une porte en 
-calcaire de vingt coudées (de l'ordre de \SI{10}{\meter}) de haut
-incluse dans une enceinte en terre au sud de l'axe nord-sud. Ces deux
-éléments -- remployés dans le troisième pylône d'Aménophis~III --, 
-ainsi que de la vaisselle d'offrande, sont mentionnés dans la tombe 
-d'Inéni (TT\,81), \titre{chef des travaux du roi} sous Aménophis~I\ier
-et Thoutmosis~I\ier.
+calcaire de vingt coudées (de l'ordre de \SI{10}{\m}) de haut incluse 
+dans une enceinte en terre au sud de l'axe nord-sud. Ces deux éléments 
+-- remployés dans le troisième pylône d'Aménophis~III --, ainsi que de 
+la vaisselle d'offrande, sont mentionnés dans la tombe d'Inéni 
+(TT\,81), \titre{chef des travaux du roi} sous Aménophis~I\ier et 
+Thoutmosis~I\ier.
 
 \begin{remarque}
   La barque d'Amon, et notamment le décor de sa cabine est tout à fait 
@@ -855,10 +849,10 @@ médicaux.
 
 % photo : cf Thoutmosis~III, Theban Mapping Project, K.R. Weeks)
 \paragraph{Le \source{Livre de l'Amdouat}} Il s'agit d'une 
-illustration de la traversée du monde souterrain pendant les douze
-heures de nuit par la barque solaire traînée par des génies sur un Nil
-souterrain. Peu à peu, les représentations gagnent en détail
-(\SI{4}{\meter} linéaire chez Thoutmosis~III, \SI{100}{\m} chez
+illustration de la traversée du monde souterrain pendant les douze 
+heures de nuit par la barque solaire traînée par des génies sur un 
+Nil souterrain. Peu à peu, les représentations gagnent en détail 
+(\SI{4}{\m} linéaire chez Thoutmosis~III, \SI{100}{\m} chez 
 Séthy~I\ier).
 
 \section{Postérité}
@@ -879,8 +873,8 @@ La tombe TT\,2 de \DeM en montre deux exemples, qui se différencient
 notamment par la coiffe du roi. Dans l'une, il porte la couronne 
 bleue et est \emph{Paibibenimen}, \og le chéri d'Amon \fg, c'est la 
 forme vénérée dans le temple Menset. Dans l'autre, il est coiffé d'un 
-diadème avec un ur\ae us et est \emph{Panebparemi}, \og le seigneur de 
-la ville \fg, particulièrement vénéré à \DeM.
+diadème avec un ur\ae{}us et est \emph{Panebparemi}, \og le seigneur 
+de la ville \fg, particulièrement vénéré à \DeM.
 Ces fêtes avaient lieu le troisième mois de péret (septième mois de 
 l'année), \og Paménoth \fg dans le calendrier copte.
 
@@ -990,25 +984,16 @@ du col. Aménophis~I\ier passe pour être la fondateur de \DeM, on peut
 supposer que ses habitants devaient avoir une tombe à creuser. Et la 
 KV\,39 est la plus proche du village.
 
-
-
-
 \begin{figure}[htb]
   \includegraphics[width=\textwidth]{KV39_plan}
   \caption{Tombe KV\,39}
   \label{fig:KV39}
 \end{figure}
 
-
-
-
-
 \begin{remarque}
   Les plus anciennes tombes de la \KV sont au fond et les plus en 
   hauteur, à l'abri des risques d'inondation.
 \end{remarque}
-
-\bigskip
 
 \begin{encadre}[frametitle={La \KV}]
   Pourquoi cette vallée a t-elle servi de lieu d'inhumation au \NK ?
@@ -1041,7 +1026,7 @@ KV\,39 est la plus proche du village.
 \end{encadre}
 
 
-\chapter{Âakhéperkarê Thoutmosis~I\ier \datation{(1504-1492)}}
+\chapter{Âakhéperkarê Thoutmosis~I\ier{} \datation{(1504-1492)}}
 %======================================================================
 
 \begin{figure}[htb]
@@ -1298,7 +1283,7 @@ d'autres à l'air libre, des lieux de culte, des entrepôts,~\dots
   \begin{itemize}
     \item Ces travaux démarrent au moment où Thèbes perd son importance
           politique pour devenir une ville sainte.
-    \item C'est l'apport de main d'\oe uvre généré par la politique 
+    \item C'est l'apport de main d'\oe{}uvre généré par la politique 
           extérieure qui permet ces développements.
   \end{itemize}
 \end{remarque}
@@ -1508,8 +1493,8 @@ bague (\fref{fig:bague}) mise au jour à \DeB, au-dessus de la tombe
 de Sénenmout (chapelle funéraire + tombe pour ses parents). C'est 
 un titre typique des princesses, épouses d'Amon.
 
+\CaptionPetit
 \begin{figure}[htb]
-  \CaptionPetit
   \begin{minipage}[m]{0.45\textwidth}
     \centerfloat
     \includegraphics[width=4cm]{MET31397}
@@ -1525,6 +1510,7 @@ un titre typique des princesses, épouses d'Amon.
     \label{fig:nfrwrasek}
   \end{minipage}%
 \end{figure}
+\CaptionNormal
 
 Hatchepsout a commencé à exercer le pouvoir en tant que régente de 
 Thoutmosis~III. Puis, quelque part entre l'an~2 et l'an~7, elle se 
@@ -1534,7 +1520,7 @@ d'une titulature composite. Il y a corégence, avec deux rois.
 
 Dans sa biographie, Inéni parle de la mort de Thoutmosis~II : 
 \emph{\og Son fils s'est levé à sa place \fg}~\dots 
-\emph{\og Sa s\oe ur, l'épouse royale Hatchepsout, agissait comme 
+\emph{\og Sa s\oe{}ur, l'épouse royale Hatchepsout, agissait comme 
 support du pays. Le Double Pays suivait son dessein. C'est pour elle 
 que l'on travaillait. L'\kmt inclinait la tête pour elle. La brillante 
 semence du dieu, la corde de poupe de \BE \fg}~\dots 
@@ -1676,8 +1662,6 @@ séparées par des lignes verticales :
         dernier roule le disque solaire : il apporte la durée de vie.
 \end{enumerate}
 
-\bigskip
-
 \begin{encadre}[frametitle={Extrait du texte de \og la naissance 
 divine d'Hatshepsout \fg dans le temple funéraire de la reine à \DeB.}]
   \emph{Après avoir annoncé à l'Ennéade divine sa résolution
@@ -1710,7 +1694,6 @@ divine d'Hatshepsout \fg dans le temple funéraire de la reine à \DeB.}]
   dans ton sein, selon les paroles sorties de ta bouche. Elle exercera
   une royauté bienfaisante en ce pays tout entier\dots \fg
 \end{encadre}
-
 
 
 % Un netjer prenant la place et, ceci physiquement d'un pharaon...
@@ -1854,8 +1837,6 @@ La théogamie est très importante pour Hatchepsout : elle occupe une
 grande place à \DeB et dans la statuaire (triade avec Ahmès, Amon et
 Thoutmosis~I\ier trouvée dans la cachette).
 
-\bigskip
-
 \begin{encadre}
   La théogamie, c'est une idée double :
   \begin{itemize}
@@ -1864,8 +1845,6 @@ Thoutmosis~I\ier trouvée dans la cachette).
           rempli aussi.
   \end{itemize}
 \end{encadre}
-
-\bigskip
 
 On note une masculinisation progressive des représentations
 d'Hatchepsout, parfois en conflit avec les textes, restés au féminin.
@@ -1977,7 +1956,7 @@ ces travaux.
 Une scène de \DeB commémore le transport des obélisques depuis 
 Assouan :
 \num{36}~bateaux, \num{320}~rameurs, ???~tonnes. Les deux obélisques
-sont placés sur une barge (\num{120}$\times$\num{40}~coudées) tirée par
+sont placés sur une barge (\num{120x40}~coudées) tirée par
 des bateaux remorqueurs, accompagnée par le bateau de la reine (avec
 son trône). La barge est raidie par des cordes. On descend le courant à
 la rame.
@@ -2003,10 +1982,11 @@ la Ouadjyt, entre les quatrième et cinquième pylônes (représentés sur
 la Chapelle Rouge et la TT\,73). Thoutmosis~III les entourera d'une
 maçonnerie. Pour faire disparaître l'inscription commémorative qui se
 trouvait sur leurs bases ? Il n'en reste aujourd'hui plus qu'un. Un
-sondage en~2005 a révélé à son pied un dépôt de fondation comportant
-une diade fragmentaire d'Aménophis~I\ier. L'autre a été abattu et
-débité (beaucoup de fragments sont connus). Ce qui en reste est exposé,
-couché. Le nom d'Amon, martelé sous Amarna, a été re-gravé ensuite.
+sondage en~\ano[0]{2005} a révélé à son pied un dépôt de fondation 
+comportant une diade fragmentaire d'Aménophis~I\ier. L'autre a été 
+abattu et débité (beaucoup de fragments sont connus). Ce qui en reste 
+est exposé, couché. Le nom d'Amon, martelé sous Amarna, a été re-gravé 
+ensuite.
 
 Le projet d'urbanisme de Karnak et Louqsor (huitième pylône de Karnak,
 chapelles reposoirs à intervalles réguliers entre les deux temples,
@@ -2238,18 +2218,19 @@ décorent les murs.
 La tombe TT\,253 de Sénenmout passe sous cette cour.
 On accédait au sanctuaire d'Hathor grâce à une rampe partant de 
 l'angle sud de la cour et décorée d'une frise de \emph{sékher}.
-Ce décor est un archaïsme, rappelant les enceintes des pyramides de la 
-\dyn{XII}, notamment celle de Sésostris~I\ier).
+Ce décor est un archaïsme, rappelant les enceintes des pyramides de 
+la \dyn{xii}, notamment celle de Sésostris~I\ier).
 
 \paragraph{Deuxième terrasse}
 L'allée centrale menant à la deuxième rampe est encadrée de 
-$2\times3$~sphinx. Une colonnade proto-dorique orne le flanc de 
+\num{2x3}~sphinx. Une colonnade proto-dorique orne le flanc de 
 montagne au nord (\fref{fig:DeB_colonnord}). Il y a également quatre 
 niches, peut-être destinées aux courtisans, comme dans les tombes 
 royales de la \dyn{XI} (voir \Cref{chap:PPI_tombes}, 
 \pref{chap:PPI_tombes}).
 
 
+\CaptionPetit
 \begin{figure}[htb]
   \noi\begin{minipage}[b]{0.45\textwidth}%
     \centerfloat
@@ -2265,6 +2246,7 @@ royales de la \dyn{XI} (voir \Cref{chap:PPI_tombes},
     \label{fig:DeB_Anubis}
   \end{minipage}%
 \end{figure}
+\CaptionNormal
 
 \begin{figure}[htb]
   \noi\begin{minipage}[b]{0.35\textwidth}%
@@ -2369,14 +2351,15 @@ Tombe avec plafond astronomique et fausse-porte (TT\,353) + chapelle
 funéraire avec portique à Gournah (TT\,71).
 Au dessus de la tombe se trouve une niche avec une statue cube taillée 
 dans la roche ; au-dessous, la tombe de ses parents (trouvée inviolée 
-en 1936), connue sous le nom de \og tombe de Hatnofret \fg. C'est sa 
-mère. On y a trouvé des sarcophages de trois femmes non identifiées et 
-des objets relativement luxueux au nom de Hatnofret. Ramose, le père 
-de Sénenmout, était un petit fonctionnaire sans titre particulier. Il 
-ne s'agit pas de la tombe d'origine mais d'un regroupement ultérieur.
-Hatnofret était certainement au service d'Hatchepsout (on a trouvé 
-dans son sarcophage un cachet au nom de la reine, \titre{divine épouse 
-d'Amon}). C'est peut-être ça, l'origine de la fortune de la famille.
+en~\ano[0]{1936}), connue sous le nom de \og tombe de Hatnofret \fg. 
+C'est sa mère. On y a trouvé des sarcophages de trois femmes non 
+identifiées et des objets relativement luxueux au nom de Hatnofret. 
+Ramose, le père de Sénenmout, était un petit fonctionnaire sans 
+titre particulier. Il ne s'agit pas de la tombe d'origine mais d'un
+regroupement ultérieur. Hatnofret était certainement au service 
+d'Hatchepsout (on a trouvé dans son sarcophage un cachet au nom 
+de la reine, \titre{divine épouse d'Amon}). C'est peut-être ça, 
+l'origine de la fortune de la famille.
 
 \faitle{10/12/2013}
 
@@ -2594,7 +2577,7 @@ On connaît plusieurs tombes et plusieurs sarcophages d'Hatchepsout :
 
 \paragraph{En tant qu'épouse royale : } très à l'écart, dans le Ouadi 
 Sikhat Taga el-Zeyd, à l'ouest de la \KV. L'entrée est située au 
-milieu de la falaise, à \SI{70}{\m} du sol et \SI{42}{m} du sommet. 
+milieu de la falaise, à \SI{70}{\m} du sol et \SI{42}{\m} du sommet. 
 Elle contenait le sarcophage~A
 
 \paragraph{En tant que reine :} la KV\,20 (\fref{fig:KV20}), dans 
@@ -2663,8 +2646,8 @@ Le règne d'Hatchepsout apporte plusieurs nouveautés :
 \chapter{Menkhéperrê Thoutmosis~III (1459-1425)}
 %======================================================================
 
-Co-règne : ans \num{1}-\num{21} \datation{(1479-1459)}
-Règne personnel : ans \num{22}-\num{54} \datation{(1459-1425)}
+Co-règne : ans~\anorange[0]{1}{21} \datation{(1479-1459)}
+Règne personnel : ans~\anorange[0]{22}{54} \datation{(1459-1425)}
 
 Les 25 ans de son règne personnel en font un des plus longs ; C'est
 aussi l'un des plus significatifs.
@@ -2724,7 +2707,7 @@ Jopé\footnote{Jopé = Jaffa.} \fg. Elles contribueront également à
 
 \subsection{\PO}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\subsubsection{Première campagne -- ans~22-23}
+\subsubsection{Première campagne -- ans~\num{22}-\num{23}}
 Thoutmosis~III lance sa première campagne dès le début de son règne. 
 Il s'agit de défaire une coalition -- organisée en sous-main par 
 le \Mtn -- de princes étrangers à Megiddo. Cette principauté, plus ou 
@@ -2755,10 +2738,10 @@ immédiatement, mais ses officiers le font attendre le temps que toute
 l'armée ait traversé. 
 
 La forteresse de Megiddo est située sur un tell et jouit d'une 
-excellente visibilité à 360\degres. Elle est très bien fortifiée.
+excellente visibilité à \ang{360}. Elle est très bien fortifiée.
 Elle s'appelle \og Har-Mageddon \fg (har = montagne en hébreu).
-Elle est le siège d'une autre bataille célèbre en 1918 contre les 
-turcs (général Allenby, vicomte de Megiddo).
+Elle est le siège d'une autre bataille célèbre en \ano[0]{1918} 
+contre les turcs (général Allenby, vicomte de Megiddo).
 
 L'armée égyptienne est disposée en trois ailes, le roi au centre. 
 L'attaque est menée en pivot (\og coup de faux \fg) autour de l'aile 
@@ -2832,10 +2815,10 @@ Tous doivent envoyer leurs enfants en \kmt pour qu'ils y reçoivent une
 la coopération des futurs dirigeants.
 
 Le roi instaure une fête commémorative de sa victoire. Les ressources 
-récoltées (y compris la main d'\oe uvre) servent à la fête d'Opet et 
+récoltées (y compris la main d'\oe{}uvre) servent à la fête d'Opet et 
 au clergé d'Amon.
 
-Comme on l'a déjà évoqué, la main d\oe uvre est particulièrement 
+Comme on l'a déjà évoqué, la main d\oe{}uvre est particulièrement 
 précieuse dans un pays sous-peuplé et dont l'agriculture est très 
 demandeuse. Les étrangers sont utilisés en priorité pour les travaux 
 les plus pénibles, dans le but d'épargner les égyptiens : guerre, 
@@ -2852,7 +2835,7 @@ Dans les annales, on voit de façon récurrente des cadeaux des
 puissances étrangères (notamment de l'Assyrie, pourtant soumise au 
 \Mtn). Ce sont des contacts diplomatiques.
 
-\subsubsection{Troisième campagne -- an~25}
+\subsubsection{Troisième campagne -- an~\num{25}}
 Le texte est perdu, mais on peut noter que cette campagne 
 a eu lieu l'année de la construction du Jardin Botanique
 (\Sref{subs:Akh-Menou}).
@@ -2862,7 +2845,7 @@ En lacune.
 
 \faitle{14 janvier 2014}
 
-\subsubsection{Cinquième campagne -- an~29}
+\subsubsection{Cinquième campagne -- an~\num{29}}
 Thoutmosis~III pousse cette fois plus au nord, jusqu'aux portes de 
 la Syrie. Sa cible est la ville de Tounip (Tell Acharneh\footnote{La 
 localisation de Tounip à Tell Acharneh a été obtenue récemment grâce à 
@@ -2874,13 +2857,13 @@ Thoutmosis s'empare de Oullaza, protégée par une garnison de Tounip,
 puis de Ardata, le centre administratif de l'Amourrou, dans la riche 
 plaine de Tripoli.
 
-\subsubsection{Sixième campagne -- an~30}
+\subsubsection{Sixième campagne -- an~\num{30}}
 L'\kmt se tourne cette fois vers Qadesh. L'armée ravage la campagne, 
 puis emprunte la trouée de Homs et prend Simyra et Ardata.
 
 Les égyptiens reviennent de façon récurrente.
 
-\subsubsection{Septième campagne -- an~32 ?}
+\subsubsection{Septième campagne -- an~\num{32} ?}
 Thoutmosis~III retourne encore en Syrie. 
 C'est la première mention de ports (\tl{mnj.w}) : ils ont été 
 approvisionnés en bois de pin du Liban,~\dots On a cru à des 
@@ -2893,7 +2876,7 @@ d'embarcadères (institutions dotées de budget et de matériel pour
 effectuer des réparations éventuelles sur les embarcations passant 
 par là) en territoire égyptien, des haltes entre Memphis et Thèbes.
 
-\subsubsection{Huitième campagne -- an~33}
+\subsubsection{Huitième campagne -- an~\num{33}}
 Cette fois-ci, Thoutmosis~III vise le \Mtn lui-même. Dans sa tombe 
 (TT\,85), Amenemheb, un général, parle de cette campagne, mais il 
 raconte surtout des anecdotes dont il est le héros.
@@ -2934,20 +2917,20 @@ C'est la campagne la plus importante. On ne sais pas précisément
 combien de temps elle a duré, mais on peut l'estimer à plus ou moins 
 six mois (été).
 
-\subsubsection{Neuvième campagne -- an~34}
+\subsubsection{Neuvième campagne -- an~\num{34}}
 Prise de contrôle partiel du Noukhassé.
 Les textes mentionnent des cadeaux diplomatiques de Chypre (Alashiya) 
 qui vit aussi du commerce du cuivre.
 
-\subsubsection{Dixième campagne -- an~35}
+\subsubsection{Dixième campagne -- an~\num{35}}
 Cette campagne se déroule dans la région d'Alep : les Mitanniens sont 
 revenus. Ils fuient de nouveau devant les égyptiens.
 
-\subsubsection{Onzième campagne -- an~38}
+\subsubsection{Onzième campagne -- an~\num{38}}
 Cadeaux de Chypre, d'Alalakh, un état marchand dans la zone 
 d'influence du \Mtn. Est-ce un signe d'un changement d'alliance ?
 
-\subsubsection{Dix-septième campagne -- an~42}
+\subsubsection{Dix-septième campagne -- an~\num{42}}
 C'est la dernière campagne, il faut régler le sort de Tounip. 
 Les égyptiens prennent Irqata (la moderne Tell \ain rqa), la nouvelle 
 capitale de l'Amourrou, qui montre des velléités d'indépendance.
@@ -2956,7 +2939,7 @@ Ils enchaînent avec la prise de Tounip.
 On a une mention de cadeaux de pays de Tinay, c'est à dire le pays des 
 Danéens, la \og Danaïe \fg (on a le nom de la population, pas celui du 
 pays). Il s'agit de la Grèce continentale, de Mycènes (attestée de 
-1500 à 1100\,BC). Ce rapprochement diplomatique est sans doute lié à 
+\SIrange{1500}{1100}{BC}). Ce rapprochement diplomatique est sans doute lié à 
 la prise de la Crète par Mycènes (eux aussi ont besoin de cuivre de 
 Chypre), ce qui rend les contacts avec l'\kmt faciles et fréquents. à 
 partir de là, dans les scènes de tributs, les mycéniens remplacent les 
@@ -3062,7 +3045,7 @@ prêtre de Rê à Héliopolis.
 \section{Travaux}
 %----------------------------------------------------------------------
 
-Thoutmosis~III est un grand constructeur, il a \oe uvré dans de 
+Thoutmosis~III est un grand constructeur, il a \oe{}uvré dans de 
 nombreux endroits.
 
 \subsection{Réalisations non matérielles}
@@ -3153,14 +3136,14 @@ un petit pylône.
   \label{fig:TeD_palais_TIII}
 \end{figure}
 
-% \CaptionPetit
+\CaptionPetit
 \begin{wrapfigure}[16]{o}[2cm]{0pt}
   \centerfloat
   \includegraphics[width=7cm]{TeD_palais_TIII_decor_2}
   \caption{Palais thoutmoside de \TeD : décor minoen}
   \label{fig:TeD_palais_TIII_decor_2}
 \end{wrapfigure}
-% \CaptionNormal
+\CaptionNormal
 
 Des amas de peintures murales et d'enduit agglomérés on été mis au 
 jour devant les voies d'accès aux deux palais. Ces peintures servaient 
@@ -3184,16 +3167,16 @@ avait une épouse minoenne.
 
 \begin{remarque}
   Les datations absolues du palais donne une fourchette entre 
-  \num{1600} et \num{1500}\,BC, donc Thoutmosis~III ou avant.
-  Le palais a été daté grâce aux pierres ponces, restes de l'explosion 
-  de Santorin, l'une des plus grosses éruption explosive dans les 
-  temps humains (force estimée à 7/12). Dans l'une des maisons de 
-  Santorin, enfouie sous une couche de cendres, se trouvait un rameau 
-  d'olivier. C'est ce qui a servi pour la datation au radiocarbone qui 
-  donne 1600\,BC. Mais cette date ne colle pas avec la datation du \NK 
-  égyptien. C'est problématique car c'est la chronologie égyptienne -- 
-  la seule à fournir une datation continue sur \num{3000}~ans -- qui 
-  sert de référence à tout le \PO.
+  \SIrange[range-phrase=\ et\ ]{1600}{1500}{BC}, donc Thoutmosis~III 
+  ou avant. Le palais a été daté grâce aux pierres ponces, restes de 
+  l'explosion de Santorin, l'une des plus grosses éruption explosive 
+  dans les temps humains (force estimée à 7/12). Dans l'une des 
+  maisons de Santorin, enfouie sous une couche de cendres, se trouvait 
+  un rameau d'olivier. C'est ce qui a servi pour la datation au 
+  radiocarbone qui donne \ano{1600}. Mais cette date ne colle pas 
+  avec la datation du \NK égyptien. C'est problématique car c'est la 
+  chronologie égyptienne -- la seule à fournir une datation continue 
+  sur \num{3000}~ans -- qui sert de référence à tout le \PO.
 \end{remarque}
 
 \subsection{Karnak}
@@ -3241,7 +3224,7 @@ jubilé. On en connaît plusieurs représentations :
 Il ne reste que la base de l'obélisque du mole est. L'obélisque 
 lui-même, appelé \og Obélisque de Théodose \fg, est maintenant à 
 Istanbul, sur la \emph{spina} de l'hippodrome. Il a été installé 
-là en 390\,AD en imitation d'Auguste qui avait fait déplacé des 
+là en \ano[1]{390} en imitation d'Auguste qui avait fait déplacé des 
 obélisques à Rome (symbole de la soumission de l'\kmt à l'Empire). Il
 a été scié au beau milieu d'un mot. Il ne reste que \slashfrac{2}{3} 
 des \SI{30}{\m} d'origine. Il repose sur quatre cubes en bronze et 
@@ -3249,7 +3232,7 @@ la base comporte des représentation de Théodose et du transport de
 l'obélisque. Cet obélisque n'est pas seul sur la \emph{spina} : 
 on y trouve aussi un obélisque maçonné datant de Constantin et 
 recouvert de plaques de cuivre sous \uwave{\nospace{???}\~VII} vers 
-1204\,AD (4\ieme~croisade).
+\ano[1]{1204} (4\ieme~croisade).
 Entre les deux, la \og Colonne Serpentine \fg, trois serpents 
 entrelacés supportant un trépied (\uwave{de Platée}) en or. Cette 
 colonne, érigée à Delphes, commémorait la bataille de \uwave{???}. 
@@ -3264,8 +3247,9 @@ C'est Constantin qui l'a déplacée à Istanbul.
     \item une représentation d'un défilé des corporations par 
           Nakkaş~\bsc{Osman} 
           % Abducelil~\bsc{Levni} 
-          (dans \emph{Surnâme-i Hümayun}, \emph{Livre de la fête de la 
-          circoncision impériale} pour Mourad~III, en 1583-1588).
+          (dans \emph{Surnâme-i Hümayun}, \emph{Livre de la fête 
+          de la circoncision impériale} pour Mourad~III, en
+          \anorange[0]{1583}{1588}).
           \musee{Musée du palais de Topkapi}, \inv{H.\,1344}
           % Source: [http://www.discoverislamicart.org/database_item.php?id=object;ISL;tr;Mus01_A;49;fr&cp]
   \end{itemize}
@@ -3276,8 +3260,8 @@ C'est Constantin qui l'a déplacée à Istanbul.
 
 \begin{figure}
   \includegraphics[width=0.66\textwidth]{Matrakci_Nasuh}
-  \caption{Miniature de Matrakçi~\bsc{Nasuh} (1536) : l'hippodrome 
-           d'Istanbul}
+  \caption{Miniature de Matrakçi~\bsc{Nasuh} (\ano[0]{1536}) : 
+           l'hippodrome d'Istanbul}
 \end{figure}
 
 La deuxième paire a été érigée dans la cour du temple à l'occasion du 
@@ -3303,7 +3287,7 @@ Les obélisques représentent la montagne où le soleil se lève.
 
 \subsubsection{Akh-Ménou}
 \label{subs:Akh-Menou}
-Construit vers l'an~24, c'est le véritable sanctuaire du temple. 
+Construit vers l'an~\num{24}, c'est le véritable sanctuaire du temple. 
 On n'y accède pas par l'axe principal du temple mais par un angle, 
 après un trajet sur le côté. En voyant le temple aujourd'hui, on 
 peut avoir l'impression que tout est dans l'axe, ais ce n'est 
@@ -3332,8 +3316,8 @@ neuf, l'ennéade. Une fois les offrandes consacrées dans le sanctuaire
 d'Amon, on en ramenait une partie dans la Chambre des Ancêtres pour 
 honorer les ancêtres du roi régnant.
 
-\subsubsection{C\oe ur du temple}
-Il est refait complètement entre les ans~30 et~46.
+\subsubsection{C\oe{}ur du temple}
+Il est refait complètement entre les ans~\num{30} et~\num{46}.
 
 Au centre, un reposoir de barque remplaçant la Chapelle Rouge. De 
 part et d'autre, le Palais de Maât d'Hatchepsout, précédé de deux 
@@ -3349,14 +3333,14 @@ des listes de cadeau en haut, au sud le \og Mur des annales \fg.
 Martelage, casse des statues dans le temple funéraire d'Hatchepsout. 
 Pourquoi ne pas l'avoir usurpé ?
 
-Entre l'an~\uwave{43} et l'an~47, il lance la construction d'un temple
-entre celui de Montouhotep~II et celui d'Hatchepsout, en surplomb de la
-dernière terrasse de ce dernier. L'accès se faisait par une très longue
-rampe. Il ne reste que des bases de colonnes. Elles sont couvertes de
-graffitis antiques qui montrent que le temple fut plus tard un lieu de
-pèlerinage. On ne sait pas quelle était la finalité de ce temple, peut-
-être un sanctuaire dédié à Hathor (Hatchepsout an avait un dans son
-temple funéraire).
+Entre l'an~\uwave{\num{43}} et l'an~\num{47}, il lance la construction 
+d'un temple entre celui de Montouhotep~II et celui d'Hatchepsout, en 
+surplomb de la dernière terrasse de ce dernier. L'accès se faisait par 
+une très longue rampe. Il ne reste que des bases de colonnes. Elles 
+sont couvertes de graffitis antiques qui montrent que le temple fut 
+plus tard un lieu de pèlerinage. On ne sait pas quelle était la 
+finalité de ce temple, peut- être un sanctuaire dédié à Hathor 
+(Hatchepsout an avait un dans son temple funéraire).
 
 À coté, accessible à la fois depuis le temple de Thoutmosis~III et
 depuis celui de Montouhotep~II, il a également fait réaliser une petite
@@ -3429,7 +3413,7 @@ Sokaris, forme memphite d'Osiris ; la douzième, le lever du soleil
     \includegraphics[width=\textwidth]{ThoutmosisIII_Isis}
     \subcaption{Thoutmosis~III tétant sa mère Isis
                 \label{fig:ThoutIII_Isis}}
-  \end{minipage}
+  \end{minipage}%
   \caption{Tombe KV\,34}
   \label{fig:KV4_decor}
 \end{figure}
@@ -3718,6 +3702,7 @@ campagne de l'an~3.
 De nouveaux bâtiments sont construits à Giza, pour la première fois
 depuis l'\OK.
 
+\CaptionPetit
 \begin{figure}[htb]
   \begin{minipage}[m]{0.66\textwidth}
     \centerfloat
@@ -3728,14 +3713,14 @@ depuis l'\OK.
   \qquad%
   \begin{minipage}[m]{0.49\textwidth}
     \centerfloat
-    \includegraphics[width=0.75\textwidth]
-                    {AmenophisII_Giza_chapelle_1}%
+    \includegraphics[width=0.75\textwidth]{AmenophisII_Giza_chapelle_1}%
 
     \includegraphics[width=\textwidth]{AmenophisII_Giza_chapelle_2}%
     \caption{La chapelle du Sphinx d'Aménophis~II}
     \label{fig:AmII_chap}
   \end{minipage}%
 \end{figure}
+\CaptionNormal
 
 \begin{figure}[htb]
   \includegraphics[width=0.66\textwidth]{AmenophisII_Giza_stele}
@@ -3783,7 +3768,7 @@ Menkhéperrêséneb est toujours là.
 \section{Sépulture}
 %---------------------------------------------------------------------
 
-Sa tombe est la KV\,35, découverte \og récemment \fg en 1898.
+Sa tombe est la KV\,35, découverte \og récemment \fg en \ano[0]{1898}.
 Elle est, elle aussi, en hauteur.
 
 Elle a servi de cachette pour des momies royales (Thoutmosis~IV,

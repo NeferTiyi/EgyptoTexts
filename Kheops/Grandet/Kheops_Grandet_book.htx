@@ -1,14 +1,32 @@
 \documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
+
+\includeonly{%
+  % Kheops_Grandet_Chap0_Intro_book,
+  % Kheops_Grandet_Chap1_PD_book,
+  % Kheops_Grandet_Chap2_PT_book,
+  Kheops_Grandet_Chap3_AE_book,
+  % Kheops_Grandet_Chap4_PPI_book,
+  % Kheops_Grandet_Chap5_ME_book,
+  % Kheops_Grandet_Chap6_DPI_book,
+  % Kheops_Grandet_Chap7_NE_book,
+  % Kheops_Grandet_map,
+  % Kheops_Grandet_ChronoDF
+}
+
 \usepackage{pgf,tikz}
-%\usepackage[framemethod=tikz]{mdframed}
-\usetikzlibrary{calc,patterns,arrows,positioning,shadows,decorations.text}
-%\usepackage{picins}
-\usepackage{calc}
+\usetikzlibrary{%
+  calc,
+  patterns,
+  arrows,
+  positioning,
+  shadows,
+  decorations.text
+}
 \usepackage{multicol}
 \usepackage{ragged2e}
+% \usepackage{minitoc}
+\usepackage{mhchem}
 \usepackage{nefertiyi}
-\usepackage{minitoc}
-% \usepackage[format=hang,labelsep=endash,font=sf,labelfont=bf]{caption}
 \usepackage{arabtex}
 \usepackage{neferhiero}
 
@@ -31,6 +49,7 @@
 \renewcommand{\thesubsection}{\alph{subsection})}
 
 % Indentation et largeur des numéros dans la TOC
+\cftsetindents{book}{\cftbookindent}{3.0em}
 \cftsetindents{part}{\cftpartindent}{2.6em}
 \cftsetindents{chapter}{\cftchapterindent}{1.8em}
 \cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
@@ -100,7 +119,6 @@
 \renewcommand{\partrefname}{Partie~}
 
 
-
 \setpnumwidth{2.55em}
 \setrmarg{3.55em}
 
@@ -116,6 +134,7 @@
 
 
 \graphicspath{%
+  {../../../utils/}%
   {../../../images/Kheops/Grandet/}%
   {../../../images/Barbotin/}%
 }
@@ -130,28 +149,6 @@
 \subcaptionfont{\sffamily}
 \subcaptionlabelfont{\bfseries\sffamily}
 
-% \DeclareCaptionStyle{petit}{
-% %  format=hang,
-%   format=plain,
-%   justification=RaggedRight,
-%   labelsep=endash,
-%   font=sf,
-%   labelfont=bf,%
-%   margin=0pt
-% }
-
-% \DeclareCaptionStyle{normal}{
-%   format=hang,
-%   % justification=centering,
-%   labelsep=endash,
-%   font=sf,
-%   labelfont=bf,
-%   margin=2cm,
-%   singlelinecheck=true
-% }
-
-% \captionsetup{margin=2cm}
-
 \captionnamefont{\bfseries\sffamily}
 \captiontitlefont{\sffamily}
 \captiondelim{~-- }
@@ -162,12 +159,9 @@
   \hangcaption
 }
 \newcommand{\CaptionPetit}{%
-  % \captiondelim{~: }
   \normalcaptionwidth
-  % \changecaptionwidth
   \normalcaption
 }
-
 
 
 \setlength\fboxsep{0.5mm}
@@ -176,153 +170,7 @@
 
 \newcommand{\faitle}[1]{\hfill\emph{\smaller#1}}
 
-% Formattage
-% ==========
-\newcommand{\datation}[1]{{\normalfont\emph{#1}}}
-\newcommand{\musee}[1]{\emph{\textcolor{MidnightBlue}{#1}}}
-\newcommand{\inv}[1]{\emph{\textcolor{RawSienna}{#1}}}
-\newcommand{\infos}[1]{{\smaller#1}}
-\newcommand{\titre}[1]{{\sffamily#1}}
-\newcommand{\source}[1]{\emph{#1}}
-
-\newcommand{\nouveaute}[1]{\textcolor{DarkBlue}{\flech~#1}}
-\newcommand{\XIIA}{{\normalfont\bfseries\textcolor{ForestGreen}{A\xspace}}}
-\newcommand{\XIIB}{{\normalfont\bfseries\textcolor{Fuchsia}{B\xspace}}}
-\newcommand{\XIIC}{{\normalfont\bfseries\textcolor{RedOrange}{B'\xspace}}}
-
-
-\newcommand{\listeroislabel}[1]{\bfseries\sffamily{#1}\enspace}
-\newenvironment{listerois}
-  {\begin{list}{}{%
-     \setlength\itemsep{0.8\baselineskip}
-     \let\makelabel\listeroislabel%
-     \setlength\labelwidth{2em}%
-     \setlength\leftmargin{\labelwidth+\labelsep}%
-   }
-  }
-  {\end{list}%
-}
-
-\makechapterstyle{monchap}{%
-  \renewcommand{\chapnamefont}{\raggedleft\normalfont\huge\scshape}
-  \renewcommand*{\chapnumfont}{\raggedleft\normalfont\Huge\scshape}
-  \renewcommand*{\chaptitlefont}{\raggedleft\normalfont\Huge\bfseries}
-  \renewcommand*{\afterchaptertitle}{%
-    {%
-      \par\nobreak\vskip 5pt
-      \par\offinterlineskip\hbox{%
-        \rule{\textwidth}{3pt}
-      }
-      \par\nobreak\vskip \afterchapskip
-    }
-  }
-}
-
-
-\definecolor{chaptercolor}{gray}{0.8}
-
-\newcommand{\numlifter}[1]{\raisebox{-2cm}[0pt][0pt]{\smash{#1}}}
-\newcommand{\numindent}{\kern37pt}
-\newlength{\chaptertitleboxheight}
-
-\makechapterstyle{hansen}{%
-  \renewcommand{\printchaptername}{\raggedleft}
-  \renewcommand{\printchapternum}{%
-    \begingroup%
-    \leavevmode%
-    \chapnumfont%
-    \strut%
-    \numlifter{\thechpater}%
-    \numindent%
-    \endgroup%
-  }
-  \renewcommand*{\printchapternonum}{
-    \vphantom{%
-      \begingroup%
-      \leavevmode%
-      \chapnumfont%
-      \numlifter{\vphantom{9}}%
-      \numindent%
-      \endgroup%
-    }
-    \afterchapternum
-  }
-  \setlength\midchapskip{0pt}
-  \setlength\beforechapskip{0.5\baselineskip}
-  \setlength\afterchapskip{3\baselineskip}
-  \renewcommand{\chapnumfont}{%
-    \fontsize{4cm}{0cm}%
-    \bfseries%
-    \sffamily%
-    \color{chaptercolor}%
-  }
-  \renewcommand{\chaptitlefont}{%
-    \normalfont%
-    \huge%
-    \bfseries%
-    \raggedleft%
-  }
-  \settototalheight\chaptertitleboxheight{%
-    \parbox{\textwidth}{\chaptitlefont \strut bg\\bg\strut}
-  }
-  \renewcommand{\printchaptertitle}[1]{%
-    \parbox[t][\chaptertitleboxheight][t]{\textwidth}{%
-      %\microtypesetup{protrusion=false}% add this if you use microtype
-      \chaptitlefont\strut ##1\strut
-    }
-  }
-}
-
-
-\chapterstyle{monchap}
-
-%======================================================================
-\title{Histoire de l'\kmt}
-\short{Histoire de l'\kmt}
-\subtitle{De la préhistoire au \NK}
-\lecturer{\PG}
-\author{Sonia \bsc{Labetoulle}}
-\date{Mars 2012 - juin 2014}
-%======================================================================
-
-
-\newlength{\drop}% for my convenience
 \makeatletter
-  % Redefine title page
-  \def\maketitle{%
-    \drop = 0.1\textheight
-    \vfill%
-    \hbox{%
-      \hspace*{0.2\textwidth}%
-      \rule{1pt}{\textheight}
-      \hspace*{0.05\textwidth}%
-      \parbox[b]{0.75\textwidth}{
-        \vbox{%
-          \vspace{\drop}
-          {\noindent\HUGE\bfseries \@title}\\[2\baselineskip]
-          {\Large\itshape \@subtitle}\\[4\baselineskip]
-          {\Large Cours de \textsf{l'Institut Khéops} par\\[0.5\baselineskip] 
-                  \@lecturer}\par
-          \vspace{0.5\textheight}
-          {\noindent \@author}\\[\baselineskip]
-          {\small\itshape\today, \printtime}
-        }% end of vbox
-      }% end of parbox
-    }% end of hbox
-    \vfill%
-  }
-
-  % Redefnine headings
-%  \markboth{\@lecturer}{\@short}
-  \makepagestyle{ruled}
-  \makeevenhead{ruled}{\normalfont\itshape\@title}{}{\normalfont\itshape\leftmark}
-  \makeoddhead{ruled}{\normalfont\itshape\rightmark}{}{\normalfont\itshape\@lecturer}
-  \makeevenfoot{ruled}{}{\thepage}{}
-  \makeoddfoot{ruled}{}{\thepage}{}
-  \makeheadrule{ruled}{\textwidth}{\normalrulethickness}
-%  \makefootrule{ruled}{\textwidth}{\normalrulethickness}{1pt}
-
-
   \renewcommand\@memfront@floats{%
     \counterwithout{figure}{chapter}
     \counterwithout{table}{chapter}
@@ -337,31 +185,41 @@
     \setcounter{figure}{0}
     \setcounter{table}{0}
   }
-
-
 \makeatother
 
-\makepsmarks{ruled}{%
-  \nouppercaseheads
-  \createmark{chapter}{left}{shownumber}{}{.\ }
-  \createmark{section}{right}{shownumber}{}{.\ }
-  \createplainmark{toc}{both}{\contentsname}
-  \createplainmark{lof}{both}{\listfigurename}
-  \createplainmark{lot}{both}{\listtablename}
-  \createplainmark{bib}{both}{\bibname}
-  \createplainmark{index}{both}{\indexname}
-  \createplainmark{glossary}{both}{\glossaryname}
-}
 
+%======================================================================
+\title{Histoire de l'\kmt}
+\short{Histoire de l'\kmt}
+\subtitle{De la préhistoire au \NK}
+\lecturer{\PG}
+\orga{l'\IK}
+\author{Sonia \bsc{Labetoulle}}
+\date{Mars 2012 - juin 2014}
+
+\hypersetup{%
+  pdftitle  = {L'\kmt de la préhistoire au \NK, cours de \PG à l'\IK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\input{../../../utils/ChapterStyles}
+\input{../../../utils/TitlepageKheops}
+\input{../../../utils/HeadingsKheops}
+
+\chapterstyle{monchap}
 \pagestyle{ruled}
-%\pagestyle{myheadings}
 
 \input{Kheops_Grandet_tikz}
+
+\addbibresource{../../../utils/Egypto.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\include{NeferBabel}
+\input{../../../utils/NeferBabel}
 
 \thispagestyle{empty}
 \maketitle
@@ -382,15 +240,17 @@
 \include{Kheops_Grandet_Chap6_DPI_book}
 \include{Kheops_Grandet_Chap7_NE_book}
 
-% \appendix
-% \book{Annexes}
-% \include{Kheops_Grandet_map}
-% \include{Kheops_Grandet_ChronoDF}
+\appendix
+\book{Annexes}
+\include{Kheops_Grandet_map}
+\include{Kheops_Grandet_ChronoDF}
 
 \backmatter
 \newpage
 \listoffigures
 \listoftables
+\nocite{*}
+\printbibliography
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

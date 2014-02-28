@@ -39,11 +39,11 @@ crises et une décadence culturelle.
   \end{tikzpicture}
 \end{wrapfigure}
 
-La \PPI dure de \num{2195} à \num{2014}\,BC, et comprend les 
+La \PPI dure de \anorange{2195}{2014}, et comprend les 
 \bsc{viii}\ieme, \bsc{ix}\ieme, \bsc{x}\ieme et \dyn{xi}s.
 
 La \dyn{vii} n'existe pas. Selon Manéthon elle aurait connu 
-\og \num{70}~rois en \num{70} jours \fg. C'est en fait une période 
+\og \num{70}~rois en \num{70}~jours \fg. C'est en fait une période 
 d'anarchie.
 
 Les \bsc{ix}\ieme et \dyn{x}s sont une seule et même dynastie, 
@@ -88,20 +88,20 @@ On peut expliquer de la même manière le fait que les cuves en bois des
 sarcophages sont très décorées, avec fausse porte et scènes d'offrande. 
 C'est alors le seul décor des tombes.
 
-Autre nouveauté, les \TS décorent les parois 
-internes.
+Autre nouveauté, les \TS décorent les parois internes.
 Ces textes, encore en usage pendant tout le \MK, sont une version 
 évoluée des \TP, assemblage hétéroclite lié au devenir du roi défunt : 
 rituel de l'offrande funéraire, formules de protection, devenir du 
 défunt. Les \TS sont tout ça plus d'autres choses, notamment 
 l'apparition des quatre fils d'Horus (sous le nom de fils 
-d'Ounanouy\footnote{dieu assimilé par la suite à Horus}). 
-C'est un phénomène de démocratisation de la littérature funéraire. 
-Plus tard, les \TS évolueront à leur tour pour donner naissance au \LM. 
+d'Ounanouy\footnote{dieu assimilé par la suite à Horus}). C'est un 
+phénomène de démocratisation de la littérature funéraire. Plus tard, 
+les \TS évolueront à leur tour pour donner naissance au \LM.
 Les \TS se composent de différents \og livres \fg, par exemple le 
 \emph{Livre des deux chemins} (terre et eau).
 
 \part{\texorpdfstring{\dyn{viii}}{VIIIe dynastie} 
+      % \datation{(\anorange[0]{2195}{2160})}}
       \datation{(2195-2160)}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -113,9 +113,9 @@ Une vingtaine de rois se succèdent, gouvernant depuis Memphis.
 Ce grand nombre de rois en aussi peu de temps pourrait être le signe 
 que des pouvoirs rivaux s'affrontent déjà. Ils auraient été réunis en 
 une seule dynastie dans les listes postérieures afin de mieux cadrer 
-avec la philosophie égyptienne. Le \emph{Canon de Turin} est très 
-fragmentaire et mentionne au moins quatre Khéty\footnote{Un nom typique 
-de la région d'Hérakléopolis}.
+avec la philosophie égyptienne. Le \emph{\CT} est très fragmentaire 
+et mentionne au moins quatre Khéty\footnote{Nom typique de la région
+d'Hérakléopolis.}.
 
 On ne sait pas grand chose de cette dynastie.
 
@@ -265,6 +265,7 @@ la \dyn{xi}.
   \item Montouhotep~II
 \end{itemize}
 
+\CaptionPetit
 \begin{figure}[htb]
   \noi\begin{minipage}[m]{0.45\textwidth}
     \centerfloat
@@ -281,6 +282,7 @@ la \dyn{xi}.
     \label{fig:antef_chiens}
   \end{minipage}%
 \end{figure}
+\CaptionNormal
 
 La \og Chambre des Ancêtres \fg de Thoutmosis~III à Karnak 
 (\musee{Louvre} \inv{E\,13481\,bis}, \fref{fig:E13481b}) contient 
@@ -316,6 +318,7 @@ ont été creusées dans les parois.
 La tombe d'Antef~II a livré une stèle aujourd'hui conservée au 
 \musee{MET} (\inv{13.182.3}, \fref{fig:antef_met}).
 
+\CaptionPetit
 \begin{figure}[htb]
   \noi\begin{minipage}[m]{0.45\textwidth}
     \centerfloat
@@ -333,6 +336,7 @@ La tombe d'Antef~II a livré une stèle aujourd'hui conservée au
     \label{fig:E13481b}
   \end{minipage}%
 \end{figure}%
+\CaptionNormal
 
 La \og pyramide \fg en briques crues d'Antef~II est mentionnée dans 
 le récit du pillage des tombes thébaines à la \dyn{xx} (papyrus Abott). 

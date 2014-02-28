@@ -17,6 +17,9 @@
 \part{Néolithique}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\chapter{Généralités}
+%======================================================================
+
 \begin{table}[htb]
   \begin{tabular*}{11cm + 2\tabcolsep}{|>{\columncolor{TblHdBg}}M{3.0cm}|M{4cm}|M{4cm}|}
   %         1 23
@@ -27,19 +30,19 @@
     \tabularnewline
   %          123
     \hhline{|---|}
-      \TblHd{\PD ancien \\ \emph{\smaller5500-3500}}            &  % 01
+      \TblHd{\PD ancien\\\rem{\anorange[0]{5500}{3500}}}        &  % 01
       Badarien \\ \uline{Nagada~I} (Amratien)                   &  % 02
       Fayoum~A \\ Mérimdé Béni Salamé \\ El-Omari                  % 03
     \tabularnewline
   %          123
     \hhline{|---|}
-      \TblHd{\PD récent \\ \emph{\smaller3500-3200}}            &  % 01
+      \TblHd{\PD récent\\\rem{\anorange[0]{3500}{3200}}}        &  % 01
       \uline{Nagada~II} \\ (Gerzéen ancien)                     &  % 02
       Maadien \\ Bouto                                             % 03
     \tabularnewline
   %          123
     \hhline{|---|}
-      \TblHd{Protodynastique \\ \emph{\smaller3200-3100}}       &  % 01
+      \TblHd{Protodynastique\\\rem{\anorange[0]{3200}{3100}}}   &  % 01
       \multicolumn{2}{c|}{%
         \parbox{8cm}{\centering\uline{Nagada~III} \\
                      (Gerzéen récent, \og dynastie~0 \fg)}
@@ -53,38 +56,33 @@
 
 \bigskip
 
-Pas de peuplement continu, des villes indépendantes.
+Il n'y a pas de peuplement continu, mais des villes indépendantes.
 
-Dynamique d'unification (pas le cas ailleurs pendant très longtemps).
+Mais on voit une dynamique d'unification, ce qui ne sera pas le cas 
+ailleurs pendant très longtemps.
 
-\og Culture \fg{} = tel type de poterie, d'objets de sépulture,~\dots 
-La poterie est le principal marqueur, c'est une production homogène, 
-et donc comparable.
-
-
-Nagada finit par s'imposer à l'ensemble du pays.\\
-\qquad\donc~Unification culturelle puis politique 
-(par la force ? Par des alliances ?)
-
+Nagada finit par s'imposer à l'ensemble du pays. L'unification est 
+d'abord culturelle puis politique. Par la force ? Par des alliances ?
 Nagada rayonne aussi vers la Basse-Nubie.
 
-\chapter{Nagada~I}
-%======================================================================
-
-Vases black-top, jusqu'au début de Nagada~II tardif.
+En archéologie, une \og culture \fg est caractérisée par un type de 
+poterie donné, un type d'objets déposés dans les sépultures,~\dots 
+La poterie est le principal marqueur culturel, c'est une production 
+homogène, et donc comparable.
+Les vases \emph{black top}, par exemple, se retrouvent de Nagada~I 
+jusqu'au début de Nagada~II tardif.
+L'assemblage d'objets typiques d'une culture est un outil permettant 
+la comparaison entre différentes phases.
 
 Pour ces périodes, les cimetières sont la principale source 
-d'informations. On n'a pas ou très peu d'informations sur la surface. 
+d'informations. On n'a que très peu voire pas du tout d'éléments sur 
+la surface. 
 Cependant les tombes étaient conçues comme des maisons.
-
-\bigskip
 
 \begin{encadre}
   La notion de prestige régit de nombreuses activités humaines, 
   structure la société.
 \end{encadre}
-
-\bigskip
 
 Des objets marquant le niveau social sont placés dans la tombe, 
 ce ne sont pas forcément des objets de la vie quotidienne.
@@ -92,12 +90,12 @@ ce ne sont pas forcément des objets de la vie quotidienne.
 L'existence de poterie implique un artisanat soigné, réalisé par des 
 spécialistes.
 
-La société égyptienne est encore dépendante des ressources naturelles, 
-l'accès à ces dernières est organisé socialement.
-
-Les gens qui ne travaillent pas la terre doivent être nourris :\\
-\qquad\donc~Ceux qui la travaillent doivent produire plus.\\
-\qquad\donc~Il existe une autorité qui organise tout ça.
+La société égyptienne est encore, à cette époque, dépendante des 
+ressources naturelles, 
+l'accès à ces dernières est organisé socialement : les gens qui 
+ne travaillent pas la terre doivent être nourris ; ceux qui la 
+travaillent doivent donc produire plus ; il doit y avoir une autorité 
+pour gérer ça.
 
 (Voir \emph{\og Ginger \fg{}} du British Museum, \fref{fig:EA32751})
 
@@ -108,11 +106,14 @@ Les gens qui ne travaillent pas la terre doivent être nourris :\\
   \label{fig:EA32751}
 \end{figure}
 
-L'assemblage d'objets typiques d'une culture permet la comparaison 
-entre différentes phases.
+\chapter{Nagada~I}
+%======================================================================
 
-Nouveautés Nagada~I : représentations humaines rudimentaires en os 
-ou en terre cuite ; symboles (couronne rouge).
+Apparition de :
+\begin{itemize}
+  \item représentations humaines rudimentaires en os, en terre cuite ;
+  \item symboles (couronne rouge).
+\end{itemize}
 
 \chapter{Nagada~II}
 %======================================================================
@@ -126,24 +127,33 @@ ou en terre cuite ; symboles (couronne rouge).
 \end{wrapfigure}
 \CaptionNormal
 
-Silex (\emph{ripple flakes}), pots à décor imitant la pierre.
+\begin{itemize}
+  \item Industrie lithique (\emph{ripple flakes}) ;
+  \item Pots à décor imitant la pierre ;
+  \item Décors avec bateaux, végétaux, danseuses, paysages naturels
+        \flech navigation de personnages importants.
+\end{itemize}
 
-Décors avec bateaux, végétaux, danseuses, paysages naturels 
-\flech navigation de personnages importants.
-
-A la préhistoire, on trouve en germe les réalisations de l'époque 
-historique : art, représentations commémoratives.
-
-Débuts de la sculpture : palettes à fard (dès Nagada~I). Ces objets 
-utilitaires, géométriques, servent à broyer des pigments. Certaines 
+Ce sont les débuts de la sculpture, avec notamment les palettes 
+à fard (dès Nagada~I). Ces objets, au départ purement utilitaires, 
+géométriques, servent à broyer des pigments. Certaines palettes 
 prennent la forme d'animaux, ou sont affublées d'éléments d'animaux. 
 Le décor est parfois gravé sur les palettes : emblème de Min, Vache 
 du Ciel (Bat, forme locale d'Hathor, \fref{fig:bat}).
 
+\begin{remarque}
+  On trouve déjà en germe les réalisations de l'époque historique : 
+  art, représentations commémoratives.
+\end{remarque}
+
+% E11151.jpg
+% E22730.jpg
+% E24727.jpg
+
 \chapter{Cultures périphériques}
 %======================================================================
 
-Rudimentaires.
+Elles sont rudimentaires.
 
 \begin{itemize}
   \item Fayoum~A ;
@@ -153,50 +163,60 @@ Rudimentaires.
 \chapter{Nagada~III}
 %======================================================================
 
-Vases en pierre métamorphique (= nouveaux objets de luxe).\\
-\qquad\donc~grande dextérité (pierre très dure).
+De nouveaux objets de luxe apparaissent : des vases en pierre 
+métamorphique (\fref{???}). Cette pierre très dure montre la grande 
+dextérité des artisans.
 
-Grande mutation des palettes : elles perdent leur fonction d'origine. 
+C'est un période de grande mutation des palettes qui perdent leur 
+fonction d'origine. 
 Elles comportent des décors en relief, un godet (stylisation du creux 
-naturel lié à l'utilisation normale de l'objet). Décor animalier ou 
-commémoratif : taureau, lion = symboles du roi ; scène de bataille ; 
-enceintes fortifiées (=~villes) détruites par des animaux (= rois, 
-déjà des hiéroglyphes) tenant une pioche.
+naturel lié à l'utilisation normale de l'objet). Le décor est 
+animalier ou commémoratif (\fref{???}) : taureau, lion (symboles du 
+roi), scène de bataille, enceintes fortifiées (villes) détruites par 
+des animaux (les rois, déjà des hiéroglyphes) tenant une pioche.
 
-Le \og maître des animaux \fg{} est un symbole politique = pouvoir 
-politique qui unit les factions qui, sans lui, s'opposent.
+Le \og maître des animaux \fg symbolise le pouvoir politique unissant 
+les factions qui, sans lui, s'opposent.
 
-Palette de Narmer : le roi abat des ennemis devant une divinité.
+Sur la Palette de Narmer, le roi abat des ennemis devant une divinité.
 
-À la fin du \PD, ce type de décor apparaît sur les têtes 
-de massue (non utilisables).
+À la fin du \PD, ce type de décor apparaît sur les têtes de massue 
+(inutilisables).
 
-\donc~migration des représentations commémoratives des poteries 
-vers des supports en pierre, de plus en plus grands. À la période 
+C'est la migration des représentations commémoratives de la poterie 
+vers des supports en pierre de plus en plus grands. À la période 
 historique, elles seront placées sur les parois des temples en pierre.
-
 C'est le début de la sculpture égyptienne.
 
-\part{Hiérakonpolis}
+\part{Unification}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Située en bordure du désert et face à El-Kab, c'est probablement 
-la ville d'origine d'une dynastie de \HE. Elle s'appelle \emph{Nékhen} 
+Une théorie d'unification veut qu'elle soit liée aux sites de Nagada, 
+Hiérakonpolis et This (ville dont Abydos était la nécropole) : trois 
+royaumes distincts au \PD, progressivement unifiés depuis 
+Hiérakonpolis, avec transfert de pouvoir vers This. L'unification 
+s'est ensuite étendue à l'ensemble du pays.
+
+\chapter{Hiérakonpolis}
+%======================================================================
+
+Située en bordure du désert en face d'El-Kab, c'est probablement la 
+ville d'origine d'une dynastie de \HE. Elle s'appelle \emph{Nékhen}
 en égyptien.
 
-Elle comporte :
+Le site comporte :
 \begin{itemize}
-  \item temple HK29 ;
-  \item de nombreuses tombes, dont la tombe décorée 
+  \item un temple (HK29) ;
+  \item de nombreuses tombes, dont la célèbre tombe décorée 
         (\fref{fig:HK100}) ;
-  \item ville ;
-  \item forts.
+  \item une ville ;
+  \item un forts.
 \end{itemize}
 
 \bigskip
 
 \begin{figure}[htb]
-  \includegraphics[height=6cm]{HK100}
+  \includegraphics[width=0.9\paperwidth]{HK100}
   \caption{Tombe décorée de Hiérakonpolis}
   \label{fig:HK100}
 \end{figure}
@@ -204,33 +224,51 @@ Elle comporte :
 \bigskip
 
 \begin{remarque}
-  Les villes ne sont descendues dans la plaine qu'à la période 
-  historique. À cause d'une diminution des crues ?
+  Les villes ne sont descendues dans les plaines qu'à la période 
+  historique. Faut-il voir là l'indice d'une diminution des crues ?
 \end{remarque}
 
-Une théorie d'unification veut qu'elle soit liée aux sites de Nagada, 
-Nékhen et This (ville dont Abydos était le cimetière) : trois royaumes 
-distincts au \PD, progressivement unifiés depuis Nékhen, avec 
-transfert de pouvoir vers This, puis unification étendue à l'ensemble 
-du pays.
+\section{Temple HK29}
+%----------------------------------------------------------------------
+Le temple est situé sur un tertre carré damé. Il est recouvert par des 
+vestiges du \MK. Des batiments entourent le tertre, c'était un centre 
+cultuel important. C'est là, dans une \og poubelle sacrée \fg, que la 
+palette de Narmer a été trouvée.
 
-À Nékhen : temple sur un tertre carré. C'est là, dans une 
-\og poubelle sacrée \fg, que la palette de Narmer a été trouvée. 
-Au dessus se trouvent des vestiges du \MK.
-
+\section{Tombe décorée HK100}
+%----------------------------------------------------------------------
 La tombe décorée (\fref{fig:HK100}) pourrait être une tombe royale. 
-Elle est très modeste, mais à la pointe de la technologie de l'époque 
-(première peinture murale !).
-
-Le décor migre des objets (support préhistorique) vers les parois 
+Elle est très modeste, mais à la pointe de la technologie de l'époque. 
+On y trouve la première peinture murale. C'est un exemple de la 
+migration du décor des objets (support préhistorique) vers une paroi 
 (support historique).
 
-HK29 : tertre damé, avec des bâtiments autour. C'est un centre cultuel 
-important.
 
-Fragment d'un colosse de Min (\musee{Ashmolean Museum} 
-\inv{1894.105e}) (\fref{fig:min}).
-Il devait mesurer \SI{3}{m} de haut !
+\chapter{Éléphantine}
+%======================================================================
+
+Le temple archaïque le plus intéressant se trouve à Éléphantine. 
+Un temple de la \dyn{xviii} consacré à Satet a été construit 
+au-dessus du temple prédynastique, mais ce dernier est encore visible.
+
+D'abord une simple niche naturelle entre des rochers et en plein air, 
+un enclos en briques crues à ensuite été ajoutée, et il a subit un 
+agrandissement progressif jusqu'à l'époque \ptol. L'espace cultuel de 
+la \dyn{xviii} est exactement au-dessus du temple préhistorique.
+
+Le naos de l'époque de Pépi~I\ier (vers \ano[0]{2300}) est au 
+\musee{Louvre} (\inv{E\,12660}, \fref{???}).
+
+\begin{remarque}
+  À chaque époque, on ajoute quelque chose de nouveau.
+\end{remarque}
+
+\chapter{Coptos}
+%======================================================================
+
+L'\musee{Ashmolean Museum} conserve des fragments de statue de Min 
+(\inv{1894.105e}, \fref{fig:min}). Ce sont des colosses de \SI{3}{m} 
+de haut !
 
 \begin{figure}[htb]
   \includegraphics[scale=1]{min}
@@ -241,45 +279,38 @@ Il devait mesurer \SI{3}{m} de haut !
 Pour les représentations humaines, on passe de statuettes en terre 
 cuite à des colosses.
 
+\chapter{Représentation des temples}
+%======================================================================
+
 Il n'y a pas d'unification architecturale des temples (Sobek,~\dots), 
 ce qui reflète le morcellement du pays.
 
-Le temple archaïque le plus intéressant se trouve à Éléphantine. 
-Un temple de la \dyn{xviii} consacré à Satis a été construit 
-au-dessus du temple préhistorique : à chaque époque, on ajoute quelque 
-chose de nouveau. D'abord une simple niche naturelle entre des rochers 
-et en plein air, un enclos en briques crues à ensuite été ajoutée, et 
-il a subit un agrandissement progressif jusqu'à l'époque \ptol. 
-L'espace cultuel de la \dyn{xviii} est exactement au-dessus du 
-temple préhistorique.\\
-Le naos de Pépi~I\ier (\col\num{2300}\,BC) est au \musee{Louvre} 
-(\inv{E\,12660}).
-
-
 \faitle{27 mars 2012}
 
-Plusieurs états créés en \HE.
+Plusieurs états coexistent en \HE.
 
-Doctrine historique : deux royaumes, \HE et \BE, unis. Avant, il 
-devait donc déjà exister deux royaumes.\\
-\qquad\donc~Symboles de dualité partout.
+La doctrine politique veut qu'avant l'unification de la \HE et de la 
+\BE, il existaient deux royaumes. Les symboles de dualité sont partout.
 
 Pendant longtemps, les égyptologues ont pensé que c'était vrai. 
-On sait maintenant que c'est faux. C'est un mythe politique.
+On sait maintenant qu'il ne s'agit que d'un mythe politique.
 
-Fin de Nagada~III : unification de la \HE, installation du pouvoir 
-à Abydos.
+\chapter{Abydos}
+%======================================================================
 
+À la fin de Nagada~III, la \HE est unifiée, le pouvoir installé à 
+Abydos.
 
-\part{Abydos}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\KeS}
+%----------------------------------------------------------------------
+Ville, temple d'Osiris bordé par un cimetière comportant des 
+superstructures de tombes, mais pas les tombes elles-mêmes et 
+développé surtout au \NK.
 
-\KeS : ville, temple d'Osiris, bordé par un cimetière comportant des 
-superstructures des tombes, mais pas les tombes elles-mêmes). 
-Développés surtout au \NK.
-
-\OeQ (\fref{fig:oummelqaab}) : tombes des rois de la \dyn[\iere]{i} et 
-de deux rois de la II\ieme.
+\section{\OeQ}
+%----------------------------------------------------------------------
+Tombes des rois de la \dyn[\iere]{i} et de deux rois de la 
+\bsc{ii}\ieme (\fref{fig:oummelqaab}).
 
 \begin{figure}[htb]
   \includegraphics[height=8cm]{oummelqaab}
@@ -287,95 +318,105 @@ de deux rois de la II\ieme.
   \label{fig:oummelqaab}
 \end{figure}
 
+\section{Cimetière~U}
+%----------------------------------------------------------------------
+Situé entre \KeS et \OeQ, c'est un cimetière antérieur à la 
+\dyn[\iere]{i}. Il abrite notamment la tombe U-j. Relativement grande 
+et sophistiquée, elle comporte de nombreuses pièces dont des magasins 
+(poteries). Elle est conçue comme une seconde demeure. Est-ce une 
+tombe royale ? D'autres tombes de ce cimetière sont relativement 
+grandes, il pourrait s'agir du cimetière royal de la \HE unifiée.
+Les rois de l'\kmt unifiée auraient continué à se faire inhumer là.
 
-Entre les deux se trouve, le cimetière~U, \PD, comprenant notamment la 
-tombe U-J. Elle est relativement grande et sophistiquée, comporte de 
-nombreuses pièces dont des magasins (poteries). Elle est conçue comme 
-une seconde demeure. Tombe royale ? D'autres tombes de ce cimetière 
-sont grandes, il pourrait s'agir du cimetière royal de la \HE unifiée. 
-Les rois de l'\kmt unifiée aurait continué à se faire inhumer là.
+On y a retrouvé des étiquettes de jarre inscrites, avec peut-être des 
+lieux de provenance, la nature des produits contenus dans les jarres. 
+On ne peut pas encore parler d'écriture, mais de signes servant au 
+classement et à la gestion.
 
-On a retrouvé là des étiquettes de jarre inscrites. Lieux de 
-provenance, nature des produits ? Ce n'est pas encore de l'écriture 
-mais des signes servant à la gestion.
+\section{Cimetière~B}
+%----------------------------------------------------------------------
+Le cimetière~B pourrait être celui des rois de la \og dynastie~0 \fg ? 
+On y a retrouvé des signes représentants les noms des rois, le 
+\emph{sérekh} surmonté d'Horus.
+S'agit-il des rois de la \HE unifiée (Scorpion, Ka, Iryhor,~\dots) ? 
+Pour \PG, cette idée reste très hypothétique.
 
-Cimetière~B : rois de la \og dynastie~0 \fg ? (la notion de 
-\og dynastie~0 \fg est en perte de vitesse).
-On y a retrouvé des signes représentants les noms des rois : dans des 
-\emph{sérekh} surmontés d'Horus.
-Au début de la période dynastique, le roi porte le titre d'Horus, 
-il en est une réincarnation.
-S'agit-il des rois de la \HE unifiée ? (Scorpion, Ka, Iryhor,~\dots)
+La tombe B17-B18 est attribuée à Narmer, selon des critères 
+stylistiques. Il ne reste rien de la superstructure, l'infrastructure 
+se compose de deux pièces séparées : la tombe et un magasin ?
 
-Tombe B17-B18 : supposée être celle de Narmer, selon des critères 
-stylistiques. Il ne reste rien de la superstructure. Elle comporte 
-deux pièces séparées : la tombe et un magasin ?
+\begin{remarque}
+  La notion de \og dynastie~0 \fg est en perte de vitesse.
+\end{remarque}
 
 \part{En résumé}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{En résumé}
+%======================================================================
 
-Au cours du \PD : dynamique d'unification par les souverains de \HE 
-\flech~unification de la \HE, puis du pays (culturelle puis politique).
+Au cours du \PD, se met en place une dynamique d'unification, d'abord 
+de la \HE, puis du pays tout entier. Elle est d'abord culturelle puis 
+politique.
 
-Création d'une identité égyptienne par opposition au désert : 
-sédentaires~/~nomades.
+C'est le moment de la création d'une identité égyptienne en opposition 
+au désert : sédentaires contre nomades.
+La différentiation se fait également progressivement par rapport au 
+Soudan.
 
-Différentiation progressive par rapport au Soudan.
+L'élément déterminant de ces processus est le passage à l'économie de 
+production :
+\begin{itemize}
+  \item vie nomade, en tribus, avec peu de hiérarchie sociale (le chef 
+        et les autres) ;
+  \item premiers villages : habitats circulaires (tentes transcrites 
+        en dur)
+  \item avec l'augmentation de la population, passage au rectangle
+\end{itemize}
 
-Le facteur déterminant est le passage à l'économie de production.
+Les tombes connaissent la même évolution.
 
-Vie nomade : en tribu, peu de hiérarchie sociale (le chef et les 
-autres).
+Il y a une augmentation progressive de l'urbanisme. La stratification 
+sociale se met en place. Un système hiérarchique permet l'organisation 
+du travail.
 
-Les premiers villages : habitats circulaires : tentes transcrites en 
-dur. Avec l'augmentation de la population, passage au rectangle.
+La société est de plus en plus complexe, l'administration des 
+ressources implique l'existence de moyens de stockage, d'un système 
+d'information sur la localisation et la quantité de ressources.
 
-Même évolution pour les tombes.
-
-= augmentation progressive de l'urbanisme.
-
-Organisation, stratification sociale se met en place.
-
-Système hiérarchique \flech~organisation du travail.
-
-\donc~société de plus en plus complexe, gestion admin des ressources. 
-Implique l'existence de stockage, d'un système d'information sur la 
-localisation, la quantité de ressources.
-
-Mise en place d'une économie de redistribution : 
-Le pouvoir politique est, de droit, le propriétaire de toutes les 
-ressources.
-Il lui revient de redistribuer à chacun selon ses besoins.
-Une art sert à payer ceux qui ne produisent pas.
-Pour récompenser les fidèles \flech~objets de luxe \flech~classe 
-d'artisans ne produisant pas de nourriture.
-Besoin aussi de vêtements, poterie utilitaire, là aussi, 
-redistribution.\\
-\donc~un équilibre se met en place.
+On voit la mise en place d'une économie de redistribution. 
+Le pouvoir politique est, de droit, le propriétaire de toutes 
+les ressources, il lui revient de redistribuer à chacun selon ses 
+besoins :
+\begin{itemize}
+  \item Payer ceux qui ne produisent pas.
+  \item Récompenser les fidèles : objets de luxe. Cela implique une 
+        classe d'artisans qui ne produit pas de nourriture.
+\end{itemize}
+Il y a redistribution de vêtements, de poterie utilitaire,~\dots
+Un équilibre se met en place entre les différents producteurs et les 
+autres.
 
 En réalité, il existait sûrement des aménagements à la théorie.
 
-Mise en \oe uvre dans l'ensemble du pays \flech~problèmes, dont les 
-solutions vont façonner l'\kmt.
+La mise en \oe{}uvre de ce système dans l'ensemble du pays cause des 
+problèmes dont les solutions vont façonner l'\kmt.
 
-Dématérialisation des échanges : pour savoir quelle part chacun peut 
-recevoir, besoin de connaître la production globale, gestion des 
-ressources\\
-\donc~système de signes pour comptabiliser.
+Il y a dématérialisation des échanges : pour calculer la part que 
+chacun peut recevoir, il faut connaître la production globale, ce 
+qui nécessite gestion des ressources et un système de signes pour 
+comptabiliser.
 
 L'écriture est une invention collective, un produit de la 
-sédentarisation et de l'urbanisation : valeurs, idées liées à 
-l'endroit, le lien entre le lieu et ses habitants \flech~divinités 
-tutélaires, justification du pouvoir politique (le chef est l'élu de 
-la divinité, il est le fils du chef précédent.\\
-\donc~mise en place de coutumes, d'une morale.
+sédentarisation et de l'urbanisation, une nécessité pour la gestion 
+des ressources.
 
-L'art comme justification du pouvoir politique.
+L'émergence de valeurs, d'idées liées à un endroit donné, le lien 
+entre un lieu et ses habitants, à l'origine de l'apparition de 
+divinités tutélaires, la justification du pouvoir politique (le chef 
+est l'élu de la divinité, et le fils du chef précédent) sont également 
+des conséquences de la sédentarisation.
+Tout cela génère la mise en place de coutumes, d'une morale, de l'art 
+comme justification du pouvoir politique.
 
-Narmer : début de l'époque archaïque (\bsc{i}\iere et \dyn{ii}s) 
-=~période de transition (=~\PT\footnote{le nom vient de la tradition
-de Manéthon : This est le siège de la dernière monarchie préhistorique 
-(\HE unifiée)})
 
-On a très peu de documentation.
 

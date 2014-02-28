@@ -1,0 +1,641 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  calc,
+  patterns,
+  arrows,
+  positioning,
+  shadows,
+  decorations.text
+}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\usepackage{nefertiyi}
+
+
+
+
+
+
+
+% Numérotation des division et prise en compte dans la TOC
+\maxsecnumdepth{subsection}
+\maxtocdepth{subsection}
+
+\counterwithin{part}{book}
+\counterwithin{chapter}{book}
+%\counterwithout{chapter}{part}
+% \counterwithin{subsection}{section}
+% % \counterwithout{figure}{part}
+% \counterwithout{figure}{chapter}
+
+\renewcommand{\bookname}{Livre}
+
+% Apparence des numéros de divisions
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesubsection}{\alph{subsection})}
+
+% Indentation et largeur des numéros dans la TOC
+\cftsetindents{part}{\cftpartindent}{2.6em}
+\cftsetindents{chapter}{\cftchapterindent}{1.8em}
+\cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
+% Pointillés dans la TOC
+\renewcommand{\cftsectiondotsep}{9}
+\renewcommand{\cftsubsectiondotsep}{1}
+
+
+
+% Entry         Level        Standard        memoir class
+%                         indent numwidth   indent numwidth 
+% ---------------------------------------------------------
+% book             -2       —      —          0.0    —
+% part             -1       0.0    —          0.0    1.5 
+% chapter           0       0.0    1.5        0.0    1.5
+% section           1       1.5    2.3        1.5    2.3
+% subsection        2       3.8    3.2        3.8    3.2
+% subsubsection     3       7.0    4.1        7.0    4.1
+% paragraph         4      10.0    5.0       10.0    5.0
+% subparagraph      5      12.0    6.0       12.0    6.0
+% figure/table     (1)      1.5    2.3        0.0    1.5
+% subfigure/table  (2)      —      —          1.5    2.3
+
+
+% Macro               Default           Usage
+% ---------------------------------------------------------------------
+% \abstractname       Abstract          title for abstract environment
+% \alsoname           see also          used by \seealso
+% \amname             am                used in printing time of day
+% \appendixname       Appendix          name for an appendix heading
+% \appendixpagename   Appendices        name for an \appendixpage
+% \appendixtocname    Appendices        ToC entry announcing appendices
+% \bibname            Bibliography      title for \thebibliography
+% \bookname           Book              name for \book heading
+% \bookrefname        Book              used by \Bref
+% \chaptername        Chapter           name for \chapter heading
+% \chapterrefname     Chapter           used by \Cref
+% \contentsname       Contents          title for \tableofcontents
+% \figurename         Figure            name for ﬁgure \caption
+% \figurerefname      Figure            used by \fref
+% \glossaryname       Glossary          title for \theglossary
+% \indexname          Index             title for \theindex
+% \lcminusname        minus             used in named number formatting
+% \listfigurename     List of Figures   title for \listoffigugres
+% \listtablename      List of Tables    title for \listoftables
+% \minusname          minus             used in named number formatting
+% \namenumberand      and               used in named number formatting
+% \namenumbercomma    ,                 used in named number formatting
+% \notesname          Notes             title of \notedivision
+% \pagename           page              for your use
+% \pagerefname        page              used by \pref
+% \partname           Part              name for \part heading
+% \partrefname        Part              used by \Pref
+% \pmnane             pm                used in printing time of day
+% \sectionrefname     §                 used by \Sref
+% \seename            see               used by \see
+% \tablename          Table             name for table \caption
+% \tablerefname       Table             used by \tref
+% \ucminusname        Minus             used in named number formatting
+% ---------------------------------------------------------------------
+% \renewcommand{\partname}{Part}
+% \renewcommand{\partrefname}{Part~}
+% ---------------------------------------------------------------------
+% \newcommand*{\nNamexi}{\iflowertonumname e\else E\fi leven}
+\renewcommand{\chapterrefname}{Chapitre~}
+\renewcommand{\bookrefname}{Livre~}
+\renewcommand{\partrefname}{Partie~}
+
+
+
+\setpnumwidth{2.55em}
+\setrmarg{3.55em}
+
+\addtolength{\columnsep}{15pt}
+
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+
+\graphicspath{%
+  {../../../images/Kheops/Faivre/}%
+}
+
+
+\setfloatadjustment{figure}{\centerfloat}
+\setfloatadjustment{table}{\centerfloat}
+
+\newsubfloat{figure}
+
+% \subcaptionstyle{}
+\subcaptionfont{\sffamily}
+\subcaptionlabelfont{\bfseries\sffamily}
+
+\captionnamefont{\bfseries\sffamily}
+\captiontitlefont{\sffamily}
+\captiondelim{~-- }
+
+\newcommand{\CaptionNormal}{%
+  \captionwidth{0.75\linewidth}
+  \changecaptionwidth
+  \hangcaption
+}
+\newcommand{\CaptionPetit}{%
+  \normalcaptionwidth
+  \normalcaption
+}
+
+
+
+\setlength\fboxsep{0.5mm}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+\newcommand{\faitle}[1]{\hfill\emph{\smaller#1}}
+
+% Formattage
+% ==========
+\newcommand{\datation}[1]{{\normalfont\emph{#1}}}
+\newcommand{\musee}[1]{\emph{\textcolor{MidnightBlue}{#1}}}
+\newcommand{\inv}[1]{\emph{\textcolor{RawSienna}{#1}}}
+\newcommand{\infos}[1]{{\smaller#1}}
+\newcommand{\titre}[1]{{\sffamily#1}}
+\newcommand{\source}[1]{\emph{#1}}
+
+\makechapterstyle{monchap}{%
+  \renewcommand{\chapnamefont}{\raggedleft\normalfont\huge\scshape}
+  \renewcommand*{\chapnumfont}{\raggedleft\normalfont\Huge\scshape}
+  \renewcommand*{\chaptitlefont}{\raggedleft\normalfont\Huge\bfseries}
+  \renewcommand*{\afterchaptertitle}{%
+    {%
+      \par\nobreak\vskip 5pt
+      \par\offinterlineskip\hbox{%
+        \rule{\textwidth}{3pt}
+      }
+      \par\nobreak\vskip \afterchapskip
+    }
+  }
+}
+
+\chapterstyle{monchap}
+
+%======================================================================
+\title{Attributs royaux en \kmt et Mésopotamie}
+\short{Attributs royaux}
+\subtitle{\kmt et Mésopotamie}
+\lecturer{Evelyne~\bsc{Faivre-Martin}}
+\orga{l'\IK}
+\author{Sonia \bsc{Labetoulle}}
+\date{Juillet 2012}
+
+\hypersetup{%
+  pdftitle  = {Attributs royaux en \kmt et Mésopotamie, cours d'Evelyne~\bsc{Faivre} à l'\IK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject
+% pdfcreator
+% pdfproducer
+% pdfkeywords
+
+%======================================================================
+
+
+\newlength{\drop}% for my convenience
+\makeatletter
+  % Redefine title page
+  \def\maketitle{%
+    \drop = 0.1\textheight
+    \vfill%
+    \hbox{%
+      \hspace*{0.2\textwidth}%
+      \rule{1pt}{\textheight}
+      \hspace*{0.05\textwidth}%
+      \parbox[b]{0.75\textwidth}{
+        \vbox{%
+          \vspace{\drop}
+          {\noindent\HUGE\bfseries \@title}\\[2\baselineskip]
+          {\Large\itshape \@subtitle}\\[4\baselineskip]
+          {\Large Cours de \textsf{\@orga} par\\[0.5\baselineskip] 
+                  \@lecturer}\par
+          \vspace{0.5\textheight}
+          {\noindent \@author}\\[\baselineskip]
+          {\small\itshape\today, \printtime}
+        }% end of vbox
+      }% end of parbox
+    }% end of hbox
+    \vfill%
+  }
+
+  % Redefnine headings
+%  \markboth{\@lecturer}{\@short}
+  \makepagestyle{ruled}
+  \makeevenhead{ruled}{\normalfont\itshape\@title}{}{\normalfont\itshape\leftmark}
+  \makeoddhead{ruled}{\normalfont\itshape\rightmark}{}{\normalfont\itshape\@lecturer}
+  \makeevenfoot{ruled}{}{\thepage}{}
+  \makeoddfoot{ruled}{}{\thepage}{}
+  \makeheadrule{ruled}{\textwidth}{\normalrulethickness}
+%  \makefootrule{ruled}{\textwidth}{\normalrulethickness}{1pt}
+
+
+  \renewcommand\@memfront@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memmain@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memback@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+    \setcounter{figure}{0}
+    \setcounter{table}{0}
+  }
+
+
+\makeatother
+
+\makepsmarks{ruled}{%
+  \nouppercaseheads
+  \createmark{chapter}{left}{shownumber}{}{.\ }
+  \createmark{section}{right}{shownumber}{}{.\ }
+  \createplainmark{toc}{both}{\contentsname}
+  \createplainmark{lof}{both}{\listfigurename}
+  \createplainmark{lot}{both}{\listtablename}
+  \createplainmark{bib}{both}{\bibname}
+  \createplainmark{index}{both}{\indexname}
+  \createplainmark{glossary}{both}{\glossaryname}
+}
+
+\pagestyle{ruled}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\input{../../../utils/NeferBabel}
+
+\thispagestyle{empty}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\tableofcontents
+
+\mainmatter
+
+\input{Kheops_FaivreMartin_01}
+
+\backmatter
+\newpage
+\listoffigures
+\listoftables
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+Gudea, prince de Lagash
+Statue dite au "vase jaillissant'' dédiée à la déesse Geshtinanna
+AO 22126
+
+Sceau d'un scribe de Gudea
+Présentation à un dieu solaire franchissant des montagnes
+AO 22311
+
+ME 118561
+Limestone plaque
+From Ur, southern Iraq
+Early Dynastic Period, about 2500-2300 BC
+---
+Priests making offerings
+---
+Square stone plaques with holes through the centre, and carved in relief, are typical objects of the Early Dynastic period in southern Mesopotamia (2900-2300 BC). They were probably dedicated in a temple and fixed to the mud-brick wall of a shrine using a stone or wooden peg driven through the hole. The end of a piece of cord attached to a door was then wound around the end of the peg to tie the door shut.
+
+This plaque was found by Leonard Woolley in the ruins of a religious institution called the Gipar-ku, residence of the High Priestess of the moon god Nanna.
+
+The upper register shows a row of worshippers and a shaved and naked priest with long hair or head cloth. He is pouring a liquid offering into a vessel. A bearded god in robes and horned head-dress stands before him. In the lower register, a man and woman carry animal offerings. Beside them, a woman stands full-face, in the typical pose of a goddess in this period, though she may be the High-Priestess. In front of her a naked priest pours another libation before a building. The building is decorated with niches and buttresses characteristic of Mesopotamian temple architecture.
+
+Length: 26.03 cm
+Width: 22.86 cm
+Thickness: 0.22 cm
+
+
+Sphinx of Amenhotep III, possibly from a Model of a Temple
+Period:
+    New Kingdom
+Dynasty:
+    Dynasty 18
+Reign:
+    reign of Amenhotep III
+Date:
+    ca. 1390–1352 B.C.
+Geography:
+    Egypt, Upper Egypt; Thebes, Karnak possibly
+Medium:
+    Faience, remains of an Egyptian alabaster tenon
+Dimensions:
+    l. 25.1 cm (9 7/8 in); w. 13.3 cm (5 1/4 in); h. 13.3 cm (5 1/4 in)
+Credit Line:
+    Purchase, Lila Acheson Wallace Gift, 1972
+Accession Number:
+    1972.125
+This artwork is currently on display in Gallery 119
+
+Even without the inscription, the facial features of this faience sphinx would identify it as Amenhotep III. The graceful body of the lion transforms quite naturally into human forearms and hands. In this form, the sphinx combines the protective power of the lion with the royal function of offering to the gods. The even tone of the fine blue glaze and the almost flawless condition of this sculpture make it unique among ancient Egyptian faience statuettes.
+
+Tête de roi akkadien, présumée Sargon l’Ancien, Musée de Bagdad. Découverte dans le temple d’Ishtar (déesse de l’amour et de la guerre) à Ninive. XXIVe siècle av. J.-C.
+ Portrait de roi akkadien
+L'œuvre, découverte à Ninive, représente le roi assyrien Sargon d'Akkad ou son petit-fils Narâm-Sin.Portrait de roi akkadien, 2300 av. J.-C. Bronze, hauteur : 30 cm. Musée de Bagdad (Irak).
+
+Statue d'un souverain d'Eshnunna rapporté à Suse vers 1160 av JC
+    08-02-12/24 ANTIQUITIES ORIENTAL: SUMER STATUE 2ND-1ST MILL.BCE
+    Diorite statue of one of the princes of Eshnunna (on the present site of Tell-Ahmar, east of Bagdad). The prince is dressed in a long robe trimmed with braid and tassels; he wears necklaces and bracelets. Diorite, H:89 cm Sb 61
+    Louvre, Departement des Antiquites Orientales, Paris, France
+Statue assise d'un prince mésopotamien
+Fin du IIIe - début du IIe millénaire avant J.-C.
+Diorite
+89 H ; 52 LA ; 55.5 EP
+
+Cette statue a été apportée d'Eshnunna à Suse en butin de guerre au XIIe siècle avant J.-C. par le roi élamite Shutruk-Nahhunte. Le conquérant a fait effacer l'inscription originale en akkadien et l'a remplacée par une inscription en élamite dédiant la statue au dieu Inshushinak.
+
+« Je suis Shutruk-Nahhunte, fils de Halludush-Inshushinak, roi d'Anshan et de Suse, qui ai agrandi le royaume, maître de l'Elam, souverain de la terre d'Elam. Inshushinak, mon dieu, me l'ayant accordé, j'ai détruit Eshnunna ; j'ai emmené la statue et l'ai apportée au pays d'Elam. Je l'ai offerte à Inshushinak, mon dieu. »
+Fouilles J. de Morgan
+Département des Antiquités orientales    
+Sb 61
+
+
+Tablet of Shamash
+
+Babylonian, early 9th century BC
+From Sippar, southern Iraq
+
+The restoration of the Sun-god's image and temple
+
+This stone tablet shows Shamash, the sun-god, seated under an awning and holding the rod and ring, symbols of divine authority. The symbols of the Sun, Moon and Venus are above him with another large sun symbol supported by two divine attendants. On the left is the Babylonian king Nabu-apla-iddina between two interceding deities.
+
+The cuneiform text describes how the Temple of Shamash at Sippar had fallen into decay and the image of the god had been destroyed. During the reign of Nabu-apla-iddina, however, a terracotta model of the statue was found on the far side of the Euphrates and the king ordered a new image be constructed of gold and lapis lazuli. The text then confirms and extends the privileges of the temple.
+
+The tablet was discovered some 250 years later by King Nabopolassar (625-605 BC), who placed it for safe keeping, together with a record of his own name, in the pottery box. The clay impressions of the carved panel were placed as protection over the face of the stone. The original one placed by Nabu-apla-iddina was broken when the stone tablet was recovered by Nabopolassar. He replaced it with a new one while keeping the original safely in the box with the tablet.
+
+Length: 29.210 cm
+Width: 17.780 cm
+
+Excavated by Hormuzd Rassam
+
+ME 91000;ME 91001;ME 91002;ME 91003;ME 91004
+
+
+ Title (object)
+Burney relief
+Queen of the Night
+Materials
+fired clay (scope note | all objects)
+Techniques
+pigmented (all objects)
+modelled (scope note | all objects)
+Production place
+Made in Babylonia (all objects)
+(Asia,Iraq,South Iraq)
+Place (findspot)
+Excavated/Findspot Iraq, south (all objects)
+(Asia,Iraq,South Iraq)
+Date
+19thC BC-18thC BC
+Period/Culture
+Old Babylonian (scope note | all objects)
+
+Description
+Rectangular, fired clay relief panel; modelled in relief on the front depicting a nude female figure with tapering feathered wings and talons, standing with her legs together; shown full frontal, wearing a headdress consisting of four pairs of horns topped by a disc; wearing an elaborate necklace and bracelets on each wrist; holding her hands to the level of her shoulders with a rod and ring in each; figure supported by a pair of addorsed lions above a scale-pattern representing mountains or hilly ground, and flanked by a pair of standing owls; fired clay, heavily tempered with chaff or other organic matter; highlighted with red and black pigment and possibly white gypsum; flat back; repaired.
+
+Dimensions
+Height: 49.5 centimetres
+Width: 37 centimetres
+Thickness: 4.8 centimetres
+
+Department: Middle East
+
+Registration number: 2003,0718.1
+
+
+Relief de bronze commémorant la restauration de Babylone par Asarhaddon, roi d'Assyrie
+681 - 669 avant J.-C.
+Babylone (?)
+Bronze, anciennement plaqué d'or
+H. : 33 cm. ; L. : 31 cm. ; Pr. : 6,50 cm.
+
+Représentation du roi accompagné de sa mère. Le texte commémore le retour de la statue du dieu Ea dans le temple de son fils Marduk, grand dieu de Babylone, qui a été reconstruite par Asarhaddon. La ville avait été détruite par le père de ce dernier, Sennacherib.
+Acquisition 1954
+Département des Antiquités orientales    
+AO 20185
+
+
+Kudurru de Meli-Shipak commémorant un don de terres à sa fille Hunnubat-Nannaya
+Époque kassite, règne de Meli-Shipak (1186-1172 av. J.-C.)
+Découvert à Suse où il avait été emporté en butin de guerre au XIIe siècle avant J.-C.
+Calcaire
+
+Le roi, la main devant la bouche en signe de prière respectueuse, introduit sa fille devant la déesse Nannaya. Les symboles des trois grandes divinités astrales : l'étoile d'Ishtar, le soleil de Shamash et le croissant de lune du dieu Sin figurent dans le ciel. À l'exception du relief, cette face de la stèle est entièrement martelée, probablement par un roi élamite qui avait l'intention d'y faire graver sa propre inscription.
+Fouilles J. de Morgan
+Département des Antiquités orientales    
+Sb 23
+
+
+Le roi Niouserrê, protégé par la déesse Ouadjet, reçoit d'Anubis le signe de vie 
+Niouserrê recevant la vie du dieu Anubis - Relevé du temple funéraire du roi à Abousir
+ Matériau : Calcaire.
+Datation : Ancien Empire, Ve dynastie.
+Provenance : Abousir, Temple de Niouserrê.
+Conservation : Berlin, Neues Museum. ÄM 16100
+Photographie : Corinne Smeesters, juin 2010.
+
+
+La déesse Hathor accueille Séthi Ier
+provient de la tombe du roi (Vallée des Rois)
+calcaire peint
+H. : 2,26 m. ; L. : 1,05 m.
+
+Département des Antiquités égyptiennes    
+B 7
+
+
+Summary
+Artist     Anonymous (Egypt)
+Title     Horus the Child on Crocodiles
+Description     
+English: Horus the Child stands on crocodiles and controls snakes, scorpions, an oryx, and a lion. Called a "cippus," this is a magical device believed to ward off poisonous and dangerous animals and to heal those who had been bitten or stung. Liquid would be poured over the "cippus" to absorb the strength of the images and spells and then be drunk by, or poured on, the afflicted.
+Date     between 380 and 350 BC (Late Period)
+Medium     black steatite
+Dimensions     23.5 × 14.1 × 5.7 cm (9.3 × 5.6 × 2.2 in)
+Current location     
+Walters Art MuseumLink back to Institution infobox template wikidata:Q210081
+Accession number     22.140
+Exhibition history     Ägypten Griechenland Rom: Abwehr und Berührung. Staedtische Galerie Liebieghaus, Frankfurt am Main. 2005-2006.
+Credit line     Acquired by Henry Walters
+Ownership history     
+
+    Henry Walters, Baltimore [date and mode of acquisition unknown]
+    1931: bequeathed to Walters Art Museum by Henry Walters
+
+Place of origin     Egypt
+Source/Photographer     Walters Art Museum: Nuvola filesystems folder home.svg Home page Information icon.svg Info about artwork
+
+
+Sphinx : le roi Siamon
+978 - 959 avant J.-C. (21e dynastie)
+bronze noir incrusté d'or
+H. : 4,70 cm. ; l. : 10,30 cm.
+
+Il présente un plateau chargé de pains et de volailles.
+Département des Antiquités égyptiennes    
+E 3914
+
+
+Tablette de comptabilité d'Uruk, (c. 3200-3000) : enregistrement d'une livraison de produits céréaliers pour une fête de la déesse Inanna (Ishtar en akkadien). Musée de Pergame
+
+
+Statue du roi-prêtre (-3300 ans, Albâtre, 18 cm, Uruk, Irak, Musée de Bagdad)     
+- Le buste du roi-prêtre d’Uruk a été découvert en 1958 à Uruk, l’actuelle Warka, dans le Sud de la Mésopotamie, à plusieurs kilomètres du cours de l’Euphrate (voir carte). Il présente une hauteur de 18cm, et est conservé au musée de Bagdad en Irak. On la date généralement de la fin du IVe millénaire av. J.-C,  entre 3300 et 3000 av. J.-C, ce qui correspond à l’époque de l’Uruk moyen, ou récent selon les chronologies. Ce buste est en albâtre et possède des yeux incrustés de coquille. L’état de conservation est assez bon, si l’on excepte le fait qu’il semble cassé au niveau du bas-ventre. 
+• museum number: IM61984
+• excavation number: W19030a
+• provenience: Uruk
+• dimension(s) (in cm):
+height: 21
+• material: alabaster (gray)
+• date: Uruk (ca. 3000 BC)
+• description:
+statue fragment, torso; male, bearded, wearing headband, arms clutched to body, hands formed to fists
+• status: unknown
+
+
+
+• museum number: IM23477
+• excavation number: W13913
+• provenience: Uruk
+• dimension(s) (in cm):
+height: ca. 100
+• material: stone (basalt)
+• date: (ca. 3000 BC)
+• description:
+stela fragment; relief carving shows two men wearing skirt and head band and four animals (lions); both men are killing lions, one using a spear, the other bow and arrow
+• status: seen in the Iraq Museum by McGuire Gibson (May 16, 2003) 
+
+
+Cylinder seal found at Uruk, biblical Erech. Large figure in the boat can be identified as a king from his garb. His hair and beard indicates he is Semitic-Akkadian, not Sumerian. What would an Akkadian king be doing riding in a boat loaded with crates and animals?
+
+
+Sceau-cylindre
+Le "roi-prêtre" et son acolyte nourrissant le troupeau sacré
+Époque d'Uruk, vers 3200 avant J.-C.
+Calcaire blanc
+
+Acquisition 1914
+Département des Antiquités orientales    
+AO 6620
+
+
+Object types
+cylinder seal (all objects)
+
+Materials
+calcite (scope note | all objects)
+Techniques
+pierced (?) (all objects)
+Place (findspot)
+Excavated/Findspot Warka (all objects)
+(Asia,Iraq,South Iraq,Warka)
+Date
+3300BC-3000BC
+Period/Culture
+Uruk (scope note | all objects)
+
+Description
+Calcite cylinder seal; squatting animal (minus head) shaped knob; a priest-king wearing a head-band and net robe is feeding flowers to a pair of ewes; reed bundles are symbols of the goddess Inanna and divide the scene; pierced transversely; unpierced at top.
+
+Dimensions
+Height: 7.2 centimetres
+Diameter: 4.2 centimetres
+BM/Big number: 116722
+
+
+Feeding the sacred herd, cylinder seal impression from the Protoliterate period (before c. 2900 bce) of the Sumerian city of Uruk (present-day Tall al-Warkāʾ, Iraq); in the State Museum of Berlin.
+
+
+Standard of Ur (front & back)
+2600 BCE
+unknown artist
+Mesopotamian
+Sumerian
+wood, inland shell
+limestone, lapis lazuli
+
+War side of the Standard of Ur, from Tomb 779, Royal Cemetery, Ur (modern Tell Muqayyar), Iraq, ca. 2600 BCE. Wood inlaid with shell, lapis lazuli, and red limestone, approx. 8” x 1’ 7”. British Museum, London. 
+ Title (object)
+The Standard of Ur
+Materials
+shell (scope note | all objects)
+limestone (red) (scope note | all objects)
+lapis lazuli (all objects)
+bitumen (all objects)
+Techniques
+inlaid (all objects)
+Production place
+Made in Ur (presumably) (all objects)
+(Asia,Iraq,South Iraq,Ur (city - archaic))
+Place (findspot)
+Excavated/Findspot Royal Cemetery (all objects)
+(Asia,Iraq,South Iraq,Royal Cemetery (Ur))
+Date
+2600BC
+Period/Culture
+Early Dynastic III (scope note | all objects)
+
+Description
+"The Standard of Ur"; originally a hollow box, decorated on all four sides with inlaid mosaic scenes made from shell, red limestone and lapis lazuli, set in bitumen. One side shows a war scene; a Sumerian army with wheeled waggons and infantry charges the enemy; prisoners are brought before the king, who is accompanied by guards and has his own chariot waiting behind him. The reverse shows scenes of peace; men are bringing animals, fish etc, possibly as booty or tribute; at the top the king banquets with friends; they are entertained at the right by a singer and a man playing a lyre. The triangular end panels show fanciful scenes, found damaged and since restored.
+
+Dimensions
+Width: 21.59 centimetres
+Length: 49.53 centimetres
+Width: 4.5 centimetres (end; base)
+Width: 2.5 inches (end; top)
+
+BM/Big number: 121201
+
+
+• museum number: IM19606
+• excavation number: W14873
+• provenience: Uruk
+• dimension(s) (in cm):
+height: ca. 105; upper diam.: 36
+• material: stone (alabaster)
+• date: (ca. 3000 BC)
+• description:
+vase, relief decoration in four registers, showing (bottom to top) rows of plants, sheep (make and female), nude males carrying baskets or jars, and a cultic scene, in which the ruler of city of Uruk delivers provisions to the temple of the goddess Inanna, represented here by two reed bundle standarts--symbols of the goddess--and a woman, probably her priestess ); rim broken; repair piece inserted in antiquity (holes drilled for repair)
+• status: stolen in April 2003, returned to museum in June 2003.
+
+
+Weld-Blundell Prism: The Sumerian King-List
+(Ashmolean Museum, Oxford; number: AN1923.444)
+Description
+King List prism; Sumerian, written in cuneiform script, runs in two columns on each of the four sides of the prism list of the Sumerian and Akkadian rulers from 'before the Flood' and then from about 3200-1800 BC to King Sin-magir of Isin (1827-1817 BC); the text gives the most extensive list of rulers from sourther Iraq of the period and evokes the Biblical Flood story as well as the geneaologies in Genesis 5 and 11
+ 
+Artist
+Iraq
+ 
+Date
+1827BC
+ 
+Accession Number
+AN1923.444
+ 
+Material
+clay 
+
+
+Ekur is a Sumerian term meaning "mountain house". It is the assembly of the gods in the Garden of the gods, parallel in Greek mythology to Mount Olympus and was the most revered and sacred building of ancient Sumer.
