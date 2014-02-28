@@ -36,5 +36,14 @@
       "path": "../../neferlatex",
       "name": "Styles LaTeX"
     }
+  ],
+  "build_systems":
+  [
+    {
+      "name": "SeshLatex",
+      "cmd": "seshlatex -b $file",
+      "shell": true
+
+    }
   ]
 }
