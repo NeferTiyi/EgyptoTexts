@@ -24,11 +24,11 @@
         "*.*~",
         ".git*"
       ],
-      "path": "../Naufrage",
+      "path": "../Barbotin",
       "name": "Sources"
     },
     {
-      "path": "../../images/Naufrage",
+      "path": "../../images/Barbotin",
       "name": "Images"
     },
     {
@@ -42,15 +42,6 @@
     {
       "path": "../../compil",
       "name": "Compil"
-    }
-  ],
-  "build_systems":
-  [
-    {
-      "name": "SeshLatex",
-      "cmd": "seshlatex -b $file",
-      "shell": true
-
     }
   ]
 }

@@ -189,7 +189,8 @@ génération, symbolique).
 \begin{figure}[htb]
   \CaptionPetit
   \includegraphics[width=0.9\paperwidth]{Saqqara}
-  \caption{Complexe funéraire de Djoser à Saqqara\newline\smaller
+  \caption[Complexe funéraire de Djoser à Saqqara]%
+          {Complexe funéraire de Djoser à Saqqara\newline\smaller
            (1)~\uline{Tombe sud} : puits de \SI{28}{\m} de 
                profondeur ; décoré de représentations en relief du 
                roi ; il semble qu'il renfermait les vases canopes de 
@@ -462,7 +463,7 @@ accompagne le déplacement de la résidence royale.
 Transition \bsc{iii}\ieme-\dyn{iv}s :
 \begin{itemize}
   \item Djoser, Sékhemkhet, Khâba : assises à lits déversés
-  \item Meidoum : noyau de pyramide à degrés par Houni (simple 
+  \item Meïdoum : noyau de pyramide à degrés par Houni (simple 
         supposition), puis conversion en pyramide lisse par Snéfrou, 
         d'où un manque de cohérence structurale
   \item Snéfrou a ensuite fait construire deux pyramides lisses, la 
@@ -498,14 +499,14 @@ courtisans) : on reproduit l'organisation de la société.
 La ville de pyramide est utilisée, le temps de leur service, par les 
 prêtres qui rendent le culte. Elle comporte des bâtiments de service.
 
-Meidoum
+Meïdoum
 
 La structure interne est en lits déversés, sans chaînage entre les 
 différentes couches.
 Le temple funéraire est un enclos en pierre avec une antichambre, 
 collé à la pyramide et contenant deux grandes stèles et une table 
 d'offrande. L'entrée est en chicane.
-Les stèles de Meidoum sont anépigraphes alors qu'habituellement elles 
+Les stèles de Meïdoum sont anépigraphes alors qu'habituellement elles 
 portent le nom du roi dans un \emph{sékher} : a t-il été effacé par 
 l'érosion éolienne ?
 
@@ -554,13 +555,13 @@ l'érosion éolienne ?
 
 \faitle{5 juin 2012}
 
-à côté  de la pyramide, au nord, une nécropole de mastabas constitués 
+À côté  de la pyramide, au nord, une nécropole de mastabas constitués 
 d'une enveloppe en brique, avec décor en façade de palais, autour d'un 
 massif de gravats. Les infrastructures sont taillées dans la roche. 
 Les briques sont enduites pour donner l'impression de la pierre.
 
 C'est de là que viennent la célèbre statue de Râhotep et Nofret 
-(\musee{???} \inv{???}, \fref{???}) et les oies de Meidoum 
+(\musee{???} \inv{???}, \fref{???}) et les oies de Meïdoum 
 (\musee{???} \inv{???}, \fref{???}).
 
 Dans la blocaille, des puits et chapelles funéraires : structures 

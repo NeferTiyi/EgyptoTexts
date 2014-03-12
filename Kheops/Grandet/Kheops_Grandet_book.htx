@@ -4,13 +4,14 @@
   % Kheops_Grandet_Chap0_Intro_book,
   % Kheops_Grandet_Chap1_PD_book,
   % Kheops_Grandet_Chap2_PT_book,
-  Kheops_Grandet_Chap3_AE_book,
+  % Kheops_Grandet_Chap3_AE_book,
   % Kheops_Grandet_Chap4_PPI_book,
   % Kheops_Grandet_Chap5_ME_book,
   % Kheops_Grandet_Chap6_DPI_book,
-  % Kheops_Grandet_Chap7_NE_book,
+  Kheops_Grandet_Chap7_NE_book,
+  % Kheops_Grandet_Chap8_PO_book,
   % Kheops_Grandet_map,
-  % Kheops_Grandet_ChronoDF
+  % Kheops_Grandet_ChronoDF,
 }
 
 \usepackage{pgf,tikz}
@@ -26,13 +27,19 @@
 \usepackage{ragged2e}
 % \usepackage{minitoc}
 \usepackage{mhchem}
+\usepackage[firstpage=true,angle=0,opacity=0.25]{background}
 \usepackage{nefertiyi}
 \usepackage{arabtex}
 \usepackage{neferhiero}
 
+\makeindex
+\makeglossary
+
 % Numérotation des division et prise en compte dans la TOC
 \maxsecnumdepth{subsection}
 \maxtocdepth{subsection}
+\setcounter{lofdepth}{2}
+\setcounter{lotdepth}{2}
 
 \counterwithin{part}{book}
 \counterwithin{chapter}{book}
@@ -57,6 +64,14 @@
 \renewcommand{\cftsectiondotsep}{9}
 \renewcommand{\cftsubsectiondotsep}{1}
 
+\newcommand\doglobookmark[1]{%
+  \def\@tempa{Symbols}\def\@tempb{#1}%
+  \ifx\@tempa\@tempb %
+    \phantomsection\pdfbookmark[0]{Analphabetics}{Analphabetics-glo}%
+  \else%
+    \phantomsection\pdfbookmark[0]{#1}{#1-glo}%
+  \fi%
+}
 
 
 % Entry         Level        Standard        memoir class
@@ -114,9 +129,12 @@
 % \renewcommand{\partrefname}{Part~}
 % ---------------------------------------------------------------------
 % \newcommand*{\nNamexi}{\iflowertonumname e\else E\fi leven}
-\renewcommand{\chapterrefname}{Chapitre~}
-\renewcommand{\bookrefname}{Livre~}
-\renewcommand{\partrefname}{Partie~}
+% \renewcommand{\chapterrefname}{Chapitre~}
+% \renewcommand{\bookrefname}{Livre~}
+% \renewcommand{\partrefname}{Partie~}
+% \renewcommand{\listfigurename}{Liste des figures~}
+
+% \renewcommand{\bookname}{Livre}
 
 
 \setpnumwidth{2.55em}
@@ -132,11 +150,13 @@
 \setheaderspaces{*}{2\onelineskip}{*}
 \checkandfixthelayout
 
+\newcommand{\DirUtils}{../../../utils}
+\newcommand{\DirImage}{../../../images}
 
 \graphicspath{%
-  {../../../utils/}%
-  {../../../images/Kheops/Grandet/}%
-  {../../../images/Barbotin/}%
+  % {\DirUtils/}%
+  {\DirImage/Kheops/Grandet/}%
+  {\DirImage/Barbotin/}%
 }
 
 
@@ -168,7 +188,6 @@
 %\setlength\tabcolsep{0mm}
 %\setlength\parskip{1.0\baselineskip}
 
-\newcommand{\faitle}[1]{\hfill\emph{\smaller#1}}
 
 \makeatletter
   \renewcommand\@memfront@floats{%
@@ -191,35 +210,43 @@
 %======================================================================
 \title{Histoire de l'\kmt}
 \short{Histoire de l'\kmt}
-\subtitle{De la préhistoire au \NK}
+\subtitle{de la Préhistoire au \NK}
 \lecturer{\PG}
-\orga{l'\IK}
+\orga{Cours de \textsf{l'\IK} par}
 \author{Sonia \bsc{Labetoulle}}
 \date{Mars 2012 - juin 2014}
 
 \hypersetup{%
-  pdftitle  = {L'\kmt de la préhistoire au \NK, cours de \PG à l'\IK}, 
+  pdftitle  = {L'\kmt de la Préhistoire au \NK, cours de \PG à l'\IK}, 
   pdfauthor = {Sonia Labetoulle}
 }
 % pdfsubject % pdfcreator % pdfproducer % pdfkeywords
 
 %======================================================================
 
-\input{../../../utils/ChapterStyles}
-\input{../../../utils/TitlepageKheops}
-\input{../../../utils/HeadingsKheops}
+\input{\DirUtils/ChapterStyles}
+\input{\DirUtils/TitlepageKheops}
+\input{\DirUtils/HeadingsKheops}
+
+\input{Kheops_Grandet_Glossaire}
 
 \chapterstyle{monchap}
 \pagestyle{ruled}
 
 \input{Kheops_Grandet_tikz}
 
-\addbibresource{../../../utils/Egypto.bib}
+\addbibresource{\DirUtils/Egypto.bib}
+
+\backgroundsetup{%
+  % position  = current page.center,
+  contents  = \includegraphics{DeB_Hathor},
+  scale     = 0.5
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\input{../../../utils/NeferBabel}
+\input{\DirUtils/NeferBabel}
 
 \thispagestyle{empty}
 \maketitle
@@ -227,7 +254,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \frontmatter
-\tableofcontents
+\tableofcontents*
 
 \mainmatter
 \CaptionNormal
@@ -239,6 +266,7 @@
 \include{Kheops_Grandet_Chap5_ME_book}
 \include{Kheops_Grandet_Chap6_DPI_book}
 \include{Kheops_Grandet_Chap7_NE_book}
+\include{Kheops_Grandet_Chap8_PO_book}
 
 \appendix
 \book{Annexes}
@@ -251,6 +279,8 @@
 \listoftables
 \nocite{*}
 \printbibliography
+\printglossary
+\printindex
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
@@ -261,7 +291,9 @@ BIFAO 101 : Hor
 http://www.egiptologia.com/historia-de-la-egiptologia/331-vida-y-obra-de-jacques-de-morgan-el-descubridor-de-la-prehistoria-de-egipto.html?start=4
 http://www.ancient-egypt.co.uk/people/the-temple.htm
 http://tinebagh.wordpress.com/
-
+http://ancienegypte.fr/guizeh/page19.html
+http://djeserdjeserou.blogs-de-voyage.fr/2010/11/03/le-mur-du-sphinx/
+http://www.touregypt.net/featurestories/sphinx1.htm
 
 
 =======================================================================

@@ -1,0 +1,326 @@
+\documentclass[arabic,english,french,twoside,10pt]{book}
+\usepackage{pgf,tikz}
+\usetikzlibrary{calc,patterns,arrows,positioning}
+%\usepackage{picins}
+\usepackage{caption}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+
+\addtolength{\columnsep}{15pt}
+
+\addtolength{\hoffset}{1cm}
+\addtolength{\textwidth}{-2cm}
+\addtolength{\voffset}{1cm}
+\addtolength{\textheight}{-2cm}
+
+\newcommand{\DirImg}{../../img/Grandet/}
+
+\captionsetup{format=hang,margin=2cm,labelsep=period,font=sf}
+\DeclareCaptionStyle{petit}{justification=RaggedRight,format=hang,
+                            labelsep=period,font=sf}
+
+\setlength\fboxsep{0.5mm}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+\title{Histoire de l'\kmt}
+\short{Histoire de l'\kmt}
+\author{Pierre \bsc{Grandet}}
+\date{Mars 2012 - juin 2013}
+%\date{6 mars - 19 juin 2012}
+
+\pagestyle{myheadings}
+
+\makeatletter
+  \markboth{\@author}{\@short}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%\input{tikz_Grandet}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\R}{0.25}
+
+\begin{figure}[h!]
+  \centering
+  \begin{tikzpicture}[scale=1.00]
+    % Styles
+    \tikzset{massif/.style = {fill=gray!5, opacity=0.5}}
+    \tikzset{cuve/.style   = {dotted, fill=yellow!10, opacity=0.75}}
+    \tikzset{bloc/.style   = {fill=red!75!black, opacity=0.75}}
+    \tikzset{trou/.style   = {fill=yellow!10, opacity=0.75}}
+
+    % Coordonnées
+    % .. Massif ..
+    %                    x     z     y
+    \coordinate (Ma) at ( 0.00, 0.00, 0.00) ;
+    \coordinate (Mb) at ( 5.00, 0.00, 0.00) ;
+    \coordinate (Mc) at ( 5.00, 0.00, 5.00) ;
+    \coordinate (Md) at ( 0.00, 0.00, 5.00) ;
+    \coordinate (Me) at ( 0.00, 4.00, 0.00) ;
+    \coordinate (Mf) at ( 5.00, 4.00, 0.00) ;
+    \coordinate (Mg) at ( 5.00, 4.00, 5.00) ;
+    \coordinate (Mh) at ( 0.00, 4.00, 5.00) ;
+    % .. Cuve ..
+    %                    x     z     y
+    \coordinate (Ca) at ( 1.00, 0.75, 1.00) ;
+    \coordinate (Cb) at ( 4.00, 0.75, 1.00) ;
+    \coordinate (Cc) at ( 4.00, 0.75, 4.00) ;
+    \coordinate (Cd) at ( 1.00, 0.75, 4.00) ;
+    \coordinate (Ce) at ( 1.00, 4.00, 1.00) ;
+    \coordinate (Cf) at ( 4.00, 4.00, 1.00) ;
+    \coordinate (Cg) at ( 4.00, 4.00, 4.00) ;
+    \coordinate (Ch) at ( 1.00, 4.00, 4.00) ;
+    % .. Bloc ..
+    %                    x     z     y
+    \coordinate (Ba) at ( 1.25, 4.00, 1.25) ;
+    \coordinate (Bb) at ( 3.75, 4.00, 1.25) ;
+    \coordinate (Bc) at ( 3.75, 4.00, 3.75) ;
+    \coordinate (Bd) at ( 1.25, 4.00, 3.75) ;
+    \coordinate (Be) at ( 1.25, 5.50, 1.25) ;
+    \coordinate (Bf) at ( 3.75, 5.50, 1.25) ;
+    \coordinate (Bg) at ( 3.75, 5.50, 3.75) ;
+    \coordinate (Bh) at ( 1.25, 5.50, 3.75) ;
+    \coordinate (Bi) at ( 1.25, 3.65, 1.25) ;
+    \coordinate (Bj) at ( 3.75, 3.65, 1.25) ;
+    \coordinate (Bk) at ( 3.75, 3.65, 3.75) ;
+    \coordinate (Bl) at ( 1.25, 3.65, 3.75) ;
+    % .. Trou ..
+    %                     x     z     y
+    \coordinate (Y)  at ( 1.75, 1.00, 5.00) ;
+    \coordinate (Yt) at ( {1.75-sin(45)*\R}, {1.00+sin(45)*\R}, 5.00) ;
+    \coordinate (Yb) at ( {1.75+sin(45)*\R}, {1.00-sin(45)*\R}, 5.00) ;
+    \coordinate (Z)  at ( 1.75, 1.00, 4.00) ;
+    \coordinate (Zt) at ( {1.75-sin(45)*\R}, {1.00+sin(45)*\R}, 4.00) ;
+    \coordinate (Zb) at ( {1.75+sin(45)*\R}, {1.00-sin(45)*\R}, 4.00) ;
+
+    % Dessin
+    % .. Arrière du massif ..
+    \draw     [massif, dashed] (Ma) edge (Mb) edge (Md) edge (Me) ;
+    % .. Bloc dans le sable ..
+    \filldraw [dashed, bloc] (Bi) -- (Bj) -- (Bk) -- (Bl) -- cycle ;
+    \filldraw [dashed, bloc] (Bc) -- (Bd) -- (Bl) -- (Bk) -- cycle ;
+    \filldraw [dashed, bloc] (Bb) -- (Bc) -- (Bk) -- (Bj) -- cycle ;
+    % .. Cuve ..
+    \filldraw [cuve] (Ce) -- (Cf) -- (Cg) -- (Ch) -- cycle ;
+    \filldraw [cuve] (Cc) -- (Cd) -- (Ch) -- (Cg) -- cycle ;
+    \filldraw [cuve] (Cb) -- (Cc) -- (Cg) -- (Cf) -- cycle ;
+    \draw     [cuve] (Ca) edge (Cb) edge (Cd) edge (Ce) ;
+    % .. Avant du massif ..
+    \filldraw [massif] (Me) -- (Mf) -- (Mg) -- (Mh) -- cycle ;
+    \filldraw [massif] (Mc) -- (Md) -- (Mh) -- (Mg) -- cycle ;
+    \filldraw [massif] (Mb) -- (Mc) -- (Mg) -- (Mf) -- cycle ;
+    % .. Bloc ..
+    \filldraw [bloc] (Be) -- (Bf) -- (Bg) -- (Bh) -- cycle ;
+    \filldraw [bloc] (Bc) -- (Bd) -- (Bh) -- (Bg) -- cycle ;
+    \filldraw [bloc] (Bb) -- (Bc) -- (Bg) -- (Bf) -- cycle ;
+    \draw     [bloc, dashed]  (Ba) edge (Bb) edge (Bd) edge (Be) ;
+    % .. Trou ..
+    \draw [trou, dotted]        (Z)  circle (\R) ;
+    \draw [trou, dotted, thick] (Zt) --  ++ ( 0.00, 0.00, 1.00) ;
+    \draw [trou, dotted, thick] (Zb) --  ++ ( 0.00, 0.00, 1.00) ;
+    \fill [trou, dotted]        (Zt) -- (Yt) -- (Yb) -- (Zb) -- cycle ;
+    \draw [trou]                (Y)  circle (\R) ;
+
+    % Légendes
+    \node at ( 0.00, 0.00) {Bloc posé sur le sable} ;
+    \node at ( 0.00, 0.00) {Massif plein} ;
+    \node at ( 0.00, 0.00) {Cuve remplie de sable} ;
+
+
+  \end{tikzpicture}
+  \caption{Vérin à sable}
+  \label{fig:verin}
+\end{figure}
+
+
+\newcommand{\quartier}[1][( 0.00, 0.00)]{%
+  \foreach \f in {1, -1}{%
+    \filldraw [shift={#1}, fill=gray!18] 
+              ( 1.00*\f, 0.00) rectangle ++ ( 5.00*\f, 5.00) ;
+    \draw [shift={#1}] ( 3.00*\f, 0.00) -- ++ ( 0.00,    5.00) ;
+    \foreach \x in {1, 2, 3, 4} {%
+      \draw [shift={#1}] ( 3.00*\f, \x) -- ++ ( 3.00*\f, 0.00) ;
+    }
+  }
+}
+
+\begin{figure}[h!]
+  \centering
+  \begin{tikzpicture}[scale=0.45]
+    % Houses
+    \begin{scope}
+      \foreach \s in { 0, 5, ..., 20}{%
+        \quartier[( 0.00, \s)]
+      }
+    \end{scope}
+    \begin{scope}
+      \foreach \s in { 0, 5, ..., 20}{%
+        \quartier[(-12.00, \s)]
+      }
+    \end{scope}
+    \begin{scope}
+      \foreach \s in { 0, 5, ..., 20}{%
+        \quartier[(12.00, \s)]
+      }
+    \end{scope}
+    % Outer wall
+    \draw [shift={(-19.00, -1.00)}, line width=5] 
+          ( 0.00, 0.00) rectangle ++ (38.00, 27.00) ; 
+  \end{tikzpicture}
+  \caption{Qasr el-Sagha}
+  \label{fig:sagha}
+\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.67]
+%    \vagues
+%  \end{tikzpicture}
+%  \caption{Construction en vagues}
+%  \label{fig:vagues}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=.5]
+%    \lavage
+%  \end{tikzpicture}
+%  \caption{Plan incliné pour le lavage de la poussière}
+%  \label{fig:lavage}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.5]
+%    \personne
+%  \end{tikzpicture}
+%  \caption{Les éléments constitutifs de la personne humaine}
+%  \label{fig:personne}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.9]
+%    \basoleil
+%  \end{tikzpicture}
+%  \caption{La course du \emph{ba} du soleil}
+%  \label{fig:basoleil}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}
+%     \genealogie
+%  \end{tikzpicture}
+%  \caption{Généalogie de la \dyn{iv}}
+%  \label{fig:genealogie}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=.5]
+%    \voute
+%  \end{tikzpicture}
+%  \caption{Pseudo-voute}
+%  \label{fig:voute}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.75]
+%    \redjedef
+%  \end{tikzpicture}
+%  \caption{Ensemble pyramide / temple / chaussée de Rêdjedef}
+%  \label{fig:redjedef}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.66]
+%    \djoser
+%  \end{tikzpicture}
+%  \caption{Complexe funéraire de Djoser : plans successifs}
+% \label{fig:djoser}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[remember picture, scale=1.0]
+%    \sanctuaire
+%  \end{tikzpicture}
+%  \begin{tikzpicture}[remember picture, overlay, shift={(0.0,4.5)}]
+%    \node [above right] (legende) at ( 0.00, 0.00) 
+%          {gorge égyptienne} ;
+%    \node [below right, text width=3.5cm, align=justify] 
+%          (texte) at ( 0.00, 0.00) 
+%          {\flech pétrification des feuilles de palmiers utilisées 
+%                  pour rigidifier le haut des murs} ;
+%    \draw [->,=>stealth] 
+%          (legende.west) to [in=0,out=180] (gorge.center) ;
+%  \end{tikzpicture}
+%  \caption{Sanctuaire a) \BE ; b) \HE}
+%  \label{fig:sanctuaire}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.75]
+%    \karnak
+%  \end{tikzpicture}
+%  \caption{Temple de Karnak}
+%  \label{fig:karnak}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[thick]
+%    \templehaut
+%  \end{tikzpicture}
+%  \caption{Temple haut type}
+%  \label{fig:templehaut}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.75]
+%    \chicane
+%  \end{tikzpicture}
+%  \caption{Temple funéraire avec chicane d'entrée}
+%  \label{fig:chicane}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.75, font=\scriptsize]
+%    \cplxpyram
+%  \end{tikzpicture}
+%  \caption{Plan schématique de complexe pyramidal}
+%  \label{fig:cplxpyra}
+%\end{figure}
+
+%\begin{figure}[h!]
+%  \centering
+%  \begin{tikzpicture}[scale=0.75]
+%    \faraoun
+%  \end{tikzpicture}
+%  \caption{Le \emph{Mastabat Faraoun}}
+%  \label{fig:faraoun}
+%\end{figure}
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

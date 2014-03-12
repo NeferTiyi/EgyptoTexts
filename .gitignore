@@ -52,10 +52,12 @@
 *.png
 *.gif
 *.tif
+*.tiff
 *.xcf
 *.svg
 *.ppm
 *.pbm
+*.emf
 
 *.pdf
 

@@ -1,0 +1,1282 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  calc,
+  patterns,
+  arrows,
+  positioning,
+  shadows,
+  decorations.text
+}
+\usepackage{multicol}
+\usepackage{ragged2e}
+% \usepackage{pict2e}
+% \usepackage{supertabular}
+\usepackage[firstpage=true,angle=0,opacity=0.25]{background}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+
+% Numérotation des division et prise en compte dans la TOC
+\maxsecnumdepth{subsection}
+\maxtocdepth{subsection}
+\setcounter{lofdepth}{2}
+\setcounter{lotdepth}{2}
+
+% \counterwithin{chapter}{part}
+% \counterwithin{subsection}{section}
+% % \counterwithout{figure}{part}
+% \counterwithout{figure}{chapter}
+
+
+% Apparence des numéros de divisions
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesubsection}{\alph{subsection})}
+
+% Indentation et largeur des numéros dans la TOC
+\cftsetindents{part}{\cftpartindent}{2.0em}
+\cftsetindents{chapter}{\cftchapterindent}{1.8em}
+\cftsetindents{section}{\cftsectionindent}{2.7em}
+\cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
+\cftsetindents{figure}{\cftfigureindent}{2.6em}
+% Pointillés dans la TOC
+\renewcommand{\cftsectiondotsep}{9}
+\renewcommand{\cftsubsectiondotsep}{1}
+
+
+
+% Entry         Level        Standard        memoir class
+%                         indent numwidth   indent numwidth 
+% ---------------------------------------------------------
+% book             -2       —      —          0.0    —
+% part             -1       0.0    —          0.0    1.5 
+% chapter           0       0.0    1.5        0.0    1.5
+% section           1       1.5    2.3        1.5    2.3
+% subsection        2       3.8    3.2        3.8    3.2
+% subsubsection     3       7.0    4.1        7.0    4.1
+% paragraph         4      10.0    5.0       10.0    5.0
+% subparagraph      5      12.0    6.0       12.0    6.0
+% figure/table     (1)      1.5    2.3        0.0    1.5
+% subfigure/table  (2)      —      —          1.5    2.3
+
+
+% Macro               Default           Usage
+% ---------------------------------------------------------------------
+% \abstractname       Abstract          title for abstract environment
+% \alsoname           see also          used by \seealso
+% \amname             am                used in printing time of day
+% \appendixname       Appendix          name for an appendix heading
+% \appendixpagename   Appendices        name for an \appendixpage
+% \appendixtocname    Appendices        ToC entry announcing appendices
+% \bibname            Bibliography      title for \thebibliography
+% \bookname           Book              name for \book heading
+% \bookrefname        Book              used by \Bref
+% \chaptername        Chapter           name for \chapter heading
+% \chapterrefname     Chapter           used by \Cref
+% \contentsname       Contents          title for \tableofcontents
+% \figurename         Figure            name for ﬁgure \caption
+% \figurerefname      Figure            used by \fref
+% \glossaryname       Glossary          title for \theglossary
+% \indexname          Index             title for \theindex
+% \lcminusname        minus             used in named number formatting
+% \listfigurename     List of Figures   title for \listoffigugres
+% \listtablename      List of Tables    title for \listoftables
+% \minusname          minus             used in named number formatting
+% \namenumberand      and               used in named number formatting
+% \namenumbercomma    ,                 used in named number formatting
+% \notesname          Notes             title of \notedivision
+% \pagename           page              for your use
+% \pagerefname        page              used by \pref
+% \partname           Part              name for \part heading
+% \partrefname        Part              used by \Pref
+% \pmnane             pm                used in printing time of day
+% \sectionrefname     §                 used by \Sref
+% \seename            see               used by \see
+% \tablename          Table             name for table \caption
+% \tablerefname       Table             used by \tref
+% \ucminusname        Minus             used in named number formatting
+% ---------------------------------------------------------------------
+% \renewcommand{\partname}{Part}
+% \renewcommand{\partrefname}{Part~}
+% ---------------------------------------------------------------------
+% \newcommand*{\nNamexi}{\iflowertonumname e\else E\fi leven}
+% \renewcommand{\chapterrefname}{Chapitre~}
+
+
+\setpnumwidth{2.55em}
+\setrmarg{3.55em}
+
+\addtolength{\columnsep}{15pt}
+
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+
+\newcommand{\separation}{%
+  {\noi\hspace*{\fill}\rule{.33\textwidth}{1pt}\hspace*{\fill}}%
+}
+
+\newcommand{\DirUtils}{../../utils}
+\newcommand{\DirImage}{../../images}
+
+\graphicspath{%
+  % {\DirUtils/}%
+  {\DirImage/Barbotin/}%
+}
+
+
+\setfloatadjustment{figure}{\centerfloat}
+\setfloatadjustment{table}{\centerfloat}
+
+\newsubfloat{figure}
+
+% \subcaptionstyle{}
+\subcaptionfont{\sffamily}
+\subcaptionlabelfont{\bfseries\sffamily}
+
+\captionnamefont{\bfseries\sffamily}
+\captiontitlefont{\sffamily}
+\captiondelim{~-- }
+
+\newcommand{\CaptionNormal}{%
+  \captionwidth{0.75\linewidth}
+  \changecaptionwidth
+  \hangcaption
+}
+\newcommand{\CaptionPetit}{%
+  \normalcaptionwidth
+  \normalcaption
+}
+
+
+\setlength\fboxsep{0.5mm}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+
+\makeatletter
+  \renewcommand\@memfront@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memmain@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memback@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+    \setcounter{figure}{0}
+    \setcounter{table}{0}
+  }
+\makeatother
+
+
+%======================================================================
+\title{La statuaire du\\\NK}
+\short{La statuaire du \NK au Louvre}
+\subtitle{d'après les collections du Louvre}
+\lecturer{Christophe~\bsc{Barbotin}}
+\orga{Organisé par \textsf{la \SFE} avec}
+\author{Sonia~\bsc{Labetoulle}}
+\date{vendredi 3 février 2012}
+
+\hypersetup{%
+  pdftitle  = {La statuaire du \NK d'après les collections du Louvre}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\input{\DirUtils/ChapterStyles}
+\input{\DirUtils/TitlepageKheops}
+\input{\DirUtils/HeadingsKheops}
+
+% \chapterstyle{monchap}
+\pagestyle{ruledarticle}
+% \pagestyle{myheadings}
+
+\addbibresource{\DirUtils/Hiero.bib}
+
+\backgroundsetup{%
+%   position  = current page.center,
+  contents  = \includegraphics{E25409_1},
+  scale     = 7.5
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\input{\DirUtils/NeferBabel}
+
+\thispagestyle{empty}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%##HieroDef.txt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\tableofcontents*
+
+\mainmatter
+
+\begin{encadre}
+  Visite exceptionnelle organisée par la \SFE et conduite par M.~\CB, 
+  conservateur en chef au département des antiquités égyptiennes du 
+  musée du Louvre.
+
+  \emph{\og Le thème proposé, celui de la statuaire du \NK d'après 
+  les collections du Louvre, sera peut-être l'occasion de réévaluer 
+  certains chefs-d'\oe uvre et, inversement, de mettre en lumière 
+  d'autres pièces moins connues. \fg}
+
+  Rendez-vous à 18h45 ce vendredi 3~février 2012, avec douze autres 
+  chanceux, à l'accueil des groupes sous la pyramide. Pour 1h30 d'une 
+  visite qui durera finalement près de 2h30\dots \textbf{*\_*}
+\end{encadre}
+
+
+\chapter{Le prince Iâhmes (\inv{E\,15682})}
+\label{sec:E15682}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E15682}, \pref{fig:E15682} et 
+\fref{fig:E15682_det}, \pref{fig:E15682_det}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[width=4cm]{E15682_1}
+  \caption{Le prince Iâhmes \rem{(\inv{E\,15682})}}
+  \label{fig:E15682}
+\end{figure}
+
+\begin{figure}
+  \noi\begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=4cm]{E15682_2}
+    \subcaption{Pieds\label{fig:E15682_pieds}}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=4cm]{E15682_3}
+    \subcaption{Mollet droit\label{fig:E15682_jambe}}%
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=4cm]{E15682_4}
+    \subcaption{Arrière de la tête\label{fig:E15682_tete}}%
+  \end{minipage}%
+  \caption{Le prince Iâhmes \rem{(\inv{E\,15682})} : détails}%
+  \label{fig:E15682_det}%
+\end{figure}
+
+
+\begin{itemize}
+  \item \datation{vers \ano{1550}} (fin \dyn{xvii})
+  \item calcaire autrefois peint, incrusté et doré
+  \item dimensions : \SI{1.03x0.36x0.58}{\m}
+  \item \emph{Don Gilly}
+\end{itemize}
+
+Il s'agit peut-être du futur roi Ahmosis.
+
+\separation
+
+\begin{itemize}
+  \item traces de dorures (élément de divinisation, comme les cheveux 
+        bleus) !
+  \item bras et jambes cassés mais nez intact \donc~cassures 
+        volontaires ?
+  \item inscriptions : noms, mais \emph{très} courants\dots
+  \item tous les textes sont écrits de droite à gauche, pas de symétrie
+  \item deux coudées de haut
+\end{itemize}
+
+\quad\donc~Comment interpréter cette statue~\nospace{???}
+
+Un beau jour \CB a remarqué un trou avec de la peinture rouge 
+derrière le mollet droit, puis d'autres à l'épaule,~\dots Ces trous 
+sont antérieurs aux cassures !?\\
+\quad\donc~magie ? fixation magique de la statue (cf. mutilation des 
+hiéros) ?
+
+inscriptions latérales = lettres au mort
+
+Il existe un relief montrant une reine adorant une statue de ce type, 
+avec un ornement (diadème) attaché à l'arrière de la tête.
+Notre statue comporte justement un trou à l'arrière de la tête !
+
+Ce serait la statue originale ayant donné naissance à ce culte. Un 
+prince mort très jeune ?
+
+
+\chapter{Homme tenant une fleur (\inv{N\,5404})}
+\label{sec:N5404}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:N5404}, \pref{fig:N5404}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[width=4cm]{N5404_1}
+  \quad
+  \includegraphics[width=4cm]{N5404_2}
+  \caption{Homme tenant une fleur \rem{(\inv{N\,5404})}}
+  \label{fig:N5404}
+\end{figure}
+
+\begin{itemize}
+  \item diorite
+  \item dimensions : \SI{56.00x31.50}{\cm}
+\end{itemize}
+
+\separation
+
+\begin{itemize}
+  \item diorite \donc~personnage de très haut rang
+  \item traces d'inscriptions effacées
+  \item le personnage tient une fleur : c'est nouveau !
+\end{itemize}
+\quad\donc~Sénenmout ? Car c'est un habitué des nouveautés (premières 
+statues naophore, sistrophore,~\dots)
+
+
+\chapter{Sénenmout, conseiller de la reine Hatchepsout et 
+         \og architecte \fg de son temple à \DeB (\inv{E\,11057})}
+\label{sec:E11057}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E11057}, \pref{fig:E11057}}
+\bigskip
+
+\begin{figure}
+  \noi\begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[height=6cm]{E11057_1}
+    \subcaption{Vue d'ensemble\label{fig:E11057_vue}}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[height=6cm]{E11057_2}
+    \subcaption{Partie supérieure\label{fig:E11057_haut}}%
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[height=6cm]{E11057_3}
+    \subcaption{Partie inférieure\label{fig:E11057_bas}}%
+  \end{minipage}%
+  \caption{Sénenmout \rem{(\inv{E\,11057})}}%
+  \label{fig:E11057}%
+\end{figure}
+
+\begin{itemize}
+  \item quartzite
+  \item dimensions : \SI{20.70x8.20x11.50}{\cm}
+\end{itemize}
+
+Il présente une corde d'arpenteur.
+
+\separation
+
+\begin{itemize}
+  \item nom presque effacé
+  \item rouleau de corde d'arpenteur sur les genoux
+  \item tête humaine sur le rouleau : pas top, remplace quelque chose, 
+        peut-être une tête de bélier d'Amon
+\end{itemize}
+
+
+\chapter{Manakhtef, chef des approvisionnements du roi 
+         (\inv{E\,12926})}
+\label{sec:E12926}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E12926}, \pref{fig:E12926}}
+\bigskip
+
+\begin{figure}[!h]
+  \noi\begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E12926_1}
+    \subcaption{Vue de face\label{fig:E12926_1}}
+  \end{minipage}%
+  \quad%
+  \begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E12926_2}
+    \subcaption{Vue de dessus\label{fig:E12926_2}}
+  \end{minipage}%
+  \quad%
+  \begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E12926_3}
+    \subcaption{Vue de dos\label{fig:E12926_3}}
+  \end{minipage}%
+
+  \noi\begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E12926_4}
+    \subcaption{Profil gauche\label{fig:E12926_4}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E12926_5}
+    \subcaption{Vue de trois-quarts\label{fig:E12926_5}}
+  \end{minipage}%
+  \caption{Manakhtef \rem{(\inv{E\,12926})}}
+  \label{fig:E12926}
+\end{figure}
+
+\begin{itemize}
+  \item règne d'Aménophis~II (\datation{\anorange{1427}{1401}})
+  \item trouvé à Médamoud
+  \item diorite
+  \item dimensions : \SI{50.00x23.00x29.50}{\cm}
+\end{itemize}
+
+% \emph{L'échanson royal Manakhtef dit : \og Ô temple de Montou, 
+% conserve cette statue de l'échanson royal Manakhtef à l'intérieur 
+% de la cour de fête, pour qu'il respire l'odeur de la myrrhe et de 
+% l'encens, qu'il recueille sur le sol de la cour l'eau versée sur 
+% l'autel ; qu'il se nourrisse des restes des offrandes divines 
+% présentées par les prêtres, qu'il contemple le disque solaire au 
+% matin, dans la maison où l'on passe l'éternité, et qu'il accompagne 
+% son dieu quand il fait le tour de son temple lors de sa fête de la 
+% montagne sacrée\dots \fg}
+
+\separation
+
+\begin{itemize}
+  \item intact, sauf le nez
+  \item texte, avec date ! \textbf{*\_*}
+  \item trouvé à Médamoud
+  \item texte en trois parties :
+  \begin{itemize}
+    \item En haut : colonnes avec début de formule d'offrande 
+          (\tl[black]{d n(y)-sw.t Htp})
+    \item Puis deux lignes : suite des formules d'offrande
+    \item Enfin, colonnes à nouveau, à l'aplomb des premières : 
+          les titres du défunt
+  \end{itemize}
+\end{itemize}
+
+\begin{description}
+  \item[Côté droit :] mode d'emploi de la statue dans le temple. 
+        Elle est le substitut du défunt dans le temple, son héritier, 
+        elle participe au culte et prend des offrandes
+  \item[Côté gauche :] chapitre~\num{60} ou~\num{61} du livre des 
+        morts \donc~rappel à la fonction originale de la state cube :
+        statue funéraire
+\end{description}
+
+\begin{remarque}
+  cf. catalogue de Mons, sur la hiérarchie des pierres.
+\end{remarque}
+
+\begin{encadre}[font=\em, frametitle={Traduction du côté droit 
+                \autocite[doc.~\num{86}]{ChB}}]
+  lgn{1} [L'échanson royal] Manakhtef déclare : 
+
+  \og (ô) la grande cour (de justice) de Montou \lgn{2} [qui est face] 
+  à son seigneur, daigne accorder que dure la statue que voici de 
+  l'échanson royal \lgn{3} Manakhtef au sein de la grande salle des 
+  cérémonies, qu'elle hume \lgn{4} la myrrhe et l'encens sur la 
+  flamme, qu'elle verse l'eau lors de l'aspersion de l'autel sur 
+  \lgn{5} le sol de la grande salle, qu'elle mange ce que l'on 
+  présente \nospace{(?)} sur les mains des prêtres-purs au moment de 
+  \lgn{6} la divine offrande, qu'elle contemple le soleil du matin 
+  dans la demeure de \emph{Celui qui traverse l'éternité}, \lgn{7} 
+  qu'elle accompagne son dieu lorsqu'il parcourt son domaine lors de 
+  sa fête de cette fameuse butte isolée\footnotemark{}, à l'instar de 
+  ce que j'accomplissais (moi-même) lorsque j'étais sur terre ! \fg
+\end{encadre}
+\footnotetext{lieu mythique de la création du monde}
+
+
+\chapter{Fragment de statue du scribe royal Méniou (\inv{E\,11519})}
+\label{sec:E11519}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E11519}, \pref{fig:E11519} et 
+\textcite[doc.~\num{89}]{ChB}}
+\bigskip
+
+\begin{figure}[!h]
+  \noi\begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E11519_1}
+    \subcaption{Vue de trois-quarts\label{fig:E11519_1}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E11519_2}
+    \subcaption{Vue de dos\label{fig:E11519_2}}
+  \end{minipage}%
+
+  \noi\begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E11519_3}
+    \subcaption{Profil droit\label{fig:E11519_3}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[width=4cm]{E11519_4}
+    \subcaption{Profil gauche\label{fig:E11519_4}}
+  \end{minipage}%
+  \caption{Le scribe royal Méniou \rem{(\inv{E\,11519})}}
+  \label{fig:E11519}
+\end{figure}
+
+\begin{itemize}
+  \item calcaire peint
+  \item dimensions : \SI{45}{\cm}
+  \item \emph{Don Peytel}
+\end{itemize}
+
+\separation
+
+Complète à son entrée au Louvre, en \ano[0]{1915} 
+(\ano[0]{1905} ?)~\dots mais aux trois quarts fausse ! 
+% (\ano[0]{1905} ?)~\dots mais aux $\slashfrac{3}{4}$~fausse ! 
+\donc~dérestauration
+
+\begin{itemize}
+  \item typique Amenophis~III : yeux en amande, perruque à frisons
+  \item deux colliers : collier \tl[black]{wsx}, + collier à deux 
+        rangs de perles jaunes au ras du cou
+  \item bras : plis d'une tunique, galons festonnés d'un manteau
+\end{itemize}
+
+\begin{itemize}
+  \item manteau \donc~personnage surement assis
+  \item le premier collier = or de la récompense \donc~personnage 
+        important
+\end{itemize}
+
+Méniou était à la tête du trésor et de l'armée
+
+Il est longtemps resté sans identité : \tl[black]{mnjw} = berger, 
+mais ça ne colle pas avec ses autres titres prestigieux\dots 
+En fait, c'est son nom !
+
+Pas d'autres documents à son nom, mais il est probablement le 
+\emph{Mané} cité dans la correspondance amarnienne en akkadien, 
+ambassadeur (au \Mtn ?), chargé de l'organisation des mariages 
+diplomatiques.
+
+
+\chapter{Fragment d'un groupe royal d'époque amarnienne (\inv{N\,831})}
+\label{sec:N831}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:N831}, \pref{fig:N831}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[width=4cm]{N831_1}%
+  \quad%
+  \includegraphics[width=4cm]{N831_2}%
+  \caption{Groupe royal d'époque amarnienne \rem{(\inv{N\,831})}}
+  \label{fig:N831}
+\end{figure}
+
+\begin{itemize}
+  \item pierre
+  \item dimensions : \SI{64.00x17.20x35.00}{\cm}
+\end{itemize}
+
+De la reine autrefois assise à côté du roi, il ne subsiste que le bras 
+dans son dos ; les pieds et le siège sont refaits.
+
+\separation
+
+Pas de provenance connue, mais menton, ventre, poitrine,~\dots{} 
+typiques de la période amarnienne.
+
+Contrairement à ce qu'on entend fréquemment, il n'y pas 
+d'adoucissement progressif du style au cours du règne d'Akhénaton. 
+L'aspect plus ou moins marqué n'est pas un critère de datation, mais 
+est lié à des différences fonctionnelles.
+
+Tout le bas est faux ! Mais la statue est trop connue pour envisager 
+une dérestauration.
+
+La pierre jaune indique probablement que la scène se situe en plein 
+air, sous le soleil.
+
+Du personnage présent à l'origine à droite du roi (certainement la 
+reine), il ne reste qu'un bras dans le dos, et un doigt -- indice 
+d'une main -- sous le coude.
+
+Cette pose symbolise un lien intime entre les deux personnages.
+
+\begin{remarque}
+  cf.~scène de ce type sur une talatate d'Amarna publiée par 
+  Claude~\bsc{Traunecker}.
+\end{remarque}
+
+\chapter{Corps de femme, sans doute Néfertiti (\inv{E\,25409})}
+\label{sec:E25409}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E25409}, \pref{fig:E25409}}
+\bigskip
+
+\begin{figure}[!h]
+  \noi\begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    \includegraphics[height=6cm]{E25409_1}
+    \subcaption{Vue de face\label{fig:E25409_1}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    % \includegraphics[trim=2cm 1cm 1cm 0, clip, width=4cm]{E25409_2}
+    \includegraphics[width=4cm]{E25409_2}
+    \subcaption{Détail de la restauration antique\label{fig:E25409_2}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    \includegraphics[height=6cm]{E25409_3}
+    \subcaption{Vue de trois quarts\label{fig:E25409_3}}
+  \end{minipage}%
+  \caption{Néfertiti \rem{(\inv{E\,25409})}}
+  \label{fig:E25409}
+\end{figure}
+
+\begin{itemize}
+  \item quartzite
+  \item dimensions : \SI{29}{\cm}
+\end{itemize}
+
+\separation
+
+Il manque la tête, le bras droit, les jambes. Il n'y a aucune 
+inscription, pas de nom.
+Mais les épaules sont bien visibles : pas de retombées de coiffure, 
+pas la mèche caractéristiques des princesses.
+
+L'épaule droite présente des traces de restauration antique 
+(traces vertes) et le bras droit, contrairement au gauche, n'était 
+manifestement pas le long du corps (pas de traces de réserve de 
+pierre).
+
+\quad\donc~il était certainement levé, avec un sistre dans la 
+main (cf. statue d'Akhénaton à Berlin, \fref{???}).
+
+Rare à cette époque ! Contrairement à ce qui se faisait à l'\OK, les 
+égyptiens du \NK rechignent à décoller les membres du corps sur les 
+statues en pierre.
+
+
+\chapter{Le dieu Amon protège Toutânkhamon (\inv{E\,11609})}
+\label{sec:E11609}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E11609}, \pref{fig:E11609} et 
+\textcite[doc.~\num{90}]{ChB}}
+\bigskip
+
+\begin{figure}[!h]
+  \noi\begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{E11609_1}
+    \subcaption{Vue de trois-quarts\label{fig:E11609_1}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{E11609_2}
+    \subcaption{Vue de dos\label{fig:E11609_2}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.33\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{E11609_3}
+    \subcaption{Vue de face\label{fig:E11609_3}}
+  \end{minipage}
+  \caption{Amon protège Toutânkhamon \rem{(\inv{E\,11609})}}
+  \label{fig:E11609}
+\end{figure}
+
+\begin{itemize}
+  \item \datation{\anorange{1336}{1327}}
+  \item diorite
+  \item dimensions : \SI{2.20x0.44x0.78}{\m}
+\end{itemize}
+
+La tête, les bras et le nom du roi ont été volontairement détruits.
+
+\separation
+
+Typiquement post-amarnien : ventre, visage très doux.
+
+Toutânkhamon est représenté entre les jambes d'Amon, immobile. Il a 
+les bras le long du corps, devant lui, les mains sur le devanteau du 
+pagne : position de prière.
+
+Il est vêtu de la peau de léopard du prêtre \emph{sem} (fête d'Opet). 
+
+La tête et les bras du roi sont cassés. Les avant-bras d'Amon 
+également. Et les cartouches ont été martelés (à l'exception des 
+noms de Rê et Amon). Il s'agissait de détruire l'identité du roi et 
+d'empêcher le dieu de lui apporter sa protection. Mais le travail a 
+été baclé ! Il reste, à droite du pagne, deux cartouches intacts 
+(\fref{???}).
+
+Cette statue est un bel exemple d'antéposition honorifique et 
+d'aspective (\og multiplicité des points de vue \fg, voir aussi 
+\inv{A\,65}, \Cref{sec:A65} \pref{sec:A65} ; à comparer avec le 
+\inv{E\,11005}, \Cref{sec:E11005} \pref{sec:E11005}) : il faut 
+comprendre que le roi fait en fait face au dieu.
+La différence de taille entre le roi et le dieu reflète le rapport 
+hiérarchique qui existe entre eux.
+
+
+\chapter{Piaÿ, portier du palais (\inv{E\,124})}
+\label{sec:E124}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E124}, \pref{fig:E124}}
+\bigskip
+
+\begin{figure}[!h]
+  \noi\begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{E124_1}
+    \subcaption{Vue de face\label{fig:E124_1}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{E124_2}
+    \subcaption{Vue de dos\label{fig:E124_2}}
+  \end{minipage}%
+
+  \noi\begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{E124_3}
+    \subcaption{Profil gauche\label{fig:E124_3}}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}[m]{0.50\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{E124_4}
+    \subcaption{Vue de trois-quarts\label{fig:E124_4}}
+  \end{minipage}%
+  \caption{Piaÿ, portier du palais \rem{(\inv{E\,124})}}
+  \label{fig:E124}
+\end{figure}
+
+\begin{itemize}
+  \item \datation{vers \ano{1300}}
+  \item bois de karité, socle en acacia
+  \item dimensions : \SI{54.50x10.90x31.00}{\cm}
+\end{itemize}
+
+\separation
+
+Typiquement post-amarnien : ventre, nombreux plis sur le vêtement, et 
+le devanteau du pagne, qui remonte très haut dans le dos.
+
+Texte sur le pilier dorsal : formule d'offrande avec épithètes d'Amon.
+
+\quad\donc~couleur (\tl[black]{jnm}) $\equiv$ lumière !
+
+\begin{remarque}
+  cf. le \og faucon au plumage multicolore \fg
+\end{remarque}
+
+Les lignes de main sont visibles sur la paume droite !
+
+
+\chapter{Statue du dieu Amon (\inv{E\,10377})}
+\label{sec:E10377}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E10377}, \pref{fig:E10377}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[width=4cm]{E10377}
+  \caption{Amon \rem{(\inv{E\,10377})}}
+  \label{fig:E10377}
+\end{figure}
+
+\begin{itemize}
+  \item règne de Toutânkhamon (\datation{\anorange{1336}{1327}})
+  \item diorite
+  \item dimensions : \SI{72.00x31.30x28.00}{\cm}
+\end{itemize}
+
+\separation
+
+Basalte ?
+
+Cassures extrêmement propres, c'est une \og statue en kit à 
+monter soi-même \fg ;)
+
+\begin{itemize}
+  \item mortaise pour les plumes
+  \item appui dorsal qui n'en est pas un, pour encastrer dans 
+        une plaque plus grande
+  \item \dots
+\end{itemize}
+
+\begin{remarque}
+  cf. Mélanges \uwave{\bsc{Bonnet}}
+\end{remarque}
+
+
+\chapter{Dieux de Thèbes : Amon et Mout (\inv{N\,3566})}
+\label{sec:N3566}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:N3566}, \pref{fig:N3566}}
+\bigskip
+
+\begin{figure}[!h]
+  \noi\begin{minipage}[t]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[height=7cm]{N3566_1}%
+    \subcaption{Vue de face\label{fig:N3566_1}}%
+  \end{minipage}%
+  \quad%
+  \begin{minipage}[t]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[height=7cm]{N3566_2}%
+    \subcaption{Vue de trois-quarts\label{fig:N3566_2}}%
+  \end{minipage}%
+  \quad%
+  \begin{minipage}[t]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[height=7cm]{N3566_3}%
+    \subcaption{Vue de dos\label{fig:N3566_3}}%
+  \end{minipage}%
+  \caption{Amon et Mout \rem{(\inv{N\,3566})}}%
+  \label{fig:N3566}
+\end{figure}
+
+\begin{itemize}
+  \item grauwacke
+  \item dimensions : \SI{16.00x8.00x7.50}{\cm}
+\end{itemize}
+
+Statue dédiée par Mérymaât, préposé à la balance.
+
+\begin{encadre}[font=\em, frametitle={Traduction, source ???}]
+  \noi\begin{itemize}
+    \item Mout la grande, dame de l'Achérou, Ouadjet, dame de Karnak, 
+          Sekhmet la grande, oeil de Rê, souveraine du Sud et du Nord, 
+          qui repousse le mal, chasse le trouble, apporte 
+          l'anéantissement à qui (l')attaque en sa ville. Comme il est 
+          prospère son protégé ! Le mal ne l'atteindra pas.
+    \item Amon-Rê, seigneur des trônes des Deux-Terres, seigneur du 
+          ciel, roi des dieux, au grand prestige dans l'Héliopolis du 
+          sud (Thèbes), au parfait visage dans l'Héliopolis du nord, 
+          dieu vivant issu de l'océan primordial, qui illumine les 
+          Deux-Terres de ses rayons, qui rajeunit de lui-même, en 
+          perfection, qui crée la semence des hommes et des dieux.
+    \item Le préposé à la balance du seigneur des Deux-Terres, 
+          Mérymaât, acquitté.
+  \end{itemize}
+\end{encadre}
+
+\separation
+
+Stéatite ?
+
+Statue votive.
+
+Il y a un trou sous le socle, pour fixer la statue sur un support.
+
+Le bouquet de fleur (\fref{???}) à l'avant est offert à Amon et Mout. 
+Celui sur le côté gauche est offert, en même temps qu'Amon et Mout, 
+aux dieux de Karnak.
+
+Le texte associé à Amon comporte ses épithètes, il est assez générique.
+
+Le texte associé à Mout, en revanche, est offensif, guerrier, et 
+comporte une malédiction à l'encontre d'Akhénaton, \og qui l'attaque 
+en sa ville \fg. Elle est le bras armée d'Amon. C'est une déesse 
+dangereuse, au même titre que Sekhmet ou Ouadjet.
+
+
+\chapter{Dieux de Memphis et de sa nécropole : Osiris, Sekhmet, 
+         Hathor, Apis, Ptah, Néfertoum, Anubis (\inv{A\,64})}
+\label{sec:A64}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:A64}, \pref{fig:A64}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[height=6cm]{A64_1}%
+  \quad%
+  \includegraphics[height=6cm]{A64_2}%
+  \caption{Dieux de Memphis et de sa nécropole \rem{(\inv{A\,64})}}
+  \label{fig:A64}
+\end{figure}
+
+\begin{itemize}
+  \item quartzite
+  \item dimensions : \SI{76.50x48.00x34.00}{\cm}
+\end{itemize}
+
+\og Statue \fg au nom de Mériounou, intendant de Memphis.
+
+\begin{encadre}[font=\em, frametitle={Traduction, source ???}]
+  \dots il dit : \og ô vous tous les prêtres et scribes du temple 
+  d'Osiris qui lirez cette stèle érigée en l'honneur du Maître de 
+  l'éternité, puissiez-vous réciter la formule d'offrande funéraire 
+  et verser de l'eau sur le sol, pour le chef des dessinateurs 
+  d'Amon, Dédia, et pour son épouse ! Alors le dieu Ounnéfer vous 
+  récompensera, vous pourrez transmettre vos charges à vos enfants 
+  après une longue vieillesse et vous bénéficierez de ce qui a été 
+  offert aux dieux Amon, Mout et Khonsou \dots \fg
+\end{encadre}
+
+\separation
+
+Substitut de naos avec toutes les divinités.
+
+Le défunt est représenté deux fois, c'est la \og \uwave{définition 
+par accumulation} \fg.
+
+
+\chapter{Khâ, scribe de la table d'offrandes du roi (\inv{A\,65})}
+\label{sec:A65}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:A65}, \pref{fig:A65}}
+\bigskip
+
+\begin{figure}[!h]
+  \noi\begin{minipage}[m]{4cm}
+    \centerfloat
+    \includegraphics[width=\textwidth]{A65_1}
+    \subcaption{Vue de face\label{fig:A65_1}}
+  \end{minipage}%
+  \qquad%
+  \begin{minipage}[m]{4cm}
+    \centerfloat
+    \includegraphics[width=\textwidth]{A65_2}
+    \subcaption{Vue de trois-quarts dos\label{fig:A65_2}}
+  \end{minipage}%
+  \qquad%
+  \begin{minipage}[m]{4cm}
+    \centerfloat
+    \includegraphics[width=\textwidth]{A65_4}
+    \subcaption{Profil gauche\label{fig:A65_4}}
+  \end{minipage}
+
+  \bigskip
+
+  \noi\begin{minipage}[m]{4cm}
+    \centerfloat
+    \includegraphics[width=\textwidth]{A65_3}
+    \subcaption{Détail du naos\label{fig:A65_3}}
+  \end{minipage}%
+  \qquad%
+  \begin{minipage}[m]{4cm}
+    \centerfloat
+    \includegraphics[width=\textwidth]{A65_5}
+    \subcaption{Vue de dessus\label{fig:A65_5}}
+  \end{minipage}%
+  \caption{Khâ, scribe de la table d'offrandes du roi 
+           \rem{(\inv{A\,65})}}
+  \label{fig:A65}
+\end{figure}
+
+\begin{itemize}
+  \item règne de Ramsès~II (\datation{\anorange{1279}{1213}}), 
+        \dyn{xix}
+  \item quartzite
+  \item dimensions : \SI{63.50x23.80x37.00}{\cm}
+\end{itemize}
+
+Devant lui, une chapelle du dieu Thot, patron des scribes.
+
+\separation
+
+Provient probablement de Saqqara.
+
+Statue cube et naophore ! Avec le babouin de Thot et une table 
+d'offrande en vue de dessus.
+
+Khâ est mentionné dans le testament de Mès (document juridique).
+
+Là encore, illustration de l'aspectivité \rem{(voir E\,11609, 
+p.\,\pageref{sec:E11609})} : le babouin fait en fait face à la table 
+d'offrande et l'ensemble fait face au défunt.
+
+C'est une statue d'attente : le défunt est immobile, il donne les 
+offrandes au dieu et attend sa récompense en échange.
+
+
+\chapter{La déesse Nephthys, s\oe{}ur d'Isis et d'Osiris 
+         (\inv{E\,25389})}
+\label{sec:E25389}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E25389}, \pref{fig:E25389}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[height=6cm]{E25389_1}%
+  \qquad%
+  \includegraphics[height=6cm]{E25389_2}%
+  \caption{La déesse Nephthys \rem{(\inv{E\,25389})}}
+  \label{fig:E25389}
+\end{figure}
+
+\begin{itemize}
+  \item règne d'Aménophis~III (\datation{\anorange{1391}{1353}}), 
+        \dyn{xviii}
+  \item diorite
+  \item dimensions : \SI{1.81x0.35x69.50}{\m}
+\end{itemize}
+
+\separation
+
+Poli très brillant, typique de l'époque.
+
+Le nom d'Amon dans le cartouche d'Aménophis et l'épithète de Nephthys 
+ont été martelés. Seule l'épithète a été regravée.
+
+\quad\donc~La re-gravure de l'épithète divine date du règne 
+d'Aménophis~III lui-même. La statue, à l'origine dédiée à la fête 
+\emph{sed} (jubilé), a été ensuite réaffectée (dans le temple de 
+?\nospace{??}), et le texte a été réactualisé pour refléter cela 
+\rem{(voir aussi \inv{A\,20}, \Cref{sec:A20} \pref{sec:A20})}.
+
+\quad\donc~Le nom d'Amon, en revanche, a subi un effacement 
+politique pendant la période amarnienne. On n'a pas pris soin de 
+remédier à cela par la suite, certainement parce que la statue n'avait 
+plus d'utilité.
+
+
+\chapter{Le roi Ramsès~II (\inv{A\,20})}
+\label{sec:A20}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:A20}, \pref{fig:A20}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[width=4cm]{A20_1}%
+  \qquad%
+  \includegraphics[width=4cm]{A20_2}%
+  \caption{Ramsès~II \rem{(\inv{A\,20})}}
+  \label{fig:A20}
+\end{figure}
+
+\begin{itemize}
+  \item \datation{\anorange{1279}{1213}} (\dyn{xix})
+  \item statue trouvée à Tanis
+  \item diorite
+  \item dimensions : \SI{2.59x0.80x1.20}{\m}
+\end{itemize}
+
+\separation
+
+Plusieurs regravures :
+\begin{itemize}
+  \item Un \tl[black]{smA-\&A.wy} a été remplacé par un texte relatif 
+        au jubilé sur le côté du siège ;
+  \item le némès et la ceinture ont un aspect \og grumeleux \fg{};
+  \item \dots
+\end{itemize}
+
+\quad\donc~On a supposé que Ramsès avait usurpé cette statue. 
+Elle a été attribuée à à peu près tous les rois possibles, notamment 
+Aménophis~III.
+
+En fait, il s'agit probablement d'une statue inachevée 
+d'Aménophis~III, terminée par Ramsès. L'aspect grumeleux du némès est 
+lié à l'application d'une dorure, il y a des reprises d'accidents. 
+Quant au remplacement du \tl[black]{smA-\&A.wy}, il s'agit là encore, 
+d'un changement de fonction en cours de règne \rem{(voir 
+\inv{E\,25389}, \Cref{sec:E25389} \pref{sec:E25389})} : la statue a 
+été ré-utilisée par Ramsès pour les fêtes du jubilé.
+
+Pour une fois, ce n'est pas une usurpation !
+
+
+\chapter{Statue du dieu Amon dédiée par le roi Toutânkhamon 
+         (\inv{E\,11005})}
+\label{sec:E11005}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:E11005}, \pref{fig:E11005}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[height=8cm]{E11005_1}%
+  \qquad%
+  \includegraphics[height=8cm]{E11005_2}%
+  \caption{Statue d'Amon dédiée par Toutânkhamon 
+           \rem{(\inv{E\,11005})}}
+  \label{fig:E11005}
+\end{figure}
+
+\begin{itemize}
+  \item \datation{\anorange{1336}{1327}}, \dyn{xviii}
+  \item diorite
+  \item dimensions : \SI{1.11x0.29x0.70}{\m}
+\end{itemize}
+
+Le roi était figuré en petite taille aux pieds du dieu.
+
+\separation
+
+Même type de représentation que le \inv{E\,11609} (\Cref{sec:E11609}
+\pref{sec:E11609}), à ceci près que le roi -- dont il ne reste que les 
+talons -- fait réellement face à Amon.
+
+Le dieu tient dans sa main gauche un 
+\begin{hieroglyph}anx\end{hieroglyph} \emph{ankh} et dans sa main 
+droite une tige de millions d'années. Il s'agit de la représentation 
+en ronde-bosse d'une scène très fréquente en relief. 
+
+\tl[black]{Dd-mdw} sur le pilier dorsal : très rare !
+
+
+\chapter{Le dieu-bélier Khnoum (\inv{AF\,2577})}
+\label{sec:AF2577}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:AF2577}, \pref{fig:AF2577}}
+\bigskip
+
+\begin{figure}[!h]
+  \includegraphics[height=8cm]{AF2577}
+  \caption{Le dieu-bélier Khnoum \rem{(\inv{AF\,2577})}}
+  \label{fig:AF2577}
+\end{figure}
+
+
+\begin{itemize}
+  \item quartzite
+  \item dimensions : \SI{1.26x0.35x0.99}{\m}
+\end{itemize}
+
+Sur le socle, traces d'un roi agenouillé.
+
+Le museau est restauré.
+
+\separation
+
+\begin{itemize}
+  \item Pas de \no d'inventaire historique \donc~d'où vient 
+        cette statue ?
+  \item Couleur solaire
+  \item Amon-Rê ?
+  \item museau, disque solaire cassés \donc~détruire l'identité du dieu
+  \item avant-bras cassés \donc~empêcher le dieu d'agir
+  \item le fauteuil du dieu repose sur un socle en biseau 
+        \begin{hieroglyph}mAa\end{hieroglyph} 
+        \donc~représentation de Maât
+\end{itemize}
+
+
+\chapter{Stèle du chef des artisans, scribe et sculpteur Irtysen 
+         (\inv{C\,14})}
+\label{sec:C14}
+%======================================================================
+
+\puceb{} \emph{voir \fref{fig:C14}, \pref{fig:C14}}
+\bigskip
+
+\begin{figure}[!h]
+  \noi\begin{minipage}[m]{6cm}
+    \centerfloat
+    \includegraphics[height=9cm]{C14_1}
+  \end{minipage}%
+  \qquad%
+  \begin{minipage}[m]{6cm}
+    \centerfloat
+    \includegraphics[width=\textwidth]{C14_2}
+
+    \bigskip
+
+    \includegraphics[width=\textwidth]{C14_3}
+  \end{minipage}
+  \caption{Stèle d'Irtysen \rem{(\inv{C\,14})}}
+  \label{fig:C14}
+\end{figure}
+
+\begin{itemize}
+  \item règne de Nebhépetrê Montouhotep, 
+        \datation{\anorange{2033}{1982}}, \dyn{xi}
+  \item calcaire
+  \item dimensions : \SI{1.17x0.56}{\m}
+\end{itemize}
+
+Sur sa stèle, Irtysen se vante des prouesses techniques qu'il est 
+capable d'accomplir. C'est un des très rares textes égyptiens qui 
+parlent d'art.
+
+\begin{encadre}[font=\em, frametitle={Traduction partielle 
+                \autocite[doc.~\num{19}]{ChB}}]
+  Le directeur des ouvriers, le scribe sculpteur (?) Irtysen (qui) 
+  déclare : 
+
+  \og Je connais \lgn{7} le secret des hiéroglyphes et les directives 
+  des rituels de fête. Toute espèce de magie, je l'ai acquise sans que 
+  rien ne m'en échappe. \lgn{8} Je suis donc un artisan expert en son 
+  art, le premier entre tous par ce que je connais. 
+  Je connais les formules de la solidification \rem{(du métal en 
+  fusion ?)}, \lgn{9} la pesée \rem{(du métal ?)} selon le compte 
+  exact, (le fait d')enlever et d'ajouter \rem{(le métal ?)} lorsqu'il 
+  sort et lorsqu'il entre \rem{(dans le moule ?)} jusqu'à ce que le 
+  membre \rem{(de la statue de métal ?)} prenne sa place. Je connais 
+  le pas de la statue \lgn{10} (d'homme), la démarche de la statue de 
+  femme, l'attitude des onze oiseaux (?), la posture du prisonnier 
+  isolé, le strabisme des yeux, l'expression de la terreur chez les 
+  vaincus, \lgn{11} le port de bras du harponneur d'hippopotame, et 
+  la démarche de la course. Je sais faire ce qui est en argile (?) 
+  et les choses \lgn{12} qui descendent (?) sans laisser la flamme 
+  les consumer, sans qu'ils soient lavés à l'eau, assurément !
+  \lgn{13} Personne ne les divulguera \rem{(ces secrets)}, excepté 
+  moi seul et mon propre fils aîné car le dieu a déclaré qu'il agirait
+  \lgn{14} et que (je) les lui transmettrai. J'ai constaté son 
+  efficacité dans le rôle de directeur des travaux en matière de 
+  toutes sortes de pierres dures et vénérables, depuis l'argent et 
+  l'or \lgn{15} jusqu'à l'ivoire et l'ébène. \fg
+\end{encadre}
+
+
+\separation
+
+Les pieds des porteurs d'offrandes avaient été attachés pour qu'ils 
+ne puissent pas se sauver de la stèle en emportant les victuailles !
+
+
+%=============================================
+
+\backmatter
+\newpage
+\listoffigures
+% \listoftables
+% \nocite{ChB}
+\printbibliography
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

@@ -1,7 +1,7 @@
 %!TEX root = Kheops_Grandet_book.htx
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\book{Le \MK{} \datation{(2040-1781)}}
+\book{Le \MK{}\index{\MK} \datation{(2040-1781)}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \part{Généralités}
@@ -175,7 +175,7 @@ expéditions en Nubie en~\num{29} et~\num{31} du règne. On ignore si
 une occupation permanente a découlé de cet effort. La \dyn{xii} en 
 revanche procédera vraiment à l'annexion de la Nubie.
 
-\section{Le site de \DeB}
+\section{Le site de \DeB\index{\DeB}}
 %----------------------------------------------------------------------
 
 Pour construire son temple funéraire et son tombeau, Montouhotep a 

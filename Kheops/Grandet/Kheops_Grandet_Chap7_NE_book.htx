@@ -1,7 +1,7 @@
 %!TEX root = Kheops_Grandet_book.htx
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\book{Le \NK{} \datation{(1550-1075)}}
+\book{Le \NK{}\index{\NK} \datation{(1550-1075)}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\minitoc
@@ -26,7 +26,7 @@ ces deux dynasties, et d'autre part, la \dyn{xviii}.
 Cette dernière est particulièrement riche en événements.
 
 
-Le premier roi du \NK est Ahmosis, frère ou neveu de son prédécesseur
+Le premier roi du \NK est Ahmosis\index{Ahmosis}, frère ou neveu de son prédécesseur
 Kamosis. Suivront Amenophis~I\ier et Thoutmosis~I\ier. Ce dernier,
 probablement un général, est une pièce rapportée mais il n'y a pas 
 pour autant de changement de dynastie. On voit encore une fois que 
@@ -192,7 +192,7 @@ Rekhmirê).
 Le roi réside à Ballas, \emph{Sédjéfataouy} en égyptien, au nord de
 Thèbes. C'est une ville de garnison.
 
-\section{\og Expulsion \fg des Hyksos}
+\section{\og Expulsion \fg des Hyksos\index{Hyksos}}
 %----------------------------------------------------------------------
 
 On n'a que peu de traces (hache d'apparat d'Ahmosis dans la tombe de
@@ -976,17 +976,17 @@ inspecteurs auraient-ils visité cette tombe en l'attribuant à
 Aménophis~I\ier alors qu'ils la considéraient comme appartenant à
 Ramsèsnakht ?
 
-Une autre possibilité et la KV\,39 (\fref{fig:KV39}), tombe atypique 
+Une autre possibilité et la \kv{39} (\fref{fig:KV39}), tombe atypique 
 en marge de la \KV. Elle comporte deux caveaux et est située à 
 l'extrême sud de la vallée, presque au sommet, près d'une piste 
 permettant de rejoindre la Vallée de l'Ouest, et proche du village 
 du col. Aménophis~I\ier passe pour être la fondateur de \DeM, on peut 
 supposer que ses habitants devaient avoir une tombe à creuser. Et la 
-KV\,39 est la plus proche du village.
+\kv{39} est la plus proche du village.
 
 \begin{figure}[htb]
   \includegraphics[width=\textwidth]{KV39_plan}
-  \caption{Tombe KV\,39}
+  \caption{Tombe \kv{39}}
   \label{fig:KV39}
 \end{figure}
 
@@ -1209,7 +1209,7 @@ pour voir quelque chose d'équivalent.
 Les égyptiens ont d'abord suivi la piste côtière de Canaan jusqu'à 
 Megiddo, avant de bifurquer vers l'est, à cause des montagnes, vers la 
 vallée du Haut-Jourdain, la Beqa', l'Oronte, les steppes de Syrie. Ils 
-sont passés par Laboué, Qadesh, Qatna, Hama, Ebla, Alep et enfin 
+sont passés par Laboué, Qadesh, Qatna, Hama, Ébla, Alep et enfin 
 Karkémich.
 Plusieurs gués sur l'Oronte sont bien attestés.
 Au retour, ils sont repassés par Alep puis par Niy. 
@@ -1303,7 +1303,7 @@ Du temple funéraire de Thoutmosis~I\ier, on ne connaît que le nom,
 donné dans les textes : \og Khénémet-ankh \fg. À moins que ce nom 
 ne désigne la pièce qui lui est consacrée à \DeB.
 
-Sa tombe est la KV\,38, dont les travaux ont été supervisés par 
+Sa tombe est la \kv{38}, dont les travaux ont été supervisés par 
 Inéni, \titre{supérieur des travaux du roi}. Il aurait inventé la 
 \emph{mouna}, l'enduit composé d'un mélange de boue et de paille sur 
 lequel on applique les décors. Il s'agit d'une tombe très simple, 
@@ -1312,8 +1312,8 @@ courbe, avec quelques fragments de décor (Amdouat).
 La momie du roi a été retrouvée dans la cachette de \DeB.
 
 Hatchepsout fera transférer le corps de son père dans sa propre tombe, 
-la KV\,20. Après la mort de la reine, Thoutmosis~III lui fera 
-réintégrer la KV\,38, dans un nouveau sarcophage.
+la \kv{20}. Après la mort de la reine, Thoutmosis~III lui fera 
+réintégrer la \kv{38}, dans un nouveau sarcophage.
 
 
 \chapter{Âakhéperenrê Thoutmosis~II}
@@ -1412,7 +1412,7 @@ et est situé au nord de Médinet Habou.
 Thoutmosis~III y ajoutera une enceinte et le fera précéder d'un 
 portique.
 
-Sa tombe est la KV\,42, à côté de celle de Thoutmosis~I\ier. Elle 
+Sa tombe est la \kv{42}, à côté de celle de Thoutmosis~I\ier. Elle 
 ne lui est attribuée que sur des critères stylistiques et en raison 
 de son emplacement.
 C'est l'apparition de l'angle droit, et le caveau est en forme de 
@@ -1439,13 +1439,13 @@ au moment de son accession au trône.
   Thoutmosis~III & ans~22 à 24 & \datation{1459-1425} \\
 \end{tabular}
 
-Il faut éventuellement décaler de \num{10}~ans les dates (voir 
+Il faut éventuellement décaler de dix ans les dates (voir 
 \Cref{cha:ThoutII}, \pref{cha:ThoutII}).
 
 L'ensemble fait quand même plus d'un demi-siècle !
 
 Ce règne concentre l'essentiel des activités militaires de la 
-\dyn{xviii}. C'est également un grande période de construction et 
+\dyn{xviii}. C'est également une grande période de construction et 
 de mutations religieuses (oracles, fête d'Opet) et théologiques
 (focalisation sur Amon-Rê).
 
@@ -1462,7 +1462,7 @@ retenter l'expérience.
 De nombreuses statues (\fref{fig:snnmwt}) montrent la 
 princesse Néférourê dans les bras de Sénenmout, son éducateur. 
 C'était certainement une façon de lui accorder des revenus.
-Avant lui, Ahmès-pen-nakht a rempli ce rôle. Les textes de sa tombe 
+Avant lui, Ahmès-Pen-Nakht a rempli ce rôle. Les textes de sa tombe 
 nous renseigne sur Hatchepsout avant son accession au pouvoir : 
 il donne la liste des rois qu'il a servis et mentionne \emph{\og la 
 \uline{grande épouse royale} Maâtkarê qui lui a donné des faveurs 
@@ -1471,13 +1471,13 @@ le titre, elle est un peu \og l'homme fort du pays \fg.
 \textasciicircum\_\textasciicircum
 
 \begin{figure}[htb]
-  \noi\begin{minipage}[b]{0.25\textwidth}
+  \noi\begin{minipage}[b]{0.33\textwidth}
     \centerfloat
     \includegraphics[height=7cm]{EA174_1}
     \subcaption{\musee{BM} \inv{EA\,174}}
   \end{minipage}
   \qquad 
-  \begin{minipage}[b]{0.25\textwidth}
+  \begin{minipage}[b]{0.33\textwidth}
     \centerfloat
     \includegraphics[height=7cm]{AM2296_1}
     \subcaption{\musee{Berlin} \inv{ÄM\,2296}}
@@ -1499,7 +1499,7 @@ un titre typique des princesses, épouses d'Amon.
     \centerfloat
     \includegraphics[width=4cm]{MET31397}
     \caption{Bague au nom de l'\titre{épouse divine} Néférourê 
-             (\musee{MMA}~\inv{31.3.97})}
+             \rem{(\musee{MMA}~\inv{31.3.97})}}
     \label{fig:bague}
   \end{minipage}%
   \hfill%
@@ -1527,14 +1527,15 @@ semence du dieu, la corde de poupe de \BE \fg}~\dots
 \og Sa Majest\uline{ée} \fg lui a accordé des faveurs. 
 Il est le roi légal, elle agit à sa place.
 
-Pour coller à l'image du roi, elle se fait représenter de 
-préférence en homme, mais aussi parfois en femme (MMA\,29.3.3,
-\fref{fig:hatchepsout}).
+Pour coller à l'image du roi, elle se fait représenter 
+de préférence en homme, mais aussi parfois en femme
+(\musee{MET}\,\inv{29.3.3}, \fref{fig:hatchepsout}).
 
 
 \begin{figure}[htb]
   \includegraphics[width=0.45\textwidth]{MET_2933_RMO_L199880_1}
-  \caption{Hatchepsout en femme (MMA\,29.3.3 \& Leyde, L\,1998.80)}
+  \caption{Hatchepsout en femme \rem{(\musee{MET}\,\inv{29.3.3} 
+           \& \musee{Leyde} \inv{L\,1998.80})}}
   \label{fig:hatchepsout}
 \end{figure}
 
@@ -1869,7 +1870,7 @@ qu'il a reçu une éducation militaire soignée.
 Le texte -- dont il manque le haut -- est inscrit en colonnes devant le
 roi assis sur un trône. Il relate des événements s'étant produits en
 l'an~15. Le jeune Thoutmosis vivait dans le temple d'Amon et portait le
-titre de \tl{jwn mw.t=f}, \td{pilier de sa mère}, avant de devenir 
+titre de \tl{jwn mw.t=f}, \titre{pilier de sa mère}, avant de devenir 
 prophète.
 
 On peut en déduire qu'il a reçu la meilleure éducation possible et
@@ -1955,11 +1956,11 @@ Un graffiti à Assouan nous apprend que Sénenmout était responsable de
 ces travaux.
 Une scène de \DeB commémore le transport des obélisques depuis 
 Assouan :
-\num{36}~bateaux, \num{320}~rameurs, ???~tonnes. Les deux obélisques
-sont placés sur une barge (\num{120x40}~coudées) tirée par
-des bateaux remorqueurs, accompagnée par le bateau de la reine (avec
-son trône). La barge est raidie par des cordes. On descend le courant à
-la rame.
+\num{36}~bateaux, \num{320}~rameurs. Les deux obélisques, 
+estimés à \SI{374}{\tonne} chacun, sont placés sur une barge
+(\num{120x40}~coudées) tirée par des bateaux remorqueurs, accompagnée 
+par le bateau de la reine (avec son trône). La barge est raidie par 
+des cordes. On descend le courant à la rame.
 
 D'autres travaux sont réalisés sous la direction d'Hapouséneb :
 \begin{itemize}
@@ -1971,22 +1972,34 @@ D'autres travaux sont réalisés sous la direction d'Hapouséneb :
 
 \bigskip
 
+\begin{figure}[htb]
+  \includegraphics[width=0.6\textwidth]{chap_rouge}%
+  \caption{Chapelle Rouge}
+  \label{fig:chap_rouge}
+\end{figure}
+
 La Chapelle Rouge a été démantelée, mais par qui ? Le troisième pylône,
 dans les fondations duquel elle a été retrouvée, date d'Aménophis~III.
 Thoutmosis~III aurait laissé les blocs entassés là ?
 
-Pour son jubilé en l'an~16, Hatchepsout a fait ériger -- sous la
-direction d'un directeur de prêtres d'Assouan (\nospace{?}) (graffiti
-\no208 à Séhel) nommé Amenhotep  -- une seconde paire d'obélisques dans
-la Ouadjyt, entre les quatrième et cinquième pylônes (représentés sur
-la Chapelle Rouge et la TT\,73). Thoutmosis~III les entourera d'une
-maçonnerie. Pour faire disparaître l'inscription commémorative qui se
-trouvait sur leurs bases ? Il n'en reste aujourd'hui plus qu'un. Un
-sondage en~\ano[0]{2005} a révélé à son pied un dépôt de fondation 
-comportant une diade fragmentaire d'Aménophis~I\ier. L'autre a été 
-abattu et débité (beaucoup de fragments sont connus). Ce qui en reste 
-est exposé, couché. Le nom d'Amon, martelé sous Amarna, a été re-gravé 
-ensuite.
+Pour son jubilé en l'an~16, Hatchepsout a fait ériger -- sous la 
+direction d'Amenhotep, directeur de prêtres d'Assouan (graffiti \no208 
+à Séhel) nommé Amenhotep  -- une seconde paire d'obélisques dans la 
+Ouadjyt, entre les quatrième et cinquième pylônes (représentés sur 
+la Chapelle Rouge, \fref{fig:Hat_CR_ob}, et la TT\,73). Thoutmosis~III 
+les entourera d'une maçonnerie. Pour faire disparaître l'inscription 
+commémorative qui se trouvait sur leurs bases ? Il n'en reste 
+aujourd'hui plus qu'un. Un sondage en~\ano[0]{2005} a révélé à 
+son pied un dépôt de fondation comportant une diade fragmentaire 
+d'Aménophis~I\ier. L'autre a été abattu et débité (beaucoup de 
+fragments sont connus). Ce qui en reste est exposé, couché. Le 
+nom d'Amon, martelé sous Amarna, a été re-gravé ensuite.
+
+\begin{figure}[htb]
+  \includegraphics[width=5cm]{Hatchepsout_CR_Ob}%
+  \caption{Chapelle Rouge : Les obélisques d'Hatchepsout}
+  \label{fig:Hat_CR_ob}
+\end{figure}
 
 Le projet d'urbanisme de Karnak et Louqsor (huitième pylône de Karnak,
 chapelles reposoirs à intervalles réguliers entre les deux temples,
@@ -2010,11 +2023,11 @@ divinités sont inscrits sur la chapelle de Thoutmosis~III
   % \draw [help lines,step=0.1]   (-5,-5) grid (5,5) ;
   % \draw [help lines,step=1,red] (-5,-5) grid (5,5) ;
   \draw [<-,ultra thick] (-1.0,1.2) -- (1.0,1.2)
-        node [right, text width=8cm]
+        node [right, text width=8cm, preaction={fill=white, opacity=0.7}]
         {Rê = axe est-ouest, Karnak-\DeB.\\
          Lever et coucher du soleil, il ne touche pas terre} ;
   \draw [->,ultra thick] (-0.7,1.2) -- (-0.7,-0.5)
-        node [below right, text width=8cm]
+        node [below right, text width=8cm, preaction={fill=white, opacity=0.7}]
         {Amon = axe nord-sud.\\
          Parcouru sur terre, en procession, tel un souverain 
          inspectant son domaine} ;
@@ -2029,114 +2042,6 @@ divinités sont inscrits sur la chapelle de Thoutmosis~III
   %        inspectant son domaine} ;
 \end{tikzpicture}
 
-
-% \begin{figure}
-% \begin{tikzpicture}
-%   \node at (0,0) {\includegraphics[width=2.5cm]{AmonRe}} ;
-% \end{tikzpicture}
-% \begin{tikzpicture}[overlay,remember picture,scale=0.02,shift={(-200,-340)},line width=0.8pt]
-%   % Séparations
-%   \begin{scope}
-%     \draw [line width=2.4pt]
-%           (301,357) .. controls (302,399) and (301,440) .. (300,481) ;
-%     \draw [line width=2.4pt]
-%           (351,356) .. controls (352,392) and (352,421) .. (351,477) ;
-%     \draw [line width=3.2pt] (429,357) -- (431,539) ;
-%   \end{scope}
-
-%    % ra
-%   \draw [shift={(150,21)}]
-%         (224,343) arc (-3.48:356.39:7 and 6);
-%   % 1
-%   \draw [line width=2.0pt] (365,382) -- (365,398) ;
-%   % nb
-%   \draw (381,356) -- (421,357) .. controls (421,361) and
-%         (415,369) .. (402,370) .. controls (389,370) and
-%         (381,363) .. (381,356) -- cycle;
-%   % p.t
-%   \draw (380.9168,383.9397) -- (380.8275,372.0244) -- 
-%         (423.2539,371.5194) -- (423.2539,383.6412) -- 
-%         (419.2133,379.0955) -- (385.4038,379.2128) -- cycle ;
-
-%   % i
-%   \draw (311,357) .. controls (313,358) and (316,359) ..
-%         (316,360) .. controls (317,362) and (317,386) .. (317,398) --
-%         (316,398) .. controls (316,395) and (316,389) .. 
-%         (317,389) .. controls (315,389) and (311,387) .. 
-%         (309,385) -- cycle ;
-%   % mn
-%   \begin{scope}
-%     \draw (320,362) -- (320,371) -- (347,371) -- (347,362) -- cycle ;
-%     \draw (322,358) -- (322,362) ;
-%     \draw (326,358) -- (326,362) ;
-%     \draw (329,358) -- (329,362) ;
-%     \draw (333,358) -- (333,362) ;
-%     \draw (337,358) -- (337,362) ;
-%     \draw (341,358) -- (341,362) ;
-%     \draw (345,358) -- (345,362) ;
-%   \end{scope}
-%   % n
-%   \draw (320,398) -- (323,393) -- (324,397) -- (326,393) --
-%         (328,397) -- (330,393) -- (331,396) -- (333,393) -- 
-%         (334,396) -- (336,393) -- (337,397) -- (339,393) -- 
-%         (340,397) -- (342,393) -- (343,397) -- (345,393) -- (347,398) ;
-%   % tA
-%   \begin{scope}[line width=2.0pt]
-%     \draw (308,448) -- (346,447) ;
-%     \draw (307,456) -- (346,455) ;
-%   \end{scope}
-%   % idb
-%   \begin{scope}
-%     \draw (310,468) .. controls (312,471) and (317,478) ..
-%           (317,478) .. controls (318,478) and (320,476) ..
-%           (320,475) .. controls (320,475) and (314,470) ..
-%           (311,467) .. controls (310,467) and (310,467) ..
-%           (310,468) -- cycle;
-%     \draw (335,468) .. controls (337,471) and (342,478) ..
-%           (334,478) .. controls (344,478) and (346,476) ..
-%           (346,475) .. controls (346,475) and (339,470) ..
-%           (336,467) .. controls (335,467) and (335,467) ..
-%           (353,468) -- cycle;
-%   \end{scope}
-%   % g 1
-%   \begin{scope}[shift={(11.27493,-13.59149)}]
-%     \draw (310,430) -- (321,430);
-%     \draw (313,430) .. controls (312,434) and (309,439) ..
-%           (309,440) .. controls (310,440) and (313,441) ..
-%           (316,441) .. controls (319,441) and (321,440) ..
-%           (322,440) .. controls (322,439) and (319,433) ..
-%           (318,430);
-%   \end{scope}
-%   \draw [line width=0.5pt] (327,421) -- (325,425) -- (329,424) -- cycle;
-%   % g 2
-%   \begin{scope}
-%     \draw (310.4433,430.1082) -- (320.5755,430.0636);
-%     \draw (312.5128,430.2124) .. controls (312.2307,433.8420) and (309.2255,438.6770) ..
-%           (309.2113,439.9406) .. controls (309.9476,440.3268) and (312.6727,441.1799) ..
-%           (315.6004,441.1733) .. controls (318.5281,441.1663) and (321.4799,440.2558) ..
-%           (322.3126,439.8819) .. controls (322.2604,438.6946) and (319.0832,433.4894) ..
-%           (318.4952,430.1592);
-%     \draw [line width=0.5pt]
-%           (315.7143,434.4158) -- (313.7500,437.6300) -- (317.8571,437.5407) -- cycle;
-%   \end{scope}
-%   % g 3
-%   \begin{scope}[shift={(23.6493,-0.45951)}]
-%     \draw (310.4433,430.1082) -- (320.5755,430.0636);
-%     \draw (312.5128,430.2124) .. controls (312.2307,433.8420) and (309.2255,438.6770) ..
-%           (309.2113,439.9406) .. controls (309.9476,440.3268) and (312.6727,441.1799) ..
-%           (315.6004,441.1733) .. controls (318.5281,441.1663) and (321.4799,440.2558) ..
-%           (322.3126,439.8819) .. controls (322.2604,438.6946) and (319.0832,433.4894) ..
-%           (318.4952,430.1592);
-%   \end{scope}
-%   \draw [line width=0.5pt] 
-%         (339,434) -- (337,437) -- (341,437) -- cycle;
-% \end{tikzpicture}
-% \end{figure}
-
-
-
-
-
 \bigskip
 
 C'est la définition théologique d'Amon-Rê : association dialectique des
@@ -2145,7 +2050,7 @@ gouverne (oracle) et arbitre (référence éthique).
 C'est déjà un dieu suprême, presque un dieu unique. C'est une
 \emph{binité}, une seule entité, mais deux aspects complémentaires.
 
-\subsection{\DeB}
+\subsection{\DeB\index{\DeB}}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \emph{Djéser djéserou}, \td{Saint des saints}, est le temple 
 funéraire d'Hatchepsout et lieu où le soleil se couche.
@@ -2450,6 +2355,13 @@ Deux axes, pour deux processions, de Karnak à Louqsor, par voie
 terrestre, puis retour à Karnak par voie fluviale\footnote{À partir
 d'Aménophis~III, l'aller comme le retour se feront par le fleuve.}
 
+
+\begin{figure}[htb]
+  \includegraphics[scale=0.9]{Opet_voies}
+  \caption{Les routes de la fête d'Opet}
+  \label{fig:Opet_voies}
+\end{figure}
+
 Cette fête est nommée \og Pa\fbox{opi} \fg dans le calendrier copte, ce
 qui signifie \og Celui d'Opet \fg.
 Elle a lieu le deuxième mois d'akhet et dure une douzaine de jours, du
@@ -2580,11 +2492,12 @@ Sikhat Taga el-Zeyd, à l'ouest de la \KV. L'entrée est située au
 milieu de la falaise, à \SI{70}{\m} du sol et \SI{42}{\m} du sommet. 
 Elle contenait le sarcophage~A
 
-\paragraph{En tant que reine :} la KV\,20 (\fref{fig:KV20}), dans 
+\paragraph{En tant que reine :} la \kv{20} (\fref{fig:KV20}), dans 
 l'axe de \DeB (au prix d'une descenderie très longue et d'un dénivelé 
 très fort). Elle contenait deux sarcophages, l'un pour Hatchepsout, 
 l'autre pour son père dont elle avait fait transférer le corps dans 
 sa tombe (cf les deux chapelles funéraires à \DeB) :
+\noprelistbreak
 \begin{itemize}
   \item le sarcophage~C (Boston), celui d'origine, retaillé pour 
         Thoutmosis~I\ier  
@@ -2595,23 +2508,23 @@ sa tombe (cf les deux chapelles funéraires à \DeB) :
   \includegraphics[width=0.5\textwidth]{KV20_plan1}
   \qquad
   \includegraphics[width=0.5\textwidth]{KV20_plan2}
-  \caption{Tombe KV\,20 d'Hatchepsout}
+  \caption{Tombe \kv{20} d'Hatchepsout}
   \label{fig:KV20}
 \end{figure}
 
 Thoutmosis~III fera remettre Thoutmosis~I\ier dans sa tombe d'origine, 
-la KV\,38. Plus tard il sera déplacé dans la cachette de \DeB.
+la \kv{38}. Plus tard il sera déplacé dans la cachette de \DeB.
 
-Hatchepsout n'a jamais été inhumée dans la KV\,20. Des objets à son 
+Hatchepsout n'a jamais été inhumée dans la \kv{20}. Des objets à son 
 nom (coffre à canopes) ainsi qu'une dent ont été retrouvés dans la
 cachette de \DeB. La dent correspondrait à l'une des deux momies de
-femmes de la KV\,60 (\fref{fig:KV20}) alors que l'autre est identifiée 
+femmes de la \kv{60} (\fref{fig:KV20}) alors que l'autre est identifiée 
 comme sa nourrice. La dent serait-elle celle de la reine qui aurait 
 été inhumée dans la tombe de sa nourrice ?
 
 \begin{figure}[htb]
   \includegraphics[width=0.5\textwidth]{KV60_plan}
-  \caption{Tombe KV\,60}
+  \caption{Tombe \kv{60}}
   \label{fig:KV60}
 \end{figure}
 
@@ -3326,6 +3239,16 @@ de la Haute et de la \BE.
 Tout le tour du reposoir est inscrit : au nord, des annales en bas, 
 des listes de cadeau en haut, au sud le \og Mur des annales \fg.
 
+\begin{figure}[htb]
+  \includegraphics[width=0.4\textwidth]{Karnak_pilier_herald_1}
+  \quad
+  \includegraphics[width=0.4\textwidth]{Karnak_pilier_herald_2}
+  \caption{Karnak -- Piliers héraldique}
+  \label{fig:pilier_herald}
+\end{figure}
+
+
+
 \faitle{28 janvier 2014}
 
 \subsection{\DeB}
@@ -3376,7 +3299,7 @@ statue (datant d'Aménophis~II) sont aujourd'hui au musée du Caire
   \label{fig:ThoutIII_momie}
 \end{figure}
 
-La tombe de Thoutmosis~III est la KV\,34.
+La tombe de Thoutmosis~III est la \kv{34}.
 Elle est située très en hauteur, à \SI{30}{\m} du sol actuel, auxquels
 il faut rajouter les \SI{30}{\m} de déblai par rapport au niveau du sol
 de l'époque.
@@ -3387,7 +3310,7 @@ des masses telles que celles des sarcophages que de les faire monter.
 
 \begin{figure}
   \includegraphics[width=0.5\textwidth]{KV33-34_plan}
-  \caption{Tombe KV\,34}
+  \caption{Tombe \kv{34}}
   \label{fig:KV34}
 \end{figure}
 
@@ -3414,7 +3337,7 @@ Sokaris, forme memphite d'Osiris ; la douzième, le lever du soleil
     \subcaption{Thoutmosis~III tétant sa mère Isis
                 \label{fig:ThoutIII_Isis}}
   \end{minipage}%
-  \caption{Tombe KV\,34}
+  \caption{Tombe \kv{34}}
   \label{fig:KV4_decor}
 \end{figure}
 
@@ -3494,20 +3417,21 @@ La région est en paix, Aménophis~II y fait des travaux.
 Ousersatet est \titre{\VRK}. Son nom est typique d'Éléphantine (stèle
 du Louvre E\,17341, \fref{fig:E17341}).
 
+Il est un frère d'armes du roi. Avec Aménémopé, son frère de lait,
+c'est le deuxième très proche du roi à un poste important.
+
+Une stèle trouvée à Semna (\musee{MFA}\,\inv{25.632a-b}, 
+\fref{fig:MFA25632ab}) reproduit une lettre du roi lui demandant de 
+veiller sur la Nubie.
+
 \CaptionPetit
 \begin{wrapfigure}[18]{o}[2cm]{0pt}
   \includegraphics[width=0.33\textwidth]{MFA25632ab}
   \caption{Le \titre{\VRK}, Ousersatet, stèle de Semna 
-           \rem{(MFA\,25.632a-b)}}
+           \rem{(\musee{MFA}\,\inv{25.632a-b})}}
   \label{fig:MFA25632ab}
 \end{wrapfigure}
 \CaptionNormal
-
-Il est un frère d'armes du roi. Avec Aménémopé, son frère de lait,
-c'est le deuxième très proche du roi à un poste important.
-
-Une stèle trouvée à Semna (MFA\,25.632a-b, \fref{fig:MFA25632ab}) 
-reproduit une lettre du roi lui demandant de veiller sur la Nubie.
 
 \subsection{Asie}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3768,7 +3692,7 @@ Menkhéperrêséneb est toujours là.
 \section{Sépulture}
 %---------------------------------------------------------------------
 
-Sa tombe est la KV\,35, découverte \og récemment \fg en \ano[0]{1898}.
+Sa tombe est la \kv{35}, découverte \og récemment \fg en \ano[0]{1898}.
 Elle est, elle aussi, en hauteur.
 
 Elle a servi de cachette pour des momies royales (Thoutmosis~IV,
@@ -3787,6 +3711,267 @@ recouvraient le sarcophage du roi ont disparu, signe de pillage.
   \includegraphics[width=0.5\textwidth]{KV35_plan1}
   \qquad
   \includegraphics[width=0.5\textwidth]{KV35_plan2}
-  \caption{Tombe KV\,35 d'Aménophis~II}
+  \caption{Tombe \kv{35} d'Aménophis~II}
   \label{fig:KV35}
 \end{figure}
+
+
+\chapter{Menkhéperourê Thoutmosis~IV}
+%=====================================================================
+
+Son règne, long d'une dizaine d'année est calme.
+
+\section{Vie privée}
+%---------------------------------------------------------------------
+
+Il est le fils d'Aménophis~II et Tiâa. Il est souvent représenté 
+avec sa mère, comme c'est la tradition depuis le début de la dynastie.
+Son épouse principale est Ouadjyt\footnote{ou Néfertari, d'après 
+Wikipedia ?}. Mais c'est Moutémouia, une épouse secondaire qui mettra 
+au monde son successeur Aménophis~III. Parmi ses autres épouses, on 
+compte une mitannienne, fille du roi Artatama dont on ignore le nom.
+Il a au moins cinq fils (dont on a les noms), et plusieurs filles.
+
+\begin{remarque}
+  Moutémouia signifie \og \td{Mout est dans la barque} \fg 
+  (\tl{Mw.t-m-wjA}). La statue du \musee{British Museum} qui la 
+  représente (\inv{EA\,43}, \fref{fig:EA43}) est un véritable rébus 
+  en 3D.
+\end{remarque}
+
+\begin{figure}
+  \includegraphics[width=0.50\textwidth]{EA43}
+  \quad
+  \includegraphics[width=0.33\textwidth]{EA43a}
+  \caption{Moutemouia sous la forme de Mout dans sa barque
+          \rem{(\musee{British Museum} \inv{EA\,43} et \inv{EA\,43a})}}
+  \label{fig:EA43}
+\end{figure}
+
+
+\section{Le Sphinx}
+%---------------------------------------------------------------------
+
+Le règne de Thoutmosis~IV est associé au site de Giza. Il a été élevé 
+à Memphis ; son gouverneur est Héqaréchou, le père de Héqaernéhéh, 
+gouverneur du futur Aménophis~III. Son éducation est essentiellement 
+militaire, et comporte notamment l'apprentissage de la conduite des 
+chars. L'entraînement se faisait dans le désert, par exemple entre 
+Saqqara et Giza, ce qui peut être à l'origine de la redécouverte et 
+de la ré-émergence de cette zone, abandonnée depuis la fin de l'\OK.
+
+\begin{remarque}
+  Le sphinx devient un élément incontournable de la statuaire à un 
+  moment donné entre la fin de l'\OK et le règne d'Aménophis~II, alors 
+  que le seul sphinx d'\kmt à cette époque -- celui de Giza -- avait 
+  été oublié\dots Bizarre\dots
+
+  \begin{tikzpicture}
+    \draw [-|]  (-5, 0) node [left] {occupation de Giza :} -- 
+                (-2, 0) node [above left]  {OK} ;
+    \draw [|-]  ( 2, 0) node [above right] {Aménophis~II} -- 
+                ( 5, 0) ;
+    \draw       (-5,-0.5) node [left] {statuaire :} ;
+    \draw [|-|] (-1,-0.5) -- ( 1,-0.5) ;
+  \end{tikzpicture}
+
+  Pour plus d'info sur le Sphinx, voir Mme~\bsc{Zivie}.
+\end{remarque}
+
+Le roi nous parle de sa jeunesse sur la stèle située entre les pattes 
+du Sphinx (\fref{???}), datée de l'an~1 de son règne. Un jour, alors 
+qu'il était encore jeune homme, déjà athlète, versé dans les arts de 
+la guerre (tir à l'arc, char, chasse), il s'endort à midi entre les 
+pattes du Sphinx. Le dieu lui parle alors, l'appelant son fils et lui 
+promettant la royauté.
+
+\begin{remarque}
+  Le rêve est considéré comme un moyen de communication avec les dieux 
+  dans de nombreuses cultures.
+\end{remarque}
+
+La \fref{???} montre le désensablement du site dans les années~30. 
+Le paysage devait être très semblable à l'époque des désensablements 
+par Aménophis~II et Thoutmosis~IV, avec le temple de Rê-Horakhty 
+presque recouvert. Les désensablements antiques n'étaient que 
+partiels, seuls les abords immédiats du Sphinx étaient dégagés. 
+Il apparaissait dont comme au fond d'un trou. Thoutmosis~IV avait 
+fait érigé un mur d'enceinte en briques pour essayer de contenir le 
+sable.
+
+Le Sphinx -- statue de Rê-Horakhty -- était comme un temple à ciel 
+ouvert. À ce titre, il a reçu des terres, notamment au \PO (le Sphinx 
+a été identifié au dieu faucon cananéen Houroun). Le point focal du 
+sanctuaire était la zone entre ses pattes, avec la stèle de l'an~1, 
+précédée d'un autel et flanquée de deux autres stèles (aujourd'hui 
+au \musee{Louvre}, \inv{???}, \fref{???}). Moitié moins hautes, elles 
+étaient placées sur un soubassement. On y voit le roi faire offrande 
+au Sphinx.
+
+De nombreuses stèles -- au moins une trentaine -- étaient encastrées 
+dans le mur d'enceinte. Beaucoup sont conservées au musée du Caire. 
+Certaines montrent différents dieux. Beaucoup sont des stèles de 
+pélerins. Le Sphinx y est parfois représenté sous la forme d'un 
+faucon. On montre la définition de l'objet (Sphinx = Horus 
+Rê-Horakhty) et non ce qu'on en voit. La stèle de Montouher 
+(\fref{fig:???}) figure les pyramides : seules les deux plus grandes 
+comptaient aux yeux des égyptiens.
+
+Le Sphinx est représenté avec une couronne, une barbe postiche et une 
+statue érigée devant son poitrail. Est-ce la réalité ou, là encore, 
+une mise en image d'une définition ?
+\noprelistbreak
+\begin{itemize}
+  \item Couronne : pourquoi pas\dots
+  \item Barbe : on en a des fragments (BM, \fref{fig:???})
+  \item Statue : il y a un renflement informe au dessus de la stèle, 
+        mais a t-il un lien avec la supposée statue ? Il est peu 
+        probable que ce soit un vestige de la statue elle-même. Ce 
+        serait plutôt une structure contre laquelle elle s'adossait. 
+        La statue aurait reposé sur le dessus de la stèle centrale.
+\end{itemize}
+
+\section{Politique extérieure}
+%---------------------------------------------------------------------
+
+Le règne de Thoutmosis~IV est une période de paix. 
+
+\subsection{\PO}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Au \PO, la trouée de Homs marque la frontière entre les territoires 
+sous contrôle égyptien et ceux sous contrôle mitannien. Simyra 
+appartient à l'\kmt, Qadesh au \Mtn. Chacun contrôle ce dont l'autre 
+a besoin, maintenant ainsi un certain équilibre.
+Tout cela repose sur des déductions car on n'a pas le texte du traité 
+de paix. On en a de nombreux autres, on y trouve toujours la même 
+chose : fixations des frontières, mariage inter-dynastique, entraide 
+mutuelle. Quoi qu'il en soit, l'épouse mitannienne prouve bien que la 
+paix a été signée.
+
+Ce mariage est évoqué plus tard dans l'une des lettres d'Amarna : le 
+roi du \Mtn d'alors rappelle que Thoutmosis~IV a dû essuyer sept refus 
+avant qu'Artatama ne lui accorde la main de sa fille. On peut douter 
+de la véracité de cette version : c'est en effet le \Mtn, en guerre à 
+la fois contre l'\kmt et le \Htt, qui était demandeur de la paix.
+
+Thoutmosis~IV a tout de même conduit deux campagnes dans les 
+territoires sous son contrôle.
+Au cours de la deuxième, il fait des prisonniers à 
+Gézer\footnote{\og la brèche \fg}, ville de Canaan à l'entrée d'un 
+ouadi menant à Jérusalem.
+
+\subsection{Nubie}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le \VRK est Amenhotep. 
+On a de nombreux graffitis de cette époque, notamment à Konosso. 
+Une stèle rupestre raconte une campagne en l'an~8 : le roi, à Karnak, 
+apprend que des gens approchent de Ouaouat ; il s'y rend en bateau et 
+mate la révolte.
+
+Un graffito mentionne Héqaernéhéh, le gouverneur d'Aménophis~III. On a 
+l'impression que les \og guerres \fg de Nubie servaient à aguerrir les 
+princes, ils y faisaient leurs armes sans prendre trop de risques.
+
+\section{Travaux}
+%---------------------------------------------------------------------
+
+Giza, poursuite de la décoration du temple d'Amada en Nubie, des 
+choses un peu dans tout le pays.
+
+\subsection{Karnak}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Thoutmosis~IV décore le quatrième pylône et aurait pu installer 
+l'obélisque unique (Thoutmosis~III n'aurait alors fait que 
+l'acheminer). Il installe surtout une cour péristyle au croisement 
+des deux axes du temple.
+
+\begin{remarque}
+  C'est la fin du plan en L du temple, il passera à un plan en T dès 
+  le règne suivant.
+\end{remarque}
+
+Le péristyle sera démonté et remployé dans le troisième pylône 
+d'Aménophis~III. La partie ouest a été remontée et est maintenant 
+visible dans le musée en plein air. Dans un angle se trouve la 
+chapelle reposoir de barque.
+
+\section{Temple funéraire}
+%---------------------------------------------------------------------
+
+Le temple funéraire de Thoutmosis~IV, au sud de Ramesséum, a été pillé 
+par Aménophis~III. Il est de plan classique, avec une cour péristyle, 
+une cour à ciel ouvert contenant un palais.
+
+\section{Tombe}
+%---------------------------------------------------------------------
+
+Sa momie a été retrouvé dans la \kv{35}, mais sa tombe est la \kv{43}. 
+Elle suit un plan à angle droit et en lignes brisées.
+
+\begin{remarque}
+  \begin{itemize}
+    \item à partir d'Amarna, les tombes seront en lignes droites : 
+          ça symbolise le trajet des rayons du soleil ;
+    \item lignes brisées : symbolisent le trajet à taton dans le monde 
+          des morts. 
+  \end{itemize}
+\end{remarque}
+
+On note un renouvellement du décor : les dieux accueillent le défunt, 
+sur un fond jaune.
+
+\begin{remarque}
+  La couleur de fond connaît différentes phases au cour du \NK :
+  \noprelistbreak
+  \begin{itemize}
+    \item jaune ;
+    \item bleu, à partir d'Horemheb ;
+    \item blanc ($\equiv$ l'air) à la \dyn{xix}.
+  \end{itemize}
+\end{remarque}
+
+Le sarcophage est tout à fait classique, en quartzite.
+
+On a retrouvé le tour de la nacelle du char du roi, orné de motifs 
+guerriers (\fref{fig:ThoutIV_char}). Pour la première fois, il est 
+représenté sous les traits d'un gryphon écrasant ses ennemis 
+(\musee{MET}\,\inv{30.8.45a–c}, \fref{fig:MET30845}).
+
+\begin{figure}
+
+  \begin{minipage}[b]{0.5\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{ThoutIV_char_gauche}
+    \subcaption{Côté gauche.}
+  \end{minipage}%
+  \quad
+  \begin{minipage}[b]{0.5\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{ThoutIV_char_droit}
+    \subcaption{Côté droit.}
+  \end{minipage}%
+  \caption{Nacelle du char de Thoutmosis~IV}
+  \label{fig:ThoutIV_char}
+\end{figure}
+
+\begin{figure}
+  \includegraphics[width=0.5\textwidth]{MET30845}
+  \caption{Décor d'un fauteuil de cérémonie de Thoutmosis~IV 
+           \rem{(\musee{MET}\,\inv{30.8.45a–c})}}
+  \label{fig:MET30845}
+\end{figure}
+
+Un nouveau thème iconographique apparaît : le roi, sur son char, 
+charge ses ennemis plongés dans le désarroi et l'anarchie. Cela 
+s'apparente à la thématique du char du soleil\footnote{Apollon sur son 
+char : ses flèches sont les rayons du soleil, les ennemis, des nuages, 
+en volutes}, à la dialectique de la droite et de la courbe.
+Cette thématique n'a pas de généalogie claire : en \kmt, ça arrive 
+avec le char que l'on désigne par un mot d'emprunt, \emph{markaba}. 
+Cette racine sémitique est en fait un terme générique signifiant 
+\og véhicule \fg. En égyptien moderne, il signifie \og barque \fg.
+
+

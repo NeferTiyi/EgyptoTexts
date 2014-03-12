@@ -1,23 +1,25 @@
-\documentclass[a4paper,twoside,10pt,openany,article,draft]{memoir}
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
 %\usepackage{float}
 %\usepackage[framemethod=tikz]{mdframed}
 %\usetikzlibrary{calc,patterns,arrows,positioning,shadows,decorations.text}
-%\usepackage{fourier}
 \usepackage{multicol}
+\usepackage{ragged2e}
 \usepackage{nefertiyi}
-\usepackage[format=hang,labelsep=endash,font=sf,labelfont={bf,sc}]{caption}
+% \usepackage[format=hang,labelsep=endash,font=sf,labelfont={bf,sc}]{caption}
 \usepackage{neferhiero}
 
 \addto\captionsfrancais{%
    \renewcommand\chaptername{Devoir}%
 }
 
-%% .. Memoir caption definitions ..
-%%    => does't work with babel...
-%\captiondelim{\quad}
-%\captionnamefont{\bfseries\sffamily}
-%\captiontitlefont{\sffamily}
-%\hangcaption
+% .. Memoir caption definitions ..
+\setfloatadjustment{figure}{\centerfloat}
+\captionnamefont{\bfseries\sffamily}
+\captiontitlefont{\sffamily}
+\captiondelim{~-- }
+\captionwidth{0.75\linewidth}
+\changecaptionwidth
+\hangcaption
 
 % TOC settings without chapter
 %\cftsetindents{subsection}{\cftsectionindent}{\cftsectionnumwidth}
@@ -49,12 +51,11 @@
 %\newcommand{\thesection}{\thechapter.\arabic{section}}
 \renewcommand{\thesection}{\arabic{section}}
 
-% \newcommand{\DiImg}{../img//}
-\graphicspath{{../../../images/Naufrage/}}
+\graphicspath{{../../images/Naufrage/}}
 
 
 
-\title{\textbf{Le conte du naufragé}}
+\title{\textbf{Le conte du\\naufragé}}
 \author{NeferTiyi}
 \date{\today}
 
