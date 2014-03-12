@@ -1,15 +1,14 @@
 \documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
 
 \includeonly{%
-  % Kheops_Grandet_Chap0_Intro_book,
-  % Kheops_Grandet_Chap1_PD_book,
-  % Kheops_Grandet_Chap2_PT_book,
-  % Kheops_Grandet_Chap3_AE_book,
-  % Kheops_Grandet_Chap4_PPI_book,
-  % Kheops_Grandet_Chap5_ME_book,
-  % Kheops_Grandet_Chap6_DPI_book,
+  Kheops_Grandet_Chap0_Intro_book,
+  Kheops_Grandet_Chap1_PD_book,
+  Kheops_Grandet_Chap2_PT_book,
+  Kheops_Grandet_Chap3_AE_book,
+  Kheops_Grandet_Chap5_ME_book,
+  Kheops_Grandet_Chap4_PPI_book,
+  Kheops_Grandet_Chap6_DPI_book,
   Kheops_Grandet_Chap7_NE_book,
-  % Kheops_Grandet_Chap8_PO_book,
   % Kheops_Grandet_map,
   % Kheops_Grandet_ChronoDF,
 }
@@ -47,8 +46,6 @@
 % \counterwithin{subsection}{section}
 % % \counterwithout{figure}{part}
 % \counterwithout{figure}{chapter}
-
-\renewcommand{\bookname}{Livre}
 
 % Apparence des numéros de divisions
 \renewcommand{\thepart}{\arabic{part}}
@@ -135,6 +132,8 @@
 % \renewcommand{\listfigurename}{Liste des figures~}
 
 % \renewcommand{\bookname}{Livre}
+
+\renewcommand{\bookname}{Livre}
 
 
 \setpnumwidth{2.55em}
