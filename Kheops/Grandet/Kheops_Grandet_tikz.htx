@@ -95,7 +95,8 @@
   \foreach \a in {0, 30, ..., 330} {%
     \draw [soleil] ( 0.00, 0.00) -- (\a:5.00) ;
   }
-  \shade [soleil, shade=ball] ( 0.00, 0.00) circle (3);
+  % \shade [soleil, shade=ball] ( 0.00, 0.00) circle (3);
+  \shade [soleil] ( 0.00, 0.00) circle (3);
 }
 
 \newcommand{\terre}{%

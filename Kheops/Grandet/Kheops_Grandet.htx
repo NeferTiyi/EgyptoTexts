@@ -1,14 +1,16 @@
 \documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
 
 \includeonly{%
-  Kheops_Grandet_Chap0_Intro_book,
-  Kheops_Grandet_Chap1_PD_book,
-  Kheops_Grandet_Chap2_PT_book,
-  Kheops_Grandet_Chap3_AE_book,
-  Kheops_Grandet_Chap5_ME_book,
-  Kheops_Grandet_Chap4_PPI_book,
-  Kheops_Grandet_Chap6_DPI_book,
-  Kheops_Grandet_Chap7_NE_book,
+  Kheops_Grandet_Chap0_Intro,
+  Kheops_Grandet_Chap1_PD,
+  Kheops_Grandet_Chap2_PT,
+  Kheops_Grandet_Chap3_AE,
+  Kheops_Grandet_Chap5_ME,
+  Kheops_Grandet_Chap4_PPI,
+  Kheops_Grandet_Chap6_DPI,
+  Kheops_Grandet_Chap7_NE_a,
+  Kheops_Grandet_Chap7_NE_b,
+  Kheops_Grandet_Chap8_PO,
   % Kheops_Grandet_map,
   % Kheops_Grandet_ChronoDF,
 }
@@ -42,9 +44,10 @@
 
 \counterwithin{part}{book}
 \counterwithin{chapter}{book}
-%\counterwithout{chapter}{part}
+
+% \counterwithout{chapter}{part}
 % \counterwithin{subsection}{section}
-% % \counterwithout{figure}{part}
+% \counterwithout{figure}{part}
 % \counterwithout{figure}{chapter}
 
 % Apparence des numéros de divisions
@@ -52,11 +55,15 @@
 \renewcommand{\thechapter}{\arabic{chapter}}
 \renewcommand{\thesubsection}{\alph{subsection})}
 
+
 % Indentation et largeur des numéros dans la TOC
 \cftsetindents{book}{\cftbookindent}{3.0em}
 \cftsetindents{part}{\cftpartindent}{2.6em}
 \cftsetindents{chapter}{\cftchapterindent}{1.8em}
 \cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
+
+\cftsetindents{figure}{\cftfigureindent}{3.0em}
+% \cftsetindents{subfigure}{\cftfigureindent}{3.0em}
 % Pointillés dans la TOC
 \renewcommand{\cftsectiondotsep}{9}
 \renewcommand{\cftsubsectiondotsep}{1}
@@ -196,6 +203,8 @@
   \renewcommand\@memmain@floats{%
     \counterwithout{figure}{chapter}
     \counterwithout{table}{chapter}
+    \counterwithin{figure}{book}
+    \counterwithin{table}{book}
   }
   \renewcommand\@memback@floats{%
     \counterwithout{figure}{chapter}
@@ -204,6 +213,16 @@
     \setcounter{table}{0}
   }
 \makeatother
+
+
+% \makeatletter
+% % \counterwithin{figure}{book}
+% \renewcommand{\thefigure}{%
+%   \ifnum\c@chapter>\z@ \thechapter.\fi \@arabic\c@figure
+%   % \alph{book}.\arabic{figure})%
+% }
+% \makeatother
+
 
 
 %======================================================================
@@ -249,7 +268,6 @@
 
 \thispagestyle{empty}
 \maketitle
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \frontmatter
@@ -257,15 +275,16 @@
 
 \mainmatter
 \CaptionNormal
-\include{Kheops_Grandet_Chap0_Intro_book}
-\include{Kheops_Grandet_Chap1_PD_book}
-\include{Kheops_Grandet_Chap2_PT_book}
-\include{Kheops_Grandet_Chap3_AE_book}
-\include{Kheops_Grandet_Chap4_PPI_book}
-\include{Kheops_Grandet_Chap5_ME_book}
-\include{Kheops_Grandet_Chap6_DPI_book}
-\include{Kheops_Grandet_Chap7_NE_book}
-\include{Kheops_Grandet_Chap8_PO_book}
+\include{Kheops_Grandet_Chap0_Intro}
+\include{Kheops_Grandet_Chap1_PD}
+\include{Kheops_Grandet_Chap2_PT}
+\include{Kheops_Grandet_Chap3_AE}
+\include{Kheops_Grandet_Chap4_PPI}
+\include{Kheops_Grandet_Chap5_ME}
+\include{Kheops_Grandet_Chap6_DPI}
+\include{Kheops_Grandet_Chap7_NE_a}
+\include{Kheops_Grandet_Chap7_NE_b}
+\include{Kheops_Grandet_Chap8_PO}
 
 \appendix
 \book{Annexes}

@@ -257,7 +257,13 @@ agrandissement progressif jusqu'à l'époque \ptol. L'espace cultuel de
 la \dyn{xviii} est exactement au-dessus du temple préhistorique.
 
 Le naos de l'époque de Pépi~I\ier (vers \ano[0]{2300}) est au 
-\musee{Louvre} (\inv{E\,12660}, \fref{???}).
+\musee{Louvre} (\inv{E\,12660}, \fref{fig:E12660}).
+
+\begin{figure}[htb]
+  \includegraphics[height=6cm]{E12660}
+  \caption{Naos de Pépi~I\ier \rem{(\musee{Louvre} \inv{E\,12660})}}
+  \label{fig:E12660}
+\end{figure}
 
 \begin{remarque}
   À chaque époque, on ajoute quelque chose de nouveau.
@@ -272,7 +278,8 @@ de haut !
 
 \begin{figure}[htb]
   \includegraphics[scale=1]{min}
-  \caption{Colosse de Min (\musee{Ashmolean Museum} \inv{1894.105e})}
+  \caption{Colosse de Min 
+           \rem{(\musee{Ashmolean Museum} \inv{1894.105e})}}
   \label{fig:min}
 \end{figure}
 

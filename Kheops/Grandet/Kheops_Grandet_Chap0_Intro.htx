@@ -11,7 +11,7 @@
 Durant la période pharaonique (\anorange{3200}{332}), l'\kmt a formé 
 une nation, un état indépendant à l'époque préclassique (avant la 
 Grèce et Rome), gouverné par des souverains indigènes qu'on appelle 
-\emph{pharaons}. Ce terme vient de l'égyptien \tl[black]{pr-aA}, 
+\emph{pharaons}. Ce terme vient de l'égyptien \tl{pr-aA}, 
 \og \td{la grande maison} \fg qui désigne le palais royal puis, par 
 métaphore, son occupant.
 Mais cette indépendance n'a pas été continue, l'\kmt a parfois 
@@ -162,8 +162,8 @@ Le \textbf{séma-taouy} (\fref{fig:smatawy}), symbole politique, peut
 être considéré comme les armoiries du pays.
 
 Horus et Seth, représentant respectivement la Basse et la \HE, 
-encadrent le {\SmallerText\begin{hieroglyph}zmA\end{hieroglyph}} 
-\tl[black]{smA}, \emph{unir}.
+encadrent le \EnPetit{\begin{hieroglyph}zmA\end{hieroglyph}} 
+\tl{smA}, \emph{unir}.
 Les représentations peuvent être plus abstraites, stylisées.
 
 \section{Quelques noms}
@@ -174,14 +174,12 @@ On connaît différents noms pour le pays :
 {\SmallerText
 \begin{itemize}\setlength\itemsep{1.0\baselineskip}
   \item \begin{hieroglyph}tA:tA\end{hieroglyph}
-        \tl[black]{\&A.wy}, \emph{Taouy}, \og Les Deux-Terres \fg, 
+        \tl{\&A.wy}, \emph{Taouy}, \og Les Deux-Terres \fg, 
         à nouveau l'idée de deux royaumes ;
   \item \begin{hieroglyph}km-m-t:niwt\end{hieroglyph}
-        \tl[black]{km.t}, \emph{Kèmé} (prononciation connue par le 
-        copte) ;
+        \tl{km.t}, \emph{Kèmé} (prononciation connue par le copte) ;
   \item \begin{hieroglyph}Hwt-t:pr-kA-1-p:t-H-niwt\end{hieroglyph}
-        \tl[black]{Hw.t-kA-PtH}, \emph{Hikuptah} (prononciation 
-        assyrienne). 
+        \tl{Hw.t-kA-PtH}, \emph{Hikuptah} (prononciation assyrienne).
         C'est l'un des noms de Memphis (on donne au pays le nom de la 
         capitale, comme Tunis/Tunisie, Alger/Algérie,~\dots) ;
   \item {\huge\<m.sr>}, \ta{mi\d{s}r} : nom connu depuis 
@@ -375,15 +373,11 @@ choses.
 
 \paragraph{Post-histoire} :
 \begin{itemize}
-  % \item \kmt grecque, \ptol -- \num{332}-\num{30}\,BC -- 
-  \item \kmt grecque, \ptol -- \anorange{332}{30} -- 
+  \item \kmt grecque, \ptol{} -- \anorange{332}{30} -- 
         Alexandre le Grand ;
-  % \item \kmt romaine -- \num{30}\,BC-\num{395}\,AD ;
   \item \kmt romaine -- \ano{30}-\ano[1]{395} ;
-  % \item \kmt copte, byzantine -- \num{395}-\num{641}\,AD -- 
   \item \kmt copte, byzantine -- \anorange[1]{395}{641} -- 
         christianisation complète ;
-  % \item conquête arabe -- \num{641}\,AD.
   \item conquête arabe -- \ano[1]{641}.
 \end{itemize}
 \hspace*{2em}\donc~disparition graduelle de la civilisation égyptienne.

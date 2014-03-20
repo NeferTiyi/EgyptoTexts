@@ -1,7 +1,7 @@
 %!TEX root = Kheops_Grandet_book.htx
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\book{Proche et \MO au \NK{} \datation{(1550-1075)} (Murielle)}
+\book{Proche et \MO au \NK{} \datation{(1550-1075)} \rem{(Murielle)}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Situation géographique et définition des Proche et \MO}
@@ -10,7 +10,7 @@
 Le \PO des Égyptiens était divisé en trois zones :
 \begin{itemize}
   \item Canaan, entre le Jourdain et la Mer Méditerranée
-  \item Le Liban/plaine de la Beqa', comprenant une partie montagneuse 
+  \item Le Liban/plaine de la \Bqa, comprenant une partie montagneuse 
         et une grande plaine
   \item La Syrie, délimitée à l'est par l'Euphrate, au nord par le 
         Taurus et de manière vague au sud-est
@@ -338,7 +338,7 @@ important en permettant l'exportation de l'étain.
 
 À l'est de Simyra/Tell Kazel se trouve la \og trouée de Homs \fg qui 
 relie Simyra et Qadesh. Qadesh est à la jonction de la route nord-sud 
-reliant l'\kmt à Alep via la plaine de la Beqa' et de la route 
+reliant l'\kmt à Alep via la plaine de la \Bqa et de la route 
 est-ouest passant par Tadmod/Palmyre. À mi-chemin de la trouée de 
 Homs se trouve également un embranchement menant vers le nord, la 
 piste de la Bouqi'a qui mène à Tounip. Simyra est proche de la plaine 

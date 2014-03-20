@@ -134,10 +134,10 @@ rupestres, y compris archaïques. Il ne mène nulle part, contrairement
 caravanières. Il s'agit d'un endroit où les bateaux faisaient relâche.
 
 L'un des reliefs nous renseigne sur la famille de Montouhotep~II. 
-Le roi est représenté entouré à droite de son père, Antef~III, et à 
-gauche de sa mère, Iah (\tl[black]{jaH}, \og lune \fg). Encore plus à 
-droite figure un personnage important, homme de confiance du roi, le 
-chancelier Khéty. Singulièrement, il porte un nom hérakléopolitain. 
+Le roi est représenté entouré à droite de son père, Antef~III, et 
+à gauche de sa mère, Iah (\tl{jaH}, \og lune \fg). Encore plus à 
+droite figure un personnage important, homme de confiance du roi, 
+le chancelier Khéty. Singulièrement, il porte un nom hérakléopolitain. 
 Parmi les nombreuses épouses du roi, on sait aussi que son épouse 
 principale s'appelait Néférou~II ; elle serait sa s\oe{}ur.
 
@@ -180,20 +180,20 @@ revanche procédera vraiment à l'annexion de la Nubie.
 
 Pour construire son temple funéraire et son tombeau, Montouhotep a 
 choisi un site de la rive ouest de Thèbes entièrement vierge. Le nom 
-égyptien du lieu est \tl[black]{jn.t}, \og la vallée \fg, ce qui 
-serait une abréviation du nom \og la vallée de Nebhépetrê \fg.
+égyptien du lieu est \tl{jn.t}, \og la vallée \fg, ce qui serait une 
+abréviation du nom \og la vallée de Nebhépetrê \fg.
 
 De nouveau après la \PPI, une \textbf{nécropole royale} va s'organiser 
 autour de la tombe du roi, en particulier dans les hauteurs de la 
 falaise nord de \DeB. Ces tombes ont des numéros en \num{300}.
 
-La \textbf{tombe de la reine Néférou} (TT\,319) est située à 
+La \textbf{tombe de la reine Néférou} (\tt{319}) est située à 
 l'emplacement actuel de la première terrasse du temple d'Hatchepsout, 
 en dehors, mais très proche de l'enceinte du complexe de Montouhotep. 
 Les tombes des vizirs Dagi, Bébi et Ipi sont creusées à flan de la 
 falaise nord (sur la droite lorsque l'on regarde les temples).
 
-\subsection{Les tombes d'Ipi (TT\,315) et de Méseh}
+\subsection{Les tombes d'Ipi (\tt{315}) et de Méseh}
 
 Comme pour la plupart des tombes creusées dans la falaise nord de 
 \DeB, une esplanade horizontale a d'abord été creusée dans la falaise. 
@@ -202,7 +202,7 @@ parfois que des tombes secondaires appartenant à des proches. C'est le
 cas de la tombe d'Ipi.
 
 Sur la même esplanade se trouve la tombe d'un de ses collaborateurs, 
-Méseh (\tl[black]{msH}, \og crocodile \fg). On y a trouvé les célèbres 
+Méseh (\tl{msH}, \og crocodile \fg). On y a trouvé les célèbres 
 \emph{papyrus d'Héqanakhté}. Ils avaient servi à amortir le sarcophage 
 lors de sa descente ! Ce lot de papyrus est écrit par ou à un dénommé 
 Héqanakhté, prêtre funéraire d'Ipi à l'époque de Montouhotep~III. Il 
@@ -220,7 +220,7 @@ ils furent confiés à un égyptologue du nom de Gunn. Un soir, il en
 discuta avec \bsc{Mallowan} et c'est ainsi que ces papyrus ont 
 inspiré Agatha~\bsc{Christie} pour \emph{La mort n'est pas une fin}.
 
-\subsection{La tombe du chancelier Méketrê (TT\,280)}
+\subsection{La tombe du chancelier Méketrê (\tt{280})}
 \label{subs:meketre}
 
 La tombe de Méketrê, fonctionnaire sous Montouhotep~II et 
@@ -818,7 +818,7 @@ manifestation d'un seul.
 %----------------------------------------------------------------------
 
 Il n'est pas d'origine royale. 
-Fils d'un prêtre (\tl[black]{jt-nTr}) nommé Sésostris et de Néféret. 
+Fils d'un prêtre (\tl{jt-nTr}) nommé Sésostris et de Néféret. 
 Il a tout d'abord été le vizir de Montouhotep~IV.
 
 Dans la \emph{Prophétie de Néferty}\footnote{On peut voir ce 
@@ -937,7 +937,7 @@ jour à Ezbet Helmy où il a été déplacé lors de la construction d'un
 temple sous la \dyn{xviii}) et une statue d'Amenemhat~I\ier (conservée 
 au musée de Port Saïd).
 
-Le sceau d'Ameniséneb mentionne \tl[black]{Hw.t-war.t}, Avaris.
+Le sceau d'Ameniséneb mentionne \tl{Hw.t-war.t}, Avaris.
 
 Cette région est une zone de peuplement par des \og asiatiques \fg 
 spécialistes.
@@ -1016,7 +1016,7 @@ devenir une véritable forêt de stèles, mais reste à ciel ouvert.
 
 Amenemhat~I\ier meurt après \num{30}~ans de règne.
 
-On a longtemps pensé que la TT\,60 à Gournah (une des premières du 
+On a longtemps pensé que la \tt{60} à Gournah (une des premières du 
 site), de style archaïque,était celle d'Amenemhat~I\ier, mais c'est en 
 fait celle de sa mère.
 
@@ -1092,10 +1092,11 @@ documents dont un seul pose réellement problème, la stèle
 
 \end{center}
 
-{\SmallerText}%
+{\SmallerText
 Pour Obsomer, l'absence de \begin{hieroglyph}t:zp\end{hieroglyph} 
 après \begin{hieroglyph}rnp\end{hieroglyph} signifie qu'il ne faut 
 pas comprendre \og année de règne \fg mais \og année \fg.
+}%
 
 Dans la plupart des cas, la mention de deux rois successifs peut se 
 justifier par la volonté de se rapprocher de ses ancêtres
@@ -1111,11 +1112,11 @@ corégence.
 
 Sur un graffito entre Phil\ae{} et Assouan, on a :
 \begin{quote}
-  [date de Sésostris~II] \tl[black]{xft} [date de Sésostris~III]
+  [date de Sésostris~II] \tl{xft} [date de Sésostris~III]
 \end{quote}
-\tl[black]{xft} est typique des doubles datations. Il pourrait s'agir 
+\tl{xft} est typique des doubles datations. Il pourrait s'agir 
 de la date de l'événement relaté et de la date de réalisation de 
-l'inscription. La mise en page est bizarre et \tl[black]{xft} pourrait 
+l'inscription. La mise en page est bizarre et \tl{xft} pourrait 
 tout aussi bien introduire la phrase qui suit les dates.
 
 \chapter{Sésostris~I\ier{} \datation{(1958-1913)}}
@@ -1137,7 +1138,7 @@ lire :
   \begin{hieroglyph}n\end{hieroglyph} & 
   \begin{hieroglyph}wsr-s-r:t\end{hieroglyph} \\
 
-  \tl[black]{s} & \tl[black]{n(y)} & \tl[black]{Wsr.t} \\
+  \tl{s} & \tl{n(y)} & \tl{Wsr.t} \\
 
   \multicolumn{3}{c}{\og l'homme de la Puissante \fg} \\
 \end{tabular}}
@@ -1280,13 +1281,13 @@ n'y sont plus adorés à l'époque historique,~\dots
 Par exemple : 
 \begin{itemize}
   \item Nome de Memphis : 
-        (1) = \tl[black]{jnb-HD} ; 
+        (1) = \tl{jnb-HD} ; 
         (2) = \og \oe{}il blanc d'Horus \fg (on s'attendrait à Ptah) ;
   \item Nome de Létopolis : 
         (1) = \og nome de la cuisse \fg ; 
-        (2) \tl[black]{xnt(y)-xm} ;
+        (2) \tl{xnt(y)-xm} ;
   \item Nome de l'Occident : 
-        (2) = \tl[black]{Hp(y)}, Hâpy et \tl[black]{Hw.t-js.wt}, 
+        (2) = \tl{Hp(y)}, Hâpy et \tl{Hw.t-js.wt}, 
         \og Le Château des vaches \fg.
 \end{itemize}
 
@@ -1295,10 +1296,10 @@ Par exemple :
 \end{remarque}
 
 Les lignes (4), (5) et (6) donnent la définition de l'aroure : 
-en (4), \EnPetit{\begin{hieroglyph}W\end{hieroglyph}}, 
-\tl[black]{sTA.t} = aroure. C'est l'unité de surface de base, égale à 
-un carré de \SI{100}{\coudee} par \SI{100}{\coudee} ; en (5) et (6), 
-des nombres tels que :
+en (4), \EnPetit{\begin{hieroglyph}W\end{hieroglyph}}, \tl{sTA.t} 
+= aroure. C'est l'unité de surface de base, égale à un carré de 
+\SI{100}{\coudee} par \SI{100}{\coudee} ; en (5) et (6), des nombres 
+tels que :
 \begin{itemize}
   \item $\text{(5)} + \text{(6)} = 100$
   \item $\text{(5)} < \text{(6)}$
@@ -1332,7 +1333,7 @@ d'une normalisation. Chaque région avait sa base de mesure (6).
 
 À la fin de la liste des nomes, on a la longueur totale du pays 
 (comme somme des longueurs des nomes) en \emph{itérou}, introduite 
-par \begin{hieroglyph}sbA zmA\end{hieroglyph}. Elle est de 
+par \EnPetit{\begin{hieroglyph}sbA zmA\end{hieroglyph}}. Elle est de 
 \SI{106}{itérous}, soit \SI{1108.76}{\km}.
 
 \Att C'est un calcul au fil de l'eau, pas à vol d'oiseau !
@@ -1608,19 +1609,19 @@ cette ville Kahoûn.
   On sait que c'est faux, en fait :
 
   \begin{center}
-    \tl[black]{R(A)-Hn.t} (égytien) $\rightarrow$ Lahoné (copte) 
+    \tl{R(A)-Hn.t} (égytien) $\rightarrow$ Lahoné (copte) 
     $\rightarrow$ Il-Lahoûn (arabe)
   \end{center}
 
   Mais ce nom inventé a été gardé pour désigner la ville.
 \end{remarque}
 
-La pyramide (nommée \tl[black]{\%xm-\%-n(y)-Wsr.t}) est en briques 
-crues avec une armature en pierre et posée sur un contrefort taillé 
-dans le roc. Elle est entourée d'une enceinte et bordée d'arbres 
-placés dans des trous creusés dans la roche. Les appartements 
-funéraires sont différents de ceux de l'\OK : l'entrée se fait au sud 
-dans une tombe secondaire et le plan en est très complexe, avec des 
+La pyramide (nommée \tl{\%xm-\%-n(y)-Wsr.t}) est en briques crues 
+avec une armature en pierre et posée sur un contrefort taillé dans 
+le roc. Elle est entourée d'une enceinte et bordée d'arbres placés 
+dans des trous creusés dans la roche. Les appartements funéraires 
+sont différents de ceux de l'\OK : l'entrée se fait au sud dans une 
+tombe secondaire et le plan en est très complexe, avec des 
 culs-de-sac, vrais et faux,~\dots pour tenter de déjouer les pilleurs. 
 Le complexe comprend également, de façon plus classique, des mastabas 
 de la famille royale -- taillés dans le roc -- et des tombes 
@@ -1630,8 +1631,8 @@ Autour, on trouve des carrières, un bâtiment de fête \emph{sed},
 des tombes de particuliers dont celle d'Inpi, le supposé constructeur 
 de la pyramide.
 
-La ville s'appelait \tl[black]{Htp-\%-n(y)-Wsr.t}. C'est un rectangle 
-de \SI{350x400}{\m}, de plan orthogonal, situé de façon inhabituelle 
+La ville s'appelait \tl{Htp-\%-n(y)-Wsr.t}. C'est un rectangle de 
+\SI{350x400}{\m}, de plan orthogonal, situé de façon inhabituelle
 contre le temple bas. Elle est enclose et ne comporte que deux portes. 
 Certaines rues sont dotées d'un systèmes d'évacuation d'eau. Elle est 
 divisée en deux quartiers par un mur intérieur : l'un constitué de 
@@ -1688,9 +1689,9 @@ des mutations de biens (tout type de changement de propriétaire) :
 \bigskip
 
 Il existait un service de notariat. Le rapporteur n'est pas le chef de 
-la ville (qui est un \tl[black]{HAt(y)-a}). Le vizir est le garant des 
-toutes les transaction, c'est un service très centralisé. On donne une 
-copie à chaque partie et une aux archives locales.
+la ville (qui est un \tl{HAt(y)-a}). Le vizir est le garant des toutes 
+les transaction, c'est un service très centralisé. On donne une copie 
+à chaque partie et une aux archives locales.
 
 Il y a également une prison et d'autres bureaux administratifs dont la 
 fonction n'est pas claire.
@@ -2200,7 +2201,7 @@ Les élites présentent des traits empruntés à l'\kmt. Mais Kerma
 n'ayant pas développé d'écriture, on la connaît très mal. Les 
 Égyptiens la nomment \emph{Kouch}.
 
-Son rôle d'intermédiaire commercial auprès de l'\kmt -- et ce depuis 
+Son rôle d'intermédiaire commercial auprès de l'\kmt{} -- et ce depuis 
 toujours -- fait que son destin est très lié à celui de son voisin. 
 Au \MK, c'est une civilisation brillante. 
 Mais si l'\kmt enrichie Kerma, elle représente aussi une gêne. À la 
@@ -2223,11 +2224,10 @@ On a des traces d'une enceinte fortifiée, d'un réseau dense
 d'habitations, de quelques palais. 
 
 Au centre, un massif de briques crues de \SI{18}{\m} de haut, la 
-\og deffoufa\footnote{deffoufa = massif de briques en nubien.}
+\og deffoufa\footnote{Deffoufa = \td{massif de briques} en nubien.}
 occidentale \fg. C'est un bâtiment plein, à l'exception d'un escalier 
-et d'une pièce de \SI{3.50}{\m} par \SI{0.50}{\m} au niveau d'un 
-palier. On suppose qu'il s'agit du soubassement de quelque chose, 
-temple ou palais.
+et d'une pièce de \SI{3.50x0.50}{\m} au niveau d'un palier. On suppose 
+qu'il s'agit du soubassement de quelque chose, temple ou palais.
 
 Tout autour, se trouvent des quartiers d'artisans dans lesquels on 
 a trouvé des briques cuites alors que ça n’apparaît pas avant les 
@@ -2270,7 +2270,8 @@ meilleurs : les murs sont plus épais que la salle n'est large\dots
 
 \begin{warning}
   Il existe bel et bien une culture indigène ! Les emprunts à l'\kmt 
-  existent, mais seulement pour les élites, les objets de prestiges.
+  existent, mais seulement chez les élites, pour les objets de 
+  prestiges.
 \end{warning}
 
 \bigskip
@@ -2405,6 +2406,7 @@ romain.
 
 \subsection{Biahmou}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{\SmallerText%
 Le site, fouillé par \bsc{Petrie}, consiste en deux gros blocs de 
 maçonnerie dans un enclos en rase campagne.
 Le mur d'enceinte, oblique à l'extérieur donne à l'ensemble la forme 
@@ -2423,6 +2425,7 @@ bassin d'irrigation\dots Il y a peu de chance qu'on sache un jour ce
 qu'était vraiment ce monument. Un autre élément troublant, s'il s'agit 
 de colosses, c'est qu'ils feraient face au nord alors que l'accès 
 principal au Fayoum est au sud.
+}
 
 \begin{remarque}
   \emph{Qâroun}, c'est la version coranique de \emph{Coré} dans la 

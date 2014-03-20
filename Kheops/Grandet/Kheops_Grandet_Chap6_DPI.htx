@@ -192,16 +192,16 @@ Elle dure \num{213}~ans, \num{1}~mois et \num{17}~jours.
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Parmi les rois cités : 
 \begin{itemize}
-  \item Khoutaouy (\tl[black]{\#w-tA.wy}, le 3\ieme roi) ;
-  \item Amenemhat (\tl[black]{Jmn-m-HA.t}, le 4\ieme roi) ;
-  \item Iouefeni (\tl[black]{Jw=f-n=j}) ;
-  \item Séhétepibrê (\tl[black]{\%Htp-jb-Ra}) ;
-  \item Sobekhotep~I\ier (\tl[black]{\%bk-Htp}) ;
-  \item Aoutibrê (\tl[black]{Aw.t-jb-Ra}, le fameux Hor) ;
+  \item Khoutaouy (\tl{\#w-tA.wy}, le 3\ieme roi) ;
+  \item Amenemhat (\tl{Jmn-m-HA.t}, le 4\ieme roi) ;
+  \item Iouefeni (\tl{Jw=f-n=j}) ;
+  \item Séhétepibrê (\tl{\%Htp-jb-Ra}) ;
+  \item Sobekhotep~I\ier (\tl{\%bk-Htp}) ;
+  \item Aoutibrê (\tl{Aw.t-jb-Ra}, le fameux Hor) ;
   \item Sémenkarê le général ;
-  \item Antef (\tl[black]{jn(w)-jt=f}) ;
-  \item Seth (\tl[black]{\Smaj{}tX}) ;
-  \item Sahouthor (\tl[black]{\%A-Hw.t-Hr}) ;
+  \item Antef (\tl{jn(w)-jt=f}) ;
+  \item Seth (\tl{\Smaj{}tX}) ;
+  \item Sahouthor (\tl{\%A-Hw.t-Hr}) ;
   \item \dots
 \end{itemize}
 
@@ -358,11 +358,11 @@ quelques scarabées\dots
 Hétepibrê.
 
 C'est le neuvième roi, fils d'un certain 
-\begin{hieroglyph}T14\end{hieroglyph}.
+\EnPetit{\begin{hieroglyph}T14\end{hieroglyph}}.
 Ce signe a deux lectures possibles : 
 \begin{itemize}
-  \item \tl[black]{QmAw}, de sens incertain
-  \item \tl[black]{aAmw}, \emph{âamou}, asiatique
+  \item \tl{QmAw}, de sens incertain
+  \item \tl{aAmw}, \emph{âamou}, asiatique
 \end{itemize}
 La seconde ouvre la voie à des spéculations : asiatique\dots Hyksos !
 
@@ -399,24 +399,30 @@ caisse à canopes.
 \begin{figure}[htb]
   \includegraphics[width=\textwidth]{Hor_tombe}
   \caption{Le caveau de Hor}
-  \label{fig:Hot_tombe}
+  \label{fig:Hor_tombe}
 \end{figure}
 
 On y a trouvé un naos avec une statue de \emph{ka} en bois plus grande 
-que nature (\musee{Le Caire} \inv{???}, \fref{???}). Sous le naos, il 
-y avait une stèle en albâtre portant un extrait des \TP (le rituel de 
-l'offrande funéraire), écrit en h\iero s bleus d'une grande qualité 
-(cf BIFAO\,101).
+que nature (\musee{Le Caire} \inv{JE\,30948}, \fref{fig:JE30948}). 
+Sous le naos, il y avait une stèle en albâtre portant un extrait des 
+\TP (le rituel de l'offrande funéraire), écrit en h\iero s bleus d'une 
+grande qualité \autocite{Aufrere_2001}.
+
+\begin{figure}[htb]
+  \includegraphics[width=0.5\textwidth]{JE30948_1}
+  \caption{Statue de \emph{ka} de Hor 
+           \rem{(\musee{Le Caire} \inv{JE\,30948})}}
+  \label{fig:JE30948}
+\end{figure}
 
 Cette tombe fait partie d'un groupe d'une dizaine, fouillées par 
-\bsc{De~Morgan} en \ano[0]{1894}. Ce groupe comprend aussi la tombe de 
-la fille de Hor, Nébouhétepti la
-jeune\footnote{\begin{hieroglyph}nbw:Htp-t:p-ti-X:r:d\end{hieroglyph}
-\tl[black]{nbw Htp=\fbox{tj} Xrd} : \td{\og l'or-est-satisfait \fg 
-la jeune}. L'accord au féminin de \tl[black]{Htp=tj} s'explique par 
-le fait que \tl[black]{nbw} -- qui apparait dans de nombreux noms 
-propres -- est une désignation d'Hathor.}, du même type que celle de 
-son père.
+\bsc{De~Morgan} en \ano[0]{1894}. Ce groupe comprend aussi la tombe 
+de la fille de Hor, Nébouhétepti la jeune\footnote{\EnPetit{%
+\begin{hieroglyph}nbw:Htp-t:p-ti-X:r:d\end{hieroglyph}} \tl{nbw 
+Htp=\fbox{tj} Xrd} : \td{\og l'or-est-satisfait \fg la jeune}. 
+L'accord au féminin de \tl{Htp=tj} s'explique par le fait que 
+\tl{nbw} -- qui apparait dans de nombreux noms propres -- est une 
+désignation d'Hathor.}, du même type que celle de son père.
 Sur les dalles couvrant son sarcophage et la caisse à canopes, on a 
 trouvé des objets et des coffres :
 \begin{itemize}
@@ -424,7 +430,7 @@ trouvé des objets et des coffres :
   \item objets de toilette (miroir, porte-perruque) ;
   \item un kit à huiles canoniques (il y en a sept).
 \end{itemize}
-La momie était parée de bijoux : cette tradition (cf \Sref{???} MK) 
+La momie était parée de bijoux : cette tradition (cf \Sref{???}, \MK) 
 survit malgré des conditions peu favorables.
 
 \section{Amenemhat~VII}
@@ -558,18 +564,18 @@ milieu de la \dyn{xiii}. Il s'agit d'établir les droits de propriété
 de la dame Sénebtysy, veuve du haut fonctionnaire Haânkhef, 
 \titre{chancelier du roi de \BE} et \titre{directeur des terres 
 dans la ville du sud}. Les biens en question sont un groupe de 
-\num{95}~esclaves (hommes, femmes et enfants) qui appartenaient à son 
-mari. Une quarantaine portent des noms égyptiens, les autres sont 
-désignés par \og \tl[black]{aAmw} Untel \fg. Ils sont qualifiés de 
-\og \tl[black]{Hm} et \tl[black]{Hm.t} \tl[black]{ny-sw.t} Untel \fg, 
-\td{esclave du roi Untel}.
-Le papyrus comprend huit documents. Du plus récent au plus ancien :
+\num{95}~esclaves (hommes, femmes et enfants) qui appartenaient à 
+son mari. Une quarantaine portent des noms égyptiens, les autres 
+sont désignés par \og \tl{aAmw} Untel \fg. Ils sont qualifiés de 
+\og \tl{Hm} et \tl{Hm.t} \tl{ny-sw.t} Untel \fg, \td{esclave du roi 
+Untel}. Le papyrus comprend huit documents. Du plus récent au plus 
+ancien :
 \begin{enumerate}
   \item Déclaration sous serment : affirmation de propriété
   \item Copie de l'acte de donation de son mari envers Sénebtysy 
         fait en l'an~2 de Sobekhotep~III. Il indique qu'il lui donne 
         tous ses biens. Il s'agissait d'exclure une autre femme 
-        (\tl[black]{\&jhnw.t}, fille de Haânkhef) et sa descendance.
+        (\tl{\&jhnw.t}, fille de Haânkhef) et sa descendance.
   \item La liste nominative des \num{95}~esclaves occupe presque tout 
         le verso
   \item Copie d'acte certifiant que Haânkhef avait reçu ces esclaves 
@@ -842,6 +848,7 @@ Contemporains de la \dyn{xvii} et du début de la \dyn{xviii}.
 
 Les Hyksos, c'est quoi ?
 
+{\SmallerText%
 Des rois mentionnés dans le \CT avec le titre de 
 \begin{hieroglyph}HqA-q-A xAst:t*3\end{hieroglyph}, \tl{HoA-xAs.wt}. 
 Ce titre est utilisé pour parler des souverains étrangers, sans 
@@ -852,6 +859,7 @@ On a fait l'amalgame avec le titre de
 due à un glissement phonétique de \tl{xAs.t} et un glissement de sens 
 de \tl{SAsw}, \og bédouins \fg, qui, capturés, étaient convertis en 
 bergers (\NK).
+}
 
 D'après \bsc{Flavius} : la colère divine frappe le pays, ce qui 
 provoque l'invasion d'un peuple de l'est qui élit un roi, Samitis, 
@@ -1016,11 +1024,13 @@ prêtre du temple de Min a fait l'objet d'une enquête menée par un
 fonctionnaire du temple d'Amon pour avoir confondu les biens du temple 
 et les siens\dots Il a été limogé, privé de ses biens et condamné à la 
 damnatio memori\ae.
+{\SmallerText%
 Le document évoque la concurrence entre deux pouvoirs, et se conclut 
 par : \begin{hieroglyph}sw-t:n\end{hieroglyph} \tl{n(y)-sw.t}, 
 appellation classique du roi, et 
 \begin{hieroglyph}sxm-ir:f-A40\end{hieroglyph} \tl{sxm-jr=f}, 
 \td{pouvoir agissant}, un néologisme désignant une autorité de fait.
+}
 
 Le principal monument connu pour ce roi est sa tombe à 
 \DAN\footnote{Le point culminant de cette zone est le Thot Berg.}, 

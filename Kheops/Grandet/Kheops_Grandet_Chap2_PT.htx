@@ -79,8 +79,7 @@ produit cette année là).
 Une des tablettes reprend les événements de la palette.
 
 Tout l'apparat du pouvoir royal est déjà là : porte-sandales, 
-enseigne,~\dots ainsi que l'ancêtre du vizir (\tl[black]{T} de 
-\tl[black]{TAty}) ?
+enseigne,~\dots ainsi que l'ancêtre du vizir (\tl{T} de \tl{TAty}) ?
 
 La seule mesure probable de Narmer est le déplacement de la capitale à 
 Memphis, le centre de gravité du pays, jonction entre vallée et Delta.
@@ -288,7 +287,7 @@ Il y a toujours des magasins et tombes annexes.
 Étiquettes : course entre bornes, lors du couronnement ou du 
 renouvellement du couronnement.
 
-Première mention d'un \tl[black]{xtmt(y)-bjt(y)} : \tl[black]{@mA-kA}
+Première mention d'un \tl{xtmt(y)-bjt(y)} : \tl{@mA-kA}
 
 Relate une bataille contre le Sinaï ? Signe d'expansion ?
 
@@ -298,14 +297,14 @@ Relate une bataille contre le Sinaï ? Signe d'expansion ?
 Caveau composite : magasins, utilisation de bois dans l'architecture 
 interne.
 
-Apparition du \tl[black]{ny-sw.t-bjty}, associé à \tl[black]{nbty}.
+Apparition du \tl{ny-sw.t-bjty}, associé à \tl{nbty}.
 Problème : comment faire la différence entre titres et noms propres ?
 
 \chapter{Merneith}
 %======================================================================
 
 Une reine ! Mentionnée sur les sceaux d'Abydos 
-(\fref{fig:sceaux_den}) : \tl[black]{mw.t-ny-sw.t}
+(\fref{fig:sceaux_den}) : \tl{mw.t-ny-sw.t}
 
 Reconstitution de la superstructure (\fref{fig:merneith}).
 
@@ -336,8 +335,8 @@ Utilisation de poutres pour la toiture.
 
 Ces mastabas ont longtemps été considérés -- à tort ! -- comme des 
 tombes royales. Ce sont les tombes de hauts courtisans, notamment 
-celle de \tl[black]{@mA-kA} avec une boîte en bois contenant deux 
-rouleaux de papyrus\dots{} vierges. 
+celle de \tl{@mA-kA} avec une boîte en bois contenant deux rouleaux 
+de papyrus\dots{} vierges.
 
 Les mastabas ne comportent pas de chapelle, le culte était rendu à 
 l'extérieur, devant l'une des niches.
@@ -405,7 +404,7 @@ Il ne reste qu'une partie infime du monument original.
 Date de la \dyn{v}.
 
 Les champs sont séparés par 
-{\SmallerText\begin{hieroglyph}rnp\\end{hieroglyph}}
+\EnPetit{\begin{hieroglyph}rnp\\end{hieroglyph}}
 = une année de règne.
 
 Au début, les personnages porte uniquement la couronne rouge de \BE.
@@ -415,20 +414,19 @@ Plus on avance dans le temps, plus les textes sont importants.
 Les changements de règnes sont notés sur la bande au-dessus des années.
 
 \begin{exple}
-  Djer : 1\iere{} case : \tl[black]{smA-tA.wy} ; les signes 
-  {\SmallerText\begin{hieroglyph}Abd\end{hieroglyph}} répartis entre 
+  Djer : 1\iere{} case : \tl{smA-tA.wy} ; les signes 
+  \EnPetit{\begin{hieroglyph}Abd\end{hieroglyph}} répartis entre 
   la première année de Djer et la dernière de Âhâ indiquent le partage 
   de l'année entre les deux.
 \end{exple}
 
-{\SmallerText\begin{hieroglyph}ms\end{hieroglyph}} = façonner une 
+\EnPetit{\begin{hieroglyph}ms\end{hieroglyph}} = façonner une 
 statue : tous les deux ans.
 
 Le ruban du dessous donne la hauteur de la crue du Nil en coudées.
 
 tous les deux ans : tournée d'inspection des ressource du pays par 
-le roi.\\
-\tl[black]{Smsw @r} : 
+le roi.\\\tl{Smsw @r} :
 \EnColonne[1.2\Htm]{\begin{hieroglyph}G7\*Sms\-P1\\end{hieroglyph}}
 
 
@@ -530,7 +528,7 @@ Saqqara. Seuls les deux derniers retournent à \OeQ. Est-ce là l'indice
 d'une crise ?
 
 L'un des rois se nomme \emph{Nebrê} (qu'il faut peut-être lire 
-\tl[black]{Nb=j-Ra}, \og Mon seigneur est Rê \fg) : c'est la première 
+\tl{Nb=j-Ra}, \og Mon seigneur est Rê \fg) : c'est la première 
 utilisation de \emph{Rê} dans un nom royal, en lien avec le 
 développement de la religion.
 
