@@ -5,9 +5,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Aperçu historique}
-\faitle{06/03/2012}
 %======================================================================
 
+\faitle{06/03/2012}
 Durant la période pharaonique (\anorange{3200}{332}), l'\kmt a formé 
 une nation, un état indépendant à l'époque préclassique (avant la 
 Grèce et Rome), gouverné par des souverains indigènes qu'on appelle 
@@ -388,8 +388,7 @@ choses.
 \section{Chronologie comparée}
 %----------------------------------------------------------------------
 
-\faitle{13 mars 2012}
-
+\faitle{13/03/2012}
 \begin{table}[htb]
   \begin{tabular*}{\textwidth}{|>{\bfseries}L{1.2cm}M{2.8cm}|%
   >{\bfseries}L{1.2cm}M{2.8cm}|>{\bfseries}L{1.2cm}M{2.8cm}|}
@@ -712,7 +711,7 @@ C'est le minimum visible à l'\oe{}il nu.
 Exemple d'une mine moderne au Soudan (Hassaï sud) : 
 \begin{itemize}
   \item \SI{\sim1}{\km} de long par \SI{200}{\m} de large ;
-  \item $\ce{[Au]} \approx \SI{1,5}{\g\per\tonne}$.
+  \item $\ce{[Au]} \approx\SI{1.5}{\g\per\tonne}$.
 \end{itemize}
 
 \bigskip
@@ -721,9 +720,9 @@ L'or est le matériau le plus recyclé, potentiellement à perpétuité.
 
 
 \chapter{L'égyptologie}
-\faitle{20 mars 2012}
 %======================================================================
 
+\faitle{20/03/2012}
 La campagne d'\kmt a permis d'amasser une grande quantité de 
 documents qui ont permis d'aboutir au déchiffrement des h\iero es 
 par \bsc{Champollion} en \ano[0]{1822}.
