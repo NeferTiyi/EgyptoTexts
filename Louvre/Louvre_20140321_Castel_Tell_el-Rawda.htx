@@ -1,0 +1,166 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  calc, 
+  patterns, 
+  arrows, 
+  positioning, 
+  shadows, 
+  decorations.text
+}
+\usepackage{nefermemoir}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+
+\widowpenalty=9999
+\clubpenalty=9999
+
+\counterwithout{figure}{chapter}
+
+% \newenvironment{Figure}
+%   {\par\medskip\noindent\minipage{\linewidth}}
+%   {\endminipage\par\medskip}
+
+\settypeblocksize{22cm}{16cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+\setlength{\columnsep}{2em}
+
+\newcommand{\TeR}{Tell el-Rawda\xspace}
+\newcommand{\CC}{Corinne~\bsc{Castel}\xspace}
+
+\sisetup{
+  % locale           = FR, 
+  % exponent-product = \cdot, 
+  range-phrase     = \ à\ , 
+  % detect-all
+}
+
+
+\newcommand{\DirUtils}{../../../utils}
+\newcommand{\DirImage}{../../../images}
+
+\graphicspath{%
+  {\DirImage/Louvre/}%
+  {\DirImage/Louvre/Tell_el-Rawda/}%
+}
+
+
+% \setfloatadjustment{figure}{\centerfloat}
+% \setfloatadjustment{table}{\centerfloat}
+
+% \newsubfloat{figure}
+
+% % \subcaptionstyle{}
+% \subcaptionfont{\sffamily}
+% \subcaptionlabelfont{\bfseries\sffamily}
+
+% \captionnamefont{\bfseries\sffamily}
+% \captiontitlefont{\sffamily}
+% \captiondelim{~-- }
+
+% \newcommand{\CaptionNormal}{%
+%   \captionwidth{0.75\linewidth}
+%   \changecaptionwidth
+%   \hangcaption
+% }
+% \newcommand{\CaptionPetit}{%
+%   \normalcaptionwidth
+%   \normalcaption
+% }
+
+\renewcommand{\figurerefname}{fig.}
+
+\input{\DirUtils/TitlepageLouvre}
+\input{\DirUtils/HeadingsLouvre}
+
+\pagestyle{ruled}
+
+%======================================================================
+\title{\uline{Aux premiers temps\\de l'urbanisme} :\\\TeR}
+\short{\TeR}
+% \subtitle{Une ville neuve du III\ieme millénaire dans la 
+%           steppe désertique de Syrie}
+\subtitle{Une ville neuve du III\ieme\newline millénaire dans la 
+          steppe\newline désertique de Syrie}
+\lecturer{\CC}
+% \orga{CNRS, Maison de l'Orient et de la Méditerranée, Lyon}
+\orga{CNRS, Maison de l'Orient\newline et de la Méditerranée, Lyon}
+\author{Sonia~\bsc{Labetoulle}}
+\date{Vendredi 21 mars}
+\saison{2013}{2014}
+\logo{Ifpo-tell-rawda-carte-geophysique-fig-2}
+
+\hypersetup{%
+  pdftitle  = {\TeR}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\CaptionNormal
+
+\thispagestyle{empty}
+
+\vspace*{\stretch{2}}
+
+\begin{encadre}
+  Après avoir passé quatre ans à Damas (Syrie), entre \ano[0]{1989} 
+  et \ano[0]{1993}, en tant que pensionnaire scientifique à 
+  l'Institut Français d'Archéologie du \PO, \CC est entrée au CNRS 
+  en \ano[0]{1994}, à la Maison de l'Orient et de la Méditerranée, 
+  à Lyon. Actuellement chercheur au laboratoire \og Archéorient \fg, 
+  elle est spécialiste de l'architecture et de l'urbanisme de l'âge du 
+  Bronze, en Méditerranée orientale, et des modes de vie en zone aride 
+  au \PO ancien.
+
+  Elle est directrice de la mission archéologique franco-syrienne 
+  de \TeR, où elle à dirigé des fouilles entre \ano[0]{2002} et
+  \ano[0]{2010}, en collaboration avec le co-directeur syrien de 
+  la mission Nazir~\bsc{Awad}, de la Direction des Antiquités et 
+  des Musées de Syrie. En \ano[0]{2006}, elle s'est vu remettre le
+  \bsc{i}\ier~prix du concours CLIO de la recherche archéologique 
+  française à l'étranger pour ces travaux.
+
+  Entre \ano[0]{2009} et \ano[0]{2013}, elle a coordonné le programme 
+  de recherche financé par l'Agence Nationale de la Recherche 
+  \og \emph{Badiyah}. Villes circulaires du III\ieme millénaire 
+  av.~J.-C. dans les marges arides de Syrie : genèse, développement 
+  et déclin \fg en collaboration avec J.-W.~\bsc{Meyer}, professeur à 
+  l'université de Francfort. Ce programme s'est clôturé en novembre 
+  dernier par un colloque international qu'elle a organisé à Lyon, à 
+  la Maison de l'Orient : \og \emph{\foreignlanguage{english}{Origins, 
+  Structure, Development and Sociology of Circular Cities of Early 
+  Bronze Age Syria}} \fg.
+
+  Auteur de nombreux articles et chapitres d'ouvrage, \CC a publié en 
+  \ano[0]{1992} \emph{Habitat urbain néo-assyrien et néo-babylonien ; 
+  de l'espace bâti à l'espace vécu} et, en \ano[0]{1997}, en 
+  collaboration avec Michel \bsc{al-Maqdissi} et François 
+  \bsc{Ville\-neuve}, les Actes du colloque international \og \emph{La 
+  maison dans la Syrie antique du troisième millénaire au début de 
+  l'Islam ; pratiques et représentations de l'espace domestique} \fg.
+\end{encadre}
+
+\vspace*{\stretch{1}}
+
+\newpage
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

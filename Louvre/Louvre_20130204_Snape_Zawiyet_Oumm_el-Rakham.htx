@@ -1,0 +1,1066 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  calc, 
+  patterns, 
+  arrows, 
+  positioning, 
+  shadows, 
+  decorations.text
+}
+%\usepackage{fancyhdr}
+\usepackage{nefermemoir}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+
+\widowpenalty=9999
+\clubpenalty=9999
+
+\counterwithout{figure}{chapter}
+
+% \newenvironment{Figure}
+%   {\par\medskip\noindent\minipage{\linewidth}}
+%   {\endminipage\par\medskip}
+
+\settypeblocksize{22cm}{16cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+\setlength{\columnsep}{2em}
+
+\newcommand{\ZOR}{Zaouyet Oumm el\nobreakdash-Rakham\xspace}
+% \newcommand{\ZOR}{Zaouyet Oumm el-Rakham\xspace}
+\newcommand{\StS}{Steven~\bsc{Snape}\xspace}
+\newcommand{\zk}{zone~K\xspace}
+
+\sisetup{
+  % locale           = FR, 
+  % exponent-product = \cdot, 
+  range-phrase     = \ à\ , 
+  color            = black
+  % detect-all
+}
+
+
+\newcommand{\DirUtils}{../../../utils}
+\newcommand{\DirImage}{../../../images}
+
+\graphicspath{%
+  {\DirImage/Louvre/}%
+  {\DirImage/Louvre/Zaouyet/}%
+}
+
+
+% \setfloatadjustment{figure}{\centerfloat}
+% \setfloatadjustment{table}{\centerfloat}
+
+% \newsubfloat{figure}
+
+% % \subcaptionstyle{}
+% \subcaptionfont{\sffamily}
+% \subcaptionlabelfont{\bfseries\sffamily}
+
+% \captionnamefont{\bfseries\sffamily}
+% \captiontitlefont{\sffamily}
+% \captiondelim{~-- }
+
+% \newcommand{\CaptionNormal}{%
+%   \captionwidth{0.75\linewidth}
+%   \changecaptionwidth
+%   \hangcaption
+% }
+% \newcommand{\CaptionPetit}{%
+%   \normalcaptionwidth
+%   \normalcaption
+% }
+
+
+\renewcommand{\figurerefname}{fig.}
+
+
+\input{\DirUtils/TitlepageLouvre}
+\input{\DirUtils/HeadingsLouvre}
+
+\pagestyle{ruled}
+
+
+%======================================================================
+\title{\protect\ZOR,\\forteresse du bout du monde}
+% \title{Zaouyet Oumm el-Rakham,\\forteresse du bout du monde}
+\short{\ZOR}
+\subtitle{}
+\lecturer{\StS}
+\orga{Université de Liverpool}
+\author{Sonia~\bsc{Labetoulle}}
+\date{Lundi 4 février}
+\saison{2012}{2013}
+\logo{nebre}
+
+\hypersetup{%
+  pdftitle  = {\ZOR, forteresse du bout du monde, \StS}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\CaptionNormal
+
+
+\begin{comment}
+The title of my lecture is "The fortress at the end of the world" 
+and I want to do two things. The first is to introduce you to the site 
+of Zawiyet Umm el-Rakham and try to explain its historical and 
+geographical context. The second is to discuss various types of 
+evidence from the site which can help us to understand how the 
+population of this fortress lived including the relationship of its 
+inhabitants with the local population. 
+\end{comment}
+
+\thispagestyle{empty}
+
+\vspace*{\stretch{2}}
+
+\begin{encadre}
+  \textbf{\StS} a fait ses études d'égyptologie à l'Université de 
+  Liverpool de \ano[0]{1978} à \ano[0]{1981}. En \ano[0]{1986}, il 
+  a obtenu un \nospace{Ph.D}, sa thèse portant sur les fouilles de
+  John~\bsc{Gars\-tang} à Abydos (\anorange{1906}{1909}).
+  Nommé \emph{lecturer} en archéologie égyptienne de l'Université 
+  de Liverpool en \ano[0]{1991}, promu \emph{senior lecturer} en 
+  \ano[0]{2001}, il est également directeur du \emph{Garstang Museum 
+  of Archaeology} de l'Université de Liverpool, qui abrite l'une des 
+  plus importantes collection d'antiquités égyptiennes du Royaume-Uni.
+
+  \StS a dirigé des fouilles en \kmt, notamment celles de la tombe 
+  de Kairer à Saqqara et de la tombe d'Ânkhtyfy à Moalla avec ses
+  collègues de Liverpool, mais aussi à Abydos pour le Pennsylvania 
+  University Museum et à Tell Farama, dans le nord du Sinaï, pour 
+  l'\emph{Egypt Exploration Society}. 
+
+  Depuis \ano[0]{1994}, il dirige la mission archéologique de 
+  l'Université de Liverpool à \ZOR.
+
+  Il a publié notamment \emph{\foreignlanguage{english}{Zawiyet Umm 
+  el-Rakham: the Temple and Chapels}} (Rutherford Press, 2007) et 
+  \emph{\foreignlanguage{english}{Ancient Egyptian Tombs: a 
+  Culture of Life and Death}} (Wiley-Blackwell, 2011).
+\end{encadre}
+
+\vspace*{\stretch{1}}
+
+\newpage
+
+\chapter{Contexte historique et géographique}
+
+\begin{figure}[hbt!]
+  \includegraphics[width=1.0\textwidth]{forts_ramses}%
+  \caption{Les fortifications de Marmarique}
+\end{figure}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+The whole area to the west of the Nile valley and the Delta except 
+from the Oases is referred to as by the egyptologists as Libya, and 
+the people there as Libyans. Two major groups of Libyans were known to 
+the Egyptians in the period from the beginning of Egyptian history to 
+the late 18th dynasty: the Tchemay and the Tjehenou. These appear to 
+be semi-nomad people who moved over a wide territory with perhaps a 
+concentration of occupation on the fertile Mediterranean coast.
+\end{comment}
+
+Toute la région à l'ouest de la vallée du Nil -- à l'exception des 
+oasis -- est appelée \emph{Libye} et sa population \emph{Libyens} par 
+les égyptologues. 
+
+Du début de l'histoire égyptienne jusqu'à la \dyn{xviii}, les 
+égyptiens connaissaient deux principaux groupes de libyens : les 
+\emph{Tjéméhous} et les \emph{Tjéhénous}, des semi-nomades occupant 
+un vaste territoire avec peut-être une concentration plus importante 
+sur la côte fertile de la Méditerranée.
+
+\begin{comment}
+However, to an Egyptian soldier or an administrator who lived during 
+the 18th dynasty -- the period of Egypt's greatest imperial power -- 
+the area to the west of Egypt would have seem to be the least 
+significant of Egypt immediate neighbours. It is an area which did 
+not attract (to) Egypt because it did not offer any opportunities for
+economic exploitation. But nor did it offer any threat to the security 
+of Egypt itself. As an area which had neither opportunity nor threat, 
+unlike both of Levant and Nubia which historically had provided plenty 
+of both, Libya was therefore of little interest. It was certainly 
+unworthy of expensive investment in the form of military conquest or 
+the creation of a colonial infrastructure of administration. 
+This situation changed drastically in the period from the reign of 
+Amenhotep III to that of Ramesses II. In that period, Egypt came into 
+contact with new Libyan groups, especially the Meshwesh and the Libu. 
+The origin of these groups is not certain. Perhaps Cyrenaica. But we 
+do know that these groups were real threat to Egypt itself. Their 
+attempted migration into Egypt resulted in major defensive wars 
+under Ramesses II's successor Merenptah and a little later under
+Ramesses III when the survival of the Egyptian state itself was 
+in danger. The threat had been recognised during the reign of
+Ramesses II's father Sethy I and under Ramesses II himself when a 
+new series of fortifications were built for western Delta (desert 
+towns) including Tell el-...yn, ... and Kom el-.... An extension of 
+this west Delta system was the creation of a system of forts or 
+fortress towns along that part of the Mediterranean coast which is 
+referred to as Marmarica.
+\end{comment}
+
+Jusqu'à la \dyn{xviii}, l'\kmt se désintéresse de cette région qui ne 
+présente -- contrairement à la Nubie et au Levant -- ni opportunité 
+économique ni danger.
+La situation change cependant radicalement entre les règnes 
+d'Amenhotep~III et celui de Ramsès~II, quand l'\kmt entre en contact 
+avec de nouveaux groupes de Libyens, particulièrement les 
+\emph{Mechouech} et les \emph{Libous}, qui pourraient être originaires 
+de Cyrénaïque. Ce que l'on sait, c'est que ces groupes représentaient 
+un réel danger et que leur tentative de migration en \kmt a résulté en 
+d'importantes guerres défensives sous Mérenptah et plus tard sous 
+Ramsès~III. Ce danger, identifié déjà sous Séthy~I\ier et Ramsès~II, 
+est à l'origine de la mise en place d'un réseau de fortifications dans 
+le Delta occidental (notamment Tell el-Abqa'in et Kôm el-Hisn), 
+prolongé par un système de villes fortifiées le long le la côte 
+méditerranéenne de la Marmarique.
+
+\begin{comment}
+Zawiyet Umm el-Rakham
+El-Alamein
+Khashm el-Eish
+El-Bordan
+El-Gharbaniyat   
+Kom el-Idris (Marea)
+Rhacotis
+Ezbet Abu-Shawish
+El-Kurum el-Tuwal
+Karm Abu-Girg   
+Tell el-Abqa'in
+El-Barnugi
+Kom Firin
+Kom el-Hisn
+Kom Abu-Billo
+
+The best known site of the Marmarican chain is the fortress town of 
+ZUeR. The site was discovered by chance in 1948. Is was briefly 
+investigated by an Egyptian archaeologist ... in the 1950's and has 
+been subject to the major fieldwork project which I have been 
+directing for the university of Liverpool since 1994.
+\end{comment}
+
+\ZOR{} -- découverte par hasard en \ano[0]{1948} -- est le site le 
+mieux connu de cette chaîne de défense de Marmarique. Étudiée 
+brièvement par Labib~\bsc{Habachi} dans les années cinquante, elle est 
+depuis 1994 l'objet d'un grand programme de fouilles sous la direction 
+de \StS pour le compte de l'Université de Liverpool.
+
+\begin{comment}
+ZUeR is located on the coastal plain which has an average width of 
+20km between the Mediterranean Sea and the high desert of the Libyan 
+plateau. The fortress is in the middle of this coastal plain at a 
+point where it becomes very narrow, about 1km which seems to be a good 
+strategic location to control movement by people along the coast. This 
+is one of the wettest region of Egypt. Although summers are dry, the 
+rainfall's concentrated in the winter season from October to March 
+with a particular concentration in the period from January to 
+February. The rainfall's important for the crop such as barley But the 
+heavy rainfall has resulted in the disappearance of the fortress which 
+was made of mud brick. This image shows the location of the fortress 
+and this image shows the way in which the fortress may have dominated 
+the landscape. Although the walls were probably plastered white rather 
+than black as in this illustration.
+\end{comment}
+
+La plaine côtière de la Marmarique est une étroite bande d'une 
+vingtaine de kilomètres de large entre Méditerranée au nord et désert 
+du plateau libyen au sud. \ZOR est située au milieu de cette plaine, 
+à un endroit où elle se réduit à \SI{1}{\km} de large, ce qui la place 
+en position stratégique pour contrôler les mouvements de population le 
+long de la côte.
+
+Cette région est l'une des plus humides d'\kmt. Les étés sont secs et 
+les précipitations se concentrent en hiver et plus particulièrement en 
+janvier et février. Ces précipitations, propices au développement des 
+cultures et notamment celle de l'orge, ont néanmoins provoqué la 
+destruction de la forteresse, bâtie en briques crues.
+
+% \end{multicols}
+
+
+\chapter{Description générale du site}
+
+\CaptionPetit
+\begin{wrapfigure}[28]{l}{0pt}
+  \includegraphics[width=10cm]{ZURplan}
+  \caption{Plan du site}
+  \label{fig:plan}
+\end{wrapfigure}
+\CaptionNormal
+
+% \begin{multicols}{2}
+
+\begin{comment}
+From the work we have carried out so far, we know that the form of 
+the fortress town was a square 140m along its side with a massive mud 
+brick wall enclosing an area of 19600m2. This enclosure wall is now 
+very badly degraded due to the effects of weathering. However, we 
+know that it was 5m thick which probably indicates an original height 
+of around 8 to 10m. The construction of this wall was a massive 
+undertaking in itself requiring the labour and material to produce 
+between 1.3 and 1.8e6 large bricks. This is just one indication of the 
+serious effort made by the Egyptian state in order to construct and 
+maintain this large fortress town. The fortress also contains a group 
+of impressive buildings which gives further support to the suggestion 
+of intended long term and active occupation.
+\end{comment}
+
+La ville fortifiée formait un carré de \SI{140}{\m} de côté (soit 
+une aire de \SI{19600}{\m\squared}) avec un mur d'enceinte massif 
+en briques crues (et probablement peint en blanc à l'origine), 
+aujourd'hui fortement dégradé à cause des éléments climatiques. 
+L'épaisseur de cette enceinte est de \SI{5}{\m} et suggère une 
+élévation originale de \SIrange{8}{10}{\m} à l'origine. 
+La construction de ce seul mur a nécessité un effort massif en travail 
+et matériaux pour produire entre \num{1.3} et \num{1.8} million de 
+briques de grandes dimensions. Ce qui donne une idée du sérieux de 
+l'effort mis en {\oe}uvre par l'état égyptien pour construire et 
+maintenir cette grande ville fortifiée.
+La forteresse comprend également plusieurs bâtiments impressionnants 
+qui appuient l'idée d'une occupation active et à long terme.
+
+\begin{comment}
+In addition to these buildings, or at least the examples I will 
+present you today, the site has produced a range of evidence which 
+can help us understand the specific function of ZUeR a little better. 
+This evidence concerns the strategic role of ZUeR in the eastern 
+Mediterranean, the ways in which the garrison was able to be self 
+sufficient and interact with the local Libyan population. And also 
+intriguing evidence about the carrier of the commander of the 
+fortress, a man we know to be called Nebre.
+\end{comment}
+
+En outre, le site a livré des indices variés permettant de mieux 
+appréhender le rôle stratégique de \ZOR dans la Méditerranée 
+orientale, la façon dont sa garnison a pu être auto-suffisante et 
+ses interactions avec la population locale, ainsi que la carrière 
+d'un gouverneur nommé Nebrê.
+
+% \end{multicols}
+
+
+\CaptionPetit
+\begin{wrapfigure}[11]{r}{0pt}
+% \begin{figure}[hbt!]
+  \includegraphics[scale=0.6]{ZURgate}
+  \caption{L'entrée nord}
+  \label{fig:entree}
+% \end{figure}
+\end{wrapfigure}
+\CaptionNormal
+
+\chapter{L'entrée nord}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+The first area I would like to direct attention is the main gate of 
+the fortress. I said "main gate", it was the only. It was located in 
+the middle of the northern wall, composed of two now denuded towers of 
+mud brick, originally with some external limestone cladding and with a 
+central corridor wide and floored with substantial slabs of limestone. 
+Although badly damaged and surviving (less than) 1.5m of ... the outer 
+--- that's to say northern faces of this gate --- contain inscriptions 
+which seem to indicate at least part of the agenda for this fortress 
+town. A fragmentary text refers to (menen) fortresses on the hill 
+country of the Tchemay. This is important for several reasons. 
+A (menen) fortress is a large fortress town, not a small simple fort, 
+a description which seems an excellent description of ZUeR. It is also 
+(noteworthy) that the inscription refers to (menen) fortresses in the 
+plural, which suggests other similar fortress towns along the 
+Marmarican coast. A second set of interesting texts is to be found 
+on door jams and door lintels from the area of the main gate. These
+contain short texts which refer to Ramesses II crushing foreign 
+enemies. However, it should be noted that on the door jams which have 
+been recovered to date, and record this activity, only Libyan groups 
+are recorded, especially the Tchemay, the Tjehenou, and the Libu.
+\end{comment}
+
+La première zone d'intérêt est celle de l'unique entrée 
+(\fref{fig:entree} et~\ref{fig:entreedet}), située au milieu du mur 
+nord et composé de deux (\og denuded \fg ?) tours de briques crues 
+et à l'origine dotées d'un parement en calcaire.
+
+Le large corridor central est pavé de grandes dalles de calcaire. 
+Bien qu'en mauvais état, et avec seulement \SI{1.5}{\m} d'élévation 
+conservée, la face externe de cette entrée comporte des inscriptions 
+qui semblent révéler au moins en partie la raison d'être de la 
+forteresse. Un texte fragmentaire fait référence à des forteresses 
+\emph{\og menen \fg} dans les collines du pays des Tjéméhous.
+
+\CaptionPetit
+\begin{wrapfigure}[25]{l}[0.0cm]{0pt}
+  \includegraphics[width=7cm]{ZURentree}
+  \caption{L'entrée nord, détail}
+  \label{fig:entreedet}
+\end{wrapfigure}
+\CaptionNormal
+
+Ce terme désigne non pas un simple fort, mais une ville fortifiée de 
+bonne taille, ce qui semble tout à fait correspondre à \ZOR. On peut 
+également noter que le terme est employé au pluriel, ce qui suggère 
+d'autres villes fortifiées le long de la côte de la Marmarique. Une 
+autre série de textes intéressants se trouve sur les jambages et 
+linteaux et mentionne Ramsès~II écrasant des ennemis étrangers (les 
+éléments mis au jour jusque là ne citent que des groupes libyens, 
+Tjéméhous, Tjéhénous et Libous).
+
+% \end{multicols}
+
+
+\chapter{Temple et chapelles}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+On the western side of the fortress, ... excavated a temple which we 
+later re-excavated in order to record it. This temple is constructed 
+of substantial slabs of limestone and its architectural form is 
+comparable to some contemporary ramesside temples in both Nubia and 
+in Egypt itself, although not of course Abu Simbel. The poor quality 
+limestone has not survived very well though the temple has a number of 
+interesting features such as this 13'03 paved procesionnal route and 
+courtyard with a bark stand. Temple : no inscriptions, no idea which 
+god(s) is (are) worshiped there
+\end{comment}
+
+
+Un temple (\fref{fig:temple}) est situé à l'ouest du site, construit 
+en larges dalles de calcaire et dont la forme architecturale est 
+comparable à celle de temples ramessides contemporains en \kmt et 
+Nubie\footnote{Pas Abou Simbel, \emph{of course} !}. Le calcaire de 
+mauvaise qualité à très mal résisté, mais le temple présente des 
+éléments intéressants, parmi lesquels une voie processionnelle pavée 
+et une cour avec un support de barque.
+Aucune inscription ne permet de savoir à quelle(s) divinité(s) il 
+était dédié.
+
+\begin{comment}
+A group of three small chapels was located ... in the south (?) of 
+the temple. Limestone stelae found here suggest that they were used 
+for private worship by military officers based in ZUeR. The stelea 
+are useful in other ways. It is only difficult to estimate the number 
+of people who lived in ancient settlements. However one useful piece 
+of information which can help us is this stela excavated in ZUeR near
+the temple. Although it is in very poor condition we can identify two 
+officers, each with the title "standard bearer". In the NK, this 
+title identify the commander of a company which in the Ramesside army 
+consisted of between 200 and 250 men. Because two standard bearers 
+are shown together on the stelea it is reasonable to assume that they 
+serve as officers at ZUeR at the same time. And therefore at least two 
+companies were present at ZUeR at one time, making a minimum garrison of 400 to 500 men.
+\end{comment}
+
+Au sud du temple, on trouve un groupe de trois chapelles utilisées 
+comme lieu de culte privé par des officiers en garnison, comme le 
+suggèrent les stèles qui y ont été découvertes.
+Sur l'une d'elles, malgré son mauvais état de conservation, on peut 
+identifier deux officiers portant chacun le titre de 
+\og porte-enseigne \fg (\tl{TAy sry.t} en égyptien). Au \NK, ce titre 
+est porté par les commandants de compagnie, des groupes de deux cents 
+à deux cent cinquante hommes dans les armées ramessides. La présence 
+de ces deux personnages sur une même stèle permet de supposer qu'ils 
+ont servi en même temps en tant qu'officiers à \ZOR. On peut donc 
+estimer à un minimum de quatre cents à cinq cents hommes la garnison 
+de la ville à un moment donné.
+
+% \end{multicols}
+
+
+\chapter{Comptoir commercial}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+A row of nine stoves (?) with entrances facing east fill the space 
+between the temple and the northern wall of the fortress. One of 
+theses produced the first examples of imported non Egyptian pottery 
+in ZUeR. We have since found significant quantities of such pottery 
+including large transport and storage vessels such as these large 
+coarse ... stone (?) jars probably from Greece or Crete or Cyprus and 
+... from somewhere along the Levantine coast. These were used for the 
+movement of goods such as olive oil or wine. Small imports include 
+flasks which are Cypriots or Mycenaean in origin. It is very likely 
+that all of this foreign pottery arrived by sea from some ... as part 
+of the great East Mediterranean maritime trading circuit. This trade 
+route which ran around the coast of the east of the Mediterranean was 
+vital for trading links between Egypt, the Hittite Empire, trading 
+cities of the Levant such as Byblos and Ras Shamra, Mycenae, Greece 
+and Crete. The wide range of origins for the vessels found in ZUeR 
+from almost all the significant trading regions of the late Bronze Age 
+eastern Mediterranean ... ZUeR role as a point on the route around the 
+eastern Mediterranean. It is likely that these material found their 
+way at ZUeR as a form of unofficial customs duty by Mediterranean 
+traders heading from Crete to Egypt refitting or restocking their 
+ships with supplies after a long sea crossing before heading eastwards 
+to Egypt.
+
+Canaanite amphorae, Aegean coarse-ware stirrup-jars and Cypriot 
+base-ring juglets
+\end{comment}
+
+
+Une rangée de neuf magasins dont les entrées font face à l'est 
+remplit l'espace entre le temple et le mur nord. La zone a fournit de
+grande quantité de poterie d'importation, destinées au transport et au 
+stockage de denrées telles que l'huile d'olive ou le vin par exemple. 
+On peut citer des jarres en pierre provenant probablement de Grèce, 
+Crète ou Chypre, ou d'autres récipients~\dots originaires de la côte 
+levantine, et, parmi les pièces de petite taille, des flasques 
+chypriotes ou mycéniennes. Il est très probable que ces importations 
+soient arrivées là par le biais des routes commerciales maritimes de 
+la Méditerranée orientale. Ces routes qui desservent toute la côte 
+orientale de la Méditerranée étaient un lien vital pour le commerce 
+entre l'\kmt, l'empire Hittite, les cités du Levant (Byblos, Ras 
+Shamra), Mycènes, la Grèce et la Crète et \ZOR en était manifestement 
+une étape.
+Il est également probable que ces biens correspondent à des droits de 
+douane non-officiels dont s'acquittaient les marchands voyageant de 
+Crète jusqu'en \kmt et profitant d'une étape pour retaper leurs 
+bateaux et se réapprovisionner avant de poursuivre vers l'est et \kmt.
+
+\begin{comment}
+The importance of this foreign trade suggests a possible reason for 
+the existence of ZUeR. It seems to me that the main function of ZUeR 
+was not primarily to act as a shield against ... invasions from 
+Syrenaica because ... a large garrison in a world defending fortress 
+could not stop such a massive population movement although it could 
+delay its progress. But equally it is so big that you cannot simply 
+be part of an early warning system for such an invasion.
+I believe ZUeR and possibly other fortresses was built to maintain a 
+considerable ... in order to protect this part of the north African 
+coast as a secure and vital element of this east Mediterranean trade 
+system. 
+It is likely that the perceived threat to the integrity of this 
+circuit was the group of new Lybians with their ... increased level of 
+activity in Marmarica, operating to the east of their probable 
+homeland in syreanica. It may well be that these new Lybian groups 
+were threatened rather than participant in this Mediterranean circuit 
+in a way which was not the case with old Chamay, Tjemenu groups. The 
+appearance of an Egyptian presence in the region where non existed 
+earlier should probably be seen in the context of the need to protect 
+the status quo, that's to say an ... access ... mariners as a response 
+to this new and emergent threat.
+\end{comment}
+
+\CaptionPetit
+\begin{wrapfigure}[26]{r}{0pt}
+  \includegraphics[width=7cm]{ZURtemple}
+  \caption{Le temple}
+  \label{fig:temple}
+\end{wrapfigure}
+\CaptionNormal
+
+L'importance de ce commerce extérieur suggère que le rôle principal de 
+\ZOR n'était pas de protéger l'\kmt face aux invasions des libyens de 
+Cyrénaïque. En effet, la garnison, malgré son importance, aurait tout 
+au plus permis de ralentir un mouvement de population aussi massif et 
+la concentration des troupes en un lieu en rendait le contournement 
+aisé. Selon \StS, la forteresse avait plutôt pour mission de protéger 
+le status-quo commercial de la Méditerranée orientale envers lequel 
+l'activité croissante en Marmarique des nouveaux groupes de libyens 
+originaires de Cyrénaïque était perçue comme une menace.
+
+% \end{multicols}
+
+
+\chapter{Production de ressources}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+Area K is the name we've given to a relatively large area of 
+interconnected structures in the south-eastern corner of the site. 
+It seems to have acted as the main area for food production in the 
+site. 
+So we need to consider how the garrison was fed and how it obtained 
+the necessities of life. We should start with water. In 2004 a 
+geomagnetic survey was carried out by Ch. Schweizer (?). This revealed 
+among other things an enormous ditch running south of and parallel to 
+the southern enclosure wall of the site.
+This ditch => several functions, some deliberate and some unfortunate 
+side-effects. It could be a drainage ditch preventing water cascading 
+down from the plateau from washing directly against the southern wall. 
+It could a trap for short term water harvesting which could be 
+especially useful for extra mural agricultural activities. It could be 
+a convenient source for the limestone used in the fortress itself. And 
+could of course be a defensive feature on the southern part of the 
+site.
+\end{comment}
+
+La \zk est une zone relativement étendue, au sud-ouest du site, 
+présentant des structures inter-connectées. C'est, semble-t-il, la 
+principale zone de production de nourriture. 
+
+Un sondage géomagnétique effectué en 2004 a révélé, entre autres 
+choses, un grand fossé au sud du mur d'enceinte sud et parallèle à 
+lui. Il a pu avoir différentes fonctions, délibérées ou non :
+\begin{itemize}
+  \item fossé de drainage pour protéger l'enceinte du ruissellement 
+        des eaux du haut plateau ;
+  \item collecteur d'eau de pluie pour l'agriculture 
+        \emph{extra-muros} ; 
+  \item carrière de calcaire ; 
+  \item élément défensif.
+\end{itemize}
+Ou tout à la fois\dots
+
+\begin{comment}
+But the main southern source of water ... are presumably the ancient 
+source of water was a local aquifer which is found 4m below the 
+surface of the coastal plain.
+excavated 2 wells inside the fortress, one in area K, one close to the 
+temple.
+
+temple well : 4.5m deep, 75cm wide, 200L/h
+\end{comment}
+
+% \end{multicols}
+
+
+\chapter{Accès à l'eau}
+
+% \begin{multicols}{2}
+
+La principale source d'eau était probablement un aquifère situé à 
+\SI{4}{\m} sous la surface\footnote{Cet aquifère est aujourd'hui 
+encore la source d'eau principale dans cette région.}. Deux puits ont 
+été mis au jour, l'un dans la \zk, l'autre près du temple et mesurant 
+\SI{75}{\cm} de diamètre pour \SI{4.5}{\m} de profondeur et d'un débit 
+de \SIrange{150}{200}{\liter\per\hour}.
+
+\begin{comment}
+amount of water required : difficult to assess : basic individual 
+requirements, additional activities (baking, brewing in area K), 
+animals kept in.
+If 500 individuals, 15 to 20L/day => 10000L/day
+A lot ! But based on the productivity of the temple well, if one well 
+is used 10h/day => 1500L
+=> no more than 7 wells needed.
+\end{comment}
+
+Les besoins en eau -- recouvrant à la fois consommation humaine et 
+animale, et activités annexes telles que boulangerie et brassage -- 
+sont très difficiles à évaluer. En considérant une population de 
+cinq cents hommes et une consommation quotidienne de 
+\SIrange{15}{20}{\liter} par personne et par jour, on obtient un 
+volume de \SIrange{7500}{10000}{\liter\per\jour}. Utilisé dix heures 
+par jours, le puits du temple produit entre
+\SIrange[range-phrase=\ et\ ]{1500}{2000}{\liter}. 
+Dans le pire des cas, sept puits de ce type suffisent à couvrir la 
+consommation quotidienne.
+
+% \end{multicols}
+
+
+\chapter{Alimentation}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+diet : mainly grain => bread and beer, a major activity in area K.
+West of K => circular granaries of limestone and mud mortar.
+Only partially excavated. At least 4 granaries. For distribution of 
+grain rations or supply for baking and brewing (K) or both.
+Storage capacity : average diameter 3m, at least 2m heigh => 14m3 
+=> 56m3 for the 4 granaries.
+Ration estimates : ok with Uronarti (7.5L/10days).
+500 men => 3150L.
+=> 150day of rations in ZUeR
+Sickle blades => fields close to the fortress : grain harvested 
+locally.
+animals : goat, sheep dominate, some evidence of pig, small number of 
+fish bones, ostrich egg shells.
+\end{comment}
+
+Le régime alimentaire des habitants de \ZOR était composé 
+principalement de céréales, à la base de la confection de pain et de 
+bière ---~activité très présente en \zk. Des greniers circulaires en 
+calcaire et mortier de terre ---~au moins quatre~--- ont été trouvés 
+à l'ouest de la \zk et ont été partiellement fouillés. Ils devaient
+servir à la distribution des
+rations ou aux boulangeries et brasseries de la \zk, ou les deux. 
+Ils font \SI{3}{\m} de diamètre pour au moins \SI{2}{\m} de haut, 
+soit une capacité de \SI{14}{\cubic\m} ou \SI{14000}{\liter} et
+\SI{56}{\cubic\m} pour les quatre greniers.
+Ces chiffres sont en accord avec des ceux obtenus sur d'autres sites. 
+À Ouronarti, la ration individuelle de grain a été estimée à 
+\SI{7.5}{\liter} pour dix jours. Toujours avec une base de cinq cents 
+hommes, cela nous donne une consommation de \SI{375}{\liter\per\jour}. 
+Les greniers de \ZOR auraient donc permis de stocker près de cinq mois 
+de rations.
+De grandes quantités d'outils utilisés pour la transformation des 
+grains ont été mis au jour dans cette zone.
+Parmi les trouvailles importantes, des lames de faucille montrent que 
+les céréales étaient au moins en partie produites dans des champs 
+proches de la forteresse.
+
+Des ossements d'animaux ont également été retrouvés : les analyses 
+préliminaires ont permis d'identifier chèvre et mouton 
+essentiellement, mais aussi porc, un petit nombre d'arêtes de poisson 
+et coquilles d'\oe ufs d'autruche. Tout ces produits apportaient un 
+peu de variété et des protéines au régime alimentaire des habitants 
+de \ZOR.
+
+% \end{multicols}
+
+
+\chapter{Poterie}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+self sufficient in pottery ? one of the most important questions for 
+future studies
+
+some categories are imported : containers, 
+ * ..., ... jars, chypriot flasks (already seen)
+ * egyptian mud wares (large slender wine amphores, pilgrim flasks, 
+   ovoid milk jars)
+
+most difficult question : 
+vast majority = Nile silt wares (large neck storage vessels, flat 
+based beer jars, variety of flat based, round based dishes, plates and 
+bowls) from several sources, both nilotic and local. => à creuser
+It seems that a great proportion of utilitarian potery was produced at 
+the site itself.
+\end{comment}
+
+Une question importante est de savoir si \ZOR était auto-suffisante 
+pour la poterie.
+
+Certaines catégorie de poterie (\fref{fig:jarres} à~\ref{fig:biere}) 
+étaient clairement importées, de différentes régions de la 
+Méditerranée orientale (jarres crétoises, flasques chypriotes, \dots) 
+ou d'\kmt (grandes amphores à vin élancées, \og gourdes de 
+pèlerin \fg\footnote{\emph{Pilgrim flasks}.}, jarres à lait 
+ovoïdes,~\dots).
+
+Mais la plus grande partie se compose de pièces de \og Nile silt 
+ware \fg (récipients de stockage à large col, jarres à bière à fond 
+plat, divers plat, assiettes et bols à fond plat ou rond), de 
+différentes sources, nilotiques et locales. 
+
+L'étude de ce matériel va occuper une bonne partie du temps de 
+l'équipe dans les années qui viennent mais il semble d'ores et déjà 
+qu'une forte proportion des poteries utilitaires soit produite 
+localement.
+
+% \end{multicols}
+
+\CaptionPetit
+\begin{figure}[hbt!]
+  \centerfloat
+  \begin{minipage}{.48\textwidth}
+    \includegraphics[width=\linewidth]{ZURpots}%
+    \caption{Jarres}
+    \label{fig:jarres}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.48\textwidth}
+    \includegraphics[width=\linewidth]{cyppot}%
+    \caption{Vaisselle}
+  \end{minipage}%
+\end{figure}
+
+  % \bigskip
+
+\begin{figure}[hbt!]
+  \centerfloat
+  \begin{minipage}{.48\textwidth}
+    \includegraphics[width=\linewidth]{canamph}%
+    \caption{Amphore}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.48\textwidth}
+    \includegraphics[width=\linewidth]{ZURjarres}%
+    \caption{Jarres à bière}
+    \label{fig:biere}
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\chapter{Textiles}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+Linen production : spinning bowls (?) in area k, 
+processing might have been done in area k
+spindle whorls (fuseau)
+it is probable that flax cultivation and processing at least attempted 
+on the site 
+conditions climatiques (after winter, fertile soil, temperate climate 
+without rain) => ideal for flax
+\end{comment}
+
+Des \og bols à filage \fg\footnote{\emph{Spinning bowls}.} ainsi que 
+des fuseaux trouvés dans la \zk semble attester que du textile était
+produit sur place. Il est en effet peu probable que les fibres aient 
+été importées.
+La culture du lin a certainement été au moins testée à \ZOR, d'autant 
+que les conditions climatiques y sont propices (sol fertilisé par les 
+pluies hivernales et climat tempéré et sec en été).
+
+% \end{multicols}
+
+
+\chapter{Relations avec les Libyens}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+local prod => how the site functions in its environment
+
+\ZOR : so large, great population
+masse critique de soldats and other workers needed to sustain the 
+fortress town and agricultural land et les défendre
+\ZOR needed to be as self sufficient as possible because > 300km from 
+Nile Delta and difficult to supply
+
+Mais ! si self sufficient, besoin de controler des terres agricoles 
+très étendues hors des murs dont la destruction aurait été un moyen 
+facile et sûr pour les populations locales de détruite la forteresse 
+qu'une attaque directe
+
+Spéculation :
+=> distinction between local (Tjéméhous, Tjéhénous) and incoming and 
+invading Lybian groups (Mechouech, Libous).
+=> local : mutually beneficial relationship with the garrison inside 
+the fortress
+\end{comment}
+
+L'auto-suffisance de la forteresse est lié à la question des relations 
+que la population de \ZOR entretenait avec les populations locales.
+
+Une masse critique de soldats et autres travailleurs était vitale au 
+maintien de la forteresse et de ses terres agricoles dans ce contexte 
+d'isolement (à plus de \SI{300}{\km} du Delta du Nil) qui complique le 
+ravitaillement.
+
+Cependant, l'étendue des terres agricoles nécessaires à 
+l'auto-suffisance d'une importante population est telle que, si des 
+groupes de Libyens voulaient s'attaquer à la présence égyptienne, il 
+leur serait beaucoup plus aisé d'incendier ces champs que de lancer 
+une attaque directe sur les fortifications de \ZOR.
+
+\StS spécule donc une différence de comportement entre les populations 
+libyennes locale (Tjéméhous et Tjéhénous) et les nouveaux groupes 
+venant de Cyrénaïque (Libous et Mechouech). Les premiers auraient 
+entretenu avec la garnison de \ZOR des relations basées sur des 
+bénéfices mutuels. 
+
+% \end{multicols}
+
+
+\chapter{Résidence du gouverneur}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+complex multiroom building => governor residence. private chapel, 
+bedroom, bathroom, storage facilities including ???. 
+
+A commander (the only ?) : Nebre.
+his name and image appear associated with buildings in different parts 
+of the site.
+
+block found out of context : Nebre seated with a woman, offered a 
+floral bouquet by a male figure
+\end{comment}
+
+Proche de la \zk, un bâtiment complexe a été identifié comme la 
+probable résidence du gouverneur. Les fouilles partielles ont permis 
+de dégager une chapelle privée, une chambre, une salle de bain et des 
+systèmes de stockage (amphores).
+
+Un seul gouverneur de \ZOR est connu, Nebrê. Y en a-t-il eu d'autres ?
+
+Un bloc trouvé hors contexte sur le site le montre assis aux côtés 
+d'une femme et un personnage masculin lui tend un bouquet de fleurs.
+
+% \end{multicols}
+
+
+\chapter{Rites funéraires}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+in kmt itself type of scene associated with depictions in a tomb
+=> raises interesting questions 
+What happened to the dead ? back to Egypt ? cemetery inside ? outside ?
+No idea yet : no cemetaries, no tombs founds, unless this block is 
+part of a tomb, no human bodies 
+\end{comment}
+
+En \kmt, ce type de scène est associé aux représentations 
+habituellement rencontrées en contexte funéraire. 
+Or aucune nécropole, aucune tombe (à moins que ce bloc ne provienne 
+d'une tombe), ni même de corps humain n'ont jusque là été trouvés, ni 
+à l'intérieur ni à l'extérieure de la forteresse.
+Les morts étaient-ils rapatriés en \kmt pour y être inhumés ? 
+La question est en suspens.
+
+% \end{multicols}
+
+
+\chapter{Statuaire}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+ private chapel : some of the most exciting finds : 
+ art of the finest quality.
+ \end{comment}
+
+La chapelle privée du palais du gouverneur a livré plusieurs pièces de 
+grande qualité :
+
+\begin{comment}
+* naos, 1m in heigth, limestone
+  outside : nebre, arms raised in worship
+  front : deeply carved figures of ptah and sekhmet, pair of deities 
+  especially associated with Memphis
+  in the form of a little fortress, also typical of Memphis in the NK
+Inscriptions on the doorways of the chapel also mentions Ptah and 
+Sekhmet
+
+Is this a clue that Nebre or the garrison came from Memphis ?
+\end{comment}
+
+\CaptionPetit
+\begin{wrapfigure}[17]{r}{0pt}
+  \includegraphics[height=6cm]{naos}%
+  \caption{Naos}
+  \label{fig:naos}
+\end{wrapfigure}
+\CaptionNormal
+
+\paragraph{Un naos \textnormal{(\fref{fig:naos})} :} \SI{1}{\m} de 
+haut, en calcaire. L'extérieur comporte une représentation de Nebrê 
+les bras levés en signe d'adoration. Des figures de Ptah et Sekhmet 
+en haut-relief en occupe le fond. Ces deux divinités sont 
+particulièrement associées à la ville de Memphis. Le naos est en forme 
+de petite forteresse, ce qui également typique de Memphis au \NK. Ptah 
+et Sekhmet sont aussi mentionnés sur l'entrée de la chapelle. Faut-il 
+en conclure que Nebrê ou sa garnison étaient originaires de cette 
+ville ?
+
+\begin{comment}
+* 2/3 life size statue of Nebre, standing with one leg advanced, 
+  wearing the flowing robe of the high status men from the ramesside 
+  period. He carries a tall staff on the top of which is the head of 
+  the lionness, an image of Sekhmet.
+  Limestone not local, probably from Memphis
+  Carved by a master sculptor, as can be seen in the modeling of the 
+  head and the double wig
+  La plus belle pièce de statuaire privée ramesside (now in Louxor 
+  Museum)
+\end{comment}
+
+\paragraph{Une statue de Nebrê \textnormal{(\fref{fig:nebre})} :} 
+$\slashfrac{2}{3}$ de taille réelle, en calcaire, probablement de 
+Memphis. Le gouverneur est debout, jambe gauche en avant, vêtu de 
+la robe bouffante des personnages de haut rang de l'époque ramesside. 
+Il tient dans sa main droite un grand poteau surmonté d'une tête de 
+lionne figurant Sekhmet. On peut voir dans le modelé de la tête ou à 
+la double perruque que c'est là l'\oe uvre d'un maître sculpteur. Pour 
+\StS, c'est la plus belle pièce de statuaire privée ramesside (elle 
+est aujourd'hui au musée de Louqsor).
+
+\begin{figure}[hbt!]
+  \includegraphics[height=9cm]{nebre2} %
+  \includegraphics[height=9cm]{nebre} %
+  \includegraphics[height=9cm]{nebre5} %
+  \caption{Le gouverneur Nebrê \rem{(Musée de Louqsor, galerie~N)}}
+  \label{fig:nebre}
+\end{figure}
+
+% \end{multicols}
+
+
+\chapter{Nebrê, carrière et mystère}
+
+% \begin{multicols}{2}
+
+\begin{comment}
+naos and statue hold a mystery : 
+front of the apron of the statue : it once had a text now erased. 
+Undoubtedly name and titles of Nebre.
+His name has also been removed from most of the naos. 
+Mais it survived on the back of the statue as part of a long and 
+interesting text
+
+Why was the name removed ? Has Nebre fallen into disgrace ? 
+Intention to replace it by the name of a new commander who never 
+arrived ? No answer yet.
+\end{comment}
+
+Le naos et la statue recèlent un mystère. Le devanteau du pagne 
+comportait un texte aujourd'hui effacé, sans aucun doute le nom et 
+les titres de Nebrê, dont presque toutes les occurrences du nom ont
+également été effacées du naos. Il a cependant survécu dans le long 
+et intéressant texte au dos de la statue.
+Pourquoi cet effacement ? Nebrê est-il tombé en disgrâce ? Son nom 
+devait-il être remplacé par celui de d'un successeur qui n'est jamais 
+arrivé ? Pas d'élément de réponse pour l'instant\dots
+
+\begin{comment}
+Text on the back of the statue : further information on some of the 
+matters we have been considering regarding the supply and the 
+provisionning of the fortress. It is a speech by Nebre, describing 
+some of the good things he has done as a responsible commander at 
+\ZOR, among which : the many ... of grain from the fields, filled 
+with water, with plenty of meat, and more wine than water, the 
+storerooms are full of clothes, and the rooms are filled with wheat. 
+All things which have been found in the archaeological records in 
+different parts of the site
+\end{comment}
+
+Le texte au dos de la statue est un discours de Nebrê dans lequel il 
+raconte ce qu'il a fait de bien en tant que gouverneur responsable. Il 
+vante notamment l'abondance de céréales, d'eau, de viande, de vin plus 
+abondant encore que l'eau, les réserves pleines de vêtements et de 
+blé\dots Il est intéressant de remarquer que tous ces produits ont été 
+trouvés dans différentes parties du site.
+
+% \end{multicols}
+
+\begin{comment}
+\ZOR certainly has more to tell us. I do not know if we'll be able to 
+discover more about Nebrê and his personal history. The future work 
+will, I hope, increase our understanding of this corner of NK kmt and 
+east Mediterranean in the Late Bronze age
+\end{comment}
+
+\chapter{Conclusion}
+
+\ZOR a encore beaucoup à nous apprendre. Peut-être sur son gouverneur 
+Nebrê, en tout cas sur ce coin de l'\kmt du \NK et plus largement sur 
+la Méditerranée orientale de la fin de l'âge du bronze.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

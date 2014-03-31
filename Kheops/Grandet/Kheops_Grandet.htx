@@ -25,10 +25,10 @@
   decorations.text
 }
 \usepackage{multicol}
-\usepackage{ragged2e}
 % \usepackage{minitoc}
 \usepackage{mhchem}
 \usepackage[firstpage=true,angle=0,opacity=0.25]{background}
+\usepackage{nefermemoir}
 \usepackage{nefertiyi}
 \usepackage{arabtex}
 \usepackage{neferhiero}
@@ -165,30 +165,6 @@
   {\DirImage/Barbotin/}%
 }
 
-
-\setfloatadjustment{figure}{\centerfloat}
-\setfloatadjustment{table}{\centerfloat}
-
-\newsubfloat{figure}
-
-% \subcaptionstyle{}
-\subcaptionfont{\sffamily}
-\subcaptionlabelfont{\bfseries\sffamily}
-
-\captionnamefont{\bfseries\sffamily}
-\captiontitlefont{\sffamily}
-\captiondelim{~-- }
-
-\newcommand{\CaptionNormal}{%
-  \captionwidth{0.75\linewidth}
-  \changecaptionwidth
-  \hangcaption
-}
-\newcommand{\CaptionPetit}{%
-  \normalcaptionwidth
-  \normalcaption
-}
-
 \sideparmargin{outer}
 
 \setlength\fboxsep{0.5mm}
@@ -196,24 +172,6 @@
 %\setlength\parskip{1.0\baselineskip}
 
 
-\makeatletter
-  \renewcommand\@memfront@floats{%
-    \counterwithout{figure}{chapter}
-    \counterwithout{table}{chapter}
-  }
-  \renewcommand\@memmain@floats{%
-    \counterwithout{figure}{chapter}
-    \counterwithout{table}{chapter}
-    \counterwithin{figure}{book}
-    \counterwithin{table}{book}
-  }
-  \renewcommand\@memback@floats{%
-    \counterwithout{figure}{chapter}
-    \counterwithout{table}{chapter}
-    \setcounter{figure}{0}
-    \setcounter{table}{0}
-  }
-\makeatother
 
 
 % \makeatletter
@@ -224,6 +182,15 @@
 % }
 % \makeatother
 
+
+\input{\DirUtils/ChapterStyles}
+\input{\DirUtils/TitlepageKheops}
+\input{\DirUtils/HeadingsKheops}
+
+\input{Kheops_Grandet_Glossaire}
+
+\chapterstyle{monchap}
+\pagestyle{ruled}
 
 
 %======================================================================
@@ -242,15 +209,6 @@
 % pdfsubject % pdfcreator % pdfproducer % pdfkeywords
 
 %======================================================================
-
-\input{\DirUtils/ChapterStyles}
-\input{\DirUtils/TitlepageKheops}
-\input{\DirUtils/HeadingsKheops}
-
-\input{Kheops_Grandet_Glossaire}
-
-\chapterstyle{monchap}
-\pagestyle{ruled}
 
 \input{Kheops_Grandet_tikz}
 
