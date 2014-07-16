@@ -1,0 +1,1747 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
+
+% \usepackage{pgf,tikz}
+\usepackage[firstpage=true,angle=0,opacity=0.25]{background}
+\usepackage{skak}
+\usepackage{pdfpages}
+\usepackage{nefermemoir}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+\usetikzlibrary{%
+  backgrounds
+  % calc,
+  % patterns,
+  % arrows,
+  % positioning,
+  % shadows,
+  % decorations.text
+}
+
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+\newcommand{\DirUtils}{../../../utils}
+\newcommand{\DirImage}{../../../images}
+
+\graphicspath{%
+  % {\DirUtils/}%
+  {\DirImage/Kheops/Ete2014/}%
+}
+
+\sideparmargin{outer}
+
+\setlength{\parindent}{0pt}
+\setlength\fboxsep{0.5mm}
+\addtolength{\columnsep}{15pt}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+
+\frenchbsetup{ReduceListSpacing=false,CompactItemize=false}
+
+\input{\DirUtils/ChapterStyles}
+\input{\DirUtils/TitlepageKheops}
+\input{\DirUtils/HeadingsKheops}
+
+% \input{Kheops_Grandet_Glossaire}
+
+% \chapterstyle{daleif3}
+% \chapterstyle{monchap}
+\pagestyle{ruled}
+
+\addbibresource{\DirUtils/Hiero.bib}
+
+
+%======================================================================
+\title{Les \TP}
+\short{Les \TP}
+% \subtitle{de la Préhistoire au \NK}
+\subtitle{Pyramide d'Ounas (\dyn{v}), \mbox{Saqqara}}
+\orga{Cours de \textsf{l'\IK} par}
+\lecturer{\PG}
+\author{Sonia~\bsc{Labetoulle}}
+\date{du 7 au 11 juillet 2014}
+
+\hypersetup{%
+  pdftitle  = {Les \TP, cours de \PG à l'\IK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\backgroundsetup{%
+  % position  = current page.north,
+  % contents  = \includegraphics{DeB_Hathor},
+  contents  = \includegraphics{ounas_AW_mur},
+  scale     = 0.6
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\input{\DirUtils/NeferBabel}
+
+\thispagestyle{empty}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TextHieroglyphs
+
+\frontmatter
+\tableofcontents*
+
+\mainmatter
+
+\chapter{Introduction}
+
+La pyramide d'Ounas est la première pyramide inscrite. Les \TP sont 
+répartis dans l'ensemble de ces espaces (\fref{fig:plan}).
+
+Il s'agit d'un assemblage de sections, abordant différents thèmes, 
+en lien avec leur emplacement dans la pyramide. Parmi eux, la survie 
+après la mort -- celle du roi uniquement à cette époque, on n'a pas 
+d'information sur le reste de la population. Non seulement le roi doit 
+survivre, mais également continuer à rester roi : la mort n'efface pas 
+le statut.
+
+La partie du texte étudiée ici -- chapitres 247 à 255 -- est 
+inscrite sur le mur ouest de l'antichambre (\fref{fig:mur}).
+C'est la publication synoptique de Sethe \autocite{TP} qui servira 
+de source pour les h\iero es. Un extrait est donné en annexe 
+(\Sref{sec:TP}).
+
+La grammaire est essentiellement celle du moyen égyptien, avec très 
+peu de déterminatifs, mutilés lorsqu'ils pourraient être dangereux.
+
+
+\begin{figure}
+  \centerfloat
+  \includegraphics[width=0.4\paperwidth]{ounas_plan}
+  \caption{Répartition des \TP dans la pyramide d'Ounas}
+  \label{fig:plan}
+\end{figure}
+
+\begin{figure}
+  \centerfloat
+  \includegraphics[width=0.6\paperwidth]{ounas_AW_pignon}
+
+  \medskip
+
+  \includegraphics[width=0.6\paperwidth]{ounas_AW_mur}
+  \caption{Mur ouest de l'antichambre de la pyramide d'Ounas}
+  \label{fig:mur}
+\end{figure}
+
+\chapter{Traduction}
+
+\section{Chapitre~247}
+
+\begin{hierobox}
+  \tl{\lgn{257\,a} Dd-mdw : jr\col n n=k sA=k @r}
+
+  \tg{accompli}
+
+  \td{Ton fils Horus a agit pour toi, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} sdA wr.w mAA\col n=sn Sa.t jmy.t a=k}
+
+  \tg{prospectif complétif / accompli séquentiel}
+
+  \td{de sorte que tremblent les grands ayant vu le couteau qui est 
+      dans ta main}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{c} pr=k m \_wA.t}
+
+  \tg{aoriste séquentiel}
+
+  \td{chaque fois que tu sors de la Douat.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{258\,a} jnD Hr=k sAAj}
+
+  \tg{}
+
+  \td{Salut à toi, \og toi qui es repus \fg\footnotemark{} !}%
+\end{hierobox}
+\footnotetext{Sage.}
+
+\begin{hierobox}
+  \tl{\lgn{b} omA\col n Tw Gb, ms\col n Tw PsD.t}
+
+  \tg{accomplis}
+
+  \td{Geb t'a donné forme et l'Ennéade t'a modelé.}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item \tl{msj} peut s'employer pour \og sculpter \fg (des 
+          portraits).
+    \item Atoum, Chou, Tefnout, Geb, Nout, Osiris, Isis, Seth et 
+          Nephthys composent l'Ennéade héliopolitaine.
+          \tl{psD.t} vaut-il pour ces neuf dieux ou pour tous les 
+          dieux ?
+    \item Geb est la terre, Osiris une métaphore de l'agriculture.
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} \zero Htp(=w) @r Hr jt=f \zero Htp(=w) Tm(w) Hr rnp.wt=f}
+
+  \tg{accomplis}
+
+  \td{Horus est satisfait de son père et Atoum de son long règne 
+      (\litt ses années).}%
+\end{hierobox}
+
+\begin{remarque}
+  Atoum = \og totalité \fg, c'est le seigneur de la durée
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{d} \zero Htp(=w) nTr.w jAb.t jmn.t Hr Wr.t}
+
+  \tg{accompli}
+
+  \td{Les dieux de l'Orient et de l'Occident sont satisfait de la 
+      Grande\footnotemark}%
+\end{hierobox}
+\footnotetext{Une déesse, une étoile, liée au devenir céleste du roi.}
+
+\begin{hierobox}
+  \tl{xpr=t(j) m-Xnw a.w(y) msw.t nTr}
+
+  \tg{accompli}
+
+  \td{qui est apparue entre les bras de celle\footnotemark{} qui a 
+      enfanté le dieu\footnotemark}%
+\end{hierobox}
+\addtocounter{footnote}{-1}
+\footnotetext{Nout}
+\addtocounter{footnote}{+1}
+\footnotetext{Rê}
+
+\begin{hierobox}
+  \tl{\lgn{259\,a} Wnjs pj Wnjs mAA \ex{} Wnjs pj Wnjs ptr \ex}
+
+  \tg{impératifs précédés de vocatifs}
+
+  \td{Ô Ounas que voici, vois ! Ô Ounas que voici, regarde !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} Wnjs pj sDm \ex{} Wnjs pj Wnjs wn jm \ex}
+
+  \tg{impératifs précédés de vocatifs}
+
+  \td{Ô Ounas que voici, entends ! Ô Ounas que voici, sois là !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{260\,a} Wnjs pj Wnjs Tsw Hr gs=k \ex{} jr wD \ex}
+
+  \tg{vocatif, impératifs}
+
+  \td{Ô Ounas que voici, dresse-toi sur ton côté ! Obéis 
+      (\litt accomplis l'ordre) !}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item \tl{pj} peut remplacer \tl{pw} dans ses deux emplois
+    \item Dans la mort, il faut retrouver les usages corporels
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} msDD(w) odd sbAgy aHa jmy Ndy.t \ex}
+
+  \tg{impératif encadré par des vocatifs}
+
+  \td{Ô toi qui déteste le sommeil\footnotemark, qui a été rendu 
+      faible\footnotemark, lève-toi, toi qui es dans \emph{Nédyt} !}%
+\end{hierobox}
+\addtocounter{footnote}{-1}
+\footnotetext{Euphémisme pour la mort.}
+\addtocounter{footnote}{+1}
+\footnotetext{Osiris.}
+
+\begin{hierobox}
+  \tl{\lgn{c} \zero jr(=w) t=k nfr m P \zero Ssp(=w) sxm=k m Jwnw}
+
+  \tg{accomplis}
+
+  \td{Ton bon pain a été fait dans Pé, ton pouvoir a été 
+      reçu\footnotemark{} dans Héliopolis}%
+\end{hierobox}
+\footnotetext{Accepté, reconnu.}
+
+\begin{hierobox}
+  \tl{\lgn{261\,a} @r pw \zero wD(=w) n=f jr.t n jt=f}
+
+  \tg{accompli}
+
+  \begin{gramrule}
+    \td{%
+      \hspace{0pt}
+      \begin{possib}
+        Horus que voici, \\
+        cela signifie qu'Horus, \\
+      \end{possib}
+      il lui a été ordonné d'agir pour son père
+    }%
+  \end{gramrule}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{nb or js sAH mdw(w) n=f jsd \%tX}
+
+  \tg{}
+
+  \td{car c'est le seigneur de l'orage qui approche, surnommé 
+      \og bave de Seth \fg.}%
+\end{hierobox}
+
+\begin{remarque}
+  \tl{js} est d'habitude une particule enclitique renforçant le 
+  rapport de causalité. Dans les \TP, il peut être employé comme 
+  post-position signifiant \emph{comme}.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} wTs=f Tw swt\footnotemark{} wTs=f Tm(w)}
+
+  \tg{argumentative avec sujet au prospectif / PPN}
+
+  \td{C'est parce que c'est lui qui pourvoit aux besoins d'Atoum, 
+      qu'il pourvoira à tes besoins.}%
+\end{hierobox}
+\footnotetext{\tl{swt} = pronom indépendant ancien}
+
+
+\section{Chapitre~248}
+
+\begin{hierobox}
+  \tl{\lgn{262\,a} Dd-mdw : Wnjs pj aA(=w) pr\col n Wnjs jmyt(w) 
+      mn.ty PsD.t}
+
+  \tg{argumentative avec forme nominale perfective}
+
+  \td{C'est d'entre les cuisses de l’Ennéade qu'Ounas est sorti.}%
+\end{hierobox}
+
+\begin{remarque}
+  \tl{aA} dans le sens de \emph{ici} n'est pas attesté avant le \MK.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} \zero jwr(=w) Wnjs jn \%xm.t / 
+      jn \Smaj smt.t ms(w).t Wnjs}
+
+  \tg{accompli / PPN argumentative}
+
+  \td{Ounas a été conçu par Sekhmet\footnotemark{} et c'est 
+      Chesemtet\footnotemark{} qui a modelé Ounas, }%
+\end{hierobox}
+\addtocounter{footnote}{-1}
+\footnotetext{Sekhmet est parfois appelée \og \oe il de Rê \fg. Elle 
+en est une émanation, sa lumière.}
+\addtocounter{footnote}{+1}
+\footnotetext{Chesemtet est une ceinture divinisée. Il y a peut-être 
+un jeu graphique entre ses trois pans et le signe 
+\begin{hieroglyph}ms\end{hieroglyph}.}
+
+\begin{hierobox}
+  \tl{\lgn{263\,a} sbA spd-HA.t Aw-Sm.t}
+
+  \tg{constructions \tl{nfr-Hr}}
+
+  \td{étoile\footnotemark{} à l'apparence permanente (\litt pointue), 
+      au vaste parcours}%
+\end{hierobox}
+\footnotetext{Le roi.}
+
+\begin{remarque}
+  \tl{spd-Hr} = qui regarde en face, attentif.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{jnn(w) xr.t Hr=t(j) n Ra ra nb}
+
+  \tg{participe imperfectif actif, accompli séquentiel}
+
+  \td{qui va chercher des nouvelles lointaines pour Rê chaque jour.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} jj\col n Wnjs r s.t=f tp(y).t nb.ty xa(=w) Wnjsm sbA}
+
+  \tg{argumentative, accompli}
+
+  \td{Ounas n'est venu à son trône qui est posé sur les deux 
+      maîtresses que parce qu'il est apparu comme une étoile.}%
+\end{hierobox}
+
+\begin{remarque}
+  \fbox{P}\fbox{sou}\fbox{se}\fbox{n}\fbox{nè}s = 
+  \tl{\fbox{pA}-\fbox{sbA}-\fbox{xa=w}-\fbox{m}-\fbox{Njw.t}}
+\end{remarque}
+
+
+\section{Chapitre~249}
+
+\begin{hierobox}
+  \tl{\lgn{264\,a} Dd-mdw : j jAA.wy, Dd \og my \fg n Spsj m rn=f pw}
+
+  \tg{discours direct à l'impératif}
+
+  \td{Ô les deux combattants \footnotemark{}, dîtes 
+      \og Viens ! \fg au noble \footnotemark{} en ce sien nom, }%
+\end{hierobox}
+\addtocounter{footnote}{-1}
+\footnotetext{Horus et Seth.}
+\addtocounter{footnote}{+1}
+\footnotetext{Le roi.}
+
+\begin{remarque}
+  \og \tl{m rn=f pw} \fg, \og comme son nom l'indique \fg : appelle 
+  normalement un jeu de mots
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} Wnjs pj nw n(y) SsSs wbx(w.w) m tA}
+
+  \tg{PPN séquentielle}
+
+  \td{car cet Ounas, ce sont ces papyrus qui s'épanouissent hors de la 
+      terre.}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item PPA + PPN : lien de cause à effet
+    \item Le jeu de mots attendu serait entre \tl{Spsj} et \tl{SsSs}
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} \zero wab(=w) a Wnjs jn jr(w) s.t=f}
+
+  \tg{accompli}
+
+  \td{La main d'Ounas a été purifiée par celui qui a fait sa place.}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item \tl{wab} est normalement intransitif, mais transitif ici 
+          (complément d'agent introduit par \tl{jn}) !?
+    \item Qui est \og \tl{jr(w) s.t=f} \fg{} ? Jeu graphique 
+          avec \tl{Wsjr}, \flech{} \og celui qui préparé sa 
+          succession \fg{} ?
+    \item À qui correspond la notion de purifier la main d'Ounas ?
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{265\,a} Wnjs pj r Sr.t \%xm-wr}
+
+  \tg{PPA}
+
+  \td{Cet Ounas s'offre à (\litt est tourné vers) la narine de 
+      Sékhemour\footnotemark.}%
+\end{hierobox}
+\footnotetext{Une émanation de Rê.}
+
+\begin{hierobox}
+  \tl{\lgn{b} jj\col n Wnjs m jw nsjsj \lgn{c} d\col n Wnjs MAa.t 
+      jm=f m s.t Jsf.t}
+
+  \tg{argumentative}
+
+  \td{Ounas n'est venu de l'île de l'embrasement\footnotemark{} 
+      qu'après y avoir placé Maât à la place de l'Iséfet.}%
+\end{hierobox}
+\footnotetext{Venir de l'île de l'embrasement = naître.}
+
+\begin{remarque}
+  \begin{itemize}
+    \item \tl{jw nsjsj}, \emph{île} ou \emph{lac de l'embrasement} = 
+          toponyme fréquent : là où le soleil se lève. Rougit par le 
+          feu, mais aussi par le sang des ennemis de Rê.
+    \item \tl{nsjsj} : thème en n1212, onomatopée transformée en 
+          verbe. Ici le bruit du feu ?
+    \item Phénomène linguistique : \tl{r} final \flech \tl{j} : 
+          \tl{xpr} \flech \tl{xpj} (\og shopé \fg en copte)
+    \item L'opposition Maât / Iséfet n'apparaît pas au \NK, mais est 
+          déjà là à l'\OK. Au \MK, c'est \tl{grg}, \emph{mensonge}, 
+          qui est employé à la place de \tl{Jsf.t}.
+    \item Quelle est l'étymologie de \tl{jsf.t} ? Est-ce lié à un 
+          acte de parole, en rapport avec la notion de contestation 
+          (cf la \emph{Vache du Ciel}) ? Ce serait cohérent avec 
+          l'emploi de \tl{grg}.
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{d} Wnjs pj r sSr.w sAA(w.w) jar.wt}
+
+  \tg{PPA}
+
+  \td{Cet Ounas est destiné aux ornements (en tissu)\footnotemark{} 
+      que les ur\ae us protègent.}%
+\end{hierobox}
+\footnotetext{Vêtements royaux ?}
+
+\begin{hierobox}
+  \tl{\lgn{e} grH pw n(y) Agbj wr pr(w) m Wr.t}
+
+  \tg{}
+
+  \td{En cette nuit du grand flot sorti de la Grande\footnotemark, }%
+\end{hierobox}
+\footnotetext{Certainement la vache mythologique \tl{MH.t-wr.t}, 
+\emph{\og la grande pleine \fg}, Méthyer en grec.}
+
+\begin{remarque}
+  À quoi correspond la \og nuit du grand flot \fg ? La crue existe car 
+  le roi gouverne.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{266\,a} \zero xa(=w) Wnjs m Nfr-Tm(w) m sSsn r Sr.t Ra}
+
+  \tg{accompli}
+
+  \td{Ounas est apparu en tant que Néfertoum\footnotemark, en tant que 
+      lotus à la narine de Rê\footnotemark.}%
+\end{hierobox}
+\addtocounter{footnote}{-1}
+\footnotetext{Néfertoum est une plante divinisée, un symbole de 
+protection.}
+\addtocounter{footnote}{+1}
+\footnotetext{cf \tl{\%xm-wr}, \ref{}}
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{b} %
+      pr=f m Ax.t ra nb
+      \begin{possib}
+        wab=w\\
+        wabw\\
+      \end{possib}
+      nTr.w n(y) mAA=f
+    }
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{%
+      aoriste séquentiel /
+      \begin{possib}
+        accompli\\
+        prospectif ancien\\
+      \end{possib}
+    }
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{%
+      Quand il sort de l'horizon chaque jour, 
+      \begin{possib}
+        purifiés sont les dieux\\
+        de sorte que les dieux sont purifiés\\
+      \end{possib}
+      quand ils le voient.
+    }%
+  \end{gramrule}%
+\end{hierobox}
+
+\begin{remarque}
+  L'ouverture des fleurs de lotus est liée au lever du soleil (tête 
+  de Toutânkhamon (\musee{Le Caire}), \fref{fig:lotus})
+\end{remarque}
+
+\begin{figure}
+  \centerfloat
+  \includegraphics[height=6cm]{tout_lotus_1}
+  \caption{Toutânkhamon émergeant d'une fleur de lotus 
+           \rem{(\musee{Le Caire})}}
+  \label{fig:lotus}
+\end{figure}
+
+
+\section{Chapitre~250}
+
+\begin{hierobox}
+  \tl{\lgn{267\,a} Dd-mdw : Wnjs p(j), Hr(y) kA.w \zero{} / dmD(w) 
+      jb.w \zero{} / n Hr(y)-sA wr}
+
+  \tg{thématisation + PPNs à sujet \zero}
+
+  \td{Cet Ounas, c'est quelqu'un qui est supérieur aux \emph{kas}, 
+      qui réunit les esprits pour le grand maître de la
+      sagesse\footnotemark, }%
+\end{hierobox}
+\footnotetext{Sûrement Rê}
+
+\begin{hierobox}
+  \tl{\lgn{b} Xr(y) mDA.t nTr \zero{} / \%jA jmnt(y) Ra \zero}
+
+  \tg{PPNs à sujet \zero}
+
+  \td{celui qui porte le livre divin, Sia qui est à la droite de Rê.}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{minipage}[t]{0.65\textwidth}%
+    Sia, comme Hou, est une abstraction divinisée, l'un des attributs 
+    du dieu suprême. Ils sont confiés au roi lorsqu'il est choisi pour 
+    régner. Sia est la connaissance, Hou la capacité à donner des 
+    ordres suivis d'effet.
+  \end{minipage}%
+  \hfill%
+  \begin{tikzpicture}[baseline=(O.base)]
+    \coordinate (O) at (0.0,1.8) ;
+
+    \draw (0,0) -- ++ (60:2) 
+          node [above] {\WhiteKingOnWhite} -- ++ 
+          (-60:2) -- cycle ;
+    \draw [->, >=latex, shift={(-0.5,0.0)}]
+          (0,0) -- ++ (60:2) node [pos=0.5, left] {Sia} ;
+    \draw [->, >=latex, shift={(0.5,0.0)}]
+          (0,0) ++ (60:2) -- ++ (-60:2) 
+           node [pos=0.5, right] {Hou} ;
+    \draw [densely dashed]
+          (0,0) ++ (60:2) ++ (-60:0.3) -- ++ (180:0.3) ;
+    \draw [densely dashed]
+          (0,0) ++ (60:2) ++ (-60:1.3) -- ++ (180:1.3) ;
+    \node at (1.0,0.3) {\tls{rxy.t}} ;
+    \node at (1.0,1.0) {\tls{pa.t}} ;
+  \end{tikzpicture}%
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} jj\col n Wnjs r s.t=f Hr(y).t kA.w / dmD Wnjs jb.w (n) 
+      Hr(y)-sA wr\uwave{.t} / \lgn{d} xpr r Wnjs m \%jA xr(y) mDA.t 
+      nTr jmnt(y) Ra}
+
+  \tg{argumentative, deux prospectifs}
+
+  \td{Ounas n'est venu à sa place qui est au-dessus des \emph{kas} 
+      qu'afin qu'Ounas réunisse les esprits pour le grand maître de 
+      sagesse, qu'Ounas devienne Sia qui porte le livre divin et est 
+      à la droite de Rê.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{268\,a} nDD(w) m-a Wnjs \zero{} / \lgn{b} jn Wnjs Dd(w) 
+      jm(y).t jb Wr.t m Hb jns}
+
+  \tg{PPN à sujet \zero avec participe passif perfectif archaïque / 
+      PPN argumentative}
+
+  \td{Comme c'est ce qui a été demandé à Ounas, c'est Ounas qui dit 
+      ce qui est dans le c\oe ur de la Grande lors de la fête du tissu 
+      rouge.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{c} Wnjs pj Wnjs pj SjA jmnt(y) Ra \zero}
+
+  \tg{PPN à sujet \zero séquentielle}
+
+  \td{Car cet Ounas, cet Ounas, c'est Sia qui est à la droite de Rê, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{d} snk-jb xnt(y) TpH.t Nw.w}
+
+  \tg{construction en \tl{nfr-Hr}}
+
+  \td{celui à l'esprit impénétrable qui préside à la caverne du flot.}%
+\end{hierobox}
+
+\begin{remarque}
+  \tl{snk} = notion de \emph{hauteur}, \emph{sombre}, 
+  \emph{vorace}, \dots Ici, ce doit être positif car lié aux bienfaits 
+  de l'inondation.
+\end{remarque}
+
+
+\section{Chapitre~251}
+
+\begin{hierobox}
+  \tl{\lgn{269\,a} Dd-mdw : j Hr(y).w wnw.wt tp(y.w) a.wy Ra, jry wA.t 
+      n Wnjs \ex}
+
+  \tg{impératif précédé de vocatifs}
+
+  \td{Ô vous qui présidez aux (\litt êtes sur) heures\footnotemark{} 
+      et précédez Rê, faites un chemin pour Ounas !}%
+\end{hierobox}
+\footnotetext{Génies coutiliers.}
+
+\begin{remarque}
+  Allusion aux constellations visibles avant le lever du soleil 
+  (décans).
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} swA Wnjs m-Xnw pXr.t n(y).t aHa.w-Hr}
+
+  \tg{prospectif}
+
+  \td{Qu'Ounas passe au milieu de la patrouille de ceux au visage 
+      guerrier\footnotemark}%
+\end{hierobox}
+\footnotetext{Génies protecteurs.}
+
+\begin{hierobox}
+  \tl{\lgn{270\,a} jw Wnjs r s.t=f tw xnt(y.t) s.wt HA nTr 
+      d(=w) tp \lgn{b} DbA(w) Hnw.t spd.t nxt(.t)}
+
+  \tg{}
+
+  \td{Ounas va vers cette place qui est la sienne, la première des 
+      places derrière le dieu doté d'une tête ornée d'une forte corne 
+      pointue}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{c} Xr(y) jsds spd swA(w) Ht(y).t}
+
+  \tg{}
+
+  \td{et qui porte un couteau aiguisé qui coupe les gorges.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{d} wDa(w).t Snw m tp kA, sAh d(w).t jm(y).w kkw 
+      \lgn{e} Hnw.t wsr.t HA(y).t nTr aA \zero}
+
+  \tg{deux syntagmes avec participes actifs imperfectifs en 
+      thématisation d'une PPN à sujet \zero}
+
+  \td{Car ce qui retranche les difficultés de la tête du 
+      taureau\footnotemark{} et qui fait trembler ceux qui sont 
+      dans les ténèbres, c'est une corne puissante qui protège le 
+      grand dieu.}%
+\end{hierobox}
+\footnotetext{Dieu ou roi ?}
+
+\begin{hierobox}
+  \tl{\lgn{271\,a} jw \zero dA\col n Wnjs ssw / 
+      \zero sqd\col n Wnjs HA.t=sn}
+
+  \tg{accomplis}
+
+  \td{Ounas a dénoué les verrous, Ounas a frappé leurs extrémités.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} n xsf a n(y) Wnjs m Ax.t}
+
+  \tg{négation existentielle}
+
+  \td{Il n'y a pas d'opposition à l'activité (\litt au bras) d'Ounas 
+      dans l'horizon.}%
+\end{hierobox}
+
+
+\section{Chapitre~252}
+
+\begin{hierobox}
+  \tl{\lgn{272\,a} Dd-mdw : fA Hr=Tn nTr.w jmy.w \_wA.t \ex}
+
+  \tg{impératif}
+
+  \td{Levez vos visages, dieux\footnotemark{} qui êtes dans la 
+      Douat !}%
+\end{hierobox}
+\footnotetext{Les morts.}
+
+\begin{remarque}
+  Dans \begin{hieroglyph}d-wA-t:ra#dwA\s2\end{hieroglyph}, 
+  \begin{hieroglyph}ra#dwA\s1\end{hieroglyph} n'est pas un 
+  déterminatif de Douat, mais vaut pour \tl{dwa}, \emph{étoile}. 
+  On parle de \emph{déterminatif graphique} \autocite[Chap.~2.4]{GM}.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} jj\col n Wnjs mA=Tn sw xpr(=w) m nTr aA}
+
+  \tg{argumentative, accompli séquentiel}
+
+  \td{Ounas n'est venu qu'afin que vous le voyiez métamorphosé en 
+      grand dieu\footnotemark.}%
+\end{hierobox}
+\footnotetext{Osiris, le roi des morts}
+
+\begin{hierobox}
+  \tl{\lgn{c} j-bs Wnjs m sdA \ex{} 
+      DbA Wnjs \lgn{273\,a} m nb=Tn r-Dr=Tn \ex}
+
+  \tg{impératif avec \tl{j} prothétique, impératif}
+
+  \td{Introduisez Ounas en tremblant ! Habillez Ounas en tant que 
+      votre maître à tous !}%
+\end{hierobox}
+
+\begin{remarque}
+  Avec \begin{hieroglyph}nb\end{hieroglyph} à la place de 
+  \begin{hieroglyph}k\end{hieroglyph} (TLA).
+\end{remarque}
+
+\begin{hierobox}
+  \tl{wD Wnjs n rmT}
+
+  \tg{argumentative}
+
+  \td{C'est aux gens qu'Ounas donnera des ordres.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} wDA Wnjs mdw n anx.w m-Xnw jdb Ra}
+
+  \tg{argumentative}
+
+  \td{C'est pour les vivants qu'Ounas prononcera des jugements à 
+      l'intérieur de la rive de Rê.}%
+\end{hierobox}
+
+\begin{remarque}
+  \tl{jdb.wy}, \emph{les deux rives}, désigne l'\kmt, mais 
+  \tl{jdb Ra} ?
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} Dd Wnjs r jdb pw wab jr\col n=f Hms=f jm Hna wp(w) 
+      nTr.wy}
+
+  \tg{argumentative}
+
+  \td{C'est à cette rive pure où il a établit son trône qu'Ounas 
+      délibérera avec celui\footnotemark{} qui a séparé les deux 
+      dieux ;}%
+\end{hierobox}
+\footnotetext{Thot, le vizir des dieux}
+
+\begin{hierobox}
+  \tl{\lgn{274\,a} sxm Wnjs jr-tp=f / Ams Wnjs twr=f Wnjs}
+
+  \tg{argumentative}
+
+  \td{C'est face à lui\footnotemark{} qu'Ounas aura préséance, 
+      c'est pour qu'il\footnotemark{} respecte Ounas qu'Ounas 
+      brandira le sceptre \emph{amès}.}%
+\end{hierobox}
+\addtocounter{footnote}{-1}
+\footnotetext{Thot}
+\addtocounter{footnote}{+1}
+\footnotetext{idem}
+
+\begin{hierobox}
+  \tl{\lgn{b} Hms Wnjs Hna Xnn(w).w Ra}
+
+  \tg{argumentative}
+
+  \td{C'est avec les rameurs de Rê (\litt ceux qui convoient Rê à la 
+      rame) qu'Ounas siégera.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{c} wD Wnjs nfr.t jr=f s(y) / Wnjs pj nTr aA}
+
+  \tg{argumentative / PPN à sujet \tl{pw}}
+
+  \td{C'est pour qu'il\footnotemark{} le réalise qu'Ounas ordonnera 
+      un bienfait car c'est Ounas le grand dieu.}%
+\end{hierobox}
+\footnotetext{idem}
+
+
+\section{Chapitre~253}
+
+\begin{hierobox}
+  \tl{\lgn{275\,a} Dd-mdw : wab\col n \zero wab\col n \zero 
+      m \%x.t-JArw / \lgn{b} wab\col n Ra m \%x.t-JArw \ex}
+
+  \tg{argumentative}
+
+  \td{Il ne s'est purifié, il ne s'est purifié que dans les 
+      Champs-Élysées, Rê ne s'est purifié que dans les 
+      Champs-Élysées !}%
+\end{hierobox}
+
+\begin{remarque}
+  \tl{\%x.t-JArw} est régulièrement traduit par : 
+  \begin{itemize}
+    \item Champs-Élysées ;
+    \item Champs des Souchets ;
+    \item Champs d'Ialou ;
+    \item Campagne des Joncs.
+  \end{itemize}
+  C'est le paradis.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} wab\col n \zero wab\col n \zero 
+      m \%x.t-JArw / \lgn{d} wab\col n Wnjs pn m \%x.t-JArw \ex}
+
+  \tg{argumentative}
+
+  \td{Il ne s'est purifié, il ne s'est purifié que dans les 
+      Champs-Élysées, cet Ounas ne s'est purifié que dans les 
+      Champs-Élysées !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{e} a n(y) Wnjs m a Ra / Nw.t Ssp a=f \ex}
+
+  \tg{PPA / impératif}
+
+  \td{La main d'Ounas est la main de Rê. Nout, accepte sa main !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{f} \Smaj w sSw sw \ex{} \Smaj w sSw sw \ex}
+
+  \tg{impératifs}
+
+  \td{Chou, sèche-le ! Chou, sèche-le !}%
+\end{hierobox}
+
+\begin{remarque}
+  Le roi s'est baigné, Nout le sort de l'eau et Chou -- l'air en 
+  mouvement -- le sèche.
+\end{remarque}
+
+
+\section{Chapitre~254}
+
+\begin{hierobox}
+  \tl{\lgn{276\,a} jdy Wr.t n kA Nxn \ex}
+
+  \tg{prospectif}
+
+  \td{Que l'ur\ae us (\litt la Grande) crache (son feu) pour le 
+      taureau de Nékhen\footnotemark !}%
+\end{hierobox}
+\footnotetext{Le roi.}
+
+\begin{hierobox}
+  \tl{\lgn{b} ns hh(=s) r=Tn HA(y).w kAr}
+
+  \tg{PPA}
+
+  \td{Car son souffle embrasé est plus ardent que le votre, vous qui 
+      entourez le naos\footnotemark.}%
+\end{hierobox}
+\footnotetext{Le naos de Rê}
+
+\begin{hierobox}
+  \tl{\lgn{c} j nTr aA xmm(w) rn=f / x.t Hr s.t n nb wa}
+
+  \tg{vocatif avec participe passif imperfectif / PPA sans \tl{jw} de 
+      type \tl{wn} + PPA, exprimant un souhait}
+
+  \td{Ô grand dieu dont le nom est inconnu, qu'un repas soit en 
+      (\litt sur la) place pour le seigneur unique}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{277\,a} j nb Ax.t jr s.t n Wnjs \ex}
+
+  \tg{impératif}
+
+  \td{Ô seigneur de l'horizon, fais une place pour Ounas !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} jr tm=k jr s.t n Wnjs, jr\col kA Wnjs fAt m jt=f Gb}
+
+  \tg{forme \tl{wnm\col kA=f} en apodose de conditionnelle}
+
+  \td{Si tu ne fais pas une place pour Ounas, Ounas sera (\litt fera) 
+      exprès un poids mort (\litt une charge) dans son père Geb}%
+\end{hierobox}
+
+\begin{remarque}
+  La forme \tl{wnm\col xr=f} implique une conclusion automatique, 
+  inévitable. La forme \tl{wnm\col kA=f} est au contraire subjective, 
+  elle implique une participation active du sujet.\\
+  Ici c'est une menace : Osiris fera la grève de la résurrection, la 
+  végétation ne poussera plus.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} tA, n mdw\col n=f / Gb, n wA\col n=f}
+
+  \tg{négations de l'aoriste}
+
+  \td{de sorte que la ne pourra plus s'exprimer\footnotemark{} et que 
+      Geb ne pourra plus se fendre\footnotemark}%
+\end{hierobox}
+\addtocounter{footnote}{-1}
+\footnotetext{Au moyen des plantes}
+\addtocounter{footnote}{+1}
+\footnotetext{Pour laisser passer les végétaux}
+
+\begin{hierobox}
+  \begin{gramrule}
+    \tl{\lgn{278\,a} %
+      gmy Wnjs m wA.t=f / wnm=f n=f sw
+      \begin{possib}
+        mwmw\\
+        m w m w\\
+      \end{possib}%
+    }%
+  \end{gramrule}
+
+  \tg{participe passif prospectif / prospectif}
+
+  \begin{gramrule}
+    \td{%
+      celui qu'Ounas trouvera sur son chemin, il se le mangera
+      \begin{possib}
+        tout cru\\
+        morceau par morceau\\
+      \end{possib}%
+    }%
+  \end{gramrule}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} \zero sr(=w) Hn.t / \zero pr(=w) psD.t / 
+      \zero aHa(=w) wr 
+      \lgn{c} \zero mdw(=w) 3 psD.t / tA Dnj(=w) (m) Dnj.t 
+      \lgn{279\,a} \zero dmD(=w) Tnw.wy / \zero smA(=w) jxm=ty 
+      \lgn{b} \zero sStA(=w) wA.wt r swA(w).w 
+      \lgn{c} \zero sHtm(=w) rwd.w r prr(w).w 
+      \lgn{d} \zero mAa(=w) nwH / \zero DA(=w) mso.t / 
+      \zero sor(=w) bD m r(A) mr Hp(w)}
+
+  \tg{séquence d'accomplis}
+
+  \td{Le pélican \emph{hénet} a été annoncé, le pélican 
+      \emph{pésedjet} est sorti, l'hirondelle s'est dressée, 
+      les trois Ennéades\footnotemark{} ont parlé, la terre a été 
+      barrée d'un barrage, les deux bornes frontières se sont 
+      rejointes, les deux falaises (\litt rives) se sont réunies, 
+      les chemins ont été cachés pour les voyageurs (\litt ceux 
+      qui passent), les escaliers ont été détruits pour ceux qui 
+      montent\footnotemark, la corde\footnotemark{} a été tendue, la 
+      Voie Lactée a été traversée, le soleil (\litt la boule blanche) 
+      a été fracassé à l'embouchure du canal d'Apis}%
+\end{hierobox}
+\addtocounter{footnote}{-2}
+\footnotetext{C'est à dire l'infinité des dieux.}
+\addtocounter{footnote}{+1}
+\footnotetext{Les morts qui reviennent dans la journée.}
+\addtocounter{footnote}{+1}
+\footnotetext{L'écoute de la voile.}
+
+\begin{remarque}
+  \begin{itemize}
+    \item C'est la fin du monde ! L'accès à la terre a été bloqué, 
+          l'inondation ne passe plus, l'espace et la lumière ont été 
+          abolis, le soleil est parti sur sa barque\dots
+    \item Qu'est-ce que le \emph{canal d'Apis} ? Un canal céleste ? 
+          Le Nil céleste ? Apis porte Osiris sur son dos.
+    \item \emph{ont été [détruits]} ou \emph{sont [détruits]} ? 
+          C'est ambigu en français, mais différent en égyptien : 
+          le premier correspond à l'accompli, le second à l'aoriste.
+    \item Il y a une grande variété de constructions à l'accompli : \\
+          \emph{les escaliers on été détruits} ; \emph{Détruits, les 
+          escaliers !}\\
+          C'est lié à l'opposition entre grammaire et sémantique, 
+          présente dans toutes les langues. À l'accompli :\\
+          \begin{tabular}{lc|c|c}
+            Grammaire :  & sujet   & prédicat & complément d'agent \\
+            Sémantique : & patient & action   & agent \\
+          \end{tabular}\\
+          \begin{itemize}
+            \item \tl{\zero wnm\col n bAk dAb.w}, 
+                  \td{ça a été mangé par le serviteur, les figues}\\
+                  \donc{} l'accent est mis sur l'\uline{agent}
+            \item \tl{dAb.w wnm(=w) jn bAk}, 
+                  \td{les figues ont été mangées par le serviteur}\\  
+                  \donc{} l'accent est mis sur le \uline{patient}.
+          \end{itemize}
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{280\,a} j \zero nr(=w) sx.wt=k jAd tp(y)-a jwn sbA.w \ex}
+
+  \tg{accompli}
+
+  \td{Ô tes campagnes ont été épouvantées, étoile\footnotemark{} qui 
+      es devant le pilier des étoiles !}%
+\end{hierobox}
+\footnotetext{Métaphore pour Rê ?}
+
+\begin{hierobox}
+  \tl{\lgn{b} mA\col n=sn jwn kns.t kA n(y) p.t}
+
+  \tg{accompli séquentiel}
+
+  \td{car elles ont vu le pilier de Kénéset\footnotemark, 
+      le taureau du ciel}%
+\end{hierobox}
+\footnotetext{Toponyme désignant parfois la Nubie.}
+
+\begin{remarque}
+  Le \emph{pilier de Kénéset} et le \emph{taureau du ciel} sont des 
+  désignations du roi.
+\end{remarque}
+
+\begin{hierobox}
+  \begin{gramrule}
+    \tl{\lgn{c} 
+      \begin{possib}
+        \zero jAx(=w)\\
+        jAx\\
+      \end{possib}
+       nr.w tp mjs=f
+    }%
+  \end{gramrule}
+
+  \begin{gramrule}
+    \tg{%
+      \begin{possib}
+        accompli\\
+        argumentative\\
+      \end{possib}
+    }%
+  \end{gramrule}
+
+  \begin{gramrule}
+    \td{Le troupeau\footnotemark{} 
+      \begin{possib}
+        est\\
+        n'est\\
+      \end{possib}
+      prospère
+      \begin{possib}
+        sur\\
+        que grâce à\\
+      \end{possib}
+      l'arrière de sa couronne
+    }%
+  \end{gramrule}%
+\end{hierobox}
+\footnotetext{L'humanité.}
+
+\begin{hierobox}
+  \tl{\lgn{281\,a} \og hA snD sdAw mds.w tp(y.w)-a orr n(y) p.t \ex}
+
+  \tg{deux impératifs}
+
+  \td{\og Ô craignez, tremblez, génies porteurs de couteaux qui êtes 
+      devant les nuées (d'orage) du ciel !}%
+\end{hierobox}
+
+\begin{remarque}
+  L'orage est un phénomène violent précédé de génies maintenus à 
+  distance par le roi.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} wp\col n=f tA m rx(w).t\col n=f hrw mr(w)\col n=f jwt 
+      jm \fg}
+
+  \tg{argumentative}
+
+  \td{Il n'a ouvert la terre qu'au moyen de ce qu'il connaît dans la 
+      lumière du jour dans laquelle il a désiré revenir \fg}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item \og \emph{ce qu'il connaît} \fg est un savoir magique 
+          permettant au roi de menacer les dieux pour obtenir ce 
+          qu'il veut.
+    \item Il s'agit d'une résurrection corporelle, physique : 
+          le \emph{ba}, immatériel, n'a pas besoin d'ouvrir la terre.
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{282\,a} j(w)\col jn Wr-skA.t Hr(y)-jb \_wA.t}
+
+  \tg{clôture du discours direct}
+
+  \td{ainsi parle celui au grand labour qui réside dans la Douat.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} mk s(y) jw=s m xsf=k Jmn.t Nfr.t, m xsf=k 
+      \lgn{c} m nAb.wt=s nfr.wt}
+
+  \tg{aoriste / PPA séquentielle}
+
+  \td{Vois, la Belle Occident te fait face chaque fois qu'elle vient 
+      à ta rencontre avec ses belles tresses}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{js(T) Dd=s : \og jj ms(w)\col n(=j)}
+
+  \tg{}
+
+  \td{en disant : \og Viens, toi que j'ai mis au monde, }%
+\end{hierobox}
+
+\begin{remarque}
+  Le \tl{r Wnjs pn} en plus dans le texte de Téti est une 
+  thématisation.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{283\,a} wbn-ab=f, jwn sdm(=w), kA n(y) p.t}
+
+  \tg{construction \tl{nfr-Hr} avec pronom suffixe exprimé}
+
+  \td{celui à la corne brillante, pilier fardé, taureau du ciel}%
+\end{hierobox}
+
+\begin{remarque}
+  \tl{m} + \textsf{verbe} + \tl{.t} = objet servant à faire l'action 
+  de \textsf{verbe}. Par exemple : \\
+  \tl{sdm}, \emph{farder} \flech{} \tl{msdm.t}, \emph{fard} (galène).\\
+  \tl{sdm} est passé au grec, \emph{stimmi}, puis au latin, 
+  \emph{stibium}, désignant toujours le fard désormais réalisé 
+  à base d'antimoine. D'où le symbole \textsf{Sb} de l'antimoine dans 
+  la classification périodique des éléments.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} \zero Tn=y jrw=k / swA m Htp \ex}
+
+  \tg{accompli / impératif}
+
+  \td{remarquable est ta forme, passe en paix !}%
+\end{hierobox}
+
+\begin{remarque}
+  \tl{Tnj} = \emph{s'élever}, d'où le sens de \emph{se distinguer}.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{284\,a} Xnm\col n(=j) Tw \fg j(w).t\col jn Jmn.t Nfr.t 
+      r Wnjs}
+
+  \tg{}
+
+  \td{Je me suis unie à toi \fg a dit la Belle Occident, tournée vers 
+      Ounas.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} \og js, Xn=k r sx.t Htp}
+
+  \tg{impératif, prospectif}
+
+  \td{\og Va et rame jusqu'à la campagne de l'abondance, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{c} jT=k Hp(.t) n @r(y)-oA.t=f \fg}
+
+  \tg{prospectif complétif}
+
+  \td{de sorte que tu prennes la rame à Héryqatef (\litt celui qui 
+      est sur sa plante \emph{qat}) \fg}%
+\end{hierobox}
+
+\begin{remarque}
+  Y a t-il un lien entre \tl{oA.t} et \tl{oAj}, \emph{devenir élevé} ?
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{285\,a} j(w)\col jn xnt(y) mntj.t=f}
+
+  \tg{clôture du discours direct}
+
+  \td{a dit le préposé à son piquet d'amarrage.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\og hb(w)=k m tA \lgn{b} r wmt.t=k, r mt.t=k, r sT.t=k}
+
+  \tg{prospectif}
+
+  \td{\og Puisses-tu t'enfoncer dans le sol conformément à ton 
+      épaisseur, ta taille (\litt mesure), ta carrure 
+      (\litt largeur)}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item Cf représentation dans la tombe de Ramsès~VI.
+    \item \begin{hieroglyph}S22\end{hieroglyph} représente un 
+          n\oe ud d'épaule pour tenir les vêtements.
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} mA=k Ra m jnTw.t=f, dwA=k Ra m prw.t=f}
+
+  \tg{prospectifs complétifs}
+
+  \td{de sorte que tu vois Rê (au soir) dans ses liens et que tu 
+      adores Rê au matin dans la libération (de ses liens)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{d} m sA(w) wr jmy jns.w=f}
+
+  \tg{}
+
+  \td{en tant que grand protégé qui est dans ses tissus 
+      rouges\footnotemark.}%
+\end{hierobox}
+\footnotetext{La couleur rouge est liée aux coucher/lever du soleil.}
+
+\begin{hierobox}
+  \tl{\lgn{286\,a} nb Htp.w, d=f n=k a=k \ex}
+
+  \tg{aoriste}
+
+  \td{Le mâitre des offrandes te donne ton document.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} gf.wt=f sn(w).t tp.w \lgn{c} swA Wnjs Hr=Tn m Htp 
+      Ts(=w) n=f tp=f Hr wsr.t=f}
+
+  \tg{vocatif, prospectif autonome, accompli séquentiel}
+
+  \td{Ô ses macaques femelles qui coupez les têtes, qu'Ounas 
+      vous passe en paix, après avoir fixé sa tête sur son 
+      cou\footnotemark}%
+\end{hierobox}
+\footnotetext{C'est à dire en étant de nouveau lui-même.}
+
+\begin{hierobox}
+  \tl{\lgn{d} jw wsr.t Wnjs Hr mk.t=f m rn=f pw n(y) Ts(w) tp 
+      \lgn{e} Ts=f tp n(y) Hp(w) jm=f hrw pw n(y) spH ngA}
+
+  \tg{PPA}
+
+  \td{Le cou d'Ounas est à sa juste place, en ce nom qui est le sien 
+      de lieur de tête en vertu duquel il attache la tête d'Apis en ce 
+      jour de prendre au lasso le taureau \emph{néga}}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item En \lgn{286\,e} chez Téti, le participe initial est  
+          remplacé par un accompli.
+    \item Nom $\equiv$ qualité.
+    \item \tl{Tsj} : plutôt \emph{nouer}, \emph{attraper} que 
+          \emph{lier}. Le roi met Apis en laisse, à son service.
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{287\,a} (j)sk rd\col n Wnjs wnm=sw m swr.w=sn 
+      \lgn{b} swr=sn m baH=sn}
+
+  \tg{accompli, deux prospectifs complétifs}
+
+  \td{Comme Ounas a fait qu'ils\footnotemark{} se nourrissent au moyen 
+      de leurs gobelets et qu'ils se désaltèrent de leurs flots, }%
+\end{hierobox}
+\footnotetext{Les macaques femelles.}
+
+\begin{hierobox}
+  \tl{\lgn{c} jx mk=t(w) Wnjs jm jn mAA(w).w sw}
+
+  \tg{}
+
+  \td{Ounas sera protégé de cette manière par ceux qui le voient.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{288\,a} @kn-wt.t tp(y.t) Dam=s, tfn(w).t Wnjs, 
+      twA(w).t Sw}
+
+  \tg{sujet d'aoriste}
+
+  \td{Hékénoutet qui est sur son propre sceptre, la cracheuse d'Ounas 
+      que l'air porte}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item \tl{wt.t}, \emph{l'enroulée}, apparaît dans les noms de 
+          serpents.
+    \item Chou et Tefnout sont l'air en mouvement et l'humidité.
+    \item Hékénoutet serait un amalgame des deux déesses tutélaires 
+          Ouadjyt et Nekhbet, serpent et oiseau, cracheuse et portée 
+          par l'air.
+    \item Le sceptre \tl{Dam} s'écrit normalement : 
+          \begin{hieroglyph}S41\end{hieroglyph}
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} s(w)sx=s s.t=f m Ddw, m Dd.t, m Ddw.t / 
+      \lgn{c} saHa=s jA.ty m-xnt wr.w}
+
+  \tg{aoristes}
+
+  \td{rend précieuse sa place à Bousiris, à Mendès et dans la 
+      nécropole d'Héliopolis, et dresse les deux enseignes devant 
+      les grands.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{289\,a} sk=s S n Wnjs m \%x.t-JArw 
+      \lgn{b} smn=s AH.t=f m sx.ty Htp}
+
+  \tg{aoristes}
+
+  \td{Elle creuse un bassin pour Ounas dans les Champs-Élysées, 
+      établit ses terres dans les campagnes de l'abondance.}%
+\end{hierobox}
+
+\begin{remarque}
+  \tl{AH.t} est un collectif désignant la terre cultivable, pas une 
+      aire délimitée comme un champ.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} wDa Wnjs mdw m MH.t-wr.t jmyt(w) Xnnw.wy}
+
+  \tg{argumentative}
+
+  \td{C'est au sein du Grand Flot qu'Ounas départagera (\litt jugera 
+      entre) les frères ennemis.}%
+\end{hierobox}
+
+\begin{remarque}
+  Dans le \emph{Conte d'Horus et Seth} (\NK), les juges siègent sur 
+  une île pour échapper aux influences extérieures
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{290\,a} (j)sk wsr=f m wsrw jr.t \&bj 
+      \lgn{b} nxt=f (m) nxtw jr.t \&bj}
+
+  \tg{}
+
+  \td{car sa puissance est la puissance de l'\oe il de 
+      Tébi\footnotemark, sa force est la force de l'\oe il de Tébi}%
+\end{hierobox}
+\footnotetext{Du soleil.}
+
+\begin{remarque}
+  \begin{itemize}
+    \item En \lgn{290\,b}, le \tl{m} est assimilé au \tl{n} de 
+          \tl{nxt}.
+    \item Puissance et force sont les deux aspects de la justice, 
+          capacité à agir et mise en \oe uvre.
+  \end{itemize}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{c} jw nD\col n sw Wnjs m-a jr(w).w nn jr=f}
+
+  \tg{accompli}
+
+  \td{Ounas s'est protégé de ceux qui ont fait cela contre lui :}%
+\end{hierobox}
+
+\begin{remarque}
+  Pas de référent pour \tl{sw}, il désigne donc Ounas lui-même.
+\end{remarque}
+  
+\begin{hierobox}
+  \tl{\lgn{d} nHm(w).w Sb=f m-a=f \lgn{291\,a} (j)sk sw wn(=w) / 
+      nHm(w).w ms.t=f m-a=f (j)sk s(y) wn=t(j))}
+
+  \tg{}
+
+  \td{ceux qui lui ont pris son repas alors qu'il y en avait un, 
+      ceux qui lui ont pris son souper alors qu'il y en avait un, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} nHm(w).w TAw m fnD=f / \lgn{c} saHa(w).w hrw=f n(y) anx}
+
+  \tg{}
+
+  \td{ceux qui ont pris le souffle à sa narine, ceux qui ont arrêté 
+      son cycle de vie}%
+\end{hierobox}
+
+\begin{remarque}
+  Chez Téti, \tl{saHa} est remplacé par \tl{sja}, certainement une 
+  erreur pour \tl{sjar}, \emph{raccourcir}.
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{d} zero nxt(=w) Wnjs r=sn / xa(=w) Hr wDb=f}
+
+  \tg{accompli comparatif / accompli séquentiel}
+
+  \td{Plus fort qu'eux est Ounas, quand il est apparu\footnotemark{} 
+      sur sa rive.}%
+\end{hierobox}
+\footnotetext{En tant que roi ou soleil levant.}
+
+\begin{hierobox}
+  \tl{\lgn{292\,a} j-xr HAty.w=sn n Dba.w=f / 
+      \lgn{b} bsk.w=sn n [jr(y).w p.t] / dSr.w=sn n jr(y).w tA / 
+      \lgn{c} jwa.w=sn n SwA.t / \lgn{d} pr.w=sn n sn.wt / 
+      arr.wt=sn n Hp(y)-wr.}
+
+  \tg{prospectif avec \tl{j} prothétique}
+
+  \td{que leurs c\oe urs soient livrés à ses doigts\footnotemark, 
+      leurs entrailles aux oiseaux, leur sang aux animaux terrestres, 
+      leurs héritiers à la misère, leurs domaines à la destruction 
+      (\litt au passage (du temps)), leurs portes\footnotemark{} à la 
+      grande inondation.}%
+\end{hierobox}
+\addtocounter{footnote}{-1}
+\footnotetext{ou \td{griffes} (lion) ou \td{serres} (faucon).}
+\addtocounter{footnote}{+1}
+\footnotetext{Portes d'entrée, monumentales.}
+
+\begin{hierobox}
+  \tl{\lgn{293\,a} \zero nDm(=w) jb n(y) Wnjs \ex{} 2-sp}
+
+  \tg{accompli}
+
+  \td{Heureux\footnotemark{} est le c\oe ur d'Ounas \ex{} Heureux est le 
+      c\oe ur d'Ounas !}%
+\end{hierobox}
+\footnotetext{Confort moral}
+
+\begin{remarque}
+  Théorie des \og humeurs \fg :
+
+  \begin{tikzpicture}[>=latex]
+    \draw [<->] 
+          (0.0,0.0) node [below left]  {terre} -- 
+          (2.0,2.0) node [above right] {air} ;
+    \draw [<->] 
+          (2.0,0.0) node [below right] {eau} -- 
+          (0.0,2.0) node [above left]  {feu} ;
+    \node [fill = white] at (1.0,1.0) {\tl{jb}} ;
+
+    \node at (3.5,1.0) {\donc} ;
+
+    \begin{scope}[shift={(5.0,0.0)}]
+      \draw [<->] 
+            (0.0,0.0) node [below left]  {terre} -- 
+            (2.0,2.0) node [above right] {air} ;
+      \draw [<->] 
+            (2.0,0.0) node [below right] {eau} -- 
+            (0.0,2.0) node [above left]  {feu} ;
+      \draw [blue, <-, shorten <=5pt] 
+            (1.0,1.0) node {+} to [out=0, in=180] (2.5,1.3) 
+            node [right, align=left, black] 
+                 {position d'équilibre\\ = \tl{nDm(=w) jb}} ;
+    \end{scope}
+  \end{tikzpicture}
+\end{remarque}
+
+\begin{hierobox}
+  \tl{\lgn{b} Wnjs pw wa, kA n(y) p.t}
+
+  \tg{PPN séquentielle}
+
+  \td{Car Ounas est l'unique, le taureau du ciel.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{c} jw dr\col n=f jr(w).w nn jr=f / 
+      jw Htm\col n=f tp(y).w=sn tA}
+
+  \tg{accomplis}
+
+  \td{Il a chassé ceux qui ont fait cela contre lui, il a anéanti 
+      les leurs qui sont sur terre\footnotemark.}%
+\end{hierobox}
+\footnotetext{C'est à dire leur postérité : ils n'auront donc pas 
+d'offrandes.}
+
+\begin{hierobox}
+  \tl{\lgn{294\,a} xr(y) s.t=f, Sd=f, Ts=f, nn rd(w)\col n n=f jt=f 
+      \Smaj w r-gs \%tX}
+
+  \tg{PPN}
+
+  \td{Ce qui concerne son trône, ce qu'il prendra, ce qu'il portera 
+      (trône/sceptre/vêtements royaux), est ce que lui a donné son 
+      aïeul (\litt père) Chou contre (\litt à côté de) Seth.}%
+\end{hierobox}
+
+\begin{remarque}
+  \begin{itemize}
+    \item C'est une allusion au jugement entre Horus et Seth
+    \item Chez Téti, les termes \tl{s.t=f}, \tl{Sd=f} et \tl{Ts=f} 
+          sont complètement développés, et on a des participes 
+          passifs perfectifs (\tl{Sdy \&tj}, \tl{Tsy \&tj}).
+  \end{itemize}
+\end{remarque}
+
+
+\section{Chapitre~255}
+
+\begin{hierobox}
+  \tl{\lgn{295\,a} Dd-mdw : jd(y) Ax.t n @r Nxn \ex{} / 
+       x.t n nb.w \ex}
+
+  \tg{prospectif}
+
+  \td{Que l'ur\ae us (\litt la rayonnante) crache son feu pour 
+      l'Horus de Nékhen ! Un repas pour les seigneurs !}%
+\end{hierobox}
+
+\begin{remarque}
+  On a une statue (\musee{Le Caire}, \fref{fig:faucon}) 
+  représentant le déterminatif de Nékhen 
+  \begin{hieroglyph}G11:\!\!R12\end{hieroglyph}
+\end{remarque}
+
+\begin{figure}
+  \centerfloat
+  \includegraphics[width=0.4\paperwidth]{tout_faucon}
+  \caption{Sopdou et Gemehsou \rem{(trésor de Toutânkhamon, 
+           \musee{Le Caire})}}
+  \label{fig:faucon}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{b} jd(y) Ax.t n @r Nxn \ex}
+
+  \tg{prospectif}
+
+  \td{Que l'ur\ae us (\litt la rayonnante) crache son feu pour 
+      l'Horus de Nékhen !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{c} nsr n(y) hh=s r=Tn hA(y).w kAr}
+
+  \tg{}
+
+  \td{La flamme de son souffle embrasé dépasse la votre, ô vous qui 
+      entourez le naos.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{d} xfxf.t hh=s r=Tn wTs(w).w Wr.t}
+
+  \tg{}
+
+  \td{Le flux de son souffle embrasé \uwave{dépasse} le votre, 
+      ô vous qui portez la Grande.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{296\,a} jd(y) Ax.t n @r Nxn \ex}
+
+  \tg{prospectif}
+
+  \td{Que l'ur\ae us (\litt la rayonnante) crache son feu pour 
+      l'Horus de Nékhen !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} j xbD pw xbD-qd xbD-jrw}
+
+  \tg{vocatif avec constructions en \tl{nfr-Hr}}
+
+  \td{Ô ce détestable, à la forme détestable, à l'apparence 
+      détestable, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{297\,a} j-dr Tw Hr s.t=k / wAH sHa=k r tA n Wnjs \ex}
+
+  \tg{impératifs, \tl{dr} + \tl{j} prothétique}
+
+  \td{retire-toi de ta place, pose tes ornements à terre pour Ounas !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{b} jr tm=k dr Tw Hr s.t=k / wAH=k n=f sHa=k r tA}
+
+  \tg{conditionnelle}
+
+  \td{Si tu ne t'éloignes pas de ta place et ne poses pas tes 
+      ornements à terre pour lui, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{c} jw\col kA Wnjs Hr=f m wr pw nb A.t}
+
+  \tg{apodose de conditionnelle en \tl{wnm\col kA=f} + 
+      PPA séquentielle}
+
+  \td{Ounas viendra, son visage étant celui de ce grand seigneur 
+      de pouvoir, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{d} wsr(=w) m nkn(w).t jm=f}
+
+  \tg{accompli}
+
+  \td{puissant par ce qui avait été blessé en lui\footnotemark.}%
+\end{hierobox}
+\footnotetext{Allusion à l'\oe il d'Horus, crevé lors de son combat 
+contre Seth.}
+
+\begin{hierobox}
+  \tl{\lgn{298\,a} rd\col kA=f nsr n(y) jr.t=f / pXr=s HA=Tn}
+
+  \tg{apodose de conditionnelle en \tl{wnm\col kA=f} + 
+      prospectif complétif}
+
+  \td{Il lancera le feur de son \oe il, de sorte qu'il vous entoure}%
+\end{hierobox}
+
+% \begin{hierobox}
+%   \tl{\lgn{} }
+
+%   \tg{}
+
+%   \td{}%
+% \end{hierobox}
+
+
+\backmatter
+\newpage
+\appendix
+\chapter{Annexes}
+\section{Extrait de la publication de Sethe}\label{sec:TP}
+\includepdf[%
+  pages=-, frame, 
+  noautoscale, scale=0.85, 
+  pagecommand={\pagestyle{ruled}}
+]{PT_Sp_247_258}
+\printbibliography
+\listoffigures
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
