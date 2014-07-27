@@ -23,7 +23,7 @@
   \item [\lgn{155}]     \tl[black]{xnt}, \emph{auparavant}
   \item [\lgn{156}]     \tl[black]{oA}, \emph{haut}, \emph{élevé} ; 
         \tl[black]{sjA} [3-1it.], \emph{reconnaître}
-  \item [\lgn{158}]     \tl[black]{snb=tj} \ex[black], accompli à 
+  \item [\lgn{158}]     \tl[black]{snb=tj \ex}, accompli à 
         valeur exclamative (souhait de bon voyage)
   \item [\lgn{159}]     \tl[black]{rn}, dans le sens de \emph{renom} ; 
         \tl[black]{rn=j nfr(=w) m njw.t=k} assume la fonction d'une 
@@ -148,11 +148,12 @@
     r pr*1:k'
   \end{hieroglyph}
 
-  \tl{\lgn{158} aHa\col n=f n=j : \og snb=t(j) sp-2, nDs, r pr=k} \ex
+  \tl{\lgn{158} aHa\col n=f n=j : \og snb=t(j) 2-sp, nDs, r pr=k \ex}
 
   \tg{}
 
-  \td{Alors, il me dit : \og Bon voyage (bis), petit, vers ta maison !}%
+  \td{Alors, il me dit : \og Bon voyage (bis), petit, vers 
+      ta maison !}%
 \end{hierobox}
 
 \begin{hierobox}
@@ -160,7 +161,7 @@
     U2:ir-A-\!\!k':. +l\lgn{159}+s X:r:d-Xrd-A1*B1:3-k'
   \end{hieroglyph}
 
-  \tl{mA=k \lgn{159} Xrd.w=k} \ex
+  \tl{mA=k \lgn{159} Xrd.w=k \ex}
 
   \tg{}
 
@@ -173,7 +174,7 @@
     +l\lgn{160}+s p:W i-m-k' 
   \end{hieroglyph}
 
-  \tl{jm rn=j nfr(=w) m njw.t=k \ex mk, Xr(y).t=j 
+  \tl{jm rn=j nfr(=w) m njw.t=k \ex{} mk, Xr(y).t=j 
       \lgn{160} pw, jm=k \fg}
 
   \tg{}

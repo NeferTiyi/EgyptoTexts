@@ -1,4 +1,4 @@
-\documentclass[dvipsnames,a4paper,twoside,10pt,oldfontcommands]{memoir}
+\documentclass[dvipsnames,a4paper,twoside,openany,10pt,oldfontcommands]{memoir}
 
 \includeonly{%
   Kheops_Grandet_Chap0_Intro,
@@ -34,7 +34,7 @@
 \usepackage{neferhiero}
 
 \makeindex
-\makeglossary
+% \makeglossary
 
 % Numérotation des division et prise en compte dans la TOC
 \maxsecnumdepth{subsection}
@@ -62,6 +62,7 @@
 \cftsetindents{chapter}{\cftchapterindent}{1.8em}
 \cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
 
+\cftsetindents{table}{\cfttableindent}{4.5em}
 \cftsetindents{figure}{\cftfigureindent}{4.5em}
 % \cftsetindents{subfigure}{\cftfigureindent}{3.0em}
 % Pointillés dans la TOC
@@ -187,7 +188,7 @@
 \input{\DirUtils/TitlepageKheops}
 \input{\DirUtils/HeadingsKheops}
 
-\input{Kheops_Grandet_Glossaire}
+% \input{Kheops_Grandet_Glossaire}
 
 \chapterstyle{monchap}
 \pagestyle{ruled}

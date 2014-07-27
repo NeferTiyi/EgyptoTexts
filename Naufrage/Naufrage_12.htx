@@ -1,6 +1,7 @@
 %##HieroDef.txt
 
-\chapter{Lignes 132 à 142 \rem{(jusqu'à \tl[black]{=f})}}
+\chapter{Lignes 132 à 142 \rem{(jusqu'à 
+         \texorpdfstring{\tl[black]{=f}}{=f})}}
 
 \begin{figure}[!h]
   \centerfloat
