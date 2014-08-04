@@ -34,7 +34,7 @@
 \usepackage{neferhiero}
 
 \makeindex
-\makeglossary
+% \makeglossary
 
 % Numérotation des division et prise en compte dans la TOC
 \maxsecnumdepth{subsection}
@@ -188,7 +188,7 @@
 \input{\DirUtils/TitlepageKheops}
 \input{\DirUtils/HeadingsKheops}
 
-\input{Kheops_Grandet_Glossaire}
+% \input{Kheops_Grandet_Glossaire}
 
 \chapterstyle{monchap}
 \pagestyle{ruled}
