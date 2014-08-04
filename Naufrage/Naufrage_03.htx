@@ -1,6 +1,7 @@
 %##HieroDef.txt
 
-\chapter{Lignes 21 à 32 \rem{(jusqu'à \tl[black]{xprt=f})}}
+\chapter{Lignes 21 à 32 \rem{(jusqu'à 
+         \texorpdfstring{\tl[black]{xprt=f}}{xprt=f})}}
 
 \begin{figure}[!h]
   \centerfloat
@@ -43,7 +44,7 @@
   \end{hieroglyph}
 
   \tl{\red{sDd=j rf} \lgn{22} n=k mjt.t jr(y).y 
-      xpr(=w) m-a=j \lgn{23} Ds=j} \ex
+      xpr(=w) m-a=j \lgn{23} Ds=j \ex}
 
   \tg{prospectif autonome + particule enclitique / 
       accompli des intransitifs}
@@ -92,7 +93,7 @@
   \end{hieroglyph}
 
   \tl{(m) mA=sn \lgn{29} p.t, mA=sn tA / \zero makA(=w) 
-      \lgn{30} jb=sn r mA(j).w} \ex
+      \lgn{30} jb=sn r mA(j).w \ex}
 
   \tg{circonstancielles temporelles en protase / apodose à 
       l'accompli des verbes intransitifs exclamatifs}
@@ -111,7 +112,7 @@
   \end{hieroglyph}
 
   \tl{\red{sr\lgn{31}=sn} Da n jjt<=f>, 
-      nS\lgn{32}n.y n xprt=f} \ex
+      nS\lgn{32}n.y n xprt=f \ex}
 
   \tg{aoriste exclamatif avec sujet pronominal en ellipse / 
       deux négations séquentielles en \tl[Gramm]{n wnmt=f}}

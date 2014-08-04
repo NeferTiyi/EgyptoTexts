@@ -98,6 +98,8 @@ verbales rencontrées (par exemple : \og accompli \fg, \og aoriste \fg,
 etc.). Nous vous suggérons de présenter de la manière suivante la 
 translittération, l'analyse et la traduction de chaque proposition :
 
+\bigskip
+
 \begin{center}
   \begin{minipage}{0.48\textwidth}
     \tl[black]{Dd\col jn Smsw jqr}\\
@@ -120,6 +122,8 @@ translittération, l'analyse et la traduction de chaque proposition :
   \end{minipage}
 \end{center}
 
+\bigskip
+
 \paragraph{} Pour votre travail, la meilleure méthode consiste à 
 progresser par groupe de deux ou trois propositions, en recherchant 
 dans un premier temps le vocabulaire employé (et en évitant, à ce 
@@ -134,10 +138,9 @@ le vocabulaire, nous apporterons, sous forme de notes, quelques
 manière succinte, la traduction des termes que vous ne connaissez 
 pas. Cependant, à ce stade de votre étude de la langue égyptienne, 
 nous vous recommandons vivement de commencer à employer soit le 
-dictionnaire égyptien-anglais de R.~O.~\bsc{Faulkner}, 
-\emph{\og A~Concise Dictionary of Middle Egyptian \fg{}}, Oxford, 1972, 
-soit celui, égyptien-allemand, de R.~\bsc{Hannig}, \emph{\og Grosses 
-Handworterbuch Agyptisch-Deutsch \fg{}}, Mayence, 1995.
+dictionnaire égyptien-anglais de R.~O.~\bsc{Faulkner} 
+\autocite{Faulkner}, soit celui, égyptien-allemand, de 
+R.~\bsc{Hannig} \autocite{Hannig}.
 
 \begin{flushright}
   Bon courage et\dots{} bon voyage!

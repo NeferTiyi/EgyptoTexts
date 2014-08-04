@@ -1,6 +1,7 @@
 %##HieroDef.txt
 
-\chapter{Lignes 39 à 52 \rem{(jusqu'à \tl[black]{m-Xnw=f})}}
+\chapter{Lignes 39 à 52 \rem{(jusqu'à 
+         \texorpdfstring{\tl[black]{m-Xnw=f}}{m-Xnw=f})}}
 
 \begin{figure}[!h]
   \centerfloat

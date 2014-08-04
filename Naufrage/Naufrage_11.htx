@@ -1,6 +1,7 @@
 %##HieroDef.txt
 
-\chapter{Lignes 124 à 132 \rem{(jusqu'à \tl[black]{wa.t})}}
+\chapter{Lignes 124 à 132 \rem{(jusqu'à 
+         \texorpdfstring{\tl[black]{wa.t}}{wa.t})}}
 
 \begin{figure}[!h]
   \centerfloat

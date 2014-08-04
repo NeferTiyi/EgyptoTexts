@@ -1,6 +1,7 @@
 %##HieroDef.txt
 
-\chapter{Lignes 12 à 21 \rem{(jusqu'à \tl[black]{Dd n=k})}}
+\chapter{Lignes 12 à 21 \rem{(jusqu'à 
+         \texorpdfstring{\tl[black]{Dd n=k}}{Dd n=k})}}
 
 \begin{figure}[!h]
   \centerfloat
@@ -22,8 +23,8 @@
   \item [\lgn{19}]    \tl[black]{TAm} \vl{3} \tl[black]{Hr n}, 
         \emph{montrer de l'indulgence à (quelqu'un)}, \litt \emph{le 
         visage se dévoile pour (quelqu'un)}
-  \item [\lgn{20}]    \tl[black]{Hr.t-jb}, \emph{humeur}, \emph{guise}, 
-        \litt \emph{condition du coeur}
+  \item [\lgn{20}]    \tl[black]{Hr.t-jb}, \emph{humeur}, 
+        \emph{guise}, \litt \emph{condition du coeur}
   \item [\lgn{20-21}] \tl[black]{swrd} \vcl{3}, \emph{fatiguer}, 
         \emph{se fatiguer}
 \end{itemize}
@@ -40,7 +41,7 @@
   \end{hieroglyph}
 
   \tl{\lgn{12} \red{sDm (j)r=k n=j} HAt(y)-a / 
-      jnk, Sw(w) <m> \lgn{13} HAw} \ex
+      jnk, Sw(w) <m> \lgn{13} HAw \ex}
 
   \tg{impératif renforcé / PPN sans \tl[Gramm]{pw}, prédicat $=$ 
       participe perfectif actif + pronom indépendant en thématisation}
@@ -55,7 +56,7 @@
     i-x:Y1 w-S-\!b-A2-k'
   \end{hieroglyph}
 
-  \tl{ja tw / jm \lgn{14} mw Hr Dba.w=k / jx wSb=k} \ex
+  \tl{ja tw / jm \lgn{14} mw Hr Dba.w=k / jx wSb=k \ex}
 
   \tg{impératif renforcé / impératifs / auxiliaire d'énonciation, 
       prospectif consécutif}
@@ -70,7 +71,7 @@
   \end{hieroglyph}
 
   \tl{\lgn{15}(m) wSd=t(w)=k / mdw=k n \lgn{16} n(y)-sw.t 
-      jb=k m-a=k} \ex
+      jb=k m-a=k \ex}
 
   \tg{circonstancielle temporelle en protase au prospectif 
       autonome / PPA argumentative avec sujet $=$ forme nominale 
@@ -86,7 +87,7 @@
     w-S-+l\lgn{17}+s-b-A2 k' nn:n-i-t-i-t-A2
   \end{hieroglyph}
 
-  \tl{wS\lgn{17}b=k nn njtjt} \ex
+  \tl{wS\lgn{17}b=k nn njtjt \ex}
 
   \tg{PPA argumentative avec sujet $=$ forme nominale prospective 
       et prédicat $=$ négation en \tl[Gramm]{nn}+infinitif}
