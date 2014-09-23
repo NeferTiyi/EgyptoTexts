@@ -5,28 +5,34 @@
   Kheops_Grandet_Chap1_PD,
   Kheops_Grandet_Chap2_PT,
   Kheops_Grandet_Chap3_AE,
-  Kheops_Grandet_Chap5_ME,
   Kheops_Grandet_Chap4_PPI,
+  Kheops_Grandet_Chap5_ME,
   Kheops_Grandet_Chap6_DPI,
   Kheops_Grandet_Chap7_NE_a,
   Kheops_Grandet_Chap7_NE_b,
-  Kheops_Grandet_Chap8_PO,
+  % Kheops_Grandet_Chap8_PO,
+  % Kheops_Grandet_KVTombs,
   % Kheops_Grandet_map,
   % Kheops_Grandet_ChronoDF,
 }
 
 \usepackage{pgf,tikz}
 \usetikzlibrary{%
+  backgrounds,
   calc,
   patterns,
+  shapes.multipart,
   arrows,
+  arrows.meta,
   positioning,
   shadows,
   decorations.text
 }
+\usepackage{pdfpages}
 \usepackage{multicol}
 % \usepackage{minitoc}
-\usepackage{mhchem}
+\usepackage{booktabs}
+\usepackage[version=3]{mhchem}
 \usepackage[firstpage=true,angle=0,opacity=0.25]{background}
 \usepackage{nefermemoir}
 \usepackage{nefertiyi}
@@ -56,6 +62,8 @@
 \renewcommand{\thesubsection}{\alph{subsection})}
 
 
+\renewcommand{\cftbookname}{Livre~}
+\renewcommand{\cftpartname}{Partie~}
 % Indentation et largeur des numéros dans la TOC
 \cftsetindents{book}{\cftbookindent}{3.0em}
 \cftsetindents{part}{\cftpartindent}{2.6em}
@@ -142,7 +150,11 @@
 % \renewcommand{\bookname}{Livre}
 
 \renewcommand{\bookname}{Livre}
+\renewcommand{\appendixpagename}{Annexes}
+\renewcommand{\appendixtocname}{\appendixpagename}
 
+
+\setlength{\cftbookindent}{-3em}
 
 \setpnumwidth{2.55em}
 \setrmarg{3.55em}
@@ -153,7 +165,7 @@
 \setulmargins{*}{*}{1}
 \setlrmargins{*}{*}{1.3}
 % \setmarginnotes{17pt}{51pt}{\onelineskip}
-\setheadfoot{\onelineskip}{5\onelineskip}
+\setheadfoot{2\onelineskip}{5\onelineskip}
 \setheaderspaces{*}{2\onelineskip}{*}
 \checkandfixthelayout
 
@@ -163,6 +175,8 @@
 \graphicspath{%
   % {\DirUtils/}%
   {\DirImage/Kheops/Grandet/}%
+  % {\DirImage/Kheops/Grandet/TBC/}%
+  % {\DirImage/Kheops/Grandet/TBC/pdf/}%
   {\DirImage/Barbotin/}%
 }
 
@@ -182,6 +196,20 @@
 %   % \alph{book}.\arabic{figure})%
 % }
 % \makeatother
+
+
+\newcommand{\pucenum}[1]{%
+  \tikz[baseline=(n.base)]{%
+    \node (n) [draw, circle, inner sep=2pt] {#1} ;%
+  }%
+}
+
+\newcommand{\missingstuff}{%
+  \vspace*{3\baselineskip}
+  \noindent\makebox[\textwidth][c]{\LARGE\color{red}\vdots}
+  \vspace*{3\baselineskip}
+}
+
 
 
 \input{\DirUtils/ChapterStyles}
@@ -247,7 +275,10 @@
 \include{Kheops_Grandet_Chap8_PO}
 
 \appendix
-\book{Annexes}
+\appendixpage
+
+% \book{Annexes}
+\include{Kheops_Grandet_KVTombs}
 \include{Kheops_Grandet_map}
 \include{Kheops_Grandet_ChronoDF}
 
@@ -255,10 +286,12 @@
 \newpage
 \listoffigures
 \listoftables
+
 \nocite{*}
-\printbibliography
-\printglossary
-\printindex
+\printbibliography[heading=memoir,title=Bibliographie]
+
+% \printglossary
+% \printindex
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

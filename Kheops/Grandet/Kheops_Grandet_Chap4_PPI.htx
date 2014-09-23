@@ -39,15 +39,15 @@ crises et une décadence culturelle.
   \end{tikzpicture}
 \end{wrapfigure}
 
-La \PPI dure de \anorange{2195}{2014}, et comprend les 
-\bsc{viii}\ieme, \bsc{ix}\ieme, \bsc{x}\ieme et \dyn{xi}s.
+La \PPI dure de \anorange{2195}{2014}, et comprend les \dynnum{viii}, 
+\dynnum{ix}, \dynnum{x} et \dyn{xi}s.
 
 La \dyn{vii} n'existe pas. Selon Manéthon elle aurait connu 
 \og \num{70}~rois en \num{70}~jours \fg. C'est en fait une période 
 d'anarchie.
 
-Les \bsc{ix}\ieme et \dyn{x}s sont une seule et même dynastie, 
-hérakléopolitaine (sud du Fayoum), alors que la \dyn{xi} est thébaine.
+Les \dynlist{ix}{x} sont une seule et même dynastie, hérakléopolitaine 
+(sud du Fayoum), alors que la \dyn{xi} est thébaine.
 Ces deux dynasties, en conflit, vont être les deux principaux -- mais 
 pas les seuls -- acteurs d'une guerre de réunification. La \dyn{xi}
 sera également la première du \MK.
@@ -139,7 +139,7 @@ manière d'écrire et de disposer les h\iero{}es, nouveaux thèmes
 iconographiques que l'on retrouvera dans l'ornement des temples 
 du \MK).
 
-\part{\texorpdfstring{\bsc{ix}\ieme-\dyn{x}}{IXe-Xe dynastie} 
+\part{\texorpdfstring{\dynnum{ix}-\dyn{x}}{IXe-Xe dynastie} 
       \datation{(2160-2040)}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -187,7 +187,7 @@ Grèce et Rome).
 \part{Guerre de réunification}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Un centre de pouvoir concurrent de la \bsc{ix}\ieme-\dyn{x} apparaît 
+Un centre de pouvoir concurrent de la \dynnum{ix}-\dyn{x} apparaît 
 dans la région thébaine, et donnera naissance à la \dyn{xi}.
 
 Mais d'autres ont également des ambitions politiques comme en témoigne 
@@ -205,7 +205,7 @@ indépendantes, organisée dans le sud en trois grands ensembles
 \begin{itemize}
   \item Ânkhtyfy unifie Edfou, Éléphantine et Hiérakonpolis 
         puis combat Thèbes sous couvert de soutien à la 
-        \bsc{ix}\ieme-\dyn{x} ;
+        \dynnum{ix}-\dyn{x} ;
   \item De son côté Thèbes, dirigée par le gouverneur Antef 
         (\musee{Le~Caire} \inv{CG\,20009}, conquiert Coptos, 
         \fref{fig:antef}) ;

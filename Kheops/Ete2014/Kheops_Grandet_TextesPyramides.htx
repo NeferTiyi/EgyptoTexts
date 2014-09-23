@@ -104,9 +104,9 @@
 \mainmatter
 
 
-\chapter{Introduction}
+\chapter{\protect\faitle{07/07/2014}Introduction}
 
-\faitle{07/07/2014}
+% \faitle{07/07/2014}
 La pyramide d'Ounas est la première pyramide inscrite. Les \TP sont 
 répartis dans l'ensemble de ces espaces (\fref{fig:plan}).
 

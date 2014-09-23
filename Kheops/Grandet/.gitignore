@@ -1,6 +1,8 @@
+*.dat
 # Ignore tex files except a few ones
 *.tex
 Kheops_Grandet_Chap7_NE.htx
 !Kheops_Grandet_ChronoBase.tex
 !Kheops_Grandet_ChronoDF.tex
 !Kheops_Grandet_map.tex
+!Kheops_Grandet_map_cmd.tex

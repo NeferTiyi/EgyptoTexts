@@ -7,7 +7,7 @@
 \part{\texorpdfstring{\dyn{iii}}{IIIe dynastie}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-La \dyn{iii} est presque aussi mal connue que la \bsc{ii}\ieme.
+La \dyn{iii} est presque aussi mal connue que la \dynnum{ii}.
 
 La liste des rois est sujette à caution, car on connaît surtout le 
 complexe funéraire de Djoser.
@@ -164,13 +164,13 @@ pour en réaliser de vraies.
   en vagues (\fref{fig:vagues}). À Phil\ae, on retrouve la même chose 
   en pierre, c'est là encore un phénomène de pétrification.
 
-\begin{figure}[htb]
-  \begin{tikzpicture}[scale=0.67]
-    \vagues
-  \end{tikzpicture}
-  \caption{Construction en vagues}
-  \label{fig:vagues}
-\end{figure}
+  \begin{figure}[htb]
+    \begin{tikzpicture}[scale=0.67]
+      \vagues
+    \end{tikzpicture}
+    \caption{Construction en vagues}
+    \label{fig:vagues}
+  \end{figure}
 \end{remarque}
 
 \bigskip
@@ -441,9 +441,9 @@ La \dyn{iv} est l'ère des grandes pyramides.
 Certains princes seront plus tard considérés comme des rois, mais ils 
 ne le sont pas dans la documentation de l'époque.
 
-Avec les \bsc{v}\ieme et \dyn{vi}s, elle représente un âge d'or 
-du pays que l'on s’efforcera d'imiter à la \dyn{xii} et, plus tard
-encore, à la \dyn{xxvi}.
+Avec les \dynlist{v}{vi}, elle représente un âge d'or du pays que 
+l'on s’efforcera d'imiter à la \dyn{xii} et, plus tard encore, à la 
+\dyn{xxvi}.
 
 Mais on ne sait rien de la politique de cette époque, que l'on 
 ne connaît qu'au travers des manifestations artistiques et 
@@ -459,7 +459,7 @@ accompagne le déplacement de la résidence royale.
 à la \dyn{v}, on construit sur les sites d'Abousir et Saqqara, à la 
 \dyn{vi}, à Saqqara.
 
-Transition \bsc{iii}\ieme-\dyn{iv}s :
+Transition \dynnum{iii}-\dyn{iv}s :
 \begin{itemize}
   \item Djoser, Sékhemkhet, Khâba : assises à lits déversés
   \item Meïdoum : noyau de pyramide à degrés par Houni (simple 
@@ -568,8 +568,7 @@ cruciformes (par ex. Atet, Néfermaât) avec structure en chicane devant.
 
 
 
-\chapter{Rêdjedef}
-\faitle{19/06/2012}
+\chapter[Rêdjedef]{\protect\faitle{19/06/2012}Rêdjedef}
 %======================================================================
 
 \begin{figure}[htb]

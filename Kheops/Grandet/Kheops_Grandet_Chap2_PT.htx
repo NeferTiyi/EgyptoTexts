@@ -9,9 +9,9 @@
 
 Avec Narmer, c'est le début de la période de transition entre les 
 époques archaïque et historique.
-La \emph{\PT} comprend les \bsc{i}\iere et \dyn{ii}s. Elle tire son 
-nom de la tradition de \bsc{Manéthon} : This est le siège de la 
-dernière monarchie préhistorique de la \HE unifiée.
+La \emph{\PT} comprend les \dynlist[\iere]{i}{ii}. Elle tire son nom 
+de la tradition de \bsc{Manéthon} : This est le siège de la dernière 
+monarchie préhistorique de la \HE unifiée.
 
 On n'a que très peu de documentation.
 
@@ -52,7 +52,7 @@ Le premier roi de la \dyn[\iere]{i} est Narmer. Il est mentionné dans
 les \emph{Tables d'Abydos} sous le nom de Méni, et chez \bsc{Manéthon} 
 sous celui de Ménès, ou Méné.
 
-\section{La palette de Narmer}
+\section{La palette de Narmer}\label{sec:pal_narmer}
 %----------------------------------------------------------------------
 
 \begin{figure}[htb]
@@ -149,15 +149,42 @@ trouve un grand temple, même à l'\OK (les cénotaphes d'Abydos).
   \end{tikzpicture}
 \end{minipage}%
 \hfill%
-\begin{minipage}[m]{10.8cm}%
+\begin{minipage}[m]{12cm}%
   \hfill
-  %\begin{tabular*}{\textwidth}{ C{3.2cm} | C{3.2cm} | C{3.9cm} }
-  \begin{tabular*}{\textwidth}{ M{3.2cm} | M{3.2cm} | M{3.9cm} }
+%   \begin{tabular}{M{3.2cm}|M{3.2cm}|M{3.9cm}}
+%       \color{XtColor}{\bfseries Corps}     & 
+%       \color{BaColor}{\emph{\bfseries ba}} & 
+%       \color{KaColor}{\emph{\bfseries ka}}
+%     \tabularnewline
+%     \hline
+%       \uline{matériel} & immatériel          & immatériel%
+%     \tabularnewline
+%       sans mouvement   & \uline{mouvement}   & sans mouvement
+%     \tabularnewline
+%       informe          & informe             & \uline{forme}
+%     \tabularnewline
+%       $\Downarrow$     & $\Downarrow$        & $\Downarrow$
+%     \tabularnewline
+%       momie & 
+%       oiseau à\\tête humaine & 
+%       statues, représentations en 2D (forme, apparence)
+%     \tabularnewline
+%       & l'ombre en est la projection & 
+%       = modelé de la statue
+%     \tabularnewline
+%   \end{tabular}%
+
+% \bigskip
+% \bigskip
+% \bigskip
+
+  \begin{tabular}{M{3.0cm}M{3.0cm}M{4.4cm}}
       \color{XtColor}{\bfseries Corps}     & 
       \color{BaColor}{\emph{\bfseries ba}} & 
       \color{KaColor}{\emph{\bfseries ka}}
     \tabularnewline
-    \hhline{---}
+    % \hhline{---}
+    \toprule
       \uline{matériel} & immatériel          & immatériel%
     \tabularnewline
       sans mouvement   & \uline{mouvement}   & sans mouvement
@@ -173,7 +200,8 @@ trouve un grand temple, même à l'\OK (les cénotaphes d'Abydos).
       & l'ombre en est la projection & 
       = modelé de la statue
     \tabularnewline
-  \end{tabular*}%
+    \bottomrule
+  \end{tabular}%
 \end{minipage}%
 
 \bigskip
@@ -323,7 +351,7 @@ Reconstitution de la superstructure (\fref{fig:merneith}).
 Les plus anciennes sépultures sont à Saqqara nord, sur une falaise 
 dominant la campagne.
 
-On y trouve des mastabas de la \bsc{i}\iere à la \dyn{iii}.
+On y trouve des mastabas de la \dynnum[\iere]{i} à la \dyn{iii}.
 
 Contrairement à Abydos, on est dans la roche. L'infrastructure est 
 réduite au caveau, le reste remonte dans la superstructure, qui 
@@ -413,7 +441,7 @@ Plus on avance dans le temps, plus les textes sont importants.
 Les changements de règnes sont notés sur la bande au-dessus des années.
 
 \begin{exple}
-  Djer : 1\iere{} case : \tl{smA-tA.wy} ; les signes 
+  Djer : 1\iere case : \tl{smA-tA.wy} ; les signes 
   \EnPetit{\begin{hieroglyph}Abd\end{hieroglyph}} répartis entre 
   la première année de Djer et la dernière de Âhâ indiquent le partage 
   de l'année entre les deux.
@@ -520,7 +548,7 @@ commerce pour le bois du Liban.
 \chapter{Généralités}
 %======================================================================
 
-La \dyn{ii} est moins bien connue que la \bsc{i}\iere.
+La \dyn{ii} est moins bien connue que la \dynnum[\iere]{i}.
 
 Un grand changement a lieu : les rois se font désormais enterrer à 
 Saqqara. Seuls les deux derniers retournent à \OeQ. Est-ce là l'indice 
@@ -601,8 +629,10 @@ Un rituel complexe se met en place (\num{\sim160}~articles sur les
 offrandes dans les \TP).
 
 
-\section{Évolution des tombes privées, quelques sites clés}
-\faitle{15/05/2012}
+\section[Évolution des tombes privées]
+        {Évolution des tombes privées, quelques sites clés
+         \protect\faitle{15/05/2012}}
+
 %----------------------------------------------------------------------
 
 \subsection{Saqqara Nord, tombe \no\num{3477}}
@@ -684,8 +714,7 @@ le considérer comme l'apogée, en pierre, des enclos funéraires
 archaïques. Il pourrait donner une idée des bâtiments disparus de la 
 \SeZ (éléments de palais factice, le roi continue sa vie de roi).
 
-Il y a une certaine continuité entre la \bsc{ii}\ieme et la 
-\dyn{iii} : 
+Il y a une certaine continuité entre les \dynlist{ii}{iii} : 
 la fille de Khâsékhemouy aurait pu transmettre la royauté au premier 
 roi de la \dyn{iii}, Nebka.
 

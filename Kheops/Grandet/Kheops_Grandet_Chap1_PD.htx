@@ -20,8 +20,10 @@
 \chapter{Généralités}
 %======================================================================
 
+\noindent%
 \begin{table}[htb]
-  \begin{tabular*}{11cm + 2\tabcolsep}{|>{\columncolor{TblHdBg}}M{3.0cm}|M{4cm}|M{4cm}|}
+  % \begin{tabular*}{11cm + 2\tabcolsep}{|>{\columncolor{TblHdBg}}M{3.0cm}|M{4cm}|M{4cm}|}
+  \begin{tabular}{|>{\columncolor{TblHdBg}}M{3.0cm}|M{4cm}|M{4cm}|}
   %         1 23
     \hhline{~|--|}
       \multicolumn{1}{c|}{~}                                    &  % 01
@@ -50,7 +52,7 @@
     \tabularnewline
   %          123
     \hhline{|---|}
-  \end{tabular*}
+  \end{tabular}
   \caption{Subdivisions du \PD}
 \end{table}
 
@@ -97,12 +99,13 @@ ne travaillent pas la terre doivent être nourris ; ceux qui la
 travaillent doivent donc produire plus ; il doit y avoir une autorité 
 pour gérer ça.
 
-(Voir \emph{\og Ginger \fg{}} du British Museum, \fref{fig:EA32751})
+(Voir \emph{\og Ginger \fg{}} du \musee{British Museum}, 
+\fref{fig:EA32751})
 
 \begin{figure}[htb]
   \includegraphics[width=0.66\textwidth]{EA32751}
   \caption{L'homme de Gebelein alias \og Ginger \fg 
-           (British Museum, EA\,32751)}
+           (\musee{British Museum}, \inv{EA\,32751})}
   \label{fig:EA32751}
 \end{figure}
 
@@ -114,6 +117,13 @@ Apparition de :
   \item représentations humaines rudimentaires en os, en terre cuite ;
   \item symboles (couronne rouge).
 \end{itemize}
+
+\begin{figure}[htb]
+  \includegraphics[width=0.66\textwidth]{E11887}
+  \caption{Femme, Badari ? (\musee{Loure}, \inv{E\,11887})}
+  \label{fig:E11887}
+\end{figure}
+
 
 \chapter{Nagada~II}
 %======================================================================
@@ -176,9 +186,11 @@ roi), scène de bataille, enceintes fortifiées (villes) détruites par
 des animaux (les rois, déjà des hiéroglyphes) tenant une pioche.
 
 Le \og maître des animaux \fg symbolise le pouvoir politique unissant 
-les factions qui, sans lui, s'opposent.
+les factions qui, sans lui, s'opposent (voir \fref{fig:HK100}, dans le 
+coin en bas à gauche).
 
-Sur la Palette de Narmer, le roi abat des ennemis devant une divinité.
+Sur la Palette de Narmer (\Bref{bk:PT}, \Sref{sec:pal_narmer}), le roi 
+abat des ennemis devant une divinité.
 
 À la fin du \PD, ce type de décor apparaît sur les têtes de massue 
 (inutilisables).
@@ -187,6 +199,12 @@ C'est la migration des représentations commémoratives de la poterie
 vers des supports en pierre de plus en plus grands. À la période 
 historique, elles seront placées sur les parois des temples en pierre.
 C'est le début de la sculpture égyptienne.
+
+
+
+% palette de la chasse : BM EA20792, BM EA20790, Louvre E11224
+
+
 
 \part{Unification}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -217,7 +235,7 @@ Le site comporte :
 
 \begin{figure}[htb]
   \includegraphics[width=0.9\paperwidth]{HK100}
-  \caption{Tombe décorée de Hiérakonpolis, fragment du décor}
+  \caption{Tombe décorée HK\,100 de Hiérakonpolis, fragment du décor}
   \label{fig:HK100}
 \end{figure}
 
@@ -261,7 +279,7 @@ Le naos de l'époque de Pépi~I\ier (vers \ano{2300}) est au
 
 \begin{figure}[htb]
   \includegraphics[height=6cm]{E12660}
-  \caption{Naos de Pépi~I\ier \rem{(\musee{Louvre} \inv{E\,12660})}}
+  \caption{Naos de Pépi~I\ier{} \rem{(\musee{Louvre} \inv{E\,12660})}}
   \label{fig:E12660}
 \end{figure}
 
@@ -317,7 +335,7 @@ développé surtout au \NK.
 \section{\OeQ}
 %----------------------------------------------------------------------
 Tombes des rois de la \dyn[\iere]{i} et de deux rois de la 
-\bsc{ii}\ieme (\fref{fig:oummelqaab}).
+\dynnum{ii} (\fref{fig:oummelqaab}).
 
 \begin{figure}[htb]
   \includegraphics[height=8cm]{oummelqaab}
