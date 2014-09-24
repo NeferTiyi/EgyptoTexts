@@ -72,14 +72,14 @@ veiller sur la Nubie.
 
 \subsection{Asie}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Aménophis~II conduit trois campagnes en Asie, en l'an~3, l'an~7 et
-l'an~9 de son règne.
+Aménophis~II conduit trois campagnes en Asie, en l'an~\num{3}, 
+l'an~\num{7} et l'an~\num{9} de son règne.
 
 Les deux premières sont de vraies campagnes militaires, la troisième
 est plus une opération de pacification de la région de Canaan. On note
 en effet, dans cette région, un certain ras-le-bol des égyptiens.
 
-\subsubsection{Première campagne -- an~3}
+\subsubsection{Première campagne -- an~\num{3}}
 Cette campagne est connue par la stèle du temple d'Amada. 
 Le roi conduit son armée dans la région de \emph{Takhsy} 
 \EnPetit{\begin{hieroglyph}w-1*N21:n-ti-x-s-y:xAst\end{hieroglyph}}. 
@@ -88,10 +88,10 @@ Le roi aurait tué sept princes ennemis, dont les corps furent pendus
 la tête en bas à la proue de son navire durant le trajet retour. Six 
 d'entre eux finirent pendus devant les murs de Thèbes, le septième 
 devant ceux de Napata, à l'extrême sud du pays.
-Le but de la campagne était de garantir les voix de communication entre
-Qadesh et l'\kmt.
+Le but de la campagne était de garantir les voix de communication 
+entre Qadesh et l'\kmt.
 
-\subsubsection{Deuxième campagne -- an~7}
+\subsubsection{Deuxième campagne -- an~\num{7}}
 Cette campagne est commémorée par deux stèles, l'une à Karnak, l'autre
 à ???. Le roi va jusqu'à Qadesh et revient via Niy après un détour par
 Ougarit. Le tout en deux mois. Un tel trajet en si peu de temps
@@ -197,7 +197,7 @@ L'armée égyptienne rentre enfin au port de Memphis, \emph{Pérou-néfer},
 
 Le butin est relativement faible.
 
-\subsubsection{Troisième campagne -- an~9}
+\subsubsection{Troisième campagne -- an~\num{9}}
 Il s'agit cette fois d'une répression dans le pays de Canaan. Les
 égyptiens doivent en effet y faire face à une hostilité croissante 
 face aux prélèvements à répétition dans les récoltes. Les princes 
@@ -264,7 +264,7 @@ pas spéos dans la région. Il présente un plan très simple, avec un
 pro-naos, une salle hypostyle, un naos à triple scella. Une stèle 
 murale montre Aménophis~II faisant offrande à Amon et Rê, tous deux
 symbolisant l'état égyptien. C'est la principale source au sujet de sa
-campagne de l'an~3.
+campagne de l'an~\num{3}.
 
 \subsubsection{Giza}
 De nouveaux bâtiments sont construits à Giza, pour la première fois
@@ -312,7 +312,7 @@ peut-être un temple jubilaire.
 Ce qui est sûr, c'est que ni la cour ni les deux pylônes n'existaient à
 l'époque d'Aménophis~II. De plus les fondations du monuments sont des
 talatates ! Il a donc été déplacé, au plus tôt sous Horemheb, plus
-probablement sous Séthy~I\ier.
+probablement sous Séthi~I\ier.
 On pense qu'il était à l'origine plus près de l'axe des septième et
 huitième pylônes, voire sur la voie processionnelle. Le fond,
 aujourd'hui fermé par une stèle fausse-porte, était au départ ouvert.
@@ -426,11 +426,11 @@ de la ré-émergence de cette zone, abandonnée depuis la fin de l'\OK.
 \end{remarque}
 
 Le roi nous parle de sa jeunesse sur la stèle située entre les pattes 
-du Sphinx (\fref{???}), datée de l'an~1 de son règne. Un jour, alors 
-qu'il était encore jeune homme, déjà athlète, versé dans les arts de 
-la guerre (tir à l'arc, char, chasse), il s'endort à midi entre les 
-pattes du Sphinx. Le dieu lui parle alors, l'appelant son fils et lui 
-promettant la royauté.
+du Sphinx (\fref{???}), datée de l'an~\num{1} de son règne. Un jour, 
+alors qu'il était encore jeune homme, déjà athlète, versé dans les 
+arts de la guerre (tir à l'arc, char, chasse), il s'endort à midi 
+entre les pattes du Sphinx. Le dieu lui parle alors, l'appelant son 
+fils et lui promettant la royauté.
 
 \begin{remarque}
   Le rêve est considéré comme un moyen de communication avec les dieux 
@@ -446,14 +446,15 @@ Il apparaissait dont comme au fond d'un trou. Thoutmosis~IV avait
 fait érigé un mur d'enceinte en briques pour essayer de contenir le 
 sable.
 
-Le Sphinx -- statue de Rê-Horakhty -- était comme un temple à ciel 
-ouvert. À ce titre, il a reçu des terres, notamment au \PO (le Sphinx 
-a été identifié au dieu faucon cananéen Houroun). Le point focal du 
-sanctuaire était la zone entre ses pattes, avec la stèle de l'an~1, 
-précédée d'un autel et flanquée de deux autres stèles (aujourd'hui 
-au \musee{Louvre}, \inv{B\,18} et \inv{B\,19}, \fref{fig:B18B19}). 
-Moitié moins hautes que la stèle centrale, elles étaient placées sur 
-un soubassement. On y voit le roi faire offrande au Sphinx.
+Le Sphinx -- statue de Rê-Horakhty -- était comme un temple à 
+ciel ouvert. À ce titre, il a reçu des terres, notamment au \PO 
+(le Sphinx a été identifié au dieu faucon cananéen Houroun). Le 
+point focal du sanctuaire était la zone entre ses pattes, avec la 
+stèle de l'an~\num{1}, précédée d'un autel et flanquée de deux autres 
+stèles (aujourd'hui au \musee{Louvre}, \inv{B\,18} et \inv{B\,19}, 
+\fref{fig:B18B19}). Moitié moins hautes que la stèle centrale, elles 
+étaient placées sur un soubassement. On y voit le roi faire offrande 
+au Sphinx.
 
 \begin{figure}
   \begin{minipage}[b]{0.33\textwidth}
@@ -543,9 +544,9 @@ ouadi menant à Jérusalem.
 
 Le \VRK est Amenhotep. 
 On a de nombreux graffitis de cette époque, notamment à Konosso. 
-Une stèle rupestre raconte une campagne en l'an~8 : le roi, à Karnak, 
-apprend que des gens approchent de Ouaouat ; il s'y rend en bateau et 
-mate la révolte.
+Une stèle rupestre raconte une campagne en l'an~\num{8} : le roi, à 
+Karnak, apprend que des gens approchent de Ouaouat ; il s'y rend en 
+bateau et mate la révolte.
 
 Un graffito mentionne Héqaernéhéh, le gouverneur d'Aménophis~III. On a 
 l'impression que les \og guerres \fg de Nubie servaient à aguerrir les 
@@ -669,8 +670,8 @@ Cette racine sémitique est en fait un terme générique signifiant
 \og véhicule \fg. En égyptien moderne, il signifie \og barque \fg.
 
 
-\chapter{Évolution du temple de Karnak du début de la \dyn{xviii} à 
-         Thoutmosis~IV}
+\chapter{Évolution du temple de Karnak du début de la 
+\texorpdfstring{\dyn{xviii}}{XVIIIe dynastie} à Thoutmosis~IV}
 %=====================================================================
 
 La reconstitution du temple \MK est purement conjecturale.
@@ -708,8 +709,9 @@ Avec Aménophis~III, c'est le début des changements majeurs qui mènent
 deux axes. On passe d'un plan en L à un plan en T.
 
 
-\chapter{\tl{Nb-MAa.t-Ra} Aménophis~III \datation{1387-1350}}
-\faitle{11/03/2014}
+\chapter[\tl{Nb-MAa.t-Ra} Aménophis~III \datation{1387-1350}]
+        {\protect\faitle{11/03/2014}\tl{Nb-MAa.t-Ra} Aménophis~III 
+         \datation{1387-1350}}
 %=====================================================================
 
 On connaît la transcription en akkadien de son nom, et donc sa 
@@ -719,8 +721,8 @@ Son règne, de \num{34}~ans, est l'un des plus longs de l'histoire
 de l'\kmt. On ne sait pas à quel âge il est monté sur le trône, et 
 certains pensent qu'il était très jeune et qu'il y aurait eu une 
 période de régence. Cependant, on a des références à une chasse en 
-l'an~2 de son règne, ce qui semble peu compatible avec un roi encore 
-enfant. Il serait né à Thèbes.
+l'an~\num{2} de son règne, ce qui semble peu compatible avec un roi 
+encore enfant. Il serait né à Thèbes.
 
 Ce règne est une période de paix, un âge d'or culturel.
 
@@ -761,20 +763,22 @@ d'Hatchepsout (\fref{fig:AmenIII_theog}), mettant cette fois en scène
 Thoutmosis~IV et Moutémouia.
 
 \begin{figure}
-  \includegraphics[width=0.5\textwidth]{AmenophisIII_theogamie}
+  \includegraphics[height=8cm]{AmenophisIII_theogamie_1}%
+  \quad%
+  \includegraphics[height=8cm]{AmenophisIII_theogamie_2}
   \caption{Scène de théogamie entre Thoutmosis~IV et Moutémouia
            \rem{(Temple de Louqsor)}}
   \label{fig:AmenIII_theog}
 \end{figure}
 
 L'épouse principale d'Aménophis~III est Tiyi. Leur mariage -- acte 
-politique -- est déjà attesté en l'an~2, il a probablement eu lieu 
-avant l'avènement du roi, ou en même temps. Sa famille est originaire 
-de la région d'Akhmim, en \ME. Elle serait peut-être apparentée à 
-Moutémouia. Elle n'est pas d'ascendance royale, mais fait partie de 
-l'aristocratie militaire, son père était le \no2 de l'armée. Une 
-alliance entre deux familles de militaires ? On pourrait également y 
-voir aussi une volonté de renforcer les liens entre le pouvoir royal 
+politique -- est déjà attesté en l'an~\num{2}, il a probablement eu 
+lieu avant l'avènement du roi, ou en même temps. Sa famille est 
+originaire de la région d'Akhmim, en \ME. Elle serait peut-être 
+apparentée à Moutémouia. Elle n'est pas d'ascendance royale, mais fait 
+partie de l'aristocratie militaire, son père était le \no2 de l'armée. 
+Une alliance entre deux familles de militaires ? On pourrait également 
+y voir aussi une volonté de renforcer les liens entre le pouvoir royal 
 et la \ME, zone un peu à l'écart, mais ça ne fait pas le poids face à 
 l'hypothèse militaire.
 
@@ -801,7 +805,7 @@ Touya est rattachée au clergé de Min.
 
 Anen était \titre{Deuxième Prophète d'Amon} (cf musée de Turin).
 
-Ay est représenté en tant que roi chez Toutankhamon.
+Ay est représenté en tant que roi chez Toutânkhamon.
 
 De Thoutmosis, on a divers objets au Louvre, à Berlin, au Caire, 
 notamment le cercueil de son chat.
@@ -810,9 +814,9 @@ D'Aménophis~IV, avant son changement de nom, on n'a qu'une empreinte
 de sceau trouvée à Malqatta.
 
 Aménophis~III épouse deux princesses mitanniennes : Gilukhépa en 
-l'an~10 puis Tadukhépa en l'an~36. Akhénaton épousera à son tour 
-cette dernière. Elles sont en fait des gages du traité de paix entre 
-l'\kmt et le \Mtn.
+l'an~\num{10} puis Tadukhépa en l'an~\num{36}. Akhénaton épousera à 
+son tour cette dernière. Elles sont en fait des gages du traité de 
+paix entre l'\kmt et le \Mtn.
 Parmi ses autres mariages diplomatiques, on compte une fille du roi de 
 Babylone, une fille du roi d'Arzaoua (Asie Mineure), des princesses de 
 différentes parties du \PO.
@@ -832,23 +836,24 @@ en Asie, en Nubie, ~\dots Dans l'ordre chronologique :
         le mot \og mariage \fg en copte.
   \item Le \emph{scarabée de la chasse au taureau sauvage} 
         (\num{5}~exemplaires connus, \fref{fig:Scarab_mariage}), 
-        en l'an~2 : raconte un épisode de chasse lors duquel 
+        en l'an~\num{2} : raconte un épisode de chasse lors duquel 
         \num{96}~bêtes ont été abattues. Cela ne colle pas avec 
         l'idée d'un roi très jeune à son avènement. \item Le 
         \emph{scarabée de la chasse au lion} (\num{156}~exemplaires 
-        connus), en l'an~10 : \num{110}~lions\footnote{ou \num{102}, 
-        le signe \EnPetit{\begin{hieroglyph}10\end{hieroglyph}} n'est 
-        pas toujours bien lisible.} ont été abattus par le roi pendant 
+        connus), en l'an~\num{10} : \num{110}~lions\footnote{ou 
+        \num{102}, le signe 
+        \EnPetit{\begin{hieroglyph}10\end{hieroglyph}} n'est pas 
+        toujours bien lisible.} ont été abattus par le roi pendant 
         ses dix premières années de règne. C'est le scarabée le plus 
         fréquent, certainement à cause de la symbolique de l'abattage 
         du lion (cf~les mise en scène de Mussolini).
   \item Le \emph{scarabée du mariage avec Gilukhépa} 
-        (\num{5}~exemplaires connus), en l'an~10 : on insiste sur 
-        le faste de l'événement, la princesse est arrivée avec
+        (\num{5}~exemplaires connus), en l'an~\num{10} : on insiste 
+        sur le faste de l'événement, la princesse est arrivée avec 
         \num{317}~suivantes.
   \item Le \emph{scarabée du creusement du lac} (\num{11}~exemplaires 
-        connus), en l'an~11 : pour la construction d'un bassin de 
-        \SI{1850x0000}{\m} près d'Akhmim en faveur de Tiyi (cela 
+        connus), en l'an~\num{11} : pour la construction d'un bassin 
+        de \SI{1850x0000}{\m} près d'Akhmim en faveur de Tiyi (cela
         rappelle le creusement d'un autre bassin à Malqatta). C'est 
         l'occasion d'une navigation de la barque royale. Le bassin 
         avait certainement une finalité agricole.
@@ -930,7 +935,7 @@ en Amourrou, et une razzia de prisonniers en Nubie.
 
 Les \source{lettres d'Amarna} sont la principale source d'information.
 Outre le règne d'Akhénaton, elles couvrent la fin du règne 
-d'Aménophis~III, de l'an~30 à l'an~38.
+d'Aménophis~III, de l'an~\num{30} à l'an~\num{38}.
 Il s'agit de tablettes d'argile, trouvées dans le \emph{\og bureau des 
 dépêches de Pharaon \fg}, dirigé par Toutou. Elles ont été oubliées 
 là, à l'abandon de la ville.
@@ -995,7 +1000,7 @@ encore \emph{\og non \fg}.
 
 Les \emph{Lettres} nous laissent également entrevoir une crise 
 passagère entre l'\kmt et le \Mtn suite à l'assassinat d'Artasumara, 
-roi du \Mtn avant l'an~30 d'Aménophis~III.
+roi du \Mtn avant l'an~\num{30} d'Aménophis~III.
 
 % \bigskip
 
@@ -1127,3 +1132,1227 @@ se jettant dans la mer à Episkopi. Ce fleuve donne accès à des mines
 notamment à Alassa\footnote{Alassa pourrait être à l'origine du nom 
 \emph{Alashiya}.}
 \uwave{On connaît un site de cette époque : Bamboula.}
+
+
+\subsection{Le monde égéen}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Depuis l'époque de Thoutmosis~III, la puissance dominante dans la 
+région est Mycènes. Les mycéniens, experts en navigation, contrôle la 
+Crète. Ils entretiennent de nombreux rapports avec l'\kmt, via les 
+routes commerciales maritimes.
+
+\begin{enumerate}
+  \item Mycènes \flech{} Crète \flech{} \kmt
+  \item Mycènes \flech{} Crète \flech{} Cyrénaïque \flech{} \kmt
+  \item Amourrou \flech{} \kmt
+  \item Ougarit \flech{} Lycie \flech{} \kmt
+\end{enumerate}
+
+Ahhiyawa: confédération.
+
+La base d'un colosse trouvé à \KeH porte une liste topographique. 
+On y trouve des régions de la Grèce continentale (Thèbes, Messenie, 
+Namphie, Cythère, Mycènes), de Crète (Cnossos, Amnisos, Kydonia, 
+Phaïstos\footnote{Port tourné vers l'Afrique}, Lyktos).
+
+Beaucoup de noms sont pré-grecs (sans le \emph{s} caractéristique de 
+la déclinaison grecque). Cela correspond à ce qu'on a dans les 
+écritures crétoises.
+
+\subsection{Nubie}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Aménophis~III conduit une campagne qui se solde par \num{30000} 
+prisonniers, ce qui équivaut à la déportation de toute une population. 
+Ils auraient pu être remplacés par des égyptiens. Mais le texte est 
+trop abîmé pour être sûr.
+Le pays de Kari, producteur d'or pourrait avoir été le but de la 
+campagne.
+
+On assiste par la suite à la mise en valeur de la région par la 
+construction de temples.
+
+\subsubsection{Ouadi el-Seboua}
+Petit spéos dédié à Amon, seigneur du chemin, près de Korosko, point 
+de départ de piste. 
+
+\subsubsection{Soleb et Sédéinga}
+Dédiés respectivement à Aménophis~III et Tiyi divinisés\footnote{cf 
+Ramsès~II et Néfertari à Abou Simbel.}, ils servent à un culte 
+politique, d'allégeance. 
+Sédéinga n'est qu'un simple kiosque, tout petit. 
+Le temple de Soleb est plus grand. Il est dédié, en plus du roi en 
+dieu lunaire, Khonsou fils d'Amon en quelque sorte, à Amon de Karnak. 
+On note plusieurs étapes de constructions, la première correspondant 
+à la fête \emph{sed} de l'an~\num{30}. Les reliefs la représentant 
+sont à peine visibles, arasés par les constant vent du nord. Il ne 
+reste pas grand-chose du temple : un pylone, les colonnes du 
+péristyle, les bases de celles de la salle hypostyle. Le sanctuaire 
+a disparu. Les bases de colonnes portent des listes topographiques. 
+Outre les classiques, y est mentionné
+\EnPetit{\begin{hieroglyph}tA':SA-sw-w-i-i-h-wA-w\end{hieroglyph}} 
+\tl{tA SAsw Ywhw}, \emph{ta chasou Yaho}, \emph{\og La tribu des 
+chasous de Yaho \fg}. Certains veulent y voir la première mention 
+de Yavé, mais rien ne l'atteste et mieux vaut rester prudent. 
+Une statue de lion couché aujourd'hui au \musee{British Museum} 
+gardait les portes du temple de Soleb. Elle a été trouvée dans 
+le temple d'Amon du Gebel Barkal, déplacée là par Taharqa à la 
+\dyn{xxv}. Elle porte un texte célèbre, une dédicace de Toutânkhamon.
+
+
+
+\missingstuff
+
+
+
+\chapter{Nebkhépérourê Toutânkhamon \datation{(1332-1323)}}
+%=====================================================================
+
+À peu près dix ans de règne.
+
+On n'a pratiquement que sa tombe.
+
+Il serait mort à \num{18}~ans, aurait accédé au trône vers 
+\num{8}~ans. \donc{} roi sous tutelle.
+
+Sur une talatate remployée au temple de Thot à Hermopolis :
+
+\hfill
+\begin{minipage}[m]{4cm}
+  % \centering
+  \EnColonne[1.3\Htm]{%
+    \begin{hieroglyph}
+      sw*(t:n) gb*(1:.) n X:t*1-f-!
+      U6*i*i 1 f t*\!\!w*\!\!t:.-!
+      anx*(n:x) w i*(t:n:ra)-A52
+    \end{hieroglyph}
+  }
+\end{minipage}
+\quad
+\begin{minipage}[m]{5cm}
+  fils d'Akhénaton
+\end{minipage}
+\hfill
+
+\bigskip
+
+Sur une autre talatate : Ankhesenpaaton = Ankhesenamon = fille 
+d'Akhénaton et Néfertiti, épouse de Toutânkhamon. C'est un mariage 
+politique pour unir deux branches de la famille royale et produire 
+un héritier à \SI{100}{\percent} de sang royal.
+
+\begin{remarque}
+  Le lion de Soleb.
+\end{remarque}
+
+Parmi les personnages importants du règne, on peut citer Horemheb, 
+Ay, Maya (chef du trésor).
+
+Le règne est marqué par :
+\begin{itemize}
+  \item le retour à l'orthodoxie, à l'intérieur ; \hfill \pucenum{1}
+  \item l'attaque des Hittites, à l'extérieur.    \hfill \pucenum{2}
+\end{itemize}
+
+\bigskip
+
+\pucenum{1} : stèle de la restauration de Karnak (\musee{Le Caire}), 
+usurpée par Horemheb (comme tous les monuments de Toutânkhamon). Datée 
+de l'an~\num{1}, sous-entendu du premier jour du règne. Édit pris dans 
+le château de Memphis, la maison de Thoutmosis~I\ier. C'est le retour 
+à l'orthodoxie.
+Il nous dit que tous les temples étaient tombés en ruines, le pays 
+était dans le chaos, les dieux l'avaient abandonné, les dieux et 
+déesses ne pouvaient répondre aux demandes (oracles). Toutânkhamon 
+monte sur le trône et restaure tout ça.
+En l'an~\num{8}, Maya mène une inspection générale des temples, une 
+sorte d'audit économique, ce qui semble cohérent avec la stèle.
+
+Statues d'Amon protégeant le roi (\musee{Louvre}, \inv{E\,11609}, 
+\fref{fig:E11609}) : il lui est soumis.
+
+\begin{figure}[htb]
+  \includegraphics[width=0.33\textwidth]{E11609_1}
+  \caption{Amon protégeant Toutânkhamon
+           \rem{(\musee{Louvre} \inv{E\,11609})}}
+  \label{fig:E11609}
+\end{figure}
+
+
+
+Les travaux de Toutânkhamon à Karnak sont difficiles à voir car 
+usurpés par Horemheb.
+
+Parennéfer est le nouveau Premier Prophète d'Amon.
+
+Reprise de la fête d'Opet.
+
+À Louqsor, complétion du décor de la colonnade, début de l'allée de 
+sphinx menant au temple de Mout.
+
+Chapelle à Karnak, usurpée par Ay et dont l'emplacement est inconnu.
+
+Dans l'art, c'est un retour à la \dyn{xviii}.
+
+Le site du Grand Sphinx est un lieu de promenade. Il y a quelques 
+vestiges de ce règne : un mur et un morceau de tour d'un bâtiment. 
+Pied-à-terre ? Rendez-vous de chasse ?
+
+\begin{remarque}
+  Toutânkhamon a reçu la même type d'entraînement militaire que ses 
+  prédécesseurs.
+\end{remarque}
+
+\faitle{06/05/2014}
+Pendant l'enfance de Toutânkhamon, d'autres ont exercé le pouvoir : 
+\begin{itemize}
+  \item Horemheb : Il portait le titre de général en chef, et était 
+        représenté en scribe. C'était un général d'état-major. Son 
+        titre de \titre{\uwave{\dots} de Sa Majesté dans le pays 
+        tout entier} l'identifie comme régent. On lui connaît deux 
+        épouses : Amenia, avant son accession au trône, la princesse 
+        Moutnedjémet après. Amenia a été enterrée dans a tombe 
+        d'Horemheb sous Ay.
+  \item Ay : Il fut le successeur de Toutânkhamon. Déjà âgé (c'est 
+        le beau-père d'Akhénaton). Il a une position plus importante 
+        qu'Horemheb : parenté, grade militaire plus élevé.
+  \item Maya : directeur du trésor royal. Son audit de l'an~\num{8} 
+        fonde la restauration des cultes. Il a fait déposé quelques 
+        objets à son nom dans la tombe de Toutânkhamon. Son épouse 
+        se nomme Méryt.
+  \item Houy était \VRK. Sa tombe, la \tt{40}, est illustrée de 
+        tributs nubiens.
+\end{itemize}
+
+\bigskip
+
+Nouveauté : Avant Amarna, les sépultures du roi et des dignitaires 
+étaient à Thèbes bien qu'ils aient résidé à Memphis. Désormais, les 
+dignitaires se font inhumer à Saqqara, près du roi vivant. Seuls les 
+notables thébains s'y font enterrer. Il y a même des quartiers 
+spécialisés. Le plus important, au sud du complexe de Djoser et à 
+l'est de celui d'Ounas, regroupe les tombes d'Horemheb, Maya,~\dots
+Elles ont été vues au 19\ieme~siècle et ont servi de \og carrières 
+d'antiquités \fg, vendues aux musées. Elles ensuite été ré-ensablées 
+et perdues, avant d'être de nouveau exhumées à partir de \ano[0]{1975} 
+par des Britanniques et des Hollandais. Ils cherchaient la tombe de 
+Maya à partir d'un plan de \bsc{Lepsius} (\ano[0]{1843}), mais il 
+était imprécis, d'au moins une dizaine de mètres, et c'est la tombe 
+d'Horemheb qu'ils ont trouvée ! Celle de Maya sera trouvée dix ans 
+plus tard par les sous-sols. 
+
+La tombe d'Horemheb se compose d'une chapelle et d'un caveau. 
+Construite dans le désert, plat, elle est complètement bâtie. Elle 
+est structurée comme un temple, avec pylone, chapelle entre deux 
+cours, chapelle au fond sous une pyramide. Dans la première cour : 
+portique, colonnes fasciculées typiques de la \dyn{xviii} (presque 
+toutes reconstituées), stèle avec hymne solaire. La chapelle porte 
+ses titres. Dans la deuxième cour, les colonnes sont non-fasciculées, 
+il y a des représentations de la vie d'Horemheb : Toutânkhamon et la 
+reine, sous un dais, lui donnent l'or de la récompense ; il fait une 
+présentation de prisonniers au roi.
+C'est une thématique très mise en valeur à Amarna. Ces reliefs 
+annoncent l'art ramesside : canon plus allongé, leg d'Amarna, 
+aspect naturaliste, types humains, vêtements, représentations 
+\og réalistes \fg, voire caricaturales de nubiens. Il y a des 
+scènes qu'on dirait provenir de talatates ! Les reliefs donnent 
+l'impression d'une campagne, mais on n'a pas d'informations sur 
+une campagne en Asie sous Horemheb (sous Toutânkhamon, oui).
+
+\section{Politique extérieure}
+%---------------------------------------------------------------------
+
+\subsection{Nubie}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le \VRK est Amenhotep, dit Houy. Sa tombe, la \tt{40}, est ornée de
+représentations de tributs nubiens très détaillées. C'est Maya qui 
+a promu Houy à ce poste. Il a la responsabilité de la Nubie et du 
+sud de la \HE, d'El-Kab au Gebel Barkal. Il est basé à Bouhen, sur 
+la deuxième cataracte, qui marque la limite entre Ouaouat et Kouch.
+Il est secondé par un substitut de Ouaouat et un substitut de Kouch. 
+Ensuite viennent les gouverneurs de forteresses. Enfin, des chefs 
+indigènes élevés à l'égyptienne et portant le titre de \tl{wr}, comme 
+par exemple Héqanéfer, prince de Miam.
+
+Parmis les travaux en Nubie, on compte la restauration de Soleb et 
+peut-être une campagne de pacification.
+
+\subsection{\PO}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C'est le début du conflit égypto-hittite.
+
+Il existe un lieu nommé le \emph{Champ des Hittites}. Les prisonniers 
+étaient recrutés, il fallait les entretenir.
+
+Le \Htt attaque par personne interposée dans la \Bqa, pour tester les 
+défenses égyptiennes.
+
+À la fin du règne de Toutânkhamon, l'\kmt et le \Mtn lancent une 
+offensive combinée. Le \Mtn vers l'ouest depuis Karkémich, l'\kmt 
+au nord de la \Bqa
+Mais ils subissent une contre-attaque fulgurante qui abouti à la 
+prise de Karkémich après huit jours de siège. Une partie du \Mtn 
+est annexée par l'Assyrie, le reste devient un protectorat hittite. 
+Les Hittites avancent également dans la \Bqa (presque à hauteur de 
+Damas). Pendant le siège de Karkémich, Soupilouliouma reçoit une 
+lettre de \emph{Dahamonzu}, c'est à dire \tl{tA Hm.t n(y)-sw.t}, 
+\td{l'épouse du roi} Ankhesenamon. Elle lui annonce la mort de son 
+époux et demande un de ses fils pour le remplacer, à défaut de quoi 
+elle devra épouser un serviteur\dots Le prince deviendra ainsi roi 
+d'\kmt. Soupilouliouma envoie l'un de ses chambellan mener l'enquête, 
+pour vérifier notamment qu'il n'existe pas d'héritier. Pendant ce 
+temps, les opérations militaires sont gelées. Le rapport du chambellan 
+étant favorable, il envoie l'un de ses fils, Zannanza, qui est 
+assassiné en route. Il suppose que c'est par des égyptiens. Toute 
+cette histoire n'était en fait qu'un stratagème égyptien pour 
+suspendre les hostilités car ils étaient en mauvaise posture. Le 
+plan était bien conçu : l'accès au trône en épousant une reine est 
+prévu chez les Hittites (le \source{récit de Télépinou} nous donne 
+l'ordre d'accession au trône).
+
+On a un témoignage hittite : la \source{seconde prière pour la peste} 
+de Moursil~I\ier.\\
+Nibhururiya
+
+Les égyptiens ont perdu l'accès à la trouée de Homs, ce qui rend 
+problématique l'approvisionnement en étain, et les oblige à se 
+rabattre sur l'itinéraire secondaire via la mer, Damas et Mari. 
+La situation est moins critique pour le cuivre, grâce aux mines 
+de Timna, le second gisement le plus important après Chypre.
+
+Les Hittites s'arrêtent là :
+\begin{itemize}
+  \item Le passage en Canaan est difficile.
+  \item Ils subissent une épidémie de peste au \Htt, qu'ils 
+        considèrent comme une punition divine pour avoir rompu 
+        l'accord conclu avec l'\kmt sous les Thoutmosides.
+\end{itemize}
+
+\section{Tombe}
+%---------------------------------------------------------------------
+
+Toutânkhamon meurt sans héritier (il y a deux f\oe{}tus dans la 
+tombe). 
+
+De quoi est-il mort ? Accident de chasse ? Assassinat ? Autre chose ? 
+
+La tombe, \kv{62}, est toute petite, l'enterrement a été hâtif. 
+Spéculation : peut-être avait-il une tombe prévue à Amarna.
+
+C'est Howard~\bsc{Carter} qui invente la tombe en \ano[0]{1922}. 
+Elle est vidée en \ano[0]{1929}.
+Avait-elle été préparée pour Ay ? Avant qu'il ne soit roi ?
+
+On y a trouvé quelques objets au nom de Sémenkhkarê.
+
+La \og cachette d'Amarna \fg (\kv{55}), trouvée en \ano[0]{1907}, a 
+été fermée sous Toutânkhamon. Elle contenait le sarcophage, la momie 
+et les canopes de Sémenkhkarê, usurpés par Kiya. Il y avait aussi une 
+chapelle de bois doré de Tiyi, des briques magiques\footnote{Elles 
+portent le nom du roi ou du défunt et une représentation des fils 
+d'Horus. Elles sont placées dans les tombes comme protection, dans 
+des niches aménagés dans les murs aux quatre point cardinaux et 
+fermées par du plâtre. Elle sont liées au \LM.} au nom d'Akhénaton.
+Akhénaton a dû être enterré là, Tiyi et Sémenkhkarê aussi. Elle a été 
+scellée avec le sceau de Toutânkhamon, le transfert s'est donc fait 
+à cette époque et elle a été rouverte par la suite pour Tiyi.
+
+\faitle{13/05/2014}
+La \kv{62} quant à elle, est au milieu de la \KV, dans une zone où 
+il n'y avait rien. Elle est extrêmement simple, atypique, peut-être 
+pas conçue comme une tombe royale. Un escalier mène à un premier mur 
+présentant des traces de viol (plusieurs sceaux). Derrière, une 
+antichambre, une annexe, le caveau et une deuxième annexe. Le 
+matériel, sûrement prévu pour une tombe plus grande, y est entassé. 
+Le caveau contient le sarcophage dans la chapelle dorée, montée sur 
+place et fermée par un scellé, décorée avec Anubis et neuf prisonniers 
+(et nébride sur l'un). C'est la seule partie décorée de la tombe, avec un fond jaune typique.
+Les objets sont de l'artisanat de luxe (de qualité bien supérieure à 
+ce dont sont capables les artisans de \DeM).
+
+Pectoral : 
+\begin{tikzpicture}[baseline=(nom.base), node distance = 0.2]
+  \node (nom) {\tl{Nb-xpr.w-Ra}} ;
+  \node (nb)  [below=of nom.base, shift={(-0.5,0)}] 
+        {\begin{hieroglyph}nb\end{hieroglyph}} ;
+  \node (P1)  [below=of nom.base, shift={( 0.5,0)}] 
+        {\begin{hieroglyph}P3\end{hieroglyph}} ;
+  \draw [thick, ->, >=stealth, shorten <=-4mm, shorten >=-1mm] 
+        (nb) edge (nom.202) ;
+\end{tikzpicture}
+
+à la place des scènes murales de l'\OK ou des maquettes du \MK, on a 
+des statuettes. Par manque de temps ?
+
+
+\chapter{Ay \datation{(1323-1319)}}
+%=====================================================================
+
+Il est originaire d'Akhmim. Sa seconde épouse est Touya (ou Tiyi~II).
+Youya est \titre{général de la charrie}.
+
+Pourquoi est-ce Ay qui succède à Toutânkhamon et non le \titre{général 
+en chef} Horemheb ? Quelles modalités président au choix ?
+Ay est moins gradé, mais a plus d'ancienneté, c'est le doyen.
+Et pourquoi Horemheb lui a t-il succédé ? Hiérarchie militaire ?
+
+On a trouvé une bague portant les deux cartouches de Ay et 
+Ankhesenamon. L'a t-il épousée ?
+
+Il réside à Memphis.
+
+La \og guerre des six ans \fg (\anorange{1325}{1320})
+
+Texte évoquant l'existence de colonies de prisonniers hittites.
+
+Côté travaux, entre usurpations et brièveté du règne, il n'y a pas 
+grand chose : une chapelle à Karnak, des montants de porte à Louqsor, 
+chapelle funéraire à Abydos.
+Le plus important est un petit spéos près d'Akhmim, fait par le grand 
+prêtre Nakhtmin. On y voit Ay, Thoutmosis~III, Ptolémée~II.
+
+\section{Temple funéraire}
+%---------------------------------------------------------------------
+
+Il se trouvait près de \MH, mais il n'en reste rien. De taille 
+relativement importante, il suivait le plan classique du \NK. 
+L'attribution du site à Ay s'est faite grâce à des briques 
+estampillées qui porte le nom du temple contenant ceui d'Ay.
+Un colosse a pu être attribué, sur critères stylistiques, à 
+Toutânkhamon. S'agit-il d'un temple construit pour Toutânkhamon 
+puis usurpé par Ay (puis par Horemheb\dots) ?
+
+\section{Tombe}
+%---------------------------------------------------------------------
+
+La tombe est à l'écart de la \KV. C'est la première de style 
+post-amarnien, rectiligne. Elle est assez grande pour un roi obscur. 
+Avait-elle été prévue pour Toutânkhamon mais inachevée ?
+Le décor est encore sur fond jaune.
+Il a également une tombe à Saqqara.
+
+
+\chapter{Horemheb \datation{(1319-1291 ?)}}
+%=====================================================================
+
+\tl{Dsr-xpr.w-Ra \%tp\col n-Ra}
+
+La longueur du règne est incertaine. 
+
+Il est représenté en fidèle d'Amon, en scribe.
+
+Il est le dernier roi de la \dyn{xviii}, mais pourrait aussi bien être 
+vu comme le premier de la \dynnum{xix}.
+Il renie ses prédécesseurs direct. À la \dyn{xix}, il est considéré 
+comme le seul roi après Aménophis~III et se voit attribuer un règne 
+fictif de \num{59}~ans.
+
+Ses origines et ses parents sont inconnus. 
+L'occupant de la tombe~\num{24} d'Amarna est un général nommé 
+Paatenemehb. On ne sait rien de plus de lui. Pourrait-il être 
+Horemheb ?
+Il viendrait de Houtnésou (\og le château du roi \fg) en \ME, dans 
+le 18\ieme nome de \HE. Cela correspond au site archéologique moderne 
+de Kôm el-Ahmar / Sawaris\footnote{Kôm el-Ahmar = \og la butte 
+rouge \fg}. Le dieu local est Horus Doun-ânouy, \og Horus qui étend 
+les ailes \fg (\fref{fig:dwnanwy}).
+
+\begin{figure}[htb]
+  \includegraphics[width=2cm]{dwn_anwy}
+  \caption{Horus Doun-ânouy}
+  \label{fig:dwnanwy}
+\end{figure}
+
+Lien avec la \dyn{xviii} : Moutnedjémet.
+
+Groupe statuaire (BM)
+
+Turin
+
+Sous Toutânkhamon, Horemheb est régent et commandant en chef de 
+l'armée. Il est souvent représenté en scribe, c'est un officier 
+d'état-major, pas de terrain.
+
+Son règne long et pacifique est idéal pour régler les séquelles de la 
+période amarnienne.
+Le démantèlement commence.
+Réformes administratives, réorganisation.
+On jette les bases de la future Pi-Ramsès, en position idéale pour 
+être une ville de garnison pour les hostilités avec le \PO.
+
+Horemheb choisit son vizir comme successeur et fondateur de la 
+\dyn{xix}, Ramsès~I\ier.
+
+Deux révoltes anti-Hittites ont lieu en Syrie en l'an~\num{8} et 
+l'an~\num{10}, peut-être dirigées en sous-main par l'\kmt. Elles 
+sont menées par les princes Tetté de Noukhassé (entre Qadesh et Alep) 
+et Aitakama de Qadesh. Ce dernier avait par le passé été utilisé par 
+les Hittites pour tester les défenses égyptiennes. Tetté, vaincu, se 
+réfugiera en \kmt, et Aitakama sera assassiné par son fils, à 
+l'instigation des Hittites.
+
+\section{Tombe}
+%---------------------------------------------------------------------
+
+Il y est représenté une ou deux fois suivi de un secrétaire muni 
+d'une palette de scribe. Il y en a deux (le nom a été regravé) : 
+\tl{\%mn-tA.wy} et le scribe des dépêches Râmosé (\tl{Ra-ms=w}).
+
+Tombe à Saqqara.
+
+\begin{remarque}
+  \begin{tabular}[t]{ccc}
+    Ramsès & \tl{Ra-ms(w)-sw} & \td{C'est Rê qui l'a mis au monde} \\
+    Râmosé & \tl{Ra-ms=w}     & \td{Rê a été mis au monde} \\
+  \end{tabular}
+\end{remarque}
+
+Le groupe statuaire de Turin (\inv{???} \fref{???}) porte une 
+inscription expliquant la montée sur le trône d'Horemheb : il était 
+prédestiné à régner par le dieu de sa ville. Comme il n'a pas pu le 
+faire régner tout de suite, il en a fait le favori du \og roi de son 
+temps \fg, une périphrase pour ne pas nommer Toutânkhamon. 
+Il l'accompagne voir Amon lors d'une fête d'Opet, Amon le désigne 
+pendant la procession, il est couronné et s'installe à Memphis.
+Il restaure les statues de culte, rétablit les clergés (en utilisant 
+les soldats d'élite, de façon à leur octroyer une retraite).
+Il est légitime à la fois via le choix divin exprimé par l'oracle 
+et via la famille, au travers de son épouse.
+
+\section{Décret d'Horemheb}
+%---------------------------------------------------------------------
+
+Le décret d'Horemheb est gravé sur une stèle de \SI{5x3}{\m}, placée 
+à l'origine contre le mur nord du mole ouest de dixième pylone.
+Le texte est affiché dans différent endroits du pays. 
+Il vise à éviter que les agents de l'état n'abusent de leur pouvoir 
+(notamment de réquisition). Pour chaque interdit, la peine est prévue 
+et peut aller jusqu'à la déportation à Sileh (frontière est, au bord 
+du Delta) et le nez coupé, ce qui équivaut à une condamnation à vie 
+aux travaux forcés. La ville grecque de Rhinocolura, toute proche, 
+tire son nom de cette pratique : \og les nez coupés \fg. Il y a 
+également des punitions de type \num{100}~coups de fouet + 
+\num{5}~blessures ouvertes.
+Ce décret nous apprend aussi que le roi, depuis Thoutmosis~III, doit 
+venir à Thèbes une fois par an pour la célébration de la fête d'Opet. 
+Des institutions appelées \og débarcadères de Pharaon \fg situés le 
+long du Nil servent au ravitaillement du convoi. Il y avait des abus, 
+que le décret interdit. 
+Il interdit aussi la mendicité des montreurs de singes et des 
+chanteurs ambulants (cf allusion dans la papyrus Westcar). 
+
+La réorganisation globale est fondée sur une inspection du pays par 
+le roi en personne : il a placé des magistrats intègres à qui il 
+défend d'accepter des pots-de-vin. La corruption est punie de mort.
+Les conseils locaux s'occupent de percevoir l'impôt. Ce sont des 
+institutions à la fois administratives et judiciaires, il n'y a pas 
+de séparation des pouvoirs.
+Les prophètes des temples, les gouverneurs, les prêtres \emph{ouab} 
+s'auto-organisent pour juger leurs pairs.
+
+La troisième partie du décret concerne l'organisation de la garde 
+royale, la quatrième, la protection du palais royal. En particulier 
+contre les incursions des fonctionnaires : la dignité royale est 
+restaurée une période de pouvoir monarchique faible.
+
+On apprend que le ministre du bétail tient un inventaire. Thèbes et 
+Memphis sont appelées \tl{njw.ty wr.ty}, \td{les deux grandes villes}.
+
+Parmi les problèmes mis en évidence par le décret, on ne sait pas 
+lesquels sont dus à la parenthèse amarnienne. En effet, les maux 
+décrits sont endémiques en \kmt\dots
+Les abus de pouvoir par des fonctionnaires intermédiaires sont liés 
+à un déficit de contrôle par leur hiérarchie.
+
+\DeM a pu être transportée à Amarna, puis revenir ensuite à 
+Thèbes. On a des allusions à la réorganisation de l'institution 
+en l'an~\num{7} : chacun reçoit une maison et une tombe. Une théorie 
+veut qu'ils aient maintenu une présence à Amarna afin de protéger les 
+tombes.
+
+
+\part{\texorpdfstring{\dyn{xix}}{XIXe dynastie} \datation{(1291-1186)}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Vue d'ensemble}
+%======================================================================
+
+La \dyn{xix} compte huit rois et couvre \num{165}~ans. 
+
+% \bigskip
+\begin{table}[htb]
+  \begin{tabular}{lc}
+    Ramsès~I\ier           & \datation{1291-1289} \\
+    Séthi~I\ier            & \datation{1289-1278} \\
+    Ramsès~II              & \datation{1279-1212} \\
+    Mérenptah              & \datation{1212-1202} \\
+    Amenmessé              & \datation{1202-1199} \\
+    Séthi~II               & \datation{1199-1193} \\
+    Siptah                 & \datation{1193-1187} \\
+    Taousert \rem{(reine)} & \datation{1193-1286} \\
+  \end{tabular}
+  \caption{Liste des rois de la \dyn{xix}}
+\end{table}
+% \bigskip
+
+C'est la reprise de la guerre entre l'\kmt et le \Htt, qui se finira 
+comme le conflit avec le \Mtn. La paix est signée en \ano{1259}, 
+l'an~\num{21} de Ramsès~II.
+
+C'est une période brillante, du moins jusqu'à Mérenptah. L'alternance 
+guerre/paix donne les moyens de mettre en \oe{}vre des constructions 
+importantes.
+Le règne de Ramsès~II est l'apogée de la dynastie, Mérenptah maintient 
+tant bien que mal la situation.
+L'ordre de succession des quatre derniers rois (deux dynasties de 
+descendants de Mérenptah) est incertain, et la situation se dégrade.
+L'\kmt est confrontée à de nouveaux dangers à partir de Mérenptah : 
+les Libyens et les Peuples de la mer -- de culture mycénienne -- 
+opèrent des raids maritimes.
+
+% \begin{wrapfigure}{o}[2cm]{0pt}
+\begin{figure}[htb]
+  \begin{tikzpicture}
+    \geneaXIX
+  \end{tikzpicture}
+  \caption{Généalogie de la \dyn{xix}}
+  \label{fig:geneaXIX}
+\end{figure}
+% \end{wrapfigure}
+
+La \dyn{xix} n'a aucun lien de sang avec la précédente famille royale. 
+Les parents de Ramsès~I\ier appartiennent à une famille de militaires 
+de la région de Silé dans le Delta Oriental. Séthi est représenté sur 
+la \source{stèle de l'an~\num{400}}.
+
+\chapter{Menpehtyrê Ramsès~I\ier{} \datation{(1291-1289)}}
+%=====================================================================
+
+Le choix de \tl{Mn-pHty-Ra} comme nom de \tl{ny-sw.t-bjty} pourrait 
+être une référence à \tl{Nb-pHty-Ra}, Ahmosis~I\ier, autre fondateur 
+de dynastie.
+
+Son règne est court, il était probablement assez âgé à son accession 
+au trône. Il est vizir sous Horemheb, et a un grade militaire élevé. 
+On connaît deux statues de lui en scribe, associées à celles de 
+Amenhotep fils de Hapou. Il y est appelé Paramessou. 
+Il fait des travaux dans tout le pays et en Nubie, signe d'un pouvoir 
+central fort.
+Le futur Séthi~I\ier assume de hautes fonctions, plus ou moins 
+lieutenant du roi. Beaucoup de ses monuments montre sa piété filiale. 
+Il s'agit d'un acte politique, c'est là sa seul légitimité.
+
+Une stèle du \SeK (\musee{Bruxelles}) montre une expédition (il y en 
+a eu deux) pour des travaux (pierres fines, turquoise), ce qui laisse
+supposer une période stable.
+La stèle de Bouhen (\musee{Louvre}), datée de l'an~\num{2}, relate 
+l'institution d'une offrande en faveur du dieu de Bouhen.
+
+La présence égyptienne au \PO est attesté par des installations de 
+Séthi~I\ier au-dessus de dépôts de fondation de Ramsès~I\ier sur le 
+tell de Beth-Shéan.
+
+On ne lui connaît pas de temple funéraire, mais une chapelle lui est 
+dédié dans le temple de Séthi à Gournah.
+Son culte funéraire fut également célébré à Abydos, dans une petite 
+chapelle située entre les temples de Séthi~I\ier et de Ramsès~II. Les 
+reliefs sont aujourd'hui au MET à New York. On peut y voir le roi 
+assis devant une table d'offrande, entouré par les \TP (comme chez 
+Hatchepsout). Il y a aussi un tableau d'offrandes.
+
+Sa tombe est la \kv{16}. Elle inaugure une nouvelle partie de la 
+vallée.
+Elle est rectiligne, relativement simple. Le décor est sur fond 
+bleu. On y trouve le \source{Livre des Portes}.
+Le sarcophage interne a été trouvé dans la cachette de \DeB, avec 
+la momie de Ramsès~II. On a un autre sarcophage portant ses titres
+militaires et de vizir, il avait donc une autre sépulture avant 
+d'être roi, vers \MH. Sa momie lui a été attribué récemment (sur 
+critères stylistiques\dots). D'abord conservée à Niagara Falls 
+(entre \ano[0]{1861} et \ano[0]{1999}), puis à Atlanta. La position 
+des bras est typique des momies royales, le type de bandelettage 
+ainsi qu'un fragment de sarcophage indiquent la \dyn{xix}. Elle a 
+été restituée à l'\kmt en \ano[0]{2003} et est conservée au musée 
+de la momification à Louqsor depuis \ano[0]{2004}.
+
+\chapter{Menmaâtrê Séthi~I\ier{} \datation{(1289-1278)}}
+%=====================================================================
+
+Le nom \tl{Mn-mAa.t-Ra} est-il une évocation de \tl{Nb-mAa.t-Ra}, 
+Aménophis~III, vu comme le dernier roi légitime avant Amarna ?
+
+Son nom de \emph{nebty} est \tl{WHm-ms.wt}, \td{Celui qui renouvelle 
+les mises au mondes}. En clair, cela signifie \og mon règne sera une 
+période de prospérité \fg.
+
+\begin{remarque}
+  \tl{wHm-ms.wt} servira de système de datation à la fin du \NK : 
+  on parle alors de \og l'an~$n$ de \tl{wHm-ms.wt} \fg.
+\end{remarque}
+
+Un jeu graphique autour du nom \tl{Mn-mAa.t-Ra} se retrouve 
+fréquemment, notamment sur des bijoux : Rê et Maât placés de part 
+et d'autre d'un pilier \tl{mn}, dans une barque (\fref{???}).
+
+Il a des frères et s\oe{}urs (au moins cinq), mais dont on ignore les 
+noms.
+
+Séthi est le véritable fondateur de la dynastie. Il reprend la 
+politique de conquête en Asie. Les nombreuses constructions montrent 
+que la civilisation matérielle est au top (Abydos). On entame la 
+restauration des temples endommagés sous Amarna.
+
+Il établit sa résidence à Qantir, berceau de sa famille. La ville a 
+été refondée par Horemheb et sert de base d'opération pour le \PO.
+
+(cf tour de porte vernissé, Louvre) \donc{} titulature
+
+Certains égyptologues datent de ce règne le début d'une période 
+sothiaque dite \emph{ère de Ménophres}. Selon Théon d'Alexandrie, 
+mathématicien grec du 4\ieme~siècle, il se serait écoulé 
+\num{1605}~années entre cette ère de Ménophrès et l'ère des martyrs 
+(\anorange[1]{284}{285}, persécution de Dioclétien et début du 
+calendrier copte). Ménophrès correspondrait à \tl{Mn-MAa.t-Ra}. 
+Mais ça ne marche pas : Ménophrès est plutôt à rapprocher de 
+\tl{Mn-nfr} et les dates ne collent pas.
+
+\section{Guerres}
+%---------------------------------------------------------------------
+
+Les guerres de Séthi~I\ier sont bien connues, illustrées sur la 
+face nord de la salle hypostyle. C'est, à quelques exceptions près 
+(Aménophis~II), la première représentation de guerre dans l'art 
+égyptien. Des représentations plus anciennes ont-elles disparu ? 
+Elles seront copiées par la suite (\MH) et deviendront une constante 
+des \dynlist{xix}{xx}.
+
+On voit l'invention d'une nouvelle forme narrative, sous forme de 
+tableaux, souvent au nombre de quatre.
+
+
+\begin{tikzpicture}[->, >=stealth, shorten <=3pt, shorten >=3pt, 
+                    rectangle split part align=base]
+  \node [draw, rectangle split, rectangle split horizontal, 
+         scale=1.5, transform shape]
+        (n) at (0, 0) 
+        {b\nodepart{two}a\nodepart{three}c\nodepart{four}d} ;
+  \draw [thick] ([yshift=-5pt] n.two split south) -- 
+                ([yshift=-5pt] n.south west) ;
+  \draw [thick] ([yshift=-5pt] n.two split south) -- 
+                ([yshift=-5pt] n.south east) ;
+
+  \node [rectangle split, rectangle split draw splits=false, 
+         rectangle split part align=left, right]
+        (l) at (1.75, -0.5)
+        {\nodepart{one}a : départ
+         \nodepart{two}b : bataille} ;
+  \node [rectangle split, rectangle split draw splits=false, 
+         rectangle split part align=left, right]
+        (l) at (4, -0.5)
+        {\nodepart{one}c : retour
+         \nodepart{two}d : tribut pour Amon} ;
+\end{tikzpicture}
+
+Il y a une intention commémorative -- c'est destiné à être vu. 
+Le récit n'est pas objectif : le roi écrase les étrangers.
+Même si peu de personnes le voient, ils en parlent, y compris aux 
+illettrés. C'est de la communication. Peut-être lié à un besoin de 
+légitimation ? Mais l'\kmt vient d'essuyer une défaite (contre le 
+\Htt), c'est peut-être juste pour compenser.
+
+Sur le mur nord, il y a une guerre par bande horizontale.
+
+\begin{tikzpicture}
+  \draw [thick] (-5.5,0) rectangle (5.5,6) ;
+  \foreach \y in {1, ..., 6}{%
+    \foreach \x in {1, -1}{%
+      \draw [thick] (-5, \y) -- (-0.5, \y) (0.5, \y) -- (5, \y) ;
+    }
+  }
+
+  \fill [pattern=north east lines, pattern color=gray, opacity=0.5] 
+        (-5.5, 2) rectangle (5.5, 6) ;
+
+  \foreach \x\y\v in {-1/0.5/1, -1/1.5/2, 1/0.5/3, 
+                       1/1.5/4,  1/2.5/5}{%
+    \node [draw, circle, inner sep=2pt] at (\x, \y) {\v} ;
+  }
+
+  \foreach \x\y\v in {-3.5/0.5/Chasous, -3.5/1.5/Yénoam, 
+                       3.5/0.5/Hittites, 3.5/1.5/Libyens, 
+                       3.5/2.5/{Qadesh / Amourrou}}{%
+    \node at (\x, \y) {\v} ;
+  }
+\end{tikzpicture}
+
+Il n'y a qu'une seule date sur tout le mur : l'an~\num{1}, pour 
+la bande~\pucenum{1}\dots On sait que les campagnes~\pucenum{1} 
+et~\pucenum{2} ont lieu la même année. Quel est le sens de lecture ? 
+On connaît un affrontement contre les Hittites en l'an~\num{5} : 
+\pucenum{3} ou~\pucenum{5} ?
+
+\subsection{Campagne~1}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Représente les \og Chemins d'Horus \fg, \SI{150}{\km} de route 
+organisée avec dix forteresses autour de points d'eau. Ça fait 
+une forteresse tous les \SI{15}{\km}. Si l'armée se déplace à 
+\SI{30}{\km\per jour}, ils ont accès à deux points d'eau par jour.
+Kharrouba, l'une de ces forteresses, a été mise au jour à la frontière 
+avec Israël. C'est tout petit et dirigé contre les bédouins.
+La scène montre les bédouins Chasous piétinés devant un fort 
+représentant Gaza.
+Le but de la campagne est de garantir la sécurité des voies de 
+communication, c'est la première étape pour reprendre la guerre.
+Les princes locaux sont représentés heureux d'être délivrés des 
+Chasous. 
+Sur une autre scène célèbre on voit un canal rempli de crocodiles 
+et un pont fortifié : c'est Silé.
+Le roi rentre au pays avec des prisonniers.
+
+\subsection{Campagne~2}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+On sait par une stèle commémorative (\fref{fig:BS_stele}) trouvé sur 
+place qu'elle a lieu en l'an~\num{1} du règne.
+Elle a lieu juste après la précédente, suite à la révolte de princes 
+locaux à Beth-Shéan.
+Les princes de Pella et Hamat ont pris Beth-Shéan et encerclent Rehov, 
+fidèle à l'\kmt. Il suffit d'une journée aux divisions de Rê, Seth et 
+Amon -- soit \num{3x5000}~hommes -- pour reprendre les villes.
+
+\begin{figure}[htb]
+  \includegraphics[width=0.5\textwidth]{BethShean_stele}
+  \caption{Stèle commémorative de Séthi~I\ier sur le tell de 
+           Beth-Shéan \rem{(copie in-situ)}}
+  \label{fig:BS_stele}
+\end{figure}
+
+\faitle{03/06/2014}
+La vallée du Yarmouk mène vers Damas, sous contrôle égyptien.
+On a trouvé le cintre -- mais pas le texte\dots{} -- d'une stèle 
+de Séthi~I\ier à Tell el-Shihab.
+Dans la foulée il rejoint Tyr (stèle) et la côte du Liban puis Oullaza 
+(port à la frange sud de l'Amourrou). Il s'approvisionne en bois de 
+conifère : il a fait refaire la barque d'Amon et les mats banderoles 
+de Karnak.
+
+\begin{remarque}
+  Les graveurs n'avaient jamais vu de pins : ils les ont représentés 
+  comme des mats banderoles avec des feuilles.
+\end{remarque}
+
+\subsection{Début de la seconde phase du conflit égypto-hittite}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Les Hittites ont pris le contrôle de la \Bqa (Trouée de Homs, 
+Amourrou).
+
+Séthi fera deux ou trois campagnes (\anorange{1290}{1283}) pour 
+reprendre la Trouée de Homs, la première (\ano{1290}) par la côte, 
+les autres (\anorange{1285}{1283}) par la \Bqa.
+Il est très difficile de man\oe{}uvrer par la côte -- les montagnes 
+arrivent à pic dans la mer -- mais les Hittites contrôlent la \Bqa\dots
+
+\flech{} reprendre le contrôle de l'Amourrou.
+
+Vers \ano{1285}, l'Assyrie s'en prend au \Mtn, sous protectorat 
+hittite. Les troupes hittites quittent la \Bqa pour gérer la 
+situation. Séthi en profite et prend Qadesh. On y a trouvé un fragment 
+de stèle.
+
+À une date incertaine, au début du règne de Ramsès~II ou plus 
+probablement sous Séthi~I\ier, il y a un changement d'allégeance de 
+l'Amourrou attesté par les sources hittites (le traité de protectorat 
+\Htt{} / Amourrou dattant de Mérenptah le précise).
+
+Mais les Hittites reviennent (\ano{1283}) : ces combats sont présentés 
+comme des triomphes égyptiens à Karnak, mais Qadesh est reperdue (pas 
+l'Amourrou).
+
+\emph{Casus belli} entre Mouwattali et Ramsès~II.
+
+Vers l'an~\num{8}, l'\kmt prend Timna, près d'Elat (au nord du golfe 
+d'Aqaba, dans la dépression dAraba). On y trouve les plus importantes 
+mines de cuivre du \PO après Chypre\footnote{Exploitées jusqu'à 
+l'époque moderne.}, assurant ainsi l'indépendance de l'\kmt vis à vis 
+de Chypre.
+Des sources plus tardives nous indiquent deux itinéraires pour Timna :
+\begin{itemize}
+  \item terrestre, via Qantir et El-\ain{}Arieh
+  \item maritime, par le golfe de Suez et le golfe d'Aqaba
+\end{itemize}
+Il ne sont pas employés de la même manière. Le minerai était raffiné 
+sur place sous forme de lingots. Les gens étaient envoyés sur place 
+par la terre (plus rapide), les lingots ramené en \kmt par mer.
+L'approvisionnement en étain se faisait par l'itinéraire 
+secondaire\footnote{Plus difficile que par Alep à cause du désert.} 
+par l'Euphrate, Mari, Tadmor\footnote{= Palmyre}, Damas, la vallée 
+de Yarmouk.
+
+\subsection{Campagne contre les Libyens}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Date inconnue.
+
+\begin{remarque}
+  ajout postérieur au relief : \og le prince Ramessou \fg
+\end{remarque}
+
+C'est la première manifestation d'un danger qui deviendra important 
+plus tard et se solder par la venue au pouvoir des Libyens en \kmt.
+
+Pourquoi deviennent-ils un danger ?
+\begin{itemize}
+  \item Augmentation de la démographie ?
+  \item Apparition (ou changement de mode d'action) des pirates 
+        Égéens ? 
+\end{itemize}
+
+\bigskip
+
+Ramsès~II en parle : quand il était prince, les Shardanas\footnote{Les 
+Sardes ?}, des îles du milieu de la mer, faisaient des raids en 
+bateaux. Comme les Vikings, la courbure de la terre les cachent 
+jusqu'à ce qu'il soit trop tard\dots 
+Ils suivaient plusieurs itinéraires, tous passant par la Crète. 
+Un tourbillon à l'est de la Crète empêchant la navigation, ils 
+partaient de là vers l'Afrique (vers la future colonie grecque de 
+Cyrène), puis vers l'\kmt en longeant la côte.
+
+Plus tard, les Libyens sont équipés d'épées mycéniennes.
+
+Ramsès~III organisera une route militaire ponctuée par des forts vers 
+la Cyrénaïque.
+
+Les Shardanas prisonniers sont incorporés à l'armée égyptienne.
+
+\begin{remarque}
+  Les Égyptiens considèrent les étrangers comme des sauvages et les 
+  utilisent au mieux selon leurs besoins.
+\end{remarque}
+
+\section{Nubie}
+%---------------------------------------------------------------------
+Forte activité : graffitis, inscriptions, peu de constructions.
+
+Réforme : le siège du gouverneur est déplacé de Saï à Amara.
+
+Séthi conduit, sans encombre, une campagne de pacification de huit ou 
+neuf jours dans le pays d'Irem\footnote{Sa localisation est débattue, 
+mais i y a presque un consensus pour le sud de Kaoua.}.
+
+Parmi les constructions, on peut noter le temple de Bet el-Ouali 
+(reconstruit après les travaux du barrage d'Assouan avec le temple 
+\ptol{} d'Amada et deux autres temples).
+Des reliefs conservés au \musee{British Museum} et datant de la fin du 
+règne de Séthi~I\ier montrent le futur Ramsès~II accompagné de deux de 
+ses enfants. Ces campagnes sans réel danges leur servent de baptême du 
+feu.
+
+\section{Politique intérieure}
+%---------------------------------------------------------------------
+
+On a des papyrus des comptes du palais de Memphis daté de Séthi~I\ier.
+
+Qantir sert de base militaire tournée vers le \PO.
+
+Paser, vizir de Séthi~I\ier à l'an~\num{21} de Ramsès~II, est attesté 
+par de nombreux monuments. Il commence sa carrière comme chambellan 
+du roi (garantie de loyauté). D'origine étrangère, il n'a pas de lien 
+avec les grandes familles du pays, éventuels adversaires politiques 
+du roi (cf les eunuques des empereurs romains).
+
+Ramsès~II est associé au pouvoir de son père dès l'an~\num{7}, de 
+façon informelle, sans titre.
+
+Beaucoup de restauration de monuments : regravure des noms martelés, 
+c'est la fin de la restauration anti-amarnienne. Réorganisation des 
+temples.
+
+Différentes carrières sont exploitées : Ouadi Hammamat, Assouan, \GeS 
+(principaux gisements de grès), \dots
+
+Séthi réalise la première \og stèle du Nil \fg au \GeS. Il sera suivi 
+par Ramsès~II, \uwave{???}, Mérenptah. 
+On y effectue deux offrandes annuelles au Nil (points les plus haut et 
+plus bas de la crue). Ces stèles sont sous un auvent, précédées d'une 
+esplanade formant une tribune, tombant dans le Nil. 
+Les offrandes venaient d'Assouan.
+On ne sait pas ce qu'on en faisait mais il est peu probable qu'elles 
+aient été jetées dans le Nil.
+Remerciement des faveurs du Nil lors d'une expédition dans les 
+carrières.
+
+À Héliopolis, Séthi érige une paire d'obélisques (l'un est aujourd'hui 
+à Rome après un passage par Alexandrie), un pylone, un sphinx, en 
+pierre du Ouadi Hammamat.
+
+Le \musee{Brooklyn Museum} conserve une maquette de Tell el-Yahoudiyeh 
+(\inv{49.183}, \fref{fig:BMA49183}).
+
+
+\begin{figure}[htb]
+  \includegraphics[width=0.5\textwidth]{BMA49183_15}
+  \caption{Base de maquette votive de pylone de temples \newline
+           \rem{(\musee{Brooklyn} \inv{49.183})}}
+  \label{fig:BMA49183}
+\end{figure}
+
+
+
+À Thèbes Est :
+\begin{itemize}
+  \item Salle hypostyle : \num{134}~colonnes de \SI{15}{\m} de haut, 
+        \num{2x6}~colonnes de \SI{25}{\m} au centre, avec chapiteaux 
+        ouverts. Le $\Delta \text{H}$ permet un éclairage quasi 
+        zénithal.
+  \item Murs reliant les 2\ieme et 3\ieme pylones.
+  \item Plaquage contre la façade du 3\ieme pylone pour retrouver la 
+        verticale, décoré d'une représentation du rituel du culte 
+        divin journalier.
+\end{itemize}
+
+\bigskip
+
+\faitle{10/06/2014}
+À Abydos :
+\begin{itemize}
+  \item Chapelle de Ramsès~I\ier
+  \item Temple, terminé par Ramsès~II.
+\end{itemize}
+
+\subsection{Temple d'Abydos}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sa polychromie est conservée.
+
+Il est bâti en calcaire ! Pourquoi ? Tout ce qui reste de Karnak est 
+en grès\dots Mais le calcaire est mieux pour les bas-reliefs : plus 
+homogène, retient mieux la peinture.
+
+Il existe déjà en l'an~\num{4}-\num{5} du règne. Le terrain en pente 
+douce a été taillé pour retrouver des niveaux horizontaux successifs.
+L'ensemble est situé dans une enceinte bastionnée en briques crues de 
+\SI{220x273}{\m}.
+L'Osireïon est complètement souterrain 
+Le bâtiment principal fait \SI{56x157}{\m}, en \textsf{L} inversé. 
+Il est précédé de deux cours. La première contient deux puits avec 
+margelle. 
+(les deux pylones ont disparu.)
+représentation de la bataille de Qadesh par Ramsès~II.
+Deuxième pylone : plutôt un portique à piliers carrés avec des niches, 
+comme le revers du premier.
+Orné de procession de princes et princesses.
+
+Temple : façade à piliers carrés, puis deux salles hypostyles, sept 
+sanctuaires parallèles et sept portes dans la façade. Tous sauf le 
+central et l'extrême nord ont été bouchés par Ramsès~II. 
+\flech{} Scènes cultuelles + inscription dédicatoire de Ramsès~II 
+(c'est lui qui a fini le temple). Ramsès indique aussi comment il a 
+été associé au pouvoir de son père.
+
+\begin{tabular}{cll}
+  \pucenum{1} & Amon   & \\
+  \pucenum{2} & Rê     & triade memphite \\
+  \pucenum{3} & Ptah   & \\
+  \hline
+  \pucenum{4} & Séthi  & \\
+  \hline
+  \pucenum{5} & Osiris & \\
+  \pucenum{6} & Isis   & dieux locaux \\
+  \pucenum{7} & Horus  & \\
+\end{tabular}
+
+Chaque chapelle se décompose en deux espaces : statue + barque (ou 
+autre objet porté en procession). Au fond, fausses-portes, sauf dans 
+la chapelle~\pucenum{5} dotée d'une vraie porte vers le sanctuaire, sa 
+salle hypostyle et ses trois scellas (roi, Isis, Horus)
+
+\begin{tabular}{cll}
+  \pucenum{8}  & Sokar     & variante memphite d'Osiris\\
+  \pucenum{9}  & Nefertoum & \\
+  \pucenum{10} & \multicolumn{2}{l}
+                   {liste des rois + litanie d'offrandes à Sokaris} \\
+\end{tabular}
+
+En \pucenum{10} se trouve aussi une voie de passage vers l'extérieur 
+pour les fêtes de Sokaris. Il faisait le tour du temple.
+
+Au-delà, il y a la \emph{salle des barques}, avec un escalier menant 
+au toit. Il y avait certainement des sanctuaires.
+
+La deuxième salle hypostyle présente une particularité : une 
+différence de niveau due à la topographie, induisant deux types de 
+colonnes distincts : les unes à chapiteaux lotiformes, les autres, 
+plus courtes, sans chapiteaux (\col proto-dioriques).
+
+Toutes les chapelles sont voûtées, ce qui rappelle des tombes 
+(Abydos !).
+
+Il y a une niche entre chaque binôme de portes, dont on ignore la 
+finalité. Si elles avaient abrité des statues, on verrait des gonds 
+de portes.
+
+Dans le cas d'Oriris, la barque sacrée est remplacé par le fétiche 
+abydénien. Il s'agit d'un bâton surmontée d'une boite dotée de la 
+couronne à double plume et d'un ur\ae{}us. Il est vu comme un 
+personnage. C'est un reliquaire contenant la tête d'Osiris. 
+Le mythe d'Osiris est un mythe politique, les morceaux de son corps 
+sont ceux du pays. Le morceau le plus important -- la tête -- est à 
+Abydos.
+
+\begin{remarque}
+  Les coptes sont obsédés par les reliques !
+\end{remarque}
+
+Les différents reliefs des différentes chapelles \og racontent \fg 
+le culte divin journalier (plus de \num{60} gestes), mais pas en 
+séquence. Il s'agit essentiellement de consécration d'offrandes à 
+la divinité.
+
+\begin{remarque}
+  Brûler de l'encens est un acte d'hygiène.
+\end{remarque}
+
+Le mur ouest de la suite osirienne est orné sur deux 
+registres de représentations des fêtes d'Osiris du mois de
+Khoïak\footnote{Quatrième mois d'akhet, l'inondation.}
+Les fêtes d'Osiris symbolisent le renouveau de la nature, la 
+résurrection des morts. On prépare donc un \og Osiris végétant \fg, 
+pseudo-momie enterrée dans sa tombe\footnote{En fait, celle de Djer} 
+à \OeQ, puis ramenée dans son temple à \KeS (\Cref{cha:djer}).
+L'érection du pilier \emph{djed} est également un symbole de 
+résurrection.
+
+Sokar est mis en valeur ici car c'est le dieu des morts de Memphis, 
+siège de l'idéologie royale.
+
+Dans le \emph{couloir des rois}, on voit Séthi et Ramsès~II enfant.
+
+Et le cartouche de \tl{Mnj}, Ménès : 
+\tikz[baseline={(n.base)}]{%
+  \node (n) {%
+    \EnColonne[1.3\Htm]{%
+      \begin{hieroglyph}<-mn-n-i->\end{hieroglyph}%
+    }%
+  }%
+}
+
+\begin{remarque}
+  Pour la période archaïque, on n'a pas les mêmes noms que sur les 
+  monuments\dots
+\end{remarque}
+
+Le \emph{couloir du taureau sauvage}.
+
+La \emph{salle des barques} est entourée d'une banquette. Est-ce un 
+garage à barques ?
+
+Au bout du \emph{couloir des rois} se trouve une grande pièce avec 
+des murs écran (plus trois pièces). Un accès extérieur la relie à des 
+magasins ou une zone d'étables ou de jardins. C'est un laboratoire 
+pour la préparation des offrandes.
+
+Un ensemble de cinq pièces ($2x2+1$), organisées comme des 
+magasins est en fait le trésor, surélevé. On y accède par l'extérieur.
+
+L'\emph{Osireïon} est la tombe d'Osiris (remplace celle de Djer ?). 
+Il est situé dans l'axe du temple de Séthi mais il n'y a pas de 
+communication entre les deux bâtiments (cela rappelle la disposition 
+des temples hauts associés aux pyramides).
+L'entrée, un tunnel, est au nord, en direction de \KeS pour rejoindre 
+l'itinéraire processionnel.
+Le fait qu'il s'agisse d'une tombe est attesté à la fois par le 
+décor et l'architecture (sarcophage, caisse à canopes, piliers 
+carrés, canal).
+Une reconstitution le montre surmonté d'un tumulus. 
+Strabon et Hérodote le décrivent, mais ce dernier parle d'une 
+structure située sous la pyramide de Khéops.
+Le couloir d'accès est orné du \source{Livre des Portes}, 
+de l'\source{Amdouat}.
+Le toit est en chevrons.
+
+Deux lieux sont associés au temple d'Abydos : 
+Kanaïs, à l'est d'Edfou et Nauri, à \SI{30}{\km} au nord de la 
+troisième cataracte. Le premier est un sanctuaire en hémi-spéos (et 
+un puits) utilisé par une communauté de travailleurs d'une mine d'or 
+au service du temple ; le second deux buttes témoin au bord du Nil, 
+l'une d'elle comportant gravé en hauteur le \og décret de Nauri \fg. 
+C'est un document juridique censé\footnote{\og Nul n'est censé 
+ignorer la loi \fg\dots} être visible depuis le fleuve. On y voit 
+le roi consacrant Maât à la trinité ramesside, Amon, Rê, Ptah. 
+Il s'agit d'un décret d'exemption de tous les biens du temple 
+(réquisition,~\dots) ; la peine en cas de non-respect comprend 
+\num{200}~coups de fouet avec \num{5}~blessures ouvertes, une amende, 
+l'esclavage.
+
+\section{Temple funéraire de Gournah}
+%---------------------------------------------------------------------
+
+Il est également dans une enceinte bastionnée. Doté d'un pylone en 
+briques, deux sphinx maçonnés, une première cour, palais, esplanade, 
+deuxième cour (fêtes), façade + portique.
+Le temple lui-même comprend trois axes : triade thébaine + le roi 
+défunt, Amon-Rê (cour solaire avec table d'offrandes), Osiris.
+Il y a des magasins et des ateliers, un la sacré (puits). À gauche, 
+un temple pour Ramsès~I\ier.
+
+\section{Tombe}
+%---------------------------------------------------------------------
+
+% % \CaptionPetit
+% % \begin{wrapfigure}[22]{o}[2cm]{0pt}
+% \begin{figure}[htb]
+%   \qquad%
+%   \caption{\rem{(\musee{Louvre} \inv{B\,7})}}
+%   \label{fig:B7}
+% \end{figure}
+% % \end{wrapfigure}
+% % \CaptionNormal
+
+
+\begin{figure}
+  \begin{minipage}[b]{0.25\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{B7}%
+    \subcaption{\musee{Louvre} \inv{B\,7}%
+                \label{fig:B7}}
+  \end{minipage}%
+  \quad
+  \begin{minipage}[b]{0.25\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{Fl2468}
+    \subcaption{\musee{Florence} \inv{2468}%
+                \label{fig:Fl2468}}
+  \end{minipage}%
+  \caption{La déesse Hathor accueille Séthi~I\ier}
+  \label{fig:Sethi_Hathor}
+\end{figure}
+
+
+\begin{figure}[htb]
+  \includegraphics[width=0.33\textwidth]{Soane_M470}
+  \caption{Sarcophage de Séthi~I\ier 
+           \rem{(\musee{Sir John Soane's Museum} \inv{M\,470})}}
+  \label{fig:M470}
+\end{figure}
+
+
+
+La tombe de Séthi est la \kv{17}, à côté de celle de Ramsès~I\ier. 
+C'est la plus grande et la plus belle. Mais elle est au centre de 
+la vallée, dans le ouadi, et a subi des inondations\dots
+\bsc{Belzoni} en est l'inventeur et on peut en voir une reproduction 
+à Londres.
+Au bout, il y a un très long couloir qui ne mène nulle part.
+Côté décor, on retrouve la même composition qu'à la \dyn{xviii} 
+mais détaillée à l'extrême (personnages, h\iero es,~\dots).
+Un relief célèbre montrant Séthi avec Hathor est conservé au 
+\musee{Louvre} (\fref{fig:B7}), un autre, identique, est à Florence 
+(\fref{fig:Fl2468}). 
+Ils ont été ramenés lors de l'expédition franco-toscane 
+(\bsc{Champollion}).
+La tombe comporte un plafond astrologique. Dans une salle annexe 
+le \source{Livre de la Vache du Ciel}, sur le pêché originel et 
+ses conséquences.
+Le sarcophage momiforme est en calcite et est au \musee{Sir John 
+Soane} (\fref{fig:M470}) à Londres.
+
+
+
+

@@ -1,14 +1,14 @@
 %!TEX root = Kheops_Grandet_book.htx
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\book{Le \MK{}\index{\MK} \datation{(2040-1781)}}
+\book{Le \MK{}\index{\MK} \datation{(2040-1781)}}\label{bk:MK}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \part{Généralités}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Le \MK, fondé par les princes thébains contre Hérakléopolis, comporte 
-deux dynastie, les \bsc{xi}\ieme et \bsc{xii}\ieme.
+deux dynastie, les \dynnum{xi} et \dynnum{xii}.
 
 C'est le second âge d'or du pays. Mais les témoignages architecturaux 
 ayant disparu à cause de reconstruction au \NK (il faut refaire à 
@@ -19,7 +19,7 @@ remettent à construire des pyramides mais dont seul le parement en
 pierre sur un noyau en briques crues. Une fois ce parement disparu, 
 le noyau n'a pas résisté longtemps\dots
 
-Il y a de grandes différences entre les \bsc{xi}\ieme et \dyn{xii}s : 
+Il y a de grandes différences entre les \dynlist{xi}{xii} : 
 
 \begin{itemize}
   \item La \dyn{xi} reste ancrée à Thèbes, fière de son origine 
@@ -63,33 +63,31 @@ du pays.
 \bigskip
 
 \begin{table}[htb]
-  \begin{tabular*}{10cm + 5\tabcolsep}{M{1cm} M{3cm} M{3cm} M{3cm}}
-       &               & Nom d'Horus    & Nom de nysout-bity
-    \tabularnewline
-    \cline{1-4}
-      \multirow{2}{*}{PPI} & 
-      Montouhotep~II   & Séânkhibtaouy  & \texttimes 
-    \tabularnewline
-                           & 
-      Montouhotep~II   & Nétcherihedjet & Nebhépetrê 
-    \tabularnewline
-    \cline{1-4}
-      \multirow{3}{*}{ME}  & 
-      Montouhotep~II   & Sémataouy      & Nebhépetrê 
-    \tabularnewline
-                           & 
-      Montouhotep~III  & Séânkhtaouyef  & Séânkhkarê 
-    \tabularnewline
-                           & 
-      Montouhotep~IV   & Nebtaouy       & Nebtaouyrê 
-    \tabularnewline
-  \end{tabular*}
+  {\addtolength{\tabcolsep}{1em}
+  \begin{tabular}{c c c c}
+      \multicolumn{2}{c}{~}                  & 
+      \bfseries Horus & \bfseries ny-sout-bity \\
+    \toprule
+      \multirow{2}{*}{PPI} & Montouhotep~II  & 
+      Séânkhibtaouy   & \texttimes             \\
+                           & Montouhotep~II  & 
+      Nétcherihedjet  & Nebhépetrê             \\
+    \midrule
+      \multirow{3}{*}{ME}  & Montouhotep~II  & 
+      Sémataouy       & Nebhépetrê             \\
+                           & Montouhotep~III & 
+      Séânkhtaouyef   & Séânkhkarê             \\
+                           & Montouhotep~IV  & 
+      Nebtaouy        & Nebtaouyrê             \\
+    \bottomrule
+  \end{tabular}}
   \caption{Montouhotep~II : changements de titulature}
   \label{tab:montouhotep}
 \end{table}
 
-\chapter{Montouhotep~II \datation{(2065-2014)}}
-\faitle{6/11/2012 (Murielle)}
+\chapter[Montouhotep~II \datation{(2065-2014)}]
+        {\protect\faitle{06/11/2012 (Murielle)}Montouhotep~II 
+         \datation{(2065-2014)}}
 %======================================================================
 
 \CaptionPetit
@@ -101,6 +99,7 @@ du pays.
 \end{wrapfigure}
 \CaptionNormal
 
+% \faitle{06/11/2012 (Murielle)}
 Montouhotep~II est le seul roi important de la \dyn{xi} avec un 
 \textbf{règne de \num{51}~ans} couvrant la fin de la \PPI et le début 
 du \MK. On ignore les conditions de la réunification de l'\kmt par 
@@ -338,7 +337,7 @@ espaces.
   % \includegraphics[width=0.6\textwidth]{MontouhotepII_temple6b}
 
   % \includegraphics[width=0.6\textwidth]{MontouhotepII_temple6c}
-  \includegraphics[width=0.6\textwidth]{MontouhotepII_DeB_7a}
+  \includegraphics[width=0.6\textwidth]{MontouhotepII_DeB_7a}%
   \includegraphics[width=0.6\textwidth]{MontouhotepII_DeB_7b}
 
   \includegraphics[width=0.6\textwidth]{MontouhotepII_DeB_7c}
@@ -442,7 +441,7 @@ Le culte de Montouhotep se maintient même jusqu'au \NK :
             \item Amenhotep~III
             \item Horemheb
             \item Ramsès~I\ier
-            \item Séthy~I\ier
+            \item Séthi~I\ier
             \item Ramsès~II
           \end{itemize}
         \end{multicols}}
@@ -785,7 +784,7 @@ volonté de standardiser l'idée selon laquelle tous les dieux sont la
 manifestation d'un seul.
 
 % Trinité chrétienne : flandres après tiare
-%         ramesside  : Séthy fait offrande à A. R. P.
+%         ramesside  : Séthi fait offrande à A. R. P.
 
 \begin{figure}[h]
   \includegraphics[width=0.5\textwidth]{BMA47218156}
@@ -900,11 +899,11 @@ Le site comprend des vestiges de toutes les époques et notamment un
 temple au milieu du tissu urbain avec une double enceinte dont un 
 fragment de paroi date d'Amenemhat~I\ier.
 
-\subsection{Région de \texorpdfstring{\TeD}{Tell el-Dab'a} / Qantîr}
+\subsection{Région de \texorpdfstring{\TeD{}}{Tell el-Dab'a} / Qantîr}
 
 Situées sur la branche pélusiaque du Nil (ensablée à la fin du \NK), 
 \TeD est la future Avaris des Hyksos et Qantîr la Pi-Ramsès des 
-\bsc{xix}\ieme et \dyn{xx}s.
+\dynlist{xix}{xx}.
 
 Les \og Murs du Prince \fg sont attestés dans la documentation et 
 correspondrait à un renforcement de la frontière est du pays. Mais on 
@@ -1082,6 +1081,7 @@ documents dont un seul pose réellement problème, la stèle
   \label{fig:CG20516}
 \end{figure}
 
+\bigskip
 \begin{center}
   \DisplayHieroglyphs
   \raisebox{-1.5pt}[0mm][0mm]{\rule{0.5pt}{1em}}(Amenemhat) %
@@ -1089,8 +1089,8 @@ documents dont un seul pose réellement problème, la stèle
     n-Hm-x:r-10*10:10-rnp\-rnp-.:10-x:r-Hm-n
   \end{hieroglyph}% 
   (Sésostris)\raisebox{-1.5pt}[0mm][0mm]{\rule{0.5pt}{1em}}
-
 \end{center}
+\bigskip
 
 {\SmallerText
 Pour Obsomer, l'absence de \begin{hieroglyph}t:zp\end{hieroglyph} 
@@ -1107,13 +1107,16 @@ l'expression de la filiation.
 
 La statue du \SeK regroupe Amenemhat~I\ier, Sésostris~I\ier, 
 Montouhotep~II et Montouhotep~III, c'est à dire le début des 
-\bsc{xii}\ieme et \dyn{xi}s. Elle n'a aucun lien avec la notion de 
-corégence.
+\dynlist{xii}{xi}. Elle n'a aucun lien avec la notion de corégence.
 
 Sur un graffito entre Phil\ae{} et Assouan, on a :
-\begin{quote}
+
+\bigskip
+\begin{center}
   [date de Sésostris~II] \tl{xft} [date de Sésostris~III]
-\end{quote}
+\end{center}
+\bigskip
+
 \tl{xft} est typique des doubles datations. Il pourrait s'agir 
 de la date de l'événement relaté et de la date de réalisation de 
 l'inscription. La mise en page est bizarre et \tl{xft} pourrait 
@@ -1250,8 +1253,8 @@ complexe, avec un bâtiment à l'intérieur d'un autre.
 Les colonnes portent des images du roi et de divinités. 
 
 Sur le soubassement sont inscrits une liste canonique des 
-nomes\footnote{les \num{20} de \BE mais seulement \num{18} sur 
-les \num{22} de \HE.} (\fref{fig:nomes}, lignes (1), (2) et (3)), les
+nomes\footnote{les \num{20} de \BE mais seulement \num{18} des 
+\num{22} de \HE.} (\fref{fig:nomes}, lignes (1), (2) et (3)), les
 dimensions officielles du pays, la hauteur de la crue attendue en 
 différents points et la définition de l'aroure pour chaque nome 
 (\fref{fig:nomes}, lignes (4), (5) et (6)). On a là encore une 
@@ -1307,28 +1310,30 @@ tels que :
 (5) est le résidu à ajouter à (6) pour atteindre \num{100}. Il s'agit 
 d'une normalisation. Chaque région avait sa base de mesure (6).
 
-\begin{remarque}
-  \num{0.5}~aroure = \SI{100x50}{\coudee} \\
-  \num{0.1}~aroure = \SI{100x1}{\coudee} \\
-\end{remarque}
-
-\begin{tabular}{c l}
+\begin{center}
+\begin{tabular}{cl}
   \begin{hieroglyph}W\end{hieroglyph} & = \SI{100}{\coudee} \\
   \SI{1}{\coudee}~\SI{4}{\paume}  & 
-    \multirow{2}{*}{= \SI{100}{\coudee}} \\
+    \multirow{2}{*}{$\Bigg\} = \SI{100}{\coudee}$} \\
   \SI{98}{\coudee}~\SI{3}{\paume} & \\
 \end{tabular}%
 \qquad%
-\begin{tabular}{c l}
+\begin{tabular}{cl}
   \begin{hieroglyph}W\end{hieroglyph} & = \SI{100}{\coudee} \\
   \SI{1}{\coudee}~\SI{4}{\paume}~\SI{2}{\doigt}  & 
-    \multirow{2}{*}{= \SI{100}{c}} \\
+    \multirow{2}{*}{$\Bigg\} = \SI{100}{\coudee}$} \\
   \SI{98}{\coudee}~\SI{2}{\paume}~\SI{2}{\doigt} & \\
 \end{tabular}
+\end{center}
 
 \begin{remarque}
-  Des coudées de référence étaient conservées dans les temples pour 
-  servir en cas de litige.
+  \begin{itemize}
+    \item \num{0.5}~aroure = \SI{100x50}{\coudee}\\
+          \num{0.1}~aroure = \SI{100x1}{\coudee}
+    \item Des coudées de référence étaient conservées dans les 
+          temples pour servir en cas de litige.
+  \end{itemize}
+
 \end{remarque}
 
 À la fin de la liste des nomes, on a la longueur totale du pays 
@@ -1358,16 +1363,15 @@ précision donnée rend peu probable les valeurs moyennes ou idéales.
 tous les domaines.
 
 \begin{table}[htb]
-  \begin{tabular*}{10cm + 6\tabcolsep}
-                  {|M{2cm}|M{2cm}|M{2cm}||M{2cm}|M{2cm}|}
+  \begin{tabular}{|M{2cm}|M{2cm}|M{2cm}||M{2cm}|M{2cm}|}
       \multicolumn{3}{|M{6cm + 3.5\tabcolsep}||}{Cour des crues} &
       \multicolumn{2}{M{4cm + 2.5\tabcolsep}|}
                   {Ce qui couvre les terres [\nospace{\dots}]}
     \tabularnewline
-    \cline{1-5}
+    \hline
       (a) & (b) & (c) & (a) à (b) & (b) à (c) 
     \tabularnewline
-    \cline{1-5}
+    \hline
       \SI{10.5}{\m}   & 
       \SI{\pm6}{\m}   & 
       \SI{\pm3}{\m}   & 
@@ -1380,7 +1384,7 @@ tous les domaines.
       \SI{4}{\coudee}~\SI{3}{\paume}~$\frac{1}{3}$   &
       \SI{2}{\coudee}~\SI{3}{\paume}~$[\frac{1}{3}]$
     \tabularnewline
-  \end{tabular*}
+  \end{tabular}
   \caption{Hauteur de la crue dans différentes région}
   \label{tab:crue}
 \end{table}
@@ -1392,13 +1396,7 @@ tous les domaines.
 
 
 
-
-
-
-
-
-
-
+\missingstuff
 
 
 
@@ -1528,8 +1526,8 @@ Il a bien l'air de famille de la \dyn{xii} (grandes oreilles, air
 benêt).
 
 Son épouse s'appelle Nofret. Son règne est probablement bref : la 
-date la plus tardive dont on a une mention est l'an~6, dans la tombe 
-de Khnoumhotep (\no3) à Béni Hassan.
+date la plus tardive dont on a une mention est l'an~\num{6}, dans la 
+tombe de Khnoumhotep (\no3) à Béni Hassan.
 
 Il a effectué des expéditions dans les carrières, mis en valeur le
 Fayoum.
@@ -1552,13 +1550,21 @@ la fabrication du khôl.} et des lingots de cuivre.
   produits chimiques. Les reliefs en ont beaucoup souffert\dots
 \end{remarque}
 
-À El-Bercheh, dans la tombe de Djehoutyhotep, se trouve une autre 
+À El-Bercheh, dans la tombe de Djéhoutyhotep, se trouve une autre 
 scène célèbre : le déplacement d'un colosse de \SI{6.80}{\m} de haut, 
-en calcite, à Hatnoub. Le colosse est placé sur un traîneau tracté 
-sur une piste d'argile que l'on arrose. Des expériences menées par 
-Chevrier dans les années 50 ont montré que l'argile mouillée à un 
-coefficient de frottement équivalent à celui de la glace : une 
-personne peut tracter \SI{1}{\tonne} sur du plat (pente max \ang{10}).
+en calcite, à Hatnoub (\fref{fig:bercheh}). Le colosse est placé sur 
+un traîneau tracté sur une piste d'argile que l'on arrose. Des 
+expériences menées par Chevrier dans les années~\num{50} ont montré 
+que l'argile mouillée à un coefficient de frottement équivalent à 
+celui de la glace : une personne peut tracter \SI{1}{\tonne} sur du 
+plat (pente max \ang{10}).
+
+\begin{figure}[htb]
+  \includegraphics[width=0.8\textwidth]{elbercheh}
+  \caption{Transport d'un colosse -- Tombe de Djéhoutyhotep, 
+           \mbox{El-Bercheh}}
+  \label{fig:bercheh}
+\end{figure}
 
 \begin{remarque}
   Au nord-est de Mirgissa, au niveau de la deuxième cataracte, 
@@ -1599,7 +1605,13 @@ résidence royale avec harem à Ghourob, de l'autre côté du canal).
 La sépulture de Sésostris consiste en une pyramide, une chaussée 
 menant à son temple bas ainsi que une ville de pyramide connue en 
 plan et à cheval sur le désert et les terres cultivées. On appelle 
-cette ville Kahoûn.
+cette ville Kahoûn (\fref{fig:kahoun}).
+
+\begin{figure}[htb]
+  \includegraphics[width=0.66\textwidth, angle=90]{Kahoun}%
+  \caption{Kahoûn}
+  \label{fig:kahoun}
+\end{figure}
 
 \begin{remarque}
   Pour Petrie, Kahoûn désignait l'ensemble du site. Il croyait 
@@ -1668,7 +1680,7 @@ centre administratif comportant un temple, des bureaux,~\dots
 Kahoûn est l'une des rares villes que l'on connaisse mais c'est une 
 ville artificielle (comme Deir el-Medineh) qui renseigne donc mal 
 sur la vie urbaine.
-On y a trouvé des papyrus des XII\ieme et \dyn{xiii} s (le culte de 
+On y a trouvé des papyrus des \dynlist{xii}{xiii} (le culte de 
 Sésostris~II a donc perduré jusque là). Ils sont de nature variée : 
 littéraires (hymne à Sésostris~III, \fref{fig:kahoun2}, conte 
 mettant en scène Horus et Seth), médicaux (le seul papyrus vétérinaire 
@@ -1727,8 +1739,9 @@ On retrouve cette rigidité dans la conception de certains sites,
 orientés coûte que coûte selon les points cardinaux, en dépit de 
 la topographie.
 
-\chapter{Khâkaourê Sésostris~III \datation{(1881-1842)} }
-\faitle{10/01/2013}
+\chapter[Khâkaourê Sésostris~III \datation{(1881-1842)}]
+        {\protect\faitle{10/01/2013}Khâkaourê Sésostris~III 
+         \datation{(1881-1842)}}
 %======================================================================
 
 Voir le \emph{Sésostris~III} de Pierre~\bsc{Tallet}.
@@ -1778,6 +1791,27 @@ on a pas de traces\dots
 Dans une zone inhabituelle, Abydos Sud, au bord d'un rebord 
 montagneux. On trouve deux complexes de monuments.
 
+\begin{figure}[htb]
+  \includegraphics[width=0.67\textwidth]{Sesostris_Abydos_03}%
+  \caption{Abydos Sud}
+  \label{fig:SIII_Abydos}
+\end{figure}
+
+\begin{figure}[htb]
+  \includegraphics[width=0.4\textwidth]{Sesostris_Abydos_04}%
+  \qquad%
+  \includegraphics[width=0.4\textwidth]{Sesostris_Abydos_06}%
+  \caption{Abydos Sud}
+  \label{fig:SIII_Abydos2}
+\end{figure}
+
+\begin{figure}[htb]
+  \includegraphics[width=0.67\textwidth]{Sesostris_Abydos_09}%
+  \caption{Abydos Sud}
+  \label{fig:SIII_Abydos3}
+\end{figure}
+
+
 Tout d'abord, celui commencé par Sésostris : un temple près de la 
 vallée, relié par une chaussée à un temple et une tombe adossés à la 
 montagne. Une ville située dans la vallée et nommée \og \tl{WaH(=w) 
@@ -1820,7 +1854,7 @@ Tombe = labyrinthe.
 Personne ne sait quelle est la finalité de cet ensemble. 
 Le fouilleur actuel du site (USA) pense qu'il s'agit de la vraie tombe 
 du roi et que la pyramide en est une fausse. \PG penche pour l'inverse 
-(cf Séthy~I\ier) : on aurait ici une pseudo-tombe, le tombeau 
+(cf Séthi~I\ier) : on aurait ici une pseudo-tombe, le tombeau 
 d'Osiris, lié à son culte, mort et renaissance.
 
 \section{Expéditions}
@@ -1845,7 +1879,7 @@ Le pays est divisé en trois :
   \item \emph{Ouaret} du nord ; 
   \item \emph{Ouaret} du sud ; 
   \item \emph{Ouaret} de l'extrême sud (la Tête du Sud en égyptien) : 
-        d'Éléphantine au Gebel Silsileh. 
+        d'Éléphantine au \GeS. 
 \end{itemize}
 
 \bigskip
@@ -1868,17 +1902,26 @@ ultérieurs,~\dots
 
 Les rapports sont pacifiques et commerciaux.
 
-La \emph{stèle de Khousobek} d'Abydos (\musee{Manchester}) évoque 
-une campagne contre Sekmem, au \PO : une armée égyptienne est attaquée 
-par les locaux dans le Réténou (nord, du \PO, Syrie). La tradition 
-archéologique voit dans ce toponyme, \emph{Sichem}, le nom biblique 
-de Naplouse\footnote{Étymologiquement, \og Nouvelle Ville \fg, comme
-Naples.}, en Samarie. Cela semble invraissemblable : cette ville est 
-enclavée, entourée de montagnes. Or, les égyptiens n'allaient pas dans 
-les montagnes, c'est le contrôle des routes, des vallées qui les 
-intéressait. De plus, il n'y a rien en Samarie. Selon \PG, Sekmem 
-serait plutôt dans le Sinaï, plus ou moins en guerre permanente (pour 
-l'exploitation du cuivre). 
+La \emph{stèle de Khousobek} d'Abydos (\musee{Manchester} \inv{3306}, 
+\fref{fig:MM3306}, pour la traduction voir \autocite{web_xwskb}) 
+évoque une campagne contre Sekmem, au \PO : une armée égyptienne 
+est attaquée par les locaux dans le Réténou (nord, du \PO, Syrie). 
+La tradition archéologique voit dans ce toponyme, \emph{Sichem}, 
+le nom biblique de Naplouse\footnote{Étymologiquement, \og Nouvelle 
+Ville \fg, comme Naples.}, en Samarie. Cela semble invraisemblable : 
+cette ville est enclavée, entourée de montagnes. Or, les égyptiens 
+n'allaient pas dans les montagnes, c'est le contrôle des routes, des 
+vallées qui les intéressait. De plus, il n'y a rien en Samarie. 
+Selon \PG, Sekmem serait plutôt dans le Sinaï, plus ou moins en guerre 
+permanente (pour l'exploitation du cuivre).
+
+\begin{figure}[htb]
+  \includegraphics[width=0.33\textwidth]{MM3306_1}
+  \quad
+  \includegraphics[width=0.33\textwidth]{MM3306_2}
+  \caption{Stèle de Khousobek \rem{(\musee{Manchester} \inv{3306})}}
+  \label{fig:MM3306}
+\end{figure}
 
 L'intérêt pour l'Asie est manifeste à \TeD. Ce site urbain, avec un 
 temple, est lié à l'installation de Syriens pour la production de 
@@ -1914,10 +1957,19 @@ Différents ouvrages ont été réalisés pour faciliter le déplacement :
   \item à Mirgissa, on a découvert une glissière à bateaux, un portage 
         en argile.
 \end{itemize}
-
 \bigskip
+
+
+\begin{figure}[htb]
+  \includegraphics[width=0.7\textwidth]{mirgissa_glissiere_2}
+
+  \includegraphics[width=0.7\textwidth]{mirgissa_glissiere_1}
+  \caption{Glissière à bateaux de Mirgissa}
+  \label{fig:glissiere}
+\end{figure}
+
 Les forteresses sont placées sur la rive gauche, car la rive droite 
-est le domaine des medjayous, très agressifs. Capturés ou embauchés, 
+est le domaine des Medjayous, très agressifs. Capturés ou embauchés, 
 ils forment une bonne partie des troupes\footnote{Et même l'essentiel 
 des troupes de Kamosis et Ahmosis.}. Au \NK, le terme perd sa 
 connotation ethnique pour désigner les gendarmes.
@@ -1932,7 +1984,7 @@ On disingue trois étapes de construction au \MK :
 \end{itemize}
 
 \bigskip
-Sous Sésostris~III, l'ennemi c'est à la fois les medjayous et Kerma.
+Sous Sésostris~III, l'ennemi c'est à la fois les Medjayous et Kerma.
 
 Différents types de forteresses : 
 \begin{itemize}
@@ -1955,6 +2007,11 @@ abrités, de \slashfrac{1}{2} tours. Elle est dotée de barbacanes, d'un
 fossé sec. Le temple du \MK, refait par Thoutmosis~III et Hatchepsout 
 est aujourd'hui à Khartoum.
 
+\begin{figure}[htb]
+  \includegraphics[width=0.67\textwidth]{fort_bouhen_1}
+  \caption{Forteresse de Bouhen}
+  \label{fig:bouhen}
+\end{figure}
 
 \faitle{17/01/2013}
 La deuxième cataracte s'étend sur \SI{\pm25}{\km}, entre Bouhen et 
@@ -1966,7 +2023,7 @@ crue.
     \item Le rocher d'Abousir était une destination de pique-nique 
           très appréciée au 19\ieme~siècle. Il apparaît même dans une 
           nouvelle de Conan~\bsc{Doyle}.
-    \item \emph{narti} = île en nubien.
+    \item \emph{narti} = \emph{île} en nubien.
   \end{itemize}
 \end{remarque}
 
@@ -1984,7 +2041,7 @@ frottement équivalent à celui de la glace.
 Des traces de patins montrent que les bateaux étaient placés sur des 
 traîneaux tirés par des b\oe{}ufs\footnote{Voir les représentations de 
 processions funéraires et un vrai transport de bateau dans la tombe 
-TT40 de Houy, le vice-roi de Kouch sous Toutankhamon.}.
+TT40 de Houy, le vice-roi de Kouch sous Toutânkhamon.}.
 
 \subsubsection{Système de défense}
 Sous Sésostris~III, la poussée vers le sud se fait à partir de là, 
@@ -2008,13 +2065,22 @@ Le système défensif comprend :
 
 \bigskip
 
-Seuls Ouronarti et Shalfak sont encore au-dessus du niveau des eaux.
+Seules Ouronarti et Shalfak sont encore au-dessus du niveau des eaux.
 
 \paragraph{Le Mur du Désert}
 Il s'étend sur \SI{10}{\km} de long, en briques sur une base en 
 pierres et comporte des tours. Il borde la zone entre Ouronarti et 
 Semna, parallèlement au Nil. Il n'en reste qu'une petite partie, les 
 murs font \SI{2.50}{\m} d'épaisseur.
+
+\CaptionPetit
+\begin{wrapfigure}[7]{o}[0cm]{0pt}
+  \centerfloat
+  \includegraphics[width=3cm]{fort_shalfak}%
+  % \caption{Forteresse de Shalfak}
+  \label{fig:shalfak}
+\end{wrapfigure}
+\CaptionNormal
 
 \paragraph{Shalfak}
 C'est un nid d'aigle à \SI{50}{\m} au dessus du Nil, sur un tournant 
@@ -2025,6 +2091,15 @@ murs \SI{5}{\m} d'épaisseur. Un escalier permet d'accéder au Nil. Des
 greniers dont la capacité excède ce à quoi on pourrait s'attendre, 
 fournissent des réserves en cas de siège et alimentent les autres 
 forteresses.
+
+\CaptionPetit
+\begin{wrapfigure}[7]{i}[0cm]{0pt}
+  \centerfloat
+  \includegraphics[width=3cm]{fort_ouronarti_1}%
+  % \caption{Forteresse de Ouronarti}
+  \label{fig:ouronarti}
+\end{wrapfigure}
+\CaptionNormal
 
 \paragraph{Ouronarti}
 Installé sur une partie d'une très grande île, en hauteur, avec vue 
@@ -2057,6 +2132,14 @@ protection), avec tours en T, fossé sec et mur de contrescarpe.
 encore), est beaucoup plus simple, juste un complément de Semna, 
 abritant \num{50} à \num{100}~hommes. La ville s'appelait \emph{Heh}.
 
+\begin{figure}[htb]
+  \includegraphics[width=0.33\textwidth]{fort_semna_koumma_1}%
+  \qquad%
+  \includegraphics[width=0.50\textwidth]{fort_semna_vue}%
+  \caption{Forteresses de Semna et Koumma}
+  \label{fig:semna}
+\end{figure}
+
 \paragraph{Semna Sud}
 À \SI{1.5}{\km} plus au sud, c'est un blockhaus avec un accès au Nil 
 par un tunnel. Le Mur du Désert arrive là.
@@ -2066,25 +2149,32 @@ garde et de patrouilles. Des signaux de fumées permettaient de
 communiquer d'une forteresse à l'autre. 
 
 \paragraph{Les Dépêches de Semna}
-Cette série de lettres écrites sur un même rouleau de papyrus date 
+Cette série de lettres écrites sur un même rouleau de papyrus 
+(\musee{BM} \inv{EA\,10752}, \fref{fig:EA107523}) date 
 d'Amenemhat~III et a été trouvée dans une tombe du \MK\footnote{dans 
-un coffre contenant de nombreux papyrus :
-\emph{Sinouhé}, \emph{le Paysan},~\dots} au Ramesséum\footnote{On a 
-trouvé des entrées de tombes dans les greniers, réutilisées à la fin 
-du \NK : les greniers servaient de chapelles, des groupes familiaux 
-en argile stuckée étaient réalisés\dots}. Les \emph{Dépêches} sont un 
-registre, un journal dans lequel toutes les communications 
-administratives étaient enregistrées, rendant les originaux 
-inutiles\footnote{Les tablettes d'Amarna ont étés abandonnées sur 
-place parce que les registres faisaient foi.}. Le document, contenant 
-des lettres provenant des différentes forteresses de Nubie, est abîmé, 
-mais permet de connaître l'existence d'un service postal entre les 
-sites : les lettres étaient transmises de fort en fort jusqu'au QG 
-à Thèbes. On sait que les forteresses, installées sur un réseau de
-pistes, organisaient des patrouilles, constituées pour la plupart de 
-medjayous (parlant la langue des locaux et connaissant le désert) 
-encadrés par des officiers égyptiens. Les gens rencontrés lors de 
-ces patrouilles sont interrogés.
+un coffre contenant de nombreux papyrus : \emph{Sinouhé}, \emph{le 
+Paysan},~\dots} au Ramesséum\footnote{On a trouvé des entrées de 
+tombes dans les greniers, réutilisées à la fin du \NK : les greniers 
+servaient de chapelles, des groupes familiaux en argile stuckée 
+étaient réalisés\dots}. Les \emph{Dépêches} sont un registre, un 
+journal dans lequel toutes les communications administratives étaient 
+enregistrées, rendant les originaux inutiles\footnote{Les tablettes 
+d'Amarna ont étés abandonnées sur place parce que les registres 
+faisaient foi.}. Le document, contenant des lettres provenant des 
+différentes forteresses de Nubie, est abîmé, mais permet de connaître 
+l'existence d'un service postal entre les sites : les lettres étaient 
+transmises de fort en fort jusqu'au QG à Thèbes. On sait que les 
+forteresses, installées sur un réseau de pistes, organisaient des 
+patrouilles, constituées pour la plupart de Medjayous (parlant la 
+langue des locaux et connaissant le désert) encadrés par des officiers 
+égyptiens. Les gens rencontrés lors de ces patrouilles sont interrogés.
+
+\begin{figure}
+  \includegraphics[width=0.5\textwidth]{EA107523}%
+  \caption{Papyrus Ramesseum~C, dépêches de Semna 
+           \rem{(\musee{BM} \inv{EA\,10752,3})}}
+  \label{fig:EA107523}
+\end{figure}
 
 La population des forteresses est difficile à estimer, mais elle se 
 composait de garnisons, d'une administration militaire, et parfois de 
@@ -2149,8 +2239,15 @@ connaissaient bien la géopolitique de la Nubie et de la Palestine.
 La pyramide de Sésostris~III est située à Dahchour, c'est un massif 
 de briques crues avec un parement en pierre. Le complexe abrite les 
 sépultures de la famille royale et des courtisans. Une enceinte 
-rectangulaire englobe le complexe. Le temple funéraire est au sud car 
-on est au bord d'un plateau, il n'y a qu'une petite chapelle à l'est.
+rectangulaire englobe le complexe (\fref{fig:SIII_dahchour}). 
+Le temple funéraire est au sud car on est au bord d'un plateau, il 
+n'y a qu'une petite chapelle à l'est.
+
+\begin{figure}
+  \includegraphics[width=0.5\textwidth]{SIII_dahchour}%
+  \caption{Complexe funéraire de Sésostris~III à dahchour}
+  \label{fig:SIII_dahchour}
+\end{figure}
 
 Des pyramides de princesses encadrent celle du roi, quatre au nord et 
 trois, plus anciennes, au sud, dont la pyramide satellite au sud-est.
@@ -2186,8 +2283,8 @@ Le champ de mastabas de courtisans au nord comprend les tombes de
 Khnouhotep, Horhéty et Satouret. Le sarcophage était déposé pendant 
 la construction.
 
-\chapter{Le royaume de Kerma}
-\faitle{22/01/2013}
+\chapter[Le royaume de Kerma]
+        {\protect\faitle{22/01/2013}Le royaume de Kerma}
 %======================================================================
 
 \section{Relation avec l'\kmt}
@@ -2249,13 +2346,22 @@ que les maisons traditionnelles actuelles.
 %----------------------------------------------------------------------
 
 Les tombes, de toutes tailles, sont circulaires (jusqu'à 
-\SI{50}{\m} de diamètre). Ce sont en fait des tumulus dont le tour 
-était marqué par un semis d'éclats de basalte qui contraste bien avec 
-le sable du désert. Un grand couloir transversal donnait accès à la 
-chambre funéraire, au centre, contenant des offrandes et les corps de 
-sacrifiés (femmes, béliers). Des murs latéraux permettaient d'assurer 
-sa forme au tumulus une fois rempli de sable. Seule la chambre était 
-protégée par un toit.
+\SI{50}{\m} de diamètre). Ce sont en fait des tumulus 
+(\fref{fig:Ktum}) dont le tour était marqué par un semis d'éclats de 
+basalte qui contraste bien avec le sable du désert. Un grand couloir 
+transversal donnait accès à la chambre funéraire, au centre, contenant 
+des offrandes et les corps de sacrifiés (femmes, béliers). Des murs 
+latéraux permettaient d'assurer sa forme au tumulus une fois rempli de 
+sable. Seule la chambre était protégée par un toit.
+
+\begin{figure}[htb]
+  \includegraphics[width=0.33\textwidth]{kerma_tumulus_1}%
+  \qquad%
+  \includegraphics[width=0.33\textwidth]{kerma_tumulus_2}%
+  \caption{Kerma : tumulus}
+  \label{fig:Ktum}
+\end{figure}
+
 
 Deux édifices rectangulaires étaient des temples associés aux tombes.
 La \og deffoufa orientale \fg est le temple associé à la tombe 
@@ -2288,8 +2394,8 @@ Nymaâtrê, Lamarès en grec.
 Règne assez long, air pas commode !
 
 Il est associé au constructeur du \og labyrinthe d'\kmt \fg dans la 
-littérature grecque. En fait l'infrastructure de la pyramide du roi 
-à Hawara, dont il ne reste rien.
+littérature grecque. C'est en fait l'infrastructure de la pyramide du 
+roi à Hawara, dont il ne reste rien.
 
 Son épouse était Âat, ses filles Néfrouptah et Néfrousobek. Cette 
 dernière deviendra reine en épousant le fils d'Amenemhat~III, 
@@ -2303,15 +2409,15 @@ l'absolutisme, les tombes privées semblant s’appauvrir. Mais \PG est
 sceptique, en effet, la richesse des tombes dépend des largesses du 
 roi. 
 
-\subsubsection{Papyrus de Brooklyn} 
+\subsubsection{Papyrus \musee{Brooklyn} \inv{35.1446}
+\autocite{Menu2012}} 
 
-C'est un document complexe, avec 
-différentes strates chronologiques, datant de la \DPI, mais citant 
-des documents d'Amenemhat~III. Il montre que des égyptiens peuvent 
-être réduits en esclavage, pour avoir fuit dans le désert les corvées 
-agricoles (construction de digues, canaux), vécues comme une forme de 
-servitude. Ils sont alors condamnés aux travaux forcés, donnés en 
-récompense par le roi.
+C'est un document complexe, avec différentes strates chronologiques, 
+datant de la \DPI, mais citant des documents d'Amenemhat~III. 
+Il montre que des égyptiens peuvent être réduits en esclavage, pour 
+avoir fuit dans le désert les corvées agricoles (construction de 
+digues, canaux), vécues comme une forme de servitude. Ils sont alors 
+condamnés aux travaux forcés, donnés en récompense par le roi.
 
 Ce document est considéré comme un indice de l'absolutisme supposé 
 du règne, mais on n'a pas assez d'information pour faire des 
@@ -2458,7 +2564,8 @@ Le temple funéraire, placé au sud à cause de la topographie, a
 complètement disparu, utilisé comme carrière de pierre dont il ne 
 reste que des tas de déblais de taille. Baptisé \og Labyrinthe \fg 
 par les grecs, il a été décrit par \bsc{Strabon}, \bsc{Hérodote}, 
-\bsc{Pline l'Ancien},~\dots Son emplacement est aujourd'hui sous un canal d'irrigation.
+\bsc{Pline l'Ancien},~\dots Son emplacement est aujourd'hui sous un 
+canal d'irrigation.
 
 \begin{remarque}
   Avec les auteurs antiques, il est toujours difficile de se faire une 
@@ -2512,6 +2619,12 @@ pyramide de secours. Mais, s'il le sarcophage royal est bien à Hawara,
 deux reines ont été enterrées à Dahchour. Ce n'est donc peut-être pas 
 si simple. 
 
+\begin{figure}[h]
+  \includegraphics[width=0.4\textwidth]{AIII_dahchour}
+  \caption{\og Pyramide noire \fg d'Amenemhat~III à Dahchour}
+  \label{fig:AIII_dahchour}
+\end{figure}
+
 \subsection{Vue d'ensemble}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Elle est en briques crues, en très mauvais état. À l'est il y a une 
@@ -2526,6 +2639,12 @@ Il reste quelques fragments de revêtement en calcaire blanc au niveau
 du sol, et on a retrouvé le pyramidion, en granit rouge. Ce dernier 
 est si bien conservé que certains doutent qu'il ait jamais été mis en 
 place.
+
+\begin{figure}[h]
+  \includegraphics[width=0.67\textwidth]{AIII_dahchour_plan}
+  \caption{\og Pyramide noire \fg : plan}
+  \label{fig:AIII_dahchour_plan}
+\end{figure}
 
 \begin{remarque}
   Au \MK, les chaussées ne sont plus couvertes.
@@ -2544,6 +2663,12 @@ L'ensemble constitue une sépulture familiale.
 
 Comme à Hawara, on y trouve des escaliers. Les parois internes sont 
 en gros blocs de calcaire.
+
+\begin{figure}[h]
+  \includegraphics[width=0.67\textwidth]{AIII_dahchour_infra}
+  \caption{\og Pyramide noire \fg : infrastructure}
+  \label{fig:AIII_dahchour_infra}
+\end{figure}
 
 À l'est se trouvent les appartements du roi, il n'y a pas de 
 traces de sépulture, et aucune inscription. Certaines pièces sont 
@@ -2584,9 +2709,17 @@ mais s'arrête avant la chaussée. Il menait peut-être à une cave.
 
 \subsection{Temple bas}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Une maquette d'appartement funéraire (\musee{Le~Caire}), en pierre 
-taillée, y a été trouvée. Mais elle ne correspond à aucune pyramide 
-connue. Quelle en est l'utilité ? Est-ce un jouet ?
+Une maquette d'appartement funéraire (\musee{Le~Caire}, 
+\fref{fig:AIII_model}), en pierre taillée, y a été trouvée. 
+Mais elle ne correspond à aucune pyramide connue. Quelle en est 
+l'utilité ? Est-ce un jouet ?
+
+\begin{figure}[h]
+  \includegraphics[width=0.33\textwidth]{AIII_hawara_model}
+  \caption{Maquette d'appartement funéraire \rem{(\musee{Caire})}}
+  \label{fig:AIII_model}
+\end{figure}
+
 
 \section{Statuaire}
 %----------------------------------------------------------------------
@@ -2623,12 +2756,197 @@ conduit à une acculturation partielle des princes de Byblos : tombes,
 sarcophages, h\iero es, titres (\tl{HAt(y)-a})\dots C'est le même 
 phénomène qu'à Kerma.
 
-\subsection{\TeD / Qantîr}
+\subsection{\texorpdfstring{\TeD{}}{Tell el-Dab'a} / Qantîr}
 
 La future Pi-Ramsès.
 
 Le développement du site est lié aux rapports avec l'Asie (Ro-ouaty).
 On y voit l'installation d'une colonie de syriens, avec l'importation 
 de main-d'\oe{}uvre issue du nord de Byblos et spécialisée dans le 
-travail du bois et la construction de bateaux.
+travail du bois et la construction de bateaux. 
 
+Première implantation, entre \TeD et Ezbet \uwave{???} : ville PPI/ME. 
+On a trouvé une empreinte de sceau avec bateau et Baal Saphon tenant 
+une massue et une voile (il commande aux orages et aux vents). C'est 
+la première représentation de ce dieu des marins, le \og maître du 
+Nord \fg. Il est debout sur deux montagnes, les monts Cassus et Amanus 
+(au débouché de l'Oronte).
+
+Il y a probablement aussi un lien avec la métallurgie. En effet, 
+le travail du bronze apparaît vers au moins \ano[-1]{2000} au \PO, 
+de nombreux alliages variés y ont été testés (cf \og alliage 
+sextuple \fg)). Les datations au \PO sont basées sur le bronze : 
+le \MK correspond au Bronze Moyen~2A ; La \PPI est entre le Bronze 
+Ancien et le Bronze Moyen. C'est une période prospère, avec des 
+cités-états puissantes, de grandes villes fortifiées, (surtout 
+au nord), avec de puissants remparts en terre, palais, urbanisme 
+orthonormé, lieux de culte, évolution de la poterie, \dots Le bronze 
+remplace le cuivre de façon générale. Les contacts avec la Mésopotamie 
+sont assidus, pour le commerce de l'étain (venu d'Afghanistan, du 
+Turkménistan). La route de l'étain passe par la Mésopotamie, 
+l'Euphrate, Mari, puis se répartit dans la région.
+De nouvelles armes et outils sont développés : haches à tête de canard 
+(à l'origine de la mort de Séqenenrê-Tâa), têtes de lance, épées (on 
+en a trouvées en or à \TeD), haches epsilon (encore utilisée par 
+Guillaume le Conquérant).
+
+\faitle{12/02/13}
+\begin{remarque}
+  C'est la préhistoire des Hyksos.
+\end{remarque}
+
+Les origines du Bronze Moyen sont mystérieuses, il semble apparaître 
+de façon soudaine, pleinement constitué. Il pourrait venir de plus 
+loin au nord.
+
+Plus tard, l'implantation se déplace vers le nord-ouest : ville 
+centrée sur le temple d'Amenemhat~I\ier.
+
+
+\chapter{Amenemhat~IV \datation{(1794-1785)}}
+%======================================================================
+
+Ce règne est encore plus mal connu que les autres.
+
+La Nubie, bien tenue, ne pose pas de problème.
+Les expéditions habituelles sont organisées.
+Amenemhat~IV poursuit les travaux dans le Fayoum, termine Médinet Mâdi.
+
+L'\kmt entretient des relations commerciales avec Byblos (résineux), 
+à partir du port de \TeD{} / Qantîr.
+La nécropole princière de Byblos se répartit dans des grottes, 
+découvertes dans les années~\num{20} au nord-ouest du site 
+archéologique. On y a trouvé, dans une tombe d'un souverain local 
+sous Amenemhat~III et Amenemhat~IV, un pectoral (?) en or (\musee{BM} 
+\inv{EA\,59194}), \fref{fig:EA59194}).
+
+\begin{figure}[htb]
+  \includegraphics[width=5cm]{EA59194}
+  \caption{Plaque ajourée en or \rem{(\musee{BM} \inv{EA\,59194})}}
+  \label{fig:EA59194}
+\end{figure}
+
+On suppose que sa sépulture est la pyramide de Mazghouna, au sud 
+de Dahchour, au-dessus de Licht. Il y a deux pyramides sur le site, 
+réduites à des tas de sable. On ne sait même pas si elles ont été 
+finies. La pyramide nord est attribuée à Néfrousobek, la sud à 
+Amenemhat~IV. Les deux pyramides disposent d'un mur d'enceinte 
+sinusoïdal, peut-être par manque de temps pour construire l'habituelle 
+enceinte interne à redans.
+
+\begin{figure}[h]
+  \includegraphics[width=0.45\textwidth]{AIV_mazghouna}
+  \includegraphics[width=0.45\textwidth]{AIV_mazghouna_plan}
+  \caption{Pyramide sud de Mazghouna}
+  \label{fig:mazghouna}
+\end{figure}
+
+\chapter{Bijoux de princesses et reines de la %
+         \texorpdfstring{\dyn{xii}}{XIIe dynastie}}\label{cha:bijoux}
+%======================================================================
+
+C'est le seul domaine bien documenté de la période. La technique du 
+\emph{cloisonné} est particulièrement employé (incrustation de pierres 
+fines, faïence).
+
+\section{Amenemhat~II -- Dahchour}
+%----------------------------------------------------------------------
+\missingstuff
+
+\section{Sésostris~II -- Illahoûn}
+%----------------------------------------------------------------------
+\missingstuff
+
+\section{Sésostris~III -- Dahchour}
+%----------------------------------------------------------------------
+\missingstuff
+
+\section{Amenemhat~III -- Hawara}
+%----------------------------------------------------------------------
+
+
+\missingstuff
+
+
+\chapter{Néfrousobek \datation{(1785-1781)}}\label{cha:nfrwsbk}
+%======================================================================
+
+Son nom est sujet à caution : pour certains il faut lire 
+Néfrousobek(Rê), pour d'autres, Sobek(Rê)néfrou. Manéthon l'appelle 
+Skémiophris, ce qui fait pencher pour la deuxième proposition. Le Rê 
+correspond à l'ajout automatique lié à solarisation du panthéon.
+
+On ne sait rien de son règne. Elle est la deuxième fille 
+d'Amenemhat~III et l'épouse d'Amenemhat~IV.
+
+C'est une femme, on la compare forcément à Hatchepsout\dots Mais son 
+règne est court, en fin de dynastie, comme Taousert à la fin de la 
+\dyn{xix}. Dans le cas de Taousert, il n'y avait plus d'héritier mâle, 
+elle était un pis-aller constitutionnel. C'est peut-être la même chose 
+pour Néfrousobek.
+À l'\OK, il y a le cas de Nitocris, semi-légendaire, attestée dans la 
+documentation mais pas dans les monuments.
+
+
+Le Louvre conserve un torse de la reine en quartzite (\inv{E\,27135}, 
+\fref{fig:E27135}), on a trouvé une marque de crue à son nom à Semna. 
+Un petit temple\footnote{On ne sait pas si ce bâtiment est vraiment 
+un temple, et son emplacement est perdu (fouillé dans les 
+années~\num{40}), peut-être en bordure ouest du tell.} en briques 
+crues de \TeD a livré des groupes statuaires décapités : deux statues 
+de la reine, une base à son nom, une statue d'un roi de la \dyn{xiii} 
+(\fref{fig:TeD_statues}).
+
+\begin{figure}[htb]
+  \includegraphics[width=5cm]{E27135}
+  \caption{Torse de la reine Néferousébek, son nom est gravé sur sa 
+           ceinture \rem{(\musee{Louvre} \inv{E\,27135})}}
+  \label{fig:E27135}
+\end{figure}
+
+On attribue à la reine, sur critères stylistiques seulement, la 
+pyramide de Mazghouna Nord. Elle est encore plus ruinée que la 
+pyramide Sud : il n'y a plus aucune trace de la superstructure, pas 
+même des briques. Était-elle faite en pierre ? Il est plus probable 
+qu'elle n'ait jamais été commencé. L'infrastructure est, comme 
+d'habitude, complexe.
+
+
+\chapter{Conclusion}
+%======================================================================
+
+La \dyn{xii} est caractérisée par de grandes différences de 
+civilisation par rapport à la \dyn{xiii}, plus brute, moins 
+harmonieuse, aux racines thébaines.
+On retrouve les critères artistiques de l'\OK, les traditions 
+memphites, avec l'ajout d'Aamon. 
+
+La vision d'ensemble souffre du manque de monuments importants, 
+disparus, remplacés par d'autres au \NK\footnote{Il faut tout 
+refaire en plus grand, en plus neuf.}. C'est pourtant une période 
+aussi glorieuse que le \NK, malgré l'absence d'activité militaire 
+en Asie. Les égyptiens des périodes ultérieures la considéraient 
+comme un second âge d'or. Au \NK, on imite ses monuments 
+(\emph{sekher} géants sur les murs de soutènement d'Hatchepsout, 
+\TP), ses textes sont toujours étudiés par les scribes, sa langue 
+devient l'égyptien classique, employé jusqu'à l'époque greco-romaine. 
+On parle de \og l'égyptien de tradition \fg. Il sert même pour les 
+textes administratifs du \NK.
+
+\begin{remarque}
+  Certains des textes de la \dyn{xii} ne sont d'ailleurs connus que 
+  par des copies du \NK, pleines d'erreurs -- le moyen-égyptien est 
+  devenu une langue morte, plus vraiment comprise.
+
+  On connaît la langue par ce qui est écrit, ici par des employés du 
+  gouvernement dans la langue du gouvernement. Ce type de documents 
+  doit être compris dans tout le pays. Voir la disparition des langues 
+  régionales avec l'école publique en France. Les langues nationales 
+  sont plus ou moins artificielles. \donc{} Maintien comme langue de 
+  référence. 
+\end{remarque}
+
+Le souvenir de la \dyn{xii} perdure jusqu'à l'époque grecque, 
+avec un halo de prestige : labyrinthe, \source{Geste de Sésostris} 
+(souvenir des conquérants de la Nubie, intégrant au fur et à mesure 
+les connaissances historiques et géographiques de l'époque).

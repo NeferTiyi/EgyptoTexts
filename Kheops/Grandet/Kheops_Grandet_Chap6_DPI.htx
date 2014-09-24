@@ -1,19 +1,17 @@
 %!TEX root = Kheops_Grandet_book.htx
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\book{La \DPI{} \datation{(1781-1550)}}
+\book{La \DPI{} \datation{(1781-1550)}}%\label{bk:DPI}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \part{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Généralités}
+\chapter[Généralités]{\protect\faitle{19/02/2013}Généralités}
 %======================================================================
 
-
-\faitle{19/02/2013}
-La \DPI comprend les \bsc{xiii}\ieme, \bsc{xiv}\ieme, \bsc{xv}\ieme, 
-\bsc{xvi}\ieme et \dyn{xvii}s, et le début de la \dyn{xviii}.
+La \DPI comprend les \dynnum{xiii}, \dynnum{xiv}, \dynnum{xv}, 
+\dynlist{xvi}{xvii}, et le début de la \dyn{xviii}.
 
 \begin{table}
   \centerfloat
@@ -52,14 +50,14 @@ classique. Ils gouvernent la \BE et la \ME.
 À la même époque à Thèbes, les descendants de la \dyn{xiii} fondent 
 la \dyn{xvii} (pourquoi deux dynasties ?).
 
-La \bsc{xv}\ieme et la \dyn{xvii} revendiquent toutes deux la royauté 
+Les \dynlist{xv}{xvii} revendiquent toutes deux la royauté 
 et les thébains déclenchent la guerre civile vers \ano[0]{1600}. 
 Ce n'est que vers \ano[0]{1540} que leurs héritiers, la \dyn{xviii},
 obtiendront la victoire totale.
 
 Dans les textes législatifs thébains, le pouvoir rival hyksos est 
-désigné par la circonlocution \og l'autorité de fait \fg, \tl{sxm 
-jry=f} (par opposition à l'autorité de droit) : les mesures sont 
+désigné par la circonlocution \tl{sxm jry=f}, \og l'autorité de 
+fait \fg, par opposition à l'autorité de droit : les mesures sont
 proclamées \og pour tout roi ou \uline{toute autorité de fait} à 
 venir \fg\footnote{On trouve quelque chose de similaire dans notre 
 législation, pour désigner le régime de Vichy : \emph{\og les actes 
@@ -75,25 +73,24 @@ rien : aucun autre texte, pas de traces archéologiques\dots
 \begin{warning}
   La notion de dynastie ne correspond pas à des liens génétiques, mais 
   plutôt politiques : le premier roi de la \dyn{xviii} et le frère du 
-  dernier de la \bsc{xvii}\ieme.
+  dernier de la \dynnum{xvii}.
 \end{warning}
 
 \bigskip
 
-D'après le \emph{\CT}, la \dyn{xiii} comporterait \num{62}~rois en 
-\num{130}~ans, soit une moyenne de \num{2.5}~ans par roi, sans compter 
-le fait que plusieurs rois ont régner dix ans ou plus. C'est encore 
-pire pour la \dyn{xiv} : \num{74}~rois se seraient succédé sur une 
-période de \num{60}~ans.
+D'après le \CT, la \dyn{xiii} comporterait \num{62}~rois en 
+\num{130}~ans, soit une moyenne de \num{2.5}~ans par roi, sans 
+compter le fait que plusieurs rois ont régner dix ans ou plus. 
+C'est encore pire pour la \dyn{xiv} : \num{74}~rois se seraient 
+succédé sur une période de \num{60}~ans.
 
-On peut donc se demander si ces dynasties, ainsi que la 
-\bsc{xvii}\ieme, ne correspondraient pas également à des 
-\og sous-dynasties \fg. Certains égyptologues ont proposé une 
-monarchie élective, avec des mandats courts. Mais on n'a aucune 
-trace d'un tel système, et cela semble trop éloigné des conceptions 
-égyptiennes pour être vraiment envisageable. On parle également de 
-la dévalorisation du rôle du roi : s'il y en a beaucoup, c'est qu'il 
-n'est pas si important.
+On peut donc se demander si ces dynasties, ainsi que la \dynnum{xvii}, 
+ne correspondraient pas également à des \og sous-dynasties \fg. 
+Certains égyptologues ont proposé une monarchie élective, avec des 
+mandats courts. Mais on n'a aucune trace d'un tel système, et cela 
+semble trop éloigné des conceptions égyptiennes pour être vraiment 
+envisageable. On parle également de la dévalorisation du rôle du roi : 
+s'il y en a beaucoup, c'est qu'il n'est pas si important.
 Pour \PG, il faut sûrement y voir des dynasties parallèles, avec des 
 dynastes locaux qui se donnent des cartouches, et même des commandants 
 de forteresses nubiennes. C'est par exemple le cas du dynaste 
@@ -162,19 +159,19 @@ de production culturelle (Papyrus Westcar, Conte des Rameuses~\dots)
 Le pouvoir hyksos repose sur une forte immigration asiatique, mais on 
 n'en connais pas la dynamique.
 
-\chapter{Sources : listes de rois}
-\faitle{26/02/2013}
-%======================================================================
 
+\chapter[Sources : listes de rois]
+        {\protect\faitle{26/02/2013}Sources : listes de rois}
+%======================================================================
 
 \section{Le \CT}
 %----------------------------------------------------------------------
 
-C'est la \og liste complète des rois d'\kmt \fg, compilée sous 
-Ramsès~II, et trouvé, morceau par morceau, par Champollion. Plus 
-détaillé que la Liste d'Abydos, il lui a certainement servi de base, 
-ainsi qu'à Manéthon. Il donne les durées de règne, réparties par 
-dynastie, et les cumuls par dynastie.
+Trouvé, morceau par morceau, par \bsc{Champollion}, c'est une 
+\og liste complète des rois d'\kmt \fg, compilée sous Ramsès~II.
+Plus détaillé que la \source{Liste d'Abydos}, il lui a certainement 
+servi de base, ainsi qu'à Manéthon. Il donne les durées de règne, 
+réparties par dynastie, et les cumuls par dynastie.
 
 Il est mieux conservé pour la \DPI que pour les autres périodes.
 
@@ -245,7 +242,7 @@ positionnés au hasard.
 \part{\texorpdfstring{\dyn{xiii}}{XIIIe dynastie}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{\TeD / Qantîr\index{\TeD}}
+\chapter{\texorpdfstring{\TeD{}}{Tell el-Dab'a} / Qantîr\index{\TeD}}
 %======================================================================
 
 Le site connaît une évolution importante au milieu de la \dyn{xiii}.
@@ -319,10 +316,17 @@ C'est le premier roi répertorié. Il n'a pas de lien connu avec la
 \dyn{xii} et son nom est bizarre. On lui attribue deux ans de règne. 
 Il a effectué des travaux, mais ils sont mal connus.
 
-\subsection{Décret de la stèle de Néferhotep}
+\subsection*{Décret de la stèle de Néferhotep (\musee{Caire} 
+             \inv{JE\,35256})}
 
 \emph{Néferhotep} est un ajout postérieur, la stèle date en fait de 
-l'an~4 d'Ougaf ou de \uwave{???}. 
+l'an~\num{4} d'Ougaf ou de \uwave{???}. 
+
+\begin{figure}[htb]
+  \includegraphics[width=0.5\textwidth]{JE35256}
+  \caption{Stèle d'Ougaf \rem{(\musee{Caire} \inv{JE\,35256})}}
+  \label{fig:JE35256}
+\end{figure}
 
 Elle relate la constitution, à Abydos -- ville sacrée que se disputent 
 les pouvoirs rivaux -- d'une zone interdite à tous sauf aux prêtres de 
@@ -337,13 +341,13 @@ Il s'agit certainement de protéger la zone des mystères d'Osiris
 La tombe de Djer (\dyn[\iere]{i}, voir \Bref{bk:PT}, \Cref{cha:djer}, 
 \pref{cha:djer}) à \OeQ avait été réinterprétée comme le tombeau 
 d'Osiris. Les égyptiens ne savaient plus qui était enterré là, 
-peut-être des dieux\dots On y a trouvé le \og Lit d'Osiris \fg dont 
-la datation est incertaine (fouilles de \ano[0]{1898}). En effet, si 
-le nom de Nectanébo (\dyn{xxx}) y apparaît, il a été usurpé plusieurs 
-fois. Différents noms ont été proposés : Khendjer, 
-Nebiry\uwave{herâou} (\dyn{xvii}). On ne sait pas non plus de quand 
-date l'identification de la tombe de Djer à celle d'Osiris : début de 
-la \DPI, \bsc{xii}\ieme, voire même \dyn{xi}. On n'a pas de parallèle 
+peut-être des dieux\dots On y a trouvé le \og lit d'Osiris \fg 
+dont la datation est incertaine (fouilles de \ano[0]{1898}). En 
+effet, si le nom de Nectanébo (\dyn{xxx}) y apparaît, il a été 
+usurpé plusieurs fois. Différents noms ont été proposés : Khendjer, 
+Nebiryeraou (\dyn{xvii}). On ne sait pas non plus de quand date 
+l'identification de la tombe de Djer à celle d'Osiris : début de la 
+\DPI, \dynnum{xii}, voire même \dyn{xi}. On n'a pas de parallèle 
 pour une éventuelle datation stylistique.
 
 \section{Rois 2 à 8}
@@ -352,7 +356,7 @@ pour une éventuelle datation stylistique.
 On n'en connaît rien. Ils ne sont attestés que par quelques blocs, 
 quelques scarabées\dots
 
-\section{Hornedjhérytef}
+\section{Hornedjhérytef}\label{cha:htpjbra}
 %----------------------------------------------------------------------
 
 Hétepibrê.
@@ -366,13 +370,37 @@ Ce signe a deux lectures possibles :
 \end{itemize}
 La seconde ouvre la voie à des spéculations : asiatique\dots Hyksos !
 
-On a retrouvé quelques monuments au nom de ce roi, notamment une base 
-de statue dans le temple de \TeD, 
-% avec (Néfrousobek ?) 
-une dédicace à Ptah de Memphis. Et une masse d'arme (\fref{???}) à 
-son nom à Ebla\footnote{Royaume syrien au sud d'Alep, dans la steppe. 
-Puissance politique et commerciale importante.}, un cadeau 
-diplomatique pour ménager un partenaire commercial.
+\CaptionPetit
+\begin{figure}[htb]
+  \begin{minipage}{0.5\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{TeD_statues}
+    \caption{\TeD, statues de Néfrousobek et Hornedjhérytef}
+    \label{fig:TeD_statues}
+  \end{minipage}%
+  \qquad%
+  \begin{minipage}{0.45\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{hetepibre_ebla}
+    \caption{Masse d'arme au nom de Hétepibrê, trouvée à Ébla}
+    \label{fig:htpjbra_ebla}
+  \end{minipage}
+\end{figure}
+\CaptionNormal
+
+On a retrouvé quelques monuments au nom de ce roi, notamment une 
+base de statue dans le temple de \TeD (avec plusieurs statue de 
+Néfrousobek \fref{fig:TeD_statues}), une dédicace à Ptah de Memphis. 
+Et une masse d'arme (\fref{fig:htpjbra_ebla}) à son nom à 
+Ébla\footnote{Royaume syrien au sud d'Alep, dans la steppe. Puissance 
+politique et commerciale importante.}, un cadeau diplomatique pour 
+ménager un partenaire commercial.
+
+% \begin{figure}[htb]
+%   \includegraphics[width=0.67\textwidth]{hetepibre_ebla}
+%   \caption{Masse d'arme au nom de Hétepibrê, trouvée à Ébla}
+%   \label{fig:htpjbra_ebla}
+% \end{figure}
 
 \begin{remarque}
   Plusieurs rois sont mentionnés à Byblos, ce qui montre que les 
@@ -408,7 +436,7 @@ Sous le naos, il y avait une stèle en albâtre portant un extrait des
 \TP (le rituel de l'offrande funéraire), écrit en h\iero s bleus d'une 
 grande qualité \autocite{Aufrere_2001}.
 
-\begin{figure}[htb]
+\begin{figure}[p]
   \includegraphics[width=0.5\textwidth]{JE30948_1}
   \caption{Statue de \emph{ka} de Hor 
            \rem{(\musee{Le Caire} \inv{JE\,30948})}}
@@ -419,19 +447,19 @@ Cette tombe fait partie d'un groupe d'une dizaine, fouillées par
 \bsc{De~Morgan} en \ano[0]{1894}. Ce groupe comprend aussi la tombe 
 de la fille de Hor, Nébouhétepti la jeune\footnote{\EnPetit{%
 \begin{hieroglyph}nbw:Htp-t:p-ti-X:r:d\end{hieroglyph}} \tl{nbw 
-Htp=\fbox{tj} Xrd} : \td{\og l'or-est-satisfait \fg la jeune}. 
+Htp\fbox{=tj} Xrd} : \td{\og l'or-est-satisfait \fg la jeune}. 
 L'accord au féminin de \tl{Htp=tj} s'explique par le fait que 
 \tl{nbw} -- qui apparait dans de nombreux noms propres -- est une 
 désignation d'Hathor.}, du même type que celle de son père.
-Sur les dalles couvrant son sarcophage et la caisse à canopes, on a 
-trouvé des objets et des coffres :
+Sur les dalles couvrant son sarcophage et la caisse à canopes, on 
+a trouvé des objets et des coffres :
 \begin{itemize}
   \item armes (flèches, casse-tête) ;
   \item objets de toilette (miroir, porte-perruque) ;
   \item un kit à huiles canoniques (il y en a sept).
 \end{itemize}
-La momie était parée de bijoux : cette tradition (cf \Sref{???}, \MK) 
-survit malgré des conditions peu favorables.
+La momie était parée de bijoux : cette tradition (cf~\Bref{bk:MK} 
+\Cref{cha:bijoux}, \MK) survit malgré des conditions peu favorables.
 
 \section{Amenemhat~VII}
 %----------------------------------------------------------------------
@@ -439,7 +467,7 @@ survit malgré des conditions peu favorables.
 Il aurait épousé la fille de Hor, Nébouhétepti la jeune. Leur fils, 
 Sobekhotep~II, lui succède.
 
-\section{Sobekhotep~II}
+\section{Sobekhotep~II}\label{sec:sbkhtpII}
 %----------------------------------------------------------------------
 
 On a des traces de travaux à \DeB, à Médamoud. Les quelques signes 
@@ -453,15 +481,15 @@ La Nubie est encore occupée jusqu'à Semna.
 \subsection{Le papyrus \emph{Boulaq~18} (\musee{Le Caire})}
 \label{sub:boulaq18}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-La datation de ce document est incertaine : il y est question de 
-l'an~3 de Sobekhotep~II mais une section est datée de l'an~5 de son 
-successeur, Khendjer. C'est un document administratif et comptable, 
-un \og journal de la cour \fg. Il relate des événements politiques 
-ou religieux marquants : un déplacement à Médamoud, des banquets de 
-fonctionnaires,~\dots Ces banquets pouvaient compter jusqu'à 
-\num{75}~participants, cités nommément. Des institutions sont 
-également nommées (elles sont sources d'approvisionnement, avec un 
-système complexe de virements).
+La datation de ce document est incertaine : il y est question 
+de l'an~\num{3} de Sobekhotep~II mais une section est datée de
+l'an~\num{5} de son successeur, Khendjer. C'est un document 
+administratif et comptable, un \og journal de la cour \fg. Il relate 
+des événements politiques ou religieux marquants : un déplacement à 
+Médamoud, des banquets de fonctionnaires,~\dots Ces banquets pouvaient 
+compter jusqu'à \num{75}~participants, cités nommément. Des 
+institutions sont également nommées (elles sont sources 
+d'approvisionnement, avec un système complexe de virements).
 
 Individus :
 \begin{itemize}
@@ -492,7 +520,7 @@ Institutions :
         archives.
 \end{itemize}
 Le papyrus mentionne également la visite de dignitaires nubiens, des 
-\emph{medjayous}, venant de \uwave{Auchek} et reçus en grande pompe. 
+\emph{Medjayous}, venant de \uwave{Auchek} et reçus en grande pompe. 
 Ils viennent préparer la visite de leurs chefs. Les égyptiens 
 cherchent à les ménager en vue des négociations pour l'embauche 
 de futurs mercenaires.
@@ -503,18 +531,37 @@ de futurs mercenaires.
 L'origine sémitique de son nom, signifiant \td{sanglier}, est à 
 l'origine de spéculations : serait-ce un chef militaire ayant pris 
 le pouvoir ?
-La date la plus haute de son règne est l'an~5 (papyrus Boulaq~18, 
-\Sref{sub:boulaq18}). 
+La date la plus haute de son règne est l'an~\num{5} (\source{Papyrus 
+Boulaq~\num{18}}, \Sref{sec:sbkhtpII}\ref{sub:boulaq18}).
 
 Son règne a pu être plus long. Il a en effet eu le temps de se faire 
 construire une pyramide à Saqqara sud, de type \MK, avec une double 
 enceinte à décor en façade de palais. On a retrouvé le pyramidion en 
-morceaux. Le couvercle du sarcophage avait été fermé à l'aide d'un 
-vérin à sable (\fref{fig:verin}). L'entrée des appartements funéraires 
-se fait par l'ouest, la chambre a un toit à chevrons. Il y a un 
-système complexe de couloirs pour l'insertion du sarcophage et de la 
-caisse à canopes entre la cuve et le couvercle et la man\oe{}uvre des 
-vérins.
+morceaux (\musee{Caire} \inv{JE\,53045}, \fref{fig:JE53045}). 
+Le couvercle du sarcophage avait été fermé à l'aide d'un vérin à sable 
+(\fref{fig:verin}). L'entrée des appartements funéraires se fait par 
+l'ouest, la chambre a un toit à chevrons. Il y a un système complexe 
+de couloirs pour l'insertion du sarcophage et de la caisse à canopes 
+entre la cuve et le couvercle et la man\oe{}uvre des vérins.
+
+\CaptionPetit
+\begin{figure}[htb]
+  \begin{minipage}[b]{0.5\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{JE53045_1}
+    \caption{Pyramidion de la pyramide de Khendjer à Saqqara
+             \rem{(\musee{Le Caire} \inv{JE\,53045})}}
+    \label{fig:JE53045}
+  \end{minipage}%
+  \qquad%
+  \begin{minipage}[b]{0.5\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{Khendjer_plan}
+    \caption{Complexe funéraire de Khendjer à Saqqara}
+    \label{fig:Khendjer_plan}
+  \end{minipage}
+\end{figure}
+\CaptionNormal
 
 Puisque sa sépulture est à Saqqara, on peut supposer que le roi 
 réside encore dans la région de Memphis (à Itchy-taouy ?), et que 
@@ -524,15 +571,23 @@ On a quelques traces de travaux à Abydos, notamment la restauration
 du temple d'Osiris.
 
 Les stèles \inv{C11} et \inv{C12} du \musee{Louvre} datent de ce 
-règne.
+règne (\fref{fig:C11_C12}).
 Le lit d'Osiris (\Bref{bk:PT}, \Cref{cha:djer}) pourrait également 
 dater de ce règne (ou Khendjer est-il le premier usurpateur ?).
 Le papyrus composite \musee{Brooklyn} \inv{35.1446} a été rédigé, en 
 partie à cette époque.
 
+\begin{figure}[htb]
+  \includegraphics[height=8cm]{C11}
+  \qquad
+  \includegraphics[height=8cm]{C12}
+  \caption{Iméniséneb, contrôleur d'équipe d'Abydos 
+           \rem{(\musee{Louvre} \inv{C\,11} et \inv{C\,12})}}
+  \label{fig:C11_C12}
+\end{figure}
 
-\section{Mermécha}
-\faitle{9/04/2013}
+
+\section[Mermécha]{Mermécha\protect\faitle{09/04/2013}}
 %----------------------------------------------------------------------
 
 Il est le dix-huitième roi de la dynastie.
@@ -548,7 +603,7 @@ On n'a pas grand chose.
 
 Pas grand chose non plus.
 
-\section{Sobekhotep~III}
+\section{Sobekhotep~III}\label{sec:sbkhtpIII}
 %----------------------------------------------------------------------
 
 Ce fils de particuliers, un prêtre et une dame, aurait régner à peu 
@@ -557,8 +612,14 @@ près cinq ans, dans la région thébaine.
 Il a réalisé des travaux à Médamoud, Tôd, Ermant et peut-être à 
 Boubastis.
 
-L'essentiel du papyrus \musee{Brooklyn} \inv{35.1446} a été rédigé 
-sous ce règne.
+\begin{figure}[htb]
+  \includegraphics[width=0.5\textwidth]{Br_351446}
+  \caption{Papyrus \musee{Brooklyn} \inv{35.1446}}
+  \label{fig:Br351446}
+\end{figure}
+
+L'essentiel du papyrus \musee{Brooklyn} \inv{35.1446} 
+(\fref{fig:Br351446}) a été rédigé sous ce règne.
 C'est un dossier juridique concernant une affaire remontant au 
 milieu de la \dyn{xiii}. Il s'agit d'établir les droits de propriété 
 de la dame Sénebtysy, veuve du haut fonctionnaire Haânkhef, 
@@ -566,26 +627,26 @@ de la dame Sénebtysy, veuve du haut fonctionnaire Haânkhef,
 dans la ville du sud}. Les biens en question sont un groupe de 
 \num{95}~esclaves (hommes, femmes et enfants) qui appartenaient à 
 son mari. Une quarantaine portent des noms égyptiens, les autres 
-sont désignés par \og \tl{aAmw} Untel \fg. Ils sont qualifiés de 
+sont désignés par \og l'\tl{aAmw} Untel \fg. Ils sont qualifiés de 
 \og \tl{Hm} et \tl{Hm.t} \tl{ny-sw.t} Untel \fg, \td{esclave du roi 
 Untel}. Le papyrus comprend huit documents. Du plus récent au plus 
 ancien :
 \begin{enumerate}
   \item Déclaration sous serment : affirmation de propriété
   \item Copie de l'acte de donation de son mari envers Sénebtysy 
-        fait en l'an~2 de Sobekhotep~III. Il indique qu'il lui donne 
-        tous ses biens. Il s'agissait d'exclure une autre femme 
+        fait en l'an~\num{2} de Sobekhotep~III. Il indique qu'il lui 
+        donne tous ses biens. Il s'agissait d'exclure une autre femme
         (\tl{\&jhnw.t}, fille de Haânkhef) et sa descendance.
   \item La liste nominative des \num{95}~esclaves occupe presque tout 
         le verso
   \item Copie d'acte certifiant que Haânkhef avait reçu ces esclaves 
-        des autorités en l'an~1 de Sobekhotep~III après qu'il a fait 
-        la demande. Avant ça, ils étaient sous la tutelle des 
+        des autorités en l'an~\num{1} de Sobekhotep~III après qu'il a 
+        fait la demande. Avant ça, ils étaient sous la tutelle des
         autorités.
-  \item Décret royal allouant ces esclaves à Haânkhef en l'an~6 de 
-        Khendjer. Ils étaient auparavant contrôlés par Pay, qui a été 
-        condamné pour malversation dans leur utilisation.
-  \item Copie d'un extrait du décret de l'an~5 de Khendjer : 
+  \item Décret royal allouant ces esclaves à Haânkhef en l'an~\num{6} 
+        de Khendjer. Ils étaient auparavant contrôlés par Pay, qui a 
+        été condamné pour malversation dans leur utilisation.
+  \item Copie d'un extrait du décret de l'an~\num{5} de Khendjer : 
         destitution de Pay de son droit sur les esclaves.
   \item Copie partielle d'un registre administratif justifiant la 
         condition d'esclave des ancêtres des esclaves en question. 
@@ -665,30 +726,37 @@ l'un d'eux règnent après lui.
 Il est attesté à Bouhen et à Byblos dont le roi, Yantin, se dit son 
 vassal.
 
-En \ano[0]{2005} on a trouvé un fragment de diade monumentale à Karnak 
-dans une niche sous les fondations de l'obélisque d'Hatchepsout. Elle 
-se trouvait peut-être à l'entrée du temple de l'époque et est de 
-plutôt bonne qualité.
+En \ano[0]{2005} on a trouvé un fragment de diade monumentale 
+(\fref{fig:nfrhtp_diade}) à Karnak dans une niche sous les fondations 
+de l'obélisque d'Hatchepsout. Elle est de plutôt bonne qualité et se 
+trouvait peut-être à l'entrée du temple de l'époque.
+
+\begin{figure}[htb]
+  \includegraphics[height=8cm]{Neferhotep_diade}
+  \caption{Diade de Néferhotep, trouvée à Karnak en \ano{2005}}
+  \label{fig:nfrhtp_diade}
+\end{figure}
 
 \section{Sobekhotep~IV}
 %----------------------------------------------------------------------
 
 Il a régné moins de dix ans, mais on ne sait presque rien. On lui 
-connaît quelques travaux à Abydos , Karnak et les sites voisins.
+connaît quelques travaux à Abydos, Karnak et les sites voisins.
 
 On a également un décret, trouvé à Karnak : une liste de revenus et 
 d'esclaves donnés au temple. On y retrouve les mêmes institutions que 
-dans le papyrus \musee{Brooklyn} \inv{35.1446}, notamment le district 
-de l'extrême sud. Cette zone, allant du Gebel el-Silsileh à 
+dans le papyrus \musee{Brooklyn} \inv{35.1446} \Sref{sec:sbkhtpIII}, 
+notamment le district de l'extrême sud. Cette zone, allant du \GeS à 
 Éléphantine, est une unité territoriale d'autant plus importante que 
 le royaume se réduit à la \HE.
 Il est précisé que le roi a fait le déplacement depuis Itchy-Taouy.
 
 On a également des mentions d'une expédition au Ouadi Hammamat.
 
-Le vizir de Sobekhotep~IV est Iymérou (cf Louvre). Il est issu d'une 
-véritable lignée de dignitaires, vizirs et gouverneurs d'El-Kab, de la 
-\dyn{xiii} qui se poursuit à la \dyn{xvii}.
+Le vizir de Sobekhotep~IV est Iymérou (\musee{Louvre} \inv{A\,125}, 
+\fref{fig:A125}). Il est issu d'une véritable lignée de dignitaires, 
+vizirs et gouverneurs d'El-Kab, de la \dyn{xiii} qui se poursuit à la 
+\dyn{xvii}.
 Dédousobek dit Bébi et Nebânkh, deux frères, jouissent d'une grande 
 influence. Cette famille et la famille royale sont fortement 
 imbriquées : Néboukhâes, fille de Dédousobek, épouse Sobekhotep~V. 
@@ -696,6 +764,13 @@ imbriquées : Néboukhâes, fille de Dédousobek, épouse Sobekhotep~V.
 \begin{remarque}
   El-Kab a une grande importance militaire.
 \end{remarque}
+
+\begin{figure}[htb]
+  \includegraphics[height=8cm]{A125}
+  \caption{Le vizir Néferkarê-Iymérou \rem{(\musee{Louvre} 
+           \inv{A\,125})}}
+  \label{fig:A125}
+\end{figure}
 
 Une stèle raconte une campagne militaire en \HN pour contenir 
 l'avancée de Kerma vers le nord.
@@ -707,7 +782,7 @@ cinquantaine d'années.
 Bouhen et d'autres forteresses présentent des signes d'attaque 
 extérieure. Elles sont abandonnées par leur hiérarchie et vivent en 
 vase clos.
-Certains commandants de forteresses se déclarent rois. Jyibkhentrê, 
+Certains commandants de forteresses se déclarent rois. Iyibkhentrê, 
 Qâkarê In(tef), par exemple, sont connus par des graffitis. Leur 
 nombre assez élevé donne une idée de leurs \og souveraineté \fg\dots
 Ils sont pris dans la remontée de Kerma vers le nord et passent à 
@@ -715,7 +790,7 @@ leur service.
 
 L'archéologie révèle une culture locale, dite \emph{groupe~C}, 
 notamment caractérisée par des tombes circulaires, ou \emph{pan 
-tombs}. Ce sont les medjayous qui migrent jusqu'en \kmt et 
+tombs}. Ce sont les Medjayous qui migrent jusqu'en \kmt et 
 s'installent près des villages auxquels ils finissent par se mêler.
 
 Les rois suivants ne sont connus que par deux ou trois bouts de 
@@ -800,17 +875,26 @@ notamment une statue dans le temple de Seth à \TeD. D'après le
 fouilleur du site, ce roi serait serait le fondateur du culte de Seth 
 à Avaris.
 
-L'année \ano[0]{1710} se rattache à la stèle de l'an~\ano[0]{400} (musée du 
-Caire), trouvée à Tanis par \bsc{Mariette} avant de la ré-enfouir et 
-de la perdre\dots Elle vient du temple de Seth d'Avaris et est datée 
-de l'an~\ano[0]{400} du règne de Seth (il a une titulature !). Elle 
-représente Ramsès~II, mais commémore un événement du règne d'Horemheb. 
-Ramsès fait offrande à Seth représenté sous les traits de Soutekh, un 
-dieu du \PO, et à un officier de la charrie, père de Ramsès~I\ier, 
-vivant sous Horemheb. Les \num{400}~ans doivent se compter à partir de 
-ce règne-ci. La stèle commémore la restauration du culte de Seth (on a 
-retrouvé un linteau d'Horemheb aimé de Seth dans le temple de \TeD). 
-\num{400}~ans plus tôt, c'est le règne de Néhésy.
+L'année \ano[0]{1710} se rattache à la stèle de l'an~\num{400} 
+(\musee{Caire} \inv{JE\,60539}, \fref{fig:JE60539}), trouvée à Tanis 
+par \bsc{Mariette} avant de la ré-enfouir et de la perdre\dots Elle a 
+été redécouverte par Pierre~\bsc{Montet} en \ano{1931}. Elle vient du 
+temple de Seth d'Avaris et est datée de l'an~\num{400} du règne de 
+Seth (il a une titulature !). Elle représente Ramsès~II, mais 
+commémore un événement du règne d'Horemheb. Ramsès fait offrande à 
+Seth représenté sous les traits de Soutekh, un dieu du \PO, et à un 
+officier de la charrie, père de Ramsès~I\ier, vivant sous Horemheb. 
+Les \num{400}~ans doivent se compter à partir de ce règne-ci. La stèle 
+commémore la restauration du culte de Seth (on a retrouvé un linteau 
+d'Horemheb aimé de Seth dans le temple de \TeD). \num{400}~ans plus 
+tôt, c'est le règne de Néhésy.
+
+\begin{figure}[htb]
+  \includegraphics[height=8cm]{JE60539}
+  \caption{La stèle de l'an~\num{400} \rem{(\musee{Caire} 
+           \inv{JE\,60539})}}
+  \label{fig:JE60539}
+\end{figure}
 
 Néhésy et ses successeurs ont régné à Avaris, ce sont des Asiatiques.
 
@@ -1052,7 +1136,7 @@ au culte de Min de Coptos.
 
 Ce roi serait mentionné dans un conte intitulé \emph{Une histoire 
 de revenant} ou \emph{Khonsouemheb et l'esprit} et connu seulement 
-par des copies très abîmées des XIX\ieme et \dyn{xx}s. Khonsouemheb, 
+par des copies très abîmées des \dynlist{xix}{xx}. Khonsouemheb, 
 un Premier Prêtre d'Amon, y invoque un esprit qui vivait sous 
 Râhotep\footnote{Certains lisent \emph{Montouhotep} plutôt que 
 \emph{Râhotep}.} et qui lui demande de restaurer sa tombe. La suite 
@@ -1109,7 +1193,7 @@ bureau du rapporteur du district du Nord.
 
 
 
-\vdots
+\missingstuff
 
 
 \begin{figure}[htb]

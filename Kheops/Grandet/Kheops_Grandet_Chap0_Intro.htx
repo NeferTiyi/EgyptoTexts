@@ -4,10 +4,11 @@
 \book{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Aperçu historique}
+\chapter[Aperçu historique]
+        {\protect\faitle{06/03/2012}Aperçu historique}
 %======================================================================
 
-\faitle{06/03/2012}
+% \faitle{06/03/2012}
 Durant la période pharaonique (\anorange{3200}{332}), l'\kmt a formé 
 une nation, un état indépendant à l'époque préclassique (avant la 
 Grèce et Rome), gouverné par des souverains indigènes qu'on appelle 
@@ -122,7 +123,7 @@ Historiquement, le pays est divisé en deux zones :
 \begin{itemize}
   \item \textbf{Ta-Méhou}   (\BE\index{Basse-Égypte@\BE}) = le Delta
   \item \textbf{Ta-Chémaou} (\HE\index{Haute-Égypte@\HE}), 
-        \og le pays étroit \fg = la vallée du Nil = Sa'id
+        \og le pays étroit \fg = la vallée du Nil = Sa\ain{}id
 \end{itemize}
 
 \begin{encadre}
@@ -130,7 +131,7 @@ Historiquement, le pays est divisé en deux zones :
   préexistants.
 \end{encadre}
 
-On utilise désormais une division supplémentaire : \HE / \ME 
+On utilise désormais une division supplémentaire : \HE{} / \ME 
 (= grenier à blé, Fayoum).
 La \ME n'a pas d'existence administrative à l'époque pharaonique, mais 
 elle correspond à une réalité physique.
@@ -328,6 +329,8 @@ Le passage du paléolithique au néolithique est caractérisé par le
 passage d'une \emph{économie de prédation} à une \emph{économie de 
 production} :
 
+\bigskip
+
 \begin{minipage}[t]{.42\textwidth}
   \uline{Économie de prédation}
 
@@ -363,6 +366,8 @@ production} :
   Croyances liées au lieu, appropriation.
 \end{minipage}
 
+\bigskip
+
 Pour l'\kmt, on parle de \emph{\PD}, pas de \emph{néolithique}, 
 car le \PD anticipe la période dynastique.
 
@@ -385,19 +390,20 @@ choses.
 \emph{\og Pnouté \fg{}} = \emph{dieu}, en copte.
 
 
-\section{Chronologie comparée}
+\section[Chronologie comparée]
+        {Chronologie comparée\protect\faitle{13/03/2012}}
 %----------------------------------------------------------------------
 
-\faitle{13/03/2012}
+% \faitle{13/03/2012}
 \begin{table}[htb]
-  \begin{tabular*}{\textwidth}{|>{\bfseries}L{1.2cm}M{2.8cm}|%
+  \begin{tabular}{|>{\bfseries}L{1.2cm}M{2.8cm}|%
   >{\bfseries}L{1.2cm}M{2.8cm}|>{\bfseries}L{1.2cm}M{2.8cm}|}
-    \cline{1-6}
+    \hline
       \multicolumn{2}{|c|}{\TblHd{\kmt}}                     &  % 01-02
       \multicolumn{2}{c|}{\TblHd{Grèce}}                     &  % 03-04
       \multicolumn{2}{c|}{\TblHd{Rome}}                         % 05-06
     \tabularnewline
-    \cline{1-6}
+    \hline
       \ano[0]{-3000} &                                       &  % 01-02
                      &                                       &  % 03-04
                      &                                          % 05-06
@@ -458,8 +464,8 @@ choses.
                      &                                       &  % 03-04
       \ano[0]{ +395} &                                          % 05-06
     \tabularnewline
-    \cline{1-6}
-  \end{tabular*}
+    \hline
+  \end{tabular}
   \caption{Chronologie comparée}
   \label{tab:chrono}
 \end{table}
@@ -478,9 +484,10 @@ civilisation est transmis de pays en pays :\\
 Pendant la révolution française, de nombreux symboles égyptiens ont 
 étés utilisés, c'est l'une des raisons de la campagne d'\kmt.
 
-Jusqu'à Champollion, on n'avait que des fragments de l'\oe{}uvre de 
-Manéthon, prêtre égyptien écrivant en grec : \emph{\AE{}gyptiaca}, un 
-manuel d'histoire de l'\kmt à l'usage de Ptolémée~I\ier.
+Jusqu'à \bsc{Champollion}, on n'avait que des fragments de 
+l'\oe{}uvre de \bsc{Manéthon}, prêtre égyptien écrivant en grec : 
+\emph{\AE{}gyptiaca}, un manuel d'histoire de l'\kmt à l'usage de 
+Ptolémée~I\ier.
 
 Cet ouvrage n'est connu que par des fragments, citations, adaptations, 
 emprunts, compilations, notamment la chronologie des rois, découpée en 
@@ -594,6 +601,13 @@ Quinze jours d'écart entre Memphis et Assouan.
 Idée tardive : la crue idéale fait \SI{16}{coudées} soit à peu près 
 \SI{8}{\m} (voir statue romaine du Nil aux Tuileries, \fref{???}).
 
+\begin{figure}[htb]
+  \includegraphics[width=0.75\textwidth]{Nil_Tuileries_2}
+  \caption{Le Nil du jardin des Tuileries. Les seize enfants 
+           représenteraient les seize coudées de la crues idéale.}
+  \label{fig:chadouf}
+\end{figure}
+
 L'intensité de la crue est variable. Trop basse, elle ne permet pas 
 les cultures, trop importante, elle détruit.
 
@@ -704,7 +718,7 @@ Le rendement était, au pire, de \SI{10}{\g} d'or par tonne de quartz !
 C'est le minimum visible à l'\oe{}il nu.
 
 \begin{remarque}
-  Le masque de Toutankhamon contient \SI{\sim5}{\kg} d'or 
+  Le masque de Toutânkhamon contient \SI{\sim5}{\kg} d'or 
   \donc~\SI{500}{\tonne} de quartz !
 \end{remarque}
 
@@ -719,10 +733,10 @@ Exemple d'une mine moderne au Soudan (Hassaï sud) :
 L'or est le matériau le plus recyclé, potentiellement à perpétuité.
 
 
-\chapter{L'égyptologie}
+\chapter[L'égyptologie]{\protect\faitle{20/03/2012}L'égyptologie}
 %======================================================================
 
-\faitle{20/03/2012}
+% \faitle{20/03/2012}
 La campagne d'\kmt a permis d'amasser une grande quantité de 
 documents qui ont permis d'aboutir au déchiffrement des h\iero es 
 par \bsc{Champollion} en \ano[0]{1822}.
@@ -739,9 +753,9 @@ par \bsc{Champollion} en \ano[0]{1822}.
 \end{encadre}
 
 La \emph{Pierre de Rosette} a été largement diffusée dès sa découverte.
-Champollion a supposé qu'une part de phonétique était présente dans 
-les h\iero es, et qu'ils notaient l'ancêtre de la langue copte. C'est 
-grâce à cela qu'il a réussi.
+\bsc{Champollion} a supposé qu'une part de phonétique était présente 
+dans les h\iero es, et qu'ils notaient l'ancêtre de la langue copte. 
+C'est grâce à cela qu'il a réussi.
 
 Nouvelles expéditions, établissement de missions permanentes (IFAO).
 

@@ -20,9 +20,9 @@
 
 \bigskip
 
-Les \bsc{xix}\ieme et \dyn{xx}s ne sont pas apparentées, mais on note
-de grandes différences dans les canons artistiques entre, d'une part,
-ces deux dynasties, et d'autre part, la \dyn{xviii}.
+Les \dynlist{xix}{xx} ne sont pas apparentées, mais on note de grandes 
+différences dans les canons artistiques entre, d'une part, ces deux 
+dynasties, et d'autre part, la \dyn{xviii}.
 
 Cette dernière est particulièrement riche en événements.
 
@@ -34,11 +34,11 @@ rapportée mais il n'y a pas pour autant de changement de dynastie. On
 voit encore une fois que pour les égyptiens, la notion de dynastie 
 n'est pas basée sur les liens familiaux.
 
-Au \NK, il semble qu'on fasse appel aux militaires en cas d'absence de
-prétendants au trône (Ay, Horemheb, les Ramsès fondant les
-\bsc{xix}\ieme et \dyn{xx}s). Cependant rien ne permet de dire qu'il 
-s'agit d'une règle constitutionnelle. Le choix doit être sanctionné 
-par les dieux via des oracles.
+Au \NK, il semble qu'on fasse appel aux militaires en cas d'absence 
+de prétendants au trône (Ay, Horemheb, les Ramsès fondant les
+\dynlist{xix}{xx}). Cependant rien ne permet de dire qu'il s'agit 
+d'une règle constitutionnelle. Le choix doit être sanctionné par les 
+dieux via des oracles.
 
 Quels sont les critères déterminants ? Prise de pouvoir ? Choix fait
 par le prédécesseur (Ramsès~I\ier, Horemheb) ? Choix du doyen (Ay) 
@@ -92,7 +92,7 @@ Cette dynastie est caractérisée par l'omniprésence de Thot
   \hline
   Aménophis~IV-Akhénaton & \anorange[0]{1350}{1333} & \\
   Semenkhkarê            & \ano[0]{1333}            & \\
-  Toutankhamon           & \anorange[0]{1333}{1323} & \\
+  Toutânkhamon           & \anorange[0]{1333}{1323} & \\
   Ay (II)                & \anorange[0]{1323}{1319} & \\
   \hline
   \multicolumn{3}{c}{Changement de lignée} \\
@@ -221,9 +221,9 @@ autobiographies.
 
 La plus célèbre est celle de Ahmès fils d'Abina (Abina est sa mère, son
 père s'appelait Bibi, deux noms étrangers), d'El-Kab. Il nous raconte
-l'expulsion des Hyksos entre l'an~11 et l'an~16 d'Ahmosis. Mais son
-récit est biaisé et n'offre pas une vue d'ensemble : il parle de ce
-qu'il a vécut.
+l'expulsion des Hyksos entre l'an~\num{11} et l'an~\num{16} d'Ahmosis. 
+Mais son récit est biaisé et n'offre pas une vue d'ensemble : il parle 
+de ce qu'il a vécut.
 
 \begin{encadre}[nobreak=false,frametitle={Autobiographie de Ahmès 
                 fils d'Abina}]
@@ -367,7 +367,7 @@ pour \emph{nahal}.}, à ne pas confondre avec Tell Charouhen). Ahmès
 nous précise que la forteresse a résisté à un siège de trois ans avant 
 de tomber.
 
-En l'an~15, c'est la réunification. Les Hyksos disparaissent de 
+En l'an~\num{15}, c'est la réunification. Les Hyksos disparaissent de 
 l'histoire, mais la notion est floue, on ne sait pas ce que représente 
 vraiment ce terme\dots
 
@@ -379,9 +379,10 @@ vraiment ce terme\dots
 \end{remarque}
 
 Une autre autobiographie, celle de Ahmès-Pen-Nekhbet, évoque la prise 
-de \emph{Djahi} -- nom égyptien de Canaan -- entre l'an~15 et l'an~20.
+de \emph{Djahi} -- nom égyptien de Canaan -- entre l'an~\num{15} et 
+l'an~\num{20}.
 
-Avec la prise de Sharouhen en l'an~16, les égyptiens héritent du 
+Avec la prise de Sharouhen en l'an~\num{16}, les égyptiens héritent du 
 contrôle politique, très lâche, certainement de type suzerain/vassal, 
 qu'exerçaient les Hyksos sur la plaine côtière du sud de Canaan.
 
@@ -398,9 +399,9 @@ Il s'agit de sécuriser le cour du Nil et les Ouadi 'Allâqi et Gabgaba,
 \dots menant aux mines d'or de la région.
 
 Ahmès fils d'Abina évoque dans son autobiographie la reconquête de 
-la \BN (jusqu'à Bouhen) en l'an~20 et mentionne la défaite d'un chef 
-nubien nommé Aâta, peut-être un roi de Kerma. Mais les nubiens ne nous 
-ayant pas laissé de textes, on n'a que la version égyptienne de 
+la \BN (jusqu'à Bouhen) en l'an~\num{20} et mentionne la défaite d'un 
+chef nubien nommé Aâta, peut-être un roi de Kerma. Mais les nubiens ne 
+nous ayant pas laissé de textes, on n'a que la version égyptienne de 
 l'histoire.
 
 \begin{remarque}
@@ -432,11 +433,11 @@ Faut-il y voir une tête de pont pour la reconquête ?
 \section{Travaux}
 %----------------------------------------------------------------------
 
-Des stèles trouvées dans les carrières de Tourah, au sud du Caire, en 
-commémorent la réouverture en l'an~22, notamment pour des travaux dans 
-le temple de Ptah à Memphis, le temple d'Amon à Louqsor, ainsi que pour
-des temples funéraires royaux non précisés. L'une des stèles montre 
-des b\oe{}ufs d'Asie tirant des blocs.
+Des stèles trouvées dans les carrières de Tourah, au sud du Caire, 
+en commémorent la réouverture en l'an~\num{22}, notamment pour des 
+travaux dans le temple de Ptah à Memphis, le temple d'Amon à Louqsor, 
+ainsi que pour des temples funéraires royaux non précisés. L'une des 
+stèles montre des b\oe{}ufs d'Asie tirant des blocs.
 
 La réouverture des carrières et le lancement de grands projets 
 architecturaux montrent bien le retour d'un pouvoir centralisé fort 
@@ -571,7 +572,7 @@ Sa momie a été trouvée dans la cachette de \DeB, la tombe DB\,320.
 %----------------------------------------------------------------------
 
 Cette stèle (\fref{fig:stele_donation}), trouvée à Karnak et 
-antérieure à l'an~22, est intéressante pour plusieurs raisons.
+antérieure à l'an~\num{22}, est intéressante pour plusieurs raisons.
 
 \begin{figure}[htb]
   \includegraphics[width=0.66\textwidth]{Ahmes_stele_donation}
@@ -850,7 +851,7 @@ illustration de la traversée du monde souterrain pendant les douze
 heures de nuit par la barque solaire traînée par des génies sur un 
 Nil souterrain. Peu à peu, les représentations gagnent en détail 
 (\SI{4}{\m} linéaire chez Thoutmosis~III, \SI{100}{\m} chez 
-Séthy~I\ier).
+Séthi~I\ier).
 
 \section{Postérité}
 %----------------------------------------------------------------------
@@ -936,8 +937,8 @@ et K\,93.12, presque identiques, situées à flanc de colline, avec une
 grande esplanade, un pylône d'entrée, un pylône intermédiaire en 
 extérieur et le caveau lui-même creusée dans la montagne.
 
-Polz se fonde sur le \source{papyrus Abott}. Daté de l'an~17 de 
-Ramsès~IX, il relate la tournée d'inspection organisée à la suite 
+Polz se fonde sur le \source{papyrus Abott}. Daté de l'an~\num{17} 
+de Ramsès~IX, il relate la tournée d'inspection organisée à la suite
 d'un scandale de pillage des tombes thébaines parmi lesquelles une
 sépulture royale (Sobekemsaf~II). Les inspecteurs ont vérifié l'état 
 de plusieurs tombes entre El-Tarif et \DeB, dans l'ordre :
@@ -1104,7 +1105,8 @@ on ne sait pas dans quel ordre.
 Le \titre{\VRK}, Touri, administre la région depuis Bouhen.
 
 Un graffito témoigne que l'armée égyptienne a franchi le \BeH en 
-l'an~2, le but de cette campagne étant d'abattre le royaume de Kerma. 
+l'an~\num{2}, le but de cette campagne étant d'abattre le royaume de 
+Kerma. 
 
 Les égyptiens s'installent à Tombos, \SI{10}{\km} au nord de Kerma. 
 C'est une position forte, dans les rochers de la troisième cataracte, 
@@ -1161,7 +1163,7 @@ C'est la deuxième cataracte qui marque la frontière entre ces deux
 subdivisions.
 Les chefferies indigènes sont maintenues et le territoire est divisé 
 en cinq principautés. Deux sont mentionnées dans la tombe de Ouy, 
-\titre{\VRK} sous Toutankhamon : \emph{Miam} et \emph{Téret}, dans la 
+\titre{\VRK} sous Toutânkhamon : \emph{Miam} et \emph{Téret}, dans la 
 région d'Aniba.
 
 L'archéologie montre la disparition des cultures locales. Faut-il 
@@ -1313,8 +1315,8 @@ la \kv{20}. Après la mort de la reine, Thoutmosis~III lui fera
 réintégrer la \kv{38}, dans un nouveau sarcophage.
 
 
-\chapter{Âakhéperenrê Thoutmosis~II}
-\faitle{19/11/2013}
+\chapter[Âakhéperenrê Thoutmosis~II]
+        {\protect\faitle{19/11/2013}Âakhéperenrê Thoutmosis~II}
 %======================================================================
 
 Thoutmosis~II est le troisième fils d'une épouse secondaire de 
@@ -1323,18 +1325,19 @@ Hatchepsout, fille de la grande épouse de Thoutmosis~I\ier, la seule
 de sang royal. Dans une tentative d'apaisement, on les marie.
 
 La durée du règne de Thoutmosis~II est incertaine, deux hypothèse 
-s'affrontent. Le seul document daté de son règne l'est de l'an~1\dots
+s'affrontent. Le seul document daté de son règne l'est de 
+l'an~\num{1}\dots
 
-L'incertitude provient de la date du jubilé d'Hatchepsout. En effet, 
-elle le célèbre en l'an~16 de son règne, au lieu de l'an~30 comme il 
-est de coutume. Elle devait donc considérer qu'elle était au pouvoir 
-depuis déjà \num{14}~ans.
+L'incertitude provient de la date du jubilé d'Hatchepsout. 
+En effet, elle le célèbre en l'an~\num{16} de son règne, au lieu de 
+l'an~\num{30} comme il est de coutume. Elle devait donc considérer 
+qu'elle était au pouvoir depuis déjà \num{14}~ans.
 
 \begin{description}
   \item [hypothèse (a)] : Elle considère l'oracle qui la promet à la 
-        couronne, en l'an~2 de son père, comme le début de son règne. 
-        De cet événement à la fin du règne de Thoutmosis~I\ier, il y 
-        a \num{10}~ans, que l'on complète par un court règne de
+        couronne, en l'an~\num{2} de son père, comme le début de son 
+        règne. De cet événement à la fin du règne de Thoutmosis~I\ier, 
+        il y a \num{10}~ans, que l'on complète par un court règne de 
         \num{4}~ans pour Thoutmosis~II.
   \item [hypothèse (b)] : c'est l'ensemble du règne de son mari 
         qu'Hatchepsout considère comme nul et non avenu, et dont elle 
@@ -1343,8 +1346,8 @@ depuis déjà \num{14}~ans.
 \label{cha:ThoutII}
 
 L'hypothèse (b) colle mieux avec les événements au \PO et le fait 
-que l'oracle de l'an~2 n'est qu'une promesse et non une investiture, 
-et c'est celle-là qui a la préférence de \PG.
+que l'oracle de l'an~\num{2} n'est qu'une promesse et non une 
+investiture, et c'est celle-là qui a la préférence de \PG.
 
 Ce qui donne comme datations possibles : \datation{1492-1489} ou 
 plutôt \datation{1492-1479}.
@@ -1431,10 +1434,14 @@ Le règne d'Hatchepsout n'a pas de réalité légale, il s'inscrit dans
 les \num{54}~ans de celui de Thoutmosis~III, probablement très jeune 
 au moment de son accession au trône.
 
-\begin{tabular}{lll}
-  Hatchepsout    & ans~1 à 21  & \datation{1479-1458} \\
-  Thoutmosis~III & ans~22 à 24 & \datation{1459-1425} \\
-\end{tabular}
+\bigskip
+\begin{center}
+  \begin{tabular}{lll}
+    Hatchepsout    & ans~1 à 21  & \datation{1479-1458} \\
+    Thoutmosis~III & ans~22 à 54 & \datation{1459-1425} \\
+  \end{tabular}
+\end{center}
+\bigskip
 
 Il faut éventuellement décaler de dix ans les dates (voir 
 \Cref{cha:ThoutII}, \pref{cha:ThoutII}).
@@ -1446,17 +1453,17 @@ Ce règne concentre l'essentiel des activités militaires de la
 de mutations religieuses (oracles, fête d'Opet) et théologiques
 (focalisation sur Amon-Rê).
 
-Hatchepsout étant la seule de sang royal (par sa mère) s'estimait plus 
-légitime pour exercer le pouvoir, bien qu'étant une femme. 
+Hatchepsout, étant la seule de sang royal (par sa mère), s'estimait 
+la plus légitime pour exercer le pouvoir, bien qu'étant une femme.
 
-Elle a été mariée à Thoutmosis~II pour que les descendants du roi 
-aient du sang royal, mais ce fut un échec, il n'eurent qu'une fille, 
-Néférourê. 
+Elle a été mariée à Thoutmosis~II pour que les descendants de ce 
+dernier soient de sang royal, mais ce fut un échec, il n'eurent 
+qu'une fille, Néférourê.
 La succession revint à Thoutmosis~III, fils d'une épouse secondaire. 
 On a supposé que ce dernier a à son tour été marié à Néférourê pour 
 retenter l'expérience.
 
-De nombreuses statues (\fref{fig:snnmwt}) montrent la 
+De nombreuses statues (par exemple \fref{fig:snnmwt}) montrent la 
 princesse Néférourê dans les bras de Sénenmout, son éducateur. 
 C'était certainement une façon de lui accorder des revenus.
 Avant lui, Ahmès-Pen-Nakht a rempli ce rôle. Les textes de sa tombe 
@@ -1494,38 +1501,41 @@ un titre typique des princesses, épouses d'Amon.
 \begin{figure}[htb]
   \begin{minipage}[m]{0.45\textwidth}
     \centerfloat
+    \includegraphics[height=8cm]{Neferoure_SeK}
+    \caption{Néférourê au \SeK}
+    \label{fig:nfrwrasek}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[m]{0.45\textwidth}
+    \centerfloat
     \includegraphics[width=4cm]{MET31397}
     \caption{Bague au nom de l'\titre{épouse divine} Néférourê 
              \rem{(\musee{MMA}~\inv{31.3.97})}}
     \label{fig:bague}
   \end{minipage}%
-  \hfill%
-  \begin{minipage}[m]{.45\textwidth}
-    \centerfloat
-    \includegraphics[height=8cm]{Neferoure_SeK}
-    \caption{Néférourê au \SeK}
-    \label{fig:nfrwrasek}
-  \end{minipage}%
 \end{figure}
 \CaptionNormal
 
 Hatchepsout a commencé à exercer le pouvoir en tant que régente de 
-Thoutmosis~III. Puis, quelque part entre l'an~2 et l'an~7, elle se 
-fait représenter comme roi. Des représentations la montre aux côtés 
-de Thoutmosis~III, chacun avec son cartouche, comme s'il s'agissait 
-d'une titulature composite. Il y a corégence, avec deux rois.
+Thoutmosis~III. Puis, quelque part entre l'an~\num{2} et l'an~\num{7}, 
+elle se fait représenter comme roi. Des représentations la montre 
+aux côtés de Thoutmosis~III, chacun avec son cartouche, comme s'il
+s'agissait d'une titulature composite. Il y a corégence, avec deux 
+rois.
 
 Dans sa biographie, Inéni parle de la mort de Thoutmosis~II : 
-\emph{\og Son fils s'est levé à sa place \fg}~\dots 
-\emph{\og Sa s\oe{}ur, l'épouse royale Hatchepsout, agissait comme 
-support du pays. Le Double Pays suivait son dessein. C'est pour elle 
-que l'on travaillait. L'\kmt inclinait la tête pour elle. La brillante 
-semence du dieu, la corde de poupe de \BE \fg}~\dots 
+\begin{quote}
+  \emph{\og Son fils s'est levé à sa place \fg}~\dots 
+  \emph{\og Sa s\oe{}ur, l'épouse royale Hatchepsout, agissait comme 
+  support du pays. Le Double Pays suivait son dessein. C'est pour elle 
+  que l'on travaillait. L'\kmt inclinait la tête pour elle. 
+  La brillante semence du dieu, la corde de poupe de \BE \fg}~\dots
+\end{quote} 
 \og Sa Majest\uline{ée} \fg lui a accordé des faveurs. 
 Il est le roi légal, elle agit à sa place.
 
-Pour coller à l'image du roi, elle se fait représenter 
-de préférence en homme, mais aussi parfois en femme
+Si, pour coller à l'image du roi, elle se fait représenter 
+de préférence en homme, elle est parfois en femme
 (\musee{MET}\,\inv{29.3.3}, \fref{fig:hatchepsout}).
 
 
@@ -1577,13 +1587,13 @@ de préférence en homme, mais aussi parfois en femme
 % scarab is incised with the name of Hatshepsut's daughter Neferure,
 % who is given the title "God's Wife."
 
-Hatchepsout, pour légitimer son règne, va faire une travail de
+Hatchepsout, pour légitimer son règne, va faire un travail de
 propagande : Elle était destinée à régner, par la volonté d'Amon en
 personne, même face à l'héritier mâle. Elle invente la prédestination
 (fille charnelle d'Amon) et l'oracle politique.
 
 Cette dernière notion sera plusieurs fois reprise par des fondateurs de
-dynasties. Les oracles avaient lieu dans le cadre de procession (seul
+dynasties. Les oracles avaient lieu dans le cadre de processions (seul
 moment où les dieux sortent de leurs temples), et devaient être
 publics. La barque divine s'arrêtait et s'inclinait devant la personne
 que le dieu voulait honorer. Jusque là, ce sont les actes du roi qui
@@ -1591,20 +1601,21 @@ justifiaient \emph{a posteriori} sa légitimité vis-à-vis des dieux.
 
 Ces oracles sont évoqués dans un texte rédigé sur la deuxième assise 
 de la \source{Chapelle Rouge} (\fref{fig:ChapRouge_texte}). Ce sont 
-en fait deux oracles d'Amon qui l'ont destinée à la monarchie : le 
-premier (qu'elle rappelle dans son discours d'investiture) en l'an~2 
-du règne de son père qui l'a initiée aux affaires publiques, le second 
-sous son propre règne (passage de régente à reine). La \emph{Chapelle 
-Rouge} nous raconte l'événement : La reine est à Karnak pour une fête, 
-la barque sacrée effectue deux aller-retour du temple à un palais 
-royal. Lors du premier aller, la barque est déposée dans l'antichambre 
-du palais, face au nord, mais est retrouvée face à l'entrée du palais, 
-où Hatchepsout passe. Celle-ci s'incline et demande des explications. 
-Au retour, elle est parée comme grande épouse d'Amon. On revient au 
-palais, intronisation sur l'estrade. Enfin, on raccompagne Amon chez 
-lui et Hatchepsout fait son discours d'intronisation, dans lequel 
-elle rappelle l'oracle en l'an~2 de son père, à Louqsor. Elle aurait
-accompagné le roi lors d'une tournée d'inspection.
+en fait deux oracles d'Amon qui l'ont destinée à la monarchie : 
+le premier (qu'elle rappelle dans son discours d'investiture) en
+l'an~\num{2} du règne de son père qui l'a initiée aux affaires 
+publiques, le second sous son propre règne (passage de régente à 
+reine). La \emph{Chapelle Rouge} nous raconte l'événement : La 
+reine est à Karnak pour une fête, la barque sacrée effectue deux
+aller-retour du temple à un palais royal. Lors du premier aller, 
+la barque est déposée dans l'antichambre du palais, face au nord, 
+mais est retrouvée face à l'entrée du palais, où Hatchepsout passe.
+Celle-ci s'incline et demande des explications. Au retour, elle est 
+parée comme grande épouse d'Amon. On revient au palais, intronisation 
+sur l'estrade. Enfin, on raccompagne Amon chez lui et Hatchepsout fait 
+son discours d'intronisation, dans lequel elle rappelle l'oracle en 
+l'an~\num{2} de son père, à Louqsor. Elle aurait accompagné le roi 
+lors d'une tournée d'inspection.
 
 \begin{figure}[htb]
   \includegraphics[width=0.9\textwidth]{ChapRouge_texte}
@@ -1616,9 +1627,9 @@ accompagné le roi lors d'une tournée d'inspection.
 %----------------------------------------------------------------------
 
 Une notion importante, la théogamie, est illustrée en détail à \DeB
-(travaux commencés en l'an~7). Les titres d'\titre{épouse d'Amon}, de
-\titre{fils/fille de Rê}, (\donc~Amon-Rê) sont pris au pied de la
-lettre. Le choix d'Amon prime sur les traditions humaines.
+(travaux commencés en l'an~\num{7}). Les titres d'\titre{épouse 
+d'Amon}, de \titre{fils/fille de Rê}, (\donc~Amon-Rê) sont pris au 
+pied de la lettre. Le choix d'Amon prime sur les traditions humaines.
 
 \begin{remarque}
   c'est dangereux pour la monarchie, n'importe qui peut être roi.
@@ -1869,11 +1880,11 @@ qu'il a reçu une éducation militaire soignée.
 \end{remarque}
 
 \paragraph{\source{Texte de la jeunesse}}
-Le texte -- dont il manque le haut -- est inscrit en colonnes devant le
-roi assis sur un trône. Il relate des événements s'étant produits en
-l'an~15. Le jeune Thoutmosis vivait dans le temple d'Amon et portait le
-titre de \tl{jwn mw.t=f}, \titre{pilier de sa mère}, avant de devenir 
-prophète.
+Le texte -- dont il manque le haut -- est inscrit en colonnes devant 
+le roi assis sur un trône. Il relate des événements s'étant produits 
+en l'an~\num{15}. Le jeune Thoutmosis vivait dans le temple d'Amon et 
+portait le titre de \tl{jwn mw.t=f}, \titre{pilier de sa mère}, avant 
+de devenir prophète.
 
 On peut en déduire qu'il a reçu la meilleure éducation possible et
 était plus ou moins lettré.
@@ -1884,7 +1895,7 @@ roi.
 
 C'est une réponse aux oracles d'Hatchepsout.
 
-On suppose que le texte date de l'an~42.
+On suppose que le texte date de l'an~\num{42}.
 
 \begin{remarque}
   L'éducation militaire comprenait :
@@ -1927,9 +1938,9 @@ Thoutmosis~I\ier ou Thoutmosis~II.
 
 Dignitaires et fonctionnaires sans qui elle n'aurait pas pu régner.
 
-Sénenmout, Hapouséneb (prophète d'Amon de l'an~2 à l'an~16, chef des
-travaux, directeur des prêtres de \HBE (= supérieur du clergé, \col
-ministre des cultes)),~\dots
+Sénenmout, Hapouséneb (prophète d'Amon de l'an~\num{2} à 
+l'an~\num{16}, chef des travaux, directeur des prêtres de \HBE 
+(= supérieur du clergé, \col ministre des cultes)),~\dots
 
 Il existe un parti pro-Hatchepsout, peut-être un autre 
 pro-Thoutmosis~III. On a l'impression que la reine tombe en disgrâce, 
@@ -1950,10 +1961,10 @@ Sous Hatchepsout et Thoutmosis~III, la superficie de Karnak double :
 
 \bigskip
 
-En l'an~2, Hatchepsout fait ériger une paire d'obélisques à l'est du
-temple (aujourd'hui ruinés, contre le mur de l'Akh-Ménou, de part et
-d'autre de la chapelle orientale), au milieu de nulle part. Qu'y 
-avait-il ?
+En l'an~\num{2}, Hatchepsout fait ériger une paire d'obélisques à 
+l'est du temple (aujourd'hui ruinés, contre le mur de l'Akh-Ménou, de 
+part et d'autre de la chapelle orientale), au milieu de nulle part. 
+Qu'y avait-il ?
 Un graffiti à Assouan nous apprend que Sénenmout était responsable de
 ces travaux.
 Une scène de \DeB commémore le transport des obélisques depuis 
@@ -1984,8 +1995,8 @@ La Chapelle Rouge a été démantelée, mais par qui ? Le troisième pylône,
 dans les fondations duquel elle a été retrouvée, date d'Aménophis~III.
 Thoutmosis~III aurait laissé les blocs entassés là ?
 
-Pour son jubilé en l'an~16, Hatchepsout a fait ériger -- sous la 
-direction d'Amenhotep, directeur de prêtres d'Assouan (graffiti 
+Pour son jubilé en l'an~\num{16}, Hatchepsout a fait ériger -- sous 
+la direction d'Amenhotep, directeur de prêtres d'Assouan (graffiti
 \no208 à Séhel) nommé Amenhotep  -- une seconde paire d'obélisques 
 dans la Ouadjyt (\fref{fig:Hat_Ob}), entre les quatrième et cinquième 
 pylônes (représentés sur la Chapelle Rouge, \fref{fig:Hat_CR_ob}, et 
@@ -1999,12 +2010,12 @@ exposé, couché. Le nom d'Amon, martelé sous Amarna, a été re-gravé
 ensuite.
 
 \begin{figure}[htb]
-  \begin{minipage}[m]{6cm}
+  \begin{minipage}[m]{5cm}
     \includegraphics[width=\textwidth]{Hatchepsout_obelisque}%
     \subcaption{Obélisque en place.}
   \end{minipage}%
   \hfill%
-  \begin{minipage}[m]{6cm}
+  \begin{minipage}[m]{8cm}
     \includegraphics[width=\textwidth]{Hatchepsout_CR_Ob}%
     \subcaption{Représentation dans la Chapelle Rouge. 
                 \label{fig:Hat_CR_ob}}
@@ -2064,11 +2075,25 @@ C'est déjà un dieu suprême, presque un dieu unique. C'est une
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \emph{Djéser djéserou}, \td{Saint des saints}, est le temple 
 funéraire d'Hatchepsout et lieu où le soleil se couche.
-Il a été construit entre l'an~7 et l'an~20 sous la direction de
-Sénenmout, Hapouséneb et quelques autres. Sénenmout s'est fait
-représenter près de \num{60}~fois, en petit, derrière les portes, 
-\dots (statue avec corde d'arpenteur, Louvre E\,11057, 
-\fref{fig:E11057}).
+Il a été construit entre l'an~\num{7} et l'an~\num{20} sous la 
+direction de Sénenmout, Hapouséneb et quelques autres. Sénenmout 
+s'est fait représenter près de \num{60}~fois, en petit, derrière 
+les portes, \dots (statue avec corde d'arpenteur, \musee{Louvre} 
+\inv{E\,11057}, \fref{fig:E11057}).
+
+\begin{figure}[htb]
+  % \begin{minipage}[m]{0.5\textwidth}
+    \includegraphics[width=0.5\textwidth]{DeB_plan_5}%
+  % \end{minipage}%
+  % \hfill%
+  \qquad%
+  % \begin{minipage}[m]{0.5\textwidth}
+    \includegraphics[width=0.5\textwidth]{DeB_plan_1}%
+  % \end{minipage}%
+  \caption{\DeB : le temple d'Hatchepsout}
+  \label{fig:DeB}
+\end{figure}
+
 
 \begin{figure}[htb]
   \includegraphics[width=5cm]{E11057_1}%
@@ -2109,12 +2134,18 @@ dépôts de fondation avec des vases, des mini-outils, des
 mini-traîneaux,~\dots
 
 Les mini-traîneaux ont conduit à imaginer le système de l’ascenseur
-oscillant.
+oscillant (\fref{fig:ascosc}).
+
+\begin{figure}[htb]
+  \includegraphics[width=0.5\textwidth]{ascenseur_oscillant}%
+  \caption{\og Ascenseur oscillant \fg}
+  \label{fig:ascosc}
+\end{figure}
 
 Il existe trois types de colonnes :
 \begin{enumerate}
   \item colonnes cylindriques à seize pans, comme à Béni Hassan 
-        (nommées \og proto-doriques \fg par Champollion) ;
+        (nommées \og proto-doriques \fg par \bsc{Champollion}) ;
   \item piliers carrés ;
   \item un composite des précédents : carré devant et à huit pans 
         derrière.
@@ -2141,7 +2172,7 @@ L'allée centrale menant à la deuxième rampe est encadrée de
 \num{2x3}~sphinx. Une colonnade proto-dorique orne le flanc de 
 montagne au nord (\fref{fig:DeB_colonnord}). Il y a également quatre 
 niches, peut-être destinées aux courtisans, comme dans les tombes 
-royales de la \dyn{XI} (voir \Cref{chap:PPI_tombes}, 
+royales de la \dyn{xi} (voir \Cref{chap:PPI_tombes}, 
 \pref{chap:PPI_tombes}).
 
 
@@ -2193,10 +2224,11 @@ dédié à Anubis et dont le décor a gardé sa polychromie
 un manche de sistre.
 
 Au fond de la terrasse, il y a deux fois onze piliers carrés et 
-colonnes à seize pans de part et d'autre de la rampe. Les murs sont 
-ornés des scènes de la théogamie et de l'expédition à Pount de l'an~9, 
-avec notamment des représentations de cases sur pilotis, palmiers 
-doum, des prince et princesse de Pount, d'échanges de bien,~\dots
+colonnes à seize pans de part et d'autre de la rampe. Les murs 
+sont ornés des scènes de la théogamie et de l'expédition à Pount 
+de l'an~\num{9}, avec notamment des représentations de cases sur 
+pilotis, palmiers doum, des prince et princesse de Pount, d'échanges 
+de bien,~\dots
 
 \paragraph{Troisième terrasse}
 Portique en façade du temple, avec piliers osiriaques d'Hatchepsout ; 
@@ -2249,16 +2281,17 @@ texte du rituel de l'offrande funéraire tiré des \TP, pour la première
 fois depuis la \dyn{xii}. On retrouvera les \TP chez Thoutmosis~III 
 puis à la \dyn{xxvi}.
 
-% \begin{figure}[htb]
-%   \includegraphics[scale=1]{DeB_plan_9}
-%   \caption{\DeB : la deuxième terrasse}
-%   \label{fig:DeB_plan}
-% \end{figure}
-
-Après l'an~43, les statues ont été cassées et jetées en contrebas.
+Après l'an~\num{43}, les statues ont été cassées et jetées en 
+contrebas.
 
 On peut noter des archaïsmes dans la grammaire et dans les rites de 
 la théogamie.
+
+\begin{figure}[htb]
+  \includegraphics[width=0.5\textwidth]{DeB_plan_9}
+  \caption{\DeB : la troisième terrasse}
+  \label{fig:DeB_plan}
+\end{figure}
 
 \subsection{Tombe de Sénenmout}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2302,7 +2335,7 @@ Bruxelles).
         déesse
 \end{itemize}
 
-\donc justification du pouvoir de la reine en province.
+\donc{} justification du pouvoir de la reine en province.
 
 \begin{remarque}
   Les déesses lionnes ont des têtes de lion !
@@ -2485,10 +2518,10 @@ des princes de Qadesh et Tounip.
 \section{Fin de règne}
 %----------------------------------------------------------------------
 
-La date la plus haute du règne est l'an~20.
+La date la plus haute du règne est l'an~\num{20}.
 
-La raréfaction des sources après l'an~16 a donné lieu a de multiples 
-hypothèses (disgrâce,~\dots), mais on ne peut rien affirmer.
+La raréfaction des sources après l'an~\num{16} a donné lieu a de 
+multiples hypothèses (disgrâce,~\dots), mais on ne peut rien affirmer.
 
 \section{Sépultures}
 %----------------------------------------------------------------------
@@ -2523,12 +2556,12 @@ sa tombe (cf les deux chapelles funéraires à \DeB) :
 Thoutmosis~III fera remettre Thoutmosis~I\ier dans sa tombe d'origine, 
 la \kv{38}. Plus tard il sera déplacé dans la cachette de \DeB.
 
-Hatchepsout n'a jamais été inhumée dans la \kv{20}. Des objets à son 
-nom (coffre à canopes) ainsi qu'une dent ont été retrouvés dans la
-cachette de \DeB. La dent correspondrait à l'une des deux momies de
-femmes de la \kv{60} (\fref{fig:KV20}) alors que l'autre est identifiée 
-comme sa nourrice. La dent serait-elle celle de la reine qui aurait 
-été inhumée dans la tombe de sa nourrice ?
+Hatchepsout n'a jamais été inhumée dans la \kv{20}. Des objets à 
+son nom (coffre à canopes) ainsi qu'une dent ont été retrouvés dans 
+la cachette de \DeB. La dent correspondrait à l'une des deux momies 
+de femmes de la \kv{60} (\fref{fig:KV60}) alors que l'autre est 
+identifiée comme sa nourrice. La dent serait-elle celle de la reine 
+qui aurait été inhumée dans la tombe de sa nourrice ?
 
 \begin{figure}[htb]
   \includegraphics[width=0.5\textwidth]{KV60_plan}
@@ -2765,8 +2798,9 @@ a eu lieu l'année de la construction du Jardin Botanique
 En lacune.
 
 
-\subsubsection{Cinquième campagne -- an~\num{29}}
-\faitle{14 janvier 2014}
+\subsubsection[Cinquième campagne -- an~\num{29}]
+              {Cinquième campagne -- an~\num{29}
+               \protect\faitle{14/01/2014}}
 Thoutmosis~III pousse cette fois plus au nord, jusqu'aux portes de 
 la Syrie. Sa cible est la ville de Tounip (Tell Acharneh\footnote{La 
 localisation de Tounip à Tell Acharneh a été obtenue récemment grâce à 
@@ -3033,7 +3067,7 @@ aujourd'hui à New York \fref{fig:aiguilles}).
 \end{figure}
 
 
-\subsection{\TeD / Qantîr}
+\subsection{\texorpdfstring{\TeD{}}{Tell el-Dab'a} / Qantîr}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 On a mis au jour à \TeD, plus précisément à Ezbet Helmy, un complexe 
 palatial. Il a longtemps été attribué aux Hyksos, on sait aujourd'hui 
@@ -3270,8 +3304,7 @@ des listes de cadeau en haut, au sud le \og Mur des annales \fg.
 
 
 
-\subsection{\DeB}
-\faitle{28 janvier 2014}
+\subsection[\DeB]{\DeB\protect\faitle{28/01/2014}}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Martelage, casse des statues dans le temple funéraire d'Hatchepsout. 
 Pourquoi ne pas l'avoir usurpé ?

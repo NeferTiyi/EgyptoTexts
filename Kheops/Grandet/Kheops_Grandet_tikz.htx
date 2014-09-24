@@ -9,29 +9,29 @@
 \tikzset{ba/.style       = {BaColor}}
 \tikzset{ka/.style       = {KaColor}}
 \tikzset{xt/.style       = {XtColor}}
-\tikzset{roi/.style      = {draw = red}}
+\tikzset{limdyn/.style   = {thick, dashed, DarkGreen, rounded corners}}
 \tikzset{gouv/.style     = {draw = blue}}
-\tikzset{homme/.style = {%
+\tikzset{roi/.style      = {homme, draw = red}}
+\tikzset{personne/.style = {%
   rectangle, rounded corners, 
   font           = \smaller, 
-  fill           = gray!50!blue!20, 
   inner sep      = 1ex, 
   minimum height = 0.5cm, 
   minimum width  = 2.2cm,
   text width     = 2.2cm,
   align          = center
+}}
+\tikzset{homme/.style = {%
+  personne, 
+  fill = gray!50!blue!20, 
 }}
 \tikzset{femme/.style = {%
-  rectangle, rounded corners, 
-  font           = \smaller, 
-  fill           = gray!50!red!20,  
-  inner sep      = 1ex, 
-  minimum height = 0.5cm, 
-  minimum width  = 2.2cm,
-  text width     = 2.2cm,
-  align          = center
+  personne, 
+  fill = gray!50!red!20,  
 }}
 \tikzset{lien/.style     = {rounded corners, thick}}
+\tikzset{union/.style    = {lien, draw = red}}
+\tikzset{child/.style    = {lien, draw = blue}}
 \tikzset{poteau/.style   = {
   thick, 
   fill = brown!80!white
@@ -61,6 +61,29 @@
   opacity=0.7, 
   ->, >=stealth
 }}
+
+
+% #1 : Époux
+% #2 : Épouse
+\newcommand{\lienunion}[2]{%
+  \draw [union]  (#1)   -- (#2) node [midway] (n) {} ;
+}
+% #1 : Nom de l'enfant
+% #2 : Style (femme, homme, roi, ...)
+% #3 : Nom du node
+\newcommand{\lienchild}[3]{%
+  \node [#2] (#3) [below=of n.south] {#1} ;
+  \draw [child] (n.center)  -- (#3) ;
+}
+% #1 : Position de m (optionnel)
+% #2 : Nom de l'enfant
+% #3 : Style (femme, homme, roi, ...)
+% #4 : Nom du node
+\newcommand{\lienmulti}[4][0mm,-6mm]{%
+  \coordinate [shift={(#1)}] (m) at (n.south) ;
+  \node [#3] (#4) {#2} ;
+  \draw [child] (n.center) -- (m) -| (#4) ;
+}
 
 \newcommand{\axes}{%
   \draw [->] ( 0.00, 0.00) -- ( 0.00, 5.00) ;
@@ -211,7 +234,7 @@
   \node [ba,fill=white] at (B1) {\emph{ba}} ;
   \node [ba,fill=white] at (B2) {\emph{ba}} ;
   \node [ba]            at (B1) [left] 
-        {\SmallerText\begin{hieroglyph}G53 \end{hieroglyph}} ;
+        {\SmallerText\begin{hieroglyph}G53\end{hieroglyph}} ;
 }
 
 % .. Course du ba du soleil ..
@@ -224,7 +247,9 @@
     \draw [ba,thick,<-,>=stealth] (fl1)  arc (20:45:4.9) ;
     \path (-4.9,0)  arc (180:200:4.9) node (fl2) {} ;
     \draw [ba,thick,<-,>=stealth] (fl2)  arc (200:225:4.9) ;
-    \node at ( 4.70, 2.80) [ba]              {\emph{ba}} ;
+    \node at ( 4.70, 2.80) [ba] {\emph{ba}} ;
+    \node at ( 3.70, 2.60) [ba] 
+          {\SmallerText\begin{hieroglyph}G53\end{hieroglyph}} ;
     \node at ( 0.00,-4.80) [xt] 
           {\begin{hieroglyph}A54\end{hieroglyph}} ;
     \node at ( 0.00,-5.00) [xt, below]       {corps} ;
@@ -238,7 +263,7 @@
   \begin{scope}[shift={( 1.90, 2.25)}, scale=0.24]
     \aile[-1]
   \end{scope}
-  \begin{scope}[shift={( 0.00, 2.45)}, scale=0.1]
+  \begin{scope}[shift={( 0.00, 2.45)}, scale=0.10]
     \soleil
   \end{scope}
 }
@@ -247,39 +272,28 @@
 % .. Généalogie de Néferhotep~I\ier ..
 % ====================================
 \newcommand{\geneaNfrhtp}[1][0.65]{%
-  \node [homme]     (haanxf)                        {Haânkhef} ;
-  \node [femme]     (km)      [right=#1 of haanxf]  {Kem} ;
-  \draw [lien]      (haanxf) -- (km) node [midway] (n) {} ;
-  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
-  \node [homme,roi] (sahthr1) [below=of n.south]    {Sahathor} ;
-  \draw [lien]       (n.center) -- (m) -| (sahthr1) ;
-  \node [homme,roi] (nfrhtp)  [left=#1 of sahthr1]  {Néferhotep~I\ier} ;
-  \draw [lien]       (n.center) -- (m) -| (nfrhtp) ;
-  \node [homme,roi] (sbkhtp4) [right=#1 of sahthr1] {Sobekhotep~IV} ;
-  \draw [lien]       (n.center) -- (m) -| (sbkhtp4) ;
-  \node [femme]     (snbsn)   [left=#1 of nfrhtp]   {Sénebsen} ;
-  \draw [lien]      (nfrhtp) -- (snbsn) ;
-  \node [femme]     (tan)     [right=#1 of sbkhtp4] {Tjan} ;
-  \draw [lien]      (sbkhtp4) -- (tan) node [midway] (n) {} ;
-  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
-  % \node [homme,roi] (sbkhtp5) [below=of n.south]    {Sobekhotep~V} ;
-  \node [homme,roi] (sbkhtp5) [below=of sahthr1]    {Sobekhotep~V} ;
-  \draw [lien]       (n.center) -- (m) -| (sbkhtp5) ;
-  \node [homme]     (sahthr2) [left=#1 of sbkhtp5]  {Sahathor} ;
-  \draw [lien]       (n.center) -- (m) -| (sahthr2) ;
-  \node [homme]     (haankhr) [left=#1 of sahthr2]  {Haânkhhor} ;
-  \draw [lien]       (n.center) -- (m) -| (haankhr) ;
-  \node [homme]     (untel1) [right=#1 of sbkhtp5]  {$\times$} ;
-  \draw [lien]       (n.center) -- (m) -| (untel1) ;
-  \node [homme]     (untel2) [right=#1 of untel1]   {$\times$} ;
-  \draw [lien]       (n.center) -- (m) -| (untel2) ;
+  \node [homme] (haanxf)                 {Haânkhef} ;
+  \node [femme, right=#1 of haanxf] (km) {Kem} ;
+  \lienunion{haanxf}{km}
+  \lienmulti{Sahathor}{roi, below=of n.south}{sahthr1}
+  \lienmulti{Néferhotep~I\ier}{roi, left=#1 of sahthr1}{nfrhtp}
+  \lienmulti{Sobekhotep~IV}{roi, right=#1 of sahthr1}{sbkhtp4}
+  \node [femme, left=#1 of nfrhtp] (snbsn) {Sénebsen} ;
+  \lienunion{nfrhtp}{snbsn}
+  \node [femme, right=#1 of sbkhtp4] (tan)  {Tjan} ;
+  \lienunion{sbkhtp4}{tan}
+  \lienmulti{Sobekhotep~V}{homme, below=of sahthr1}{sbkhtp5}
+  \lienmulti{Sahathor}{homme, left=#1 of sbkhtp5}{sahthr2}
+  \lienmulti{Haânkhhor}{homme, left=#1 of sahthr2}{haankhr}
+  \lienmulti{$\times$}{homme, right=#1 of sbkhtp5}{untel1}
+  \lienmulti{$\times$}{homme, right=#1 of untel1}{untel2}
 }
 
 
 % .. Généalogie des gouverneurs d'El-Kab ..
 % =========================================
 \newcommand{\geneaElKab}[1][0.65]{%
-  \node [homme,roi]  (sbkhtp)                       {Sobekhotep~V} ;
+  \node [roi]  (sbkhtp)                       {Sobekhotep~V} ;
   \node [femme]      (nbwxas)  [right=#1 of sbkhtp] {Néboukhâes} ;
 
   \draw [lien]       (sbkhtp) -- (nbwxas) node [midway] (n) {} ;
@@ -332,58 +346,46 @@
   \draw [lien]       (n.center) -- (sbknxt) ;
 }
 
-
-
 % .. Généalogie de la IVe dynastie ..
 % ===================================
 \newcommand{\geneaIV}[1][0.65]{%
-  \node [homme] (houni)                              {Houni} ;
+  \node [roi] (houni)                              {Houni} ;
   \node [femme] (meres)     [right=#1 of houni]    {Meresânkh~I} ;
   \node [femme] (f-houni)   [left=#1 of houni]     {$\times$} ;
-  \draw [lien]  (f-houni)   -- (houni) node [midway] (n) {} ;
-  \draw [lien]  (meres)     -- (houni) node [midway] (m) {} ;
-  \node [homme] (snefrou)   [below=of m.south]       {Snéfrou} ;
-  \node [femme] (hetep1)    [below=of n.south]       {Hétepheres~I} ;
-  \draw [lien]  (m.center)  -- (snefrou) ;
-  \draw [lien]  (n.center)  -- (hetep1) ;
-  \draw [lien]  (hetep1)    -- (snefrou) node [midway] (n) {} ;
-  \node [homme] (kheops)    [below=of n.south]       {Khéops} ;
-  \draw [lien]  (n.center)  -- (kheops) ;
+  \lienunion{houni}{f-houni}
+  \lienchild{Hétepheres~I}{femme}{hetep1}
+  \lienunion{houni}{meres}
+  \lienchild{Snéfrou}{roi}{snefrou}
+  \lienunion{snefrou}{hetep1}
+  \lienchild{Khéops}{roi}{kheops}
   \node [femme] (f-kheops1) [left=#1 of kheops]    {$\times$} ;
   \node [femme] (f-kheops2) [right=#1 of kheops]   {$\times$} ;
-  \draw [lien]  (kheops)    -- (f-kheops1) node [midway] (n) {} ;
-  \draw [lien]  (kheops)    -- (f-kheops2) node [midway] (m) {} ;
-  \node [homme] (redjed)    [below=of m.south]       {Rêdjedef} ;
-  \node [homme] (khephr)    [below=of n.south]       {Khephren} ;
-  \draw [lien]  (m.center)  -- (redjed) ;
-  \draw [lien]  (n.center)  -- (khephr) ;
+  \lienunion{kheops}{f-kheops1}
+  \lienchild{Khephren}{roi}{khephr}
+  \lienunion{kheops}{f-kheops2}
+  \lienchild{Rêdjedef}{roi}{redjed}
   \node [femme] (hetep2)    [right=#1 of redjed]   {Hétepheres~II} ;
-  \draw [lien]  (redjed)    -- (hetep2) node [midway] (n) {} ;
-  \node [femme] (nefer)     [below=of n.south]       {Néferhetepes} ;
-  \draw [lien]  (n.center)  -- (nefer) ;
+  \lienunion{redjed}{hetep2}
+  \lienchild{Néferhetepes}{femme}{nefer}
   \node [homme] (m-nefer)   [right=#1 of nefer]    {$\times$} ;
-  \draw [lien]  (nefer)     -- (m-nefer) node [midway] (n) {} ;
-  \node [homme] (ouser)     [below=of n.south]       {Ouserkaf} ;
-  \draw [lien]  (n.center)  -- (ouser) ;
+  \lienunion{m-nefer}{nefer}
+  \lienchild{Ouserkaf}{roi}{ouser}
   \node [femme] (khame1)    [left=#1 of khephr]    {Khâmérernebty~I} ;
-  \draw [lien]  (khephr)    -- (khame1) node [midway] (n) {} ;
-  \node [homme] (myker)     [below=of n.south]       {Mykérinos} ;
-  \draw [lien]  (n.center)  -- (myker) ;
+  \lienunion{khephr}{khame1}
+  \lienchild{Mykérinos}{roi}{myker}
   \node [femme] (khame2)    [left=#1 of myker]     {Khâmérernebty~II} ;
-  \draw [lien]  (myker)     -- (khame2) node [midway] (n) {} ;
-  \node [homme] (chepses)   [below=of n.south]       {Chepseskaf} ;
-  \draw [lien]  (n.center)  -- (chepses) ;
+  \lienunion{myker}{khame2}
+  \lienchild{Chepseskaf}{roi}{chepses}
   \node [femme] (khenty)    [right=#1 of chepses]  {Khentykaous} ;
-  \draw [lien]  (chepses)   -- (khenty) node [midway] (n) {} ;
-  \node [homme] (sahoure)   [below=of chepses.south] {Sahourê} ;
-  \node [homme] (neferir)   [below=of khenty.south]  {Neferirkarê} ;
-  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
-  \draw [lien]  (n.center)  -- (m) -| (sahoure) ;
-  \draw [lien]  (n.center)  -- (m) -| (neferir) ;
+  \lienunion{chepses}{khenty}
+  \lienmulti{Sahourê}{roi, below=of chepses.south}{sahoure}
+  \lienmulti{Neferirkarê}{roi, below=of khenty.south}{neferir}
+
   % Frontières
-  \draw [thick, dashed, DarkGreen] (-7.20,-0.60) -- ( 7.00,-0.60) ;
-  \draw [thick, dashed, DarkGreen] (-7.20,-7.70) -- ( 1.50,-7.70) 
-                                -- ( 1.50,-6.40) -- ( 7.00,-6.40) ;
+  \draw [limdyn] (-7.20,-0.60) -- ( 7.00,-0.60) ;
+  \draw [limdyn] (-7.20,-7.90) -- ( 1.50,-7.90) --
+                 ( 1.50,-6.40) -- ( 7.00,-6.40) ;
+
   % Légendes
   \node [DarkGreen] (III) at (5.8, 0.0) {\dyn{iii}} ;
   \node [DarkGreen] (IV)  at (5.8,-2.6) {\dyn{iv}} ;
@@ -394,174 +396,153 @@
 % .. Généalogie de la XVIIe dynastie ..
 % =====================================
 \newcommand{\geneaXVII}[1][0.65]{%
-  \node [homme,roi] (antef5)                             {Antef~V} ;
-  \node [femme]     (sbkmsaf)   [right=#1 of antef5]     {Sobekemsaf} ;
-  \draw [lien]      (antef5)    -- (sbkmsaf) node [midway] (n) {} ;
-  \node [homme,roi] (rahtp)     [below=of n.south]       {Râhotep} ;
-  \draw [lien]      (n.center)  -- (rahtp) ;
-  \node [femme]     (sbkhaanxs) [left=#1 of rahtp]       {Sobekemsaf Haânkhes} ;
-  \draw [lien]      (rahtp)     -- (sbkhaanxs) node [midway] (n) {} ;
-  \node [homme]     (imny)      [below=of n.south]       {Imeny} ;
-  \draw [lien]      (n.center)  -- (imny) ;
-  \node [femme]     (sbkmhb)    [right=#1 of imny]       {Sobekemheb} ;
-  \draw [lien]      (sbkmhb)    -- (imny) ;
-  \node [homme,roi] (sbkmsaf1)  [right=#1 of rahtp]    {Sobekemsaf~I\ier} ;
-  \node [femme]     (nbwmhat)   [right=#1 of sbkmsaf1]   {Nébouemhat} ;
-  \draw [lien]      (sbkmsaf1)  -- (nbwmhat) node [midway] (n) {} ;
-  \node [homme,roi] (sbkmsaf2)  [below=of n.south]       {Sobekemsaf (II ?)} ;
-  \draw [lien]      (n.center)  -- (sbkmsaf2) ;
-  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
-  \draw [lien]      (n.center)  -- (m) -| (sbkmhb) ;
-  % \draw [lien]      (m) -| (sbkmhb) ;
-  \node [femme]     (nbwxas)    [right=#1 of sbkmsaf2]   {Néboukhâes} ;
-  \node [homme]     (intef)     [right=#1 of nbwxas]   {Intef} ;
-  \draw [lien]      (n.center)  -- (m) -| (intef) ;
-  % \draw [lien]      (m) -| (intef) ;
-  \draw [lien]      (sbkmsaf2)  -- (nbwxas) node [midway] (n) {} ;
-  \node [homme,roi] (antef6)   [below=of sbkmsaf2.south] {Antef~VI} ;
-  \node [homme,roi] (antef7)   [below=of nbwxas.south]   {Antef~VII} ;
-  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
-  \draw [lien]      (n.center)  -- (m) -| (antef6) ;
-  \draw [lien]      (n.center)  -- (m) -| (antef7) ;
+  \node [roi]   (antef5)                         {Antef~V} ;
+  \node [femme] (sbkmsaf)   [right=#1 of antef5] {Sobekemsaf} ;
+  \lienunion{antef5}{sbkmsaf}
+  \lienchild{Râhotep}{roi, below=of n.south}{rahtp}
+  \node [femme] (sbkhaanxs) [left=#1 of rahtp] {Sobekemsaf Haânkhes} ;
+  \lienunion{rahtp}{sbkhaanxs}
+  \lienchild{Imeny}{homme, below=of n.south}{imny}
+  \node [roi]   (sbkmsaf1)  [right=#1 of rahtp]    {Sobekemsaf~I\ier} ;
+  \node [femme] (nbwmhat)   [right=#1 of sbkmsaf1] {Nébouemhat} ;
+  \lienunion{sbkmsaf1}{nbwmhat}
+  \lienchild{Sobekemsaf (II ?)}{roi}{sbkmsaf2}
+
+  \node [femme] (nbwxas)    [right=#1 of sbkmsaf2] {Néboukhâes} ;
+  \lienmulti{Sobekemheb}{femme, right=#1 of imny}{sbkmhb}
+  \lienmulti{Intef}{homme, right=#1 of nbwxas}{intef}
+  \lienunion{imny}{sbkmhb}
+  \lienunion{sbkmsaf2}{nbwxas}
+  \lienmulti{Antef~VI}{roi, below=of sbkmsaf2.south}{antef6}
+  \lienmulti{Antef~VII}{roi, below=of nbwxas.south}{antef7}
 }
 
 
 % .. Généalogie de la XVIIIe dynastie ..
 % ======================================
 \newcommand{\geneaXVIIIa}[1][0.65]{%
-  \node [homme,roi] (snxtnra) 
-        {Sénakhtenrê-Ahmosis} ;
-  \node [femme]     (ttisri)   [right=#1 of snxtnra] 
-        {Téti-Shéri} ;
-  \draw [lien]      (snxtnra) -- (ttisri) node [midway] (n) {} ;
-  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
-  \node [homme,roi] (sqnnra)   [below=1.5 of snxtnra.center] 
-        {Seqenenrê Taa} ;
-  \node [femme]     (ahhtp1)   [below=1.5 of ttisri.center] 
-        {Ahhotep~I\iere} ;
-  \draw [lien]      (n.center) -- (m) -| (sqnnra) ;
-  \draw [lien]      (n.center) -- (m) -| (ahhtp1) ;
+  \node [roi]   (snxtnra)                      {Sénakhtenrê-Ahmosis} ;
+  \node [femme] (ttisri) [right=#1 of snxtnra] {Téti-Shéri} ;
+  \lienunion{snxtnra}{ttisri}
+  \lienmulti{Seqenenrê Taa}{roi, below=1.5 of snxtnra.center}{sqnnra}
+  \lienmulti{Ahhotep~I\iere}{femme, below=1.5 of ttisri.center}{ahhtp1}
   \node [femme]     (satdhty)  [left=#1 of sqnnra] 
         {Satdjéhouty} ;
-  \draw [lien]      (sqnnra)   -- (satdhty) node [midway] (n) {} ;
-  \node [femme]     (ahms1)    [below=of n.south] 
-        {Ahmès} ;
-  \draw [lien]      (n.center) -- (ahms1) ;
-  \draw [lien]      (sqnnra)   -- (ahhtp1)  node [midway] (n) {} ;
-  \coordinate [shift={(0,-2.1)}] (m) at (n.south) ;
-  \node [homme,roi] (ahmosis)  [below=#1 of m.south] 
-        {Ahmosis} ;
-  \draw [lien]      (n.center) -- (m) -| (ahmosis) ;
-  \node [femme]     (nfrtari)  [right=#1 of ahmosis] 
-        {Ahmès-Néfertari} ;
-  \draw [lien]      (n.center) -- (m) -| (nfrtari) ;
-  \node [femme]     (inhapi)   [left=#1*0.8 of ahmosis] 
-        {Inhâpi} ;
-  \node [homme,roi] (kamosis)  [left=#1*0.8 of inhapi] 
-        {Kamosis} ;
-  \draw [lien]      (n.center) -- (m) -| (kamosis) ;
-  \node [homme]     (fils)     [right=#1*0.8 of nfrtari] 
-        {plusieurs Ahmès} ;
-  \draw [lien]      (n.center) -- (m) -| (fils) ;
-  \draw [lien]      (ahmosis)  -- (inhapi) ;
-  \draw [lien]      (ahmosis)  -- (nfrtari) node [midway] (n) {} ;
-  \coordinate [shift={(0,-0.6)}] (m) at (n.south) ;
-  \node [femme,shift={(3.6,0)}] (ahms2) [below=of n.south] 
-        {Ahmès} ;
-  \draw [lien]      (n.center) -- (m) -| (ahms2) ;
-  \node [homme,roi] (imnhtp1)  [below= of n.south] 
-        {Aménophis~I\ier} ;
+  \lienunion{sqnnra}{satdhty}
+  \lienchild{Ahmès}{femme, below=of n.south}{ahms1}
+  \lienunion{sqnnra}{ahhtp1}
+  \lienmulti[0,-2.1]{Ahmosis}{roi, below=#1 of m.south}{ahmosis}
+  % \coordinate [shift={(0,-2.1)}] (m) at (n.south) ;
+  % \node [roi] (ahmosis)  [below=#1 of m.south] 
+  %       {Ahmosis} ;
+  % \draw [child]      (n.center) -- (m) -| (ahmosis) ;
+  \lienmulti[0,-2.1]{Ahmès-Néfertari}
+            {femme, right=#1 of ahmosis}{nfrtari}
+  \node [femme] (inhapi) [left=#1*0.8 of ahmosis] {Inhâpi} ;
+  \lienmulti[0,-2.1]{Kamosis}{roi, left=#1*0.8 of inhapi}{kamosis}
+  \lienmulti[0,-2.1]{plusieurs Ahmès}
+            {homme, right=#1*0.8 of nfrtari}{fils}
+  \lienunion{ahmosis}{inhapi}
+  \lienunion{ahmosis}{nfrtari}
+  \lienchild{Aménophis~I\ier}{roi}{imnhtp1}
   \node [femme]     (ahhtp2)   [left=#1 of imnhtp1] 
         {Ahhotep~II} ;
-  \draw [lien]      (n.center) -- (m) -| (imnhtp1) ;
-  \node [homme]     (sapair)   [left=#1 of ahhtp2] 
-        {Ahmès-Sapaïr\\\emph{\smaller(meurt enfant)}} ;
-  \draw [lien]      (n.center) -- (m) -| (sapair) ;
-  \draw [lien]      (imnhtp1)  -- (ahhtp2) node [midway] (n) {} ;
-  \node [homme]     (imnmhat)  [below=of n.south] 
-        {Amenemhat\\\emph{\smaller(meurt enfant)}} ;
-  \draw [lien]      (n.center) -- (imnmhat) ;
-  \node [homme,roi] (TI)       [right=#1 of ahms2] 
+  \lienmulti{Ahmès}{femme, shift={(3.6,0)}, below=of n.south}{ahms2}
+  \lienmulti{Ahmès-Sapaïr\\\emph{\smaller(meurt enfant)}}
+            {homme, left=#1 of ahhtp2}{sapair}
+  \lienunion{imnhtp1}{ahhtp2}
+  \lienchild{Amenemhat\\\emph{\smaller(meurt enfant)}}
+            {homme}{imnmhat}
+  \node [roi] (TI)       [right=#1 of ahms2] 
         {Thoutmosis~I\ier} ;
-  \draw [lien]      (ahms2) -- (TI) ;
+  \lienunion{TI}{ahms2} ;
   \node (n) [above=3 of TI] {} ;
-  \draw [lien]      (n.center) -- (TI) ;
+  \draw [child]     (n.center) -- (TI) ;
   \node [homme]     (h-snisnb) [left=#1*0.5 of n] 
         {$\times$} ;
   \node [femme]     (snisnb)   [right=#1*0.5 of n] 
         {Séniséneb} ;
-  \draw [lien]      (snisnb)   -- (h-snisnb) ;
+  \lienunion{h-snisnb}{snisnb}
   % Frontières
-  \draw [thick, dashed, DarkGreen] 
-        (-6.00,-5.50) -- (-3.00,-5.50) -- 
-        (-3.00,-3.70) -- ( 6.00,-3.70) -- 
-        ( 6.00, 0.50) ;
+  \draw [limdyn] (-6.00,-5.50) -- (-3.00,-5.50) --
+                 (-3.00,-3.70) -- ( 6.00,-3.70) -- 
+                 ( 6.00, 0.50) ;
   % Légendes
   \node [DarkGreen] (XVII)  at (-4.00, 0.00) {\dyn{xvii}} ;
   \node [DarkGreen] (XVIII) at (10.00, 0.00) {\dyn{xviii}} ;
-
 }
 
 % .. Généalogie de la XVIIIe dynastie, suite ..
 % =============================================
 \newcommand{\geneaXVIIIb}[1][0.65]{%
-  \node [homme]     (h-snisnb)                          {$\times$} ;
-  \node [femme]     (snisnb)   [right=#1 of h-snisnb]   {Séniséneb} ;
-  \draw [lien]      (snisnb)   -- (h-snisnb) node [midway] (n) {} ;
-  \node [homme,roi] (TI)       [below=of n.south] 
-        {Thoutmosis~I\ier} ;
-  \draw [lien]      (n.center) -- (TI) ;
-  \node [femme]     (ahms2)    [left=#1*2 of TI] 
-        {Ahmès} ;
-  \node [femme]     (mwtnfrt)  [right=#1*2 of TI] 
-        {Moutnéfret} ;
-  \draw [lien]      (ahms2)    -- (TI) node [midway] (n) {} ;
-  \coordinate [shift={(0,-0.6)}] (m) at (n.south) ;
-  \node [femme,shift={(0.3,0)}]       (nfrbity) 
-        [below=of n.south]       {Néfroubity} ;
-  \node [femme,roi,shift={(0.6,-1.2)}] (hat) 
-        [left=#1*0 of nfrbity] {Hatchepsout} ;
-  \draw [lien]      (n.center) -- (m) -| (nfrbity) ;
-  \draw [lien]      (n.center) -- (m) -| (hat) ;
-  \draw [lien]      (mwtnfrt)  -- (TI) node [midway] (n) {} ;
-  \coordinate [shift={(0,-0.6)}] (m) at (n.south) ;
-  \node [homme,shift={(-0.3,0)}]      (imnms) 
-        [below=of n.south]       {\dag~Amenmosé} ;
-  \node [homme]     (wdjms)    [right=#1 of imnms] 
-        {\dag~Ouadjmosé} ;
-  \node [homme,roi,shift={(-0.6,-1.2)}] (TII)      
-        [right=#1*0 of wdjms]  {Thoutmosis~II} ;
-  \draw [lien]      (n.center) -- (m) -| (wdjms) ;
-  \draw [lien]      (n.center) -- (m) -| (imnms) ;
-  \draw [lien]      (n.center) -- (m) -| (TII) ;
-  \node [femme]     (isis)     [right=#1 of TII] 
-        {Isis} ;
-  \draw [lien]      (TII)      -- (isis) node [midway] (n) {} ;
-  \node [homme,roi] (TIII)     [below=of n.south] 
-        {Thoutmosis~III} ;
-  \draw [lien]      (n.center) -- (TIII) ;
-  \draw [lien]      (hat)      -- (TII)  node [midway] (n) {} ;
-  \node [femme]     (nfrwre)   [below=of n.south] 
-        {Néférourê} ;
-  \draw [lien]      (n.center) -- (nfrwre) ;
+  \node [homme] (h-snisnb) {$\times$} ;
+  \node [femme, right=#1 of h-snisnb] (snisnb) {Séniséneb} ;
+  \lienunion{h-snisnb}{snisnb}
+  \lienchild{Thoutmosis~I\ier}{roi}{TI}
+  \node [femme, left=#1*2 of TI] (ahms2)    {Ahmès} ;
+  \node [femme, right=#1*2 of TI] (mwtnfrt)  {Moutnéfret} ;
+  \lienunion{TI}{ahms2}
+
+  \lienmulti{Néfroubity}{femme, below=of n.south, shift={(0.3,0)}}
+            {nfrbity}
+  \lienmulti{Hatchepsout}
+            {roi, femme, left=#1*0 of nfrbity, shift={(0.6,-1.2)}}
+            {hat}
+  \lienunion{TI}{mwtnfrt}
+  \lienmulti{\dag~Amenmosé}
+            {homme, below=of n.south, shift={(-0.3,0)}}
+            {imnms}
+  \lienmulti{\dag~Ouadjmosé}{homme, right=#1 of imnms}
+            {wdjms}
+  \lienmulti{Thoutmosis~II}
+            {roi, right=#1*0 of wdjms, shift={(-0.6,-1.2)}}
+            {TII}
+  \node [femme, right=#1 of TII] (isis) {Isis} ;
+  \lienunion{TII}{isis}
+  \lienchild{Thoutmosis~III}{roi}{TIII}
+  \lienunion{TII}{hat}
+  \lienchild{Néférourê}{femme}{nfrwre}
 }
 
 % .. Généalogie de la XVIIIe dynastie, suite ..
 % =============================================
-\newcommand{\geneaXVIIIc}[1][0.65]{%
-  \node [homme,roi] (TII)                        {Thoutmosis~II} ;
-  \node [femme]     (isis)    [right=#1 of TII]  {Isis} ;
-  \draw [lien]      (TII)     -- (isis) node [midway] (n) {} ;
-  \node [homme,roi] (TIII)    [below=of n.south] {Thoutmosis~III} ;
-  \draw [lien]      (n.center) -- (TIII) ;
-  \node [femme]     (satiah)  [left=#1 of TIII]  {Satiâh} ;
-  \draw [lien]      (TIII)    -- (satiah) node [midway] (n) {} ;
-  \node [homme]     (imnmhat) [below=of n.south] {\dag~Amenemhat} ;
-  \draw [lien]      (n.center) -- (imnmhat) ;
-  \node [femme]     (mrytra)  [right=#1 of TIII] {Mérytrê-Hatchepsout~I} ;
-  \draw [lien]      (TIII)    -- (mrytra) node [midway] (n) {} ;
-  \node [homme,roi] (imnhtp) [below=of n.south] {Aménophis~II} ;
-  \draw [lien]      (n.center) -- (imnhtp) ;
+\newcommand{\geneaXVIIIc}{%
+  \begin{scope}[node distance = 0.65]
+    \node [roi] (TII)                   {Thoutmosis~II} ;
+    \node [femme, right= of TII] (isis) {Isis} ;
+    \lienunion{TII}{isis}
+    \lienchild{Thoutmosis~III}{roi}{TIII}
+    \node [femme] (satiah) [left= of TIII] {Satiâh} ;
+    \lienunion{TIII}{satiah}
+    \lienchild{\dag~Amenemhat}{homme}{imnmhat}
+    \node [femme] (mrytra) [right= of TIII] {Mérytrê-Hatchepsout~I} ;
+    \lienunion{TIII}{mrytra}
+    \lienchild{Aménophis~II}{roi}{imnhtp}
+  \end{scope}
+}
+
+% .. Généalogie de la XIXe dynastie ..
+% ====================================
+\newcommand{\geneaXIX}[1][0.65]{%
+  \node [homme] (S)                     {Séthi} ;
+  \node [femme] (T) [right=#1 of S]     {Tia} ;
+  \lienunion{S}{T}
+  \lienchild{Ramsès~I\ier}{roi}{RI}
+  \node [femme] (SR) [right=#1 of RI]   {Satrê} ;
+  \lienunion{RI}{SR}
+  \lienchild{Séthi~I\ier}{roi}{SI}
+  \node [homme] (Ra) [right=2*#1 of SR] {Raia} ;
+  \node [femme] (Ro) [right=#1 of Ra]   {Rouia} ;
+  \lienunion{Ra}{Ro}
+  \lienchild{(Mout)-Touia}{femme}{MT}
+  \lienunion{SI}{MT}
+  \lienmulti{Ramsès~II}{roi, below right=of n.south}{RII}
+  \lienmulti{$\times$}{femme, below left=of n.south}{X}
+  % \coordinate [shift={(0,-0.6)}] (m) at (n.south) ;
+  % \node [roi]       (RII)      [below right=of n.south]  {Ramsès~II} ;
+  % \draw [lien]      (n.center) -- (m) -| (RII) ;
+  % \node [femme]     (X)        [below left=of n.south]   {$\times$} ;
+  % \draw [lien]      (n.center) -- (m) -| (X) ;
 }
 
 % .. Fausse voûte ..
@@ -572,7 +553,7 @@
       arc (180:0:5.5) -- ( 5.50, 0.00) --cycle ;
 
   \draw [block, shift={(0,8)}] \block ;
-  \foreach \x/\y in {3.5/7.00, 4.50/6.00, 5.50/5.00, 5.50/4.00,
+  \foreach \x/\y in {3.50/7.00, 4.50/6.00, 5.50/5.00, 5.50/4.00,
                      5.50/3.00, 5.50/2.00, 5.50/1.00, 5.50/0.00} {%
     \draw [block, shift={( \x,\y)}] \block ;
     \draw [block, shift={(-\x,\y)}] \block ;
@@ -1338,17 +1319,17 @@
     \draw [dotted, thick] ( 0.00, \i) -- ++ ( 3.40, 0.00) ;
   }
   \fill [DPI] ( 0.01, 16.51) rectangle ( 0.99, 17.80)
-       node [dyn] {\bsc{xiii}\ieme{}\\{\smaller\kmt puis \HE}} ;
+       node [dyn] {\dynnum{xiii}\\{\smaller\kmt puis \HE}} ;
   \fill [DPI] ( 0.01, 15.51) rectangle ( 0.99, 16.49) 
-       node [dyn] {\bsc{xvii}\ieme{}\\{\smaller\HE puis \kmt}} ;
+       node [dyn] {\dynnum{xvii}\\{\smaller\HE puis \kmt}} ;
   \fill [NE]  ( 0.01, 15.21) rectangle ( 0.99, 15.49) 
-       node [dyn] {\bsc{xviii}\ieme} ;
+       node [dyn] {\dynnum{xviii}} ;
   \fill [DPI] ( 1.01, 16.51) rectangle ( 1.99, 17.19) 
-       node [dyn] {\bsc{xiv}\ieme{}\\{\smaller Delta oriental}} ;
+       node [dyn] {\dynnum{xiv}\\{\smaller Delta oriental}} ;
   \fill [DPI] ( 1.01, 15.41) rectangle ( 1.99, 16.49) 
-       node [dyn] {\bsc{xv}\ieme{}\\{\smaller \og Hyksos \fg Delta}} ;
+       node [dyn] {\dynnum{xv}\\{\smaller \og Hyksos \fg Delta}} ;
   \fill [DPI] ( 2.01, 15.51) rectangle ( 2.99, 16.49) 
-       node [dyn] {\bsc{xvi}\ieme{}\\{\smaller \og Hyksos \fg Delta}} ;
+       node [dyn] {\dynnum{xvi}\\{\smaller \og Hyksos \fg Delta}} ;
   \fill [DPI] ( 3.10, 15.51) rectangle ( 3.40, 17.80) 
        node [dyn] {DPI} ;
   \fill [NE]  ( 3.10, 15.21) rectangle ( 3.40, 15.49) 
