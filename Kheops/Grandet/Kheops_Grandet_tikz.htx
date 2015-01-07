@@ -10,7 +10,7 @@
 \tikzset{ka/.style       = {KaColor}}
 \tikzset{xt/.style       = {XtColor}}
 \tikzset{limdyn/.style   = {thick, dashed, DarkGreen, rounded corners}}
-\tikzset{gouv/.style     = {draw = blue}}
+\tikzset{gouv/.style     = {homme, draw = blue}}
 \tikzset{roi/.style      = {homme, draw = red}}
 \tikzset{personne/.style = {%
   rectangle, rounded corners, 
@@ -79,10 +79,12 @@
 % #2 : Nom de l'enfant
 % #3 : Style (femme, homme, roi, ...)
 % #4 : Nom du node
-\newcommand{\lienmulti}[4][0mm,-6mm]{%
-  \coordinate [shift={(#1)}] (m) at (n.south) ;
+\newcommand{\lienmulti}[4][0,-0.72]{%
+% \newcommand{\lienmulti}[4][0,-6mm]{%
+%   \coordinate [shift={(#1)}] (m) at (n.south) ;
   \node [#3] (#4) {#2} ;
-  \draw [child] (n.center) -- (m) -| (#4) ;
+  \draw [child] (n.center) -- ++ (#1) -| (#4) ;
+  % \draw [child] (n.center) -- (m) -| (#4) ;
 }
 
 \newcommand{\axes}{%
@@ -293,100 +295,80 @@
 % .. Généalogie des gouverneurs d'El-Kab ..
 % =========================================
 \newcommand{\geneaElKab}[1][0.65]{%
-  \node [roi]  (sbkhtp)                       {Sobekhotep~V} ;
-  \node [femme]      (nbwxas)  [right=#1 of sbkhtp] {Néboukhâes} ;
-
-  \draw [lien]       (sbkhtp) -- (nbwxas) node [midway] (n) {} ;
-  \node [femme]      (xnsw)    [below=of n.south] 
-        {Khonsou\\\rem{fille de roi}} ;
-
-  \draw [lien]       (n.center) -- (xnsw) ;
-  \node [homme]      (iymrw1)  [right=#1 of nbwxas] {Iymérou} ;
-  \node [femme]      (rdtnsni) [right=#1 of iymrw1] 
+  \node [roi]   (sbkhtp)                       {Sobekhotep~V} ;
+  \node [femme] (nbwxas) [right=#1 of sbkhtp]  {Néboukhâes} ;
+  \lienunion{sbkhtp}{nbwxas}
+  \lienchild{Khonsou\\\rem{fille de roi}}{femme}{xnsw}
+  \node [homme] (iymrw1)  [right=#1 of nbwxas] {Iymérou} ;
+  \node [femme] (rdtnsni) [right=#1 of iymrw1] 
         {Rédouténeséni\\\rem{\tl[black]{jry.t pa.t}}} ;
-
-  \draw [lien]       (iymrw1) -- (rdtnsni) node [midway] (n) {} ;
-  \node [homme,gouv] (iy)      [below=of n.south] 
-        {Iy \\\rem{vizir, gouverneur}} ;
+  \lienunion{iymrw1}{rdtnsni}
+  \lienchild{Iy \\\rem{vizir, gouverneur}}{gouv}{iy}
   \node at (iy.north east) {\ding{172}} ;
-  \draw [lien]       (n.center) -- (iy) ;
-
-  \draw [lien]       (xnsw) -- (iy) node [midway] (n) {} ;
-  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
-  \node [homme]      (rnisnb) [below=of xnsw.center] 
-        {Reniséneb\\\rem{chef d'équipe du roi}} ;
-  \draw [lien]       (n.center) -- (m) -| (rnisnb) ;
-
-  \node [femme]      (rdwtns)  [right=#1 of iy] 
+  \lienunion{iy}{xnsw}
+  \lienmulti{Reniséneb\\\rem{chef d'équipe du roi}}
+            {homme, below=of xnsw.center}{rnisnb}
+  \node [femme] (rdwtns)  [right=#1 of iy] 
         {Rédouténes\\\rem{fille de roi}} ;
-  \draw [lien]       (iy) -- (rdwtns) node [midway] (n) {} ;
-  \coordinate [shift={(0mm,-6mm)}] (m) at (n.south) ;
-
-  \node [homme,gouv] (iysri)  [right=#1 of rnisnb] 
-        {Iy-shéri\\\rem{gouverneur}} ;
+  \lienunion{iy}{rdwtns}
+  \lienmulti{Iy-shéri\\\rem{gouverneur}}
+            {gouv, right=#1 of rnisnb}{iysri}
   \node at (iysri.north east) {\ding{173}} ;
-  \draw [lien]       (n.center) -- (m) -| (iysri) ;
-
-  \node [femme]      (dame1)  [right=#1 of iysri] {$\times$} ;
-  \node [homme]      (iymrw2)  [right=#1 of dame1] 
-        {Iymérou\\\emph{\smaller vizir, gouverneur}} ;
-  \draw [lien]       (n.center) -- (m) -| (iymrw2) ;
-  \node [femme]      (dame2)  [right=#1 of iymrw2] {$\times$} ;
-
-  \draw [lien]       (dame1) -- (iymrw2) node [midway] (n) {} ;
-  \node [homme,gouv] (kbsi) [below=of n.south] 
-        {Kénési\\\rem{gouverneur}} ;
+  \node [femme] (dame1)  [right=#1 of iysri]  {$\times$} ;
+  \lienmulti{Iymérou\\\rem{vizir, gouverneur}}
+            {gouv, right=#1 of dame1}{iymrw2}
+  \node [femme] (dame2)  [right=#1 of iymrw2] {$\times$} ;
+  \lienunion{iymrw2}{dame1}
+  \lienchild{Kénési\\\rem{gouverneur}}{gouv}{kbsi}
   \node at (kbsi.north east) {\ding{174}} ;
-  \draw [lien]       (n.center) -- (kbsi) ;
-
-  \draw [lien]       (dame2) -- (iymrw2) node [midway] (n) {} ;
-  \node [homme,gouv] (sbknxt) [below=of n.south] 
-        {Sobeknakhté\\\rem{gouverneur}} ;
+  \lienunion{iymrw2}{dame2}
+  \lienchild{Sobeknakhté\\\rem{gouverneur}}{gouv}{sbknxt}
   \node at (sbknxt.north east) {\ding{175}} ;
-  \draw [lien]       (n.center) -- (sbknxt) ;
 }
 
 % .. Généalogie de la IVe dynastie ..
 % ===================================
 \newcommand{\geneaIV}[1][0.65]{%
-  \node [roi] (houni)                              {Houni} ;
-  \node [femme] (meres)     [right=#1 of houni]    {Meresânkh~I} ;
-  \node [femme] (f-houni)   [left=#1 of houni]     {$\times$} ;
+  \node [roi] (houni)                             {Houni} ;
+  \node [femme] (meres)     [right=#1 of houni]   {Meresânkh~I} ;
+  \node [femme] (f-houni)   [left=#1 of houni]    {$\times$} ;
   \lienunion{houni}{f-houni}
   \lienchild{Hétepheres~I}{femme}{hetep1}
   \lienunion{houni}{meres}
   \lienchild{Snéfrou}{roi}{snefrou}
   \lienunion{snefrou}{hetep1}
   \lienchild{Khéops}{roi}{kheops}
-  \node [femme] (f-kheops1) [left=#1 of kheops]    {$\times$} ;
-  \node [femme] (f-kheops2) [right=#1 of kheops]   {$\times$} ;
+  \node [femme] (f-kheops1) [left=#1 of kheops]   {$\times$} ;
+  \node [femme] (f-kheops2) [right=#1 of kheops]  {$\times$} ;
   \lienunion{kheops}{f-kheops1}
   \lienchild{Khephren}{roi}{khephr}
   \lienunion{kheops}{f-kheops2}
   \lienchild{Rêdjedef}{roi}{redjed}
-  \node [femme] (hetep2)    [right=#1 of redjed]   {Hétepheres~II} ;
+  \node [femme] (hetep2)    [right=#1 of redjed]  {Hétepheres~II} ;
   \lienunion{redjed}{hetep2}
   \lienchild{Néferhetepes}{femme}{nefer}
-  \node [homme] (m-nefer)   [right=#1 of nefer]    {$\times$} ;
+  \node [homme] (m-nefer)   [right=#1 of nefer]   {$\times$} ;
   \lienunion{m-nefer}{nefer}
   \lienchild{Ouserkaf}{roi}{ouser}
-  \node [femme] (khame1)    [left=#1 of khephr]    {Khâmérernebty~I} ;
+  \node [femme] (khame1)    [left=#1 of khephr]   {Khâmérernebty~I} ;
   \lienunion{khephr}{khame1}
   \lienchild{Mykérinos}{roi}{myker}
-  \node [femme] (khame2)    [left=#1 of myker]     {Khâmérernebty~II} ;
+  \node [femme] (khame2)    [left=#1 of myker]    {Khâmérernebty~II} ;
   \lienunion{myker}{khame2}
   \lienchild{Chepseskaf}{roi}{chepses}
-  \node [femme] (khenty)    [right=#1 of chepses]  {Khentykaous} ;
+  \node [femme] (khenty)    [right=#1 of chepses] {Khentykaous} ;
   \lienunion{chepses}{khenty}
   \lienmulti{Sahourê}{roi, below=of chepses.south}{sahoure}
   \lienmulti{Neferirkarê}{roi, below=of khenty.south}{neferir}
+  % \node [roi, below=of khenty.south] (neferir) {Neferirkarê} ;
+  % \draw [child] (n.center) -- ++ (0,-0.7) -| (neferir) ;
 
-  % Frontières
+  % ... Frontières ...
   \draw [limdyn] (-7.20,-0.60) -- ( 7.00,-0.60) ;
   \draw [limdyn] (-7.20,-7.90) -- ( 1.50,-7.90) --
                  ( 1.50,-6.40) -- ( 7.00,-6.40) ;
 
-  % Légendes
+  % ... Légendes ...
   \node [DarkGreen] (III) at (5.8, 0.0) {\dyn{iii}} ;
   \node [DarkGreen] (IV)  at (5.8,-2.6) {\dyn{iv}} ;
   \node [DarkGreen] (V)   at (5.8,-8.2) {\dyn{v}} ;
@@ -421,37 +403,33 @@
 % .. Généalogie de la XVIIIe dynastie ..
 % ======================================
 \newcommand{\geneaXVIIIa}[1][0.65]{%
-  \node [roi]   (snxtnra)                      {Sénakhtenrê-Ahmosis} ;
+  \node [roi]   (snxtnra)                      {Sénakhtenrê-Âhmosis} ;
   \node [femme] (ttisri) [right=#1 of snxtnra] {Téti-Shéri} ;
   \lienunion{snxtnra}{ttisri}
   \lienmulti{Seqenenrê Taa}{roi, below=1.5 of snxtnra.center}{sqnnra}
-  \lienmulti{Ahhotep~I\iere}{femme, below=1.5 of ttisri.center}{ahhtp1}
+  \lienmulti{Âhhotep~I\iere}{femme, below=1.5 of ttisri.center}{ahhtp1}
   \node [femme]     (satdhty)  [left=#1 of sqnnra] 
         {Satdjéhouty} ;
   \lienunion{sqnnra}{satdhty}
   \lienchild{Ahmès}{femme, below=of n.south}{ahms1}
   \lienunion{sqnnra}{ahhtp1}
-  \lienmulti[0,-2.1]{Ahmosis}{roi, below=#1 of m.south}{ahmosis}
-  % \coordinate [shift={(0,-2.1)}] (m) at (n.south) ;
-  % \node [roi] (ahmosis)  [below=#1 of m.south] 
-  %       {Ahmosis} ;
-  % \draw [child]      (n.center) -- (m) -| (ahmosis) ;
-  \lienmulti[0,-2.1]{Ahmès-Néfertari}
+  \lienmulti[0,-2.25]{Âhmosis}{roi, below=4.5*#1 of n.center}{ahmosis}
+  \lienmulti[0,-2.25]{Ahmès-Néfertari}
             {femme, right=#1 of ahmosis}{nfrtari}
   \node [femme] (inhapi) [left=#1*0.8 of ahmosis] {Inhâpi} ;
-  \lienmulti[0,-2.1]{Kamosis}{roi, left=#1*0.8 of inhapi}{kamosis}
-  \lienmulti[0,-2.1]{plusieurs Ahmès}
+  \lienmulti[0,-2.25]{Kamosis}{roi, left=#1*0.8 of inhapi}{kamosis}
+  \lienmulti[0,-2.25]{plusieurs Ahmès}
             {homme, right=#1*0.8 of nfrtari}{fils}
   \lienunion{ahmosis}{inhapi}
   \lienunion{ahmosis}{nfrtari}
   \lienchild{Aménophis~I\ier}{roi}{imnhtp1}
   \node [femme]     (ahhtp2)   [left=#1 of imnhtp1] 
-        {Ahhotep~II} ;
+        {Âhhotep~II} ;
   \lienmulti{Ahmès}{femme, shift={(3.6,0)}, below=of n.south}{ahms2}
-  \lienmulti{Ahmès-Sapaïr\\\emph{\smaller(meurt enfant)}}
+  \lienmulti{Ahmès-Sapaïr\\\rem{(meurt enfant)}}
             {homme, left=#1 of ahhtp2}{sapair}
   \lienunion{imnhtp1}{ahhtp2}
-  \lienchild{Amenemhat\\\emph{\smaller(meurt enfant)}}
+  \lienchild{Amenemhat\\\rem{(meurt enfant)}}
             {homme}{imnmhat}
   \node [roi] (TI)       [right=#1 of ahms2] 
         {Thoutmosis~I\ier} ;
@@ -520,6 +498,85 @@
     \lienchild{Aménophis~II}{roi}{imnhtp}
   \end{scope}
 }
+
+% .. Généalogie de la XVIIIe dynastie, suite ..
+% =============================================
+\newcommand{\geneaXVIIId}[1][0.65]{%
+  \node [roi]                      (Ar) {Artatama} ;
+  \node [roi, below=of Ar] 
+        (Sh) {Shuttarna~II} ;
+  \node [femme, right=0.5*#1 of Sh] 
+        (d1) {$\times$} ;
+  \draw [child] (Ar.south) -- ++ (0, -0.6) -| (Sh) ;
+  \draw [child] (Ar.south) -- ++ (0, -0.6) -| (d1) ;
+  \node [roi, below=of Sh] (Tu) {Tushratta} ;
+  \node [femme, right=0.5*#1 of Tu] (Gi) {Gilukhépa} ;
+  \draw [child] (Sh.south) -- ++ (0, -0.6) -| (Tu) ;
+  \draw [child] (Sh.south) -- ++ (0, -0.6) -| (Gi) ;
+  \node [femme, below=of Tu.south] 
+        (Ta) {Tadukhépa} ;
+  \draw [child] (Tu.south) -- (Ta) ;
+
+  \node [roi, right=2*#1 of d1, yshift=5mm] (TIV) {Thoutmosis~IV} ;
+
+  \node [femme, above left=of TIV] (Nft) {Néfertari} ;
+  \node [femme, above=#1 of Nft] (Wad) {Ouadjyt} ;
+  \draw [union] (Nft.east) -- ++ (0.2, 0) |- (TIV.west) ;
+  \draw [union] (Wad.east) -- ++ (0.4, 0) |- (TIV.175) ;
+
+  \node [femme, right=#1 of TIV] (Mwt) {Moutémouïa} ;
+  \draw [union, rounded corners=2] 
+        (d1.east) -- ++ (0.1, 0) |- (TIV.185) ;
+  \lienunion{TIV}{Mwt}
+  \lienchild{Aménophis~III}{roi, yshift=-15mm}{AIII}
+
+  \node [homme, below right=#1 and -1.5 of Mwt] (You) {Youya} ;
+  \node [femme, right=#1 of You]   (Tou) {Touya} ;
+  \lienunion{You}{Tou}
+
+  \lienmulti{Tiyi}{femme, right=#1 of AIII}{Ty1}
+
+  \lienmulti{Anen}{homme, right=#1 of Ty1}{Ann}
+
+  \node [femme, below=#1 of Ann] (Ty2) {Tiyi~II} ;
+  \lienmulti{Ay}{roi, right=#1 of Ty2}{Ay}
+  \node [femme, right=#1 of Ay] (d2) {$\times$} ;
+
+  \draw [union] (AIII.173) -- ++ (-0.2, 0) |- (Gi.east) ;
+  \draw [union] (Ta.5) -- ++ (0.2, 0) |- (AIII.177) ;
+  \lienunion{AIII}{Ty1}
+
+  \lienmulti[0,-1.65]{Hénouttaounébou}
+            {femme, below=3*#1 of AIII}{Hnw}
+  \lienmulti[0,-1.65]{Satamon\\\rem{(épouse du roi)}}
+            {femme, left=#1 of Hnw}{Sat}
+  \lienmulti[0,-1.65]{\dag~Thoutmosis}{homme, right=#1 of Hnw}{T}
+  \lienmulti[0,-1.65]{Nébetâh}{femme, below=5*#1 of n.center}{Ah}
+  \lienmulti[0,-1.65]{Isis\\\rem{(épouse du roi)}}
+            {femme, left=#1 of Ah}{Isi}
+
+  \lienmulti[0,-1.65]{Aménophis~IV}
+            {roi, below=7*#1 of Ty1.east, xshift=3mm}{AIV}
+
+  \lienunion{Ay}{Ty2}
+  \lienunion{Ay}{d2}
+
+  \lienmulti{Moutnédjemet}{femme, below=of d2}{Ndj}
+  \node [roi, left=#1 of Ndj]   (H) {Horemheb} ;
+
+  \lienmulti{Néfertiti}{femme, right=#1 of AIV}{Nfr}
+
+  \lienunion{H}{Ndj}
+  \lienunion{AIV}{Nfr}
+
+  \draw [union] (AIV.west) -| ([xshift=2mm] Ta.-5) -- (Ta.-5) ;
+
+  \draw [union, dashed] 
+        (AIII.187) -- ++ (-4.0, 0) |- (Sat.west) ;
+  \draw [union, dashed] 
+        (AIII.183) -- ++ (-4.2, 0) |- (Isi.west) ;
+}
+
 
 % .. Généalogie de la XIXe dynastie ..
 % ====================================
@@ -841,7 +898,7 @@
     \fill ( 7.20, 1.30) -- ++ ( 0.30, 0.00) 
     -- ++ ( 0.00,-0.25) -- ++ (-0.30, 0.00) -- cycle ;
   \end{scope}
-  % Pylones
+  % Pylônes
   \begin{scope}[pylone]
     \foreach \a in {0.00, 1.50, -3.00, -6.75} {%
       \filldraw [shift={(\a,0)}] 
@@ -1232,32 +1289,70 @@
 % .. Société d'ordres ..
 % ======================
 \newcommand{\socordres}{%
-  \draw ( 0.00, 0.00) -- ++ ( 300:4.00) -- ++ ( 180:4.00) -- cycle ;
-  \draw ( 0.00, 0.00) ( 300:0.40) -- ++ ( 180:0.40) ;
-  \draw ( 0.00, 0.00) ( 300:2.00) -- ++ ( 180:2.00) ;
+  \draw (-3,0) coordinate (A) -- ++ 
+        ( 60:6.00) coordinate [pos=0.2] (D) 
+                   coordinate [pos=0.8] (F) 
+                   coordinate [pos=0.5] (H) 
+                   coordinate (B) -- ++ 
+        (-60:6.00) coordinate [pos=0.8] (E) 
+                   coordinate [pos=0.2] (G) 
+                   coordinate [pos=0.5] (I) 
+                   coordinate (C) -- cycle ;
 
-  \draw (-2.50, 0.15) node [above right] {archives}
-        rectangle (-2.10, -0.45) ;
+  \filldraw [black, thick, fill=Cerulean] 
+            (A) -- (D) -- (E) -- (C) -- cycle ;
+  \filldraw [black, thick, fill=red] 
+            (F) -- (B) -- (G) -- cycle ;
 
-  \draw [->, >=latex, very thick, blue]
-        (-2.30, 0.00) --    (-0.50, 0.00) ;
-  \draw [<-, >=latex, very thick, blue]
-        (-2.30,-0.30) --    (-0.50,-0.30) ;
-  \draw [->, >=latex, very thick, blue]
-        ( 0.80,-0.80) -- ++ ( 300:2.00) ;
-  \draw [<-, >=latex, very thick, blue]
-        (-0.80,-0.80) -- ++ ( 240:2.00) ;
+  \draw [->, >=stealth, very thick, Dandelion] 
+        (D) -- (F) node [midway, left, black] {\smaller infos} ;
+  \draw [->, >=stealth, very thick, WildStrawberry] 
+        (G) -- (E) node [midway, right, black] {\smaller ordres} ;
 
-  \draw [<-] let \p{R} = ( 0.00,-0.20) in
-        (\p{R}) -- ( 2.00, \y{R})
-        node [right, text width=2.5cm, align=left] {Roi} ;
-  \draw [<-] let \p{A} = ( 0.00,-1.00) in
-        (\p{A}) -- ( 2.00, \y{A})
-        node [right, text width=2.5cm, align=left]
-             {administrateurs (scribes)} ;
-  \draw [<-] let \p{P} = ( 0.00,-2.80) in
-        (\p{P}) -- ( 2.00, \y{P})
-        node [right, text width=2.5cm, align=left] {producteurs} ;
+  \node [below=0.35] (R) at (B) {roi} ;
+  \path (D) -- (E) 
+        node [midway, below, align=center] 
+             {exécutants\\\emph{sujets}, \tl[black]{rxy.t}} ;
+  \path (H) -- (I) 
+        node [midway, below, align=center] 
+             {agents d'exécution\\\emph{scribes}, \tl[black]{pa.t}} ;
+
+  \path (H) -- ++ (170:1.5) 
+        node [rotate=60]  {Connaissance (\tl[black]{\%jA})} ;
+  \path (I) -- ++ (10:1.5) 
+        node [rotate=-60] {Action (\tl[black]{@w})} ;
+
+  \node (Ar) [draw, shift={(3,0)}] at (R) {archives} ;
+
+  \draw [<->, >=stealth, shorten <=1pt, very thick, Dandelion] 
+        (R) -- (Ar) ;
+
+  % \draw ( 0.00, 0.00) -- ++ ( 300:4.00) -- ++ ( 180:4.00) -- cycle ;
+  % \draw ( 0.00, 0.00) ( 300:0.40) -- ++ ( 180:0.40) ;
+  % \draw ( 0.00, 0.00) ( 300:2.00) -- ++ ( 180:2.00) ;
+
+  % \draw (-2.50, 0.15) node [above right] {archives}
+  %       rectangle (-2.10, -0.45) ;
+
+  % \draw [->, >=latex, very thick, blue]
+  %       (-2.30, 0.00) --    (-0.50, 0.00) ;
+  % \draw [<-, >=latex, very thick, blue]
+  %       (-2.30,-0.30) --    (-0.50,-0.30) ;
+  % \draw [->, >=latex, very thick, blue]
+  %       ( 0.80,-0.80) -- ++ ( 300:2.00) ;
+  % \draw [<-, >=latex, very thick, blue]
+  %       (-0.80,-0.80) -- ++ ( 240:2.00) ;
+
+  % \draw [<-] let \p{R} = ( 0.00,-0.20) in
+  %       (\p{R}) -- ( 2.00, \y{R})
+  %       node [right, text width=2.5cm, align=left] {Roi} ;
+  % \draw [<-] let \p{A} = ( 0.00,-1.00) in
+  %       (\p{A}) -- ( 2.00, \y{A})
+  %       node [right, text width=2.5cm, align=left]
+  %            {administrateurs (scribes)} ;
+  % \draw [<-] let \p{P} = ( 0.00,-2.80) in
+  %       (\p{P}) -- ( 2.00, \y{P})
+  %       node [right, text width=2.5cm, align=left] {producteurs} ;
 }
 
 
@@ -1319,19 +1414,170 @@
     \draw [dotted, thick] ( 0.00, \i) -- ++ ( 3.40, 0.00) ;
   }
   \fill [DPI] ( 0.01, 16.51) rectangle ( 0.99, 17.80)
-       node [dyn] {\dynnum{xiii}\\{\smaller\kmt puis \HE}} ;
+       node [dyn] {\dynum{xiii}\\{\smaller\kmt puis \HE}} ;
   \fill [DPI] ( 0.01, 15.51) rectangle ( 0.99, 16.49) 
-       node [dyn] {\dynnum{xvii}\\{\smaller\HE puis \kmt}} ;
+       node [dyn] {\dynum{xvii}\\{\smaller\HE puis \kmt}} ;
   \fill [NE]  ( 0.01, 15.21) rectangle ( 0.99, 15.49) 
-       node [dyn] {\dynnum{xviii}} ;
+       node [dyn] {\dynum{xviii}} ;
   \fill [DPI] ( 1.01, 16.51) rectangle ( 1.99, 17.19) 
-       node [dyn] {\dynnum{xiv}\\{\smaller Delta oriental}} ;
+       node [dyn] {\dynum{xiv}\\{\smaller Delta oriental}} ;
   \fill [DPI] ( 1.01, 15.41) rectangle ( 1.99, 16.49) 
-       node [dyn] {\dynnum{xv}\\{\smaller \og Hyksos \fg Delta}} ;
+       node [dyn] {\dynum{xv}\\{\smaller \og Hyksos \fg Delta}} ;
   \fill [DPI] ( 2.01, 15.51) rectangle ( 2.99, 16.49) 
-       node [dyn] {\dynnum{xvi}\\{\smaller \og Hyksos \fg Delta}} ;
+       node [dyn] {\dynum{xvi}\\{\smaller \og Hyksos \fg Delta}} ;
   \fill [DPI] ( 3.10, 15.51) rectangle ( 3.40, 17.80) 
        node [dyn] {DPI} ;
   \fill [NE]  ( 3.10, 15.21) rectangle ( 3.40, 15.49) 
        node [dyn] {NE} ;
+}
+
+
+
+% .. Les guerres de Séthi Ier, Karnak ..
+% ======================================
+\newcommand{\lignebriseeE}{%
+  ( 23.95,  5.38) -- ( 23.24,  5.40) -- ( 23.23,  6.54) -- 
+  ( 22.38,  6.53) -- ( 22.38,  7.04) -- ( 20.47,  7.05) -- 
+  ( 20.46,  7.68) -- ( 19.83,  7.68) -- ( 19.83,  7.06) -- 
+  ( 19.35,  7.06) -- ( 19.34,  7.69) -- ( 18.48,  7.69) -- 
+  ( 18.47,  7.07) -- ( 18.02,  7.07) -- ( 18.01,  7.69) -- 
+  ( 17.74,  7.70) -- ( 17.74,  7.81) -- ( 15.20,  7.83) -- 
+  ( 15.19,  7.16) -- (  5.29,  7.30) -- (  1.48,  7.59)
+}
+\newcommand{\lignebriseeW}{%
+  ( 48.29,  9.87) -- ( 44.41,  9.60) -- ( 43.96,  9.57) --
+  ( 42.67,  9.52) -- ( 42.34,  9.50) -- ( 42.11,  9.46) --
+  ( 41.93,  9.43) -- ( 41.78,  9.41) -- ( 41.75,  9.32) --
+  ( 41.75,  9.23) -- ( 41.74,  9.01) -- ( 41.72,  8.99) --
+  ( 40.39,  8.89) -- ( 40.01,  8.87) -- ( 39.51,  8.84) --
+  ( 39.48,  8.77) -- ( 39.45,  8.50) -- ( 38.87,  8.48) --
+  ( 38.84,  8.42) -- ( 38.79,  8.34) -- ( 38.77,  8.24) --
+  ( 38.75,  8.10) -- ( 38.73,  7.98) -- ( 38.71,  7.87) --
+  ( 38.69,  7.74) -- ( 38.69,  7.45) -- ( 38.21,  7.45) --
+  ( 38.21,  7.77) -- ( 37.26,  7.76) -- ( 37.26,  7.29) --
+  ( 36.64,  7.28) -- ( 36.64,  7.76) -- ( 36.11,  7.75) --
+  ( 36.11,  8.12) -- ( 30.70,  8.09) -- ( 30.68,  7.68) --
+  ( 29.90,  7.68) -- ( 29.88,  7.09) -- ( 26.37,  7.06) --
+  ( 26.36,  6.31) -- ( 25.88,  6.30)
+}
+\newcommand{\lignebas}{%
+  ( 48.44,  1.34) -- ( 44.76,  0.90) -- ( 25.86,  0.91) -- 
+  ( 25.88,  7.65) -- ( 23.93,  7.66) -- ( 23.98,  0.91) -- 
+  (  4.95,  0.91) -- (  3.23,  1.06) -- (  3.34,  2.87) -- 
+  (  2.45,  2.93) -- (  2.33,  1.15) -- (  1.30,  1.24)
+}
+\newcommand{\lignehaut}{%
+  (  1.65, 13.61) arc (270:90:0.08)  to [in=-45, out=98] 
+  (  0.96, 15.33) -- (  0.96, 15.33) -- (  5.24, 15.01) -- 
+  ( 44.62, 15.03) -- ( 49.08, 15.28) to [out=225, in=82] 
+  ( 48.22, 13.73) arc (90:-90:0.07) 
+}
+\newcommand{\SethiKarnakCampagnes}{%
+  \begin{scope}[line join=round, line cap=round]
+    % ... Mur ouest ...
+    \fill [gray!18]
+          ( 44.41,  9.60) -- ( 48.29,  9.87) -- 
+          ( 48.44,  1.34) -- ( 44.76,  0.90) -- cycle ;
+
+    % ... Contour externe ...
+    \draw [thick] \lignehaut -- \lignebas -- cycle ;
+
+    % ... Lignes internes ...
+    \draw (  5.24, 15.01) to [out=-45, in=90] (  5.61, 13.44) ;
+    \draw ( 44.62, 15.03) to [out=225, in=90] ( 44.25, 13.47) ;
+
+    \draw (  1.65, 13.77) -- (  5.61, 13.44) -- ( 22.33, 13.46) -- 
+          ( 27.53, 13.46) -- ( 44.25, 13.47) -- ( 48.22, 13.73) ;
+    
+    \draw (  1.65, 13.61) -- (  5.61, 13.30) -- ( 22.33, 13.35) --
+          ( 27.53, 13.37) -- ( 44.26, 13.36) -- ( 48.22, 13.60) ;
+
+    \draw (  1.62, 12.67) -- (  5.56, 12.34) -- ( 22.34, 12.38) -- 
+          ( 27.51, 12.39) -- ( 44.29, 12.42) -- ( 48.24, 12.64) ;
+
+    \draw (  1.56, 10.63) -- (  5.45, 10.35) -- ( 22.35, 10.29) 
+          ( 27.49, 10.30) -- ( 44.38, 10.39) -- ( 48.27, 10.64) ;
+
+    \draw ( 27.48,  9.91) -- ( 22.36,  9.91) ;
+
+    \draw (  1.49,  8.02) -- (  5.32,  7.77) -- ( 22.37,  7.67) -- 
+          ( 27.45,  7.66) -- ( 44.48,  7.78) -- ( 48.32,  7.98) ;
+
+    \draw (  1.34,  2.81) -- (  2.43,  2.73) 
+          (  3.33,  2.66) -- (  5.04,  2.52) -- ( 22.40,  2.38) 
+          ( 27.37,  2.46) -- ( 44.70,  2.45) -- ( 48.42,  2.80) ;
+
+    \draw ( 32.07,  5.13) -- ( 44.60,  5.04) -- ( 48.37,  5.28) 
+          (  1.42,  5.42) -- (  5.18,  5.11) -- ( 17.75,  5.01) ;
+
+    \draw ( 22.41,  2.11) -- ( 23.98,  2.10) 
+          ( 25.86,  2.09) -- ( 27.37,  2.08) ;
+    \draw ( 25.88,  5.86) -- ( 27.42,  5.84) 
+          ( 22.38,  5.90) -- ( 23.95,  5.88) ;
+    \draw ( 25.87,  3.96) -- ( 27.39,  3.96) 
+          ( 23.96,  3.97) -- ( 22.40,  3.98) ;
+
+    \draw (  4.95,  0.91) -- (  5.61, 13.30) ;
+    \draw ( 44.76,  0.90) -- ( 44.26, 13.36) ;
+
+    \draw ( 22.42,  0.91) -- ( 22.34, 12.38) ;
+    \draw ( 27.35,  0.91) -- ( 27.51, 12.39) ;
+
+    \draw ( 23.98,  0.91) -- ( 23.93,  7.66) ;
+    \draw ( 25.86,  0.91) -- ( 25.88,  7.65) ;
+
+    \draw ( 18.74,  7.69) -- ( 18.75, 10.30) ;
+    \draw ( 31.27,  7.69) -- ( 31.25, 10.32) ;
+    \draw ( 35.70,  7.72) -- ( 35.71, 10.35) ;
+    \draw ( 40.25,  7.75) -- ( 40.26, 10.37) ;
+
+    \draw ( 14.00,  5.04) -- ( 13.98, 10.32) ;
+
+    \draw (  8.70,  5.08) -- (  8.76,  7.75) ;
+    \draw ( 36.63,  5.10) -- ( 36.64,  7.73) ;
+    \draw ( 39.97,  5.07) -- ( 40.00,  7.75) ;
+    \draw ( 41.75,  5.06) -- ( 41.73,  7.76) ;
+
+    \draw ( 10.38,  2.48) -- ( 10.42,  7.74) ;
+    \draw ( 17.75,  2.42) -- ( 17.74,  7.70) ;
+    \draw ( 32.07,  2.46) -- ( 32.07,  7.69) ;
+
+    \draw (  7.56,  2.50) -- (  7.63,  5.09) ;
+    \draw ( 14.98,  2.44) -- ( 15.00,  5.03) ;
+    \draw ( 35.97,  2.45) -- ( 35.96,  5.10) ;
+    \draw ( 40.33,  2.45) -- ( 40.35,  5.07) ;
+
+    % ... Zone manquante ...
+    \filldraw [thick, white, opacity=.75]
+          \lignebriseeW to [out=180, in=0] 
+          ( 23.95,  5.38) -- \lignebriseeE --
+          \lignehaut -- cycle ;
+
+    \draw [thick] \lignebriseeW -- ( 25.86,  0.91) 
+                  ( 23.98,  0.91) -- \lignebriseeE ;
+
+    % ... Légende ...
+    \node [align=center, font=\scriptsize, rotate=3, 
+           preaction={fill=white, opacity=0.75}]
+          at ( 46.50,  5.47)
+          {Bloqué\\par le\\mur\\nord\\de la\\1\iere~cour} ;
+
+    \begin{scope}[font=\bfseries\small]
+      \node [preaction={fill=white, opacity=0.5}]
+            at ( 14.50,  3.50) {Chasous} ;
+      \node [preaction={fill=white, opacity=0.5}]
+            at ( 14.50,  6.25) {Yénoam} ;
+      \node [preaction={fill=white, opacity=0.5}]
+            at ( 35.50,  3.50) {Hittites} ;
+      \node [preaction={fill=white, opacity=0.5}]
+            at ( 35.50,  6.25) {Libyens} ;
+      \node [preaction={fill=white, opacity=0.5}]
+            at ( 35.50,  9.00) {Qadesh / Amourrou} ;
+      \node at ( 21.00,  3.50) {\pucenum{1}} ;
+      \node at ( 21.00,  6.25) {\pucenum{2}} ;
+      \node at ( 29.00,  3.50) {\pucenum{3}} ;
+      \node at ( 29.00,  6.25) {\pucenum{4}} ;
+      \node at ( 29.00,  9.00) {\pucenum{5}} ;
+    \end{scope}
+  \end{scope}
 }

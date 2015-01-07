@@ -47,7 +47,7 @@
       \TblHd{Protodynastique\\\rem{\anorange[0]{3200}{3100}}}   &  % 01
       \multicolumn{2}{c|}{%
         \parbox{8cm}{\centering\uline{Nagada~III} \\
-                     (Gerzéen récent, \og dynastie~0 \fg)}
+                     (Gerzéen récent, \frquote{dynastie~0})}
                     }                                              % 02-03
     \tabularnewline
   %          123
@@ -55,8 +55,6 @@
   \end{tabular}
   \caption{Subdivisions du \PD}
 \end{table}
-
-\bigskip
 
 Il n'y a pas de peuplement continu, mais des villes indépendantes.
 
@@ -67,7 +65,7 @@ Nagada finit par s'imposer à l'ensemble du pays. L'unification est
 d'abord culturelle puis politique. Par la force ? Par des alliances ?
 Nagada rayonne aussi vers la Basse-Nubie.
 
-En archéologie, une \og culture \fg est caractérisée par un type de 
+En archéologie, une \frquote{culture} est caractérisée par un type de 
 poterie donné, un type d'objets déposés dans les sépultures,~\dots 
 La poterie est le principal marqueur culturel, c'est une production 
 homogène, et donc comparable.
@@ -81,10 +79,11 @@ d'informations. On n'a que très peu voire pas du tout d'éléments sur
 la surface. 
 Cependant les tombes étaient conçues comme des maisons.
 
-\begin{encadre}
+\begin{aparte}[parbox]
+  \centering
   La notion de prestige régit de nombreuses activités humaines, 
   structure la société.
-\end{encadre}
+\end{aparte}
 
 Des objets marquant le niveau social sont placés dans la tombe, 
 ce ne sont pas forcément des objets de la vie quotidienne.
@@ -99,13 +98,12 @@ ne travaillent pas la terre doivent être nourris ; ceux qui la
 travaillent doivent donc produire plus ; il doit y avoir une autorité 
 pour gérer ça.
 
-(Voir \emph{\og Ginger \fg{}} du \musee{British Museum}, 
-\fref{fig:EA32751})
+(Voir \emph{\frquote{Ginger}} du \musee{\BM}, \fref{fig:EA32751})
 
 \begin{figure}[htb]
   \includegraphics[width=0.66\textwidth]{EA32751}
-  \caption{L'homme de Gebelein alias \og Ginger \fg 
-           (\musee{British Museum}, \inv{EA\,32751})}
+  \caption{L'homme de Gebelein alias \frquote{Ginger} 
+           \rem{(\musee{\BM}, \inv{EA\,32751})}}
   \label{fig:EA32751}
 \end{figure}
 
@@ -120,7 +118,7 @@ Apparition de :
 
 \begin{figure}[htb]
   \includegraphics[width=0.66\textwidth]{E11887}
-  \caption{Femme, Badari ? (\musee{Loure}, \inv{E\,11887})}
+  \caption{Femme, Badari ? \rem{(\musee{Louvre}, \inv{E\,11887})}}
   \label{fig:E11887}
 \end{figure}
 
@@ -185,9 +183,9 @@ animalier ou commémoratif (\fref{???}) : taureau, lion (symboles du
 roi), scène de bataille, enceintes fortifiées (villes) détruites par 
 des animaux (les rois, déjà des hiéroglyphes) tenant une pioche.
 
-Le \og maître des animaux \fg symbolise le pouvoir politique unissant 
-les factions qui, sans lui, s'opposent (voir \fref{fig:HK100}, dans le 
-coin en bas à gauche).
+Le \frquote{maître des animaux} symbolise le pouvoir 
+politique unissant les factions qui, sans lui, s'opposent 
+(voir \fref{fig:HK100}, dans le coin en bas à gauche).
 
 Sur la Palette de Narmer (\Bref{bk:PT}, \Sref{sec:pal_narmer}), le roi 
 abat des ennemis devant une divinité.
@@ -250,8 +248,8 @@ Le site comporte :
 %----------------------------------------------------------------------
 Le temple est situé sur un tertre carré damé. Il est recouvert par des 
 vestiges du \MK. Des batiments entourent le tertre, c'était un centre 
-cultuel important. C'est là, dans une \og poubelle sacrée \fg, que la 
-palette de Narmer a été trouvée.
+cultuel important. C'est là, dans une \frquote{poubelle sacrée}, que 
+la palette de Narmer a été trouvée.
 
 \section{Tombe décorée HK\,100}
 %----------------------------------------------------------------------
@@ -277,11 +275,13 @@ la \dyn{xviii} est exactement au-dessus du temple préhistorique.
 Le naos de l'époque de Pépi~I\ier (vers \ano{2300}) est au 
 \musee{Louvre} (\inv{E\,12660}, \fref{fig:E12660}).
 
-\begin{figure}[htb]
+\setlength{\marge}{(\textwidth-6cm)/2}
+\begin{sidefig}
+      {\marge}
+      {Naos de Pépi~I\ier{} \rem{(\musee{Louvre} \inv{E\,12660})}}
+      {fig:E12660}
   \includegraphics[height=6cm]{E12660}
-  \caption{Naos de Pépi~I\ier{} \rem{(\musee{Louvre} \inv{E\,12660})}}
-  \label{fig:E12660}
-\end{figure}
+\end{sidefig}
 
 \begin{remarque}
   À chaque époque, on ajoute quelque chose de nouveau.
@@ -294,12 +294,19 @@ L'\musee{Ashmolean Museum} conserve des fragments de statue de Min
 (\inv{1894.105e}, \fref{fig:min}). Ce sont des colosses de \SI{3}{m} 
 de haut !
 
-\begin{figure}[htb]
+\setlength{\marge}{(\textwidth-7cm)/2}
+\begin{sidefig}
+      {\marge}
+      {Colosse de Min \rem{(\musee{Ashmolean Museum} \inv{1894.105e})}}
+      {fig:min}
   \includegraphics[scale=1]{min}
-  \caption{Colosse de Min 
-           \rem{(\musee{Ashmolean Museum} \inv{1894.105e})}}
-  \label{fig:min}
-\end{figure}
+\end{sidefig}
+% \begin{figure}[htb]
+%   \includegraphics[scale=1]{min}
+%   \caption{Colosse de Min 
+%            \rem{(\musee{Ashmolean Museum} \inv{1894.105e})}}
+%   \label{fig:min}
+% \end{figure}
 
 Pour les représentations humaines, on passe de statuettes en terre 
 cuite à des colosses.
@@ -335,13 +342,20 @@ développé surtout au \NK.
 \section{\OeQ}
 %----------------------------------------------------------------------
 Tombes des rois de la \dyn[\iere]{i} et de deux rois de la 
-\dynnum{ii} (\fref{fig:oummelqaab}).
+\dynum{ii} (\fref{fig:OeQ}).
 
-\begin{figure}[htb]
+\setlength{\marge}{(\textwidth-8cm)/2}
+\begin{sidefig}
+      {\marge}
+      {\OeQ}
+      {fig:OeQ}
   \includegraphics[height=8cm]{oummelqaab}
-  \caption{\OeQ}
-  \label{fig:oummelqaab}
-\end{figure}
+\end{sidefig}
+% \begin{figure}[htb]
+%   \includegraphics[height=8cm]{oummelqaab}
+%   \caption{\OeQ}
+%   \label{fig:OeQ}
+% \end{figure}
 
 \section{Cimetière~U}
 %----------------------------------------------------------------------
@@ -360,7 +374,8 @@ classement et à la gestion.
 
 \section{Cimetière~B}
 %----------------------------------------------------------------------
-Le cimetière~B pourrait être celui des rois de la \og dynastie~0 \fg ? 
+Le cimetière~B pourrait être celui des rois de la 
+\frquote{dynastie~0} ? 
 On y a retrouvé des signes représentants les noms des rois, le 
 \emph{sérekh} surmonté d'Horus.
 S'agit-il des rois de la \HE unifiée (Scorpion, Ka, Iryhor,~\dots) ? 
@@ -371,7 +386,7 @@ stylistiques. Il ne reste rien de la superstructure, l'infrastructure
 se compose de deux pièces séparées : la tombe et un magasin ?
 
 \begin{remarque}
-  La notion de \og dynastie~0 \fg est en perte de vitesse.
+  La notion de \frquote{dynastie~0} est en perte de vitesse.
 \end{remarque}
 
 \part{En résumé}

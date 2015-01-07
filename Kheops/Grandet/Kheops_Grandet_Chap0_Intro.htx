@@ -13,7 +13,7 @@ Durant la période pharaonique (\anorange{3200}{332}), l'\kmt a formé
 une nation, un état indépendant à l'époque préclassique (avant la 
 Grèce et Rome), gouverné par des souverains indigènes qu'on appelle 
 \emph{pharaons}. Ce terme vient de l'égyptien \tl{pr-aA}, 
-\og \td{la grande maison} \fg qui désigne le palais royal puis, par 
+\frquote{\td{la grande maison}} qui désigne le palais royal puis, par 
 métaphore, son occupant.
 Mais cette indépendance n'a pas été continue, l'\kmt a parfois 
 été occupée par ses voisins, et elle n'est pas restée un bloc 
@@ -22,16 +22,16 @@ monolithique : des centres de pouvoirs se sont parfois opposés.
 L'un des intérêts de l'étude de l'\kmt ancienne c'est sa longueur, 
 son ancienneté, son unité.
 
-Au sujet de sa longueur, quand on parle de \num{3000}~ans, c'est un 
-décompte restrictif, il faut y ajouter quelques millénaires de 
-préhistoire et quelques millénaires de \og post-histoire \fg.
-Mais même en ne comptant que ces \num{3000}~ans, cette longueur est 
-exceptionnelle, seule la Chine est un peu comparable.
+Au sujet de sa longueur, quand on parle de \num{3000}~ans, c'est 
+un décompte restrictif, il faut y ajouter quelques millénaires de 
+préhistoire et quelques millénaires de \frquote{post-histoire}.
+Mais même en ne comptant que ces \num{3000}~ans, cette longueur 
+est exceptionnelle, seule la Chine est un peu comparable.
 La civilisation occidentale chrétienne dure depuis \num{2000}~ans, 
 mais n'est pas du tout homogène.
 
 La persévérance dans les caractéristiques essentielles, l'unicité 
-fait qu'on reconnaît un objet égyptien au premier coup d'\oe{}il, 
+fait qu'on reconnaît un objet égyptien au premier coup d'{\oe}il, 
 quelque soit l'époque.
 
 Dans le monde antique, l'\kmt a formé une singularité politique, 
@@ -50,9 +50,9 @@ exemple.
 
 Les frontières politiques actuelles de l'\kmt ont été tracées à la 
 règle à travers les déserts. Elles forment un quadrilatère d'environ 
-\SI{1e6}{\km\squared} (deux fois la France). L'\kmt \og utile \fg{} 
--- le Nil et sa vallée -- ne représente que 
-\SIrange{30000}{35000}{\km\squared}, soit l'équivalent de la Belgique.
+\SI{1e6}{\km\squared} (deux fois la France). L'\kmt \frquote{utile} 
+--~le Nil et sa vallée~-- ne représente que 
+\SIrange{30000}{35000}{\km\squared}, soit l'équivalent de la Belgique. 
 Malgré tout, les déserts ne sont pas improductifs : ils sont sources 
 de produits minéraux : or, cuivre,~\dots
 
@@ -80,7 +80,7 @@ un alliage de cuivre et d'étain (\ce{10 Cu} / \ce{1 Sn}).
 
 Chypre fournissait du cuivre à l'\kmt ainsi qu'à toute la région 
 et jusqu'en Espagne, voire plus loin. Le deuxième gisement important 
-est Timna, dans l'actuelle Israël (contrôlé par l'\kmt au \NK). 
+est \Timna, dans l'actuelle Israël (contrôlé par l'\kmt au \NK). 
 En revanche, il n'y a pas d'étain dans cette région : il doit être 
 importé d'Asie centrale (Afghanistan et Turkménistan).
 
@@ -101,16 +101,17 @@ la soie (c'est la géographie qui impose les routes).
   basse).
 \end{remarque}
 
-\begin{encadre}\centering\noi
+\begin{aparte}[parbox]
+  \centering
   La métallurgie du bronze est au c\oe{}ur de la politique étrangère 
   de toute la région !
-\end{encadre}
+\end{aparte}
 
 \section{Le pays}
 %----------------------------------------------------------------------
 
-Les égyptiens s'orientaient vers le sud, l'ouest s'appelle \og la 
-droite \fg.
+Les égyptiens s'orientaient vers le sud, l'ouest s'appelle \frquote{la 
+droite}.
 
 Le pays s'étend d'Éléphantine (Assouan) au sud, jusqu'à la Mer 
 Méditerranée au nord.
@@ -123,13 +124,14 @@ Historiquement, le pays est divisé en deux zones :
 \begin{itemize}
   \item \textbf{Ta-Méhou}   (\BE\index{Basse-Égypte@\BE}) = le Delta
   \item \textbf{Ta-Chémaou} (\HE\index{Haute-Égypte@\HE}), 
-        \og le pays étroit \fg = la vallée du Nil = Sa\ain{}id
+        \frquote{le pays étroit} = la vallée du Nil = Sa\ain{}id
 \end{itemize}
 
-\begin{encadre}
+\begin{aparte}[parbox]
+  \centering
   Les Égyptiens pensaient que l'\kmt était l'union de deux royaumes 
   préexistants.
-\end{encadre}
+\end{aparte}
 
 On utilise désormais une division supplémentaire : \HE{} / \ME 
 (= grenier à blé, Fayoum).
@@ -175,7 +177,7 @@ On connaît différents noms pour le pays :
 {\SmallerText
 \begin{itemize}\setlength\itemsep{1.0\baselineskip}
   \item \begin{hieroglyph}tA:tA\end{hieroglyph}
-        \tl{\&A.wy}, \emph{Taouy}, \og Les Deux-Terres \fg, 
+        \tl{\&A.wy}, \emph{Taouy}, \frquote{Les Deux-Terres}, 
         à nouveau l'idée de deux royaumes ;
   \item \begin{hieroglyph}km-m-t:niwt\end{hieroglyph}
         \tl{km.t}, \emph{Kèmé} (prononciation connue par le copte) ;
@@ -184,8 +186,8 @@ On connaît différents noms pour le pays :
         C'est l'un des noms de Memphis (on donne au pays le nom de la 
         capitale, comme Tunis/Tunisie, Alger/Algérie,~\dots) ;
   \item {\huge\<m.sr>}, \ta{mi\d{s}r} : nom connu depuis 
-        \num{\sim2000}~ans, dans différentes langues, =~\og le pays 
-        fermé, protégé \fg.
+        \num{\sim2000}~ans, dans différentes langues, =~\frquote{le 
+        pays fermé, protégé}.
 \end{itemize}}
 
 \bigskip
@@ -193,7 +195,7 @@ On connaît différents noms pour le pays :
 \begin{remarque}
   \begin{itemize}
     \item {Hikuptah} a donné \emph{Aigyptos} en grec, d'où 
-          \emph{\kmt}. Le \og s \fg correspond à la déclinaison 
+          \emph{\kmt}. Le \emph{s} correspond à la déclinaison 
           grecque, il n'existe pas dans le mot original.
     \item Le mot \emph{copte} vient de \emph{Ai\,\fbox{gyptos}}
   \end{itemize}
@@ -272,9 +274,9 @@ combat l'aridité.}, et a besoin de l'humidité apportée par la mousson.
 
 \paragraph{Relations avec le \PO}
 Elles sont liées au besoin en bois, étain, mais aussi en 
-main-d'\oe{}uvre !\\
+main-d'{\oe}uvre !\\
 \hspace*{2em}\donc~pour les grands projets (architecturaux), 
-\og non productifs \fg, pendant que la population travaille la terre.
+\frquote{non productifs}, pendant que la population travaille la terre.
 
 L'\kmt est en effet sous-peuplée dans l'Antiquité (\num{\approx4e6} 
 d'habitants ?)
@@ -318,7 +320,7 @@ d'Alexandre et la perte de l'indépendance.
         \begin{itemize}
           \item \PD ancien : Nagada~I -- \anorange{5350}{3850}
           \item \PD récent : Nagada~II -- \anorange{3850}{3350}
-          \item protodynastique : Nagada~III, \og dynastie~0 \fg{} 
+          \item protodynastique : Nagada~III, \frquote{dynastie~0} 
                 -- \anorange{5350}{3850}
         \end{itemize}
 \end{itemize}
@@ -387,7 +389,7 @@ choses.
 \end{itemize}
 \hspace*{2em}\donc~disparition graduelle de la civilisation égyptienne.
 
-\emph{\og Pnouté \fg{}} = \emph{dieu}, en copte.
+\emph{\frquote{Pnouté}} = \emph{dieu}, en copte.
 
 
 \section[Chronologie comparée]
@@ -496,7 +498,7 @@ dynasties. De nombreuses copies de cette chronologie ont été réalisées
 \oe{}uvre païenne, elle était considérée comme la base de la 
 chronologie biblique.
 
-\bsc{Manéthon} est l'héritier des \og historiens \fg égyptiens, 
+\bsc{Manéthon} est l'héritier des \frquote{historiens} égyptiens, 
 notamment dans la croyance que les dynasties de rois sont précédées 
 de dynasties de dieux.
 
@@ -516,11 +518,11 @@ pharaonique :
 A l'époque archaïque, rappel d'un événement caractéristique par an, 
 sur des tablettes reliées entre elles.
 
-\begin{encadre}
-  \og Civilisation \fg{} = manière dont un groupe humain s'adapte à 
+\begin{aparte}
+  \frquote{Civilisation} = manière dont un groupe humain s'adapte à 
   son milieu pour y survivre et s'y reproduire.\\
   \qquad\qquad\donc~Il n'en existe pas deux identiques.
-\end{encadre}
+\end{aparte}
 
 \donc~Production d'institutions, idées, croyances, morale, 
 coutumes,~\dots
@@ -598,14 +600,15 @@ six semaines, puis lente décrue.
 
 Quinze jours d'écart entre Memphis et Assouan.
 
-Idée tardive : la crue idéale fait \SI{16}{coudées} soit à peu près 
-\SI{8}{\m} (voir statue romaine du Nil aux Tuileries, \fref{???}).
+Idée tardive : la crue idéale fait \SI{16}{coudées} soit à 
+peu près \SI{8}{\m} (voir statue romaine du Nil aux Tuileries,
+\fref{fig:tuileries}).
 
 \begin{figure}[htb]
   \includegraphics[width=0.75\textwidth]{Nil_Tuileries_2}
   \caption{Le Nil du jardin des Tuileries. Les seize enfants 
            représenteraient les seize coudées de la crues idéale.}
-  \label{fig:chadouf}
+  \label{fig:tuileries}
 \end{figure}
 
 L'intensité de la crue est variable. Trop basse, elle ne permet pas 
@@ -625,7 +628,7 @@ servant de voies de communication.
 C'est l'irrigation par gravitation, utilisée pour les céréales (orge, 
 lin).
 
-Implique des travaux publics conséquents : \og corvée \fg, travail 
+Implique des travaux publics conséquents : \frquote{corvée}, travail 
 obligatoire pour tout le monde.
 
 Impopulaire ! \donc~oushebtis / chaouabtis.
@@ -633,7 +636,8 @@ Impopulaire ! \donc~oushebtis / chaouabtis.
 Ce système est toujours utilisé en \kmt pour les jardins personnels.
 
 \begin{figure}[htb]
-  \includegraphics[height=4cm]{chadouf1}\quad%
+  \includegraphics[height=4cm]{chadouf1}%
+  \quad%
   \includegraphics[height=4cm]{chadouf2}%
   \caption{Chadouf}
   \label{fig:chadouf}
@@ -651,16 +655,17 @@ animal entraîne une roue verticale portant des seaux.\\
 \chapter{Population}
 %======================================================================
 
-Selon Diodore de Sicile : \num{9e6}~d'habitants à l'époque romaine [1].
+Selon Diodore de Sicile : \num{9e6}~d'habitants à l'époque romaine 
+\pucenum{1}.
 
 Cela implique une population plus faible avant.
 
-Au 19\ieme~siècle, on dénombrait \numrange{4e6}{5e6} habitants 
-selon les estimations [2].
+Au \siecle{19}, on dénombrait quatre à cinq millions habitants selon 
+les estimations \pucenum{2}.
 
-La différence entre [1] et [2] s'explique par l'anarchie politique 
-qui règne dans le pays au 19\ieme~siècle (donc problèmes dans 
-l'organisation des travaux publics).
+La différence entre \pucenum{1} et \pucenum{2} s'explique par 
+l'anarchie politique qui règne dans le pays au \siecle{19} (donc 
+problèmes dans l'organisation des travaux publics).
 
 On peut estimer que ça correspond à la population du \NK.
 
@@ -679,7 +684,7 @@ Une ressource particulière : l'or !
 Entre Nil et Mer Rouge, d'Assouan au Soudan, zone aurifère parcourue 
 de voies de communication.
 
-Ouadi 'Allâqi, dont l'entrée est à Qoubbân.
+Ouadi \Allaqi, dont l'entrée est à Qoubbân.
 
 Il existe une carte de la zone, conservée à Turin.
 
@@ -701,7 +706,6 @@ dans ces mines :
   \label{fig:lavage}
 \end{wrapfigure}
 \CaptionNormal
-
 \begin{itemize}
   \item Les condamnés sont déportés en famille ;
   \item Les gardes ne parlent pas leur langue ;
@@ -741,8 +745,8 @@ La campagne d'\kmt a permis d'amasser une grande quantité de
 documents qui ont permis d'aboutir au déchiffrement des h\iero es 
 par \bsc{Champollion} en \ano[0]{1822}.
 
-\begin{encadre}[frametitle={Déchiffrement des h\iero es : le 
-                            grand raté de la Renaissance !}]
+\begin{aparte}[title={Déchiffrement des h\iero es : le grand raté 
+                      de la Renaissance !}]
   Contrairement au grec et au latin, il y a un hiatus dans la 
   connaissance de l'égyptien. Les \emph{Hieroglyphica} de 
   \bsc{Hor-Apollon} (présentés comme écrits par un prêtre grec mais 
@@ -750,7 +754,7 @@ par \bsc{Champollion} en \ano[0]{1822}.
   l'idée que les h\iero es sont purement idéographiques, et ne 
   contiennent donc pas d'information sur la prononciation.\\
   \donc~Le déchiffrement serait donc inutile !
-\end{encadre}
+\end{aparte}
 
 La \emph{Pierre de Rosette} a été largement diffusée dès sa découverte.
 \bsc{Champollion} a supposé qu'une part de phonétique était présente 
