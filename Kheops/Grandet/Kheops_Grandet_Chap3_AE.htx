@@ -7,7 +7,7 @@
 \part{\texorpdfstring{\dyn{iii}}{IIIe dynastie}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-La \dyn{iii} est presque aussi mal connue que la \dynnum{ii}.
+La \dyn{iii} est presque aussi mal connue que la \dynum{ii}.
 
 La liste des rois est sujette à caution, car on connaît surtout le 
 complexe funéraire de Djoser.
@@ -22,7 +22,7 @@ complexe funéraire de Djoser.
 
 \bigskip
 
-le premier roi -- Nebka -- est l'époux de Nyhepmaât, fille de 
+le premier roi, Nebka, est l'époux de Nyhepmaât, fille de 
 Khâsékhemouy, le dernier roi de la dynastie précédente.
 
 Il s'agit d'une période de grand développement technique et 
@@ -52,8 +52,6 @@ faire fabriquer les outils,~\dots).
 
 Amenhotep fils de Hapou a également été divinisé tardivement et est 
 parfois associé à Imhotep.
-
-\bigskip
 
 \begin{figure}[htb]
   \noi\begin{minipage}[m]{.45\textwidth}%
@@ -100,15 +98,15 @@ Il est connu par des graffiti de touristes de la \dyn{xviii}
 \nospace{:)}
 
 \begin{remarque}
-  La racine \tl{Dsr} signifie \og couper \fg, comme \emph{César}.
+  La racine \tl{Dsr} signifie \frquote{couper}, comme \emph{César}.
 \end{remarque}
 
 À partir de là, on copie en pierre ce qui était en briques, 
 bois,~\dots C'est la \emph{pétrification}.
 
-Le monument le plus connu de ce règne est la \og Stèle de la 
-Famine \fg (\fref{fig:famine}), sur l'île de Séhel. Le texte mentionne 
-l'an~\num{18} de Djoser, mais il s'agit en fait d'un faux datant de 
+Le monument le plus connu de ce règne est la \source{Stèle de la 
+Famine} (\fref{fig:famine}), sur l'île de Séhel. Le texte mentionne 
+l'\ar{18} de Djoser, mais il s'agit en fait d'un faux datant de 
 Ptolémée~V ! Elle entérine le don par Djoser de la \BN au dieu Khnoum 
 d'Éléphantine pour le remercier d'avoir mis fin à la famine due à sept 
 ans de mauvaises crues. C'est une justification de l'appartenance de 
@@ -128,17 +126,16 @@ Mais la forme de la pyramide ?\nospace{??} Certains y voient une
 évolution du bouchon fermant le caveau de certains mastabas. Mais 
 les degrés du bouchon se justifient par les contraintes de la 
 construction.
-Pourrait-il s'agir d'une élévation pour rendre la structure visible de 
-l'extérieur de l'enclos ?
+Pourrait-il s'agir d'une élévation pour rendre la structure visible 
+de l'extérieur de l'enclos ?
 
 On note une meilleure maîtrise des techniques de ronde-bosse. 
 
 Au sud, Ounas (\tl{\%xn-X.t}), au nord-est, Ouserkaf.
 
-Dans l'enceinte du complexe, on trouve treize portes. 
-Seule l'une d'entre elles -- situé au sud-est -- est vraie. 
-À l'intérieur de l'enceinte se trouvent des éléments de 
-palais factices
+Dans l'enceinte du complexe, on trouve treize portes. Seule l'une 
+d'entre elles, situé au sud-est, est vraie. À l'intérieur de 
+l'enceinte se trouvent des éléments de palais factices
 
 L'espace est délimité par des bornes dont certaines ont été 
 retrouvées, mais jamais à leur emplacement d'origine. Elles sont 
@@ -243,7 +240,7 @@ génération, symbolique).
 \end{figure}
 
 Au sud-ouest de la cour se trouve un simulacre de palais orné du décor 
-en \og façade de palais \fg, couronné d'ur\ae{}i (cela rappelle le 
+en \frquote{façade de palais}, couronné d'ur{\ae}i (cela rappelle le 
 bâtiment dans la \SeZ).
 \donc~mastaba avec son puits et un réseau très complexe de 
 souterrains. 
@@ -263,28 +260,29 @@ vers l'ouest, le vestiaire du roi ?
 La cour est bordée de chaque côté par des sanctuaires fictifs, 
 \tl{jtr.ty}, \td{les deux rangées}, attestées dans la littérature.
 
-Dans le palais de Memphis, il existe la \og maison de la fête 
-\emph{sed} \fg, qui sert à exprimer la symbolique de l'unité de \kmt. 
+Dans le palais de Memphis, il existe la \frquote{maison de la fête 
+\emph{sed}}, qui sert à exprimer la symbolique de l'unité de \kmt. 
 Elles hébergent les statues des principales divinités du pays, une 
 rangée pour la \HE, un autre pour la \BE. Avant les cérémonies, on 
 va chercher ces statues dans les différentes villes du pays. Elles 
 valident ainsi le règne du roi.
 
 Chaque chapelle est dans un enclos délimitée par un muret, les 
-barrières sont gravées -- ouvertes -- dans les murs.
+barrières sont gravées --~ouvertes~-- dans les murs.
 
 Une fois pétrifiées, ces structures deviennent les modèles des façades 
-de temples (cf Edfou), adaptées en pierre.
+de temples (cf.~Edfou), adaptées en pierre.
 La Chapelle Rouge est du type de la \fref{fig:sanctHE}. Les temples 
-traditionnels peuvent être vus comme l’emboîtement d'un sanctuaire 
+traditionnels peuvent être vus comme l'emboîtement d'un sanctuaire 
 type \HE (naos, \fref{fig:sanctHE}) dans un sanctuaire type \BE 
 (salle hypostyle, \fref{fig:sanctBE}). D'autres types de sanctuaires, 
 visibles chez Djoser, sont en revanche abandonnés.
 
-\begin{encadre}
+\begin{aparte}[parbox]
+  \centering
   Le règne de Djoser marque l'acte de naissance de l'architecture 
   égyptienne en pierre.
-\end{encadre}
+\end{aparte}
 
 Les maisons du sud et du nord ont des façades comme les kiosques de 
 \BE. Les entrées sont en cul-de-sac et masquées. On ne sait pas quel 
@@ -442,7 +440,7 @@ Certains princes seront plus tard considérés comme des rois, mais ils
 ne le sont pas dans la documentation de l'époque.
 
 Avec les \dynlist{v}{vi}, elle représente un âge d'or du pays que 
-l'on s’efforcera d'imiter à la \dyn{xii} et, plus tard encore, à la 
+l'on s'efforcera d'imiter à la \dyn{xii} et, plus tard encore, à la 
 \dyn{xxvi}.
 
 Mais on ne sait rien de la politique de cette époque, que l'on 
@@ -459,7 +457,7 @@ accompagne le déplacement de la résidence royale.
 à la \dyn{v}, on construit sur les sites d'Abousir et Saqqara, à la 
 \dyn{vi}, à Saqqara.
 
-Transition \dynnum{iii}-\dyn{iv}s :
+Transition \dynum{iii}-\dyn{iv}s :
 \begin{itemize}
   \item Djoser, Sékhemkhet, Khâba : assises à lits déversés
   \item Meïdoum : noyau de pyramide à degrés par Houni (simple 
@@ -511,23 +509,26 @@ l'érosion éolienne ?
 
 \CaptionPetit
 \begin{figure}[htb]
-  \begin{minipage}[b]{0.3\textwidth}
+  \begin{minipage}[t]{0.45\textwidth}
     \centerfloat
-    \begin{tikzpicture}[thick]
+    \vspace*{0pt}
+    \begin{tikzpicture}[scale=1.1, thick]
       \templehaut
     \end{tikzpicture}
 
     \bigskip
 
-    \begin{tikzpicture}[scale=0.66]
+    \begin{tikzpicture}[scale=0.7]
       \chicane
     \end{tikzpicture}
     \caption{Temple haut type de Snéfrou, avec entrée en chicane}
     \label{fig:templehaut}
   \end{minipage}%
   \hfill%
-  \begin{minipage}[b]{0.4\textwidth}%
-    \begin{tikzpicture}[scale=.5]
+  \begin{minipage}[t]{0.45\textwidth}%
+    \centerfloat
+    \vspace*{0pt}
+    \begin{tikzpicture}[scale=.55]
       \voute
     \end{tikzpicture}
     \caption{Pseudo-voute}
@@ -541,7 +542,7 @@ l'érosion éolienne ?
   la ligne droite et la chicane, entre procession, ostentation, et 
   protection. Il faut séparer le sacré du profane.
   Voir le temple de Karnak (\fref{fig:karnak}), le temple archaïque 
-  d’Éléphantine (\fref{???}).
+  d'Éléphantine (\fref{???}).
 \end{remarque}
 
 \begin{figure}[htb]
@@ -571,20 +572,27 @@ cruciformes (par ex. Atet, Néfermaât) avec structure en chicane devant.
 \chapter[Rêdjedef]{\protect\faitle{19/06/2012}Rêdjedef}
 %======================================================================
 
-\begin{figure}[htb]
+\begin{sidefig}{0.37\textwidth}
+      {Ensemble pyramide~/ temple~/ chaussée de Rêdjedef}{fig:redjedef}
   \begin{tikzpicture}[scale=0.75]
     \redjedef
   \end{tikzpicture}
-  \caption{Ensemble pyramide / temple / chaussée de Rêdjedef}
-  \label{fig:redjedef}
-\end{figure}
+\end{sidefig}
+% \begin{figure}[htb]
+%   \begin{tikzpicture}[scale=0.75]
+%     \redjedef
+%   \end{tikzpicture}
+%   \caption{Ensemble pyramide / temple / chaussée de Rêdjedef}
+%   \label{fig:redjedef}
+% \end{figure}
 
 Rêdjedef est le successeur de Khéops, et son fils par une reine 
 secondaire.
 
 On ne sait rien ou presque de son règne.
 
-Son nom est parfois transcrit \emph{Didoufri} ou \emph{Djedefrê} en supposant une antéposition honorifique.
+Son nom est parfois transcrit \emph{Didoufri} ou \emph{Djedefrê} en 
+supposant une antéposition honorifique.
 Il se lit \tl{Ra-Dd=f}, \td{Rê est durable}, à l'aoriste.
 
 Son cartouche est gravé sur une dalle de fermeture de la barque de 
@@ -674,7 +682,7 @@ une barbe et même un pschent ! On ne sait pas si c'est réaliste ou
 non. La protubérance entre ses pattes est plus probablement un socle 
 de statue qu'une statue.
 
-De face, le Sphinx est caché par le \emph{\og Temple du Sphinx \fg}. 
+De face, le Sphinx est caché par le \emph{\frquote{Temple du Sphinx}}. 
 On n'a aucune d'idée de la finalité de ce monument, ni de sa relation 
 avec le Sphinx. C'est un grand espace à ciel ouvert, présentant une 
 grande symétrie. Il s'agit probablement d'un temple solaire (le soleil 
@@ -705,7 +713,7 @@ Il se compose d'une grande cour à ciel ouvert, péristyle (?), d'une
 salle oblongue avec une fausse porte et d'un accès indirect à un 
 temple accolé à la pyramide.
 
-Le temple bas a été bien fouillé au début du 20\ieme~siècle. Il est 
+Le temple bas a été bien fouillé au début du \siecle{20}. Il est 
 partiellement construit en briques crues et à connu deux phases : 
 \begin{itemize}
   \item Avant la \dyn{vi}, il comprenait une antichambre, une grande 
@@ -724,7 +732,7 @@ de a fête \emph{sed} de Djoser.
 %======================================================================
 
 Sa sépulture est à Saqqara sud (entre Saqqara et Dahchour, comme la 
-pyramide de Pépi~II). On l'appelle le \og Mastabat Faraoun \fg 
+pyramide de Pépi~II). On l'appelle le \emph{Mastabat Faraoun} 
 (\fref{fig:faraoun}).
 Ce n'est pas une pyramide, mais c'est plus grand que celle de Pépi~II.
 Il s'agit d'architecture mégalithique, et son parement a disparu.
@@ -733,7 +741,7 @@ Il s'agit d'architecture mégalithique, et son parement a disparu.
   \begin{tikzpicture}[scale=0.75]
     \faraoun
   \end{tikzpicture}
-  \caption{Le \og Mastabat Faraoun \fg}
+  \caption{Le \emph{Mastabat Faraoun}}
   \label{fig:faraoun}
 \end{figure}
 
@@ -802,7 +810,7 @@ Sa pyramide a été exploitée comme carrière, le revêtement a disparu.
 Mais cela permet de voir qu'elle a été construite comme une pyramide 
 à degrés.
 
-Le temple funéraire comporte -- comme toujours -- un vestibule 
+Le temple funéraire comporte --~comme toujours~-- un vestibule 
 \tl{pr-wr.w}, une cour péristyle, une chapelle avec cinq niches, 
 un couloir de contournement menant à la pièce abritant la table 
 d'offrande et la stèle fausse porte.

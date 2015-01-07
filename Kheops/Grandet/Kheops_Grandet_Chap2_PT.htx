@@ -41,9 +41,9 @@ La séquence des rois est validée par des empreintes de sceaux
 \end{figure}
 
 En revanche, le nom des rois pose problème : dans les documents 
-contemporains, les noms sont toujours précédés de \og Horus \fg, dans 
-les documents postérieurs, on ne trouve pas les mêmes noms. On peut 
-supposer qu'ils devaient avoir un autre nom que le nom d'Horus.
+contemporains, les noms sont toujours précédés de \frquote{Horus}, 
+dans les documents postérieurs, on ne trouve pas les mêmes noms. On 
+peut supposer qu'ils devaient avoir un autre nom que le nom d'Horus.
 
 \chapter{Narmer}
 %======================================================================
@@ -263,17 +263,17 @@ stèles à son nom.
 Superstructure sûrement simple, en briques ou rocaille.
 Reste un bras de momie avec des bijoux (fouilles de \ano[0]{1898}).
 
-Le \emph{\og Lit d'Osiris \fg} (\fref{fig:lit_osiris}), en 
+Le \emph{\frquote{lit d'Osiris}} (\fref{fig:lit_osiris}), en 
 ronde-bosse, en granit, monumental : pas d'époque !\\
 \donc~tombe réinterprétée (PPI, ME ?) comme celle d'Osiris.
 \flech~mise en scène du drame sacré de la passion d'Osiris.
 
 
 \begin{figure}[htb]
-  \includegraphics[width=0.5\textwidth]{lit_osiris2}%
-  \quad%
-  \includegraphics[width=0.5\textwidth]{lit_osiris4}
-  \caption{Le \og Lit d'Osiris \fg}
+  \includegraphics[height=4.2cm]{lit_osiris2}%
+  \hfill%
+  \includegraphics[height=4.2cm]{lit_osiris4}
+  \caption{Le \frquote{lit d'Osiris}}
   \label{fig:lit_osiris}
 \end{figure}
 
@@ -296,7 +296,7 @@ Cette fête est documentée surtout au \MK.
 
 Autre cérémonie autour d'Osiris : casser des pots sur le lieu de la 
 tombe d'Osiris. Rituel apotropaïque. C'est de là que vient le nom 
-d'\OeQ : la \emph{\og Mère des Pots \fg}.
+d'\OeQ : la \emph{\frquote{Mère des Pots}}.
 
 
 \chapter{Djet} 
@@ -336,7 +336,7 @@ Une reine ! Mentionnée sur les sceaux d'Abydos
 
 Reconstitution de la superstructure (\fref{fig:merneith}).
 
-\begin{figure}[!h]
+\begin{figure}[htb]
   \includegraphics[width=.45\textwidth]{merneith_mastaba_1}
   \qquad%
   \includegraphics[scale=1]{merneith_stele_1}
@@ -345,23 +345,23 @@ Reconstitution de la superstructure (\fref{fig:merneith}).
 \end{figure}
 
 
-\chapter{Saqqara nord}
+\chapter{Saqqara Nord}
 %======================================================================
 
-Les plus anciennes sépultures sont à Saqqara nord, sur une falaise 
+Les plus anciennes sépultures sont à Saqqara Nord, sur une falaise 
 dominant la campagne.
 
-On y trouve des mastabas de la \dynnum[\iere]{i} à la \dyn{iii}.
+On y trouve des mastabas de la \dynum[\iere]{i} à la \dyn{iii}.
 
 Contrairement à Abydos, on est dans la roche. L'infrastructure est 
 réduite au caveau, le reste remonte dans la superstructure, qui 
 comporte différentes pièces, des magasins et est maçonnée en briques 
 crues.
-Les parois sont décorées en \og façade de palais \fg, à niches 
+Les parois sont décorées en \frquote{façade de palais}, à niches 
 et redans : esthétique et résistant.
 Utilisation de poutres pour la toiture.
 
-Ces mastabas ont longtemps été considérés -- à tort ! -- comme des 
+Ces mastabas ont longtemps été considérés --~à tort !~-- comme des 
 tombes royales. Ce sont les tombes de hauts courtisans, notamment 
 celle de \tl{@mA-kA} avec une boîte en bois contenant deux rouleaux 
 de papyrus\dots{} vierges.
@@ -399,13 +399,16 @@ un même support.
 \chapter{Pierre de Palerme}
 %======================================================================
 
-\begin{figure}[!h]
+\begin{sidefig}{.25\textwidth}{Pierre de Palerme, recto}{fig:palerme}
   \includegraphics[width=.5\textwidth]{PierrePalerme}
-  \caption{Pierre de Palerme, recto}
-  \label{fig:palerme}
-\end{figure}
+\end{sidefig}
+% \begin{figure}[htb]
+%   \includegraphics[width=.5\textwidth]{PierrePalerme}
+%   \caption{Pierre de Palerme, recto}
+%   \label{fig:palerme}
+% \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[htb]
   \vspace*{1cm}
   \includegraphics[width=\textwidth]{PierrePalerme_lgn}
   \begin{tikzpicture}[overlay, =>=latex', font=\small]
@@ -419,12 +422,9 @@ un même support.
   \label{fig:palermeL2}
 \end{figure}
 
-
-
-
 Il s'agit d'un fragment de monument (naos ?) en basalte, conservé à 
 Palerme. D'autres fragments sont au \musee{Musée du Caire}, au 
-\musee{Louvre} ou au \musee{British Museum}.
+\musee{Louvre} ou au \musee{\BM}.
 
 Il ne reste qu'une partie infime du monument original.
 
@@ -456,6 +456,7 @@ tous les deux ans : tournée d'inspection des ressource du pays par
 le roi.\\\tl{Smsw @r} :
 \EnColonne[1.2\Htm]{\begin{hieroglyph}G7\*Sms\-P1\\end{hieroglyph}}
 
+\bigskip
 
 Petit à petit, passage à la numérotation des années. 
 \begin{itemize}
@@ -471,12 +472,14 @@ Petit à petit, passage à la numérotation des années.
   \item par la suite, numérotation par année de règne.
 \end{itemize}
 
+\bigskip
+
 Mais jamais de datation par rapport à un événement unique.
 
 Problème : on ne connaît pas la longueur des règnes, PPI avec rois en 
 concurrence.
 
-Saqqara nord : développé à la \dyn[\iere]{i}.
+Saqqara Nord : développé à la \dyn[\iere]{i}.
 
 Très peu d'infos sur la \dyn[\iere]{i}, événements comme structure 
 sociale.
@@ -526,8 +529,8 @@ La suite de la dynamique qui a conduit à l'unification ?
 
 \bigskip
 
-Dans le nord du Sinaï, série de villages montrant -- comme en 
-Nubie -- une régression progressive. Qu'obtenaient-ils des égyptiens 
+Dans le nord du Sinaï, série de villages montrant --~comme en 
+Nubie~-- une régression progressive. Qu'obtenaient-ils des égyptiens 
 en échange ? Du surplus agricole ?
 
 Importation de vin, de cuivre vers l'\kmt.
@@ -548,20 +551,20 @@ commerce pour le bois du Liban.
 \chapter{Généralités}
 %======================================================================
 
-La \dyn{ii} est moins bien connue que la \dynnum[\iere]{i}.
+La \dyn{ii} est moins bien connue que la \dynum[\iere]{i}.
 
 Un grand changement a lieu : les rois se font désormais enterrer à 
 Saqqara. Seuls les deux derniers retournent à \OeQ. Est-ce là l'indice 
 d'une crise ?
 
 L'un des rois se nomme \emph{Nebrê} (qu'il faut peut-être lire 
-\tl{Nb=j-Ra}, \og Mon seigneur est Rê \fg) : c'est la première 
+\tl{Nb=j-Ra}, \frquote{Mon seigneur est Rê}) : c'est la première 
 utilisation de \emph{Rê} dans un nom royal, en lien avec le 
 développement de la religion.
 
-Le dernier roi est connu sous deux noms, \emph{Khâsékhem} \og La 
-puissance est apparue \fg et \emph{Khâsékhemouy} \og Les deux 
-puissances sont apparues \fg, ce qui semble conforter l'idée d'une 
+Le dernier roi est connu sous deux noms, \emph{Khâsékhem} \frquote{La 
+puissance est apparue} et \emph{Khâsékhemouy} \frquote{Les deux 
+puissances sont apparues}, ce qui semble conforter l'idée d'une 
 crise à la fin de la dynastie.
 
 Les tombes de Saqqara sont annoncées par des stèles portant le nom 
@@ -632,17 +635,16 @@ offrandes dans les \TP).
 \section[Évolution des tombes privées]
         {Évolution des tombes privées, quelques sites clés
          \protect\faitle{15/05/2012}}
-
 %----------------------------------------------------------------------
 
 \subsection{Saqqara Nord, tombe \no\num{3477}}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-La superstructure est un mastaba, un massif de briques avec deux niches 
-dans la paroi est. La principale, où le culte est rendu, est situé à 
-l'angle sud-est. Les appartements souterrains sont assez simples, les 
-magasins dans la superstructure. On a retrouvé un repas servi dans le 
-caveau funéraire : la simple représentation des offrandes ne suffit pas 
-encore.
+La superstructure est un mastaba, un massif de briques avec deux 
+niches dans la paroi est. La principale, où le culte est rendu, est 
+situé à l'angle sud-est. Les appartements souterrains sont assez 
+simples, les magasins dans la superstructure. On a retrouvé un repas 
+servi dans le caveau funéraire : la simple représentation des 
+offrandes ne suffit pas encore.
 
 Par la suite, la scène du repas funéraire se complexifie.
 
@@ -655,27 +657,27 @@ temple, déjà disposé en registres.
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 La ville prédynastique était dans le désert, celle de la \dyn{ii} 
 dans la plaine (diminution des crues du Nil ?). Ce que l'on nomme le 
-\og fort \fg est en fait l'enclos cultuel de la \dyn{ii}. Cette ville 
-comprend aussi un palais pris dans le tissu urbain assez dense et un 
-temple archaïque recouvert par la suite. Le temple était situé sur une 
-plate-forme irrégulière. On y a trouvé la palette et la tête de massue 
-de Narmer, le faucon de Pépi~I\ier,~\dots Le palais est attribué à 
-Khâsékhemouy (à cause des troubles hypothétiques ?). Les fouilles en 
-cours du \og fort \fg ont mis au jour des reliefs de temple montrant 
-le roi en costume de fête \emph{sed}, des statues de Khâsékhemouy 
-dans le même costume. L'une des statues porte un texte dans lequel un 
-prisonnier avec une touffe de plantes sur le dos et tenu par une corde 
-symbolise le peuple de \BE (47209). On peut en conclure que des 
-troubles se sont produits.
+\frquote{fort} est en fait l'enclos cultuel de la \dyn{ii}. Cette 
+ville comprend aussi un palais pris dans le tissu urbain assez dense 
+et un temple archaïque recouvert par la suite. Le temple était situé 
+sur une plate-forme irrégulière. On y a trouvé la palette et la tête 
+de massue de Narmer, le faucon de Pépi~I\ier,~\dots Le palais est 
+attribué à Khâsékhemouy (à cause des troubles hypothétiques ?). Les 
+fouilles en cours du \frquote{fort} ont mis au jour des reliefs de 
+temple montrant le roi en costume de fête \emph{sed}, des statues de 
+Khâsékhemouy dans le même costume. L'une des statues porte un texte 
+dans lequel un prisonnier avec une touffe de plantes sur le dos et 
+tenu par une corde symbolise le peuple de \BE (47209). On peut en 
+conclure que des troubles se sont produits.
 
 Horus et Seth symbolisent respectivement la Basse et la \HE, Coptos 
-et Hiérakonpolis. Un roi qui a un nom de Seth est centré vers la \HE.
+et Hiérakonpolis. Un roi qui a un nom de Seth est centré vers la \HE. 
 On peut supposer une guerre de succession, une désunification 
 temporaire. Le nom d'Horus et Seth de Khâsékhemouy montrerait la 
-réconciliation des deux divinités (les \og deux puissances \fg de son 
-nom) et donc des deux parties du pays.
+réconciliation des deux divinités (les \frquote{deux puissances} de 
+son nom) et donc des deux parties du pays.
 
-Les sépultures -- enclos cultuel + tombes -- de Péribsen et 
+Les sépultures --~enclos cultuel + tombes~-- de Péribsen et 
 Khâsékhemouy sont à Abydos. L'enclos de Khâsékhemouy s'appelle la 
 \SeZ\footnote{Cela signifie \td{le magasin des raisins secs} en 
 arabe.}.
@@ -686,18 +688,18 @@ arabe.}.
   \begin{itemize}
     \item La \emph{zebiba}, au singulier, est aussi le nom de la 
           marque au front des musulmans.
-    \item Le \og paradoxe de la brique crue \fg : c'est un matériau 
+    \item Le \frquote{paradoxe de la brique crue} : c'est un matériau 
           très léger mais très durable.
-    \item les enceintes sont décorées en \og façade de palais \fg à 
-          l'intérieur et à l'extérieur (cf sarcophage de Mykérinos). 
+    \item les enceintes sont décorées en \frquote{façade de palais} à 
+          l'intérieur et à l'extérieur (cf.~sarcophage de Mykérinos). 
           Ce décor est très lié à la brique crue.
   \end{itemize}
 \end{remarque}
 
 \bigskip
 
-La \SeZ comporte deux enceintes concentriques -- ce qui la rapproche 
-d'une structure militaire -- et une vaste esplanade (\SI{100x50}{\m}). 
+La \SeZ comporte deux enceintes concentriques --~ce qui la rapproche 
+d'une structure militaire~-- et une vaste esplanade (\SI{100x50}{\m}). 
 L'entrée est à l'angle sud-est comme la niche des mastabas. Au centre 
 se trouve une structure carrée dont on ne sait rien de l'élévation.
 

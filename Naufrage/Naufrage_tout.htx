@@ -3,7 +3,7 @@
 %##author NeferTiyi
 %##HieroDef.txt
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \tableofcontents
 
@@ -29,17 +29,18 @@ portant les lignes~\num{24} à~\num{37} (\fig{img00}).
   \caption{Le papyrus Saint-Pétersbourg~\num{1115}, 
            lignes~\num{24}-\num{37}. %\\ 
            D'après W.~Golénischef, \emph{Les papyrus 
-           hiératiques~\nos\num{1115}, \num{1116}\,A et \num{1116}\,B 
-           de l'Ermitage impérial à Saint-Pétersbourg} 
-           [Saint-Pétersbourg, 1913], pl.~\num{8}.}
+           hiératiques~\nos\num{1115}, \num{1116}\,A et 
+           \num{1116}\,B de l'Ermitage impérial à 
+           Saint-Pétersbourg} [Saint-Pétersbourg, 1913], 
+           pl.~\num{8}.}
   \label{fig:img00}
 \end{figure}
 
-\paragraph{} Pour une bonne traduction française, cf.~G.~\bsc{Lefèbvre}, 
-\emph{Romans et contes égyptiens de l'Époque pharaonique} (Paris, 1976), 
-p.~29-40. Pour une transcription hiéroglyphique, cf.~A.M.~Blackman, 
-\emph{Middle-Egyptian Stories} (\emph{Bibliotheca Aegyptiaca}~II, 
-Bruxelles, 1972), p.~41-48.
+\paragraph{} Pour une bonne traduction française, 
+cf.~G.~\bsc{Lefèbvre}, \emph{Romans et contes égyptiens de l'Époque 
+pharaonique} (Paris, 1976), p.~29-40. Pour une transcription 
+hiéroglyphique, cf.~A.M.~Blackman, \emph{Middle-Egyptian Stories} 
+(\emph{Bibliotheca Aegyptiaca}~II, Bruxelles, 1972), p.~41-48.
 Celle que nous vous proposons ici est une nouvelle transcription, 
 réalisée par Dominique~\bsc{Farout} à partir de l'original, en y 
 respectant la disposition des lignes et des signes. La taille de 
@@ -68,9 +69,10 @@ nombreux récits de fiction plus tardifs, tels certains passages de
 les \emph{Mille et une Nuits}, ou le \emph{Robinson Crusoé} de 
 Daniel~\bsc{Defoe}. 
 
-\paragraph{} Nous vous demanderons de translittérer et de traduire le 
-texte en 16~devoirs (à raison, en principe, d'un par semaine), que vous 
-nous retournerez pour correction, en respectant le découpage suivant :
+\paragraph{} Nous vous demanderons de translittérer et de traduire 
+le texte en 16~devoirs (à raison, en principe, d'un par semaine), que 
+vous nous retournerez pour correction, en respectant le découpage 
+suivant :
 
 \begin{multicols}{2}
   \begin{enumerate}
@@ -172,8 +174,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
         désigne généralement l'\kmt{} dans ce conte ; \tl[black]{Ssp} 
         \vl{3}, \emph{saisir} ; \tl[black]{xrpw}, \emph{maillet}
   \item [\lgn{04}]    \tl[black]{Hwj} \vi{3}, \emph{frapper} ; 
-        \tl[black]{mnj.t}, \emph{piquet d'amarrage} (l'objet représenté 
-        par l'avant-dernier déterminatif du mot) ; 
+        \tl[black]{mnj.t}, \emph{piquet d'amarrage} (l'objet 
+        représenté par l'avant-dernier déterminatif du mot) ;
         \tl[black]{HAt.t}, \emph{amarre de proue}
   \item [\lgn{05}]    \tl[black]{Hknw}, \emph{action de grâce} ; 
         \tl[black]{dwA} \vl{3}, \emph{adorer}
@@ -189,9 +191,9 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
   \item [\lgn{09}]    \tl[black]{WAwA.t}, \emph{Ouaouat}, 
         la Basse-Nubie ; \tl[black]{snj} \vi{3}, \emph{passer}, 
         \emph{dépasser}
-  \item [\lgn{10}]    \tl[black]{\%nmw.t}, \emph{Senmout}, nom de l'île 
-        de Biggéh, en face de Phil\ae , au sud d'\'Eléphantine, 
-        marquant la frontière méridionale de l'\kmt{} ; 
+  \item [\lgn{10}]    \tl[black]{\%nmw.t}, \emph{Senmout}, nom de 
+        l'île de Biggéh, en face de Phil\ae, au sud d'Éléphantine, 
+        marquant la frontière méridionale de l'\kmt ; 
         \tl[black]{jj=(w)n} ; la désinence \tl[black]{=(w)n} a été 
         ajoutée à gauche du déterminatif de \tl[black]{jj}
   \item [\lgn{11}]    corriger probablement en \tl[black]{pH<\col n>=n}
@@ -224,7 +226,7 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 
     \tg{prospectif autonome}
 
-    \td{\og Que ton c\oe ur se rassérène, gouverneur !}%
+    \td{\og Que ton c{\oe}ur se rassérène, gouverneur !}%
   \end{hierobox}
 }
 
@@ -362,8 +364,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
   \item [\lgn{19}]    \tl[black]{TAm} \vl{3} \tl[black]{Hr n}, 
         \emph{montrer de l'indulgence à (quelqu'un)}, \litt \emph{le 
         visage se dévoile pour (quelqu'un)}
-  \item [\lgn{20}]    \tl[black]{Hr.t-jb}, \emph{humeur}, \emph{guise}, 
-        \litt \emph{condition du coeur}
+  \item [\lgn{20}]    \tl[black]{Hr.t-jb}, \emph{humeur}, 
+        \emph{guise}, \litt \emph{condition du c{\oe}ur}
   \item [\lgn{20-21}] \tl[black]{swrd} \vcl{3}, \emph{fatiguer}, 
         \emph{se fatiguer}
 \end{itemize}
@@ -381,10 +383,11 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
     \tl{\lgn{12} \red{sDm (j)r=k n=j} HAt(y)-a / 
         jnk, Sw(w) <m> \lgn{13} HAw} \ex
 
-    \tg{impératif renforcé / PPN sans \tl[Gramm]{pw}, prédicat = 
-        participe perfectif actif + pronom indépendant en thématisation}
+    \tg{impératif renforcé / PPN sans \tl[Gramm]{pw}, 
+        prédicat = participe perfectif actif + pronom indépendant 
+        en thématisation}
 
-    \td{\'Ecoute moi donc, gouverneur, (car) je n'exagère pas 
+    \td{Écoute moi donc, gouverneur, (car) je n'exagère pas 
         (\litt je suis un qui est exempt d'exagération) !}%
   \end{hierobox}
 }
@@ -468,7 +471,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 
     \tl{\lgn{20} jr (j)r=k m xr.t-jb=k / sw\lgn{21}rd pw Dd n=k}
 
-    \tg{impératif renforcé / PPN, avec prédicat et explicitation du sujet à l'infinitif}
+    \tg{impératif renforcé / PPN, avec prédicat et explicitation 
+        du sujet à l'infinitif}
 
     \td{Agis donc à ta guise, car te parler c'est se fatiguer !}%
   \end{hierobox}
@@ -627,12 +631,13 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
   \item [\lgn{36}]    \tl[black]{xt}, dans le sens d'\emph{espar}, 
         ou similaire 
   \item [\lgn{36-37}] \tl[black]{HH} \vl{2} \emph{(?)}, \emph{briser 
-        la force de (quelque chose) (?)} +\,\tl[black]{n}, \emph{pour}, 
-        c'est-à-dire \emph{préserver (quelqu'un) de (quelque chose)}
+        la force de (quelque chose) (?)} +\,\tl[black]{n}, 
+        \emph{pour}, c'est-à-dire \emph{préserver (quelqu'un) de 
+        (quelque chose)}
   \item [\lgn{38}]    noter la graphie \tl[black]{mwt} pour 
-        \tl[black]{mwt=t(j)}, le \tl[black]{t} final de \tl[black]{mwt} 
-        et le \tl[black]{t} de la désinence se confondant dans la 
-        prononciation
+        \tl[black]{mwt=t(j)}, le \tl[black]{t} final de 
+        \tl[black]{mwt} et le \tl[black]{t} de la désinence se 
+        confondant dans la prononciation
 \end{itemize}
 
 \subsection{traduction}
@@ -661,7 +666,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
       n:U19-nw:W-i-i-t-mw +l\lgn{36}+s i-m f n:t mH:a 1:1-1:1-1:1-1:1
     \end{hieroglyph}
 
-    \tl{fAt TAw, \lgn{35} jr=f wHm.yt / nw.yt \lgn{36} jm=f n(y).t 8~mH}
+    \tl{fAt TAw, \lgn{35} jr=f wHm.yt / nw.yt \lgn{36} jm=f n(y).t 
+        8~mH}
 
     \tg{circonstancielle en protase avec forme \tl[Gramm]{wnmt=f} 
         et aoriste séquentiel / apodose = PPA sans LV}
@@ -748,10 +754,11 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
   \item [\lgn{50}]    \tl[black]{Ssp.t}, \emph{concombres} 
         (collectif) ; \tl[black]{mj jr=t(w)=s}, avec \tl[black]{jrj} 
         dans le sens de \emph{cultiver}
-  \item [\lgn{51-52}] \tl[black]{nn \zero, nt(y).t nn st m-Xnw=f} ; 
-        \tl[black]{nt(y).t nn st m-Xnw=f} explicite le sujet 
-        \zero du prédicat négatif \tl[black]{nn} ; \tl[black]{nt(y).t}, 
-        pronom relatif de sens neutre sans antécédent
+  \item [\lgn{51-52}] \tl[black]{nn \zero, nt(y).t nn st 
+        m-Xnw=f} ; \tl[black]{nt(y).t nn st m-Xnw=f} explicite 
+        le sujet \zero du prédicat négatif \tl[black]{nn} ;
+        \tl[black]{nt(y).t}, pronom relatif de sens neutre sans 
+        antécédent
 \end{itemize}
 
 \subsection{traduction}
@@ -915,10 +922,10 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 
 \begin{itemize}
   \item [\lgn{53}]    \tl[black]{ssAj} \vci{3}, \emph{rassasier} ; 
-        comprendre \tl[black]{aHa\col n ssA\col n(=j) wj} ; le pronom 
-        suffixe \tl[black]{=j} de \tl[black]{\col n=j}, dans l'accompli 
-        agentiel de la 1\iere{} personne, est régulièrement omis dans 
-        le conte, lorsqu'il est suivi du pronom dépendant 
+        comprendre \tl[black]{aHa\col n ssA\col n(=j) wj} ; le 
+        pronom suffixe \tl[black]{=j} de \tl[black]{\col n=j}, dans 
+        l'accompli agentiel de la 1\iere{} personne, est régulièrement 
+        omis dans le conte, lorsqu'il est suivi du pronom dépendant 
         \tl[black]{wj} : \tl[black]{(jw) wnm\col n(=j) wj}, 
         \tl[black]{(aHa\col n) wnm\col n(=j) wj}, etc. ; après 
         \tl[black]{rd\col n=j} comprendre un complément d'objet 
@@ -1130,9 +1137,10 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
         la main à la bouche
   \item [\lgn{75}]    \tl[black]{m-bAH=k}, erreur pour 
         \tl[black]{m-bAH=f}
-  \item [\lgn{76}]    \tl[black]{xm} \vl{2}, \emph{devenir ignorant}, 
-        dans le sens de \emph{perdre connaissance}, \emph{s'évanouir} ; 
-        le signe de la négation est le déterminatif du verbe
+  \item [\lgn{76}]    \tl[black]{xm} \vl{2}, \emph{devenir 
+        ignorant}, dans le sens de \emph{perdre connaissance},
+        \emph{s'évanouir} ; le signe de la négation est le 
+        déterminatif du verbe
 \end{itemize}
 
 \subsection{traduction}
@@ -1146,7 +1154,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
       r*1:f r-A1 i-W A1 +l\lgn{68}+s Hr:1 X:t*1-A1 m-b-bA-A-H-D53:Y1-f
     \end{hieroglyph}
 
-    \tl{\red{jw wp\col n=f} r(A)=f r=j / jw=j \lgn{68} Hr X.t=j m-bAH=f}
+    \tl{\red{jw wp\col n=f} r(A)=f r=j / jw=j \lgn{68} Hr X.t=j 
+        m-bAH=f}
 
     \tg{Accompli narratif agentiel / PPA sans LV séquentielle}
 
@@ -1213,9 +1222,9 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
     \tl{\lgn{73} xpr(w).t m nty n mA t f \fg}
 
     \tg{participe perfectif actif / syntagme nominal en 
-        \tl[Gramm]{nty}+négation de \dots}
+        \tl[Gramm]{nty}+négation de~\dots}
 
-    \td{C'est ce qu'il advient de celui qui \dots}%
+    \td{C'est ce qu'il advient de celui qui~\dots}%
   \end{hierobox}
 }
 
@@ -1292,7 +1301,7 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
   \item [\lgn{87}]    \tl[black]{xAm} \vl{3}, \emph{courber}, 
         \emph{fléchir} (les bras), dans la posture traditionnelle, 
         selon l'\kmt{} ancienne, de la personne s'adressant à un 
-        supérieur ou à un dieu ; cf. ci-contre le déterminatif usuel 
+        supérieur ou à un dieu ; cf.~ci-contre le déterminatif usuel 
         de \tl[black]{dwA}, \emph{adorer}
 \end{itemize}
 
@@ -1365,8 +1374,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
       r*1:f r-A1 i-w-A1 +l\lgn{82}+s Hr:1 X:t*1-A1 m-b-bA-A-H-D53-Y1:f
     \end{hieroglyph}
 
-    \tl{\lgn{81} \red{jw wp\col n=f} r(A)=f r=j / jw=j \lgn{82} Hr X.t=j 
-        m-bAH=f}
+    \tl{\lgn{81} \red{jw wp\col n=f} r(A)=f r=j / jw=j 
+        \lgn{82} Hr X.t=j m-bAH=f}
 
     \tg{accompli agentiel / PPA sans LV séquentielle}
 
@@ -1510,7 +1519,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
   \begin{hierobox}
     \begin{hieroglyph}
       +l\lgn{95}+s mA:ir-A s-n:3 p*t:pt mA:ir-A s-n:3 tA:N23*1 
-      +l\lgn{96}+s m-a:k'-A-A24 ib-1 s-n:3 r mA:ir-A+l\lgn{97}+s-w-F27:3
+      +l\lgn{96}+s m-a:k'-A-A24 ib-1 s-n:3 r 
+      mA:ir-A+l\lgn{97}+s-w-F27:3
     \end{hieroglyph}
 
     \tl{\lgn{95} (m) mA=sn p.t, mA=sn tA, \lgn{96} \zero makA(=w) 
@@ -1681,7 +1691,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
       r iw:N23*1 p:n +l\lgn{110}+s i-n wA-A-w-mw-1:n M14-wr:r-N36
     \end{hieroglyph}
 
-    \tl{\lgn{109} \red{aHa\col n jn=kw} r jw pn \lgn{110} jn wAw n(y) WAD-wr}
+    \tl{\lgn{109} \red{aHa\col n jn=kw} r jw pn \lgn{110} jn wAw 
+        n(y) WAD-wr}
 
     \tg{accompli narratif avec complément d'agent}
 
@@ -1709,11 +1720,11 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
   \item [\lgn{112}] \tl[black]{m A(y)t(w) Hr=k}, vétitif du verbe 
         \tl[black]{A(y)t} \vl{3}, \emph{pâlir} ; pour la construction 
         avec un pseudo-complément d'objet, cf.~\S~~25.2,~b
-  \item [\lgn{114}] \tl[black]{jw pn n(y) k3}, \emph{cette île fantôme} 
-        (\litt \emph{cette île d'apparence})
+  \item [\lgn{114}] \tl[black]{jw pn n(y) k3}, \emph{cette île 
+        fantôme} (\litt \emph{cette île d'apparence})
   \item [\lgn{116}] \tl[black]{mH}, \vl{2}, \emph{emplir}, 
-        +\,\tl[black]{Xr}, \emph{de} ; \tl[black]{nfr.t}, \emph{biens}, 
-        \emph{produits}, \emph{bonnes choses}
+        +\,\tl[black]{Xr}, \emph{de} ; \tl[black]{nfr.t}, 
+        \emph{biens}, \emph{produits}, \emph{bonnes choses}
 \end{itemize}
 
 \subsection{traduction}
@@ -1873,8 +1884,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
   \item [\lgn{127}]     \tl[black]{km} \vl{2}, \emph{compléter}, 
         \emph{atteindre le nombre de}
   \item [\lgn{127-128}] \tl[black]{m sn-nw.w=j Hna msw.w=j}, rendre 
-        \tl[black]{m \dots{} Hna} par \emph{tant \dots{} que} 
-        (\litt \emph{en tant que \dots{} et})
+        \tl[black]{m~\dots{} Hna} par \emph{tant~\dots{} que} 
+        (\litt \emph{en tant que~\dots{} et})
   \item [\lgn{128}]     \tl[black]{sxA} \vl{3}, \emph{mentionner}, 
         +\,\tl[black]{n}, \emph{à}
   \item [\lgn{129}]     \tl[black]{kt(y).t}, \emph{petite} ; 
@@ -1884,7 +1895,7 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
         la présence de la petite fille en question, seul être humain 
         sur l'île, aurait ainsi résulté de l'utilisation, par le 
         serpent, de ses pouvoirs magiques
-  \item [\lgn{130}]     \tl[black]{prj \dots{} m x.t}, 
+  \item [\lgn{130}]     \tl[black]{prj~\dots{} m x.t}, 
         \emph{s'embraser} (\litt \emph{sortir en flamme(s)}) ; 
         \tl[black]{nA}, pour \emph{ceux-ci} (se réfère aux congénères 
         du serpent précédemment mentionnés) ; \tl[black]{m-a}, 
@@ -2117,7 +2128,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
       +l\lgn{136}+s m q-A-b-F46:D54 n sn-n:nw-w-A1*B1:3-k'
     \end{hieroglyph}
 
-    \tl{\lgn{135} pH=k Xnw wn=k jm=f \lgn{136} m-oAb n(y) sn-nw.w=k \fg}
+    \tl{\lgn{135} pH=k Xnw wn=k jm=f \lgn{136} m-oAb n(y) 
+        sn-nw.w=k \fg}
 
     \tg{}
 
@@ -2251,7 +2263,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
       m G30-Y1:f
     \end{hieroglyph}
 
-    \tl{sDd(=j) (j)rf xpr(w).t \lgn{143} Hr=j m mA(w).t\col n=j m bAw=k}
+    \tl{sDd(=j) (j)rf xpr(w).t \lgn{143} Hr=j m mA(w).t\col n=j 
+        m bAw=k}
 
     \tg{}
 
@@ -2472,14 +2485,15 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      n':z-p:zp +l\lgn{154} mA:ir-A-=k' -iw:N23*1 -p:n -xpr-r -m -n:U19-nw:W-i-i-mw
+      n':z-p:zp +l\lgn{154} mA:ir-A-=k' -iw:N23*1 -p:n -xpr-r 
+      -m -n:U19-nw:W-i-i-mw
     \end{hieroglyph}
 
     \tl{n(n) sp \lgn{154} mA=k jw pn xpr m nwy}
 
     \tg{}
 
-    \td{\uwave{Tu ne verras cette île se \dots flots.}}%
+    \td{\uwave{Tu ne verras cette île se \saispas flots.}}%
   \end{hierobox}
 }
 
@@ -2503,7 +2517,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      aHa-a:=n-=A1 -Sm-m-D54-=k'-=W-=A1 +l\lgn{156} r:a-n :w-=A1 -Hr-1 -xt:t*1 -q-A-A28
+      aHa-a:=n-=A1 -Sm-m-D54-=k'-=W-=A1 +l\lgn{156} r:a-n :w-=A1 
+      -Hr-1 -xt:t*1 -q-A-A28
     \end{hieroglyph}
 
     \tl{aHa\col n=j Sm=kw \lgn{156} rd\col n(=j) wj Hr xt oA}
@@ -2559,7 +2574,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      +l\lgn{158} aHa-a:=n -D:d-=n:=f -n:=A1 -s-n:b-=t -zp :1*1 -n:D-z:wr-A1 -r-pr-1 -=k'
+      +l\lgn{158} aHa-a:=n -D:d-=n:=f -n:=A1 -s-n:b-=t -zp :1*1 
+      -n:D-z:wr-A1 -r-pr-1 -=k'
     \end{hieroglyph}
 
     \tl{\lgn{158} aHa\col n=f n=j : \og snb=t(j) sp-2, nDs, r pr=k} \ex
@@ -2587,8 +2603,9 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      i-Aa13-m:a -r:n-=A1 -nfr-f:r -m -niwt:t*1-=k' -m-a:k'-Xr:r*t-Y1:3-=A1
-      +l\lgn{160} p-W -i-m-=k' 
+      i-Aa13-m:a -r:n-=A1 -nfr-f:r -m -niwt:t*1-=k' 
+      -m-a:k'-Xr:r*t-Y1:3-=A1 
+      +l\lgn{160} p-W -i-m-=k'
     \end{hieroglyph}
 
     \tl{jm rn=j nfr(=w) m njw.t=k \ex mk, Xr(y).t=j 
@@ -2604,7 +2621,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      +l\lgn{161} aHa-a:=n -r:a-=n :w-A1 -Hr-1 -X:t*1-=A1 -a:1-w-y-=A1 -xA-A-m-A24 -m -b-bA-A-H-D53-Y1:=f 
+      +l\lgn{161} aHa-a:=n -r:a-=n :w-A1 -Hr-1 -X:t*1-=A1 
+      -a:1-w-y-=A1 -xA-A-m-A24 -m -b-bA-A-H-D53-Y1:=f 
     \end{hieroglyph}
 
     \tl{\lgn{161} aHa\col n rd\col n(=j) wj Hr X.t=j, a.wy=j xAm(=w) 
@@ -2612,23 +2630,28 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 
     \tg{}
 
-    \td{Alors, je me mis sur mon ventre, mes bras fléchis, devant lui.}%
+    \td{Alors, je me mis sur mon ventre, mes bras fléchis, 
+        devant lui.}%
   \end{hierobox}
 }
 
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      +l\lgn{162} aHa-a:=n -r:a-=n:=f -n:=A1 -zb-b-t-Y1:3 -m -a:n-G4-W23:3 -H-k'-n:nw*W-N33:3 -D54-w-d:n-b-N33:3 
-      +l\lgn{163} X:z-Aa17-A-i-i-t-N33:3-U33 -Sps-s-N33:3 -SA-A-a:z-O47 -F31-s-d-m-t-N33:3 -s-d-w-M41:3 
-      +l\lgn{164} nw-1 -m:a-m:a-F27 -U7:r-r-i-i-t-iw:3 -aA:a-A-t-Y1 -n:t -nTr-sn-n:t:r-M6-N33:3 -n:D-H-i-i-t-F18:3 
-      +l\lgn{165} n:t -Ab-b-w-T19 -T:z-m-W-E14:3 -g-w-f-E33-Z3A -k'-i-i-w-E32-Z3A -A50-s-s-Y1:3 -nb -nfr-f:r 
+      +l\lgn{162} aHa-a:=n -r:a-=n:=f -n:=A1 -zb-b-t-Y1:3 -m 
+      -a:n-G4-W23:3 -H-k'-n:nw*W-N33:3 -D54-w-d:n-b-N33:3 
+      +l\lgn{163} X:z-Aa17-A-i-i-t-N33:3-U33 -Sps-s-N33:3 
+      -SA-A-a:z-O47 -F31-s-d-m-t-N33:3 -s-d-w-M41:3 
+      +l\lgn{164} nw-1 -m:a-m:a-F27 -U7:r-r-i-i-t-iw:3 -aA:a-A-t-Y1 
+      -n:t -nTr-sn-n:t:r-M6-N33:3 -n:D-H-i-i-t-F18:3 
+      +l\lgn{165} n:t -Ab-b-w-T19 -T:z-m-W-E14:3 -g-w-f-E33-Z3A 
+      -k'-i-i-w-E32-Z3A -A50-s-s-Y1:3 -nb -nfr-f:r 
     \end{hieroglyph}
 
     \tl{\lgn{162} aHa\col n rd\col n=f n=j sb.t m antyw, Hknw, jwdnb, 
-        \lgn{163} XsAy.t, tjSps(y), SAas, msdm.t, sd.w \lgn{164} n(y).w 
-        m(j)m(j), mrry.t aA.t n(y).t snTr, nDhy.wt \lgn{165} n(y.w)t 
-        Abw, Tsm.w, gwf.w, ky.w, Spssw nb nfr}
+        \lgn{163} XsAy.t, tjSps(y), SAas, msdm.t, sd.w 
+        \lgn{164} n(y).w m(j)m(j), mrry.t aA.t n(y).t snTr, nDhy.wt 
+        \lgn{165} n(y.w)t Abw, Tsm.w, gwf.w, ky.w, Spssw nb nfr}
 
     \tg{}
 
@@ -2664,7 +2687,7 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
         \tl[black]{ors}, \emph{inhumer} \vl{3} ; après 
         \tl[black]{ors=t(w)=k}, restituer peut-être \tl[black]{<jm=f>}
   \item [\lgn{172}] dans \tl[black]{nty.w jm=s r mjt.t jry}, il y a 
-        ellipse de \tl[black]{rd\col n \dots{} Hknw} : 
+        ellipse de \tl[black]{rd\col n~\dots{} Hknw} : 
         \tl[black]{(rd\col n) nty.w jm=s (Hknw) r mjt.t jry}
   \item [\lgn{175}] \tl[black]{jnw}, \emph{produits}, \emph{cadeaux} 
         (apportés ou rapportés)
@@ -2675,7 +2698,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      +l\lgn{166} $r-aHa-a:=n -A-t-p-A9-a:=n-=A1 -s-t -$b-r -d-p-t-P1 -t:n
+      +l\lgn{166} $r-aHa-a:=n -A-t-p-A9-a:=n-=A1 -s-t -$b-r 
+      -d-p-t-P1 -t:n
     \end{hieroglyph}
 
     \tl{\lgn{166} aHa\col n Atp\col n=j s.t r dp.t tn}
@@ -2768,7 +2792,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      r:a-=n:=A1 -H-k':n-nw:W-A2 -Hr-1 -mr:r-i-i-t-N23-1 -n :nb-G7 -n -iw:N23*1 -p:n
+      r:a-=n:=A1 -H-k':n-nw:W-A2 -Hr-1 -mr:r-i-i-t-N23-1 -n :nb-G7 
+      -n -iw:N23*1 -p:n
       +l\lgn{172} n:t-G4-A1:3 -i-m-=s -r -mi-i-t:t-Y1 -i-r:y
     \end{hieroglyph}
 
@@ -2818,7 +2843,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      +l\lgn{175} m:a-zb-D54-=n:=A1 -n:=f -ini-nw:3 -p:n -ini-n:=n-=A1 -m -Xn-n:nw-W-pr -n -iw:N23*1 -p:n
+      +l\lgn{175} m:a-zb-D54-=n:=A1 -n:=f -ini-nw:3 -p:n 
+      -ini-n:=n-=A1 -m -Xn-n:nw-W-pr -n -iw:N23*1 -p:n
     \end{hieroglyph}
 
     \tl{\lgn{175} m-a sb\col n=j n=f jnw pn jn(w)\col n=j m-Xnw n(y) 
@@ -2856,10 +2882,10 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
         \tl[black]{n r(A)=j}
   \item [\lgn{183}] \tl[black]{jor}, \emph{l'important}, 
         \emph{le malin}
-  \item [\lgn{185}] \tl[black]{HD-tA}, comme adverbe, \emph{à l'aube} ; 
-        \tl[black]{n}, \emph{pour}
+  \item [\lgn{185}] \tl[black]{HD-tA}, comme adverbe, 
+        \emph{à l'aube} ; \tl[black]{n}, \emph{pour}
   \item [\lgn{186}] \tl[black]{dwA}, comme adverbe, \emph{le matin}
-  \item [\lgn{186-189}] formule du \emph{colophon} (cf. \S~~27.4)
+  \item [\lgn{186-189}] formule du \emph{colophon} (cf.~\S~~27.4)
 \end{itemize}
 
 \subsection{traduction}
@@ -2867,7 +2893,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      +l\lgn{176}+s aHa-a:n -nTr-dwA-A-A30-=n:=f -n:=A1 -x*t:f -Hr-1 -q:n-b-t-O38-A1:3 -tA:N23*1 -r -Dr:r-=f 
+      +l\lgn{176}+s aHa-a:n -nTr-dwA-A-A30-=n:=f -n:=A1 -x*t:f 
+      -Hr-1 -q:n-b-t-O38-A1:3 -tA:N23*1 -r -Dr:r-=f 
     \end{hieroglyph}
 
     \tl{\lgn{176} aHa\col n dwA\col n=f n=j nTr xft-Hr onb.t-tA r-Dr=f}
@@ -2891,16 +2918,19 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 
     \tg{}
 
-    \td{J'ai été nommé suivant. J'ai été pourvu de \num{200}~esclaves.}%
+    \td{J'ai été nommé suivant. J'ai été pourvu de 
+        \num{200}~esclaves.}%
   \end{hierobox}
 }
 
 \parbox{\textwidth}{%
   \begin{hierobox}
     \begin{hieroglyph}
-      mA:ir-A -w-A1 -r +l\lgn{180}+s Aa18-#b-1 -#e-s-Aa18-A-H-sAH:Y1-=A1 -tA:N23*1 -r -Aa18-1
+      mA:ir-A -w-A1 -r +l\lgn{180}+s Aa18-#b-1 
+      -#e-s-Aa18-A-H-sAH:Y1-=A1 -tA:N23*1 -r -Aa18-1
       +l\lgn{181}+s mA:ir-A-=A1 -d:p-t:F20-A2-=n:=A1 -sDm-m -r:=k' 
-      +l\lgn{182}+s #b-n -r:1-#e-=A1 -m-a:k' -nfr-f:r -sDm-m -n -r:T-A1*B1:3
+      +l\lgn{182}+s #b-n -r:1-#e-=A1 -m-a:k' -nfr-f:r -sDm-m 
+      -n -r:T-A1*B1:3
     \end{hieroglyph}
 
     \tl{mA wj r-\lgn{180}sA sAH=j tA r \lgn{181} 
@@ -2921,8 +2951,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
       +l\lgn{186}+s T31:a-=f -dwA-A-ra
     \end{hieroglyph}
 
-    \tl{\lgn{183} aHa\col n Dd\col n=f n=j : \uwave{\lgn{184} \lgn{185} 
-        \lgn{186}}}
+    \tl{\lgn{183} aHa\col n Dd\col n=f n=j : \uwave{\lgn{184} 
+        \lgn{185} \lgn{186}}}
 
     \tg{}
 
@@ -2936,7 +2966,8 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
       D54-w-=f :p*W -HAt:t*1-=f 
       +l\lgn{187}+s r-pH-=f:=y -mi-i -gm-m-i-i-t -m-zS-Y1 
       +l\lgn{188}+s #b-m -zS-Y1 -#e-zS-A1 -i-q:r:Y1 -n -Dba-Dba-Dba-=f 
-      +l\lgn{189}+s i-#b-mn:n-#e-i-i -zA -i-mn:n-aA:a-A-Y1-A1 -anx-DA-s 
+      +l\lgn{189}+s i-#b-mn:n-#e-i-i -zA -i-mn:n-aA:a-A-Y1-A1 
+      -anx-DA-s 
     \end{hieroglyph}
 
     \tl{jw(w)=f pw, (m) HA.t=f \lgn{187} r pH(.wy)=fy mj 
@@ -2953,7 +2984,7 @@ Agyptisch-Deutsch \fg{}}, Mayence, 1995.
 }
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
 
 \section{Texte}
