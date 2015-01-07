@@ -116,7 +116,7 @@ dieu d'Assiout plutôt obscur), Mermécha (\tl{Jmy-rA-mSa},
 \end{remarque}
 
 \section{Administration} 
-%----------------------------------------------------------------------
+----------------------------------------------------------------------
 
 Paradoxalement, on connaît bien l'appareil administratif de cette 
 époque. Il reste intact -- y compris le personnel -- complexe et 
@@ -1069,11 +1069,8 @@ quel ennemi ? Les Hyksos ? Les nomades et semi-nomades locaux ?
 
 Consolidation de l'aire sacrée
 
-\bigskip \bigskip
 
-\dots
-
-\bigskip \bigskip
+\missingstuff
 
 
 \part{\texorpdfstring{\dyn{xvii}}{XVIIe dynastie}}
@@ -1118,11 +1115,18 @@ La tombe d'Antef était une pyramide de \SI{10}{\m} de côté, dont il
 reste le puits de construction du caveau. Les tombes des contemporains 
 sont -- comme d'habitude -- associées à la pyramide. Un obélisque 
 était situé devant. Un morceau du pyramidion de la pyramide est 
-aujourd'hui au British Museum, ainsi qu'une partie du mobilier 
-funéraire (sarcophage, bijoux de la reine,~\dots).
+aujourd'hui au \musee{British Museum} (\inv{EA\,478}, 
+\fref{fig:EA478}), ainsi qu'une partie du mobilier funéraire 
+(sarcophage, bijoux de la reine,~\dots).
 Suite au pillage des tombes à la fin de la \dyn{xx}, une partie des 
 rois et reines a été transférée dans la Vallée des Rois et dans la 
 cachette de \DeB. Plus tard, ces tombes ont servi de carrières.
+
+\begin{figure}[htb]
+  \includegraphics[width=0.33\textwidth]{EA478}
+  \caption{Pyramidion d'Antef~V \rem{(\musee{BM} \inv{EA\,478})}}
+  \label{fig:EA478}
+\end{figure}
 
 Son sarcophage est plaqué de feuilles d'or, comporte un décor de 
 plumes (référence à Isis et Nephthys). On parle de sarcophage de 
@@ -1133,6 +1137,40 @@ type \og rishi\footnote{Nisbé, \og à plumes \fg en arabe.} \fg
 
 On ne connaît que quelques scarabées et stèles, ainsi qu'un arc dédié 
 au culte de Min de Coptos.
+
+
+\CaptionPetit
+\begin{figure}[htb]
+  \begin{minipage}{0.45\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{EA833_2}
+    \subcaption{Offrande à Osiris \rem{(\musee{BM} \inv{EA\,833}, 
+                \autocite[pl.~24]{Budge_1913})}
+                \label{fig:EA833}}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{0.45\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{UC14327}
+    \subcaption{Restauration du temple de Min 
+                \rem{(\musee{Petrie Museum} \inv{UC\,14327})}
+                \label{fig:UC14327}}
+  \end{minipage}%
+
+  \begin{minipage}{\textwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{Rahotep_scarabs}
+    \subcaption{Scarabées \rem{(\musee{University College, London}, 
+                \autocite[pl.~23]{Petrie_1917})}
+                \label{fig:Rahotep_scarabs}}
+  \end{minipage}
+  \caption{Râhotep}
+\end{figure}
+\CaptionNormal
+
+
+% UC14327
+% Three fragments of limestone stele of king Rahotep, preserving the lower edge of scene of Rahotep offering to Min in the scene at the top, and, below, ten fragmntary lines of hieroglyphs, with the ends of three further lines at the bottom left-hand corner (two now missing - also part of lines 2,3,4 in the middle), with an account of the work for the king in reconstructing or repairing the temple of Min at Koptos after it had been found in ruins. Petrie records that the fragments were uncovered deep 'in a hole in the basal clay' under the sand bed of the Ptolemaic temple at Koptos
 
 Ce roi serait mentionné dans un conte intitulé \emph{Une histoire 
 de revenant} ou \emph{Khonsouemheb et l'esprit} et connu seulement 
@@ -1147,10 +1185,19 @@ a restauré des tombes à Saqqara).
 \chapter{Sobekemsaf~I\ier}
 %======================================================================
 
-Relief de Médamoud (centre important à cette époque).
+Relief de Médamoud (centre important à cette époque) 
+(\fref{fig:sbkmsaf_medamoud}).
 
-Imitation de l'art du \MK (Sésostris~III), mais en moins bien : très 
-plat, pas de modelé\dots (à comparer avec la chapelle blanche).
+Imitation de l'art du \MK (Sésostris~III), mais en moins bien : 
+très plat, pas de modelé\dots (à comparer avec la chapelle blanche,
+\Bref{bk:MK} \Sref{sec:chap_blanche}).
+
+\begin{figure}[htb]
+  \includegraphics[width=0.5\textwidth]{Sobekemsaf_Medamoud_1}
+  \caption{Relief de Sobekemsaf~I\ier à Médamoud}
+  \label{fig:sbkmsaf_medamoud}
+\end{figure}
+
 
 \chapter{Thot et Montouhotep~VII}
 %======================================================================
@@ -1164,14 +1211,14 @@ traditionnels.
 %======================================================================
 
 On a un monument daté de l'an~\num{1} de ce règne : la \emph{stèle 
-juridique de Karnak}. 
+juridique de Karnak} (\musee{Caire} \inv{JE\,52453}). 
 Ce document montre bien le maintien de tous les rouages administratifs 
 mis en place au \MK. Il rapporte la cession forcée du poste de 
 gouverneur d'El-Kab par le gouverneur en place au profit de son 
 demi-frère pour rembourser des dettes. Ce poste a donc une valeur 
 marchande !
 Les deux frères sont issus d'une famille bien connue, celle du vizir 
-Iymérou de la \dyn{xiii}.
+Iymérou de la \dyn{xiii} (\fref{fig:geneaElKab}).
 Le texte a été placé dans le temple d'Amon-Rê pour être rendu public 
 par faveur du souverain. L'opinion publique est donc importante, mais 
 pourquoi ?
@@ -1184,18 +1231,6 @@ transfert.
 À la fin, il y a un paragraphe sur l'enregistrement de l'acte au 
 bureau du rapporteur du district du Nord.
 
-\chapter{Nebiryeraou~II}
-%======================================================================
-\chapter{Deux rois}
-%======================================================================
-\chapter{Sobekemsaf~II}
-%======================================================================
-
-
-
-\missingstuff
-
-
 \begin{figure}[htb]
   \begin{tikzpicture}
      \geneaElKab
@@ -1205,6 +1240,53 @@ bureau du rapporteur du district du Nord.
 \end{figure}
 
 
+
+\missingstuff
+
+\chapter{Nebiryeraou~II}
+%======================================================================
+\chapter{Deux rois}
+%======================================================================
+\chapter{Sobekemsaf~II (\datation{1594-1585})}
+%======================================================================
+
+Deux de ses enfants ont régné, ils forment une mini-dynastie.
+
+On lui connaît divers monuments, une statue dans le temple d'Amon 
+de Karnak. On le connaît surtout par le pillage de sa tombe à la 
+fin de la \dyn{xx} (an~\num{15} de Ramsès~IX) mentionné dans le 
+\source{papyrus Abott}. Un membre d'un gang de la rive gauche raconte 
+le pillage de la tombe de Sobekhotep et de Néboukhâes, ouverte à coup 
+de barre à mine en cuivre. Le récit est trop ordonné, précis, \dots 
+pour être naturel : les aveux ont été re-rédigés \nospace{:)}. 
+Ils ont volé de l'or, des amulettes, ornements, de la vaisselle en 
+or, argent, cuivre, et incendié le sarcophage à l'intérieur de la 
+tombe (on a de nombreux exemples de ça). Le partage en huit parts a 
+rapporté à chacun \num{20}~débens (\SI{1.82}{\kg} d'or chacun, soit 
+un total de \SI{14.56}{\kg}). Cette somme équivaut à cinq siècles de 
+salaire d'un chef d'équipe à \DeM. Ils ont ensuite regagné Thèbes en 
+bateau.
+
+\missingstuff
+
+
+
+\chapter{Antef~VI}
+%======================================================================
+
+Connu par quelques pièces d'équipement funéraire : pyramidion (il 
+avait donc une pyramide, petite), caisse à canopes, sarcophage.
+
+\chapter{Antef~VII}
+%======================================================================
+
+Idem : sarcophage.
+
+\chapter{Sénakhtenrê-Ahmosis}
+%======================================================================
+
+
+\missingstuff
 
 
 % \part{\texorpdfstring{\dyn{xviii}}{XVIIIe dynastie}}

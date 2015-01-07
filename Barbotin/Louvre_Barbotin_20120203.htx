@@ -9,10 +9,10 @@
   decorations.text
 }
 \usepackage{multicol}
-\usepackage{ragged2e}
 % \usepackage{pict2e}
 % \usepackage{supertabular}
 \usepackage[firstpage=true,angle=0,opacity=0.25]{background}
+\usepackage{nefermemoir}
 \usepackage{nefertiyi}
 \usepackage{neferhiero}
 
@@ -100,6 +100,7 @@
 % ---------------------------------------------------------------------
 % \newcommand*{\nNamexi}{\iflowertonumname e\else E\fi leven}
 % \renewcommand{\chapterrefname}{Chapitre~}
+\renewcommand{\sectionrefname}{\S~}
 
 
 \setpnumwidth{2.55em}
@@ -128,70 +129,10 @@
   {\DirImage/Barbotin/}%
 }
 
-
-\setfloatadjustment{figure}{\centerfloat}
-\setfloatadjustment{table}{\centerfloat}
-
-\newsubfloat{figure}
-
-% \subcaptionstyle{}
-\subcaptionfont{\sffamily}
-\subcaptionlabelfont{\bfseries\sffamily}
-
-\captionnamefont{\bfseries\sffamily}
-\captiontitlefont{\sffamily}
-\captiondelim{~-- }
-
-\newcommand{\CaptionNormal}{%
-  \captionwidth{0.75\linewidth}
-  \changecaptionwidth
-  \hangcaption
-}
-\newcommand{\CaptionPetit}{%
-  \normalcaptionwidth
-  \normalcaption
-}
-
-
 \setlength\fboxsep{0.5mm}
 %\setlength\tabcolsep{0mm}
 %\setlength\parskip{1.0\baselineskip}
 
-
-\makeatletter
-  \renewcommand\@memfront@floats{%
-    \counterwithout{figure}{chapter}
-    \counterwithout{table}{chapter}
-  }
-  \renewcommand\@memmain@floats{%
-    \counterwithout{figure}{chapter}
-    \counterwithout{table}{chapter}
-  }
-  \renewcommand\@memback@floats{%
-    \counterwithout{figure}{chapter}
-    \counterwithout{table}{chapter}
-    \setcounter{figure}{0}
-    \setcounter{table}{0}
-  }
-\makeatother
-
-
-%======================================================================
-\title{La statuaire du\\\NK}
-\short{La statuaire du \NK au Louvre}
-\subtitle{d'après les collections du Louvre}
-\lecturer{Christophe~\bsc{Barbotin}}
-\orga{Organisé par \textsf{la \SFE} avec}
-\author{Sonia~\bsc{Labetoulle}}
-\date{vendredi 3 février 2012}
-
-\hypersetup{%
-  pdftitle  = {La statuaire du \NK d'après les collections du Louvre}, 
-  pdfauthor = {Sonia Labetoulle}
-}
-% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
-
-%======================================================================
 
 \input{\DirUtils/ChapterStyles}
 \input{\DirUtils/TitlepageKheops}
@@ -202,6 +143,23 @@
 % \pagestyle{myheadings}
 
 \addbibresource{\DirUtils/Hiero.bib}
+
+%======================================================================
+\title{La statuaire du \mbox{\NK}}
+\short{La statuaire du \NK au Louvre}
+\subtitle{d'après les collections du Louvre}
+\lecturer{Christophe~\bsc{Barbotin}}
+\orga{Organisé par la \textsf{\SFE} avec}
+\author{Sonia~\bsc{Labetoulle}}
+\date{vendredi 3 février 2012}
+
+\hypersetup{%
+  pdftitle  = {La statuaire du \NK d'après les collections du Louvre}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
 
 \backgroundsetup{%
 %   position  = current page.center,
@@ -488,7 +446,7 @@ Il présente une corde d'arpenteur.
 
 \begin{encadre}[font=\em, frametitle={Traduction du côté droit 
                 \autocite[doc.~\num{86}]{ChB}}]
-  lgn{1} [L'échanson royal] Manakhtef déclare : 
+  \lgn{1} [L'échanson royal] Manakhtef déclare : 
 
   \og (ô) la grande cour (de justice) de Montou \lgn{2} [qui est face] 
   à son seigneur, daigne accorder que dure la statue que voici de 
@@ -1033,6 +991,7 @@ offrandes au dieu et attend sa récompense en échange.
 
 \chapter{La déesse Nephthys, s\oe{}ur d'Isis et d'Osiris 
          (\inv{E\,25389})}
+%======================================================================
 
 \puceb{} \emph{voir \fref{fig:E25389}, \pref{fig:E25389}}
 \bigskip
@@ -1271,11 +1230,15 @@ ne puissent pas se sauver de la stèle en emportant les victuailles !
 %=============================================
 
 \backmatter
+
 \newpage
+
 \listoffigures
+
 % \listoftables
 % \nocite{ChB}
-\printbibliography
+
+\printbibliography[heading=memoir,title=Bibliographie]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

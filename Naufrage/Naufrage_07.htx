@@ -1,6 +1,7 @@
 %##HieroDef.txt
 
-\chapter{Lignes 67 à 76 \rem{(jusqu'à \tl[black]{wj})}}
+\chapter{Lignes 67 à 76 \rem{(jusqu'à 
+         \texorpdfstring{\tl[black]{wj}}{wj})}}
 
 \begin{figure}[!h]
   \centerfloat
@@ -29,7 +30,8 @@
   \item [\lgn{75}]    \tl[black]{m-bAH=k}, erreur pour 
         \tl[black]{m-bAH=f}
   \item [\lgn{76}]    \tl[black]{xm} \vl{2}, \emph{devenir ignorant}, 
-        dans le sens de \emph{perdre connaissance}, \emph{s'évanouir} ; 
+        dans le sens de \emph{perdre connaissance}, 
+        \emph{s'évanouir} ; 
         le signe de la négation est le déterminatif du verbe
 \end{itemize}
 

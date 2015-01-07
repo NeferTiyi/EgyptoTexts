@@ -1,0 +1,52 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.aux",
+				"*.bak",
+				"*.bbl",
+				"*.bcf",
+				"*.blg",
+				"*.dic",
+				"*.lof",
+				"*.lot",
+				"*.maf",
+				"*.mtc",
+				"*.mtc0",
+				"*.out",
+				"*.pdf",
+				"*.toc",
+				"*_tmp.tex",
+				"*_full.htx",
+				"*.run.xml",
+				"*.*~",
+				".git*"
+			],
+			"follow_symlinks": true,
+			"name": "Sources",
+			"path": "D:\\NeferHiero\\documents\\Kheops\\Ete2014"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Images",
+			"path": "D:\\NeferHiero\\images\\Kheops\\Ete2014"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Fichiers communs",
+			"path": "D:\\NeferHiero\\utils"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Styles LaTeX",
+			"path": "D:\\NeferHiero\\neferlatex"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Compil",
+			"path": "D:\\NeferHiero\\compil"
+		}
+	]
+}

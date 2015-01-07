@@ -1,6 +1,7 @@
 %##HieroDef.txt
 
-\chapter{Lignes 32 à 39 \rem{(jusqu'à \tl[black]{jm})}}
+\chapter{Lignes 32 à 39 \rem{(jusqu'à 
+         \texorpdfstring{\tl[black]{jm}}{jm})}}
 
 \begin{figure}[!h]
   \centerfloat
@@ -23,12 +24,13 @@
   \item [\lgn{36}]    \tl[black]{xt}, dans le sens d'\emph{espar}, 
         ou similaire 
   \item [\lgn{36-37}] \tl[black]{HH} \vl{2} \emph{(?)}, \emph{briser 
-        la force de (quelque chose) (?)} +\,\tl[black]{n}, \emph{pour}, 
-        c'est-à-dire \emph{préserver (quelqu'un) de (quelque chose)}
+        la force de (quelque chose) (?)} +\,\tl[black]{n}, 
+        \emph{pour}, c'est-à-dire \emph{préserver (quelqu'un) de 
+        (quelque chose)}
   \item [\lgn{38}]    noter la graphie \tl[black]{mwt} pour 
-        \tl[black]{mwt=t(j)}, le \tl[black]{t} final de \tl[black]{mwt} 
-        et le \tl[black]{t} de la désinence se confondant dans la 
-        prononciation
+        \tl[black]{mwt=t(j)}, le \tl[black]{t} final de 
+        \tl[black]{mwt} et le \tl[black]{t} de la désinence se 
+        confondant dans la prononciation
 \end{itemize}
 
 \section{traduction}

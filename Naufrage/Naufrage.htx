@@ -1,25 +1,35 @@
 \documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
-%\usepackage{float}
-%\usepackage[framemethod=tikz]{mdframed}
-%\usetikzlibrary{calc,patterns,arrows,positioning,shadows,decorations.text}
+
+\includeonly{%
+  Naufrage_00,
+  Naufrage_01,
+  Naufrage_02,
+  Naufrage_03,
+  Naufrage_04,
+  Naufrage_05,
+  Naufrage_06,
+  Naufrage_07,
+  Naufrage_08,
+  Naufrage_09,
+  Naufrage_10,
+  Naufrage_11,
+  Naufrage_12,
+  Naufrage_13,
+  Naufrage_14,
+  Naufrage_15,
+  Naufrage_16,
+}
+
+\usepackage[firstpage=true,angle=0,opacity=0.2]{background}
 \usepackage{multicol}
-\usepackage{ragged2e}
+\usepackage{nefermemoir}
 \usepackage{nefertiyi}
-% \usepackage[format=hang,labelsep=endash,font=sf,labelfont={bf,sc}]{caption}
 \usepackage{neferhiero}
 
 \addto\captionsfrancais{%
    \renewcommand\chaptername{Devoir}%
 }
 
-% .. Memoir caption definitions ..
-\setfloatadjustment{figure}{\centerfloat}
-\captionnamefont{\bfseries\sffamily}
-\captiontitlefont{\sffamily}
-\captiondelim{~-- }
-\captionwidth{0.75\linewidth}
-\changecaptionwidth
-\hangcaption
 
 % TOC settings without chapter
 %\cftsetindents{subsection}{\cftsectionindent}{\cftsectionnumwidth}
@@ -30,11 +40,13 @@
 \cftsetindents{chapter}{\cftchapterindent}{2.5em}
 
 % .. Change dimensions a bit ..
-\addtolength{\hoffset}{2cm}
-\addtolength{\textwidth}{-4cm}
-\addtolength{\voffset}{2cm}
-\addtolength{\textheight}{-2cm}
-%\isopage[12]
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
 
 \frenchbsetup{ReduceListSpacing=false,CompactItemize=false}
 
@@ -51,145 +63,92 @@
 %\newcommand{\thesection}{\thechapter.\arabic{section}}
 \renewcommand{\thesection}{\arabic{section}}
 
-\graphicspath{{../../images/Naufrage/}}
+\newcommand{\DirUtils}{../../utils}
+\newcommand{\DirImage}{../../images}
 
+\graphicspath{{\DirImage/Naufrage/}}
 
+\input{\DirUtils/ChapterStyles}
+\input{\DirUtils/TitlepageKheops}
+\input{\DirUtils/HeadingsKheops}
 
-\title{\textbf{Le conte du\\naufragé}}
-\author{NeferTiyi}
-\date{\today}
-
-\makeatletter
-  \makepagestyle{ruled}
-  \makeevenhead{ruled}{\normalfont\itshape\@title}{}{\normalfont\itshape\leftmark}
-  \makeoddhead{ruled}{\normalfont\itshape\rightmark}{}{\normalfont\itshape\@author}
-  \makeevenfoot{ruled}{}{\thepage}{}
-  \makeoddfoot{ruled}{}{\thepage}{}
-  \makeheadrule{ruled}{\textwidth}{\normalrulethickness}
-%  \makefootrule{ruled}{\textwidth}{\normalrulethickness}{1pt}
-\makeatother
-
-\makepsmarks{ruled}{%
-  \nouppercaseheads
-  \createmark{chapter}{both}{shownumber}{}{.\ }
-  \createplainmark{toc}{both}{\contentsname}
-  \createplainmark{lof}{both}{\listfigurename}
-  \createplainmark{lot}{both}{\listtablename}
-  \createplainmark{bib}{both}{\bibname}
-  \createplainmark{index}{both}{\indexname}
-  \createplainmark{glossary}{both}{\glossaryname}
-}
-
-\pagestyle{ruled}
-
-
-\newlength{\drop}% for my convenience
-\makeatletter
-  % Redefine title page
-  \def\maketitle{%
-    \drop = 0.1\textheight
-    \vfill%
-    \hbox{%
-      \hspace*{0.2\textwidth}%
-      \rule{1pt}{\textheight}
-      \hspace*{0.05\textwidth}%
-      \parbox[b]{0.75\textwidth}{
-        \vbox{%
-          \vspace{\drop}
-          {\noindent\HUGE\bfseries \@title}\\[3\baselineskip]
-          {\huge\itshape \@author}\\[7\baselineskip]
-%          {\Large Cours de \textsf{l'Institut Khéops} par\\[0.5\baselineskip] 
-%                  \@lecturer}\par
-          \vspace{0.5\textheight}
-%          {\noindent \@author}\\[\baselineskip]
-          {\Large\noindent \@date}%\\[\baselineskip]
-        }% end of vbox
-      }% end of parbox
-    }% end of hbox
-    \vfill%
-  }
-
-  \newif\iffelinenonum
-  \makechapterstyle{daleif3}{
-    \renewcommand\chapternamenum{}
-    \renewcommand\printchaptername{}
-    \renewcommand\chapnamefont{\large\itshape\centering} 
-    \setlength\midchapskip{7pt}
-    \setlength\afterchapskip{\baselineskip}
-    \renewcommand\printchapternum{%
-      \par\chapnamefont\decofourleft\enspace%
-      \ifanappendix
-        \appendixname\space\thechapter%
-      \else%
-        \chaptername\space\thechapter%
-      \fi%
-      \/\enspace\decofourright}
-    \renewcommand\printchapternonum{\par\felinenonumtrue}
-    \renewcommand\chaptitlefont{\huge\bfseries\itshape\centering}
-    \renewcommand\afterchapternum{%
-      \par\nobreak\vskip5pt%
-    }
-    \renewcommand\afterchaptertitle{%
-      \par\vskip-2\midchapskip%
-      \rule\textwidth\normalrulethickness
-      \felinenonumfalse
-      \nobreak\vskip\afterchapskip%
-    }
-  }
-
-\makeatother
+\addbibresource{\DirUtils/Hiero.bib}
 
 \chapterstyle{daleif3}
+\pagestyle{ruled}
 
+% \renewcommand\DJ[2]{\cite{DJ}, Vol.#1/#2}
+% \newcommand\EG[2]{\cite{EG}, #1.\,Band, p.#2}
 
-%\floatstyle{plain}
-%\newfloat{photo}{!h}{lop}
-%\floatname{photo}{Photo}
+%======================================================================
 
-%\renewcommand\rem[1]{\textnormal{\itshape #1}}
+\title{Le \mbox{Conte} du \mbox{Naufragé}}
+\short{Le Conte du Naufragé}
+\subtitle{}
+\orga{\textsf{\IK}}
+\lecturer{Sonia~\bsc{Labetoulle}}
+\author{}
+\date{}
 
-\renewcommand\DJ[2]{\cite{DJ}, Vol.#1/#2}
-\newcommand\EG[2]{\cite{EG}, #1.\,Band, p.#2}
+\hypersetup{%
+  pdftitle  = {Le Conte du Naufragé}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\backgroundsetup{%
+  % position  = current page.north,
+  contents  = \includegraphics{Pount_arbre},
+  scale     = 4,
+  vshift    = -2mm
+}
+
 
 \begin{document}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \thispagestyle{empty}
 \maketitle
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \frontmatter
-\input{Naufrage_00}
+\include{Naufrage_00}
 
 \mainmatter
-\input{Naufrage_01}
-\input{Naufrage_02}
-\input{Naufrage_03}
-\input{Naufrage_04}
-\input{Naufrage_05}
-\input{Naufrage_06}
-\input{Naufrage_07}
-\input{Naufrage_08}
-\input{Naufrage_09}
-\input{Naufrage_10}
-\input{Naufrage_11}
-\input{Naufrage_12}
-\input{Naufrage_13}
-\input{Naufrage_14}
-\input{Naufrage_15}
-\input{Naufrage_16}
+\include{Naufrage_01}
+\include{Naufrage_02}
+\include{Naufrage_03}
+\include{Naufrage_04}
+\include{Naufrage_05}
+\include{Naufrage_06}
+\include{Naufrage_07}
+\include{Naufrage_08}
+\include{Naufrage_09}
+\include{Naufrage_10}
+\include{Naufrage_11}
+\include{Naufrage_12}
+\include{Naufrage_13}
+\include{Naufrage_14}
+\include{Naufrage_15}
+\include{Naufrage_16}
 
 \backmatter
 \listoffigures
+
+\printbibliography[heading=memoir,title=Bibliographie]
+
 \clearpage
+
 \tableofcontents
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
 
 \section{Texte}
- 
+
 \footnotetext{\cite{Faulkner} n. \og praise (to god) \fg}
 
 \newpage
