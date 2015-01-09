@@ -1,4 +1,12 @@
-\documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
+\documentclass[%
+  svgnames, %
+  dvipsnames, %
+  a4paper, %
+  twoside, %
+  10pt, %
+  openany, %
+  article, %
+]{memoir}
 
 % \usepackage{pgf,tikz}
 \usepackage[firstpage=true,angle=0,opacity=0.25]{background}
@@ -104,7 +112,7 @@
 \mainmatter
 
 
-\chapter{\protect\faitle{07/07/2014}Introduction}
+\chapter[Introduction]{\protect\faitle{07/07/2014}Introduction}
 
 % \faitle{07/07/2014}
 La pyramide d'Ounas est la première pyramide inscrite. Les \TP sont 
