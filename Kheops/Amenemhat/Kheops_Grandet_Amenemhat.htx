@@ -71,6 +71,10 @@
 
 
 \makeatletter
+  \AtBeginDocument{%
+    \input{\DirUtils/NeferBabel}
+  }
+
   \AtEndDocument{%
     % .. Quatrième de couv' ..
     \cleardoublepage
@@ -109,7 +113,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\input{\DirUtils/NeferBabel}
+% \input{\DirUtils/NeferBabel}
 
 \thispagestyle{empty}
 \maketitle
