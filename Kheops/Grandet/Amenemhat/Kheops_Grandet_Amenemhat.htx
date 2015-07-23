@@ -1,0 +1,2885 @@
+\documentclass[%
+  % draft, %
+  ngerman, %
+  dvipsnames, %
+  svgnames, %
+  a4paper, %
+  twoside, %
+  10pt, %
+  openany, %
+  article, %
+]{memoir}
+
+\usepackage[firstpage=true,angle=0,opacity=1]{background}
+\usepackage{pdfpages}
+% \usepackage{nefermemoir}
+\usepackage{neferkheops}
+\usepackage{nefertiyi}
+\usepackage[hiero]{neferegypto}
+
+\usetikzlibrary{%
+  backgrounds,
+  shadows,
+  % calc,
+  % patterns,
+  % arrows,
+  % positioning,
+  % decorations.text
+}
+
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+\newcommand{\DirUtils}{../../../../utils}
+\newcommand{\DirImage}{../../../../images}
+
+\graphicspath{%
+  % {\DirUtils/}%
+  {\DirImage/Kheops/Grandet/Amenemhat/}%
+}
+
+\maxtocdepth{subsection}
+
+\sideparmargin{outer}
+
+% \setlength{\parindent}{0pt}
+\setlength\fboxsep{0.5mm}
+\addtolength{\columnsep}{15pt}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+\frenchbsetup{ReduceListSpacing=false,StandardItemizeEnv}
+
+\newcommand{\dk}[1]{\foreignlanguage{ngerman}{#1}}
+\newcommand{\uk}[1]{\foreignlanguage{english}{#1}}
+
+\newcommand{\insertpar}[1]{%
+  \includegraphics[scale=0.75]{Helck_Amenemhat_#1}
+}
+\newlength{\graphicwidth}
+
+\input{\DirUtils/ChapterStyles}
+% \input{\DirUtils/TitlepageKheops}
+% \input{\DirUtils/HeadingsKheops}
+
+\renewcommand{\appendixpagename}{Annexes}
+\renewcommand{\appendixtocname}{\appendixpagename}
+\renewcommand{\sectionrefname}{\S\,}
+
+\chapterstyle{souligne}
+% \chapterstyle{daleif3}
+% \chapterstyle{monchap}
+% \pagestyle{ruled}
+
+\addbibresource{\DirUtils/Hiero.bib}
+\setlength\bibitemsep{0.5\baselineskip}
+
+\newcommand{\EASF}{%
+  L'enseignement d'Amenemhat~I\ier à son fils\xspace%
+}
+
+
+%======================================================================
+\title{L'enseignement \mbox{d'Amenemhat~I\ier} à son fils}
+\short{\EASF}
+% \subtitle{de la Préhistoire au \NK}
+\subtitle{}
+\orga{Cours de \textsf{l'\IK} par}
+\lecturer{\PG}
+\author{Sonia~\bsc{Labetoulle}}
+\date{6 janvier -- 31 mars 2015}
+
+\hypersetup{%
+  pdftitle  = {L'enseignement d'Amenemhat~Ier à son fils}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\backgroundsetup{%
+  contents = \includegraphics{Amenemhat_ostracon},
+  position = {17,-35},
+  scale    = 0.5
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% \input{\DirUtils/NeferBabel}
+%##HieroDef.txt
+
+\thispagestyle{empty}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \DisplayHieroglyphs
+% \EnPetit{}
+\TextHieroglyphs
+\SmallerText
+
+\frontmatter
+\tableofcontents*
+
+\mainmatter
+
+
+\chapter[Introduction]{Introduction\faitle{06/01/2015}}
+
+\source{\EASF} est un texte du \MK, connu par au moins 
+\num{68}~documents (voir \Aref{anx:pdf}, \pref{anx:pdf}, ), tous du 
+\NK. L'ouvrage de Wolfang~\bsc{Helck} \autocite{Helck} est une édition 
+synoptique, c'est à dire regroupant toutes les versions en parallèle, 
+chaque passage étant repéré par un numéro de paragraphe.
+
+La règle, pour traduire, est de choisir une source et de s'y tenir 
+le plus possible. On choisira ici en priorité le \source{papyrus 
+Millingen}. Daté du milieu de la \dyn{xviii}, il a eté perdu en 
+\ano[0]{1847}, mais Amedeo~\bsc{Peyron} en avait réalisé un 
+fac-similé en \ano[0]{1843}. Les papyrus \source{Sallier~I} et 
+\source{Sallier~II}, tous deux de la fin de la \dyn{xix}, sont 
+particulièrement mauvais, et on tâchera de les éviter.
+
+% \citetitle{Helck}
+% \citeauthor{Helck}
+
+\source{\EASF} est un texte littéraire, assez bref, en quinze 
+sections. 
+On y retrouve des rubriques (en rouge), des points de scansion qui 
+découpent le texte en segments.
+Du fait des particularités du style littéraire, la traduction de ce 
+texte n'est pas si facile. 
+
+Tout le monde s'accorde à voir dans \source{\EASF} la preuve d'un 
+attentat contre Amenemhat, mais \PG n'y croit pas : il n'y a rien de 
+probant dans le texte. De plus, les seuls qui écrivent, en \kmt, sont 
+les scribes, employés du gouvernement, et c'est une {\oe}uvre 
+littéraire.
+Enfin, évoquer un assassinat de roi semble contraire à la philosophie 
+égyptienne, surtout dans un texte à viser d'enseignement.
+Dans \source{Sinouhé} non plus, il n'y a pas d'assassinat, le roi 
+est juste mort\dots
+Il faut garder à l'esprit que ces textes ne sont pas plus 
+légitimes comme sources historiques que ne l'est \source{Les 
+trois mousquetaires}.
+
+
+\chapter{Traduction}
+%======================================================================
+
+\section{Titre (\S~I)}
+%----------------------------------------------------------------------
+
+Le paragraphe~I est le titre du texte. Il le caractérise comme 
+un testament politique.
+
+\subsection{Paragraphe~I}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_01}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.1/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+%             at (0,\y) [left] {I\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~I, papyrus \source{Millingen}}
+%   \label{fig:par01}
+% \end{figure}
+
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{01a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{01a}%
+    \caption{Paragraphe~Ia}%
+    \label{fig:par01a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{01b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{01b}%
+    \caption{Paragraphe~Ib}%
+    \label{fig:par01b}%
+  \end{minipage}%
+\end{figure}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{Ia} \red\bgroup{+s $r-HAtya m s-b-sbA-A-i-i-t:Y1-$b 
+    +l}\egroup \scansion+s ir:\!\!t*n Hm-1:n sw-bit 
+    <-ra-s-Htp:t-p-ib-1-> +l \scansion +s
+  \end{hieroglyph}
+
+  \tl{\lgn{Ia} \ruber{HA.t-a m sbAy.t} \scansion%
+      jr(w).t\col n Hm n(y) (ny)-sw.t bjty %
+      \crtch{\%Htp(w)-jb-Ra} \scansion}
+
+  \tg{participe perfectif passif}
+
+  \td{Début de l'enseignement qui a été fait par la Majesté du roi 
+      de \HBE Séhétepibrê (\litt celui qui apaise le c{\oe}ur de Rê)}%
+
+  \tcblower
+  \indent\tl{sbA} : c'est l'idée de guider, de chemin.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{Ib} +s sAra <-i-mn:n-m-HAt:t*1-> +l \scansion +s 
+    U5:\!\!a-xrw-W-A2 +l \scansion +s
+  \end{hieroglyph}
+
+  \tl{\lgn{Ib} sA Ra \crtch{Jmn-m-HA.t} \scansion mAa-xrw \scansion}
+
+  \tg{}
+
+  \td{le fils de Rê Amenemhat (\litt Amon est en avant), à la voix 
+      juste}%
+
+  \tcblower
+  \indent Amenemhat est le premier roi à avoir Amon dans son nom. Le 
+  dieu apparaît au \MK, mais les rois de la \dyn{xi} ont privilégié 
+  Montou, dieu de Médamoud où ils avaient un palais.
+
+  \tl{mAa-xrw} : le roi est défunt, c'est un enseignement 
+  d'outre-tombe.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{01c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{01c}
+    \caption{Paragraphe~Ic}%
+    \label{fig:par01c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{01d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{01d} 
+    \caption{Paragraphe~Id}%
+    \label{fig:par01d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{Ic} +s Dd'-f m wp:p-t:Z9-A2 U5:\!\!a-t-Sw-Y1:3 
+    +l \scansion +s n:zA\s2*1-G7-f nb:r-Dr:r-G7 +l \scansion +s
+  \end{hieroglyph}
+
+  \tl{\lgn{Ic} Dd=f m wp.t mAa.t \scansion %
+      n sA=f (m) Nb-r-Dr \scansion}
+
+  \tg{prospectif séquentiel consécutif}
+
+  \td{voulant révéler oralement (\litt dire) la manière adéquate 
+      de se comporter pour son fils, en tant que \frquote{seigneur 
+      universel} (\litt jusqu'à la limite (du monde connu))}%
+
+  \tcblower
+  \indent\tl{wp}, c'est l'idée de séparer, départager. Ça va avec 
+  l'idée de Maât et les procédures contradictoires. \tl{wp mAa.t}, 
+  c'est faire la part de Maât dans un jugement.
+
+  Ajout d'un \tl{(m)} assimilé au \tl{n} initial de \tl{Nb-r-Dr}. 
+  L'expression se rapporte alors au roi et non à son fils. Mort, il 
+  est assimilé à Rê.
+
+  Le roi d'\kmt, c'est un ornithorynque : il est inclassable, ni tout 
+  à fait homme, ni vraiment dieu. C'est un homme avec un attribut 
+  divin --~la royauté. Les textes égyptiens disent qu'il est le seul 
+  de son espèce.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{Id} +s Dd'-f xa:\!\!a-Y1 m nTr-G7 +l \scansion +s
+  \end{hieroglyph}
+
+  \tl{\lgn{Id} Dd=f (jw=f) xa(=w) m nTr \scansion}
+
+  \tg{prospectif, accompli séquentiel}
+
+  \td{voulant dire, après sa mort (\litt étant apparu comme un dieu),}%
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{01e}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{01e}%
+    \caption{Paragraphe~Ie}%
+    \label{fig:par01e}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{01z}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{01z}%
+    \caption{Paragraphe~I, fin}%
+    \label{fig:par01z}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    sDm-m n:Dd' ti-i A1-n:k' +l \scansion +s
+    sw-t:n-i-i-Y1:k' tA:\!\!1*N23 +l \scansion +s
+    HqA-q-i-i-Y1:k' N21:N21:N21-N23:N23:N23 +l \scansion +s
+    +l\lgn{Ie} +s ir:k' HA-A-\!\!W:.-Y1:3 Hr-1 nfr-1-Y1 +l \scansion +s
+  \end{hieroglyph}
+
+  \tl{\og sDm n Dd.tj=j n=k \scansion %
+      n(y)-swty=k tA \scansion %
+      hoAy=k jdb.w \scansion %
+      \lgn{Ie} jr=k HA.w Hr nfr \scansion}
+
+  \tg{discours direct à l'impératif, et prospectifs consécutifs}
+
+  \td{\og écoute ce que je vais te dire, et tu seras roi du pays,
+      tu dirigeras les rives, et tu ajouteras un excédant aux biens.}%
+\end{hierobox}
+
+% \begin{figure}[!h]
+%   \includegraphics[scale=1.0]{Helck_Amenemhat_01a}
+%   \caption{Paragraphe~I, fin}
+%   \label{fig:par01a}
+% \end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Mi\,20} [rnp.t sp] 5 Abd 4 pr.t}
+
+  \td{l'an 5, 4\ieme~mois de \emph{péret}}%
+
+  \tcbligne
+
+  \tl{\lgn{DM\,1175} grH}
+
+  \tg{Marquer une pause (didascalie)}%
+
+  \tcbligne
+
+  \tl{\lgn{BM\,5623} grH}
+
+  \tg{Marquer une pause (didascalie)}%
+\end{hierobox}
+
+\section{Première partie (\S~II à~V)}
+%----------------------------------------------------------------------
+
+Cette section est une suite de préceptes. En résumé : \emph{ne faire 
+confiance à personne, et surtout pas à ses proches}.
+
+\subsection{Paragraphe~II}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_02}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.1/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+%             at (0,\y) [left] {II\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~II, papyrus \source{Millingen}}
+%   \label{fig:par02}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{02a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{02a}%
+    \caption{Paragraphe~IIa}%
+    \label{fig:par02a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{02b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{02b}%
+    \caption{Paragraphe~IIb}%
+    \label{fig:par02b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}[breakable]
+  \tl{\lgn{IIa} \ruber{sAo tw r "smd.t rf tm(w).t xpr(w)} \scansion 
+      \lgn{IIb} tmm(w).t rd(w) jb m sAH Hr.w=s \zero" \scansion}
+
+  \tg{impératif / citation avec participe négatif perfectif actif, 
+      PPN avec participe négatif perfectif passif}
+
+  \td{Garde-toi du précepte ``Comme c'est un groupe de serviteurs 
+      qui n'est pas encore advenu, c'est un groupe de personnes des 
+      complots de qui on ne s'est jamais préoccupé''}%
+
+  \tcblower
+  \begin{vocab}
+    \item [sAo] \td{se garder}, \td{se protéger}
+    \item [smd.t] groupe de gens au service d'un autre. 
+          Le terme est notamment employé à \DeM. Il pourrait dériver 
+          de \tl{s(y)-m-Dr.t}, \td{qui est dans la main}
+    \item [rdj jb m sA] \td{se préoccuper de \emph{qqch}} 
+          (\litt{} \td{placer le c{\oe}ur derrière \emph{qqch}})
+    \item [Hr] \td{projet}, \td{préparatif}
+  \end{vocab}
+
+  \tcbligne
+
+  Ce passage est généralement rendu comme \tl{sAo tw r smd.t {r=f} 
+  tm(w).t xpr(w)}, \td{Garde-toi d'un groupe de serviteurs qui n'est 
+  pas encore advenu}, mais ça ne tient pas compte 
+  de~\begin{hieroglyph}r:f\end{hieroglyph}.
+
+  À partir du \NK, \tl{=f} a parfois un sens neutre. Une piste 
+  consistait à faire de~\begin{hieroglyph}r:f\end{hieroglyph}, 
+  \tl{r=f}, \td{à ce propos}, se rapportant au paragraphe qui précède. 
+  Mais il serait mal placé.
+
+  Ou alors \tl{smd.t} serait vu comme un masculin.
+
+  Finalement, on a placé \tl{rf} de sorte qu'il puisse être particule 
+  enclitique et jouer son rôle de marqueur de protase, rendu dans la 
+  traduction par \td{comme}.
+
+  \tcbligne
+
+  \begin{description}
+    \item [anaphore :] le fait qu'un pronom se réfère à quelque chose 
+          qui précède ;
+    \item [cataphore :] le fait qu'un pronom se réfère à quelque chose 
+          qui suit.
+  \end{description}
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{02c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{02c}%
+    \caption{Paragraphe~IIc}%
+    \label{fig:par02c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{02d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{02d}%
+    \caption{Paragraphe~IId}%
+    \label{fig:par02d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \faitle{13/01/2015}%
+  \begin{hieroglyph}
+    +l\lgn{IIc} +s-m t:k':n-D54 i-m s-n:3 m wa:a-W 
+    G37:k'-W-A1-+l \scansion+s
+  \end{hieroglyph}
+
+  \begin{gramrule}%
+    \tl{\lgn{IIc} m tkn(w) jm=sn /
+      \begin{possib}
+        m wa=k\\
+        m wa\col n=k \rem{(S.II, par ex.)}\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{%
+      impératif vétitif / circonstancielle temporelle avec 
+      \begin{possib}
+        \fnimp\\
+        \fnper\\
+      \end{possib}%
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{%
+      Ne sois pas proche d'eux, quand tu 
+      \begin{possib}
+        deviens\\
+        est\\
+      \end{possib}
+      seul%
+    }%
+  \end{gramrule}%
+
+  \tcblower
+  \begin{vocab}
+    \item [tkn m] \td{être proche de \emph{qqn}}
+    \item [waj] \vi{3} \td{être seul}
+  \end{vocab}
+
+  \tcbligne
+
+  Souvent, au \NK, le pronom suffixe \tl{=k} est écrit 
+  \begin{hieroglyph}k':W-A1\end{hieroglyph}, il ne faut pas 
+  l'interpréter comme la désinence de l'accompli \tl{=kw} !
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IId} +s-m mH:Y1 ib*1:k' m sn-A1 m r:x-Y1 
+    x:n-nm-m-s-A21-Y1:A1-+l \scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{IId} m mH(w) jb=k m sn / m rx(w) xnms \scansion}
+
+  \tg{impératifs vétitifs}
+
+  \td{Ne fais pas confiance (même) à un frère, ne recherche pas d'ami}%
+
+  \tcblower
+  \begin{vocab}
+    \item [mH jb m] \vl{2} \td{faire confiance à \emph{qqn}} 
+          (\litt{} \td{remplir son c{\oe}ur au moyen de \emph{qqn}})
+    \item [xnms] \td{ami}
+  \end{vocab}
+\end{hierobox}
+
+\begin{figure}[!h]
+  \insertpar{02e}%
+  \caption{Paragraphe~IIe}%
+  \label{fig:par02e}%
+\end{figure}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IIe} +s-m s-xpr-r-W n:k' aq-\!\!q:.-D54-rmT 
+    nn km-m-Y1 i-r:y-+l \scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{IIe} m sxprw n=k ao.w / nn (\zero wn=w) km jry \scansion}
+
+  \tg{impératif vétitif, négation existentielle}
+
+  \td{Ne te suscite pas d'intimes, c'est inutile (\litt il n'y a pas 
+      de but correspondant)}%
+\end{hierobox}
+
+\subsection{Paragraphe~III}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_03}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.1/d, 0.35/c, 0.65/b, 0.9/a} 
+%             at (0,\y) [left] {III\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~III, papyrus \source{Millingen}}
+%   \label{fig:par03}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{03a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{03a}%
+    \caption{Paragraphe~IIIa}%
+    \label{fig:par03a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{03b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{03b}%
+    \caption{Paragraphe~IIIb}%
+    \label{fig:par03b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IIIa} \red\bgroup{+s $r-s-Dr:r-A55:k'-A47-A-W-A24 n:k' 
+    ib*1:k' D:\!\!z:k'-$b +l}\egroup \scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{IIIa} \ruber{sDr=k / sAw n=k jb=k Ds=k \ex} \scansion}
+
+  \tg{circonstancielle en protase avec \fnimp / apodose au prospectif}
+
+  \td{Quand tu t'endors, que ton propre esprit monte pour toi la 
+      garde !}%
+
+  \tcblower
+  \begin{vocab}
+    \item [sAw] \vi{3} \td{se garder}, \td{surveiller}, 
+          \td{empêcher que}
+    \item [sAw] \td{gardien}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IIIb} +s Hr-1 n:t*t nn wnn N36:N23-rmT n:z-A1*1 
+    +l \scansion +s h-r-W-ra-1 n T19-n:t-G37:3 +l \scansion +s
+  \end{hieroglyph}
+
+  \tl{\lgn{IIIb} Hr-nt(y).t nn (\zero wn=w) wn{n} (m) mrw 
+      n s \scansion hrw n(y) ons.t \scansion}
+
+  \tg{circonstancielle causale, négation existentielle}
+
+  \td{parce que personne (\litt un homme) n'a pas un seul fidèle dans 
+      l'épreuve (\litt un jour de difficulté)}%
+
+  \tcblower
+  \begin{vocab}
+    \item [mrw] (collectif) \td{\uk{partisan}}, \td{\uk{supporter}}
+    \item [ons.t] \td{\uk{trouble}}, \td{\uk{misfortune}}
+  \end{vocab}
+
+  \tcbligne
+
+  On aurait pu translittérer \tl{\dots~nn wn(=w) mrw~\dots}, mais 
+  là où \source{Millingen} donne
+  \begin{hieroglyph}wnn-N36:N23-rmT\end{hieroglyph}, les autres 
+  versions sont : 
+  \begin{hieroglyph}wn:n-m-N36:N23-1-rmT\end{hieroglyph}, et \tl{wn} 
+  est même déterminé par \begin{hieroglyph}A1\end{hieroglyph} dans 
+  certains cas. Or \tl{mrw} est un colectif ; on peut donc penser 
+  que le \begin{hieroglyph}wn\end{hieroglyph} vaut pour le participe
+  \tl{wn(w)}, \td{celui}, \td{un}, et 
+  \begin{hieroglyph}m\end{hieroglyph} pour \tl{m}, \td{dans}, 
+  \td{parmi}, soit \tl{wn(w) m mrw}, \td{un parmi les fidèles}. Le 
+  \tl{n} surnuméraire de \source{Millingen} serait dû à l'assimilation 
+  du \tl{m} à \tl{wnn}.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{03c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{03c}%
+    \caption{Paragraphe~IIIc}%
+    \label{fig:par03c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{03d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{03d}%
+    \caption{Paragraphe~IIId}%
+    \label{fig:par03d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IIIc} +s i-W di':n A1 n:S wA-A-\!\!W:. A30-Y1:A1 
+    s-xpr-r:n A1 n:\!\!nm\s2*m\s2-H-Xrd-A1 +l \scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{IIIc} jw d\col n=j n SwAw / sxpr\col n=j nmH(y) \scansion}
+
+  \tg{accomplis agentiels}
+
+  \td{J'ai donné au pauvre, j'ai élevé l'orphelin}%
+
+  \tcblower
+  \begin{vocab}
+    \item [SwAw] \td{pauvre}
+    \item [nmH(y)] \td{orphelin}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IIId} +s di':n-A1 pH-D54 n':t*y-G37:n-f-A1 
+    mi-i n:t*y wn:n Y1:A1 +l \scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{IIId} d\col n=j pH jwty-n=f mj nty wn-n=f \scansion}
+
+  \tg{accompli agentiel de verbe opérateur et prospectif complétif}
+
+  \td{J'ai fait que le démuni réussisse (\litt arrive) comme le nanti}%
+
+  \tcblower
+  \begin{vocab}
+    \item [jwty-n=f] \td{démuni}, \litt~\td{celui qui n'a rien} 
+          \autocite[\S~39.7,~\emph{Rem.}]{GM}
+    \item [wn-n=f] \td{nanti}, \litt~\td{celui qui a}
+  \end{vocab}
+
+  \tcbligne
+
+  C'est l'idéal patriarcal de l'\kmt ancienne.
+\end{hierobox}
+
+\subsection{Paragraphe~IV}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_04}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.1/d, 0.35/c, 0.65/b, 0.9/a} 
+%             at (0,\y) [left] {IV\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~IV, papyrus \source{Millingen}}
+%   \label{fig:par04}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{04a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{04a}%
+    \caption{Paragraphe~IVa}%
+    \label{fig:par04a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{04b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{04b}%
+    \caption{Paragraphe~IVb}%
+    \label{fig:par04b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{IVa} \ruber{jn wnm(w) kAw=j jr(w) Ts.wt} \scansion}
+
+  \tg{PPN argumentative, avec deux participes perfectifs actifs}
+
+  \td{Or c'est celui qui a mangé mes provisions qui s'est comporté 
+      comme un contestataire}%
+
+  \tcblower
+  \begin{vocab}
+    \item [Ts.t] \td{\uk{complaint}}
+  \end{vocab}
+
+  \tcbligne
+
+  \tl{jrj} + \emph{nom d'emploi} = \td{se comporter comme} \emph{nom 
+  d'emploi}.
+
+  Souvent, le pluriel indique un générique.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IVb} +s r:a:n-A1 n:f a:a-1-W:y-A1 Hr-1 s-xpr-r 
+    Hr:r-Aa19-A24-Z3A i-m +l \scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{IVb} rd(w)\col n=j n=f a.wy=f Hr sxpr Hr.w jm \scansion}
+
+  \tg{\paper sujet d'un progressif séquentiel}
+
+  \td{Celui à qui j'ai rendu ses forces (\litt mes bras) provoque un 
+      complot à cause de cela}%
+
+  \tcblower
+  \indent le \begin{hieroglyph}A1\end{hieroglyph} est sûrement une 
+  erreur pour \begin{hieroglyph}f:y\end{hieroglyph}.
+
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{04c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{04c}%
+    \caption{Paragraphe~IVc}%
+    \label{fig:par04c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{04d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{04d}%
+    \caption{Paragraphe~IVd}%
+    \label{fig:par04d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{IVc} wnxw pAo.t=j Hr mAn=j mj Swy \scansion}
+
+  \tg{\paper sujet d'un progressif séquentiel}
+
+  \td{Celui qui a revêtu mon linge fin me voit comme de l'herbe sèche}%
+
+  \tcblower
+  \begin{vocab}
+    \item [wnx] \vl{3} \td{revêtir}, \tl{m} emballer avec
+    \item [pAo.t] \td{linge fin}
+    \item [Swy] \td{herbe sèche}
+  \end{vocab}
+
+  \tcbligne
+
+  Il y a des variantes en \tl{Hr mAA n=j} : c'est soit une erreur pour 
+  \tl{mAn=j}, soit \td{me regarde} au lieu de \td{me voit}, avec un 
+  aspect délibéré, une volonté de se moquer.
+
+  On trouve également \tl{wnxw m pAo.t=j} : \td{celui qui était 
+  emballé dans mon linge fin}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{IVd} wrH(w) antyw(=j) Hr st(.t) mw Xr(=j) \scansion}
+
+  \tg{\paper sujet d'un progressif séquentiel}
+
+  \td{Celui qui était oint de ma myrrhe jette de l'eau sous moi}%
+
+  \tcblower
+  \begin{vocab}
+    \item [wrH] \vl{3} \td{porter un parfum}
+    \item [stj] \vi{3} \td{jeter}
+  \end{vocab}
+
+  \tcbligne
+
+  Jeter de l'eau sous les pieds, c'est la peau de banane de l'\kmt 
+  ancienne.
+\end{hierobox}
+
+\subsection{Paragraphe~V}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_05}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.09/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+%             at (0,\y) [left] {V\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~V, papyrus \source{Millingen}}
+%   \label{fig:par05}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{05a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{05a}%
+    \caption{Paragraphe~Va}%
+    \label{fig:par05a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{05b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{05b}%
+    \caption{Paragraphe~Vb}%
+    \label{fig:par05b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{Va} \ruber{snn.w anx.w psS=j m rmT} \ex{} \scansion}
+
+  \tg{vocatif}
+
+  \td{Ô images vivantes (de dieu) ! Ô ma part d'héritage en humains 
+      (\litt part parmi les humains) !}
+
+  \tcblower
+  \begin{vocab}
+    \item [snn] \td{figure}, \td{image}, \td{statue} (plutôt statue 
+          agenouillée)
+    \item [psS] \td{\uk{division}}
+  \end{vocab}
+
+  \tcbligne
+
+  À qui le roi s'adresse-t-il ? Au singulier, la \emph{copie vivante} 
+  pourrait être son fils, mais la suite du texte est au pluriel 
+  aussi\dots Son peuple ? Le roi est l'image d'un dieu, un dieu est 
+  l'image d'un autre dieu, mais le peuple n'est pas l'image du roi. 
+  Il y a, semble-t-il, une métaphore que l'on ne comprend pas.
+
+  \tl{snn} pourrait avoir un lien avec l'idée de s'agenouiller. 
+  Il faut peut-être comprendre \td{Age\-nouil\-lez\--vous, les 
+  vivants !}, à l'impératif. Cette fois, ça pourrait correspondre 
+  aux sujets du roi.
+
+  Ou alors c'est une erreur pour \td{se reposer}.
+
+  \faitle{20/01/2015}%
+  Finalement, \PG propose : \td{Générations actuelles (\litt copies de 
+  vivants) ! Vous qui êtes ma portion d'humain !}
+
+  \faitle{27/01/2015}%
+  Dans \source{l'enseignement de Mérykarê}, les gens sont les 
+  \tl{snn.w} des dieux, on peut donc garder la traduction \td{Ô images 
+  vivantes (de dieu)}, c'est à dire les gens.
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{Vb} jr.w n=j \frquote{\zero oA(=w) m Dr.t}=j nty n 
+      sDm=tw=f \scansion}
+
+  \tg{impératif pluriel}\\
+  \tg{PPN nominalisée, CO de \tl{jr.w} / syntagme relatif avec 
+      négation de l'accompli}\\
+
+  \td{Soyez pour moi une grande collectivité de gens soumis à mes 
+      ordres dont on n'a jamais entendu de contestation}
+
+  \tcblower
+  \begin{vocab}
+    \item [oamdt=j] en fait, \tl{\zero oA(=w) m Dr.t=j}, 
+          \td{c'est grand, dans ma main}, c'est à dire \td{une 
+          grande collectivité soumise à mon service}. C'est une 
+          phrase nominalisée, sur le modèle de \tl{smd.t}, 
+          \tl{s(y)-m-Dr.t}.
+  \end{vocab}
+
+  \tcbligne
+
+  \faitle{27/01/2015}%
+  \tl{nty} est discriminant.
+  \td{Soyez ma \tl[black]{oAmd.t} dont on n'a jamais entendu : 
+      \frquote{\dots}}
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{05c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{05c}%
+    \caption{Paragraphe~Vc}%
+    \label{fig:par05c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{05d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{05d}%
+    \caption{Paragraphe~Vd}%
+    \label{fig:par05d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{Vc} bw aA\col n aHA n mA\col n=tw=f \scansion 
+      \lgn{Vd} [jst]\{w\} aHA=tw Hr mtwn / \zero smx(=w) sf \scansion}
+
+  \tg{négation de l'aoriste / négation de l'aoriste}\\
+  \tg{auxiliaire d'énonciation, PPA argumentative / 
+      accompli séquentiel}
+
+  \td{de même que l'antagonisme ne peut grandir quand on ne le voit 
+      pas, car c'est dans l'ignorance du passé (\litt en oubliant 
+      hier) que l'on vit (\litt combat dans l'arène)}
+
+  \tcblower
+  \begin{vocab}
+    \item [aHA Hr] \td{combattre}
+    \item [mtwn] variante de \tl{mTwn}, \td{arène}
+    \item [smx] \vcl{2} \td{oublier}
+  \end{vocab}
+
+  \tcbligne
+
+  En néo-égyptien, les négations 
+  \begin{hieroglyph}nn\end{hieroglyph} et 
+  \begin{hieroglyph}n'\end{hieroglyph} s'écrivent respectivement 
+  \begin{hieroglyph}b-n\end{hieroglyph} et 
+  \begin{hieroglyph}b-W\end{hieroglyph}. Probablement par des 
+  phénomènes phonétique de dissimilation et glissement de \tl{n} 
+  en \tl{m} puis \tl{b}.
+\end{hierobox}
+
+\begin{figure}[!h]
+  \insertpar{05e}%
+  \quad{}%
+  \insertpar{05z}%
+  \caption{Paragraphe~Ve}%
+  \label{fig:par05e}%
+\end{figure}
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{Ve} 
+      \begin{possib}
+        nn (\zero wn(=w) km n\\
+        n\{n\} km\col n\\
+      \end{possib}
+      bw-nfr n xm(w) rx(w)=f \scansion
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{%
+      négation 
+      \begin{possib}
+        existentielle\\
+        l'aoriste\\
+      \end{possib}%
+      / deux \paimp[s]
+    }%
+  \end{gramrule}%
+
+  \td{de même, le bien ne peut revenir à quelqu'un qui ignore celui 
+      qu'il devrait reconnaître}
+
+  \tcblower
+  \begin{vocab}
+    \item [xm] \vl{2} \td{oublier}, \td{ne pas apprendre} ; 
+          à l'accompli, \td{ignorer}
+    \item [rx] \vl{2} \td{apprendre} ; à l'accompli, \td{savoir}
+  \end{vocab}
+
+  \tcbligne
+
+  Les lignes \lgn[enlarge by=0pt, on line]{Vc}, 
+  \lgn[enlarge by=0pt, on line]{Vd} et 
+  \lgn[enlarge by=0pt, on line]{Ve} illustrent l'ignorance du principe 
+  de réciprocité, très important dans la philosophie égyptienne.
+
+  La différence entre les négations 
+  \begin{hieroglyph}nn\end{hieroglyph} et 
+  \begin{hieroglyph}n'\end{hieroglyph} ne sont pas toujours respectées.
+
+  On arrive à la même traduction avec la négation existentielle et 
+  avec la négation de l'aoriste.
+
+  \faitle{27/01/2015}%
+  On peut paraphraser ça par \td{un bienfait est toujours perdu}.
+\end{hierobox}
+
+\section[Deuxième partie (\S~VI à~VIII)]
+        {Deuxième partie (\S~VI à~VIII)\faitle{27/01/2015}}
+%----------------------------------------------------------------------
+
+Les paragraphes~VI à~VIII présentent des exemples des préceptes 
+définis précédemment, tirés de l'expérience personnelle d'Amenemhat.
+
+\subsection{Paragraphe~VI}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_06}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.05/f, 0.23/e, 0.4/d, 
+%                               0.6/c, 0.75/b, 0.94/a} 
+%             at (0,\y) [left] {VI\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~VI, papyrus \source{Millingen}}
+%   \label{fig:par06}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{06a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{06a}%
+    \caption{Paragraphe~VIa}%
+    \label{fig:par06a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{06b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{06b}%
+    \caption{Paragraphe~VIb}%
+    \label{fig:par06b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{VIa} \ruber{r-sA-ms.yt pw / xAwy xpr(=w)} \scansion}
+
+  \tg{PPN / accompli séquentiel}
+
+  \td{C'était l'après-souper, la nuit était venue}
+
+  \tcblower
+  \begin{vocab}
+    \item [xAwy] \td{nuit} \rem{\autocite[p.~184]{Faulkner}}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{VIb} sSp\col n=j wnw.t n(y).t nfr-jb \scansion}
+
+  \tg{accompli agentiel}
+
+  \td{je m'octroyai (\litt reçu (de moi-même)) une heure de repos}
+
+  \tcblower
+  \begin{vocab}
+    \item [nfr-jb] \td{\dk{Gefä"s \emph{(od.~dessen Inhalt)}}} 
+          \rem{\autocite[p.~410]{Hannig}}
+  \end{vocab}
+
+  \tcbligne
+
+  Habituellement, \td{passer du temps} se construit avec \tl{jrj}.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{06c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{06c}%
+    \caption{Paragraphe~VIc}%
+    \label{fig:par06c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{06d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{06d}%
+    \caption{Paragraphe~VId}%
+    \label{fig:par06d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{VIc} sDr=kw Hr Hnk.yt=j / bAg\col n=j \scansion}
+
+  \tg{accompli et \fnper en protase}
+
+  \td{Étant allongé sur mon lit, détendu, }
+
+  \tcblower
+  \begin{vocab}
+    \item [bAg] \vl{3}, \td{devenir inerte}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{VId} SAa\col n HAty=j Sms od=j \scansion}
+
+  \tg{accompli agentiel}
+
+  \td{j'ai commencé à m'endormir (\litt mon c{\oe}ur a commencé à 
+      suivre mon sommeil)}
+
+  \tcblower
+  \begin{vocab}
+    \item [SAa] \vl{3} \td{commencer} ; \tl{m} \td{à}
+  \end{vocab}
+
+  \tcbligne
+
+  \tl{SAa xpr} a donné le nom du dieu Sakhpéris.
+
+  L'emploi de \tl{HAty} au lieu de \tl{jb} est sûrement significatif : 
+  c'est le pouls et pas la conscience.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{06e}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{06e}%
+    \caption{Paragraphe~VIe}%
+    \label{fig:par06e}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{06f}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{06f}%
+    \caption{Paragraphe~VIf}%
+    \label{fig:par06z}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{VIe} jst spXr=w xaw / \zero nD(=w) r(A) Hr=j \scansion}
+
+  \tg{accomplis}
+
+  \td{tandis que des armes avaient été distribuées et des questions 
+      posées à mon propos}
+
+  \tcblower
+  \begin{vocab}
+    \item [spXr] \td{faire circuler}, \td{distribuer}
+    \item [xaw] armes
+    \item [nD-r(A)] poser des questions ; \tl{Hr} à propos de
+  \end{vocab}
+
+  \tcbligne
+
+  Il est peut-être question des gardes du corps, les questions 
+  pourraient être des demandes de mots de passe.
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{VIf} jr=kw mj sA-tA n(y) xAs.t \scansion}
+
+  \tg{accompli}
+
+  \td{j'étais transformé en serpent (\litt fils de la terre) du désert}
+\end{hierobox}
+
+\subsection{Paragraphe~VII}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_07}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.05/f, 0.23/e, 0.4/d, 
+%                               0.6/c, 0.75/b, 0.94/a} 
+%             at (0,\y) [left] {VII\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~VII, papyrus \source{Millingen}}
+%   \label{fig:par07}
+% \end{figure}
+
+Dans la suite du texte, on n'a pas d'allusions à des événements 
+particuliers, mais plutôt des métaphores. C'est peut-être aussi 
+le cas pour cette histoire de bagarre.
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{07a1}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{07a1}%
+
+    \insertpar{07a2}%
+    \caption{Paragraphe~VIIa}%
+    \label{fig:par07a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{07b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{07b}%
+    \caption{Paragraphe~VIIb}%
+    \label{fig:par07b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{VIIa} \ruber{nhs\col n=j n aHA / jw=j n Haw=j} \scansion}
+
+  \tg{protase avec accompli agentiel et PPA sans lexème verbal}
+
+  \td{Étant réveillé par (le bruit d') un combat, aussitôt alerte 
+      (\litt étant à mon corps), }
+
+  \tcblower
+  \begin{vocab}
+    \item [nhsj] \vi{4} \dk{\td{erwachen, aufwachen (aus Schlaf, 
+          Todesschlaf, von Sonne)}} \autocite[p.~420]{Hannig}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{VIIb} gm\col n=j (nt(y).t) \frquote{Hwny-r-Hr pw n(y) 
+      m(w)nf.w} \scansion}
+
+  \tg{accompli agentiel}
+
+  \td{je découvris que c'était une bagarre de serviteurs}
+
+  \tcblower
+  \begin{vocab}
+    \item [Hwny-r-Hr] \td{frapper le visage}
+    \item [m(w)nf] \td{aide}, aussi bien \td{serviteur}, 
+          \td{assistant}, \td{garde},~\dots
+  \end{vocab}
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{07c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{07c}%
+    \caption{Paragraphe~VIIc}%
+    \label{fig:par07c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{07d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{07d}%
+    \caption{Paragraphe~VIId}%
+    \label{fig:par07d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{VIIc} jr Ssp=j As.t xaw m Dr.t=j \scansion}
+
+  \tg{circonstancielle temporelle en \tl{r}~+~prospectif}
+
+  \td{Jusqu'à ce que je reçoive rapidement des armes dans ma main, }
+
+  \tcblower
+  \begin{vocab}
+    \item [Ssp] \td{recevoir}
+    \item [As] \vl{2} \td{se dépêcher}, \td{prendre hâte}
+    \item [As.t] \td{vite} (adverbe)
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{VIId} jw d\col n=j xt Hm.w m-a bAbA.t \scansion}
+
+  \tg{accompli agentiel}
+
+  \td{j'ai fait que les efféminés reculent sous l'effet du tremblement 
+      (de peur)}
+
+  \tcblower
+  \begin{vocab}
+    \item [Hm] \td{homosexuel passif}
+    \item [xtj] \vi{3} \td{reculer}
+    \item [(n)bAbA.t] \td{tremblement} (thème en \textsf{n1212}, 
+          onomatopée transformée en verbe)
+  \end{vocab}
+
+  \tcbligne
+
+  La plupart des traducteurs présente 
+  \lgn[enlarge by=0pt, on line]{VIId} comme une apodose de 
+  \lgn[enlarge by=0pt, on line]{VIIc}, mais ça pose un problème de 
+  concordance : \frquote{si je me dépêchais, des armes à la main, 
+  j'aurais fait\dots}
+
+  Finalement, ça pourrait être ça, en supposant que le \tl{n} de 
+  \tl{Ssp\col n=j} est confondu avec le \tl{j} sous l'effet de la 
+  \frquote{teinture d'jod}, par dénasalisation.
+
+  \tcbligne
+
+  La position des adverbes est relativement souple. En fait, ce sont, 
+  la plupart du temps, des accomplis séquentiels.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{07e}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{07e}%
+    \caption{Paragraphe~VIIe}%
+    \label{fig:par07e}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{07f}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{07f}%
+    \caption{Paragraphe~VIIf}%
+    \label{fig:par07z}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{VIIe} nn swt (\zero wn=w) on grH / 
+      nn (\zero wn=w) aHA wa=tw \scansion
+      \lgn{VIIf} nn (\zero wn=w) xpr sp-mar{d} m-xm.t mkw \scansion}
+
+  \tg{négation existentielle / négation existentielle + accompli 
+      séquentiel / \tl{nn wn=w}~+~prospectif}
+
+  \td{D'ailleurs, il n'y a personne qui soit courageux (comme moi) 
+      la nuit, ni qui puisse combattre seul (comme moi) ; Il est 
+      exclu qu'un succès advienne sans protecteur \rem{(un dieu)}.}
+
+  \tcblower
+  \indent De qui parle-t-on ? Du roi ? Ça semble contradictoire avec 
+  ce qui précède, sauf si c'est \emph{contrairement} à lui. À côté de
+  \td{mais}, \tl{swt} peut avoir le sens de \td{d'ailleurs} ou \td{en 
+  effet}, et on suppose alors un \td{comme moi} sous-entendu.
+
+  Les textes littéraires sont souvent elliptiques, pour assurer une 
+  scansion régulière.
+\end{hierobox}
+
+\subsection{Paragraphe~VIII}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_08}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.1/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+%             at (0,\y) [left] {VIII\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~VIII, papyrus \source{Millingen}}
+%   \label{fig:par08}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{08a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{08a}%
+    \caption{Paragraphe~VIIIa}%
+    \label{fig:par08a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{08b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{08b}%
+    \caption{Paragraphe~VIIIb}%
+    \label{fig:par08b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \faitle{03/03/2015}%
+  \tl{\lgn{VIIIa} \ruber{mk stAw xpr(=w) / jw=j m-xmt=k} \scansion}
+
+  \tg{accompli / PPA séquentielle}
+
+  \td{Vois ! Une affaire est advenue car j'étais sans toi !}
+
+  \tcblower
+  \indent Comment traduire \tl{stAw} ? Remontons à la racine ! 
+  \tl{sTA} = \td{tirer}, 
+  \td{traîner}, \td{hâler}, \td{s'écouler} (pour de l'eau). Le 
+  déterminatif \begin{hieroglyph}Aa2\end{hieroglyph} indique un 
+  rapport avec le corps. 
+  Mais on n'est pas plus avancé ! 
+  Quelques pistes :
+  \begin{itemize}
+    \item Un causatif ? De \tl{jTj} ? Ça donnerait \td{faire tirer}, 
+          \td{faire prendre}.
+    \item \tl{sjAT} \begin{hieroglyph}s-i-A-D57-G38\end{hieroglyph}, 
+          \td{retrancher} (physiquement), \td{couper}, \td{mutiler}. 
+          Ça donne les \tl{AT.w}, officiers de police judiciaire de 
+          \DeM ou les \tl{sjAty.w}, bourreaux dans les contrats 
+          d'Assiout.
+    \item \tl{swA}, \td{mutiler}, \td{enlever un membre}.
+    \item \tl{stA}, \td{allumer un feu} \donc{} \td{émeute} ?
+    \item \tl{stAw(=j)}, ma blessure ? Un attentat\dots Peut-être ce 
+          qui précède.
+    \item \tl{sTj}, \td{tirer (vers l'avant)}, dérivés : \td{tirer 
+          des flèches}, \td{darder ses rayons},~\dots
+    \item \tl{sT.t}, \td{parfum}, \td{odeur} (celle du poisson 
+          \tl{mHy.t}, dans la \source{Satyre des métiers}).
+  \end{itemize}
+  \qquad \donc{} en attendant mieux : \td{affaire}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{%
+      \lgn{VIIIb} n sDmt Sny.t
+      \begin{possib}
+        sw{A}D=j n=k\\
+        : \frquote{sw{A}D=j n=k}\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \tg{forme \tl[Gramm]{n wnmt=k} + prospectif}
+
+  \td{avant que la cour n'ait entendu dire que je voulais te 
+      transmettre mon savoir}
+
+  \tcblower
+  \begin{vocab}
+    \item [Sny.t] \td{cour, entourage d'un dieu ou d'un roi}
+    \item [sw{A}D] \td{octroyer}, \td{confier}, \td{remettre}, 
+          \td{transmettre} ; \td{n}, à
+  \end{vocab}
+
+  \tcbligne
+
+  Plutôt \frquote{mon savoir} que \frquote{la royauté}, car pour 
+  celle-ci, c'est automatique.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{08c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{08c}%
+    \caption{Paragraphe~VIIIc}%
+    \label{fig:par08c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{08d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{08d}%
+    \caption{Paragraphe~VIIId}%
+    \label{fig:par08d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{figure}[!h]
+  \insertpar{08e}%
+  \caption{Paragraphe~VIIIe}%
+  \label{fig:par08e}%
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{VIIIc} n Hmst=j Hna=k / jx jry=j sxrw=k \scansion}
+
+  \tg{forme \tl[Gramm]{n wnmt=k} + prospectif}
+
+  \td{avant que je n'eus conféré (\litt ne me fut assis) avec toi de 
+      sorte que je te forme (fasse ton éducation)}
+
+  \tcblower
+  \begin{vocab}
+    \item [Hmsj] \vi{4} \td{s'asseoir}, \td{siéger}, \td{résider}, 
+          \td{se montrer sédentaire}, \td{témoigner}
+    \item [sxr] \vcl{3} \td{renverser}, \td{abattre}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{VIIId} Hr-nt(y).t n Hr=j s.t n-xmt=j s.t \scansion}
+
+  \tg{négation de l'accompli}
+
+  \td{parce que je ne l'avais pas anticipé}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{VIIIe} n jn jb=j wsf.t n(y).t bAk.w \scansion}
+
+  \tg{négation de l'accompli}
+
+  \td{mon esprit n'avait pas imaginé (\litt n'était pas allé cherché) 
+      l'inaction des travailleurs}
+\end{hierobox}
+
+\section{Troisième partie (\S~IX à~XV)}
+%----------------------------------------------------------------------
+
+Cette dernière section tire les conséquences de ce qui précède : il 
+faut être prêt.
+
+\subsection{Paragraphe~IX}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C'est une série de questions rhétoriques absurdes, avec, à chaque 
+fois, une contradiction interne. Sont-elles des commentaires sur 
+l'inaction des travailleurs ?
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_09}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.05/f, 0.23/e, 0.4/d, 
+%                               0.6/c, 0.75/b, 0.94/a} 
+%             at (0,\y) [left] {IX\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~IX, papyrus \source{Millingen}}
+%   \label{fig:par09}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{09a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{09a}%
+    \caption{Paragraphe~IXa}%
+    \label{fig:par09a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{09b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{09b}%
+    \caption{Paragraphe~IXb}%
+    \label{fig:par09b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{IXa} jn-jw pA\col n Hm.wt Ts skw.w ? \scansion}
+
+  \tg{accompli}
+
+  \td{Des femmes ont-elles jamais commandé des troupes ?}
+
+  \tcblower
+  \begin{vocab}
+    \item [pAw] \td{faire pour la première fois}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{IXb} jn-jw Sd=tw Xnnw m-Xnw pr \scansion}
+
+  \tg{aoriste}
+
+  \td{Élève-t-on des fauteurs de trouble à l'intérieur d'une maison ?}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{IXc} jn-jw wbA=tw mw add(w) gbb \scansion}
+
+  \tg{aoriste, \paimp}
+
+  \td{Ouvre-t-on une voie d'eau qui détruit la terre ?}
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{09c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{09c}%
+    \caption{Paragraphe~IXc}%
+    \label{fig:par09c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{09d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{09d}%
+    \caption{Paragraphe~IXd}%
+    \label{fig:par09d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \faitle{10/03/2015}%
+  \begin{gramrule}%
+    \tl{\lgn{IXd} (jn-jw) 
+      \begin{possib}
+        s\{w\}xA=tw nDs.w (jw=sn)\\
+        sxA=tw nDs.w\\
+      \end{possib}
+      Hr jry.t=sn ? \scansion
+    }%
+  \end{gramrule}%
+
+  \tg{aoriste}
+
+  \begin{gramrule}%
+    \td{%
+      \begin{possib}
+        Fait-on du tort aux gens modestes quand ils sont à leur 
+        tâche ?\\
+        Se rappelle-t-on des petits à cause de ce qu'ils font ?\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \tcblower
+  \begin{vocab}
+    \item [swxa] \td{rendre stupide}, causatif de \tl{wxA} qui est 
+          typique du vocabulaire des sagesses.
+  \end{vocab}
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{09e}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{09e}%
+    \caption{Paragraphe~IXe}%
+    \label{fig:par09e}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{09f}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{09f}%
+
+    \insertpar{09z}%
+    \caption{Paragraphe~IXf}%
+    \label{fig:par09f}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{IXe} n jw jy.t HA=j Dr ms(w).t=j \scansion}
+
+  \tg{négation de l'accompli}
+
+  \td{Le malheur ne m'a pas entouré depuis ma naissance.}
+
+  \tcblower
+  \begin{vocab}
+    \item [jy.t] \td{\frquote{ce qui vient}}, d'où \td{malheur}, dans 
+          le sens de \td{mauvais hasard}.
+    \item [HA] \td{entourer, par derrière} ; ça fait référence à la 
+          zone de protection autour d'un individu : cf~la protection 
+          divine sur les reliefs.
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{IXf} n xpr mjt.t sp=j m jr(w) onn \scansion}
+
+  \tg{négation de l'accompli}
+
+  \td{Une chose semblable à mes hauts faits n'est jamais advenue du 
+      fait d'un brave (\litt auteur d'actes de bravoure).}
+
+  \tcblower
+  \begin{vocab}
+    \item [sp] \td{action mémorable}, \td{haut fait}
+    \item [xpr \textbf{m}]
+  \end{vocab}
+
+  \tcbligne
+
+  À partir du \NK, apparaissent beaucoup de mots composés avec 
+  \tl{jr(w)}, comme par exemple \tl{jr(w) Tbw.ty}. Ce devrait être 
+  le \paimp \tl{jrr(w)}, mais la réduplication saute parce qu'on ne 
+  l'entend plus, noyé dans la syllabe qui suit. C'est la même chose 
+  avec \tl{Wp(pw)-wA.wt}.
+\end{hierobox}
+
+Quel est le rapport entre \lgn[enlarge by=0pt, on line]{IXa} à 
+\lgn[enlarge by=0pt, on line]{IXd}, d'une part, et 
+\lgn[enlarge by=0pt, on line]{IXe} à 
+\lgn[enlarge by=0pt, on line]{IXf}, d'autre part ?
+Les malheurs sont-ils ceux évoqués en 
+\lgn[enlarge by=0pt, on line]{a}-\lgn[enlarge by=0pt, on line]{d} ? 
+S'agit-il d'une mauvaise coupure ?
+
+\subsection{Paragraphe~X}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_10}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.15/c, 0.5/b, 0.85/a} 
+%             at (0,\y) [left] {X\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~X, papyrus \source{Millingen}}
+%   \label{fig:par10}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{10a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{10a}%
+    \caption{Paragraphe~Xa}%
+    \label{fig:par10a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{10b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{10b}%
+    \caption{Paragraphe~Xb}%
+    \label{fig:par10b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{Xa} \{jw\} hA\{b\}\col n=j r Abw Hsy\col n=j r jdHw 
+      \scansion}
+
+  \tg{formes nominales perfectives en protase}
+
+  \td{Étant descendu à Éléphantine et m'étant tourné vers les marais 
+      du Delta,}
+
+  \tcblower
+  \begin{vocab}
+    \item [Hsy] \td{se tourner vers}
+    \item [hAb] \td{envoyer} un message, un courrier
+    \item [hAj] intransitif, \td{descendre}
+  \end{vocab}
+
+  \tcbligne
+
+  La confusion de \tl{hAb} et \tl{hAj} est fréquente.
+
+  L'opposition entre \tl{Abw} et \tl{jdHw} est bien connue.
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{Xb} aHa=kw Hr Dr.w tA / \{mA\} mA\col n=j oAb=f \scansion}
+
+  \tg{protase à l'accompli / apodose à l'accompli}
+
+  \td{et étant ainsi debout sur les extrémités de la terre, j'en ai vu 
+      le milieu,}
+\end{hierobox}
+
+\begin{figure}[!h]
+  \insertpar{10c}%
+  \caption{Paragraphe~Xc}%
+  \label{fig:par10c}%
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Xc} jn\col n=j r Dr.w xpS.t(=j) m [x]p[S]=j m xprw=j 
+      \scansion}
+
+  \tg{argumentative}
+
+  \td{c'est par mon bras et ma stature que j'atteins les limites de 
+      mon envergure maximum.}
+
+  \tcblower
+  \begin{vocab}
+    \item [xpS] \td{bras qui sert à manier les armes}
+    \item [xprw] collectif, \td{apparence}, \td{manière d'être}, 
+          \td{stature}
+    \item [jnj] \td{aller chercher}, à l'accompli \td{être allé 
+          cherché}, c'est à dire \td{apporter}
+    \item [r Dr.w] normalement un adverbe ; nominalisé ici ?
+  \end{vocab}
+\end{hierobox}
+
+\subsection{Paragraphe~XI}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_11}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.15/c, 0.5/b, 0.85/a} 
+%             at (0,\y) [left] {XI\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~XI, papyrus \source{Millingen}}
+%   \label{fig:par11}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{11a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{11a}%
+    \caption{Paragraphe~XIa}%
+    \label{fig:par11a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{11b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{11b}%
+    \caption{Paragraphe~XIb}%
+    \label{fig:par11b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{XIa} jnk jr(w) jt mry Np\{r\}j \scansion}
+
+  \tg{PPN}
+
+  \td{Comme je suis le créateur de l'orge aimé de Népi,}
+
+  \tcblower
+  \begin{vocab}
+    \item [Np\{r\}j] personnification du grain (cf~Abou Ghorab)
+    \item [jt] l'orge \emph{ordeum exasticum}
+  \end{vocab}
+
+  \tcbligne
+
+  Le roi est la providence de ses sujets (redistribution des 
+  ressources).
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{XIb} t\{r\}j\col n wj @apy Hr pgA nb \scansion}
+
+  \tg{accompli}
+
+  \td{Hapy m'a salué à chaque entrée de canal,}
+
+  \tcblower
+  \begin{vocab}
+    \item [pgA] \td{ouvrir}, \td{ouverture}
+  \end{vocab}
+
+  \tcbligne
+
+  Il faut ouvrir des brèches dans les banquettes alluviales pour que 
+  la crue atteigne les champs.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{11c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{11c}%
+    \caption{Paragraphe~XIc}%
+    \label{fig:par11c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{11d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{11d}%
+    \caption{Paragraphe~XId}%
+    \label{fig:par11d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \faitle{17/03/2015}%
+  \tl{\lgn{XIc} n Hor=tw m rnp.wt=j /n jb=tw jm \scansion}
+
+  \tg{négations de l'accompli}
+
+  \td{on n'a jamais eu faim pendant mes années, on n'y a pas eu soif,}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{XId} jw(=tw) Hms=tw m jr(w).t\col n[=j Hr sDd.t jm=j] 
+      \scansion}
+
+  \tg{aoriste, progressif séquentiel}
+
+  \td{on se reposait grâce à ce que j'avais fait, en faisant parler de 
+      moi,}
+
+  \tcblower
+  \indent La partie manquante est rétablie d'après 
+  \lgn[enlarge by=0pt, on line]{S.II}.
+
+  \noindent\td{ce que j'avais fait} se rapporte à des mesures 
+  administratives.
+\end{hierobox}
+
+\begin{figure}[!h]
+  \insertpar{11e}%
+  \caption{Paragraphe~XIe}%
+  \label{fig:par08e}%
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{XIe} [jw wD(w.t)\col n=j nb(.t) r s.t-jry] \scansion}
+
+  \tg{\ppper agentiel sujet de PPA sans lexème verbal}
+
+  \td{tout ce que j'ai ordonné était à sa place.}
+\end{hierobox}
+
+Il y a une relation de cause à effet entre la PPN en 
+\lgn[enlarge by=0pt, on line]{a} et les PPA qui suivent.
+
+\subsection{Paragraphe~XII}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_12}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.15/c, 0.5/b, 0.85/a} 
+%             at (0,\y) [left] [left] {XII\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~XII, papyrus \source{Millingen}}
+%   \label{fig:par12}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{12a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{12a}%
+    \caption{Paragraphe~XIIa}%
+    \label{fig:par12a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{12b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{12b}%
+    \caption{Paragraphe~XIIb}%
+    \label{fig:par12b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{XIIa} jw onb\col =j mAj.w / jn\col n=j msH.w \scansion}
+
+  \tg{accomplis}
+
+  \td{J'ai dompté les lions, j'ai capturé les crocodiles}
+
+  \tcblower
+  \indent Variante dans \lgn[enlarge by=0pt, on line]{DM1039} : 
+  \td{j'ai dompté les lions pour faire vivre les crocodiles}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{XIIb} 
+      \begin{possib}
+        \lgn{S.II} jw d\col n=j\\
+        \lgn{P77} jw dAj\{r\}\col n=j\\
+      \end{possib}
+      wAwAy.w / jn\col n=j mDAy.w \scansion
+    }%
+  \end{gramrule}%
+
+  \tg{accomplis}
+
+  \td{J'ai acculé les gens de Ouaouat, j'ai soumis les Medjayous.}
+
+  \tcblower
+  \indent Les animaux en \lgn[enlarge by=0pt, on line]{a}, les humains 
+  en \lgn[enlarge by=0pt, on line]{b}, tous des sauvages.
+\end{hierobox}
+
+\begin{figure}[!h]
+  \insertpar{12c}%
+  \caption{Paragraphe~XIIc}%
+  \label{fig:par12c}%
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{XIIc} [jw] d\col n=j jry\{=j\} sTty.w / Hr Sm.t Tsm.w 
+      \scansion}
+
+  \tg{accompli, prospectif complétif}
+
+  \td{J'ai fait que les Asiatiques agissent à la manière dont les 
+      chiens se déplacent.}
+
+  \tcblower
+  \indent \tl{Smj} est intransitif, \tl{Sm.t} ne peut dont être un 
+  infinitif.
+
+  Cf~les saints Ahrakas et Oghani au \musee{Musée Copte} du Caire 
+  (\fref{fig:ArhaOgha}) et les miniatures de Saint Christophe 
+  cynocéphale au \musee{Byzantine and Christian Museum}, Athènes 
+  (\fref{fig:StCrh}).
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \begin{minipage}[t]{0.45\textwidth}%
+    \centerfloat%
+    \includegraphics[height=7cm]{Ahrakas_Oghani}
+    \caption{Les saints coptes Ahrakas et Oghani, \siecle{xviii}
+             \rem{(\musee{Musée Copte}, Le~Caire)}}
+    \label{fig:ArhaOgha}
+  \end{minipage}%
+  \hfill{}%
+  \begin{minipage}[t]{0.45\textwidth}%
+    \centerfloat%
+    \includegraphics[height=7cm]{SaintChristophe} 
+    \caption{Saint Christophe cynocéphale, \ano[0]{1685}
+             \rem{(\musee{Byzantine and Christian Museum}, Athènes)}}
+    \label{fig:StCrh}
+  \end{minipage}
+\end{figure}
+\CaptionNormal
+
+\subsection{Paragraphe~XIII}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_13}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.15/c, 0.5/b, 0.85/a} 
+%             at (0,\y) [left] {XIII\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~XIII, papyrus \source{Millingen}}
+%   \label{fig:par13}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{13a1}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{13a1}%
+
+    \insertpar{13a2}%
+    \caption{Paragraphe~XIIIa}%
+    \label{fig:par13a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{13b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{13b}%
+    \caption{Paragraphe~XIIIb}%
+    \label{fig:par13b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{XIIIa} jw jr\col n=j n=j pr sXkr=w m nbw \scansion}
+
+  \tg{accompli, accompli séquentiel}
+
+  \td{Je me suis fait une maison dorée (\litt ornée d'or),}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{hAwty.w=f m xsbd \scansion \lgn{XIIIb} sAw.t m HD / sAtw m 
+      mnh(A)y / aA.wy m Hmty \scansion \lgn{XIIIc} oAr.yt m hsnm}
+
+  \tg{PPAs sans lexème verbal}
+
+  \td{au plafond bleu (\litt de lapis-lazuli), aux murs d'argent, au 
+      sol en pierre \emph{menhay}, aux vantaux (plaqués) en cuivre, 
+      aux verrous en bronze,}
+
+  \tcblower
+  \begin{vocab}
+    \item [hAw.t] \td{plafond}
+    \item [mnhyw] \begin{hieroglyph}mn:n-h-i-i-w-inr\end{hieroglyph} 
+          type de pierre
+  \end{vocab}
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{13c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{13c}%
+    \caption{Paragraphe~XIIIc}%
+    \label{fig:par13c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{13d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{13d}%
+    \caption{Paragraphe~XIIId}%
+    \label{fig:par13d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{jr=w n D.t 
+      \begin{possib}
+        \lgn{S.II} Hr HH Hr s.t\\
+        \lgn{P29} Hr=y [r nHH]\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \tg{accompli}
+
+  \td{faite pour toujours et préparée pour l'éternité.}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{XIIId} \lgn{S.II} jw=j rx=kw m Dr.ty
+      \begin{possib}
+        \lgn{DM1102} Dr-nt(y).t jnk nb \{nb\} r-Dr\\
+        \lgn{Mill} Dr-nt(y).t jnk nb jry r-Dr\\
+        \lgn{S.II} m Dr.ty nb.t nb.t jry-Dr-j\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \donc{} \tl{jw=j rx=kw m-Dr jnk nb jry r-Dr \scansion}
+
+  \tg{accompli, PPN}
+
+  \td{Je (le) sais parce que j'en suis le maître complet.}
+
+  \tcblower
+  \indent Dans \begin{hieroglyph}Dr:r-t:y\end{hieroglyph}, 
+  \begin{hieroglyph}t:y\end{hieroglyph} est sûrement la prononciation 
+  de \tl{Dr}, donc \tl{\{Dr\}ty}.
+
+  Que décrit-il ? L'\kmt ? Sa tombe ? Un palais ?
+\end{hierobox}
+
+\subsection{Paragraphe~XIV}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_14}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.1/d, 0.35/c, 0.65/b, 0.9/a} 
+%             at (0,\y) [left] {XIV\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~XIV, papyrus \source{Millingen}}
+%   \label{fig:par14}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{14a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{14a}%
+    \caption{Paragraphe~XIVa}%
+    \label{fig:par14a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{14b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{14b}%
+    \caption{Paragraphe~XIVb}%
+    \label{fig:par14b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{XIVa} jw \zero ms(=w) msw.t aSA.t m mrw.t \scansion}
+
+  \tg{accompli}
+
+  \td{On dit qu'il y a beaucoup de racontars dans la rue}
+
+  \tcblower
+  \begin{vocab}
+    \item [jwms] \td{demi-vérité}, vient de \tl{jw ms \dots} avec 
+          \tl{ms} particule enclitique.
+    \item [ms] \td{fabriquer}, \td{mettre au monde}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{XIVb} \lgn{DM1103} rx(w) Hr(-Dd) \frquote{tjw} \{r\} wxA(w) 
+  Hr(-Dd) \frquote{m-bjA.t\{=f\}} \scansion}
+
+  \tg{}
+
+  \td{le sage dit \frquote{oui}, l'ignorant dit \frquote{non}}
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{14c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{14c}%
+    \caption{Paragraphe~XIVc}%
+    \label{fig:par14c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{14d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{14d}%
+    \caption{Paragraphe~XIVd}%
+    \label{fig:par14d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{XIVc} Hr-nt(y).t n rx=f s.t Sw(=w) m Hr=k \scansion}
+
+  \tg{circonstancielle à l'accompli, accompli séquentiel}
+
+  \td{parce qu'il n'a pas appris cela, parce que tu ne l'instruis pas 
+      (\litt étant privé de ton visage)}
+
+  \tcblower
+  \indent Le visage, c'est aussi la parole.
+
+  Quel lien avec les racontars ? Dire oui ou non à quoi ?
+
+  \tl{ms.yt} signifie-t-il vraiment \td{racontars}, ou bien autre 
+  chose, comme un groupe de gens dont certains sont en accord et 
+  d'autres pas ?
+
+  \donc{} \td{on dit : \frquote{il y a beaucoup de jeunes dans la 
+  rue}, le sage~\dots car il est impossible qu'il le reconnaisse}
+
+  Ça pourrait être en lien avec la politique nataliste d'Amenemhat, 
+  et ses successeurs s'appellent d'ailleurs \tl{anx-msw.t}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{XIVd} 
+      \begin{possib}
+        \lgn{S.II} n s \crtch{\%-n(y)-Wsr-Ra} a.w.s.\\
+        \lgn{DM1103} s n(y) \crtch{\%-n(y)-Wsr(.t)} sA=j\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \tg{}
+
+  \td{Ô Sésostris, mon fils}
+
+  \tcblower
+  \indent\tl{s n(y)} : didascalie pour éclaircir l'antéposition.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{14e}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{14e}%
+    \caption{Paragraphe~XIVe}%
+    \label{fig:par14e}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{14f}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{14f}%
+    \caption{Paragraphe~XIVf}%
+    \label{fig:par14f}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{XIVe} 
+      \begin{possib}
+        \lgn{S.II} rd.wy=k Hr Sm.t / mntk jb=k Ds=k\\
+        \lgn{DM1103} rd.wy=j Hr Sm.t / [mnt]k m jb=k Ds=k\\
+        \lgn{Mi20bis} rd.wy=j Hr Sm.t / m tkn jb=j Ds=j\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{progressif / 
+      \begin{possib}
+        \lgn{S.II} expression de l’appartenance\\
+        \lgn{Mi20bis} progressif interne séquentiel\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{ 
+      \begin{possib}
+        \lgn{S.II} Tes jambes vont et tu as ton propre esprit\\
+        \lgn{Mi20bis} mes pieds avancent en approchant mon propre 
+        c{\oe}ur\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \tcblower
+  \indent Au \NK, \tl{ntk} devient \tl{mntk}.
+
+  Faut-il retenir \tl{=j} ou \tl{=k} ?
+
+  On peut comprendre la version \lgn[enlarge by=0pt, on line]{S.II} 
+  (pas la plus fiable !), comme \td{tu es sain de corps et d'esprit}, 
+  et la version \lgn[enlarge by=0pt, on line]{Mi20bis} comme \td{on 
+  progresse dans ton instruction}.
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{24/03/2015}%
+  \begin{gramrule}%
+    \tl{\lgn{XIVf} 
+      \begin{possib}
+        \lgn{S.II} jr.ty=j Hr gmH n=j\\
+        \lgn{DM1103} jr.ty=j Hr gmH=k\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \tg{progressif}
+
+  \td{\lgn{DM1103} mes yeux t'observent.}
+\end{hierobox}
+
+\begin{figure}[!h]
+  \insertpar{14g}%
+  \caption{Paragraphe~XIVg}%
+  \label{fig:par14g}%
+\end{figure}
+
+\begin{hierobox}
+  \tl{ms.yt m wnw.t n(y).t nfr-jb \scansion \lgn{XIVg} r-gs Hnmm.t 
+      d=sn n=k jAw.wt}
+
+  \tg{PPA sans lexème verbal, prospectif consécutif}
+
+  \td{les jeunes sont dans le bien-être (\litt une heure de repos) 
+      à côté des rampants, de sorte qu'ils veuillent t'acclamer}
+
+  \tcblower
+  \indent\tl{Hnmm.t} : forme \tl{H} + onomatopée.
+
+  Les \td{rampants} = les gens, vus d'en haut.
+
+  Peut-être \tl{\dots~(m) msy.t~\dots} : \td{\dots~comme des enfants à 
+  l'heure du bien-être}
+\end{hierobox}
+
+\subsection{Paragraphe~XV}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \begin{figure}[!h]
+%   \begin{tikzpicture}
+%     \node [anchor=south west, inner sep=0] (image) at (0,0) 
+%           {\includegraphics[scale=1.0]{Helck_Amenemhat_15}} ;
+%     \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+%       \node foreach \y/\l in {0.1/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+%             at (0,\y) [left] {XV\l} ;
+%     \end{scope}
+%   \end{tikzpicture}
+%   \caption{Paragraphe~XV, papyrus \source{Millingen}}
+%   \label{fig:par15}
+% \end{figure}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{15a}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15a}%
+    \caption{Paragraphe~XVa}%
+    \label{fig:par15a}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{15b}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15b}%
+    \caption{Paragraphe~XVb}%
+    \label{fig:par15b}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{XVa} mk, jr\col n=j Xr-HA.t / Ts=j n=k [m] pH.wy \scansion}
+
+  \tg{accompli / prospectif}
+
+  \td{Vois, j'ai fait le début, et je veux composer pour toi la fin !}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{XVb} (jn) jnk mnj(w) n=k
+      \begin{possib}
+        \lgn{DM1204} nty\\
+        \lgn{DM1093} n nty\\
+      \end{possib}
+      m jb%
+      \begin{possib}
+        =j\\
+        =k\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \tg{PPN avec \paper}
+
+  \begin{gramrule}%
+    \td{Je suis celui qui a 
+      \begin{possib}
+        fixé pour toi ce qui est dans mon esprit\\
+        attaché ton intelligence à un point fixe \\
+      \end{possib}
+    }%
+  \end{gramrule}\\
+  \begin{gramrule}%
+    \td{\phantom{Je suis celui qui a}
+      \begin{possib}
+        \\
+        (\litt planté pour toi le bâton d'amarrage à ce qui est dans 
+        ton esprit)\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{15c}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15c}%
+    \caption{Paragraphe~XVc}%
+    \label{fig:par15c}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{15d}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15d}%
+    \caption{Paragraphe~XVd}%
+    \label{fig:par15d}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{\lgn{XVc} \lgn{DM1204} twt wAH(w) HD.t \lgn{Mill} n pr.t nTr 
+      \scansion}
+
+  \tg{PPN argumentative}
+
+  \td{C'est toi qui es établi et la couronne blanche est pour la 
+      semence du dieu !}\\
+  ou\\
+  \td{C'est toi qui porte la couronne blanche, semence du dieu !}
+
+  \tcblower
+  \begin{vocab}
+    \item [pr.t] \td{semence}
+  \end{vocab}
+
+  \tcbligne
+
+  \tl{twt} = pronom indépendant.
+
+  \begin{hieroglyph}n'\end{hieroglyph} pour 
+  \begin{hieroglyph}n\end{hieroglyph}.
+
+  \td{semence divine} = peut-être le roi.
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{XVd} \lgn{DM1093} Ax.t Htpw m s.t jry}
+
+  \tg{PPA sans lexème verbal}
+
+
+  \tcblower
+  \begin{vocab}
+    \item [Ax.t] variante de \tl{x.t}
+  \td{Les choses sont installées à leur juste place}
+  \end{vocab}
+
+  \tcbligne
+
+  Le \tl{pw} dans la variante \lgn[enlarge by=0pt, on line]{Mi77} 
+  nominalise la phrase.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{15e}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15e}%
+    \caption{Paragraphe~XVe}%
+    \label{fig:par15e}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{15f}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15f}%
+    \caption{Paragraphe~XVf}%
+    \label{fig:par15f}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \tl{SAa\col n n=k \scansion \lgn{XVe} hn.w m wjA n(y) Ra \scansion}
+
+  \tg{accompli}
+
+  \td{Des cris de joie ont débuté (\litt été commencés) pour toi dans 
+      la barque de Rê.}
+
+  \tcblower
+  \begin{vocab}
+    \item [SAa] \td{commencer}, \td{inaugurer}
+    \item [\Smaj Aa-xpr] \td{Sakhpéris}, une désignation du démiurge
+    \item [hn.w] \td{cris de joie}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{XVf} \lgn{Mill+Mi20bis} \zero aHa(=w)\{n\} ny.t-sw.t 
+      \zero xpr(=w)\{tj\} Xr-HA.t=j\scansion}
+
+  \tg{accompli, accompli séquentiel}
+
+  \td{La royauté s'est levée, redevenue comme à mon début 
+      (\litt avant moi)}
+
+  \tcblower
+  \indent\tl{xpr=tj} : un accompli des intransitifs n'est pas 
+  compatible avec \tl{aHa\col n}, ça ne peut donc pas être une forme 
+  narrative.
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{15g}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15g}%
+    \caption{Paragraphe~XVg}%
+    \label{fig:par15g}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{15h}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15h}%
+    \caption{Paragraphe~XVh}%
+    \label{fig:par15h}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{XVg} 
+      \begin{possib}
+        \lgn{S.II} nn (\zero wn=w) m jr(w).t\col n=j / jr onn.w\\
+        \lgn{Mi20bis} nn (\zero wn=w) m jr(w).t\col n=j / m jr(w) 
+        o(n)\{A\}b\\
+        \lgn{DM1093} m jr mr=j m [\dots]\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{négation existentielle, \ppper / 
+      \begin{possib}
+        impératif\\
+        PPA séquentielle\\
+        ???\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{ 
+      \begin{possib}
+        Ce n'est pas quelque chose que j'ai fait, sois courageux !\\
+        Ce n'est pas quelque chose que j'ai fait comme un 
+        \frquote{captureur}\\
+        ???\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \tcblower
+  \indent Dans \lgn[enlarge by=0pt, on line]{Mi20bis}, \tl{oAb} est 
+  certainement une erreur pour \tl{onn}.
+
+  \lgn[enlarge by=0pt, on line]{DM1093} n'est pas lisible, il est 
+  peut-être corrompu.
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{XVh} saHa mnw.w=k smnx rwd=k \ex \scansion}
+
+  \tg{impératifs}
+
+  \td{Érige tes monuments, restaure tes temples/forteresses !}
+\end{hierobox}
+
+\CaptionPetit
+\begin{figure}[!h]
+  \settowidth{\graphicwidth}{\insertpar{15i}}%
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15i}%
+    \caption{Paragraphe~XVi}%
+    \label{fig:par15i}%
+  \end{minipage}%
+  \quad{}%
+  \settowidth{\graphicwidth}{\insertpar{15j}}
+  \begin{minipage}[t]{\graphicwidth}%
+    \centerfloat%
+    \insertpar{15j}%
+    \caption{Paragraphe~XVj}%
+    \label{fig:par15j}%
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{\lgn{XVi} aHA=k Hr rx(w).t Hr 
+      \begin{possib}
+        \lgn{S.II} xr(w)=k\\
+        \lgn{DM1093} xr(w) rxy.t\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \tg{}
+
+  \begin{gramrule}%
+    \td{Combats par ce qui est connu et 
+      \begin{possib}
+        \lgn{S.II} celui que tu connais\\
+        \lgn{DM1093} celui que les \emph{rékhyt} connaissent\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \tcblower
+  \indent On peut aussi envisager : 
+  \tl{aHA=k Hr(-nty.t Tw) rx=tj Hr rx rxy.t}, soit 
+  \td{combats parce que tu sais que tes sujets l'apprennent}
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{31/03/2015}%
+  \begin{gramrule}%
+    \tl{\lgn{XVj} Hr-nty(.t) nn (\zero wn=w) mr(w) n=f sw r-gs 
+      \begin{possib}
+        \lgn{S.II} Hm=f\\
+        \lgn{DM1093} Hm=k\\
+      \end{possib}
+      a.w.s. \scansion
+    }%
+  \end{gramrule}%
+
+  C'est bizarre ! Après \tl{nn (\zero wn=w)}, on attend forcément un 
+  nom, donc le participe \tl{mr(w)}. Mais :
+  \begin{itemize}
+    \item \tl{mr(w) sw}, \td{qui l'a aimé}
+    \item \tl{mr(w)\col n=f}, \td{qu'il a aimé}
+  \end{itemize}
+  En revanche, \tl{sw} \uline{et} \tl{\col n=f} en même temps, ça ne 
+  colle pas\dots
+  C'est peut-être alors une forme nominale perfective rare :
+  \td{il est impossible qu'il l'ait aimé}.
+  Ou alors, \tl{sw} est employé pour \tl{s.t} : 
+  \td{il n'y a personne qu'il l'ait souhaité \rem{(le combat)} à part 
+  Sa Majesté}.
+  Mais que faire du \tl{n=f} ? \td{souhaité pour lui-même} (d'avoir un 
+  fils combatif).
+
+  Avec \tl{Hm=k}, \td{\dots~plus que Ta Majesté}
+  % \tg{}
+
+  % \td{}
+\end{hierobox}
+
+
+\appendix
+\appendixpage
+
+\chapter[Extrait de la publication de \bsc{Helck}]
+        {Extrait de la publication de \bsc{Helck} \autocite{Helck}}
+\label{anx:pdf}
+
+Voir pages suivantes.
+
+% Les \emph{Spruch} sont les numéros de chapitre, les \emph{W} et 
+% \emph{T} en marge gauche valent respectivement pour \emph{Ounas} 
+% et \emph{Téti}, les numéros à gauche des lignes sont ceux des
+% publications officielles de chacune des pyramides, ceux à droite, 
+% ainsi que les lettres, correspondent aux paragraphes définis par 
+% \bsc{Sethe}.
+
+\includepdf[pages={2,4-9}, frame, noautoscale, scale=0.85,
+            pagecommand={\pagestyle{ruled}}]
+           {Helck_Lehre_Amenemhat}
+
+\backmatter
+\newpage
+
+\listoffigures
+
+\nocite{EG, Faulkner, GM, Hannig, TLA}
+\printbibliography[heading=memoir,title=Bibliographie]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

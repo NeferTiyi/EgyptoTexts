@@ -1,0 +1,629 @@
+%!TEX root = Kheops_Grandet_Histoire.htx
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\book{Voisins et ennemis de l'\kmt}\label{bk:PO}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \chapter{Proche et \MO au \NK{} \datesregne{1550}{1075} 
+%          \rem{(Murielle)}}
+\chapter{Proche et \MO au \NK{} 
+         \texorpdfstring{\datesregne{1550}{1075}}{(1550-1075)} 
+         \emph{\smaller{(Murielle)}}}
+%======================================================================
+
+\section{Situation géographique et définition des Proche et \MO}
+%----------------------------------------------------------------------
+
+\begin{figure}[htb]
+  \includegraphics[width=\textwidth]{PO_region}
+  \caption{Le \PO}
+  \label{fig:PO_region}
+\end{figure}
+
+Le \PO des Égyptiens était divisé en trois zones :
+\begin{itemize}
+  \item Canaan, entre le Jourdain et la Mer Méditerranée ;
+  \item Le Liban/plaine de la \Bqa, comprenant une partie montagneuse 
+        et une grande plaine ;
+  \item La Syrie, délimitée à l'est par l'Euphrate, au nord par le 
+        Taurus et de manière vague au sud-est.
+\end{itemize}
+
+\CaptionPetit
+\begin{wrapfigure}[16]{i}[1cm]{0pt}
+  \centerfloat
+  \includegraphics[width=0.5\textwidth]{PO_hygrometrie}
+  \caption{Hygrométrie}
+  \label{fig:hygro}
+\end{wrapfigure}
+\CaptionNormal
+
+Le \PO peut aussi être appelé Asie antérieure ou Levant\footnote{Terme 
+issu de la colonisation.}.
+Les autres grandes puissances en présence dans la région sont :
+\begin{itemize}
+  \item Le \Htt, pays des Hittites, dans la partie est de l'Asie 
+        mineure ;
+  \item La Babylonie, dans la partie basse de la Mésopotamie ;
+  \item Le \Mtn, ou Mésopotamie septentrionale, bordé au nord par les 
+        montagnes.
+\end{itemize}
+
+\bigskip
+
+Les isohyètes sont les lignes indiquant des précipitations 
+équivalentes.
+Entre \SI{100}{\mm\per\an} (limite du désert) et \SI{250}{\mm\per\an} 
+(limite de la steppe), les précipitations naturelles suffisent à une 
+agriculture pérenne.
+
+Cette région, située entre les montagnes et le désert, bénéficiant 
+d'une pluviométrie permettant la culture sans irrigation, est parfois 
+désignée comme le \frquote{croissant fertile}. Si on ajoute les 
+régions irriguées par les grands fleuves (Tigre, Euphrate, Nil), le 
+décor de naissance des grandes civilisations est planté.
+
+% \clearpage
+
+\section{Un réseau de routes commerciales dense}
+%----------------------------------------------------------------------
+
+\begin{figure}[htb]
+  \includegraphics[trim=9cm 0 23cm 6cm,clip,width=\textwidth]
+                  {PO_routes_1}
+  \caption{Routes commerciales au \PO}
+  \label{fig:PO_routes_1}
+\end{figure}
+
+Le Proche et le \MO sont parcourus par un réseau important de pistes, 
+prolongées par des voies maritimes. 
+
+L'obstacle principal est le désert. Hormis quelques pistes 
+relativement courtes où des puits et oasis étaient connus et 
+entretenus, le désert était toujours contourné à cette époque. En 
+effet, le chameau n'était pas encore utilisé et les caravanes étaient 
+constituées d'ânes, animaux ayant un besoin impératif d'eau potable.
+
+Trois grandes voies de communication se détachent :
+\begin{itemize}
+  \item La route est-ouest relie l'Asie centrale et la Méditerranée, 
+        en passant par les montagnes de l'est, Afghanistan, Ninive, 
+        Mushakami, Harran\footnote{aka Carrhes, où Crassus subit 
+        une défaite écrasante contre les Parthes en \ano{53}.}),
+        Karkémich, Alep et Ougarit. On reconnaît là le trajet 
+        principal de la route de l'étain, ou \frquote{route de la 
+        soie}.
+  \item La route sud-est/nord-ouest relie par l'Euphrate le Golfe 
+        Persique à Karkémich. C'est essentiellement une voie fluviale 
+        qui passe Babylone et Mari.
+  \item La route sud-ouest/nord-est relie l'\kmt à la Syrie, en 
+        passant par Memphis, Megiddo, détour obligé par la vallée 
+        du Jourdain, Hazor, Damas, Qadesh/Qatna, Alep. Sur cette 
+        route, Qadesh occupe une position stratégique car elle est 
+        située à l'intersection entre la route du désert venant de 
+        Tadmor/Palmyre et la trouée de Homs débouchant sur le port 
+        de Simyra.
+\end{itemize}
+
+On note d'emblée que la Syrie est au point de jonction de ces trois 
+voies. L'\kmt quant à elle est quelque peu désaxée par rapport à ce 
+réseau.
+
+Des routes annexes permettent la communication entre la grande voie 
+est-ouest et la voie fluviale de l'Euphrate, en passant notamment par 
+Suze et Assur. D'autres voies partent également vers le nord, en 
+direction du centre du \Htt.
+
+Une variante plus difficile passe par le désert, reliant Mari et 
+Qadesh en passant par Tadmor/Palmyre. 
+
+\subsection{Un produit stratégique : l'étain}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\CaptionPetit
+\begin{wrapfigure}[15]{i}[1cm]{0pt}
+  \centerfloat
+  \includegraphics[trim=1cm 1.2cm 0.8cm 1cm,clip,width=0.5\textwidth]
+                  {Syrie_NE}
+  \caption{Légende}
+  \label{fig:Syrie_NE}
+\end{wrapfigure}
+\CaptionNormal
+
+Ces routes acheminent un produit stratégique, l'étain, nécessaire à la 
+fabrication du bronze, utilisé pour l'outillage comme pour l'armement. 
+
+Les mines antiques étaient situées au nord de l'Afghanistan et au sud 
+du Turkménistan. La région a connu une exploitation intense des monts 
+stannifères dans l'antiquité. 
+
+L'étain arrive au \PO après un périple de plusieurs milliers de 
+kilomètres par deux voies principales :
+\begin{itemize}
+  \item Par terre : la route est-ouest décrite supra ;
+  \item Par voie fluviale et maritime : l'étain d'Afghanistan commence 
+        par descendre l'Indus jusqu'à l'Océan Indien. Le développement 
+        de la civilisation de l'Indus serait d'ailleurs lié au rôle 
+        commercial de la région. Puis l'étain remonte par le Golfe 
+        Persique. Le cabotage expliquerait aussi le développement de 
+        petites civilisations le long de cette route maritime, comme à 
+        Abou Dhabi où des sites archéologiques ont été retrouvés ou en 
+        Oman (mines de cuivre en plus). Puis la cargaison remonte par 
+        l'Euphrate et arrive à Mari. La ville tirait sa fortune de son 
+        rôle de répartiteur de l'étain au \PO (fin \MK-début \DPI).
+\end{itemize}
+
+On notera qu'une voie passe également par le cœur du pays hittite. 
+Au début du deuxième millénaire, les marchands Assyriens installent 
+un comptoir à Kanish, au cœur de l'Anatolie, afin de négocier l'étain 
+tout en faisant de gros profits. 
+
+\subsection{Les gisements de cuivre}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\CaptionPetit
+\begin{wrapfigure}[17]{i}[0cm]{0pt}
+  \centerfloat
+  \includegraphics[trim=53cm 17cm 22cm 16cm,clip,width=0.5\textwidth]
+                  {Peutinger}
+  \caption{Table \no11 de Peutinger}
+  \label{fig:Peutinger}
+\end{wrapfigure}
+\CaptionNormal
+
+Bien que le cuivre soit beaucoup moins rare que l'étain, on mentionne 
+deux principaux gisements de cuivre, considérablement exploités dans 
+la période qui nous intéresse :
+\begin{itemize}
+  \item Chypre : les exploitations chypriotes, essentiellement 
+        situées dans la partie occidentale de l'île, ont fourni 
+        environ \SI{80}{\percent} de la production antique.
+  \item \Timna : situées sur la Mer Rouge au fond du Golfe d'Aqaba, 
+        ces mines sont exploitées par les Égyptiens à partir de la 
+        \dyn{19}.
+\end{itemize}
+
+\donc~Étain et cuivre sont des matières aussi stratégiques pour 
+les civilisations antiques que le pétrole pour notre civilisation
+contemporaine.
+
+D'où la question : que se passe-t-il si des gens malintentionnés 
+coupent les routes commerciales qui permettent l'approvisionnement 
+de ces matières premières ?
+
+La route est-ouest était la plus utilisée et comportait de nombreux 
+embranchements. Le triangle du Khabour constituait un lieu crucial. 
+Le Khabour et le Jaghjagh sont des affluents de l'Euphrate. 
+Les rivières descendant du Taurus forment à cet endroit un delta 
+intérieur, contraint de passer par un étroit goulet. La région est 
+une voie de communication d'où la présence de nombreux tells, sites 
+archéologiques. \ReA, \frquote{le sommet de la source} était considéré 
+comme source du Khabour.
+
+Les \source{Tables de Peutinger} sont une copie en douze tables, 
+datées du \siecle{13}, du système de communication de l'Empire 
+romain, de l'Inde aux Îles britanniques. L'original datait sans doute 
+de Théodose (\anorange[0]{379}{395}), soit un Empire romain déjà 
+christianisé. Mais il reproduisait peut-être un document plus ancien 
+comme le suggère la mention de Pompéi, pourtant détruite en \ano{79} 
+et oubliée. Ces tables ne sont pas à proprement parler des cartes, 
+mais des itinéraires. Les étapes, leur ordre, leur nom, leur longueur, 
+sont mentionnées. 
+
+Ce réseau routier ne remonte pas jusqu'à l'antiquité égyptienne, mais 
+tout de même au début de notre ère et passait sans doute par les mêmes 
+routes que les routes antiques.
+
+La \frquote{route de l'étain} est-ouest est représentée sur la 
+table~\no11 de Peutinger consacrée à la Colchide et la Mésopotamie. 
+Elle passe par Nissibine et Ceylanpinar (turc)/\ReA indiqué sous le 
+nom de Ressaina.
+
+Autre mention intéressante : \emph{Fons Scaborae}, \frquote{source du 
+Khabour}, indiqué à un emplacement plus en aval que la source réelle.
+
+On pense que \ReA/Tell Fekheriyé correspond à la ville antique de 
+Waschschukani, capitale du \Mtn. Cet emplacement était idéal car situé 
+sur la principale voie de communication de l'étain.
+
+% \capstartfalse
+\begin{figure}[htb]
+  \includegraphics[width=0.75\textwidth]{Mitanni}
+  % \caption{}
+  \label{fig:Mitanni}
+\end{figure}
+% \capstarttrue
+
+\section{Deux débouchés sur la Méditerranée}
+%----------------------------------------------------------------------
+
+Si le réseau de pistes commerciales est assez dense, il ne permet 
+qu'en deux endroits de traverser les montagnes pour atteindre la 
+Méditerranée :
+\begin{itemize}
+  \item Ougarit est situé au débouché de la route principale est-ouest 
+        passant par Washukani, Karkémich et Alep.
+  \item Simyra est situé au débouché de la route fluviale menant 
+        jusqu'à Mari, puis à travers le désert par Tadmor/Palmyre 
+        jusqu'à Qatna/Qadesh, enfin par la trouée de Homs jusqu'à 
+        la mer.
+\end{itemize}
+
+Simyra et Ougarit étaient donc les deux principaux ports du \PO dans 
+l'Antiquité, et d'ailleurs, géographie oblige, aujourd'hui encore. 
+Le réseau de pistes se prolonge par voie maritime afin de poursuivre 
+l'acheminement de l'étain vers l'ouest en direction de l'archipel 
+égéen. Toutefois les deux ports n'étaient pas équivalents en raison 
+des vents et des courants.
+
+\subsection{Les vents et les courants spécifiques de la Méditerranée}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[htb]
+  \includegraphics[height=5cm]{MedSea_1} %
+  \includegraphics[trim=3.5cm 0 1.5cm 0,clip,height=5cm]{MedSea_2}%
+  \caption{Courants et vents dominants en Méditerranée orientale}
+  \label{fig:MedSea}
+\end{figure}
+
+Les bateaux antiques avaient des fonds assez plats, des voiles 
+rectangulaires traversant le bateau, sans aileron, avec très peu 
+de quille. Ils ne pouvaient donc évoluer que poussés par le vent. 
+Si ceux-ci n'étaient pas favorables, ils étaient soumis aux courants. 
+
+Le niveau de l'Océan atlantique est plus élevé que celui de la 
+Méditerranée. L'eau s'engouffre donc par le détroit de Gibraltar, 
+générant un courant qui fait le tour de la Méditerranée dans le sens 
+contraire des aiguilles d'une montre. 
+
+Par ailleurs, les vents étésiens (ou Meltem) soufflent presque en 
+permanence. Ils sont générés par la présence de hautes pressions sur 
+les Balkans et d'une dépression sur l'Anatolie et soufflent avec une 
+direction quasi constante du nord vers le sud-ouest. Ces vents 
+étésiens rendent la navigation de la mer Égée vers l'\kmt très facile. 
+
+En suivant le courant combiné de la mer et du vent, il est facile de 
+rejoindre Ougarit puis de poursuivre vers l'ouest ; c'est donc parfait 
+pour l'acheminement de l'étain. On passait par Oura, le principal port 
+des Hittites, puis par Chypre au nord-ouest, exutoire des mines de 
+cuivre d'Apliki, puis vers la mer Égée chargés de cuivre et d'étain. 
+Des épaves de bateaux antique coulés ont été retrouvés le long de 
+cette côte turque, notamment près du cap Uluburun, près de Kas, 
+chargés de lingots de cuivre (à \SI{90}{\percent}) et d'étain (à 
+\SI{10}{\percent}, pas de hasard\dots) et d'objets d'exportation 
+égyptiens comme le verre. 
+
+\CaptionPetit
+\begin{wrapfigure}[10]{i}[0cm]{0pt}
+  \centerfloat
+  \includegraphics[width=4cm]{lingot_cuivre}
+  \caption{Lingot de cuivre}
+  \label{fig:lingot_cuivre}
+\end{wrapfigure}
+\CaptionNormal
+
+Deux épaves antiques ont été découvertes en Lycie, dans la région 
+d'Antalya. Toute cette côte est jalonnée d'épaves, antiques comme 
+contemporaines. Deux notamment sont antérieures à la période 
+gréco-romaine et contemporaines du \NK :
+
+\begin{itemize}
+  \item Une trouvée près du cap Gelydonia, très détériorée. On y a 
+        notamment retrouvé des paniers remplis d'objets de bronze 
+        détériorés, destinés au recyclage.
+  \item Une trouvée au cap Uluburun, dont le chargement est 
+        bien conservé. Sa cargaison comprenait une cargaison 
+        internationale : des œufs d'autruche (récipients de luxe), 
+        de la résine de térébenthine, du verre égyptien en lingots, 
+        des lingots de cuivre et d'étain en forme d'oreiller, une 
+        bague en or au nom de Néfertiti –- le naufrage est donc
+        nécessairement postérieur à la fin de la \dyn{18}.
+\end{itemize}
+
+% \bigskip
+
+\CaptionPetit
+\begin{wrapfigure}[14]{o}[0cm]{0pt}
+  \centerfloat
+  \includegraphics[width=0.5\textwidth]{Chypre}
+  \caption{Chypre}
+  \label{fig:Chypre}
+\end{wrapfigure}
+\CaptionNormal
+
+Il était en revanche difficile d'aller en sens inverse. C'était 
+cependant possible au sud de Chypre grâce à un tourbillon dans la mer 
+permettant d'aller vers l'est. Le port de Bamboula/Kition/Larnaca, au 
+sud de Chypre, à l'estuaire d'une rivière descendant des hautes 
+terres, permettait de rejoindre le port de Simyra. La montagne 
+Troodos, riche en cuivre, permet en descendant le versant nord, 
+d'exporter vers l'ouest, et en descendant le versant sud, d'exporter 
+vers l'est. 
+
+% \begin{figure}[htb]
+%   \includegraphics[width=0.5\textwidth]{Chypre}
+%   \caption{Chypre}
+%   \label{fig:Chypre}
+% \end{figure}
+
+Les deux ports du Levant que sont Simyra et Ougarit ont donc des 
+fonctions différentes : Simyra permet l'importation du cuivre issu 
+de Chypre au \PO tandis que qu'Ougarit joue un rôle beaucoup plus 
+important en permettant l'exportation de l'étain. 
+
+% \capstartfalse
+\begin{figure}[htb]
+  \includegraphics[height=7cm,trim=0 2.5cm 11cm 0.5cm,clip]
+                  {route_campagne}%
+  % \quad%
+  % \caption{}
+  \label{fig:route_campagne}
+  \hfill%
+  \includegraphics[height=7cm]{Hatti}%
+  % \caption{}
+  \label{fig:Hatti}
+\end{figure}
+% \capstarttrue
+
+À l'est de Simyra/Tell Kazel se trouve la \frquote{trouée de Homs} 
+qui relie Simyra et Qadesh. Qadesh est à la jonction de la route 
+nord-sud reliant l'\kmt à Alep via la plaine de la \Bqa et de la 
+route est-ouest passant par Tadmod/Palmyre. À mi-chemin de la trouée 
+de Homs se trouve également un embranchement menant vers le nord, la
+piste de la Bouqi{\ain}a qui mène à Tounip. Simyra est proche de la 
+plaine de l'Akkar appelé l'Amourrou par les Égyptiens, entre Tripoli 
+au Liban et la Syrie.
+
+% \section{Deux états \frquote{ennemis} de l'\kmt{} : le \Mtn et le \Htt}
+\section{Deux états 
+         \texorpdfstring{\og}{"}ennemis\texorpdfstring{\fg}{"} 
+         de l'\kmt{} : le \Mtn et le \Htt}
+%----------------------------------------------------------------------
+
+Les deux principaux états que sont le \Mtn et le \Htt vont être tour 
+à tour, à la \dynum{18} et à la \dyn{19}, les adversaires de 
+l'\kmt au \NK. Le \Mtn est situé entre le Tigre et l'Euphrate, entre 
+le désert et la montagne, apparaît au début de la \DPI, vers 
+\ano{1600}. Il englobe l'Assyrie avant qu'elle ne soit indépendante. 
+Le \Htt, centré sur la Cappadoce, est enclavé dans les montagnes dans 
+la partie orientale de l'Asie mineure.
+
+\subsection{Le \Htt}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+L'existence des Hittites est attestée vers \ano{1900} en Anatolie. 
+C'est alors une puissance étrangère de faible importance. Les grands 
+états de l'époque sont les états amorrites qui se situent en 
+Mésopotamie, à Babylone, et dont l'influence s'étend à travers 
+différents états jusqu'en Syrie. Ils se situent dans la plaine 
+cultivable en arc de cercle en contrebas des montagnes, entre steppe 
+et désert.
+
+Au sein du \Htt, l'une des villes les plus importantes est Kanish 
+qui tient quasiment le rôle de capitale. C'était aussi un comptoir 
+assyrien (alors sujets babyloniens) qui permettait l'importation de 
+métaux. Faute de possibilités agricoles, les Hittites s'orientent en 
+effet vers la métallurgie.
+
+Le raid de Moursil~I\ier, roi du \Htt, jusqu'à Babylone, change la 
+donne. Il s'agissait sans doute de protester contre les tarifs abusifs 
+pratiqués. À son retour, Moursil~I\ier est assassiné et le \Htt 
+retombe dans une semi-anarchie jusqu'à la \dyn{19}. Toujours est-il 
+que ce raid est à l'origine de l'effondrement du royaume de Babylone 
+et de toutes les cités-états de Syrie, parmi lesquelles le royaume de 
+Yamkhad dont la capitale est Alep. En raison du vide politique qui 
+s'ensuit, les gens qui étaient tenus en lisière dans les montagnes 
+vont descendre dans les plaines. C'est le cas des Kassites en 
+Babylonie et des Mitanniens en Basse Mésopotamie. 
+
+% \capstartfalse
+\begin{figure}[htb]
+  \includegraphics[width=\textwidth]{PO_routes_2}
+  % \caption{}
+  \label{fig:PO_routes_2}
+\end{figure}
+% \capstarttrue
+
+\subsection{Le \Mtn}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cet état apparaît vers \ano{1600}. Le \Mtn est une construction 
+étatique résultant de l'association de deux couches de population :
+\begin{itemize}
+  \item Des indo-aryens, venus de l'est par la voie de l'étain 
+        (cf.~onomastique védique). C'est une société structurée 
+        autour d'une forme de chevalerie, d'où l'introduction du 
+        char et du cheval. Les conducteurs de chars sont les 
+        \emph{maryah}, terme védique signifiant \frquote{jeunes 
+        nobles}, ce qui donne \emph{maryannou} une fois sémitisé. 
+        Les nobles étaient ceux qui avaient les moyens d'entretenir 
+        un char.
+  \item Des Hourrites, ethnie mystérieuse qui n'a jamais fondé un 
+        état qui lui soit propre mais dont la démographie très 
+        importante a largement contribué au peuplement du \PO. Ils 
+        seraient originaires de la région du lac de Van, dans le 
+        Caucase. Ils se sont répandus dans tout le \PO à partir de 
+        la \DPI. Ainsi, Canaan était désigné par les Égyptiens comme 
+        le Kharou, le \frquote{pays des Hourrites}. Leur langue est 
+        mal connue et considérée inclassable ; elle n'est ni védique 
+        ni indo-européenne mais appartient à la famille des langues 
+        agglutinantes.
+\end{itemize}
+
+L'état du \Mtn est donc constitué par une population hourrite et des 
+cadres mitanniens. Les Égyptiens l'appelait Naharin et parfois Hourri. 
+
+\subsection{Les rapports entre l'\kmt et le \Mtn}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+C'est sous Thoutmosis~I\ier que l'on a la première mention du \Mtn 
+dans des textes égyptiens. Son règne est apparemment une période de 
+paix internationale. 
+
+L'apogée du conflit entre l'\kmt et le \Mtn a lieu sous Thoutmosis~III 
+et Aménophis~II. 
+
+Puis, face au réveil de la puissance hittite, le \Mtn va se rapprocher 
+de l'\kmt car les Hittites sont alors perçus comme des ennemis plus 
+proches et plus menaçants. Ce type de configuration à trois va se 
+renouveler au cours du \NK, impliquant l'\kmt, un premier ennemi, 
+puis un nouvel adversaire jusqu'alors léthargique\footnote{Fin 
+\dynum{18}–début \dyn{19}, le conflit Hittites/\kmt évoluera de 
+manière similaire face à la montée en puissance des Assyriens comme 
+nouvelle grande puissance indépendante.}.
+
+Sous Akhénaton, les Hittites deviennent une grande puissance et 
+imposent au \Mtn un protectorat. 
+
+Au début du \NK, l'expansion du \Mtn se fait vers l'ouest et le 
+sud-ouest, le long des routes d'approvisionnement de l'étain, en 
+Cilicie, jusqu'en Méditerranée. Il s'étend même jusqu'au pays de 
+Canaan. C'est moins une expansion militaire que l'extension d'une 
+influence politique et culturelle. Sans doute est-elle liée au 
+prestige culturel acquis par le \Mtn comme ayant introduit le cheval 
+et la charrie au \PO. On mesure notamment cette influence au fait que 
+des gens du \PO, des princes même, portent des noms mitanniens. 
+
+Dans ce contexte, l'\kmt peut craindre que si le \Mtn annexe la Syrie, 
+il pourrait détenir le monopole du commerce de l'étain. Le raid de 
+Thoutmosis Ier est la réponse égyptienne à cette expansion du \Mtn. 
+La politique étrangère des pharaons du \NK plus généralement aura 
+toujours pour but de garantir l'approvisionnement de l'\kmt en étain. 
+Le raid de Thoutmosis~I\ier est un exemple de la mise en œuvre de 
+cette politique, employant clairement une politique d'intimidation. 
+Le but n'est pas de faire des conquêtes inutiles et impossibles à 
+conserver ; il s'agit d'atteindre Karkémich, principal point de 
+traversée de l'Euphrate. Il s'agit de faire passer le message que 
+l'annexion de la Syrie de sera pas tolérée par les Égyptiens. Cette 
+mise en garde est rendue effective sous Thoutmosis~III qui revient 
+effectivement, franchit l'Euphrate et attaque le \Mtn sur son sol. 
+Ce qui est la preuve que l'intimidation n'avait pas marché\dots
+
+
+\chapter[Le royaume de Kerma]
+        {\protect\faitle{22/01/2013}Le royaume de Kerma}
+\label{cha:Kerma}
+%======================================================================
+
+\section{Relation avec l'\kmt}
+%----------------------------------------------------------------------
+
+L'île de Saï, d'une superficie de \SI{50}{\km} ne sera utilisée par 
+l'\kmt qu'à partir du \NK.
+Plus au sud, c'est la troisième cataracte, et au-delà, le royaume 
+de Kerma, une civilisation indigène formant un état indépendant.
+Les élites présentent des traits empruntés à l'\kmt. Mais Kerma 
+n'ayant pas développé d'écriture, on la connaît très mal. Les 
+Égyptiens la nomment \emph{Kouch}.
+
+Son rôle d'intermédiaire commercial auprès de l'\kmt{} \incise{et 
+ce depuis toujours} fait que son destin est très lié à celui de son 
+voisin. Au \MK, c'est une civilisation brillante.
+Mais si l'\kmt enrichie Kerma, elle représente aussi une gêne. À la 
+\DPI sous les Hyksos, les égyptiens ne pouvant plus maintenir leur 
+réseau de forteresses, Kerma s'en empare.
+
+Kerma classique ?\nospace{??} 
+
+Des postes fortifiés étaient établis en hauteur au niveau de la 
+troisième cataracte. 
+
+Les villes étaient au bord du Nil, les nécropoles dans le désert.
+
+\section{La ville de Kerma}
+%----------------------------------------------------------------------
+
+La capitale, Kerma, était située dans une zone agricole.
+
+On a des traces d'une enceinte fortifiée, d'un réseau dense 
+d'habitations, de quelques palais. 
+
+Au centre, un massif de briques crues de \SI{18}{\m} de haut, la 
+\frquote{deffoufa\footnote{Deffoufa = \td{massif de briques} en 
+nubien.} occidentale}. C'est un bâtiment plein, à l'exception d'un 
+escalier et d'une pièce de \SI{3.50x0.50}{\m} au niveau d'un palier. 
+On suppose qu'il s'agit du soubassement de quelque chose, temple ou 
+palais.
+
+Tout autour, se trouvent des quartiers d'artisans dans lesquels on 
+a trouvé des briques cuites alors que ça n'apparaît pas avant les 
+Romains en \kmt ! Mais c'est un incendie qui les a cuite\dots
+On a également trouvé, dans des celliers, des sceaux d'argile avec le 
+nom des rois Hyksos (Kerma est en communication avec les Hyksos à la 
+\DPI).
+
+Au fond, on a un complexe palatial. 
+
+Une structure circulaire à double enceinte a été interprétée comme le 
+premier palais. Des traces de trous de poteaux font penser à quelque 
+chose de similaire aux cases africaines encore en usage.
+
+Les maisons sont placées dans des enclos à ciel ouvert, de même type 
+que les maisons traditionnelles actuelles.
+
+\section{La nécropole}
+%----------------------------------------------------------------------
+
+Les tombes, de toutes tailles, sont circulaires (jusqu'à 
+\SI{50}{\m} de diamètre). Ce sont en fait des tumulus 
+(\fref{fig:Ktum}) dont le tour était marqué par un semis d'éclats de 
+basalte qui contraste bien avec le sable du désert. Un grand couloir 
+transversal donnait accès à la chambre funéraire, au centre, contenant 
+des offrandes et les corps de sacrifiés (femmes, béliers). Des murs 
+latéraux permettaient d'assurer sa forme au tumulus une fois rempli de 
+sable. Seule la chambre était protégée par un toit.
+
+\begin{figure}[htb]
+  \includegraphics[width=0.33\textwidth]{kerma_tumulus_1}%
+  \qquad%
+  \includegraphics[width=0.33\textwidth]{kerma_tumulus_2}%
+  \caption{Kerma : tumulus}
+  \label{fig:Ktum}
+\end{figure}
+
+
+Deux édifices rectangulaires étaient des temples associés aux tombes.
+La \frquote{deffoufa orientale} est le temple associé à la tombe 
+\no\num{3}. Elle comporte une petite salle à colonnes au centre, une 
+rampe d'accès au toit, est décorée d'un disque ailé et d'autres 
+éléments de style égyptien. Mais il s'agit d'une réalisation locale. 
+Il y avait peut-être des architectes, artisans, scribes égyptiens au 
+service des rois de Kouch, mais ce n'était certainement pas les 
+meilleurs : les murs sont plus épais que la salle n'est large\dots
+
+\bigskip
+
+\begin{warning}
+  Il existe bel et bien une culture indigène ! Les emprunts à l'\kmt 
+  existent, mais seulement chez les élites, pour les objets de 
+  prestiges.
+\end{warning}
+
+\bigskip
+
+Plus tard, Kerma entretiendra des relations commerciales avec la 
+Méditerranée (sceaux hyksos, poteries de Kerma trouvées en Crète) via 
+les pistes du désert.
+
+
+\chapter{Le \Htt}
+%=====================================================================
+
+La capitale est Hattoucha sur le site moderne de Boghaz-köy. C'est 
+une ville fortifiée dans une zone montagneuse. Elle comprend :
+\begin{itemize}
+  \item ville haute
+  \item ville basse
+  \item acropole (Büyükkalé) : palais royal, dépôts d'archives
+  \item voie sacrée, pont vers le sanctuaire à ciel ouvert de 
+        Yazilikaya, situé dans un chaos rocheux décoré de bas-reliefs 
+        représentant le panthéon hittite.
+\end{itemize}
+
+Dans les années \ano[0]{1950}s, des bergers ont retrouvé des 
+lettres tombées au pied de l'acropole après la destruction des 
+dépôts d'archives.
+
+Les dieux sont tous représentés debout sur deux choses, 
+caractéristiques de leur nature. Les principaux sont le dieu 
+Téchoub et la déesse Khépat.

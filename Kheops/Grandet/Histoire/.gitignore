@@ -1,0 +1,8 @@
+*.dat
+# Ignore tex files except a few ones
+*.tex
+Kheops_Grandet_Histoire_Chap7_NE.htx
+!Kheops_Grandet_Histoire_ChronoBase.tex
+!Kheops_Grandet_Histoire_ChronoDF.tex
+!Kheops_Grandet_Histoire_map.tex
+!Kheops_Grandet_Histoire_map_cmd.tex

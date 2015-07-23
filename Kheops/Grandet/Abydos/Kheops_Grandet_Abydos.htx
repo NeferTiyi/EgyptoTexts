@@ -1,0 +1,160 @@
+\documentclass[%
+  % draft, %
+  hiero, %
+  background, %
+  dvipsnames, %
+  svgnames, %
+  a4paper, %
+  twoside, %
+  openany, %
+  10pt, %
+  oldfontcommands %
+]{nefermemoir}
+
+\includeonly{%
+  Kheops_Grandet_Abydos_1,
+  Kheops_Grandet_Abydos_2,
+  % Kheops_Grandet_Abydos_3,
+  % Kheops_Grandet_Abydos_4,
+  % Kheops_Grandet_Abydos_5,
+  % Kheops_Grandet_Abydos_6,
+  % Kheops_Grandet_Abydos_7,
+  % Kheops_Grandet_Abydos_8,
+  % Kheops_Grandet_Abydos_9,
+}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  backgrounds,
+  calc,
+  patterns,
+  shapes.multipart,
+  arrows,
+  arrows.meta,
+  positioning,
+  shadows,
+  decorations.text
+}
+\usepackage{neferkheops}
+
+\counterwithout{figure}{part}
+\counterwithin{figure}{chapter}
+
+\makeatletter
+  \renewcommand\@memmain@floats{%
+    \counterwithin{figure}{chapter}
+    \counterwithin{table}{chapter}
+  }
+\makeatother
+
+\newcommand{\DirUtils}{../../../../utils}
+\newcommand{\DirImage}{../../../../images}
+
+\graphicspath{%
+  {\DirImage/Kheops/Grandet/Abydos/}%
+  {\DirImage/Kheops/Grandet/Abydos/Week1/}%
+  {\DirImage/Kheops/Grandet/Abydos/Week2/}%
+  {\DirImage/Kheops/Grandet/Histoire/}%
+  {\DirImage/Kheops/Grandet/Histoire/TBC/}%
+}
+
+\sideparmargin{outer}
+
+\setlength\fboxsep{0.5mm}
+
+\DeclareRobustCommand{\pucenum}[1]{%
+  \texorpdfstring{%
+    \tikz[baseline=(n.base)]{%
+      \node (n) [draw, circle, inner sep=2pt] {\smaller#1} ;%
+    }%
+  }%
+  {#1}%
+}
+
+\newcommand{\insertpar}[2]{%
+  \includegraphics[#1]{#2}
+}
+\newlength{\graphicwidth}
+
+%======================================================================
+\title{Abydos}
+\short{Abydos}
+\subtitle{}
+\lecturer{\PG}
+\orga{Cours de \textsf{l'\IK} par}
+\author{\SL}
+% \author{Sonia~\bsc{Labetoulle}}
+\date{Avril - juin 2015}
+
+\hypersetup{%
+  pdftitle  = {Abydos, cours de \PG à l'\IK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\addbibresource{\DirUtils/Egypto.bib}
+
+\backgroundsetup{%
+  opacity  = 0.18,
+  contents = \includegraphics{Grandet_Abydos_1-000},
+  % position  = current page.center,
+  % position = {0,-35},
+  vshift   = -1.5cm,
+  scale    = 0.5
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\tableofcontents*
+
+\mainmatter
+\CaptionNormal
+\include{Kheops_Grandet_Abydos_1}
+\include{Kheops_Grandet_Abydos_2}
+\include{Kheops_Grandet_Abydos_3}
+\include{Kheops_Grandet_Abydos_4}
+\include{Kheops_Grandet_Abydos_5}
+\include{Kheops_Grandet_Abydos_6}
+\include{Kheops_Grandet_Abydos_7}
+\include{Kheops_Grandet_Abydos_8}
+\include{Kheops_Grandet_Abydos_9}
+
+% \appendix
+% % \appendixpage
+
+% \phantomsection
+% \addcontentsline{toc}{book}{\appendixpagename}
+% \book*{\appendixpagename}
+
+% % \book{\appendixpagename}
+% % \book*{\appendixpagename}
+% % \addcontentsline{toc}{book}{\appendixpagename}
+
+\backmatter
+\newpage
+\listoffigures
+\listoftables
+
+% \nocite{*}
+\printbibliography[heading=memoir,title=Bibliographie]
+
+% % .. Quatrième de couv' ..
+% \cleardoublepage
+% \pagestyle{empty}
+% ~\newpage
+% ~\BgThispage
+
+% \printglossary
+% \printindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

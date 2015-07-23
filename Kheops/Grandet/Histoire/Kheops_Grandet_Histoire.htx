@@ -1,0 +1,441 @@
+\documentclass[%
+  draft, %
+  hiero, %
+  background, %
+  dvipsnames, %
+  svgnames, %
+  a4paper, %
+  twoside, %
+  openany, %
+  10pt, %
+  oldfontcommands %
+]{nefermemoir}
+
+\includeonly{%
+  Kheops_Grandet_Histoire_Chap0_Intro,
+  Kheops_Grandet_Histoire_Chap1_PD,
+  Kheops_Grandet_Histoire_Chap2_PT,
+  Kheops_Grandet_Histoire_Chap3_AE,
+  Kheops_Grandet_Histoire_Chap4_PPI,
+  Kheops_Grandet_Histoire_Chap5_ME,
+  Kheops_Grandet_Histoire_Chap6_DPI,
+  Kheops_Grandet_Histoire_Chap7_NE_a,
+  Kheops_Grandet_Histoire_Chap7_NE_b,
+  Kheops_Grandet_Histoire_Chap7_NE_c,
+  Kheops_Grandet_Histoire_Chap8_PO,
+  Kheops_Grandet_Histoire_KVTombs,
+  % Kheops_Grandet_Histoire_TT,
+  Kheops_Grandet_Histoire_map,
+  Kheops_Grandet_Histoire_ChronoDF,
+}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  backgrounds,
+  calc,
+  patterns,
+  shapes.multipart,
+  arrows,
+  arrows.meta,
+  positioning,
+  shadows,
+  decorations.text
+}
+\usepackage{pdfpages}
+\usepackage{multicol}
+% \usepackage{minitoc}
+\usepackage{rotating}
+\usepackage[version=3]{mhchem}
+\usepackage{neferkheops}
+\usepackage{arabtex}
+
+% \makeindex
+% \makeglossary
+
+\addtolength{\columnsep}{15pt}
+
+\newcommand{\DirUtils}{../../../../utils}
+\newcommand{\DirImage}{../../../../images}
+
+\graphicspath{%
+  % {\DirUtils/}%
+  {\DirImage/Kheops/Grandet/Histoire/}%
+  % {\DirImage/Kheops/Grandet/Histoire/TBC/}%
+  % {\DirImage/Kheops/Grandet/Histoire/TBC/pdf/}%
+  {\DirImage/Kheops/Grandet/Histoire/TBC/KV/}%
+  {\DirImage/Barbotin/}%
+}
+
+% \addtolength{\intextsep}{-0.5\baselineskip}
+% % \addtolength{\intextsep}{-\baselineskip}
+
+\sideparmargin{outer}
+
+\setlength\fboxsep{0.5mm}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+
+\DeclareRobustCommand{\pucenum}[1]{%
+  \texorpdfstring{%
+    \tikz[baseline=(n.base)]{%
+      \node (n) [draw, circle, inner sep=2pt] {\smaller#1} ;%
+    }%
+  }%
+  {#1}%
+}
+
+\DeclareRobustCommand{\SethiWar}[1]{%
+  \tikz[baseline=(n.base)]{%
+    \node (n) [draw] {#1} ;%
+  }%
+}
+
+\newcommand{\includeKV}[4][0]{%
+  \includepdf[pages=-, noautoscale, scale=0.85, %
+              pagecommand={\pagestyle{ruled}}, angle=#1, %
+              addtotoc={1, section, 1, #2, #3}]%
+             {#4}%
+}
+
+\newcommand{\kvlabel}[1]{\sffamily\kv{#1}}
+\newenvironment{kvlist}
+  {\begin{list}{}{%
+     \addtolength\itemsep{-0.25\baselineskip}
+     % \setlength\itemsep{0.8\baselineskip}
+     \let\makelabel\kvlabel%
+     \setlength\labelwidth{3.5em}%
+     \setlength\leftmargin{\labelwidth+\labelsep}%
+   }
+  }
+  {\end{list}}
+
+\newcommand{\KVitem}[3]{%
+  \item[#1]#3 \cftdotfill{\cftdotsep}{\smaller p.~\pageref{#2}}
+}
+
+\newlength{\marge}
+
+% \input{Kheops_Grandet_Glossaire}
+
+\DeclareCiteCommand{\citeauthor}{%
+  % \defcounter{maxnames}{99}%
+  % \defcounter{minnames}{99}%
+  % \defcounter{uniquename}{2}%
+  \boolfalse{citetracker}%
+  \boolfalse{pagetracker}%
+  \usebibmacro{prenote}%
+}{%
+  \ifciteindex{\indexnames{labelname}}{}%
+  \printnames[first-last]{labelname}%
+}%
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\citetitle}{%
+  \boolfalse{citetracker}%
+  \boolfalse{pagetracker}%
+  \usebibmacro{prenote}%
+}{%
+  \ifciteindex{\indexfield{indextitle}}{}%
+  \printtext[bibhyperref]{\printfield[citetitle]{labeltitle}}%
+}%
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+
+
+\setlength{\heavyrulewidth}{0.1em}
+
+\renewcommand{\tabularxcolumn}[1]{C{#1}}
+
+\newcolumntype{+}{>{\global\let\currentrowstyle\relax}}
+\newcolumntype{^}{>{\currentrowstyle}}
+\newcommand{\rowstyle}[1]{%
+  \gdef\currentrowstyle{#1}#1\ignorespaces%
+}
+
+
+%======================================================================
+\title{Histoire de l'\kmt}
+\short{Histoire de l'\kmt}
+\subtitle{de la Préhistoire au \NK}
+\lecturer{\PG}
+\orga{Cours de \textsf{l'\IK} par}
+\author{\SL}
+\date{mars 2012 - décembre 2014}
+
+\hypersetup{%
+  pdftitle  = {L'\kmt de la Préhistoire au \NK, cours de \PG à l'\IK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\input{Kheops_Grandet_Histoire_tikz}
+
+\addbibresource{\DirUtils/Egypto.bib}
+
+\backgroundsetup{%
+  opacity   = 0.18,
+  contents  = \includegraphics{DeB_Hathor},
+  % position  = current page.center,
+  scale     = 0.5
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% \input{\DirUtils/NeferBabel}
+
+\thispagestyle{empty}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\tableofcontents*
+
+\mainmatter
+\CaptionNormal
+\include{Kheops_Grandet_Histoire_Chap0_Intro}
+\include{Kheops_Grandet_Histoire_Chap1_PD}
+\include{Kheops_Grandet_Histoire_Chap2_PT}
+\include{Kheops_Grandet_Histoire_Chap3_AE}
+\include{Kheops_Grandet_Histoire_Chap4_PPI}
+\include{Kheops_Grandet_Histoire_Chap5_ME}
+\include{Kheops_Grandet_Histoire_Chap6_DPI}
+\include{Kheops_Grandet_Histoire_Chap7_NE_a}
+\include{Kheops_Grandet_Histoire_Chap7_NE_b}
+\include{Kheops_Grandet_Histoire_Chap7_NE_c}
+\include{Kheops_Grandet_Histoire_Chap8_PO}
+
+\appendix
+% \appendixpage
+
+\phantomsection
+\addcontentsline{toc}{book}{\appendixpagename}
+\book*{\appendixpagename}
+
+% \book{\appendixpagename}
+% \book*{\appendixpagename}
+% \addcontentsline{toc}{book}{\appendixpagename}
+
+\include{Kheops_Grandet_Histoire_KVTombs}
+\include{Kheops_Grandet_Histoire_TT}
+\include{Kheops_Grandet_Histoire_map}
+\include{Kheops_Grandet_Histoire_ChronoDF}
+
+\backmatter
+\newpage
+\listoffigures
+\listoftables
+
+\nocite{*}
+\printbibliography[heading=memoir,title=Bibliographie]
+
+% % .. Quatrième de couv' ..
+% \cleardoublepage
+% \pagestyle{empty}
+% ~\newpage
+% ~\BgThispage
+
+% \printglossary
+% \printindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+Biblio
+=======================================================================
+BIFAO 101 : Hor
+http://www.egiptologia.com/historia-de-la-egiptologia/331-vida-y-obra-de-jacques-de-morgan-el-descubridor-de-la-prehistoria-de-egipto.html?start=4
+http://www.ancient-egypt.co.uk/people/the-temple.htm
+http://tinebagh.wordpress.com/
+http://ancienegypte.fr/guizeh/page19.html
+http://djeserdjeserou.blogs-de-voyage.fr/2010/11/03/le-mur-du-sphinx/
+http://www.touregypt.net/featurestories/sphinx1.htm
+
+
+=======================================================================
+
+Karnak, Amenophis II
+--------------------
+Within the last courtyard, on the eastern wall, is a monument built by Amenhotep II. Borchardt believed that this small building was a sed-festival kiosk of Amenhotep II, which had been destroyed by Akhenaten. He believed that it was restored in its original site by Seti I, with the addition of several blocks of Akhenaten. However, Charles Van Siclen III, an American Egyptologist who recently reconstructed the building thinks that the structure once stood in the area before the Eighth Pylon and that it was removed, stone by stone, during the reign of Horemheb, to be rebuilt in its current location. The building was constructed entirely upon a stylobate (a flat surface upon which columns are normally constructed), and consists of a large square room with a roof supported by pillars, and two small lateral sanctuaries that were fronted on the west by a portico of twelve square pillars. The building is nearly symmetrical in plan and very shallow and broad. A ramp ascends to the portico. The large square hall has four row of five square pillars each that form a central nave bordered on either side by two aisles. In the passage along the inner face of the wall an architrave with cornice crowns the pillars. There was once probably a back doorway to the hall which was replaced with a false door.
+
+9e pylone
+---------
+There is little to be seen in the courtyard between the Eighth and Ninth pylons. The Ninth pylon is built on an axis of and perpendicular to the avenue of sphinxes that leads to the temple of Mut. The fact that the temple of Mut was constructed by Amenhotep III suggests that the ninth pylon, which was build during the reign of Horemheb, might have replaced an older pylon made from brick, and probably built by Amenhotep III. Like the Second Pylon in the Temple of Amun, the Ninth Pylon is hollow. It measures some 66 meters, with a Width of about 11.5 meters. The construction of the Ninth Pylon consists of exterior stone facings formed from a single tier of blocks of varying thickness. All the rest of the construct is hollow, with the exception of the stairway passage. The staircase climbs from the east entrance up to the level of the doorway's lintel and from their a second staircase crosses the west wing and leads to the terrace. The upper section of the pylon is held in place only by the enormous weight of the cap that works much like a keystone in an arch. Unfortunately, if this cap is compromised, than the structure will collapse, which is what has happened to the two hollow pylons at Karnak.
+
+
+
+
+
+
+
+
+
+
+
+=======================================================================
+
+Grande palette à fard en forme d'écusson
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+H. : 52 cm. ; L. : 20 cm. ; Pr. : 1,20 cm.
+
+Don Landau
+Département des Antiquités égyptiennes	
+E 27209
+
+=======================================================================
+
+Grandes palettes à fard à reliefs de la fin de la Préhistoire
+
+Fragment de la palette de la chasse
+vers 3300 - 3100 avant J.-C.
+proviendrait d'Abydos
+grauwacke
+H. : 14,60 cm. ; L. : 40,50 cm.
+
+Décorée d'une scène de chasse dans le désert. Le costume, les armes et 
+certains signes se retrouveront dans la civilisation pharaonique.
+Département des Antiquités égyptiennes
+E 11254
+
+=======================================================================
+
+Palettes à fard en grauwacke
+Ces objets, qui servaient à broyer le fard vert (malachite) pour 
+protéger et décorer les yeux, étaient déposés auprès du mort.
+Pendant la première moitié de Nagada II, des palettes à fard prennent 
+la forme d'écussons ou de croissants surmontés de têtes d'oiseaux.
+
+Palette à fard en croissant
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+l. : 21,10 cm. ; L. : 11,60 cm. ; Pr. : 1,60 cm.
+
+Département des Antiquités égyptiennes	
+E 17337
+
+=======================================================================
+
+Palettes à fard en grauwacke
+Ces objets, qui servaient à broyer le fard vert (malachite) pour 
+protéger et décorer les yeux, étaient déposés auprès du mort.
+Pendant la première moitié de Nagada II, des palettes à fard prennent 
+la forme d'écussons ou de croissants surmontés de têtes d'oiseaux.
+
+Palette à fard en écusson
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+H. : 28,50 cm. ; L. : 12,40 cm.
+
+Département des Antiquités égyptiennes	
+E 11151
+
+=======================================================================
+
+Palettes à fard en grauwacke
+Ces objets, qui servaient à broyer le fard vert (malachite) pour 
+protéger et décorer les yeux, étaient déposés auprès du mort.
+Pendant la première moitié de Nagada II, des palettes à fard prennent 
+la forme d'écussons ou de croissants surmontés de têtes d'oiseaux.
+
+Palette à fard en forme de poisson
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+H. : 8 cm. ; l. : 14,50 cm. ; Pr. : 0,70 cm.
+
+Les palettes à fard en silhouettes d'animaux apparaissent dans la 
+deuxième moitié de Nagada II et sont fabriquées jusqu'à la fin de la 
+préhistoire.
+Département des Antiquités égyptiennes	
+AF 6907
+
+=======================================================================
+
+Palettes à fard en grauwacke
+Ces objets, qui servaient à broyer le fard vert (malachite) pour 
+protéger et décorer les yeux, étaient déposés auprès du mort.
+Pendant la première moitié de Nagada II, des palettes à fard prennent 
+la forme d'écussons ou de croissants surmontés de têtes d'oiseaux.
+
+Palette à fard en forme de poisson
+Nagada II, vers 3500 - 3300 avant J.-C.
+grauwacke
+H. : 9,30 cm. ; L. : 12,90 cm. ; Pr. : 0,80 cm.
+
+Les palettes à fard en silhouettes d'animaux apparaissent dans la 
+deuxième moitié de Nagada II et sont fabriquées jusqu'à la fin de la 
+préhistoire.
+Département des Antiquités égyptiennes	
+AF 6909
+
+=======================================================================
+
+Palette à tête d'homme ?
+vers 3600 - 3200 avant J.-C.
+grauwacke, yeux incrustés
+H. : 9,75 cm. ; l. : 12 cm.
+
+Don Weill
+Département des Antiquités égyptiennes	
+E 24727
+
+=======================================================================
+
+Palette à têtes d'oiseaux
+vers 3600 - 3200 avant J.-C.
+grauwacke
+H. : 16,40 cm. ; L. : 17,70 cm.
+
+Une des têtes est cassée.
+Don Weill
+Département des Antiquités égyptiennes	
+E 24729
+
+=======================================================================
+
+Grandes palettes à fard à reliefs de la fin de la Préhistoire
+
+Palette célébrant une victoire
+vers 3300 - 3100 avant J.-C.
+grauwacke
+H. : 26,50 cm. ; L. : 14,50 cm.
+
+Le roi, représenté sous la forme d'un taureau, renverse un ennemi.
+Au revers : le roi, représenté sous la forme d'un taureau, renverse un 
+ennemi ; en-dessous, forteresses figurées en plan.
+Don Tigrane Pacha
+Département des Antiquités égyptiennes	
+E 11255
+
+=======================================================================
+
+Grandes palettes à fard à reliefs de la fin de la Préhistoire
+
+Palette encadrée de quadrupèdes, hyènes ou lycaons
+vers 3300 - 3100 avant J.-C.
+grauwacke
+H. : 32 cm. ; L. : 17,70 cm. ; Pr. : 1,80 cm.
+
+Décorée d'animaux : lion, ibis ou flamant, monstre imaginaire.
+Vue de dos : décorée de deux girafes encadrant un palmier.
+Département des Antiquités égyptiennes	
+E 11052
+
+=======================================================================
+
+Palettes en forme de poisson
+vers 3600 - 3200 avant J.-C.
+grauwacke
+l. : 18,50 cm. ; H. : 9,60 cm. ; Pr. : 0,70 cm.
+
+Don L., I. et A. Curtis E 22730, E 22731
+Don Weill E 24731, E 32283, E 24728, E 24724, E 28061, AF 6908
+Département des Antiquités égyptiennes	
+E 22730, E 22731, E 24731, E 32283, E 24728, E 24724, E 28061, AF 6908
+
+=======================================================================
