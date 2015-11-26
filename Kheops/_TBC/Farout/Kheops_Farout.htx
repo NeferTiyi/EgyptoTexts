@@ -1,0 +1,2521 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany]{memoir}
+
+% \documentclass[a4paper,twoside,10pt]{report}
+% \usepackage{pgf,tikz}
+% \usetikzlibrary{calc,patterns,arrows}
+% \usepackage{siunitx}
+% %\usepackage{neferalias}
+% \usepackage{nefertiyi}
+% \usepackage{neferhiero}
+
+% \addtolength{\hoffset}{1cm}
+% \addtolength{\textwidth}{-2cm}
+% \addtolength{\voffset}{1cm}
+% \addtolength{\textheight}{-2cm}
+
+% \frenchbsetup{ItemLabelii=\pucea{}}
+
+% \setlength\fboxsep{0.5mm}
+% \setlength\tabcolsep{0mm}
+% \setlength\parskip{1.0\baselineskip}
+
+% \title{Les statues de l'\OK}
+% \short{Les statues de l'\OK}
+% \author{Dominique \bsc{Farout}}
+% \date{29 mars -  15 juin 2012}
+
+% \pagestyle{myheadings}
+
+% \makeatletter
+%   \markboth{\@author}{\@short}
+% \makeatother
+
+
+\usepackage{pgf,tikz}
+%\usepackage[framemethod=tikz]{mdframed}
+\usetikzlibrary{%
+  calc,%
+  patterns,%
+  arrows,%
+  positioning,%
+  shadows,%
+  decorations.text%
+}
+%\usepackage{picins}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\usepackage{nefertiyi}
+\usepackage[format=hang,labelsep=endash,font=sf,labelfont=bf]{caption}
+\usepackage{neferhiero}
+
+% Numérotation des division et prise en compte dans la TOC
+\maxsecnumdepth{subsection}
+\maxtocdepth{subsection}
+
+% \counterwithin{chapter}{part}
+% \counterwithin{subsection}{section}
+% % \counterwithout{figure}{part}
+% \counterwithout{figure}{chapter}
+
+
+% Apparence des numéros de divisions
+\renewcommand{\thesubsection}{\alph{subsection})}
+\renewcommand{\thechapter}{\arabic{chapter}}
+
+% Indentation et largeur des numéros dans la TOC
+\cftsetindents{part}{\cftpartindent}{2.0em}
+\cftsetindents{chapter}{\cftchapterindent}{1.8em}
+\cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
+% Pointillés dans la TOC
+\renewcommand{\cftsectiondotsep}{9}
+\renewcommand{\cftsubsectiondotsep}{1}
+
+
+
+% Entry         Level        Standard        memoir class
+%                         indent numwidth   indent numwidth 
+% ---------------------------------------------------------
+% book             -2       —      —          0.0    —
+% part             -1       0.0    —          0.0    1.5 
+% chapter           0       0.0    1.5        0.0    1.5
+% section           1       1.5    2.3        1.5    2.3
+% subsection        2       3.8    3.2        3.8    3.2
+% subsubsection     3       7.0    4.1        7.0    4.1
+% paragraph         4      10.0    5.0       10.0    5.0
+% subparagraph      5      12.0    6.0       12.0    6.0
+% figure/table     (1)      1.5    2.3        0.0    1.5
+% subfigure/table  (2)      —      —          1.5    2.3
+
+
+
+\setpnumwidth{2.55em}
+\setrmarg{3.55em}
+
+\addtolength{\columnsep}{15pt}
+
+\addtolength{\hoffset}{2.0cm}
+\addtolength{\textwidth}{-4.0cm}
+\addtolength{\voffset}{1.5cm}
+\addtolength{\textheight}{-1.0cm}
+
+\graphicspath{{../../img/Farout/}}
+
+
+\DeclareCaptionStyle{petit}
+  {format=hang,labelsep=quad,font=sf,labelfont=bf,%
+   justification=RaggedRight,margin=0pt}
+\captionsetup{margin=2cm}
+
+\setlength\fboxsep{0.5mm}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+\newcommand{\faitle}[1]{\hfill\emph{\smaller#1}}
+
+\newcommand{\datation}[1]{{\normalfont\emph{#1}}}
+\newcommand{\musee}[1]{\emph{#1}}
+\newcommand{\inv}[1]{\emph{#1}}
+
+
+\newcommand{\listeroislabel}[1]{\bfseries\sffamily{#1}\enspace}
+\newenvironment{listerois}
+  {\begin{list}{}{%
+     \setlength\itemsep{0.8\baselineskip}
+     \let\makelabel\listeroislabel%
+     \setlength\labelwidth{2em}%
+     \setlength\leftmargin{\labelwidth+\labelsep}%
+   }
+  }
+  {\end{list}}
+
+\makechapterstyle{monchap}{%
+  \renewcommand{\chapnamefont}{\raggedleft\normalfont\huge\scshape}
+  \renewcommand*{\chapnumfont}{\raggedleft\normalfont\Huge\scshape}
+  \renewcommand*{\chaptitlefont}{\raggedleft\normalfont\Huge\bfseries}
+  \renewcommand*{\afterchaptertitle}{%
+    {%
+      \par\nobreak\vskip 5pt
+      \par\offinterlineskip\hbox{%
+        \rule{\textwidth}{3pt}
+      }
+      \par\nobreak\vskip \afterchapskip
+    }
+  }
+}
+
+\chapterstyle{monchap}
+
+
+\title{La statuaire à l'\OK}
+\short{La statuaire à l'\OK}
+\subtitle{}
+\lecturer{\DF}
+\author{Sonia \bsc{Labetoulle}}
+\date{avril 2012 - juin 2012}
+
+\newlength{\drop}% for my convenience
+\makeatletter
+  % Redefine title page
+  \def\maketitle{%
+    \drop = 0.1\textheight
+    \vfill%
+    \hbox{%
+      \hspace*{0.2\textwidth}%
+      \rule{1pt}{\textheight}
+      \hspace*{0.05\textwidth}%
+      \parbox[b]{0.75\textwidth}{
+        \vbox{%
+          \vspace{\drop}
+          {\noindent\HUGE\bfseries \@title}\\[2\baselineskip]
+          {\Large\itshape \@subtitle}\\[4\baselineskip]
+          {\Large Cours de \textsf{l'Institut Khéops} 
+           par\\[0.5\baselineskip] 
+           \@lecturer}\par
+          \vspace{0.5\textheight}
+          {\noindent \@author}\\[\baselineskip]
+        }% end of vbox
+      }% end of parbox
+    }% end of hbox
+    \vfill%
+  }
+
+  % Redefnine headings
+%  \markboth{\@lecturer}{\@short}
+  \makepagestyle{ruled}
+  \makeevenhead{ruled}
+    {\normalfont\itshape\@title}{}{\normalfont\itshape\leftmark}
+  \makeoddhead{ruled}
+    {\normalfont\itshape\rightmark}{}{\normalfont\itshape\@lecturer}
+  \makeevenfoot{ruled}{}{\thepage}{}
+  \makeoddfoot{ruled}{}{\thepage}{}
+  \makeheadrule{ruled}{\textwidth}{\normalrulethickness}
+%  \makefootrule{ruled}{\textwidth}{\normalrulethickness}{1pt}
+
+
+  \renewcommand\@memfront@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memmain@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memback@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+    \setcounter{figure}{0}
+    \setcounter{table}{0}
+  }
+
+
+\makeatother
+
+\makepsmarks{ruled}{%
+  \nouppercaseheads
+  \createmark{chapter}{left}{shownumber}{}{.\ }
+  \createmark{section}{right}{shownumber}{}{.\ }
+  \createplainmark{toc}{both}{\contentsname}
+  \createplainmark{lof}{both}{\listfigurename}
+  \createplainmark{lot}{both}{\listtablename}
+  \createplainmark{bib}{both}{\bibname}
+  \createplainmark{index}{both}{\indexname}
+  \createplainmark{glossary}{both}{\glossaryname}
+}
+
+\input{Kheops_Farout_tikz}
+
+\pagestyle{ruled}
+%\pagestyle{myheadings}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+
+\SmallerText
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mainmatter
+
+\part{Introduction}
+
+\chapter[Généralités]{Généralités\faitle{29/03/2012}}
+
+\begin{enumerate}
+  \item Méthodologie ;
+  \item \dyn{III} ;
+  \item Statuaire royale IV\ieme, V\ieme, \dyn{VI}s ;
+  \item Statuaire privée par type statuaire.
+\end{enumerate}
+
+\bigskip
+
+Pour commencer, un peu de méthodologie : de quoi on parle 
+et comment on va s'en occuper.
+
+\begin{encadre}
+  \centering
+  \donc~L'analyse de statues de l'\OK
+\end{encadre}
+
+La première chose à faire, c'est apprendre, s'entraîner à regarder, 
+à décrire. Surtout ne pas se contenter des descriptions faites par 
+d'autres, il faut le faire soi-même : il y a toujours des fautes !
+
+Quand c'est possible, il faut tourner autour de l'objet. Et décrire en 
+allant du plus informatif vers le moins informatif, du plus large au 
+plus précis, du grand vers le petit, du volume général vers le détail, 
+et de haut en bas, \dots 
+Dans la mesure du possible : parfois le plus informatif, c'est un 
+détail !
+
+Il y a deux écoles : faire la description globale de l'objet puis, 
+dans un second temps, donner les informations pertinentes, ou faire 
+les deux en même temps. On optera pour la deuxième méthode.
+
+\begin{center}
+  Choses informatives = critères d'attribution
+\end{center}
+
+Quels sont les moyens qui nous permettent de dire quel est l'objet 
+qu'on étudie et de quand il date ?
+
+On doit rester le plus objectif possible : qu'on objet soit beau ou 
+pas ne donne pas d'information (même si ça a longtemps été considéré 
+comme un critère de datation : beau = \dyn{VI} / moche = \PPI, 
+c'est faux !).
+
+Il faut faire des comparaisons ! (le vrai début de l'égyptologie, 
+c'est les sériations de céramiques par \bsc{Petrie})
+
+Le darwinisme appliqué à l'histoire de l'art :) L'adaptation au 
+terrain. C'est très visible entre Ancien et \MK : la finalité change, 
+ce ne sont pas les mêmes objets (matériaux, dimensions, attitudes). 
+Ce ne sont plus les mêmes gens : changement complet dans 
+l'organisation de la société, les croyances, \dots
+
+\chapter{Représentations en deux et trois dimensions}
+
+\section{Définitions}
+
+Une statue (ronde-bosse ou haut-relief), c'est une représentation en 
+3D \oincise{selon les critères égyptiens !} Il peut s'agir d'êtres 
+humains, d'animaux, d'hybrides (sphinx), d'objets. Elle peut également 
+comporter certains éléments en 2D.
+
+De la 2D à la 3D, il existe : 
+
+\begin{tabular*}{\textwidth}{M{3.5cm}N{4cm}}
+    \begin{itemize}
+      \item peinture ;
+      \item gravure ;
+    \end{itemize}\vspace*{-1\baselineskip} & 
+    $\Big\}$ \emph{non modelé, 2D} 
+  \tabularnewline
+    \multicolumn{2}{N{7.5cm}}{%
+    \begin{itemize}
+      \item méplat (appelé à tort bas-relief) ;
+      \item bas-relief ;
+      \item bas-relief dans le creux ;
+      \item fort-relief ;
+    \end{itemize}\vspace*{-1\baselineskip}}
+  \tabularnewline
+    \begin{itemize}
+      \item haut-relief ;
+      \item ronde-bosse.
+    \end{itemize}\vspace*{-1\baselineskip} & 
+    $\Big\}$ \emph{3D}
+  \tabularnewline
+\end{tabular*}
+
+\oeuvre{Mastaba d'Akhethotep \rem{(Louvre E\,10958\,(A), 
+\fref{E10958})}} Première moitié de la \dyn{V}. 
+\uline{Méplat}.
+
+\begin{figure}[!h]
+%  \begin{minipage}{.49\textwidth}
+  \centerfloat
+  \includegraphics[width=9cm]{E10958A_4}
+%  \end{minipage}%
+%  \begin{minipage}{.49\textwidth}
+%    \begin{center}
+%      \includegraphics[width=5cm]{E10958A}
+%    \end{center}
+%  \end{minipage}%
+  \caption{Mastaba d'Akhethotep \rem{(Louvre E\,10958\,(A))}}
+  \label{E10958}
+\end{figure}
+
+\oeuvre{Entrée du mastaba de Mérérouka, Saqqara} \uline{Relief 
+dans le creux}.\\
+Cela symbolise le fait qu'on est dehors, sous les rayons du soleil 
+(cf~l'art amarnien avec relief important dans creux très creusé : les 
+reliefs sont faits pour être touchés par les rayons du soleil, même 
+s'ils en sont \incise{physiquement} hors d'atteinte).
+
+\oeuvre{Sépa \rem{(Louvre A\,37, \fig[a]{A37})} et la dame Nésa 
+\rem{(Louvre A\,38, \fig[b]{A37})}} \uline{Ronde-bosse}.\\
+Ce sont les plus grandes, parmi la vingtaine connue, des statues 
+de particuliers de la \dyn{III}. Il n'y a pas de pilier dorsal 
+(il n'apparait qu'au cours de la \dyn{IV}).\\
+\donc{} 2D ou 3D ? Un volume énorme a été réservé au niveau des 
+jambes de Sépa, et ses bras \incise{ainsi que ce qu'il tient} sont 
+rabattus sur la surface, en \uline{haut-relief}.
+
+\begin{figure}[!h]
+  \hspace*{\fill}%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    a)\includegraphics[height=9cm]{A37}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    b)\includegraphics[height=9cm]{A38}
+  \end{minipage}
+  \hspace*{\fill}%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    c)\includegraphics[height=9cm]{N3892}
+  \end{minipage}
+  \hspace*{\fill}%
+  \caption{a)~Sépa \rem{(Louvre A\,37)}, b)~Nésa \rem{(Louvre A\,38)}
+           et c)~Dame du \MK{} \rem{(Louvre N\,3892)}}
+  \label{A37}
+\end{figure}
+
+\oeuvre{Socle de statue de Djoser \rem{(Caire JE\,49889j, 
+\fref{JE49889_1})}} Statue en \uline{ronde-bosse} (les pieds 
+joints !), mais qui comporte des représentations en \uline{méplats} 
+sur le socle, ainsi que de la couleur.\\
+\donc{} de la 2D sur de la 3D.
+
+\begin{figure}[!h]
+  \captionsetup{style=petit}
+  \hspace*{\fill}%
+  \begin{minipage}{.60\textwidth}
+    \centerfloat
+    \includegraphics[width=8cm]{JE49889_1}
+    \caption{Socle de statue de Djoser \rem{(Caire JE\,49889j)}}
+    \label{JE49889_1}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.37\textwidth}
+    \centerfloat
+    \includegraphics[width=3cm]{CGC1_JE34557_1}
+    \caption{Hetepdief \rem{(Caire CGC\,1 -- JE\,34557)}}
+    \label{CGC1}
+  \end{minipage}
+  \hspace*{\fill}%
+\end{figure}
+
+\oeuvre{Hetepdief \rem{(Caire CGC\,1 -- JE\,34557, \fig{CGC1})}} 
+\dyn{III}. 
+\uline{Ronde-bosse}.\\
+Les noms d'Horus des rois auxquels il a été rattaché (les trois 
+premiers de la \dyn{II}) sont inscrits sur son épaule. On ne trouve 
+ça \incise{sur les statues de particuliers} qu'à la \dyn{III}, puis au 
+\NK (Erreur de datation pour Montouhotep, vizir de Sésostris~I\ier : 
+on a longtemps cru voir le nom d'Amenemhat~II sur sa statue, il s'agit 
+en fait de symboles de prêtrise).
+
+Certes, ce sont des h\iero es\dots Mais !
+
+\section{Règles de représentation}
+
+\begin{encadre}
+  Une image, c'est un assemblage d'éléments informatifs aboutissant 
+  à la \emph{définition} de l'objet représenté. Elle est conçue de la 
+  même manière qu'un énoncé hiéroglyphique. De plus, \frquote{image} 
+  et \frquote{signe h\iero ique} sont le même mot en égyptien 
+  (\tl[black]{tj.t}). Tous deux sont conçus par un scribe 
+  (\emph{scribe des formes} pour les images).
+\end{encadre}
+
+\oeuvre{Astérix et Cléopâtre \rem{(\fig{???})}} Chez nous, il n'y a 
+que dans la BD qu'on met de l'écriture dans le dessin, mais elle est 
+quand même mise à part du dessin, par l'intermédiaire de la bulle. 
+En \kmt, au contraire, il n'y pas de frontière entre l'écrit et le 
+dessin (les personnages peuvent tenir ou porter des hiéroglyphes).
+
+Les règles de représentation, dans tous les cas, suivent les règles 
+de \emph{l'aspective}.
+
+\begin{encadre}
+  \textbf{Aspective $=$ multiplicité des points de vue} : 
+  représenter les différents éléments constitutifs du sujet sans tenir 
+  compte de la relation entre temps et espace. L'image ne s'inscrit 
+  donc pas dans un cadre spatio-temporel unique.
+
+  \bigskip
+
+  \textbf{Priorité :}
+  \begin{enumerate}
+    \item organisation \uline{hiérarchique} (taille relative, position 
+          des personnages) ;
+    \item organisation \uline{harmonique} (équilibre, Maât !) ;
+    \item organisation \uline{chronologique}.
+  \end{enumerate}
+
+  \bigskip
+
+  \donc~C'est la conception égyptienne de l'image.
+\end{encadre}
+
+La représentation de \emph{Baal Saphon}, le Seigneur du Mont du Nord, 
+à Ougarit, est une très bonne illustration de l'aspective 
+\rem{(Louvre AO\,15775, \fig{AO15775})} : 
+\begin{itemize}
+  \item Il est sur les montagnes, au-dessus de la mer, il tient 
+        dans une main la massue \uwave{khétep} qu'il a utilisée pour 
+        combattre Yam, le dieu de la mer (cycle de Yam) ;
+  \item De l'autre main, il a planté sa lance en terre, et elle est 
+        en train de germer, bourgeonner : c'est la lutte contre Mot, 
+        le dieu de la mort.
+\end{itemize}
+Les deux mythes indépendants sont réunis sur une seule et même 
+représentation, donnant ainsi la définition du dieu. Deux milles ans 
+plus tard, même sans texte pour nous le dire, on sait qu'il s'agit 
+bien de Baal Saphon.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=5cm]{AO15775}
+  \caption{Baal au foudre \rem{(Louvre AO\,15775)}}
+  \label{AO15775}
+\end{figure}
+
+
+(Biblio : \bsc{Schäfer}, \emph{\og Principles of Egyptian art \fg} 
+\& postface d'Emma~\bsc{Bruner-Traut}, \emph{\og Aspective \fg} ; 
+G.H.~\bsc{Fischer} ; \bsc{Tefnin})
+
+
+\begin{warning}
+  Quand on tire des conclusions, si ça ne peut pas se dire en 
+  égyptien, c'est que ce n'est pas bon. Par exemple, les pyramides et 
+  obélisques vus comme des \frquote{rayons de soleil pétrifiés} (idée 
+  véhiculée par les romantiques au XIX\ieme siècle) : les égyptiens 
+  n'ont jamais dit ça (cf~définition donnée par Hatchepsout) !
+\end{warning}
+
+\section{Passage d'un mode de représentation à l'autre}
+
+\subsection{Du relief vers la ronde-bosse}
+
+Certaines images sont conçues en 2D, puis passent en 3D (le plus 
+souvent), d'autres font le chemin inverse.
+
+\oeuvre{Mastaba d'Akhethotep \rem{(Louvre E\,10958\,(A))}} Les 
+porteurs d'offrandes en ligne apparaissent d'abord en 2D, sur les 
+parois des chapelles (\fref{E10958A_5}), ce n'est qu'au \MK 
+qu'on a ce type de chose en 3D (\fref{MFA21326}), placées dans 
+les tombes.
+
+\begin{remarque}
+  On a des représentations en 3D, en pierre, de fabricants divers 
+  (cuisiniers, meuniers), à l'unité, dès la \dyn{IV}. Elles se 
+  multiplient à la V\ieme, puis passent en bois à la \dyn{VI}. 
+  Le changement de matériau n'est pas un signe de décadence (le bois 
+  est rare en \kmt, pas la pierre !), l'administration est mieux 
+  organisée, on peut se permettre de décentraliser, d'utiliser le 
+  courrier. De plus, ils ne sont plus dans la chapelle mais dans le 
+  caveau, à l'abri. Le bois est protégé.
+\end{remarque}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=\textwidth]{E10958A_5}
+  \caption{Mastaba d'Akhethotep, porteurs d'offrandes 
+           \rem{(Louvre E\,10958\,(A))}}
+  \label{E10958A_5}
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=10cm]{MFA21326}
+  \caption{Porteurs d'offrandes, \dyn{XI}, \MK{} 
+           \rem{(MFA\,21.326)}}
+  \label{MFA21326}
+\end{figure}
+
+\oeuvre{Akhetâa \rem{(Louvre B\,2 et B\,1, \fref{B2})}} 
+Fin \dyn{III}. Le \emph{ser} (= magistrat, haut fonctionnaire). C'est 
+d'abord un hiéroglyphe, transposé ensuite en ronde-bosse (cf~Sépa, 
+\fref{A37}a). Il est caractérisé, défini par :
+\begin{itemize}
+  \item Il obéit à la loi de frontalité et se tient droit (Maât) ;
+  \item \tl[black]{nmt.t}, démarche, fonction ;
+  \item canne \tl[black]{mdw} : parole ;
+  \item sceptre \tl[black]{sxm} : pouvoir.
+\end{itemize}
+C'est quelqu'un qui siège à un conseil où on prend des décisions qui 
+sont obéies. En ronde-bosse, certaines parties restent en 2D.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=6cm]{B1B2_1}
+  \caption{Akhetâa \rem{(Louvre B\,2)}}
+  \label{B2}
+\end{figure}
+
+\bigskip
+
+\begin{remarque}
+  \tl[black]{Hry mdw} = l'accusé, mais \emph{celui qui est sous 
+  le bâton} ou \emph{celui qui est sous la parole} ? Probablement 
+  le premier. Il est sous le coup de la justice.
+\end{remarque}
+
+\oeuvre{L'homme du Caire \rem{(JE\,46992, \bsc{Vandier}, Tome~III, 
+\fref{JE46992}a)}, Copenhague \AE IN\,1560 
+\rem{(\fref{JE46992}b)}} A nouveau des \emph{ser}, mais en bois. 
+Les bras ne sont plus rabattus sur le corps et traités en 2D, mais 
+l'ensemble est vraiment en 3D.
+Ils sont nus $\Rightarrow$ 2\ieme moitié de l'\OK (mais cela pose 
+des problèmes de datation car certaines statues portaient de vrais 
+vêtements qui n'ont pas été conservés : le contexte est indispensable 
+pour trancher). 
+(BM\,55722 \rem{(\fref{JE46992}c)})
+
+\begin{figure}[!h]
+  \hspace*{\fill}%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    a)\includegraphics[height=8cm]{JE46992}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    b)\includegraphics[height=8cm]{AEIN1560_1}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    c)\includegraphics[height=8cm]{BM55722_2}
+  \end{minipage}
+  \hspace*{\fill}%
+  \caption{a)~JE\,46992 ; b)~\AE IN\,1560 ; c)~BM\,55722}
+  \label{JE46992}
+\end{figure}
+
+\oeuvre{Mitry \rem{(MET\,26.2.4, \fref{MET2624})}} 
+On a bien la canne et le sceptre : en bois ça ne pose pas de problème. 
+
+\begin{figure}[!h]
+  \captionsetup{style=petit}
+  \hspace*{\fill}%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    \includegraphics[width=5cm]{MET2624_1}
+    \caption{Mitry \rem{(MET\,26.2.4)}}
+    \label{MET2624}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    \includegraphics[width=5cm]{N2293}
+    \caption{Deux époux \rem{(Louvre N\,2293)}}
+    \label{N2293}
+  \end{minipage}
+  \hspace*{\fill}%
+\end{figure}
+
+\oeuvre{Deux époux, alias Fernandel et sa femme ;) 
+\rem{(Louvre N\,2293, \fref{N2293})}} \dyn{VI}.
+Taillés dans une seule pièce de bois. Le bras est rabattu, mais on a 
+quand même creusé un trou dans la main pour mettre la canne. Mais, au 
+lieu du sceptre, il a lui aussi un petit boudin dans l'autre main (ça 
+apparait sous le règne de Khéops, mais pas en bois) !
+
+% \begin{figure}[!h]
+%  \centerfloat
+%  \includegraphics[width=5cm]{N2293}
+%  \caption{Deux époux \rem{(Louvre N\,2293)}}
+%  \label{N2293}
+% \end{figure}
+
+\subsection{De la ronde-bosse vers le relief}
+
+À toutes les époques, on a des représentations de statues. On en a 
+beaucoup. Elles peuvent être représentées en cours de fabrication, en 
+situation (cérémonie, \dots).
+
+\oeuvre{Tombe de Rekhmirê \rem{(TT\,100, \fref{TT100})}} 
+Règne de Thoutmosis~III. 
+C'est de la 3D représentée en 2D. La statue est en blanc (calcaire, 
+argent), de profil, posée sur un socle, avec son pilier dorsal. 
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=9cm]{TT100}
+  \caption{Tombe de Rekhmirê \rem{(TT\,100)}}
+  \label{TT100}
+\end{figure}
+
+\oeuvre{Mastaba de Nyankhkhnoum \rem{(\fref{nyankh})}} \dyn{V}.
+Deux statues avec pilier dorsal, l'une blanche, l'autre peinte 
+(\fref{nyankh}a). On a, en même temps, le traîneau et les haleurs 
+qui emmènent les statues dans la tombe, et le prêtre ritualiste 
+(avec un instrument ressemblant à un plumeau à la main) qui accomplit 
+le rite.
+La chapelle (\fref{nyankh}b) est ouverte sur le côté pour permettre de 
+voir la statue placée à l'intérieur.
+
+\begin{figure}[!h]
+  \centerfloat
+  a)\includegraphics[width=8cm]{niankh_2}
+
+  \bigskip
+
+  b)\includegraphics[width=13cm]{niankh_1}
+  \caption{Mastaba de Nyankhkhnoum, Saqqara}
+  \label{nyankh}
+\end{figure}
+
+\chapter[Les attributs]{Les attributs\faitle{05/04/2012}}
+
+\section{Généralités}
+
+\begin{encadre}
+  Un attribut est un élément discernable qui donne des informations 
+  concernant le sujet.
+\end{encadre}
+
+Ils sont de nature variée et donnent des informations variées.
+
+\begin{itemize}
+  \item attributs non animés (les plus fréquents) ;
+  \item attributs animés.
+\end{itemize}
+
+\begin{itemize}
+  \item attributs portés sur le sujet (couronne, vêtement, 
+        bijoux, \dots) ;
+  \item attributs tenus par le sujet (sceptre, canne, \dots) ;
+  \item attributs juxtaposés ;
+  \item attribut en contexte (à côté).
+\end{itemize}
+
+\section{Attributs non animés, portés}
+
+\subsection{Couronnes, perruques, coiffures}
+
+\oeuvre{Rêdjedef \rem{(Louvre E\,12626, \fref{E12626})}}
+Contrairement à ce qui est dit par le Louvre, ce n'est pas une tête 
+de sphinx, mais celle d'une statue du roi assis sur un trône !
+Il porte un némès, coiffure royale, avec une ur\ae us au front qui 
+indique une divinité ou un roi. On a bien affaire, ici, à la tête 
+d'un roi.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=8cm]{E12626_1}
+  \caption{Rêdjedef \rem{(Louvre E\,12626)}}
+  \label{E12626}
+\end{figure}
+
+\oeuvre{Khephren \rem{(Caire JE\,10062, \fref{JE10062})}}
+Il porte également un némès avec une ur\ae us, mais les retombées 
+du némès sont plissées (première attestation). La barbe postiche est 
+également caractéristique d'un roi (et sa forme est un critère de 
+datation : ici elle part loin en avant, ce qui est caractéristique 
+de l'\OK).
+
+\begin{figure}[!h]
+  \hspace*{\fill}%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    \includegraphics[width=5cm]{JE10062_1}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    \includegraphics[width=6cm]{JE10062_2}
+  \end{minipage}
+  \hspace*{\fill}%
+  \caption{Khephren au faucon \rem{(Caire JE\,10062)}}
+  \label{JE10062}
+\end{figure}
+
+\oeuvre{Nésa \rem{(Louvre A\,38, \fref{A37}b)} et une dame 
+du \MK{} \rem{(Louvre N\,3892, \fref{A37}c)}} Nésa porte une 
+perruque tripartite droite qui lui laisse le front dégagé en ogive 
+(typique de la \dyn{III}) et présente un dégradé, ses oreilles sont 
+couvertes et elle a la raie au milieu. La dame du \MK porte 
+également une perruque tripartite, mais les retombées avant finissent 
+cette fois en volutes (couronne hathorique, peut-être originaire du 
+\PO), ses oreilles sont grandes et dégagées et la perruque est en 
+forme de c\oe ur.
+
+\oeuvre{Nefer \rem{(Boston 07.1002, \fref{MFA071002})}} 
+Vient de Giza, \dyn{IV}. 
+Sa perruque est courte et bouclée. C'est la coiffure la plus 
+habituelle pour les hommes à l'\OK. On parle de calotte haute 
+(calotte = partie non bouclée de la perruque) est \flech~on est dans 
+la première moitié de l'\OK. Plus elle est haute, plus c'est ancien.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=\textwidth]{MFA071002}
+  \caption{Relief de Nefer \rem{(Boston MFA\,07.1002)}}
+  \label{MFA071002}
+\end{figure}
+
+\begin{warning}
+  L'absence de critères de datation n'est pas un critère de datation !
+\end{warning}
+
+\subsection{Vêtements : pagnes, robes, manteaux, brassières}
+
+\oeuvre{Nefer \rem{(Boston 07.1002, \fref{MFA071002})}} 
+Il porte un pagne court plissé, un n\oe ud de ceinture représenté par 
+le h\iero e du n\oe ud, et la languette qui ressort. C'est le vêtement 
+le plus courant de l'\OK.
+
+\oeuvre{Mererouka \rem{(Saqqara, \fref{???})}}
+Mererouka (\dyn{VI}) porte un pagne à devanteau triangulaire 
+(existe en 3D au moins depuis Ipi, sous Snéfrou), une peau de panthère 
+\flech~prêtre funéraire (type prêtre \emph{sem}).
+
+\oeuvre{Akhethotep \rem{(Louvre, \fref{E10958A_4} embrasure de porte)}}
+Il porte le baudrier de prêtre ritualiste.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=10cm]{E10958A_4}
+  \caption{Mastaba de Akhethotep \rem{(Louvre E\,10958\,(A))}}
+  \label{E10958A_4}
+\end{figure}
+
+\oeuvre{Nefertiabet \rem{(Louvre E\,15591, \fref{E15591})}}
+Giza, \dyn{IV}, \og La belle orientale \fg, une fille de Khéops. 
+Elle est morte sous Khépkren ou Mykérinos, mais la stèle date 
+certainement du règne de Khéops, ou de Khephren au plus tard. 
+Elle porte un manteau en peau de panthère avec un n\oe ud rouge. 
+C'est caractéristique des défunts de la famille royale aux IV\ieme 
+et \dyn{V}s sur leurs monuments funéraires.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=\textwidth]{E15591}
+  \caption{Nefertiabet \rem{(Louvre E\,15591)}}
+  \label{E15591}
+\end{figure}
+
+\oeuvre{Ânkh \rem{(Louvre A\,39, \fig{A39})}} \dyn{III}.
+Il porte un vêtement qui s'arrête aux genoux, mais ce n'est pas 
+le plus intéressant : son nom écrit sur son vêtement. Pour les 
+particuliers, c'est typique de la \dyn{III}, cela disparait ensuite 
+pour réapparaître à la \PPI et devenir l'habitude au \MK{} 
+(cf~Amenemhatânkh, \fref{???}).
+
+\begin{remarque}
+  Il n'y a pas de formule d'offrande sur les statues à \OK.
+\end{remarque}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=5cm]{A39_1}
+  \caption{Ânkh, prêtre d'Horus \rem{(Louvre A\,39)}}
+  \label{A39}
+\end{figure}
+
+\subsection{Bijoux}
+
+Bracelets, armilles (bracelets de bras), bracelets de cheville, 
+colliers, boucles d'oreilles.
+
+\oeuvre{Nefertiabet \rem{(Louvre E\,15591, \fref{E15591})}}
+Collier de chien : fin III\ieme{} - fin \dyn{V}s ; bracelets aux 
+poignets et aux chevilles.
+
+\oeuvre{Ptahkhenouy \rem{(Boston MFA\,06.1876, 
+\fref{MFA061876})}} VI\ieme ou \dyn{V}
+Colliers \tl[black]{wsx}, très détaillés (normalement typique 
+de la \dyn{XVIII}) \flech~deuxième moitié de l'\OK.
+
+\begin{figure}[!h]
+  \captionsetup{style=petit}
+%  \hspace*{\fill}%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{MFA061876_1}
+    \caption{Ptahkhenouy \rem{(Boston MFA\,06.1876)}}
+    \label{MFA061876}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    \includegraphics[height=7cm]{BeniSouef}
+    \caption{Sésostris~III \rem{(Béni Souef)}}
+    \label{benisouef}
+  \end{minipage}%
+%  \hspace*{\fill}%
+\end{figure}
+
+\oeuvre{Sésostris~III \rem{(Béni Souef, \fref{benisouef})}}
+Collier en sautoir avec amulette (\col bivalve), typique des rois 
+du \MK, de la XII\ieme au début de la \dyn{XIII}.
+
+\oeuvre{Khâbaousokar \rem{(Caire CGC\,1385, \fref{???})}}
+Khâbaousokar (\dyn{III}) porte le collier trapézoïdal du grand prêtre 
+de Ptah, avec une tête de chacal et une tête de faucon.
+
+% https://www.flickr.com/photos/71637794@N04/7810226442/in/album-72157629541313191/
+% Detalle de Hetjes/ [Khabau-sokar], “Sacerdote de Seshat” y “Superintendente (mdh) de Anubis, al frente de la Tierra Sagrada”.
+
+% Detalle de Hetjes/ [Khabau-sokar], “Sacerdote de Seshat” y “Superintendente (mdh) de Anubis, al frente de la Tierra Sagrada”.
+
+% • III dinastía. Reinado del ¿Horus Khaba?.
+% • Ubicación: Necrópolis de Saqqara. Mastaba nº 5 (A 2; S 3073)
+% • Dimensiones:
+% • Material:
+% • Conservación: El Cairo. Museo Egipcio.
+
+% Bibliografía:
+% Mariette. “Mastabas”, pp. 71-9.
+% Smith, W. Stevenson. “The Art and Architecture of Ancient Egypt”, 1958, p. 63, fig. 50.
+
+% Enlace:
+% Texto: Juan Rodríguez Lázaro.
+% Foto: Smith, W. Stevenson. “The Art and Architecture of Ancient Egypt”, 1958. Fig 50.
+
+% Informations bibliographiques
+% Titre  The Art and Architecture of Ancient Egypt
+% Volume 14 de Pelican history of art
+% Yale University Press Pelican history of art, ISSN 0553-4755
+% Auteurs  William Stevenson Smith, William Kelly Simpson
+% Rédacteur  William Kelly Simpson
+% Traduit par  William Kelly Simpson
+% Édition  illustrée, révisée
+% Éditeur  Yale University Press, 1998
+% ISBN  0300077475, 9780300077476
+% Longueur  296 pages
+
+
+\oeuvre{Khâemouaset \rem{(Louvre N\,518, \fref{N518})}}
+Khâemouaset (quatrième fils de Ramsès~II) porte ce même collier. 
+Mais comme il est masqué à cause de son attitude, le chacal a été 
+animé pour être visible.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=8cm]{N518}
+  \caption{Khâemouaset \rem{(Louvre N\,518)}}
+  \label{N518}
+\end{figure}
+
+\subsection{Chaussures}
+
+\begin{remarque}
+  Dès Nagada, les sandales sont en relation avec la chasse et 
+  les rites religieux (cf~le porteur de sandales sur la palette 
+  de Narmer).
+\end{remarque}
+
+\oeuvre{Mérérouka \rem{(Saqqara, \fref{mrrwka4})}}
+Dans tout son mastaba, Mérérouka est pieds nus. Il n'y a qu'une 
+seule exception.
+
+\begin{remarque}
+  Il y a trois types de sandales à l'\OK. Elles ne sont portées 
+  que lorsque le personnage est à l'extérieur.
+\end{remarque}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=12cm]{Mererouka_4}
+  \caption{Mastaba de Mérérouka \rem{(Saqqara)}}
+  \label{mrrwka4}
+\end{figure}
+
+\section{Attributs non animés, tenus}
+
+Boudins, sceptres, cannes, armes, linge plié, parties de vêtement, 
+calames, palettes, papyrus, chaussures, vases, encensoirs, \dots
+
+\oeuvre{Nefer \rem{(Boston 07.1002, \fref{MFA071002})}} 
+Il tient la canne \tl[black]{mdw} signifiant \frquote{parole} 
+et le sceptre \tl[black]{sxm} (ou \tl[black]{abA}) signifiant 
+\frquote{pouvoir}. C'est un hiéroglyphe !
+Plus le plat du sceptre est long, plus on est tôt dans l'\OK.
+
+\oeuvre{Mérérouka \rem{(Saqqara, \fref{???})}}
+Mérérouka tient un linge plié \begin{hieroglyph}s\end{hieroglyph}.
+Il signifie \tl[black]{sr}, \og magistrat \fg. Dans l'autre main, 
+il tient un canne.
+
+\oeuvre{Akhethotep \rem{(Louvre E\,10958\,(A), 
+\fref{E10958A_3})}}
+Akhethotep tient également le linge plié, ainsi qu'un support 
+d'écriture (tablette de scribe ?). Cette tablette est à ses 
+dimensions. Or il est deux fois plus grand que ses serviteurs. C'est 
+la présence d'Akhethotep qui permet de définir ce qu'est l'objet.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=10cm]{E10958A_3}
+  \caption{Mastaba de Akhethotep \rem{(Louvre E\,10958\,(A))}}
+  \label{E10958A_3}
+\end{figure}
+
+\oeuvre{Général Nysoumontou \rem{(???, \fref{???})}} 
+Début \dyn{XII}.
+Lui aussi tient un linge plié défiant l'apesanteur.
+C'est bien le \begin{hieroglyph}s\end{hieroglyph}. Un vrai 
+mouchoir tomberait.
+
+\oeuvre{Ânkhoudjes et Tepemnéfret \rem{(Louvre E\,25368, 
+\fref{E25368})}}
+Ce linge plié est passé très vite en 3D : on le trouve sur des 
+statues dès le début de la \dyn{IV}.
+
+\begin{figure}[!h]
+%  \hspace*{\fill}%
+  \captionsetup{style=petit}
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    \includegraphics[width=5cm]{E25368}
+    \caption{Ânkhoudjes et Tepemnéfret \rem{(Louvre E\,25368)}}
+    \label{E25368}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    \includegraphics[width=6cm]{JE51280}
+    \caption{Le nain Séneb et sa famille \rem{(Caire JE\,51280)}}
+    \label{JE51280}
+  \end{minipage}%
+%  \hspace*{\fill}%
+\end{figure}
+
+\section{Attributs non animés, en contexte ou juxtaposés}
+
+\oeuvre{Le nain Séneb et sa famille \rem{(Caire JE\,51280, 
+\fref{JE51280})}} \dyn{IV}.
+Le serdab entourant les personnages nous indiquent qu'il s'agit d'une 
+statue de tombe.
+
+\begin{remarque}
+  Il n'y a pas de statue hors des tombes à l'\OK. Ce n'est qu'à 
+  la \PPI qu'elles entrent dans les temples.
+\end{remarque}
+
+\oeuvre{Menu de Tepemânkh \rem{(Louvre E\,25408, \fref{E25408})}}
+\dyn{V}.
+Une table d'offrande est placée devant le défunt. Autre élément 
+juxtaposé : les h\iéro es tout autour qui indiquent ce qu'elle 
+contient.
+
+\begin{remarque}
+  Les attitudes sont en général liées aux attributs : la main 
+  du défunt s'avance pour prendre des victuailles sur sa table 
+  d'offrandes.
+\end{remarque}
+
+\oeuvre{Ânkhoudjes et Tepemnéfret \rem{(Louvre E\,25368, 
+\fref{E25368})}}
+Le couple est installé devant une table d'offrandes et des bassins.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=10cm]{E25408}
+  \caption{Menu de Tepemânkh \rem{(Louvre E\,25408)}}
+  \label{E25408}
+\end{figure}
+
+\section{Attributs animés}
+
+\begin{itemize}
+  \item animal (en contexte réaliste ou symbolique) ;
+  \item être humain ;
+  \item hybrides.
+\end{itemize}
+
+\oeuvre{Medinet Habou}
+Dans les temples, au dessus de la tête du roi, on a toujours un 
+faucon (Horus de Béhédet au nord) ou un vautour (Nekhbet au sud) 
+\rem{(\fref{medinet}a)}. 
+On trouve également, au plafond, la divinité ailée qui indique 
+la présence du roi \rem{(\fref{medinet}b)}.
+
+\begin{figure}[!h]
+%  \hspace*{\fill}%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    a)\includegraphics[width=7cm]{MedinetHabou_1}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    b)\includegraphics[width=6cm]{MedinetHabou_2}
+  \end{minipage}%
+%  \hspace*{\fill}%
+  \caption{Ramsès~III dans le temple de Medinet Habou}
+  \label{medinet}
+\end{figure}
+
+\oeuvre{Mérérouka \rem{(Saqqara, \fref{mrrwka3})}}
+Des personnages accompagnent Mérérouka : 
+\begin{itemize}
+  \item Son fils. Ce n'est pas le cas ici, mais d'habitude le fils 
+        tient la canne de son père (\og faire le bâton de vieillesse 
+        de son père \fg{} = exercer la fonction pour son père). Il 
+        tient également un oiseau (Un h\iero e ? Symbole de jeunesse ? 
+        Mais pas toujours un \tl[black]{zA}\dots). 
+  \item Sa femme. Elle respire un nénuphar = défunte ; 
+  \item Des singes se promènent sur les cordages du bateau : souvent, 
+        ils indiquent que les bateaux reviennent de Pount. Ce sont des 
+        animaux exotiques (Soudan, Pount) et sont une représentation 
+        de notabilité, un \og signe extérieur de richesse \fg.
+\end{itemize}
+La taille des personnages donne des informations sur leur importance 
+relative.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=10cm]{Mererouka_3}
+  \caption{Mastaba de Mérérouka \rem{(Saqqara)}}
+  \label{mrrwka3}
+\end{figure}
+
+\begin{remarque}
+  Souvent, ce sont des nains qui gardent les singes : les uns comme 
+  les autres sont précieux.
+\end{remarque}
+
+\oeuvre{Khephren \rem{(Caire JE\,10062, \fref{JE10062})}}
+À la fois un vrai faucon vivant, et pas du tout réaliste.
+
+Les personnages peuvent être de mêmes dimensions ou pas, être 
+côte à côte, l'un derrière l'autre, face à face (\Att~aux règles de 
+l'aspective), être en contact, se tenir ou pas, un personnage peut 
+être sur les genoux d'un autre (Pépy et sa mère \flech~régence).
+
+\oeuvre{Mykerinos et son épouse \rem{(Boston MFA\,11.1738, 
+\fref{MFA111738})}}
+La reine a un pied légèrement en avant : elle a une fonction, mais 
+c'est quand même une dame :) 
+Elle est de même taille que le roi, et elle le tient des deux mains 
+(le roi !), la main sur la saignée du bras. Pour les nécropoles 
+royales, cette attitude est typique des IV\ieme et première 
+moitié de \dyn{V}s. Elle signifie : \og C'est mon mari ! \fg.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[height=9cm]{MFA111738_1}
+  \caption{Mykerinos et son épouse \rem{(Boston MFA\,11.1738)}}
+  \label{MFA111738}
+\end{figure}
+
+\begin{warning}
+  Tous les critères de datation ne sont valables en l'état que pour 
+  les statues de la nécropole royale, ou les productions des ateliers 
+  royaux ! Il peut y avoir quelques siècles de retard dans les 
+  ateliers provinciaux.
+\end{warning}
+
+\oeuvre{Le nain Séneb et sa famille \rem{(Caire JE\,51280, 
+\fref{JE51280})}}
+La manière dont son épouse tient Séneb, ne se trouve que jusqu'au 
+milieu de la \dyn{V} (Nyouserrê). \c{C}a revient ensuite au \MK.
+Les enfants remplacent les jambes de Séneb, ce qui permet d'équilibrer
+le groupe. Ils portent des noms formés sur Khéphren et Rêdjedef, et 
+sont donc nés à cette époque là.
+Les personnages masculins sont en rouge, les personnages féminins en 
+blanc, quelque soit la réalité. 
+
+\oeuvre{Ânkh \rem{(Louvre A\,39, \fig{A39})}} \dyn{III}.
+Attitude de prière.
+
+\chapter{Canon et modelé}
+
+Canon = proportion du corps.
+
+Le corps est plus ou moins allongé, de même que les différentes 
+parties du corps les unes par rapport aux autres.
+
+Il n'y a pas beaucoup de variations à l'\OK.
+
+À la \dyn{III}, ils sont trapus, avec la tête engoncée dans les 
+épaules avec de très grosses jambes.
+
+\Att~Il faut tenir compte du matériau : le granit ne se travaille 
+pas comme du calcaire. 
+
+\Att~Il faut se méfier des comparaisons : tailles, matériaux, 
+contraintes différentes.
+
+\section{Volume général}
+
+Face et profil.
+
+Plus haut que large ?
+
+\begin{tikzpicture}[black, thick, ]
+  \begin{scope}[scale=0.5]
+    \teteronde
+  \end{scope}
+
+  \begin{scope}[shift={(2.5,0.0)}, scale=0.5]
+    \teteellipse
+  \end{scope}
+
+  \begin{scope}[shift={(5.0,0.0)}, scale=0.5, rounded corners=1mm]
+    \teterect
+  \end{scope}
+
+  \begin{scope}[shift={(7.5,-1.0)}, scale=0.3, rounded corners=0.5mm]
+    \montou
+  \end{scope}
+
+  \begin{scope}[shift={(10.5,-1.5)}, scale=0.3, rounded corners=0.5mm]
+    \salt
+  \end{scope}
+\end{tikzpicture}
+
+\section{Taille du front, de la mâchoire, pommettes, joues}
+
+\section{Détails du visage}
+
+\donc~Orientation, forme, écartement, volume, \dots
+
+\begin{description}
+  \item [Sourcils]
+  \item [Yeux]   Angle, vue de profil.
+  \item [Paupières]
+  \item [Nez]    Court, long, droit, pointu, aquilin, busqué, \dots
+  \item [Canal labio-nasal] 
+                 Forme, distance.
+  \item [sillons naso-géniens] 
+                 $\pm$ creusés, droits, courbes, $\neq$ façons de 
+                 rejoindre la bouche.
+  \item [Bouche] Orientation, forme, commissures $\pm$ creusées, 
+                 contour marqué ou pas. \\
+                 Comparaison lèvre inférieure / lèvre supérieure : à 
+                 la \dyn{IV} avant Mykérinos : même volume ; à partir 
+                 de Mykérinos, la lèvre inférieure est plus volumineuse
+                 que la lèvre supérieure.
+  \item [Menton] Angle avec le cou (plancher buccal), de profil.
+  \item [Oreilles] 
+                 $\pm$ grandes, taille des lobes / pavillons, 
+                 emplacement sur le visage
+  \item [Détails divers] 
+                 Plis du cou, \dots
+\end{description}
+
+\section{Matériaux}
+
+\begin{description}
+  \item[Statuaire privée] Toutes les statues viennent de complexes 
+         funéraires (serdab, chapelle, caveau) ;
+  \item[Statuaire royale] Idem, mais la provenance de certaines 
+         statues est inconnue, et quelque unes de la \dyn{IV} viennent 
+         de temples (contexte divin) : est-ce l'emplacement d'origine 
+         ou s'agit-il d'une réutilisation ultérieure ?
+\end{description}
+
+On connait un millier de statues pour l'\OK, dont une grande partie 
+est en bois. Combien d'autres statues en bois ont-elles disparu ?
+
+\begin{remarque}
+  Comme au Moyen-\^Age en Europe, le bois a une valeur symbolique plus 
+  grande que la pierre.
+\end{remarque}
+
+Il y a beaucoup d'essences de bois différentes.
+
+Le bois est peint ou pas.
+
+La majorité des statues est en calcaire.
+
+On trouve aussi de la pierre plus dure (surtout dans la statuaire 
+royale).
+
+(grauwacke = métapélite, du schiste re-métamorphisé = pierre bleue de 
+Bretagne)
+
+Albâtre égyptien (= calcite).
+
+Pierre de Toshka (Nubie) \flech{} statues de Khéphren.
+
+Incrustation d'autres matériaux.
+
+On compte très peu de statues en métal qui est rare donc précieux.
+C'est de plus un matériau recyclable. On peut quand même citer les 
+deux statues de Pépy~I\ier{} \rem{(Caire A\,7 ?, \fref{A7})} 
+en cuivre, et le faucon de Hiérakonpolis en cuivre et or 
+\rem{(Caire JE\,32158, \fref{JE32158})}.
+
+\begin{figure}[!h]
+  \begin{minipage}{.30\textwidth}
+    \centerfloat
+    a)\includegraphics[width=.90\textwidth]{A7_4}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}{.40\textwidth}
+    \centerfloat
+    b)\includegraphics[width=.90\textwidth]{A7_6}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}{.30\textwidth}
+    \centerfloat
+    c)\includegraphics[width=.90\textwidth]{A7_8}
+  \end{minipage}%
+  \caption{Pépy~I\ier{} \rem{(Caire A\,7 ?)}}
+  \label{A7}
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[height=7cm]{JE32158_1}
+  \caption{Le faucon de Hiérakonpolis \rem{(Caire JE\,32158)}}
+  \label{JE32158}
+\end{figure}
+
+\part{La statuaire, chronologie}
+
+\chapter{Avant l'\OK}
+
+Djoser ne marque le début ni de l'architecture ni de la ronde-bosse 
+en pierre, voir notamment les colosses de Min (conservés au~Caire et 
+à Oxford).
+Dans la statuaire royale, la pierre est utilisée depuis au moins 
+Khâsekhemouy (\dyn{II}).
+
+\oeuvre{Khâsekhemouy en manteau de fête \emph{sed} 
+\rem{(Caire JE\,32161, \fig[a]{khasekhem} et 
+Oxford AN\,1890.1908.E.517, \fig[b]{khasekhem})}}
+Le roi est assis sur un trône, les jambes serrées et pieds nus.
+Son visage est relativement allongé, les joues ne sont pas creuses, 
+les pommettes sont saillantes, les sourcils arqués presque en 
+$\Lambda$. Le bord supérieur des yeux suit le sourcil, le bord 
+inférieur est moins arrondi. Le volume du globe oculaire est visible 
+sous les paupières. Les lèvres sont charnues. Les oreilles sont assez 
+épaisses et décollées.
+Le roi porté la couronne blanche, haute, bombée vers l'avant, et le 
+manteau de fête \emph{sed}.
+
+\begin{figure}[!h]
+  \begin{minipage}{0.45\textwidth}
+    \centerfloat
+    a) \includegraphics[height=7cm]{AN18901908E517_1}
+  \end{minipage}%
+  \begin{minipage}{0.45\textwidth}
+    \centerfloat
+    b) \includegraphics[height=7cm]{JE32161_5}
+  \end{minipage}%
+  \caption{Khâsekhemouy en manteau de fête \emph{sed}
+           a)~AN\,1890.1908.E.517 ; b)~Caire JE\,32161}
+  \label{khasekhem}
+\end{figure}
+
+% \begin{figure}[!h]
+%   \centerfloat
+%   \caption{Khâsekhemouy en manteau de fête \emph{sed}}
+%   \label{JE32161}
+% \end{figure}
+
+
+
+\chapter{\dyn{III}}
+
+Les listes postérieures donnent neuf rois, on ne sait pas combien 
+il y en a en réalité (cinq ou six). On connait, au maximum, cinq 
+pyramides.
+
+Il n'y de statues royales avérées que pour Djoser !
+Il est question de quarante statues, mais il s'agit peut-être de 
+quarante fragments, ou d'un nombre hypothétique lié aux 40 (?) niches 
+ans le complexe funéraire.
+
+On compte également une vingtaine de statues de particuliers.
+
+\section{Djoser}
+
+Toutes ses statues viennent du complexe de Saqqara. Elles sont taille 
+nature ou un peu plus grandes, et polychromes :
+\begin{itemize}
+  \item chairs rouges ;
+  \item sol noir (terre, espaces négatifs) ;
+  \item vêtements blancs ;
+  \item cheveux noirs.
+\end{itemize}
+
+\espace
+\oeuvre{Statue de fête \emph{sed} \rem{(Caire JE\,49158, 
+\fig{JE49158})}}\\
+Cette statue provient du serdab au nord de la pyramide.
+Le roi est assis sur un trône à dossier (plus haut que celui de 
+Khâsekhemouy), avec les jambes serrées et les pieds nus.
+La main droite est fermée et posée sur la poitrine, la gauche est 
+posée à plat sur la cuisse. Les deux sont vides. 
+Il porte une perruque tripartite très épaisse, rappelant le némès, 
+une barbe postiche très longue et un manteau de fête \emph{sed}.
+Le socle comporte le titre \mbox{\begin{hieroglyph}sw:t-bit:t-nbty
+-nTr-r:X:nbw\end{hieroglyph}} \tl[black]{(ny)-sw.t-bjt(y) nbty 
+NTr(y)-X.t}.
+Le visage est carré, les oreilles relativement grandes et basses. 
+Les yeux étaient incrustés (métal ?), l'extrémité lacrymale, longue 
+et pointue, plonge vers le nez. Le roi porte une moustache (de \og 
+maquereau marseillais \fg, \'Evelyne F.). Le nez est relativement 
+long, les lèvres charnues, la bouche relativement droite, le sillon 
+labio-nasal peu creusé.
+Il porte un pseudo-némès à rayures.
+En comparant avec des reliefs (provenant des appartements royaux, 
+tombeau sud ? cf publi de Lauer), on voit que le menton est fort, 
+et que le roi à trois nez différents. Là encore, la couronne blanche 
+est haute et bombée.
+
+\begin{figure}[!h]
+  \hspace*{\fill}%
+  \begin{minipage}{.48\textwidth}
+    \centerfloat
+    a)\includegraphics[width=5cm]{JE49158_1}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.48\textwidth}
+    \centerfloat
+    b)\includegraphics[width=4cm]{JE49158_6}
+
+    \vspace*{1.0cm}
+
+    c)\includegraphics[width=6cm]{JE49158_10}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \caption{Djoser : statue de fête \emph{sed} \rem{(Caire JE\,49158)}}
+  \label{JE49158}
+\end{figure}
+
+\oeuvre{Statue de fête \emph{sed} debout 
+\rem{(Saqqara, cour sud, \fig{djoser_sud})}}\\
+Les trois statues montrent les trois étapes du travail ! Il ne s'agit 
+pas de statues osiriaques (elles n'apparaissent qu'à la \dyn{XII}, 
+et sont caractérisées par le linceul qui recouvre le corps).
+Elles comportent une plaque dorsale.
+Le roi est debout, les jambes serrées, les bras repliés sur l'abdomen.
+Les mains ne sont pas croisées. Le roi tient les régalias, porte une 
+perruque tripartite, une longue barbe postiche, un costume de fête 
+\emph{sed}.
+On ne sait pas ce que devait devenir le bloc au-dessus de sa tête.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=\textwidth]{djoser_cour_sud}
+  \caption{Djoser : statue de fête \emph{sed} debout 
+           \rem{(Saqqara, cour sud)}}
+  \label{djoser_sud}
+\end{figure}
+
+\oeuvre{Nord-ouest de la cour \rem{(???, \fig{???})}}\\
+Il y quatre statues \incise{deux grandes, deux plus petites} sur 
+deux socles. Il n'en reste que les pieds. Les personnages étaient 
+debout contre le mur.
+
+\oeuvre{Djoser \rem{(Saqqara mag. 6, \fig{saq_mag6})}}
+Le roi est dans la même attitude que celle du~Caire.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=\textwidth]{saqqara_mag6}
+  \caption{Djoser (Saqqara mag. 6)}
+  \label{saq_mag6}
+\end{figure}
+
+\oeuvre{Saqqara~12995 \rem{(???, \fig{???})}}
+La main droite est sur la poitrine, tenant le fouet.
+
+\oeuvre{Saqqara~12996 \rem{(???, \fig{???})}}
+
+\oeuvre{Saqqara~12997 \rem{(???, \fig{???})}}
+
+\oeuvre{Saqqara a et c \rem{(???, \fig{???})}}
+
+\oeuvre{JE\,69450, JE\,69458, JE\,69459, JE\,69889a, JE\,69889c, 
+JE\,60487 \rem{(Caire, \fig{???})}}
+Sceptre \emph{âout}, ceinture \emph{chésémet}.
+
+\oeuvre{Djoser \rem{(JE\,49889j, \figs{JE49889_1} 
+et~\ref{JE49889_2})}}\\
+Le roi est debout, jambes serrées et pieds nus, sur les neuf arcs.
+Les \emph{rekhyt} sont devant les pieds du roi, pas dessous : ils 
+sont soumis, pas tués. C'est nouveau ! Jusque là, on représentait 
+les ennemis vaincus.
+
+\raisebox{6.5mm}[0mm][0mm]{%
+  \EnColonne[1.1\Htm]{\SmallerText\begin{hieroglyph}
+    bit-t-sn*sn
+  \end{hieroglyph}}}
+{\DisplayHieroglyphs
+\begin{hieroglyph}
+  V39*Dd*V39*Dd
+\end{hieroglyph}}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=7cm]{JE49889_2}
+  \caption{Socle de statue de Djoser \rem{(JE\,49889j)}}
+  \label{JE49889_2}
+\end{figure}
+
+\begin{remarque}[nobreak=true]
+  À l'époque classique, il y a opposition entre : 
+  \begin{itemize}
+    \item \emph{henememet} / \emph{rekhyt}
+    \item peuple du soleil / \emph{rekhyt}
+    \item \emph{pât} (nobles) / \emph{rekhyt}
+  \end{itemize}
+\end{remarque}
+
+\oeuvre{Relief \rem{(Turin~2761/21, \fig{turin276121})}}
+Bas-relief montrant une statue du roi assis avec la reine et une fille.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=7cm]{turin276121_1}
+  \caption{Socle de statue de Djoser \rem{(Turin~2761/21)}}
+  \label{turin276121}
+\end{figure}
+
+\section{Statuaire privée}
+
+\oeuvre{Panneau d'Hezyrê \rem{(Caire CGC\,1426, \fig{CGC1426})}}
+Nez fort.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=7cm]{CGC1426}
+  \caption{Panneau d'Hezyrê \rem{(Caire CGC\,1426)}}
+  \label{CGC1426}
+\end{figure}
+
+\faitle{10/05/2012}
+
+\oeuvre{Sépa et Nésa \rem{(Louvre, \figs[a]{A37} et~\ref{A37}b)}}\\
+Ce sont les trois plus grandes statues non royales de la \dyn{III}.
+Leur attitude est nouvelle à l'époque. 
+L'orientation des h\iero es montre que ces statues étaient faites 
+pour être vues de profil, ce qui ne se fait plus par la suite. Il 
+s'agit donc bien de la transposition en ronde-bosse du h\iero e du 
+\emph{ser}, la plus ancienne connue. \\
+Ils sont très trapus. Les jambes sont très épaisses, et la partie 
+réservée entre elles très importante : les sculpteurs n'ont pas eu 
+confiance. Il s'agit des premières statues (à notre connaissance) 
+de cette dimension, elles ne comportent ni pilier ni plaque dorsale.
+
+\textbf{Sépa} est, entre autres, \emph{Grand des dix de \HE}, une 
+sorte de super gouverneur. Au début de la \dyn{XII}, les dix sont les 
+dix gouverneurs. Akhtyâa (\fig{???}) porte également ce titre 
+administratif, territorial. Il alterne déjà titres de cour, titres 
+administratifs et titres religieux. 
+Sépa porte le pagne court, caractéristique de tout l'\OK. Sa ceinture 
+ainsi que certains détails du pagne sont en revanche typiques de la 
+\dyn{III} (à la \dyn{IV}, le n\oe ud de ceinture est représenté par 
+son h\iero e).
+Sa perruque est courte, bouclée, en boule (façon Jacksons Five), et 
+comporte une calotte assez importante. C'est un critère de datation : 
+plus la calotte est importante, plus on est tôt das l'\OK, mais son 
+absence n'est pas un critère !
+Le visage est ovale. Les yeux, fardés de vert, sont horizontaux et 
+assez ouverts \incise{surtout la partie supérieure} avec une longue 
+pointe lacrymale montant sur le nez, les arcades sourcilières 
+légèrement arquées. Le nez est relativement long, presque droit, un 
+peu fort. La bouche est relativement charnue, rectiligne, très bien 
+découpée, presque en losange. Le canal labio-nasal bien découpé et 
+assez creusé (c'est le cas durant tout l'\OK).
+On voit une dépression sous les pommettes, mais pas de sillons 
+naso-géniens.
+
+\label{txt:nesa}
+\textbf{Nésa} (\tl[black]{Ny-s.y-wa}, \emph{Celle qui est vouée à 
+l'unique}) est debout, les pieds joints, la main gauche sur le ventre. 
+Sa coiffure est typique de la \dyn{III} : perruque tripartite avec la 
+raie au milieu qui lui dégage le front en ogive, mais lui cache les 
+oreilles. Elle est dégradée (les deux lignes en bas) et, comme 
+toujours, plus longue à l'arrière qu'à l'avant. La partie avant forme 
+un angle droit avec les épaules. Nésa porte des bracelets (III\ieme et 
+\dyn{IV}s ; à la IV\ieme, on trouve de vrais bijoux, cf~le trésor de 
+Hétepheres, la mère de Khéops), une robe en fuseau qui s'arrête 
+au-dessus des chevilles (typique de la première moitié de l'\OK). 
+Son col en~V est typique de l'\OK. (au \MK : 
+\tikz[scale=0.08,thick]{\colV}, à la \dyn{XVIII} : 
+\tikz[scale=0.08,thick]{\colU}).
+Elle a les hanches fines, les épaules larges, pas de cou, un petit  
+côté nageuse est-allemande.  C'est le même volume que pour Sépa. 
+Elle est \emph{connue du roi}.
+
+\begin{remarque}
+  Toutes les statues de la \dyn{III} ont été trouvées avant le 
+  20\ieme~siècle, on n'a pas le contexte\dots Elles proviennent 
+  certainement des serdab, mais on n'en a pas la certitude.
+\end{remarque}
+
+\oeuvre{Dame de Bruxelles \rem{(KMKG E.0752, \fig{E0752})}} 
+\SI{74.7}{\cm}, calcaire. \\
+Plus petite que Nésa. Dans la même attitude sauf l'avant-bras : 
+il remonte légèrement vers le sein. La tête est grande par rapport 
+au corps. 
+Elle porte la même coiffure, la même robe que Nésa, leurs visages sont 
+également très similaires.
+Les yeux se rapprochent de ceux de la \dyn{II}, presque en 
+\tikz[scale=0.08,thick]{\oeil}
+
+\begin{figure}[!h]
+  \hspace*{\fill}%
+  \begin{minipage}{.27\textwidth}
+    \centerfloat
+    a)\includegraphics[height=9cm]{E0752_1}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.27\textwidth}
+    \centerfloat
+    b)\includegraphics[height=9cm]{E0752_3}
+  \end{minipage}%
+  \hspace*{\fill}%
+
+  \begin{minipage}{.27\textwidth}
+    \centerfloat
+    c)\includegraphics[height=9cm]{E0752_4}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.34\textwidth}
+    \centerfloat
+    d)\includegraphics[height=9cm]{E0752_5}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \begin{minipage}{.27\textwidth}
+    \centerfloat
+    e)\includegraphics[height=9cm]{E0752_2}
+  \end{minipage}%
+  \caption{La Dame de Bruxelles \rem{(KMKG\,E.0752)}}
+  \label{E0752}
+\end{figure}
+
+\oeuvre{Princesse Redjief \rem{(Turin C\,3065, \fig{C3065})}} 
+\SI{83}{\cm}, en basalte ! \\ 
+Comme les autres, la statue est placée sur un socle.\\
+Redjief est assise sur un trône cubique avec un dossier bas et dont 
+les côtés sont ornés d'un arceau \og chaise de bistrot \fg. Elle a un 
+bras le long du corps, la main à plat sur la cuisse, l'autre sur le 
+ventre. C'est la même attitude que les femmes debout.
+Elle porte la même coiffure (la différence de longueur entre avant 
+et arrière est plus accentuée que chez Nésa), la même robe que les 
+précédentes. On ne distingue pas vraiment le col, qui parfois était 
+juste peint.
+Son visage est abimé, mais du même type, la bouche un peu plus grande.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[height=9cm]{C3065}
+  \caption{Princesse Redjief \rem{(Turin C\,3065)}}
+  \label{C3065}
+\end{figure}
+
+\begin{remarque}
+  Les arceaux sur le siège sont un critère de datation : on en voit 
+  l'ancêtre apparaitre à la \dyn{II}, moins arqué, presque carré. 
+  Il se rencontre ensuite, en 2D et en 3D, pendant toute la \dyn{III} 
+  et jusqu'au règne de Snéfrou. \c{C}a disparait ensuite.
+\end{remarque}
+
+\oeuvre{Ânkh \rem{(Louvre A\,39, \fig{A39})}} \SI{62}{\cm}, 
+granit. \\
+Contrairement au calcaire ou au basate, le granit est une pierre 
+hétérogène dans laquelle il est impossible de faire des détails fins. 
+Le canon ne peut donc pas être utilisé comme critère de datation.\\
+Ânkh est assis sur un siège cubique sans dossier et décoré d'arceaux 
+\og chaise de bistrot \fg. La tête est grande par rapport au corps. 
+Les mains sont paume contre paume, une position de prière fréquente 
+en Orient mais rare en \kmt. 
+Il porte le pagne court sur lequel sont écrits son nom et ses titres 
+(stoliste d'Horus et inspecteur des charpentiers), ce qu'on ne 
+retrouve pas aux dynasties suivantes de l'\OK.
+Il a la coupe au carré avec la raie au milieu, coiffure très fréquente 
+aussi bien pour les hommes que pour les femmes.
+Il a un collier en forme de \tl[black]{Sn} 
+\tikz[scale=0.08,thick]{\chen} (ne se retrouve pas ensuite).
+Son visage a la même forme que les précédents mais ses yeux sont plus 
+ou moins en forme de  \tikz[scale=0.08,thick]{\oeil} sans pointe 
+lacrymale. Cela le rapproche de la \dyn{II}. Critère de datation ? 
+Ânkh pourrait être du début de la \dyn{III}, alors que Sépa et Nésa 
+seraient plutôt fin \dyn{III}. Mais ! Il faut raisonner en sculpteurs 
+plutôt qu'en règne\dots
+
+\oeuvre{Ânkh \rem{(Leyde AST\,18, \fig{AST18})}} \SI{79}{\cm}, 
+granodiorite. \\
+\noi\begin{minipage}{3cm}
+  \begin{tikzpicture}[scale=0.35, rounded corners, thick, font=\small]
+    \ankh
+  \end{tikzpicture} 
+\end{minipage}%
+\hfill%
+\begin{minipage}{10.5cm}
+  Coiffure, siège et visage sont identique au précédent, l'attitude 
+  est différente. Il est bien assis, mais il a les mains fermées, 
+  comme s'il tenait la canne et le sceptre : il mime !\\
+  Il porte la peau de léopard, du matériel de scribe sur les épaules. 
+  Ses nom et titres sont inscrits sur des pastilles sur ses épaules.
+\end{minipage}
+
+\begin{figure}[!h]
+  \captionsetup{style=petit}
+%  \begin{minipage}{.33\textwidth}
+%    \centerfloat
+%    \includegraphics[height=8cm]{C3065}
+%    \caption{Princesse Redjief \rem{(Turin C\,3065)}}
+%    \label{C3065}
+%  \end{minipage}%
+%  \hspace{\fill}%
+  \begin{minipage}{.45\textwidth}
+    \centerfloat
+    \includegraphics[height=8cm]{AST18_1}
+    \caption{Ânkh \rem{(Leyde AST\,18)}}
+    \label{AST18}
+  \end{minipage}%
+  \hspace{\fill}%
+  \begin{minipage}{.45\textwidth}
+    \centerfloat
+    \includegraphics[height=8cm]{AST19_1}
+    \caption{Ânkh \rem{(Leyde AST\,19)}}
+    \label{AST19}
+  \end{minipage}%
+  \hspace{\fill}%
+\end{figure}
+
+\oeuvre{Ânkh \rem{(Leyde AST\,19, \fig{AST19})}} \\
+Il est assis sur le même type de siège.
+Il porte une perruque peu détaillée mais très en boule, façon 
+\dyn{II}, une main posée à plat sur le genoux, l'autre fermée sur 
+la poitrine. Elle a l'air \frquote{fondue}. Inachevée ? Peur de 
+faire les détails ?
+
+\begin{remarque}
+  Les trois statues de Ânkh pourraient provenir de Beit Khallaf 
+  (en \ME, dans le gouvernorat de Sohag).
+\end{remarque}
+
+\oeuvre{Nyânkhnetjer \rem{(Caire TR\,12/1/88/1, \fig{???})}}\\
+La tête manque, mais le siège et l'attitude sont identiques. Il est 
+lui aussi en train de mimer.
+
+\label{txt:E25578}
+\oeuvre{Fragment de statue d'homme \rem{(Louvre E\,25578, 
+\fig{E25578})}} \SI{24.5}{\cm}, granit. \rem{(1\ier~étage, 
+salle~22, vitrine~2} \\
+Il ne reste que la tête et le torse, mais l'attitude est à nouveau 
+la même. Il a bien la coupe au carré avec la raie au milieu, mais elle 
+s'évase légèrement et montre des vagues et des mèches, et également 
+les deux lignes (cf Nésa, p.~\pageref{txt:nesa}). Les yeux sont entre 
+ceux de Ânkh et ceux de Sépa et Nésa : très ouverts, presque en 
+triangle, mais la pointe lacrymale est finement sculptée. \\
+A l'arrière, la colonne vertébrale est représentée par un creux.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=5cm]{E25578}
+  \caption{Fragment de statue d'homme \rem{(Louvre E\,25578)}}
+  \label{E25578}
+\end{figure}
+
+\begin{remarque}
+  Toutes ces statues, hormis AST\,18, ont en commun une musculature 
+  peu détaillée, presque à \og contour perdu \fg.
+\end{remarque}
+
+
+\oeuvre{Hepinpou \rem{(Caire CGC\,2, \fig{CGC2})}} \\
+Il était dans la même attitude : on voit la main à plat. Le siège 
+comportait bien un arceau. Son nom est inscrit sur le socle.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=5cm]{CGC2}
+  \caption{Hepinpou \rem{(Caire CGC\,2)}}
+  \label{CGC2}
+\end{figure}
+
+\oeuvre{Iynefer \rem{(Caire 4.1 ???, CGC\,57121, \fig{???})}} 
+Bas-relief, calcaire, milieu du règne de Snéfrou. \\
+Une niche typique du règne de Snéfrou, très creusée, avec du décor 
+sur toutes le faces. Iyneferef est à nouveau dans la même attitude, 
+assis sur un siège à arceau. Il a une calotte haute. Il porte un 
+pagne (comme celui de Sépa), le même collier. Il a le nez droit.
+
+\label{txt:BM171}
+\oeuvre{Ânkhouâ \rem{(BM\,171, \figs{BM171_1} et \ref{BM171_2})}} 
+\SI{64}{\cm}, granit, fin \dyn{III}. \\
+Il est assis sur le siège à arceau, la tête est un peu grosse par 
+rapport au corps. Il a une main à plat sur la cuisse mais il tient 
+une herminette dans l'autre ! Cela pourrait correspondre à son titre 
+(\emph{charpentier de marine} ou \emph{contremaître de la flotte}). 
+Il tient le h\iero e en 3D qui donne son titre.
+Il porte le pagne court. Il a la même coiffure que le \emph{Fragment 
+de statue d'homme} (Louvre E\,25578, p.~\pageref{txt:E25578}) 
+(peut-être un peu plus évasée) , mais ses jambes sont plus fines, plus 
+séparées malgré le granit. La technique s'améliore.
+L'inscription est situé sur le pagne, au-dessus du genou gauche.
+
+\begin{figure}[!h]
+  \begin{minipage}{.29\textwidth}
+    \centerfloat
+    a)\includegraphics[height=7.6cm]{BM171_1}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.37\textwidth}
+    \centerfloat
+    b)\includegraphics[height=7.6cm]{BM171_3}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.31\textwidth}
+    \centerfloat
+    c)\includegraphics[height=7.6cm]{BM171_2}
+  \end{minipage}%
+  \caption{Ânkhouâ \rem{(BM\,171)}}
+  \label{BM171_1}
+\end{figure}
+
+\begin{figure}[!h]
+%  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    \includegraphics[width=3cm]{BM171_4}
+%  \end{minipage}%
+  \caption{Ânkhouâ \rem{(BM\,171)}, inscription}
+  \label{BM171_2}
+\end{figure}
+
+\oeuvre{Metjen \rem{(Berlin ÄM\,1106, \fig{AM1106})}} Granit, 
+charnière III\ieme-\dyn{IV}s. \\
+Metjen \incise{un autre \emph{grand des dix de \HE}} est assis sur un 
+siège cubique avec un très léger rebord, sans arceaux mais inscrit, 
+les jambes serrées, les pieds posés sur un petit socle. La position 
+des mains est la même que pour Ânkhouâ (p.~\pageref{txt:BM171}), 
+il mime.
+Le nez est cassé, les jambes fines. Sa perruque est courte et bouclée, 
+mais moins en boule, elle commence à s'aplatir, type \dyn{IV}. La 
+forme de la perruque change le visage, qui parait moins ovale. Les 
+sourcils sont peu arqués, les yeux encore \dyn{III}.
+
+\begin{remarque}
+  Dans la chapelle de Metjen, également exposée à Berlin, on a la 
+  première biographie de particulier, à la 3\ieme personne. 
+  Il faut attendre le règne de Khephren pour la première 
+  autobiographie, Khéops ou Redjedef pour la première formule 
+  d'offrande, la \dyn{IV} pour l'adresse aux passants, la \dyn{V} pour 
+  Osiris et Sahourê pour la première Königsnovelle, 
+\end{remarque}
+
+\begin{figure}[!h]
+  \hspace*{\fill}%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    a)\includegraphics[width=0.9\textwidth]{AM1106_2}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.50\textwidth}
+    \centerfloat
+    b)\includegraphics[width=0.9\textwidth]{AM1106_4}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \caption{Metjen \rem{(Berlin ÄM\,1106)}}
+  \label{AM1106}
+\end{figure}
+
+\oeuvre{Hetepdief \rem{(Caire CGC\,1 -- JE\,34557, \fref{CGC1})}} 
+Granit. \\
+C'est un nouveau type statuaire, qui deviendra classique par la suite. 
+Hetepdef est agenouillé, les mains à plat, paumes sur les genoux, 
+en attitude de prière. La tête est, encore une fois, trop grande. 
+Sa perruque est courte et bouclée, elle descend sur les épaules, mais 
+les \og boucles \fg sont allongées. Il porte le pagne court. 
+Il a les noms des rois de la \dyn{II} dont il est le prêtre funéraire 
+inscrits sur l'épaule. Il faut attendre le \NK pour retrouver cela.
+Ses sourcils sont peu arqués, le visage et les yeux du même genre. 
+Son nez est droit, peut-être un peu plus fin (impression due à la 
+photo ?),
+sa bouche droite.
+
+\oeuvre{Base de statue (\nospace{?}) \rem{(Munich AS\,6300, 
+\fig{MAS6300})}} 
+II\ieme ou \dyn{III}. \\
+Divinités avec barbe, même type de visage.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=7cm]{MAS6300}
+  \caption{Base de statue ? \rem{(Munich AS\,6300)}}
+  \label{MAS6300}
+\end{figure}
+
+\oeuvre{Divinité masculine \rem{(Brooklyn MA\,58.192, 
+\fig{MA58192})}} \SI{21.3}{\cm}, gneiss. \\
+La statue est datée de la \dyn{III} malgré la plaque dorsale, parce 
+que le couteau est rabattu sur le corps ! Mais ce n'est pas un critère 
+de datation. Ce serait la plus ancienne plaque dorsale, cintrée en 
+prime ! \\
+Il porte une couronne plus ou moins en boule, la ceinture 
+\emph{néchémet} (habit de marin). 
+
+\begin{figure}[!h]
+  \hspace*{\fill}%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    a)\includegraphics[width=0.9\textwidth]{MA58192_1}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    b)\includegraphics[width=0.9\textwidth]{MA58192_2}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \caption{Divinité masculine \rem{(Brooklyn MA\,58.192)}}
+  \label{MA58192}
+\end{figure}
+
+
+\chapter[\dyn{IV}]{\dyn{IV}\faitle{24/05/2012}}
+
+\section{Snéfrou}
+
+\oeuvre{Relief \rem{(Caire~\nospace{???}, \fig{???})}} 
+Calcaire, plus grand que nature. \\
+Ce relief provient du temple \og médian \fg de Dahchour. La statue 
+est en haut-relief, prise dans une niche. L'ensemble est sculpté dans 
+un bloc unique. Canon : assez filiforme. 
+Le roi porte la couronne blanche, très haute, il est en position 
+frontale, les bras le long du corps, la jambe surement avancée. 
+Il porte le pagne \tl[black]{SnDy.t}, plissé en chevrons. \\
+La ceinture est décorée : 
+\newcommand{\bloc}{%
+  \draw (-0.5,0) -- (0,0.5) -- (0.5,0) -- (0,-0.5) -- cycle ;
+  \draw (-1,0) -- (0,1) -- (1,0) -- (0,-1) -- cycle ;
+  \draw (-1.25, 0.25) -- (0, 1.5) -- (1.25, 0.25) ; 
+  \draw (-1.25,-0.25) -- (0,-1.5) -- (1.25,-0.25) ; 
+  \draw (-1.25, 0.75) -- (0, 2.0) -- (1.25, 0.75) ;
+  \draw (-1.25,-0.75) -- (0,-2.0) -- (1.25,-0.75) ;
+}
+\begin{tikzpicture}[scale=0.17, thick]
+  \begin{scope}[shift={( 0.0, 0.0)}] \bloc \end{scope}
+  \begin{scope}[shift={( 5.0, 0.0)}] \bloc \end{scope}
+  \begin{scope}[shift={( 2.5, 0.0)}] \bloc \end{scope}
+  \begin{scope}[shift={(-2.5, 0.0)}] \bloc \end{scope}
+  \begin{scope}[shift={(-5.0, 0.0)}] \bloc \end{scope}
+\end{tikzpicture} 
+et on voit le cartouche au niveau du n\oe ud de ceinture.  La tête est 
+très abimée. Elle est petite, les oreilles sont grandes mais plaquées, 
+les yeux sont horizontaux avec la pointe lacrymale montant sur le nez 
+qui a l'air relativement fin. Le cou est assez long. 
+
+\oeuvre{Stèle de Snéfrou \rem{(Caire~\nospace{???}, à l'entrée, 
+\fref{???})}} Provient de Dahchour. \\
+%profil : 
+\begin{tikzpicture}[scale=0.5, rounded corners=0.3mm]
+  \coordinate (A) at (0.00,0.00) ; %(2.20,4.00) ;
+  \coordinate (B) at (0.40,1.80) ; %(2.60,5.80) ;
+  \coordinate (C) at (2.00,2.70) ; %(4.20,6.70) ;
+  \coordinate (D) at (2.30,3.50) ; %(4.50,7.50) ;
+  \coordinate (E) at (2.50,3.60) ; %(4.70,7.60) ;
+  \coordinate (F) at (2.40,3.75) ; %(4.60,7.75) ;
+  \coordinate (G) at (2.50,3.90) ; %(4.70,7.90) ;
+  \coordinate (H) at (2.30,4.00) ; %(4.50,8.00) ;
+  \coordinate (I) at (2.30,4.40) ; %(4.50,8.40) ;
+  \coordinate (J) at (2.30,5.20) ; %(4.50,9.20) ;
+  \coordinate (K) at (2.20,5.80) ; %(4.40,9.80) ;
+  \coordinate (L) at (2.70,4.40) ; %(4.90,8.40) ;
+  \coordinate (M) at (1.50,4.40) ; %(4.90,8.40) ;
+
+  \draw (A) -- (B) -- (C) -- (D) -- (E) -- (F) -- 
+        (G) -- (H) -- (I) -- (L) -- (J) -- (K) ;
+
+  \node [left] at (M) {profil :} ;
+\end{tikzpicture}
+
+\section{Khéops}
+
+\oeuvre{Khéops \rem{(Caire JE\,36143, \fig{JE36143})}} 
+\SI{7.5}{\cm}, ivoire, trouvée par Petrie à Abydos. \\
+Khéops porte la couronne rouge, il est assis sur un trône dont le 
+dossier monte jusqu'au milieu du dos. Son nom d'Horus est inscrit 
+dans un \emph{sékher} à côté de sa jambe droite. Il tient le fouet 
+\emph{nekhakha} dans sa main droite contre sa poitrine, la main gauche 
+est le long du corps. Il porte le pagne \tl[black]{SnDy.t}.
+La tête est assez grosse, les joues pleines, les yeux horizontaux, le 
+nez plus épais que chez Snéfrou (\Att{} différence de taille, mauvais 
+état, \dots). La bouche est large, droite et horizontale, les lèvres 
+relativement charnues, les oreilles grandes et plaquées.
+
+\begin{figure}[!h]
+  \hspace*{\fill}%
+  \begin{minipage}{.33\textwidth}
+    \centerfloat
+    a)\includegraphics[width=0.9\textwidth]{JE36143_2}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{.49\textwidth}
+    \centerfloat
+    b)\includegraphics[width=0.9\textwidth]{JE36143_4}
+  \end{minipage}%
+  \hspace*{\fill}%
+  \caption{Khéops \rem{(Caire JE\,36143)}}
+  \label{JE36143}
+\end{figure}
+
+\section{Rêdjedef}
+
+On a plus de \num{1000}~fragments de statues de Rêdjedef. 
+D'après Chassinat, il y aurait une vingtaine de statues.
+
+\oeuvre{Rêdjedef \rem{(Louvre E\,12626, \fig{E12626})}} Quartzite. \\
+Ce n'est pas un sphinx ! Aucun morceau de sphinx en quartzite n'a été 
+trouvé à Abou Rawach. 
+Le roi porte le némès lisse à retombées lisses, on voit le départ du 
+catogan, le bandeau horizontal sur le front, l'ur\ae us dont le corps 
+dessine un S sur le dessus du crâne. 
+La tête est en avant par rapport à la ligne d'épaules. Cela correspond 
+\incise{ainsi que la dimension} aux statues du roi assis. 
+Les yeux sont presque horizontaux, la partie supérieure est plus 
+arquée que la partie inférieure, la pointe lacrymale remonte sur le 
+nez. Les cils de la paupière supérieure sont marqués par une incision, 
+les arcades sont peu arquées. 
+Le nez est long, la distance nez-bouche courte et le canal labio-nasal 
+est creusé. 
+
+\begin{figure}[!h]
+  \captionsetup{style=petit}
+  \begin{minipage}{0.47\textwidth}
+    \centerfloat
+    a) \includegraphics[height=6cm]{E11167_1}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}{0.47\textwidth}
+    \centerfloat
+    b) \includegraphics[height=6cm]{JE35139}
+  \end{minipage}%
+    \caption{Têtes de Rêdjedef a)~Caire JE\,35139 ; b)~Louvre E\,11167}
+    \label{E11167}
+\end{figure}
+
+\oeuvre{Tête de Rêdjedef \rem{(Louvre E\,11167, \fig[b]{E11167}, 
+Caire JE\,35139, \fig[a]{E11167})}} \\
+La couronne blanche cassée, le nez semble droit, pas épaté, avec les 
+narines ouvertes. 
+
+\oeuvre{Rêdjedef \rem{(Louvre E\,12627, \fig{E12627})}} 
+Pourrait correspondre à la tête du Caire.
+C'est le plus ancien groupe de ce type en 3D. En relief : Djeser Turin 
+2761/21.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=3cm]{E12627}
+  \caption{Rêdjedef \rem{(Louvre E\,12627)}}
+  \label{E12627}
+\end{figure}
+
+\oeuvre{IFAO 638, \fig{???}} il en existait donc d'autres !
+Reine, coiffure au carré, raie au milieu, à gauche du roi.
+
+\oeuvre{IFAO 644a-b 500, \fig{???}} reine à droite du roi 
+
+\oeuvre{IFAO 473 298 269, \fig{???}} roi assis sur son trône
+
+\oeuvre{IFAO 234 458 395a-c 662, \fig{???}}
+
+\oeuvre{IFAO 187a-d, 188, \fig{???}} correspond au Louvre~E\,11167 !
+
+\oeuvre{IFAO 315, \fig{???}} le roi dans une niche
+
+\oeuvre{IFAO 291a-d, 292, 293, \fig{???}}
+
+\oeuvre{\rem{(Louvre E\,11552a, \fig{???})}} 
+linge plié, apparait avant le boudin
+
+\oeuvre{\rem{(Louvre E\,11552b-c, \fig{???})}} roi assis
+
+tête en gneiss
+
+\oeuvre{JE\,35137 \rem{(Caire JE\,35137, \fig{JE35137}}} 
+Calcaire.\\ Sphinx à crinière, connu fin \dyn{XII}, sous Amenemhat~III 
+et Amenemhat~IV puis sous Hatchepsout (\dyn{XVIII}) et Taharqa 
+(\dyn{XXV}). Déposé là plus tard ? À la \LP ?
+
+Tout le reste est en quartzite !
+
+Sa reine est Khentetenka. Elle porte le titre de \og Celle qui 
+voit Horus \fg, qui deviendra par la suite \og Celle qui voit Horus et
+Seth \fg.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=2]{JE35137}
+  \caption{Sphinx à crinière \rem{(Caire JE\,35137)}}
+  \label{JE35137}
+\end{figure}
+
+\section{Khéphren}
+
+On lui connaît une cinquantaine de statues, provenant de son complexe 
+funéraire à Giza, dans différents matériaux.
+
+\oeuvre{Sphinx de Giza \rem{(???, \fref{???})}} Premier sphinx 
+certain de la \dyn{IV}. Sculpté et peint. Tête d'homme, coiffé du 
+némès rayé (le premier).
+Ur\ae us au front, visage massif, barbe tressée (Caire, BM). Grands 
+yeux, plus grands et plus ouverts que sur les autres statues. Oreilles 
+assez grandes.
+
+\oeuvre{Statue \rem{(Caire CGC\,14, \fig{???})}} Carrières de Tochka, 
+à l'ouest d'Abou Simbel. Gneiss 
+(caractéristique de Khéphren). Pommettes saillantes, bouche comme 
+Rêdjedef, nez droit et pointu, pas lippu, distance nez-bouche courte, 
+canal très creusé, sillon sur paupière supérieure, pointe lacrymale 
+comme Rêdjedef, grand lobe d'oreille.
+Assis sur un trône à haut dossier (sous les épaules), protomé de lion 
+à l'avant, pattes de lion, séma-taouy, jambe serrées, queue de taureau 
+visible, une main sur la cuisse, l'autre tient un 
+\begin{hieroglyph}s\end{hieroglyph} ou un boudin.
+Le faucon marque la double nature du roi : homme et Horus. C'est 
+nouveau et peu fréquent.
+
+\faitle{31/05/2012}
+
+\oeuvre{Statue \rem{(Caire CGC\,10, \fig{???})}} (Musée de la Nubie)\\
+Siège cubique (divin), sans dossier.
+
+\oeuvre{Statue \rem{(Caire CGC\,11, \fig{???})}} 
+Partie inférieure d'une dyade Khéphren + Bastet. Assis sur un trône. 
+Son nom est écrit à côté d'elle. Séma-taouy à l'arrière
+avec génies.
+
+\oeuvre{Statue \rem{(Caire CGC\,12, \fig{???})}} Idem trône.
+
+\oeuvre{Statue \rem{(Caire CGC\,13, \fig{CGC13})}} 
+Même type de trône que CGC\,14.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=2]{CGC13}
+  \caption{Statue \rem{(Caire CGC\,13)}}
+  \label{CGC13}
+\end{figure}
+
+\oeuvre{Statue \rem{(Caire CGC\,15, \fig{???})}} Plus joufflu que les 
+autres statues, le nez commence à s'empâter, il commence à ressembler 
+à Mykérinos. Sillons naso-géniens profonds.
+
+\oeuvre{Statue \rem{(Caire CGC\,16, \fig{???})}} Plaque dorsale, roi 
+debout, jambe en avant.
+
+\oeuvre{Statue \rem{(Caire CGC\,17, \fig{???})}} Assis, trône cubique, 
+séma-taouy, mais titulature en ligne tout autour du trône.
+
+\oeuvre{Statue \rem{(Caire CGC\,41, \fig{???})}} Calcite.\\
+Visage un peu plus allongé, même yeux, même bouche, nez un peu plus 
+long, moins pointu, pommettes pas saillantes.
+
+\oeuvre{Hildesheim} 
+
+\oeuvre{Statue \rem{(Caire JE\,72213, \fig{???})}} Gneiss.\\
+Debout ; boudin ; plaque dorsale.
+
+\oeuvre{\rem{(Leipzig ÄMU\,1948, \fig{???})}}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=0.45\textwidth]{AMU1945_2}
+
+  \includegraphics[width=0.45\textwidth]{AMU1945_4}
+  \caption{Tête \rem{(Leipzig ÄMU\,1945)}}
+  \label{AMU1945}
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=2]{AMU1946_1}
+  \caption{Tête \rem{(Leipzig ÄMU\,1946)}}
+  \label{AMU1946}
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[width=0.3\textwidth]{AMU1947_2}
+  \includegraphics[width=0.3\textwidth]{AMU1947_AMU_1}
+  \includegraphics[width=0.3\textwidth]{AMU1947_3}
+  \caption{Tête \rem{(Leipzig ÄMU\,1947)}}
+  \label{AMU1947}
+\end{figure}
+
+\oeuvre{\rem{(Leipzig ÄMU\,1946, \fig{1946})}} 
+Attribué à Khéphren, vient de Giza.
+
+\oeuvre{\rem{(Leipzig ÄMU\,1947, \fig{1947})}} Calcaire, tout petit.\\
+Couronne rouge, le ??? est en cuivre (on en voit le point de départ). 
+Yeux incrustés. Le nez semble plus petit, en fait il est cassé.
+
+\oeuvre{\rem{(Leipzig ÄMU\,1945, \fig{1945})}} \SI{17}{\cm}\\
+Némès, joues pleines, sillons creusés, nez plus large.
+
+\oeuvre{\rem{(Caire RT\,25.11.18.4}}
+
+\oeuvre{\rem{(Boston MFA\,21.351, \fig{???})}} Calcite.\\
+Pas grosses joues, mais pas de pommettes saillantes.
+
+\oeuvre{\rem{(Boston MFA\,27.466, \fig{???})}} Calcite.\\
+Fragment de l'arrière de la tête. Aile de faucon visible, en 
+protection. Némès rayé.
+
+\oeuvre{\rem{(\AE IN\,1599, \fig{???})}} Feuardent.
+
+\oeuvre{\rem{(Hildesheim 69, \fig{???})}} Fragment. Main tenant un 
+vase \emph{nou} \donc~statue agenouillée. Trouvé en fouille
+
+\oeuvre{\rem{(Leipzig ÄMU\nospace{???}, \fig{???})}} Grauwacke, 
+\SI{9.5x4.0}{\cm}.\\
+Sphinx. Fragment de patte de lion.
+
+\section{Mykérinos}
+
+$\equiv$ version joufflue de Khéphren, nez un peu patate. 
+
+Une partie des statues et le complexe ne sont pas finies.
+
+\oeuvre{} Yeux en boutonnières, pommettes invisibles, sillons creusés, 
+lippu \donc~ressemble à la \dyn{V}. Un némès lisse, un rayé. 
+
+\oeuvre{\rem{(Boston MFA\,09.204, \fig{MFA09204})}} Calcite.\\
+Tête trop petite : changement de couronne ?
+
+\oeuvre{\rem{(Caire CGC\,42)}} Pas finie, pas polie.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=2]{CGC42_2}
+
+  \includegraphics[scale=2]{CGC42_3}
+  \caption{ \rem{(Caire CGC\,42)}}
+  \label{CGC42}
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{MFA09204_1}
+  \caption{ \rem{(Boston MFA\,09.204)}}
+  \label{MFA09204}
+\end{figure}
+
+\oeuvre{Dyade (MFA\,11.1738)} \SI{1.3}{\m}. 
+Presque finie, pas les textes. Némès lisse. Elle a la même tête que 
+lui, perruque tripartite. On voit ses vrais cheveux : \dynum{IV} -- 
+début \dyn{V}s. Elle le tient par la taille : \dynum{IV} -- milieu 
+\dyn{V}s (dans les nécropoles royales) puis \MK.
+
+\oeuvre{Triade \rem{(Boston MFA\,09.200, \fig{MFA09200})}}
+Hathor est assise au centre, le roi à sa gauche, les bras le long 
+du corps, boudin et massue \emph{hedj} (la massue est sculptée sur 
+le bord du siège) en mains. La déesse tient le roi par la taille. 
+Ses cornes sont particulières. La déesse du nome de la hase, à 
+droite d'Hathor et une jambe en avant, tient un 
+\begin{hieroglyph}anx\end{hieroglyph}. Toutes deux ont un col en V.
+
+\oeuvre{Triade \rem{(Caire JE\,40678)}, \fig{JE40678}} Le roi au 
+milieu, Hathor à droite, le dieu du nome de Thèbes à gauche. Ils sont 
+tous debouts, collés les uns aux autres, mais personne ne se touche.
+Nez patate, tout rond. Le roi tient les boudins.
+
+\oeuvre{Triade \rem{(Caire JE\,40679)}, \fig{JE40679}} Idem, mais avec 
+la déesse du nome du chien. Chacun tient le roi par une main.
+
+\oeuvre{Triade \rem{(Caire JE\,40699)}, \fig{JE40699}} La déesse Bat 
+tient les boudins, le roi et Hathor se tiennent par la main.
+
+\oeuvre{Triade, corps \rem{(Boston MFA\,11.3147, \fig{MFA113147})}} 
+\SI{80}{\cm} et \oeuvre{tête \rem{(Bruxelles E.3074, \fig{E3074})}} 
+la tête, \SI{22}{\cm}.\\
+Le roi, Hathor (\nospace{?}) à sa droite et un nome masculin à sa 
+gauche qui semble avoir eu la main sur l'épaule du roi.
+
+\begin{figure}[!h]
+  \captionsetup{style=petit}
+  \begin{minipage}{0.48\textwidth}
+    \centerfloat
+    \includegraphics[width=6cm]{MFA09200_1}
+    \caption{Triade \rem{(Boston MFA\,09.200)}}
+    \label{MFA09200}
+  \end{minipage}%
+% \end{figure}
+  \hfill%
+  \begin{minipage}{0.48\textwidth}
+% \begin{figure}[!h]
+    \centerfloat
+    \includegraphics[width=6cm]{MFA113147_2}
+    \caption{Fragment de triade \rem{(Boston MFA\,11.3147)}}
+    \label{MFA113147}
+  \end{minipage}%
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{JE40678_3}
+  \caption{Triade \rem{(Caire JE\,40678)}}
+  \label{JE40678}
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{JE40679_2}
+  \caption{Triade \rem{(Caire JE\,40679)}}
+  \label{JE40679}
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{JE40699_1}
+  \caption{Triade \rem{(Caire JE\,40699)}}
+  \label{JE40699}
+\end{figure}
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{BrE3074_1}
+  \caption{Tête d'une triade \rem{(Bruxelles E.3074)}}
+  \label{E3074}
+\end{figure}
+
+\faitle{07/06/2012}
+
+\oeuvre{Statuette inachevée \rem{(Boston MFA\,11.730, 
+\fig{MFA11730})}} 
+Juste ébauchée. Assis. Traces d'outils visibles \donc~pointe de cuivre.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{MFA11730}
+  \caption{Statuette inachevée \rem{(Boston MFA\,11.730)}}
+  \label{MFA11730}
+\end{figure}
+
+\oeuvre{\rem{(Boston MFA\,09.203, \fig{MFA09203})}} 
+\SI{28.0x19.6x21.9}{\cm}\\
+\Att~aux différences dues à l'éclairage !\\
+Trouvée dans le complexe funéraire de Mykérinos. Forme du visage 
+différente de la première moitié de la \dyn{IV}, annonce la V\ieme.
+Lippu, creu entre le menton et la bouche, nez patate. Longue pointe 
+lacrymale, sur le nez, partie inférieure de l'\oe il plus ouverte, 
+volume du globe occulaire visible sous la paupière.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{MFA09203_1}
+
+  \includegraphics[scale=1]{MFA09203_3}
+  \caption{Tête \rem{(Boston MFA\,09.203)}}
+  \label{MFA09203}
+\end{figure}
+
+\oeuvre{Louqsor 2004 \no4785 \rem{(magasin de Karnak, \fig{???})}}
+Siège : \SI{19.5x25.0}{\cm}\\
+Trouvé chez un marchand de Louqsor en février 2004.\\
+\begin{hieroglyph}O42-niwt-G11-mr-i-i\end{hieroglyph}
+
+\section{Chepseskaf}
+
+\chapter{\dyn{V}}
+
+\section{Ouserkaf}
+
+Pas grand chose : seulement deux têtes.
+
+\oeuvre{Tête \rem{(Caire JE\,90220, \fig{JE90220})}} 
+Grauwacke, \SI{45}{\cm}\\
+Trouvée en 1957 dans le temple bas du temple solaire. 
+Couronne rouge (?) très haute. Même yeux, joues pleines.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{JE90220_1}
+
+  \includegraphics[scale=1]{JE90220_3}
+  \caption{Tête \rem{(Caire JE\,90220)}}
+  \label{JE90220}
+\end{figure}
+
+\begin{remarque}
+  Nouveauté de la \dyn{V} : à quelques kilomètres du complexe 
+  funéraire, le temple solaire, avec les mêmes éléments que le 
+  complexe funéraire.
+\end{remarque}
+
+\oeuvre{Tête \rem{(Caire JE\,52501, \fig{JE52501})}} 
+Granite rose, \SI{75}{\cm} ($3\times$ taille nature).\\
+Vient de la cour du temple funéraire. C'est la plus grande statue 
+de l'\OK (\col\SI{6}{\m}). Némès lisse, ur\ae us plaqué.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{JE52501_1}
+  \caption{Tête \rem{(Caire JE\,52501)}}
+  \label{JE52501}
+\end{figure}
+
+\oeuvre{Partie inférieure d'une tête \rem{(Berlin ÄM\,19774, 
+\fig{AM19774})}} Calcite, temple solaire, Abousir\\
+Pas de fausse barbe.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{AM19774}
+  \caption{Tête \rem{(Berlin ÄM\,19774)}}
+  \label{AM19774}
+\end{figure}
+
+\oeuvre{Tête \rem{(Cleveland 79.79.2, \fig{Cl79792})}} Calcaire.\\
+Couronne blanche.
+
+\begin{figure}[!h]
+  \centerfloat
+  \includegraphics[scale=1]{Cl79792_2}
+  \caption{Tête \rem{(Cleveland 79.79.2)}}
+  \label{Cl79792}
+\end{figure}
+
+\section{Sahourê}
+
+\oeuvre{??? \rem{(MMA 18.2.4, \fref{???})}} Gneiss (Toshka), 
+\SI{63}{\cm}, Coptos ?\\
+Le roi est assis, jambes serrées, les bras le long du corps, une main 
+à plat sur la cuisse, l'autre tenant un linge ou un boudin. Il porte 
+le némès à retombées rayées. À côté de lui, le dieu du nome de Coptos, 
+debout, une jambe en avant, un bras le long du corps, un signe 
+\begin{hieroglyph}Sn\end{hieroglyph} dans la main et l'autre 
+main à plat, paume en haut, pouce rabattu sur une 
+\begin{hieroglyph}anx\end{hieroglyph} dirigée vers le roi. Il porte 
+la perruque tripartite, les mèches sont incisées, les oreilles 
+dégagées, la barbe courte des divinités, un pagne à languette plissée.
+Il porte un h \iero e sur la tête. 
+Les deux personnages partagent une seule plaque dorsale.
+Le dieu et le roi ont la même tête et ressemblent beaucoup à Mykérinos.
+
+\oeuvre{Fragments du temple funéraire \rem{(???, \fref{???})}} 
+Grauwacke et calcite.\\
+\begin{itemize}
+  \item couronne blanche, pagne, main gauche, grauwacke (Berlin)
+  \item plusieurs statues en calcite (Berlin)
+\end{itemize}
+
+\oeuvre{Patte de lion \rem{(Berlin, \fref{???})}} 
+\SI{5x65}{\cm}. Provient du temple funéraire d'Abousir.\\ 
+Porte le cartouche de Sahourê. Un sphinx ?
+
+\section{Néferirkarê}
+
+Rien !
+
+\section{Rânéferef}
+
+De nombreux fragments en basalte, granite, calcaire, calcite.
+
+\subsection{Basalte}
+
+\oeuvre{??? \rem{(Caire JE\,98181, \fref{???})}} Basalte, 
+\SI{80}{\cm}\\
+La statue comporte une plaque dorsale. Le roi est debout, jambe gauche 
+en avant, un bras le long du corps, main fermée sur un boudin, l'autre 
+main fermée sur le plexus et tenant une massue \emph{hedj}. Il porte 
+une grande couronne blanche bombée, un pagne \tl{SnDy.t}. On peut voir 
+quelques traces de couleurs, notamment du vert sur le collier 
+\emph{ousekh}.
+
+\oeuvre{Buste de statue assise \rem{(Caire JE\,98177, \fref{???})}} 
+Basalte, \SI{23.8}{\cm}\\
+Bras le long du corps, moustache.
+
+Plus quatre autres fragments.
+
+\subsection{Diorite}
+
+\oeuvre{Torse \rem{(Caire JE\,98183, \fref{???})}} 
+Diorite, \SI{17}{\cm}.
+
+\oeuvre{Base + deux pieds \rem{(Caire JE\,98184, \fref{???})}}
+
+\oeuvre{Un pied droit + un pied gauche \rem{(Caire JE\,98185, 
+\fref{???})}} Diorite.
+
+\oeuvre{Deux pieds \rem{(???, \fref{???})}} Diorite.
+
+\oeuvre{Tête + barbe \rem{(Caire JE\,98180, \fref{???})}} 
+\SI{8.5}{\cm} Diorite.
+
+\oeuvre{Tête \rem{(Caire JE\,98176, \fref{???})}} 
+Diorite, \SI{10.3}{\cm}.
+
+\oeuvre{Deux fragments de barbe \rem{(???, \fref{???})}} Diorite.
+
+\oeuvre{Un poing \rem{(???, \fref{???})}} Diorite.
+
+\subsection{Calcaire}
+
+\oeuvre{Bras \rem{(???, \fref{???})}}
+
+\oeuvre{??? \rem{(Caire JE\,98171, \fref{???})}} Calcaire rose 
+peint, \SI{34}{\cm}.\\
+Assis sur un trône, un bras le long du corps, l'autre replié sur le 
+plexus, massue \emph{hedj} dans la main. Perruque courte bouclée. 
+Trou sur le front \donc~ur\ae us en métal.
+Faucon tenant un \begin{hieroglyph}Sn\end{hieroglyph}. Joues, lippu, 
+\dots moustache peinte. 
+
+\oeuvre{Fragment de tête \rem{(Caire JE\,98178, \fref{???})}} 
+Avec trace de faucon ! Ce qui en ferait une deuxième. La taille 
+estimée est équivalente à celle de la première.
+
+\subsection{Quartzite}
+
+\oeuvre{Barbe + main + oreille \rem{(???, \fref{???})}}
+
+
+
+\section{Nyouserrê}
+
+\section{Menkaouhor}
+
+\chapter{\dyn{VI}}
+
+\section{Pépi~I\ier}
+
+\section{Mérenrê~I\ier}
+
+\section{Pépi~II}
+
+\chapter{Non attribués}
+
+
+%\oeuvre{??? \rem{(???, \fref{???})}}
+
+%\oeuvre{??? \rem{(???, \fref{???})}}
+
+%\oeuvre{??? \rem{(???, \fref{???})}}
+
+%\oeuvre{??? \rem{(???, \fref{???})}}
+
+%\oeuvre{??? \rem{(???, \fref{???})}}
+
+%\oeuvre{??? \rem{(???, \fref{???})}}
+
+%\oeuvre{??? \rem{(???, \fref{???})}}
+
+
+\backmatter
+\listoffigures
+\newpage
+\begin{KeepFromToc}
+  \tableofcontents
+\end{KeepFromToc}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

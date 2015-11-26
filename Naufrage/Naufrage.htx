@@ -1,4 +1,12 @@
-\documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
+\documentclass[%
+svgnames, %
+dvipsname%s, %
+a4paper, %
+twosid%e, %
+10pt, %
+openany, %
+article, %
+]{memoir}
 
 \includeonly{%
   Naufrage_00,

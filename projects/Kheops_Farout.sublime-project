@@ -24,33 +24,16 @@
         "*.*~",
         ".git*",
       ],
-      "path": "../Naufrage",
+      "path": "../Kheops/Farout",
       "name": "Sources"
     },
     {
-      "path": "../../images/Naufrage",
+      "path": "../img/Farout",
       "name": "Images"
     },
     {
-      "path": "../../utils",
-      "name": "Fichiers communs"
-    },
-    {
-      "path": "../../neferlatex",
-      "name": "Styles LaTeX"
-    },
-    {
-      "path": "../../compil",
-      "name": "Compil"
+      "path": "../utils",
+      "name": "Utilitaires"
     }
-  ],
-  "build_systems":
-  [
-    {
-      "name": "SeshLatex",
-      "cmd": "seshlatex -b $file",
-      "shell": true
-
-    }
-  ],
+  ]
 }

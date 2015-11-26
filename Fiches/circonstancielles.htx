@@ -1,0 +1,449 @@
+\documentclass[a4paper,landscape,9pt,article]{memoir}
+\usepackage[margin=0.5cm]{geometry}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+
+\renewcommand\rmdefault{ptm}
+
+\title{Circonstancielles prépositionnelles}
+\author{\SL}
+\date{\today}
+
+\setlength\tabcolsep{2pt}
+\setlength\fboxsep{0pt}
+\setlength\shadowsize{2pt}
+\setlength\parindent{0pt}
+
+\renewcommand\tabularxcolumn[1]{M{#1}}
+
+\makeatletter
+  \def\maketitle{{%
+    \begin{tcolorbox}
+      [%
+        % sharpish corners, %
+        before   = , 
+        after    = , 
+        width    = \textwidth, %
+        before upper = \centering\bfseries\Huge, %
+        coltext  = DarkBlue, %
+        colframe = DarkBlue, %
+        colback  = TblHdBg, %  
+        fuzzy shadow = {2mm}{-1mm}{0mm}{0.3mm}{DarkBlue}, %
+      ]%
+      {\@title\par}%
+    \end{tcolorbox}
+  }}%
+  \markright{\@title}
+\makeatother
+
+
+\begin{document}
+
+\maketitle
+
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace*{\fill}
+
+\footnotesize
+\centering
+
+\newlength{\colwidth}
+\deflength{\colwidth}{%
+  \textwidth - (1.3cm + 4\tabcolsep + 0.75pt)\relax%
+}
+
+\begin{tabularx}{\textwidth}{%  
+%              01         02 03 04 05  06  07 08 09
+  |>{\CellHead}M{1.3cm}|*{4}{M{3.3cm}|}X|*{3}{M{3.0cm}|}%
+}%
+
+%         1 23456789
+  \hhline{~|--------}
+    \multicolumn{1}{c|}{~}                    & % 01
+    \CellHead Infinitif                       & % 02
+    \CellHead Prospectif                      & % 03
+    \CellHead Nominale imperfective           & % 04
+    \CellHead Nominale perfective             & % 05
+    \CellHead \tl{wnmt=f}                     & % 06
+    \CellHead Accompli des intransitifs       & % 07
+    \CellHead Accompli agentiel               & % 08
+    \CellHead Accompli non-agentiel             % 09
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{tp-a}                                 & % 01
+    \tl{\dots{} sDm=f / prr=f}\\%
+      avant qu'il ait entendu /\\%
+      soit sorti                              & % 02 Infinitif
+                                              & % 03 Prospectif
+                                              & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{m}                                    & % 01
+    \tl{\dots{} sDm / pr.t}\\%
+      en entendant / sortant                  & % 02 Infinitif
+                                              & % 03 Prospectif
+    \tl{\dots{} sDm=f / prr=f}\\%
+      lorsqu'il entend / sort                 & % 04 Nominal 
+                                                %    imperfectif
+    \tl{\dots{} sDm\col n=f / pr\col n=f}\\%
+      lorsqu'il a entendu /\\est sorti        & % 05 Nominal perfectif
+    \tl{\dots{} sDmt=f / prt=f}\\%
+      lorsqu'il a entendu /\\%
+      est sorti \rem{(rare)}                  & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{xft}                                  & % 01
+    \tl{\dots{} sDm / pr.t}\\%
+      au moment d'entendre /\\%
+      de sortir                               & % 02 Infinitif
+                                              & % 03 Prospectif
+    \tl{\dots{} sDm=f / prr=f}\\%
+      lorsqu'il entend / sort                 & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{r-Tnw}                                & % 01
+                                              & % 02 Infinitif
+                                              & % 03 Prospectif
+    \tl{\dots{} sDm=f / prr=f}\\%
+      chaque fois qu'il entend / sort         & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{m-xt}                                 & % 01
+    \tl{\dots{} sDm / pr.t}\\%
+      après avoir entendu / être sorti        & % 02 Infinitif
+    \tl{\dots{} sDm=f / pr=f}\\%
+      après qu'il a entendu / est sorti       & % 03 Prospectif
+    \tl{\dots{} prr=f}\\%
+      après qu'il est sorti %
+      \rem{(d'habitude)}, %
+      quand il sort (?) \rem{(rare)}          & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+    \tl{\dots{} sDmt=f / prt=f}\\%
+      après qu'il a entendu / est sorti       & % 06 wnmt=f
+    \tl{\dots{} sw pr(=w)}\\%
+      après qu'il est sorti                   & % 07 Accompli des 
+                                                %    intransitifs
+    \tl{\dots{} sDm\col n=f}\\%
+      après qu'il a entendu                   & % 08 Accompli agentiel
+    \tl{\dots{} sDm(=w) sw}\\%
+      après qu'il a été entendu                 % 09 Accompli 
+      %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{r-sA}                                 & % 01
+    \tl{\dots{} sDm / pr.t}\\%
+      après avoir entendu / être sorti        & % 02 Infinitif
+    \tl{\dots{} sDm=f / pr=f}\\%
+      après qu'il a entendu / est sorti       & % 03 Prospectif
+                                              & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{m-sA}\footnotemark                    & % 01
+                                              & % 02 Infinitif
+    \tl{\dots{} sHfw=f}\\%
+      après qu'il a été détruit               & % 03 Prospectif
+                                              & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{r}                                    & % 01
+    \tl{\dots{} sDm / pr.t}\\%
+      pour entendre / sortir                  & % 02 Infinitif
+    \tl{\dots{} sDm=f / pr=f}\\%
+      jusqu'à ce qu'il entende / sorte        & % 03 Prospectif
+    \tl{\dots{} prr=f}\\%
+      jusqu'à ce qu'il sorte %
+      \rem{(d'habitude)}                      & % 04 Nominal 
+                                                %    imperfectif
+    \tl{\dots{} sDm\col n=f / pr\col n=f}\\%
+      jusqu'à ce qu'il ait entendu / %
+      soit sorti                              & % 05 Nominal perfectif
+    \tl{\dots{} sDmt=f / prt=t}\\%
+      jusqu'à ce qu'il ait entendu / %
+      soit sorti                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+%         123456789
+  \hhline{---------}
+    \tl{Dr}                                   & % 01
+                                              & % 02 Infinitif
+    \tl{\dots{} sDm=f / pr=f}\\%
+      étant donné que,\\depuis que, %
+      parce qu'il entend / sort               & % 03 Prospectif
+                                              & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+    \tl{\dots{} sDmt=f / prt=t}\\%
+      jusqu'à ce qu'il ait entendu / %
+      soit sorti, depuis que, car il a %
+      entendu / est sorti\\%
+      avant qu'il n'ait entendu               & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{n-mrw.t}                              & % 01
+    \tl{\dots{} sDm / pr.t}\\%
+      afin d'entendre / de sortir             & % 02 Infinitif
+    \tl{\dots{} sDm=f / pr=f}\\%
+      afin qu'il entende /qu'il sorte         & % 03 Prospectif
+                                              & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{n-msDw.t}                             & % 01
+                                              & % 02 Infinitif
+    \tl{\dots{} sDm=f / pr=f}\\%
+      afin qu'il n'entende pas / %
+      ne sorte pas                            & % 03 Prospectif
+                                              & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{m-snD}                                & % 01
+                                              & % 02 Infinitif
+    \tl{\dots{} sDm=f / pr=f}\\%
+      de peur qu'il n'entende / ne sorte      & % 03 Prospectif
+                                              & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{Hr}                                   & % 01
+    \tl{\dots{} sDm / pr.t}\\%
+      en train d'entendre / de sortir         & % 02 Infinitif
+                                              & % 03 Prospectif
+    \tl{\dots{} sDm=f / prr=f}\\%
+      parce qu'il entend / sort               & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{n}                                    & % 01
+    \multicolumn{8}{c|}{%                       % 02-09 Tout
+      \textbf{\color{TblHdTx}Infinitif} et %
+      \textbf{\color{TblHdTx}formes nominales conjuguées}~: %
+      \puceb{} \emph{parce que}%
+    }
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{n-aA.t-n(y).t}                        & % 01
+                                              & % 02 Infinitif
+                                              & % 03 Prospectif
+    \tl{\dots{} sDm=f}\\tant il entend\\%
+      \rem{(à cause de la grandeur d'il %
+      entend)}                                & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{n-jor-n(y)}                           & % 01
+                                              & % 02 Infinitif
+                                              & % 03 Prospectif
+    \tl{\dots{} sDm=f}\\tant il entend bien\\%
+      \rem{(à cause de l'excellence d'il %
+      entend)}                                & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{n-wr-n(y)}                            & % 01
+                                              & % 02 Infinitif
+                                              & % 03 Prospectif
+    \tl{\dots{} sDm=f}\\tant il entend\\%
+      \rem{(à cause de la grandeur d'il %
+      entend)}                                & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{n-mnx-n(y)}                           & % 01
+                                              & % 02 Infinitif
+                                              & % 03 Prospectif
+    \tl{\dots{} sDm=f}\\%
+      tant il entend efficacement\\%
+      \rem{(à cause de l'excellence d'il %
+      entend)}                                & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    Causales                                  & % 01
+    \multicolumn{8}{M{\colwidth}|}{%            % 02-09 Tout
+      \tl{m-a-nt(y).t}, %
+      \tl{r-nt(y).t}, %
+      \tl{xft-nt(y).t}, %
+      \tl{n-nt(y).t}, %
+      \tl{Hr-nt(y).t}, %
+      \tl{Dr-nt(y).t}\\
+      Toutes les \textbf{\color{TblHdTx}formes conjuguées} %
+      existantes~: \puceb{} \emph{parce que}, \emph{car}%
+    }
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \tl{Hna}                                  & % 01
+    \puceb{} Coordonne deux propositions      & % 02 Infinitif
+                                              & % 03 Prospectif
+                                              & % 04 Nominal 
+                                                %    imperfectif
+                                              & % 05 Nominal perfectif
+                                              & % 06 wnmt=f
+                                              & % 07 Accompli des 
+                                                %    intransitifs
+                                              & % 08 Accompli agentiel
+                                                % 09 Accompli 
+                                                %    non-agentiel
+  \tabularnewline
+%         123456789
+  \hhline{---------}
+
+\end{tabularx}
+\footnotetext{\emph{Ânkhtyfy Mo{\ain}alla I},~$\beta$~2 et aussi 
+\emph{Hatnub}~gr~49, 12-14}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

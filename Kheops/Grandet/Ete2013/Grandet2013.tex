@@ -1,0 +1,95 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,article]{memoir}
+\usepackage{pgf,tikz}
+\usetikzlibrary{calc, patterns, arrows, positioning, shadows, 
+                decorations.text}
+\usepackage{supertabular}
+%\usepackage{fancyhdr}
+\usepackage{calc}
+\usepackage{ragged2e}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+\usepackage[format=hang,labelsep=endash,font=sf,labelfont=bf]{caption}
+
+\graphicspath{{../../img/Grandet2013/Done/}}
+
+\widowpenalty=9999
+\clubpenalty=9999
+
+\DeclareCaptionStyle{petit}
+  {format=hang,labelsep=endash,font=sf,labelfont=bf,%
+   justification=RaggedRight,margin=0pt}
+\DeclareCaptionStyle{oneliner}
+  {format=hang,labelsep=endash,font=sf,labelfont=bf,%
+   justification=centerfirst,margin=0pt}
+\captionsetup{margin=2cm}
+
+\counterwithout{figure}{chapter}
+
+\settypeblocksize{27.0cm}{19cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\baselineskip}{\baselineskip}
+\setheaderspaces{*}{1.5\baselineskip}{*}
+\checkandfixthelayout
+
+
+\renewcommand{\lgn}[2]{%
+  \textcolor{EmphColor}%
+            {\fontencoding{OT1}\fontfamily{antt}\selectfont%
+             \bfseries\small[#1x#2]}%
+}
+
+\newcommand{\taille}{0.5}
+
+\newcommand{\includeligne}[3]{%
+  \lgn{#1}{#2}
+  $\vcenter{\hbox{\includegraphics[scale=\taille]{#3}}}$
+}
+
+\newcommand{\includeannexe}[1]{%
+  \includegraphics[scale=\taille]{#1}
+}
+
+
+% \newmdenv[backgroundcolor=Tan!5, nobreak=true,
+\newmdenv[nobreak=true,
+          outermargin=0, innermargin=0, 
+          innerleftmargin=0, innerrightmargin=0, 
+          innertopmargin=0, innerbottommargin=2.65cm, 
+%          skipabove={6pt plus 1pt minus .4pt}, skipbelow=0, 
+          hidealllines=true, 
+          settings={\setlength{\parindent}{0pt}}]
+         {ligne}
+\mdfsetup{frametitlealignment=\RaggedRight, align=center}
+
+
+\newcommand{\seminaire}{Grandet~2013 - Les peuples de la mer}
+
+\makeatletter
+  % Redefnine headings
+  \markboth{\@title}{\thepage}
+
+  \makepagestyle{simple}
+  \makeevenhead{simple}
+               {\normalfont\itshape\seminaire}
+               {}{\normalfont\itshape\@title}
+  \makeoddhead{simple}
+              {\normalfont\itshape\@title}{}
+              {\normalfont\itshape\seminaire}
+  \makeevenfoot{simple}{}{\normalfont\itshape\thepage}{}
+  \makeoddfoot{simple}{}{\normalfont\itshape\thepage}{}
+  \makeheadrule{simple}{\textwidth}{\normalrulethickness}
+\makeatother
+
+\pagestyle{simple}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\centering
+
+\include{Grandet2013_inc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

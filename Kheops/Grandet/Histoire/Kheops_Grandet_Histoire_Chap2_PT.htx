@@ -1,0 +1,725 @@
+%!TEX root = Kheops_Grandet_Histoire.htx
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\book{La \PT}\label{bk:PT}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\part{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Avec \roi{Narmer}, c'est le début de la période de transition entre 
+les époques archaïque et historique.
+La \emph{\PT} comprend les \dynlist{1}{2}. Elle tire son nom de 
+la tradition de \gens{Manéthon} : This est le siège de la dernière 
+monarchie préhistorique de la \HE unifiée.
+
+On n'a que très peu de documentation.
+
+\part{\texorpdfstring{\dyn{1}}{Ie dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Généralités}
+%======================================================================
+
+La séquence des rois est validée par des empreintes de sceaux 
+(\fref{fig:sceaux}).
+
+\begin{figure}[htb]
+  \begin{minipage}{\textwidth}
+    \centerfloat
+    \includegraphics[width=0.66\textwidth]{sceau_den_1}
+    \subcaption{Sceau de \roi{Den} \label{fig:sceaux_den}}
+  \end{minipage}
+
+  \begin{minipage}{\textwidth}
+    \centerfloat
+    \includegraphics[width=0.66\textwidth]{sceau_qaa}
+    \subcaption{Sceau de \roi{Qaa} \label{fig:sceaux_qaa}}
+  \end{minipage}
+  \caption{Empreintes de sceaux royaux}
+  \label{fig:sceaux}
+\end{figure}
+
+En revanche, le nom des rois pose problème : dans les documents 
+contemporains, les noms sont toujours précédés de \frquote{Horus}, 
+dans les documents postérieurs, on ne trouve pas les mêmes noms. On 
+peut supposer qu'ils devaient avoir un autre nom que le nom d'Horus.
+
+\chapter{\roi{Narmer}}
+%======================================================================
+
+Le premier roi de la \dyn{1} est \roi{Narmer}. Il est mentionné 
+dans les \emph{Tables d'Abydos} sous le nom de Méni, et chez 
+\gens{Manéthon} sous celui de Ménès, ou Méné.
+
+\section{La palette de \roi{Narmer}}\label{sec:pal_narmer}
+%----------------------------------------------------------------------
+
+\begin{figure}[htb]
+  \includegraphics[width=\textwidth]{PaletteNarmer}
+  \caption{Palette de \roi{Narmer}}
+  \label{fig:narmer}
+\end{figure}
+
+Cette palette présente le résultat d'une guerre.
+Sur une face, le roi, portant la couronne de \HE, abat des ennemis 
+devant Horus posé sur un fourré. Le fourré représente un nombre, en 
+milliers : \num{6000}~prisonniers.
+Sur l'autre face, le roi, portant la couronne de \BE, fait une revue 
+des prisonniers tués.
+
+La défense du pays et de la société incombe au roi, selon les 
+instructions de la divinité.
+
+Tablettes (bois, os, céramique) : attachées à des pots.
+Elles portent mention du produit et de sa quantité, plus une 
+indication de date (par la commémoration d'un événement qui s'est 
+produit cette année là).
+
+Une des tablettes reprend les événements de la palette.
+
+Tout l'apparat du pouvoir royal est déjà là : porte-sandales, 
+enseigne,~\dots ainsi que l'ancêtre du vizir (\tl{T} de \tl{TAty}) ?
+
+La seule mesure probable de Narmer est le déplacement de la capitale à 
+Memphis, le centre de gravité du pays, jonction entre vallée et Delta.
+Ce n'est pas démontré par l'archéologie, mais c'est logique. Et 
+l'existence de deux tombes d'une richesse architecturale importante 
+à Saqqara (non royales, celles-ci sont à Abydos) est la preuve de la 
+présence d'une élite, et donc d'un centre du pouvoir.
+
+\begin{remarque}
+  \begin{itemize}
+    \item Les tombes d'Abydos sont plus modestes que celles de 
+          Saqqara mais leurs superstructures ont disparues. Il y 
+          avait peut-être un monument, un temple, en bordure du 
+          désert, en complément de la tombe.
+    \item Après la conquête d'un nouveau territoire, il est 
+          plus facile de dupliquer l'administration que d'étendre
+          l'existant : cela pourrait expliquer la notion de deux 
+          royaumes.
+  \end{itemize}
+\end{remarque}
+
+\faitle{03/04/2012}
+
+\vspace{2\baselineskip}
+\dots
+\vspace{2\baselineskip}
+
+sépulture égyptienne = caveau 
+\tikz \draw [scale=.7] \caveau ; +~chapelle 
+\tikz \draw [scale=.7] \chapelle ;, pas forcément contiguës 
+
+%\begin{tabularx}{\textwidth}{>{\bfseries}R{2cm} X}
+\begin{tabularx}{\textwidth-\parindent}{R{2cm} X}
+    AE et ME  &
+    \begin{tikzpicture}[scale=0.8]
+      \draw [scale=0.7] \pyramide ;
+      \draw [shift={(0.70,0.10)}] \chapelle ;
+      \draw ( 1.20, 0.40) -- ++ ( 1.00, 0.00) ;
+      \draw ( 1.20, 0.30) -- ++ ( 1.00, 0.00) ;
+    \end{tikzpicture}
+  \tabularnewline
+    NE       &
+    \tikz \draw [scale=0.8] \caveau ; dans la \emph{Vallée des Rois}, 
+    \begin{tikzpicture}[scale=0.8]
+      \draw [shift={(0,-.25)}]\chapelle ;
+      \draw (0.5,-0.05) -- (1,-0.05) ;
+      \draw (0.5, 0.05) -- (1, 0.05) ;
+    \end{tikzpicture} à \SIrange[range-phrase=-]{1}{1.5}{\km}
+  \tabularnewline
+    BE       & chapelle et caveau à nouveau contiguës
+  \tabularnewline
+\end{tabularx}
+
+Certains rois ont même plusieurs chapelles, une par ville où se 
+trouve un grand temple, même à l'\OK (les cénotaphes d'Abydos).
+
+\chapter{Conception de la personne humaine}
+%======================================================================
+
+\noindent%
+\begin{minipage}[m]{2.5cm}%
+  \vspace*{0pt}
+  \begin{tikzpicture}[scale=0.8]
+    \draw      (1,1)   node [ka, below left]  {\emph{ka}} 
+          -- ++(0:1)   node [xt, below right] {corps} 
+          -- ++(120:1) node [ba, above]       {\emph{ba}} 
+          -- cycle ;
+  \end{tikzpicture}
+\end{minipage}%
+\hfill%
+\begin{minipage}[m]{12cm}%
+  \hfill
+%   \begin{tabular}{M{3.2cm}|M{3.2cm}|M{3.9cm}}
+%       \color{XtColor}{\bfseries Corps}     & 
+%       \color{BaColor}{\emph{\bfseries ba}} & 
+%       \color{KaColor}{\emph{\bfseries ka}}
+%     \tabularnewline
+%     \hline
+%       \uline{matériel} & immatériel          & immatériel%
+%     \tabularnewline
+%       sans mouvement   & \uline{mouvement}   & sans mouvement
+%     \tabularnewline
+%       informe          & informe             & \uline{forme}
+%     \tabularnewline
+%       $\Downarrow$     & $\Downarrow$        & $\Downarrow$
+%     \tabularnewline
+%       momie & 
+%       oiseau à\\tête humaine & 
+%       statues, représentations en 2D (forme, apparence)
+%     \tabularnewline
+%       & l'ombre en est la projection & 
+%       = modelé de la statue
+%     \tabularnewline
+%   \end{tabular}%
+
+% \bigskip
+% \bigskip
+% \bigskip
+
+  \begin{tabular}{M{3.0cm}M{3.0cm}M{4.4cm}}
+      \color{XtColor}{\bfseries Corps}     & 
+      \color{BaColor}{\emph{\bfseries ba}} & 
+      \color{KaColor}{\emph{\bfseries ka}}
+    \tabularnewline
+    % \hhline{---}
+    \toprule
+      \uline{matériel} & immatériel          & immatériel%
+    \tabularnewline
+      sans mouvement   & \uline{mouvement}   & sans mouvement
+    \tabularnewline
+      informe          & informe             & \uline{forme}
+    \tabularnewline
+      $\Downarrow$     & $\Downarrow$        & $\Downarrow$
+    \tabularnewline
+      momie & 
+      oiseau à\\tête humaine & 
+      statues, représentations en 2D (forme, apparence)
+    \tabularnewline
+      & l'ombre en est la projection & 
+      = modelé de la statue
+    \tabularnewline
+    \bottomrule
+  \end{tabular}%
+\end{minipage}%
+
+\bigskip
+
+\begin{itemize}
+  \item être vivant : les trois éléments sont intégrés : de la matière 
+         en mouvement ;
+  \item être mort : décomposé en ces trois éléments, chacun ayant son 
+         lieu de prédilection.
+\end{itemize}
+
+\bigskip
+
+\begin{figure}[htb]
+  \begin{tikzpicture}[scale=0.5]
+    \personne
+  \end{tikzpicture}
+  \caption{Les éléments constitutifs de la personne humaine}
+  \label{fig:personne}
+\end{figure}
+
+Le \emph{ba}, immatériel et informe, peut traverser la frontière.
+C'est vrai aussi pour le \emph{ba} des dieux.
+
+Le \emph{ba} vient sur terre le jour et retourne dans l'au-delà 
+la nuit.
+
+Le soleil (\fref{fig:basoleil}) plonge le soir pour retrouver son 
+corps, ce qu'on voit c'est son \emph{ka}. Son \emph{ba} lui fait 
+accomplir son trajet (\flech~les ailes).
+
+\begin{figure}[htb]
+  \begin{tikzpicture}[scale=0.9]
+    \basoleil
+  \end{tikzpicture}
+  \caption{La course du \emph{ba} du soleil}
+  \label{fig:basoleil}
+\end{figure}
+
+Le \emph{ba}, immatériel, échappe aux contraintes matérielles : 
+que chapelle et caveau soient proches ou éloignés ne change rien\dots
+
+\donc~séparation tombes (simples, \OeQ) / temples (plus importants, 
+apparat, \KeS) à Abydos.
+
+Temple : enceinte rectangulaire, fortifiée = enceinte funéraire.
+
+\SeZ (\roi{Khâsékhemouy}, \dyn{2}) : bateaux enserrés dans massif de 
+briques crues. \nospace{???}
+
+On a récemment retrouvé le palais funéraire de \roi{Âha}.
+
+\chapter{\roi{Djer}\label{cha:djer}}
+%======================================================================
+
+Tombe beaucoup plus importante que les précédentes, associée à des 
+magasins et des tombes subsidiaires (de serviteurs), on a retrouvé des 
+stèles à son nom. 
+Superstructure sûrement simple, en briques ou rocaille.
+Reste un bras de momie avec des bijoux (fouilles de \ano[0]{1898}).
+
+Le \emph{\frquote{lit d'Osiris}} (\fref{fig:lit_osiris}), en 
+ronde-bosse, en granit, monumental : pas d'époque !\\
+\donc~tombe réinterprétée (PPI, ME ?) comme celle d'Osiris.
+\flech~mise en scène du drame sacré de la passion d'Osiris.
+
+\begin{figure}[htb]
+  \includegraphics[height=4.2cm]{lit_osiris2}%
+  \hfill%
+  \includegraphics[height=4.2cm]{lit_osiris4}
+  \caption{Le \frquote{lit d'Osiris}}
+  \label{fig:lit_osiris}
+\end{figure}
+
+Ce mythe sert à justifier différentes institutions sociales : 
+mariage monogame, succession de père en fils (surtout pas le 
+frère)\footnote{mariage monogame et succession de père en fils vont 
+de paire}, partage des taches homme/femme.
+
+Cela donne aussi l'espoir que les morts ne sont pas vraiment morts : 
+momification \flech~renaissance, lié à la reproduction des végétaux 
+(semé dans la terre, un mort peut renaître).
+
+\donc~Mystères sacrés durant le mois précédent la saison de la 
+germination à Abydos : on sème une momie faite de terre et graines, 
+arrosée pendant un mois. Elle finit par germer, c'est la résurrection 
+du dieu, ramené en grande pompe dans son temple (Osiris végétant).
+Cette fête est documentée surtout au \MK.
+
+Autre cérémonie autour d'Osiris : casser des pots sur le lieu de la 
+tombe d'Osiris. Rituel apotropaïque. C'est de là que vient le nom 
+d'\OeQ : la \emph{\frquote{Mère des Pots}}.
+
+
+\chapter{\roi{Djet}} 
+%======================================================================
+
+Tombe de \roi{Djet}, \roi{Oudji} (Louvre)
+
+Déjà de belles productions artistiques.
+
+\chapter{\roi{Den}} 
+%======================================================================
+
+On voit apparaître une descenderie, un plancher en granit. 
+Il y a toujours des magasins et tombes annexes.
+
+Étiquettes : course entre bornes, lors du couronnement ou du 
+renouvellement du couronnement.
+
+Première mention d'un \tl{xtmt(y)-bjt(y)} : \tl{@mA-kA}
+
+Relate une bataille contre le Sinaï ? Signe d'expansion ?
+
+\chapter{\roi{Qa'a}} 
+%======================================================================
+
+Caveau composite : magasins, utilisation de bois dans l'architecture 
+interne.
+
+Apparition du \tl{ny-sw.t-bjty}, associé à \tl{nbty}.
+Problème : comment faire la différence entre titres et noms propres ?
+
+\chapter{Merneith}
+%======================================================================
+
+Une reine ! Mentionnée sur les sceaux d'Abydos 
+(\fref{fig:sceaux_den}) : \tl{mw.t-ny-sw.t}
+
+Reconstitution de la superstructure (\fref{fig:merneith}).
+
+\begin{figure}[htb]
+  \includegraphics[width=.45\textwidth]{merneith_mastaba_1}
+  \qquad%
+  \includegraphics[scale=1]{merneith_stele_1}
+  \caption{Mastaba et stèle de la reine Merneith}
+  \label{fig:merneith}
+\end{figure}
+
+
+\chapter{Saqqara Nord}
+%======================================================================
+
+Les plus anciennes sépultures sont à Saqqara Nord, sur une falaise 
+dominant la campagne.
+
+On y trouve des mastabas de la \dynum{1} à la \dyn{3}.
+
+Contrairement à Abydos, on est dans la roche. L'infrastructure est 
+réduite au caveau, le reste remonte dans la superstructure, qui 
+comporte différentes pièces, des magasins et est maçonnée en briques 
+crues.
+Les parois sont décorées en \frquote{façade de palais}, à niches 
+et redans : esthétique et résistant.
+Utilisation de poutres pour la toiture.
+
+Ces mastabas ont longtemps été considérés \incise{à tort !} comme des 
+tombes royales. Ce sont les tombes de hauts courtisans, notamment 
+celle de \tl{@mA-kA} avec une boîte en bois contenant deux rouleaux 
+de papyrus\dots{} vierges.
+
+Les mastabas ne comportent pas de chapelle, le culte était rendu à 
+l'extérieur, devant l'une des niches.
+
+Le caveau est fermé par un bouchon en rondins et briques crues. 
+Chez~\dots, sous \roi{Âdjib}, ce bouchon présente une structure 
+régulière, en escalier, pratique pour construire les murs.\\
+\donc~certains voient là l'origine de la pyramide à 
+degrés\footnote{\PG est sceptique.}.
+
+
+\faitle{10/04/2012}
+On a très peu de documentation sur le \PD, et même sur l'\OK, et il 
+est difficile d'écrire une histoire événementielle \flech~histoire 
+sociale.
+
+De plus la documentation qui existe n'est pas facile à traiter à cause 
+du système de datation égyptien, par événement, noté sur des tablettes.
+On parle d'\emph{annales}. Ils y font souvent référence. 
+
+\donc~C'est l'invention d'un genre historiographique.
+
+Le même système est encore attesté chez \gens{Manéthon}.
+
+Problème : comment se souvenir de l'ordre des événements ? 
+Les tablettes étaient peut-être reliées par une ficelle pour les 
+maintenir dans l'ordre. Elles ont aussi pu être gravées à la suite sur 
+un même support.
+
+\donc~la \textbf{Pierre de Palerme}
+
+\chapter{Pierre de Palerme}
+%======================================================================
+
+\begin{sidefig}{.25\textwidth}{Pierre de Palerme, recto}{fig:palerme}
+  \includegraphics[width=.5\textwidth]{PierrePalerme}
+\end{sidefig}
+% \begin{figure}[htb]
+%   \includegraphics[width=.5\textwidth]{PierrePalerme}
+%   \caption{Pierre de Palerme, recto}
+%   \label{fig:palerme}
+% \end{figure}
+
+\begin{figure}[htb]
+  \vspace*{1cm}
+  \includegraphics[width=\textwidth]{PierrePalerme_lgn}
+  \begin{tikzpicture}[overlay, =>=latex', font=\small]
+    \draw [->, thick] ( -2.65, 4.70) -- ++ ( 0.00,-0.50) 
+          node [pos=0.2, left, align=right, text width=1.5cm] 
+               {changement de règne} ;
+    \node [above] at (-1.50, 4.0) {Âha (?)} ;
+    \node [above] at (-7.80, 4.0) {Djer (?)} ;
+  \end{tikzpicture}
+  \caption{Pierre de Palerme : ligne~2 du recto}
+  \label{fig:palermeL2}
+\end{figure}
+
+Il s'agit d'un fragment de monument (naos ?) en basalte, conservé à 
+Palerme. D'autres fragments sont au \musee{Musée du Caire}, au 
+\musee{Louvre} ou au \musee{\BM}.
+
+Il ne reste qu'une partie infime du monument original.
+
+Date de la \dyn{5}.
+
+Les champs sont séparés par 
+\EnPetit{\begin{hieroglyph}rnp\\end{hieroglyph}}
+= une année de règne.
+
+Au début, les personnages porte uniquement la couronne rouge de \BE.
+
+Plus on avance dans le temps, plus les textes sont importants.
+
+Les changements de règnes sont notés sur la bande au-dessus des années.
+
+\begin{exple}
+  Djer : 1\iere case : \tl{smA-tA.wy} ; les signes 
+  \EnPetit{\begin{hieroglyph}Abd\end{hieroglyph}} répartis entre 
+  la première année de \roi{Djer} et la dernière de \roi{Âha} 
+  indiquent le partage de l'année entre les deux.
+\end{exple}
+
+\EnPetit{\begin{hieroglyph}ms\end{hieroglyph}} = façonner une 
+statue : tous les deux ans.
+
+Le ruban du dessous donne la hauteur de la crue du Nil en coudées.
+
+tous les deux ans : tournée d'inspection des ressource du pays par 
+le roi.\\\tl{Smsw @r} :
+\EnColonne[1.2\Htm]{\begin{hieroglyph}G7\*Sms\-P1\\end{hieroglyph}}
+
+\bigskip
+
+Petit à petit, passage à la numérotation des années. 
+\begin{itemize}
+  \item De la \dyn{3} à la fin de l'\OK, en comptant ces 
+        inspections :
+        \begin{itemize}
+          \item 1\iere année de l'inventaire ;
+          \item année qui suit la 1\iere année de l'inventaire ;
+          \item 2\ieme année de l'inventaire ;
+          \item année qui suit la 2\ieme année de l'inventaire ;
+          \item \dots
+        \end{itemize}
+  \item par la suite, numérotation par année de règne.
+\end{itemize}
+
+\bigskip
+
+Mais jamais de datation par rapport à un événement unique.
+
+Problème : on ne connaît pas la longueur des règnes, PPI avec rois en 
+concurrence.
+
+Saqqara Nord : développé à la \dyn{1}.
+
+Très peu d'infos sur la \dyn{1}, événements comme structure 
+sociale.
+
+Plusieurs strates :
+\begin{itemize}
+  \item le roi et la famille royale ;
+  \item les notables ;
+  \item les notables de provinces.
+\end{itemize}
+
+On a des sceaux correspondant à des fonctions, à des administrations.
+
+Il y a une administration de subsistance, de la production artisanale, 
+une cour. Il existe sûrement un rapport (artisanat qui sert de 
+récompense).
+
+Quelles divisions administratives ? Elles sont surtout connues à 
+partir du \MK, mais doivent correspondre à une réalité préhistorique 
+liée à l'unification de micro-états.
+
+Comment s'est faite cette unification ?
+
+On suppose qu'il existe des survivances de particularités locales.
+
+Ce qui est clair : Il y a une poussée vers l'extérieur, des 
+interventions hors des frontières, qui prennent fin à la \dyn{2}. 
+La suite de la dynamique qui a conduit à l'unification ?
+\begin{itemize}
+  \item Vers le sud, la Nubie. Éléphantine (vestiges du \PD à 
+        l'époque romaine) : agglomération \OK au sud de l'île :
+        enceinte, forteresse, temple,~\dots\\
+        Forteresse = protection + point de départ d'expédition vers 
+        le sud et ses mines d'or. La documentation archéologique 
+        indique que les populations nubiennes montrent des signes de 
+        progression analogue à celle de \PD{} égyptien, puis une 
+        régression en qualité et quantité. C'est le signe d'une 
+        politique agressive de la part de l'\kmt, pour le contrôle 
+        de ces régions.
+  \item Vers le nord-est. Dans les années~60, on a découvert beaucoup 
+        de matériel égyptien dans la région de Arad en Israël, y 
+        compris des pots avec le nom d'Horus de Narmer. On a repéré 
+        des bâtiments : des stations de commerce. Arad est sur une 
+        piste menant vers l'est.\\
+        \donc~stratégie commerciale.
+\end{itemize}
+
+\bigskip
+
+Dans le nord du Sinaï, série de villages montrant \incise{comme en 
+Nubie} une régression progressive. Qu'obtenaient-ils des égyptiens 
+en échange ? Du surplus agricole ?
+
+Importation de vin, de cuivre vers l'\kmt.
+
+Arad est sur le trajet vers des mines de cuivre.
+
+Il y a également des traces de \roi{Sémerkhet} (\dyn{1}) dans 
+le Sinaï (\SeK).
+
+Début du bronze dans la région d'Arad-En Besor.
+
+Rapports avec Byblos attestés dès la \dyn{1} : centre de 
+commerce pour le bois du Liban.
+
+\part{\texorpdfstring{\dyn{2}}{IIe dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Généralités}
+%======================================================================
+
+La \dyn{2} est moins bien connue que la \dynum{1}.
+
+Un grand changement a lieu : les rois se font désormais enterrer à 
+Saqqara. Seuls les deux derniers retournent à \OeQ. Est-ce là l'indice 
+d'une crise ?
+
+L'un des rois se nomme \emph{Nebrê} (qu'il faut peut-être lire 
+\tl{Nb=j-Ra}, \td{Mon seigneur est Rê}) : c'est la première 
+utilisation de \emph{Rê} dans un nom royal, en lien avec le 
+développement de la religion.
+
+Le dernier roi est connu sous deux noms, \emph{\roi{Khâsékhem}}, 
+\td{La puissance est apparue} et \emph{\roi{Khâsékhemouy}} \td{Les 
+deux puissances sont apparues}, ce qui semble conforter l'idée d'une 
+crise à la fin de la dynastie.
+
+Les tombes de Saqqara sont annoncées par des stèles portant le nom 
+d'Horus. Dans le cas de \roi{Péribsen}, Seth remplace Horus ! Là 
+encore, un signe de crise ? Et pour \roi{Khâsékhemouy}, il y a les 
+deux, Horus et Seth sont réconciliés. Ce sont eux qui clôturent la 
+dynastie et se font inhumer à \OeQ.
+
+Si une crise a bel et bien eu lieu, elle était certainement liée au 
+processus d'unification.
+
+\begin{remarque}
+  Tout au long de l'histoire de l'\kmt, roi et nobles sont 
+  alternativement enterrés au même endroit et séparément.
+\end{remarque}
+
+\chapter{Saqqara}
+%======================================================================
+
+Les tombes de la \dyn{2} à Saqqara sont concentrées au sud de la 
+pyramide à degrés, à l'emplacement du temple funéraire de la pyramide 
+d'\roi{Ounas}.
+Seules restent celles de \roi{Hotepsékhemouy} et de \roi{Ninetjer} : 
+elles sont gigantesques mais on n'en a pas les superstructures.
+
+On note un changement d'échelle par rapport à Abydos, lié à 
+l'accroissement du pouvoir royal.
+
+\chapter{Politique et architecture}
+%======================================================================
+
+On sait très peu de choses.
+
+C'est l'abandon de la politique d'expansion, mais les relations 
+commerciales sont maintenues. On commence à construire des temples 
+en dur, avec les premiers reliefs de temples (Gebelein). Les grands 
+cimetières (Saqqara, Hélouan) montrent des évolutions intéressantes 
+(tombe~\no\num{3477}).
+
+\chapter{Pratiques funéraires}
+%======================================================================
+
+Les tombes se composent d'un caveau en sous-sol et d'un mastaba avec 
+une niche dans l'angle sud-est qui sert de lieu de culte. Il y avait 
+parfois une niche par personne inhumée.
+
+À cet emplacement commencent à apparaître des reliefs montrant le 
+défunt à table. Au début, cette scène est encastrée dans la niche en 
+briques crues. Une fois l'ensemble du bâtiment réalisé en pierre, le 
+décor prend de l'ampleur et raconte aussi l'origine des produits 
+présentés dans le repas.
+
+\begin{remarque}
+  Le culte funéraire consiste à nourrir le défunt. Représenter les 
+  produits équivaut à les invoquer.
+\end{remarque}
+
+À l'époque archaïque, il y a encore des offrandes tangibles. On a 
+trouvé un vrai repas\footnote{Bovin, poisson, volaille, gruau de 
+céréales, fromage blanc,~\dots} dans une tombe de Hélouan.
+
+Voir \musee{Louvre} \inv{\nospace{???}} : produits nommés, quantifiés.
+
+Un rituel complexe se met en place (\num{\sim160}~articles sur les 
+offrandes dans les \TP).
+
+
+\section[Évolution des tombes privées]
+        {Évolution des tombes privées, quelques sites clés
+         \protect\faitle{15/05/2012}}
+%----------------------------------------------------------------------
+
+\subsection{Saqqara Nord, tombe \no\num{3477}}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+La superstructure est un mastaba, un massif de briques avec deux 
+niches dans la paroi est. La principale, où le culte est rendu, est 
+situé à l'angle sud-est. Les appartements souterrains sont assez 
+simples, les magasins dans la superstructure. On a retrouvé un repas 
+servi dans le caveau funéraire : la simple représentation des 
+offrandes ne suffit pas encore.
+
+Par la suite, la scène du repas funéraire se complexifie.
+
+\subsection{Gebelein}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Un fragment de paroi porte le premier relief en pierre de paroi de 
+temple, déjà disposé en registres.
+
+\subsection{Hiérakonpolis}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+La ville prédynastique était dans le désert, celle de la \dyn{2} 
+dans la plaine (diminution des crues du Nil ?). Ce que l'on nomme le 
+\frquote{fort} est en fait l'enclos cultuel de la \dyn{2}. Cette 
+ville comprend aussi un palais pris dans le tissu urbain assez dense 
+et un temple archaïque recouvert par la suite. Le temple était situé 
+sur une plate-forme irrégulière. On y a trouvé la palette et la tête 
+de massue de \roi{Narmer}, le faucon de \roi{Pépi~I\ier},~\dots Le 
+palais est attribué à \roi{Khâsékhemouy} (à cause des troubles 
+hypothétiques ?). Les fouilles en cours du \frquote{fort} ont mis 
+au jour des reliefs de temple montrant le roi en costume de fête 
+\emph{sed}, des statues de \roi{Khâsékhemouy} dans le même costume. 
+L'une des statues porte un texte dans lequel un prisonnier avec une 
+touffe de plantes sur le dos et tenu par une corde symbolise le peuple 
+de \BE (47209). On peut en conclure que des troubles se sont produits.
+
+Horus et Seth symbolisent respectivement la Basse et la \HE, 
+Coptos et Hiérakonpolis. Un roi qui a un nom de Seth est centré vers 
+la \HE. On peut supposer une guerre de succession, une désunification 
+temporaire. Le nom d'Horus et Seth de \roi{Khâsékhemouy} montrerait la 
+réconciliation des deux divinités (les \td{deux puissances} de son 
+nom) et donc des deux parties du pays.
+
+Les sépultures \incise{enclos cultuel + tombes} de \roi{Péribsen} 
+et \roi{Khâsékhemouy} sont à Abydos. L'enclos de \roi{Khâsékhemouy} 
+s'appelle la \SeZ\footnote{Cela signifie \td{le magasin des raisins 
+secs} en arabe.}.
+
+\bigskip
+
+\begin{remarque}
+  \begin{itemize}
+    \item La \emph{zebiba}, au singulier, est aussi le nom de la 
+          marque au front des musulmans.
+    \item Le \frquote{paradoxe de la brique crue} : c'est un matériau 
+          très léger mais très durable.
+    \item les enceintes sont décorées en \frquote{façade de palais} 
+          à l'intérieur et à l'extérieur (cf.~sarcophage de 
+          \roi{Mykérinos}). Ce décor est très lié à la brique crue.
+  \end{itemize}
+\end{remarque}
+
+\bigskip
+
+La \SeZ comporte deux enceintes concentriques \incise{ce qui la 
+rapproche d'une structure militaire} et une vaste esplanade 
+(\SI{100x50}{\m}). L'entrée est à l'angle sud-est comme la niche 
+des mastabas. Au centre se trouve une structure carrée dont on ne 
+sait rien de l'élévation.
+
+À l'est, on a trouvé des sépultures de bateaux. Peut-être des objets 
+sacrés utilisés pour l'enterrement du roi. 
+
+On ne connaît pas la fonction de la \SeZ, mais elle est liée au culte 
+funéraire. Il faut la comparer au complexe de \roi{Djoser}, plus 
+récent d'une génération : un grand enclos avec une entrée au sud-est, 
+et la pyramide à degrés au centre. La \SeZ pourrait en être l'ancêtre. 
+La seule différence est l'absence de tombe dans la \SeZ. Le complexe 
+de \roi{Djoser} est archaïque par rapport aux pyramides de la \dyn{4}, 
+on peut le considérer comme l'apogée, en pierre, des enclos funéraires 
+archaïques. Il pourrait donner une idée des bâtiments disparus de la 
+\SeZ (éléments de palais factice, le roi continue sa vie de roi).
+
+Il y a une certaine continuité entre les \dynlist{2}{3} : la fille de 
+\roi{Khâsékhemouy} aurait pu transmettre la royauté au premier roi de 
+la \dyn{3}, \roi{Nebka}.
+
+Parmi la production artistique de la \dyn{2}, on peut citer des vases 
+en pierres d'une grande virtuosité. Les tonnes de vases trouvés dans 
+les souterrains du complexe funéraire de \roi{Djoser} à Saqqara datent 
+de cette époque.

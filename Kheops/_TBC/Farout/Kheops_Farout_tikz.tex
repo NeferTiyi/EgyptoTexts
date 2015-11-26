@@ -1,0 +1,81 @@
+\newcommand{\teteronde}{%
+  \draw ( 0.00, 0.00) circle (2.00) ;
+}
+
+\newcommand{\teteellipse}{%
+  \draw ( 0.00, 0.00) ellipse (2.00 and 2.50) ;
+}
+
+\newcommand{\colV}{%
+  \draw ( 1.00, 0.00) -- ( 2.00, 3.00) 
+        (-2.00, 3.00) -- (-1.00, 0.00) 
+        ( 2.00, 0.00) -- (-2.00, 0.00) ;
+}
+
+\newcommand{\colU}{%
+  \draw (-1.25, 3.00) -- (-1.25, 0.00) 
+     -- ( 1.25, 0.00) -- ( 1.25, 3.00) ;
+}
+
+\newcommand{\oeil}{%
+  \draw (-2.25, 0.00) -- ( 0.00, 3.00) -- ( 2.25, 0.00) -- cycle ;
+}
+
+\newcommand{\chen}{%
+  \draw ( 0.00, 0.00) circle (1.50) (-1.70,-1.50) -- ( 1.70,-1.50) ;
+}
+
+\newcommand{\ankh}{%
+  \coordinate (P1) at (-3.0,-4.15) ;
+  \coordinate (P2) at ( 3.0,-4.15) ;
+
+  \draw ( 0.00,-0.20) circle (1.80) ;
+
+  \draw (-0.70,-1.90) -- (-0.70,-3.00) -- (-3.70,-3.50) -- (-3.80,-4.75) ;
+  \draw ( 0.70,-1.90) -- ( 0.70,-3.00) -- ( 3.70,-3.50) -- ( 3.80,-4.75) ;
+
+  \fill [xscale=1, opacity=0.50] (P1) circle (0.60) ;
+  \fill [opacity=0.50] (P2) circle (0.60) ;
+
+  \node  (legende) at (0,-4.15) {pastilles} ;
+  \draw [->, thin] (legende) -- (P1) ;
+  \draw [->, thin] (legende) -- (P2) ;
+}
+
+\newcommand{\teterect}{%
+  \coordinate (A) at ( 1.30, 2.00) ; \coordinate (B) at ( 1.70, 0.60) ;
+  \coordinate (C) at ( 0.90,-2.00) ; \coordinate (D) at (-0.90,-2.00) ;
+  \coordinate (E) at (-1.70, 0.60) ; \coordinate (F) at (-1.30, 2.00) ;
+
+  \draw (A) -- (B) -- (C) 
+     -- (D) -- (E) -- (F) -- cycle ;
+}
+
+\newcommand{\montou}{%
+    \coordinate (A) at ( 3.23, 0.00) ; \coordinate (B) at ( 2.72, 1.21) ;
+    \coordinate (C) at ( 0.64, 1.50) ; \coordinate (D) at ( 0.46, 1.96) ;
+    \coordinate (E) at ( 0.00, 3.16) ; \coordinate (F) at ( 0.20, 3.62) ;
+    \coordinate (G) at ( 1.23, 6.00) ; \coordinate (H) at ( 1.73, 6.00) ;
+    \coordinate (I) at ( 7.22, 6.00) ; \coordinate (J) at ( 7.34, 5.51) ;
+    \coordinate (K) at ( 8.07, 2.29) ; \coordinate (L) at ( 7.59, 2.13) ;
+    \coordinate (M) at ( 5.25, 1.31) ; \coordinate (N) at ( 5.79, 0.03) ;
+
+    \draw (A) -- (B) -- (C) -- (D) -- (E) 
+       -- (F) -- (G) -- (H) -- (I) -- (J) 
+       -- (K) -- (L) -- (M) -- (N) ;
+
+    \node at (4.03,0.00) [below] {Vizir Montouhotep} ;
+}
+
+\newcommand{\salt}{%
+  \coordinate (A) at ( 6.10, 0.20) ; \coordinate (B) at ( 4.95, 5.80) ; 
+  \coordinate (C) at ( 1.20, 8.40) ; \coordinate (D) at ( 0.13, 4.92) ; 
+  \coordinate (E) at ( 0.41, 1.60) ; \coordinate (F) at ( 0.93, 1.60) ; 
+  \coordinate (G) at ( 2.69, 1.60) ; \coordinate (H) at ( 3.16, 0.00) ; 
+
+  \draw (A) -- (B) -- plot [domain=-34.26:135.00] 
+                           ({3.08+2.3*cos(\x)},{7.42+2.3*sin(\x)}) -- 
+        (C) -- (D) -- (E) -- (F) -- (G) -- (H) ;
+
+  \node at ( 4.63, 0.00) [below] {Tête Salt} ;
+}

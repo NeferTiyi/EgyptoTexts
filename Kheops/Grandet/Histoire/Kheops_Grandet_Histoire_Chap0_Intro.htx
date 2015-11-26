@@ -1,0 +1,766 @@
+%!TEX root = Kheops_Grandet_Histoire.htx
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\book{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[Aperçu historique]
+        {\protect\faitle{06/03/2012}Aperçu historique}
+%======================================================================
+
+% \faitle{06/03/2012}
+Durant la période pharaonique (\anorange{3200}{332}), l'\kmt a formé 
+une nation, un état indépendant à l'époque préclassique (avant la 
+Grèce et Rome), gouverné par des souverains indigènes qu'on appelle 
+\emph{pharaons}. Ce terme vient de l'égyptien \tl{pr-aA}, 
+\frquote{\td{la grande maison}} qui désigne le palais royal puis, par 
+métaphore, son occupant.
+Mais cette indépendance n'a pas été continue, l'\kmt a parfois 
+été occupée par ses voisins, et elle n'est pas restée un bloc 
+monolithique : des centres de pouvoirs se sont parfois opposés.
+
+L'un des intérêts de l'étude de l'\kmt ancienne c'est sa longueur, 
+son ancienneté, son unité.
+
+Au sujet de sa longueur, quand on parle de \num{3000}~ans, c'est 
+un décompte restrictif, il faut y ajouter quelques millénaires de 
+préhistoire et quelques millénaires de \frquote{post-histoire}.
+Mais même en ne comptant que ces \num{3000}~ans, cette longueur 
+est exceptionnelle, seule la Chine est un peu comparable.
+La civilisation occidentale chrétienne dure depuis \num{2000}~ans, 
+mais n'est pas du tout homogène.
+
+La persévérance dans les caractéristiques essentielles, l'unicité 
+fait qu'on reconnaît un objet égyptien au premier coup d'{\oe}il, 
+quelque soit l'époque.
+
+Dans le monde antique, l'\kmt a formé une singularité politique, 
+un état-nation, avec une population précise, un type de gouvernement. 
+C'est l'exception. Dans la Grèce antique, on a un morcellement 
+politique, on change d'état tous les dix kilomètres. À l'autre 
+extrême, on a des empires multinationaux (Rome) regroupant des peuples 
+différents, chacun avec ses croyances. L'\kmt en est même le seul 
+exemple.
+
+\chapter{Un peu de géographie}
+%======================================================================
+
+\section{Contexte régional}
+%----------------------------------------------------------------------
+
+Les frontières politiques actuelles de l'\kmt ont été tracées à la 
+règle à travers les déserts. Elles forment un quadrilatère d'environ 
+\SI{1e6}{\km\squared} (deux fois la France). L'\kmt \frquote{utile} 
+\incise{le Nil et sa vallée} ne représente que 
+\SIrange{30000}{35000}{\km\squared}, soit l'équivalent de la Belgique. 
+Malgré tout, les déserts ne sont pas improductifs : ils sont sources 
+de produits minéraux : or, cuivre,~\dots
+
+L'\kmt est à cheval sur deux mondes : l'Asie (Sinaï), et 
+l'Afrique\footnote{Le tracé du Canal de Suez marque la frontière 
+traditionnelle entre les deux continents}.
+Elle est en position de carrefour, entre l'Asie et l'Afrique, entre 
+Méditerranée et Océan Indien (le creusement du Canal de Suez en est 
+une conséquence).
+
+L'\kmt est un creuset où se fondent les influences extérieures 
+venues des quatre points cardinaux. Mais elle est en même temps isolée 
+de par sa géographie (mer, désert = frontières impénétrables) : les 
+influences entrent mais ne sortent pas.
+
+Le pays est intégré dans des réseaux de communication, terrestres 
+comme maritimes, existant depuis l'antiquité. Il est notamment 
+largement relié au \PO. Dès la préhistoire, l'\kmt importe des 
+conifères du Liban, car il n'y a pas de bois utile sur place, 
+seulement des arbustes impropres à la construction.
+Pendant une grande partie de son histoire, l'\kmt, comme tous les 
+états de l'antiquité jusqu'au premier millénaire~BC, est une 
+civilisation basée sur l'utilisation du bronze (armes, outils,~\dots), 
+un alliage de cuivre et d'étain (\ce{10 Cu} / \ce{1 Sn}).
+
+Chypre fournissait du cuivre à l'\kmt ainsi qu'à toute la région 
+et jusqu'en Espagne, voire plus loin. Le deuxième gisement important 
+est \Timna, dans l'actuelle Israël (contrôlé par l'\kmt au \NK). 
+En revanche, il n'y a pas d'étain dans cette région : il doit être 
+importé d'Asie centrale (Afghanistan et Turkménistan).
+
+Le réseau de communication est largement dédié au transit de l'étain 
+de l'Asie centrale vers le \PO, l'\kmt, la Grèce et au-delà.
+Ce sont ces mêmes routes qui serviront plus tard pour le commerce de 
+la soie (c'est la géographie qui impose les routes).
+
+\bigskip
+
+\begin{remarque}
+  Les premiers essais de fabrication du bronze ont lieu au \PO vers 
+  \ano{3000}. Au départ avec de l'arsenic à la place de l'étain, mais 
+  l'alliage obtenu est de moins bonne qualité et a rapidement été 
+  réservé à la confection d'objets d'apparat (statuettes), plutôt qu'à 
+  des objets utilitaires. L'ajout d'étain au cuivre rend son travail 
+  plus facile (plus souple, plus solide, $T_{\text{fusion}}$ plus 
+  basse).
+\end{remarque}
+
+\begin{aparte}[parbox]
+  \centering
+  La métallurgie du bronze est au c\oe{}ur de la politique étrangère 
+  de toute la région !
+\end{aparte}
+
+\section{Le pays}
+%----------------------------------------------------------------------
+
+Les égyptiens s'orientaient vers le sud, l'ouest s'appelle \frquote{la 
+droite}.
+
+Le pays s'étend d'Éléphantine (Assouan) au sud, jusqu'à la Mer 
+Méditerranée au nord.
+
+\section{Divisions}
+%----------------------------------------------------------------------
+
+Historiquement, le pays est divisé en deux zones :
+
+\begin{itemize}
+  \item \textbf{Ta-Méhou}   (\BE\index{Basse-Égypte@\BE}) = le Delta
+  \item \textbf{Ta-Chémaou} (\HE\index{Haute-Égypte@\HE}), 
+        \frquote{le pays étroit} = la vallée du Nil = Sa\ain{}id
+\end{itemize}
+
+\begin{aparte}[parbox]
+  \centering
+  Les Égyptiens pensaient que l'\kmt était l'union de deux royaumes 
+  préexistants.
+\end{aparte}
+
+On utilise désormais une division supplémentaire : \HE{} / \ME 
+(= grenier à blé, Fayoum).
+La \ME n'a pas d'existence administrative à l'époque pharaonique, mais 
+elle correspond à une réalité physique.
+
+\section{Capitales}
+%----------------------------------------------------------------------
+
+Au cour de l'histoire de l'\kmt, la capitale a été déplacée à 
+plusieurs reprises. Les plus importantes sont \textbf{Memphis} au nord 
+et \textbf{Thèbes} au sud.
+
+Memphis, au bord du Delta, est le centre de gravité du pays : c'est là 
+que Le~Caire est aujourd'hui situé.
+
+\section{Armoiries\index{séma-taouy}}
+%----------------------------------------------------------------------
+
+\CaptionPetit
+\begin{wrapfigure}[8]{r}[1cm]{0pt}
+  \centerfloat
+  \includegraphics[height=4cm]{semataouy}
+  \caption{Séma-taouy}
+  \label{fig:smatawy}
+  % \vspace*{-4\baselineskip}
+\end{wrapfigure}
+\CaptionNormal
+
+Le \textbf{séma-taouy} (\fref{fig:smatawy}), symbole politique, peut 
+être considéré comme les armoiries du pays.
+
+Horus et Seth, représentant respectivement la Basse et la \HE, 
+encadrent le \EnPetit{\begin{hieroglyph}zmA\end{hieroglyph}} 
+\tl{smA}, \emph{unir}.
+Les représentations peuvent être plus abstraites, stylisées.
+
+\section{Quelques noms}
+%----------------------------------------------------------------------
+
+On connaît différents noms pour le pays :
+
+{\SmallerText
+\begin{itemize}\setlength\itemsep{1.0\baselineskip}
+  \item \begin{hieroglyph}tA:tA\end{hieroglyph}
+        \tl{\&A.wy}, \emph{Taouy}, \frquote{Les Deux-Terres}, 
+        à nouveau l'idée de deux royaumes ;
+  \item \begin{hieroglyph}km-m-t:niwt\end{hieroglyph}
+        \tl{km.t}, \emph{Kèmé} (prononciation connue par le copte) ;
+  \item \begin{hieroglyph}Hwt-t:pr-kA-1-p:t-H-niwt\end{hieroglyph}
+        \tl{Hw.t-kA-PtH}, \emph{Hikuptah} (prononciation assyrienne).
+        C'est l'un des noms de Memphis (on donne au pays le nom de la 
+        capitale, comme Tunis/Tunisie, Alger/Algérie,~\dots) ;
+  \item {\huge\<m.sr>}, \ta{mi\d{s}r} : nom connu depuis 
+        \num{\sim2000}~ans, dans différentes langues, 
+        =~\frquote{pays fermé, protégé}.
+\end{itemize}}
+
+\bigskip
+
+\begin{remarque}
+  \begin{itemize}
+    \item {Hikuptah} a donné \emph{Aigyptos} en grec, d'où 
+          \emph{\kmt}. Le \emph{s} correspond à la déclinaison 
+          grecque, il n'existe pas dans le mot original.
+    \item Le mot \emph{copte} vient de \emph{Ai\,\fbox{gyptos}}
+  \end{itemize}
+\end{remarque}
+
+
+\section{Quelques lieux}
+%----------------------------------------------------------------------
+
+\subsection{\HE}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hiérakonpolis (Nékhen en égyptien), El-Kab, Edfou,~\dots 
+
+C'est probablement la région où l'\kmt s'est formée.
+
+Abydos est l'équivalent de la Mecque !
+
+
+\subsection{\ME}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C'est une zone à part, peu fouillée. Parmi les sites importants, 
+on peut citer Amarna (un ovni !), Achmouneïn (la ville de Thot =
+Hermopolis),~\dots
+
+
+\subsection{\HE}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C'est essentiellement le Delta du Nil qui comporte, à l'époque 
+pharaonique, sept branches dont trois principales\footnote{Il n'y en 
+a plus que deux.}. C'est une zone très mouvante.
+
+Pi-Ramsès (base militaire tournée vers le nord), Alexandrie (pas dans 
+le Delta même) sont parmi les villes importantes.
+
+On est au bord d'une plaque tectonique qui a entraîné des 
+modifications du cours du Nil.
+
+Il n'y a pas de grand port dans le Delta, le port principal est à 
+Memphis.
+
+\subsection{Zones frontalières}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Silé marque la frontière orientale.
+
+À l'ouest : les Oasis, déjà peuplées dans l'Antiquité, source de 
+minéraux.
+À Dakhla : ville de Balat.
+
+La quatrième cataracte marque l'extension maximale vers le sud, pour 
+le contrôle des mines d'or, les plus importantes du \PO !
+
+\subsection{Les voisins}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\paragraph{Pount}
+Source d'encens pour les cultes. Accès par la mer, commerce avec les 
+habitants du littoral.\\
+Correspond certainement au Yémen et/ou au plateau éthiopien, de part 
+et d'autre de la Mer Rouge.
+L'encens ne pousse que sur les hauts plateaux\footnote{L'altitude 
+combat l'aridité.}, et a besoin de l'humidité apportée par la mousson.
+
+\paragraph{La Libye, à l'ouest}
+\begin{itemize}
+  \item la Marmarique (côte) : El-Alamein, dépression de Qattâra ;
+  \item la Cirénaïque, plus à l'ouest : a attaqué l'\kmt à plusieurs 
+        reprises (périodes d'aridité accrue ?).
+\end{itemize}
+
+\bigskip
+
+\begin{remarque}
+  Les battus sont convertis en ouvriers, soldats,~\dots 
+  À la fin du \NK, l'armée est principalement constituée de libyens, 
+  les pharaons sont tous d'origine libyenne.
+\end{remarque}
+
+\paragraph{Relations avec le \PO}
+Elles sont liées au besoin en bois, étain, mais aussi en 
+main-d'{\oe}uvre !\\
+\hspace*{2em}\donc~pour les grands projets (architecturaux), 
+\frquote{non productifs}, pendant que la population travaille la terre.
+
+L'\kmt est en effet sous-peuplée dans l'Antiquité (\num{\approx4e6} 
+d'habitants ?)
+
+\paragraph{Byblos} Le port où le bois est commercialisé.
+
+\paragraph{Chypre} \emph{Alashiya} en égyptien.
+
+\paragraph{Crète Minoenne} Les \emph{Keftyou}.
+
+\paragraph{Grèce, Mycènes}
+
+\paragraph{Anatolie} Les Hittites.
+
+
+\chapter{Chronologie}
+%======================================================================
+
+Classification traditionnelle : les dynasties.
+
+Classification plus objective : 
+\begin{itemize}
+  \item les empires, sommets de la civilisation matérielle (à la \LP, 
+        copies de l'\OK), pays unifié, monarchie absolue ;
+  \item périodes intermédiaires : brèves (\col deux siècles), 
+        décadence, émiettement politique, guerre civile 
+        \puceb~refondation.
+\end{itemize}
+
+Période thinite : période de transition, vocabulaire iconographique 
+encore en développement.
+
+\LP : précédée par la \TPI : invasion, domination par les pays voisins 
+(\dyn{25} perse, l'\kmt devient une satrapie) jusqu'à la conquête 
+d'Alexandre et la perte de l'indépendance.
+
+\paragraph{Préhistoire} : 
+\begin{itemize}
+  \item paléolithique -- \anorange{120000}{5350} ;
+  \item néolithique :
+        \begin{itemize}
+          \item \PD ancien : Nagada~I -- \anorange{5350}{3850}
+          \item \PD récent : Nagada~II -- \anorange{3850}{3350}
+          \item proto-dynastique : Nagada~III, \frquote{dynastie~0} 
+                -- \anorange{5350}{3850}
+        \end{itemize}
+\end{itemize}
+
+\bigskip
+
+Le passage du paléolithique au néolithique est caractérisé par le 
+passage d'une \emph{économie de prédation} à une \emph{économie de 
+production} :
+
+\bigskip
+
+\begin{minipage}[t]{.42\textwidth}
+  \uline{Économie de prédation}
+
+  \bigskip
+
+  \begin{itemize}
+    \item cueillette, chasse, pêche
+    \item vie nomade
+    \item groupes restreint
+  \end{itemize}
+
+  \bigskip
+
+  Grande homogénéité dans le monde entier.
+\end{minipage}%
+\hspace{\fill}\donc\hspace{\fill}%
+\begin{minipage}[t]{.42\textwidth}
+  \uline{Économie de production}
+
+  \bigskip
+
+  \begin{itemize}
+    \item agriculture, élevage
+    \item sédentarisation, urbanisation
+    \item production intellectuelle, artistique démultipliée, écriture
+  \end{itemize}
+
+  \bigskip
+
+  Différentiation des cultures sous l'influence du milieu naturel 
+  (fleuve, désert,~\dots)
+
+  Croyances liées au lieu, appropriation.
+\end{minipage}
+
+\bigskip
+
+Pour l'\kmt, on parle de \emph{\PD}, pas de \emph{néolithique}, 
+car le \PD anticipe la période dynastique.
+
+Le milieu naturel luxuriant (grâce au Nil) a entraîné un retard dans 
+l'apparition du néolithique : pas de pression pour s'adapter à un 
+milieu difficile, ils avaient le loisir de s'intéresser à d'autres 
+choses.
+
+\paragraph{Post-histoire} :
+\begin{itemize}
+  \item \kmt grecque, \ptol{} -- \anorange{332}{30} -- 
+        Alexandre le Grand ;
+  \item \kmt romaine -- \ano{30}-\ano[1]{395} ;
+  \item \kmt copte, byzantine -- \anorange[1]{395}{641} -- 
+        christianisation complète ;
+  \item conquête arabe -- \ano[1]{641}.
+\end{itemize}
+\hspace*{2em}\donc~disparition graduelle de la civilisation égyptienne.
+
+\emph{\frquote{Pnouté}} = \emph{dieu}, en copte.
+
+
+\section[Chronologie comparée]
+        {Chronologie comparée\protect\faitle{13/03/2012}}
+%----------------------------------------------------------------------
+
+% \faitle{13/03/2012}
+\begin{table}[htb]
+  \begin{tabular}{|>{\bfseries}L{1.2cm}M{2.8cm}|%
+                   >{\bfseries}L{1.2cm}M{2.8cm}|%
+                   >{\bfseries}L{1.2cm}M{2.8cm}|}
+    \hline
+      \multicolumn{2}{|c|}{\CellHead{\kmt}}                  &  % 01-02
+      \multicolumn{2}{c|}{\CellHead{Grèce}}                  &  % 03-04
+      \multicolumn{2}{c|}{\CellHead{Rome}}                      % 05-06
+    \tabularnewline
+    \hline
+      \ano[0]{-3000} &                                       &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+                     & \OK                                   &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+      \ano[0]{-2000} &                                       &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+                     & \MK                                   &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+      \ano[0]{-1500} &                                       &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+                     & \NK                                   &  % 01-02
+                     &                                       &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+      \ano[0]{-1000} &                                       &  % 01-02
+      \ano[0]{ -800} &                                       &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+                     & \LP                                   &  % 01-02
+                     & Ép. archaïque                         &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+      \ano[0]{ -500} &                                       &  % 01-02
+      \ano[0]{ -510} &                                       &  % 03-04
+      \ano[0]{ -510} &                                          % 05-06
+    \tabularnewline
+                     &                                       &  % 01-02
+                     & Ép. classique                         &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+      \ano[0]{ -342} &                                       &  % 01-02
+      \ano[0]{ -323} &                                       &  % 03-04
+                     & République                               % 05-06
+    \tabularnewline
+                     &                                       &  % 01-02
+                     & Ép. hellénistique                     &  % 03-04
+                     &                                          % 05-06
+    \tabularnewline
+                     &                                       &  % 01-02
+      \ano[0]{  -30} &                                       &  % 03-04
+      \ano[0]{  -27} &                                          % 05-06
+    \tabularnewline
+                     &                                       &  % 01-02
+                     &                                       &  % 03-04
+                     & Empire                                   % 05-06
+    \tabularnewline
+                     &                                       &  % 01-02
+                     &                                       &  % 03-04
+      \ano[0]{ +395} &                                          % 05-06
+    \tabularnewline
+    \hline
+  \end{tabular}
+  \caption{Chronologie comparée}
+  \label{tab:chrono}
+\end{table}
+
+\bigskip
+
+\begin{remarque}
+  Il existe des proto-grecs depuis le \NK.
+\end{remarque}
+
+Il existe une théorie grecque disant que le flambeau de la 
+civilisation est transmis de pays en pays :\\
+\qquad\qquad \kmt{} \puceb~Grèce \puceb~Rome \puceb~Europe occidentale 
+(France)
+
+Pendant la révolution française, de nombreux symboles égyptiens ont 
+étés utilisés, c'est l'une des raisons de la campagne d'\kmt.
+
+Jusqu'à \gens{Champollion}, on n'avait que des fragments de 
+l'\oe{}uvre de \gens{Manéthon}, prêtre égyptien écrivant en grec : 
+\emph{\AE{}gyptiaca}, un manuel d'histoire de l'\kmt à l'usage de 
+Ptolémée~I\ier.
+
+Cet ouvrage n'est connu que par des fragments, citations, adaptations, 
+emprunts, compilations, notamment la chronologie des rois, découpée en 
+dynasties. De nombreuses copies de cette chronologie ont été réalisées 
+à l'époque byzantine, dans les couvents car, bien qu'issue d'une 
+\oe{}uvre païenne, elle était considérée comme la base de la 
+chronologie biblique.
+
+\gens{Manéthon} est l'héritier des \frquote{historiens} égyptiens, 
+notamment dans la croyance que les dynasties de rois sont précédées 
+de dynasties de dieux.
+
+D'autres listes de rois ont été compilées durant la période 
+pharaonique :
+\begin{itemize}
+  \item le \emph{\CT} : un papyrus datant de Ramsès~II trouvé 
+        par \gens{Champollion} : chronologie des rois regroupés 
+        en sous-groupes avec, pour chacun, le nom et la longueur 
+        du règne ;
+  \item la \emph{Table des Rois d'Abydos} : version abrégée du \CT, 
+        gravée dans le temple de Séthi~I\ier.
+\end{itemize}
+
+\bigskip
+
+A l'époque archaïque, rappel d'un événement caractéristique par an, 
+sur des tablettes reliées entre elles.
+
+\begin{aparte}
+  \frquote{Civilisation} = manière dont un groupe humain s'adapte à 
+  son milieu pour y survivre et s'y reproduire.\\
+  \qquad\qquad\donc~Il n'en existe pas deux identiques.
+\end{aparte}
+
+\donc~Production d'institutions, idées, croyances, morale, 
+coutumes,~\dots
+
+Élément dominant = conditions naturelles.
+
+Pas de bouleversement dans la population, ni à l'époque antique, ni à 
+l'époque historique : évolution continue, sur place.
+
+Il est probable que la langue soit la même, mais archaïque. 
+
+Il y a déjà des traces des dieux de l'époque historique.
+
+\chapter{Climat}
+%======================================================================
+
+Aride.
+
+Carte des isohyètes (précip.) : à \SI{150}{\mm\per\an}, c'est la 
+frontière du désert, à \SI{200}{\mm\per\an}, la frontière de la steppe.
+Au dessus de \num{200}, l'agriculture est possible sans irrigation.
+
+Les deux grandes civilisations, \kmt et Mésopotamie se sont 
+développées dans les zones les plus arides !\\
+\qquad\donc~irrigation
+
+Le climat actuel apparaît vers la première dynastie, avant ça, il 
+était moins aride.
+
+L'\kmt est une oasis : elle est tributaire du Nil et de sa crue 
+annuelle, un phénomène irrégulier dans le temps et l'espace.
+
+La domestication du Nil a débuté en \ano[0]{1828} avec le barrage du 
+Delta.
+
+Le sol de l'\kmt consiste en une couche d'alluvions de plus de 
+\SI{10}{\m} de haut.
+
+La population s'est installée sur les zones qui surnageaient \donc~les 
+villes modernes sont situées sur les sites archéologiques.
+
+Plus de crues \donc~plus de dépôts d'alluvions \donc~plus d'engrais 
+\donc~attaque des kôms, composés de terre fertile\dots
+
+
+\chapter{Le Nil}
+%======================================================================
+
+Source la plus lointaine : près du lac Tankanika (Burundi).
+
+Il y a deux Nil : équatorial et tropical.
+
+Cataractes = seuils rocheux, rapides.
+
+La crue est due à une différence de régime climatique entre les zones 
+équatoriale\,(1) et tropicale\,(2) :
+\begin{itemize}
+  \item[(1)] Une saison, il pleut tous les jours \donc~débit constant, 
+             évaporation dans les marais ;
+  \item[(2)] Hauts plateaux d'Éthiopie, saison sèche + saison des 
+             pluies \donc~apport brusque d'eau en été.
+\end{itemize}
+
+\bigskip
+
+Le phénomène de la crue est longtemps resté incompris à cause de la
+méconnaissance de la géographie de la région.
+
+Agatharchide de Cnide, qui vivait sous les Ptolémées, avait trouvé la 
+bonne explication.
+
+Démarrage lent en mai ; gonflement rapide en juillet, associé au lever 
+de Sirius et au début de l'année ; au max en septembre, pendant cinq à 
+six semaines, puis lente décrue.
+
+Quinze jours d'écart entre Memphis et Assouan.
+
+Idée tardive : la crue idéale fait \SI{16}{coudées} soit à 
+peu près \SI{8}{\m} (voir statue romaine du Nil aux Tuileries,
+\fref{fig:tuileries}).
+
+\begin{figure}[htb]
+  \includegraphics[width=0.75\textwidth]{Nil_Tuileries_2}
+  \caption{Le Nil du jardin des Tuileries. Les seize enfants 
+           représenteraient les seize coudées de la crues idéale.}
+  \label{fig:tuileries}
+\end{figure}
+
+L'intensité de la crue est variable. Trop basse, elle ne permet pas 
+les cultures, trop importante, elle détruit.
+
+La crue entraîne des épidémies saisonnières à cause des cadavres 
+d'animaux.
+
+L'utilisation de la crue est connue grâce aux savants de Bonaparte.
+
+Le Nil est surélevé par rapport au terrain alentours à cause des 
+alluvions, il faut donc des canaux pour orienter la crue.
+
+La campagne est divisée en bassins d'irrigation séparés par des levées 
+servant de voies de communication.
+
+C'est l'irrigation par gravitation, utilisée pour les céréales (orge, 
+lin).
+
+Implique des travaux publics conséquents : \frquote{corvée}, travail 
+obligatoire pour tout le monde.
+
+Impopulaire ! \donc~oushebtis / chaouabtis.
+
+Ce système est toujours utilisé en \kmt pour les jardins personnels.
+
+\begin{figure}[htb]
+  \includegraphics[height=4cm]{chadouf1}%
+  \quad%
+  \includegraphics[height=4cm]{chadouf2}%
+  \caption{Chadouf}
+  \label{fig:chadouf}
+\end{figure}
+
+Pour les cultures de plus faible ampleur (jardins de fleurs, légumes, 
+fruits), il y avait le chadouf (\fref{fig:chadouf}), depuis au moins 
+la \dyn{18}.
+
+La \emph{sâqihéh} (invention \ptol) : une roue horizontale actionnée 
+par un animal entraîne une roue verticale portant des seaux.\\
+\qquad\donc~augmentation importante du terroir agricole.
+
+
+\chapter{Population}
+%======================================================================
+
+Selon \gens{Diodore de Sicile} : \num{9e6}~d'habitants à l'époque 
+romaine \pucenum{1}.
+
+Cela implique une population plus faible avant.
+
+Au \siecle{19}, on dénombrait quatre à cinq millions habitants selon 
+les estimations \pucenum{2}.
+
+La différence entre \pucenum{1} et \pucenum{2} s'explique par 
+l'anarchie politique qui règne dans le pays au \siecle{19} (donc 
+problèmes dans l'organisation des travaux publics).
+
+On peut estimer que ça correspond à la population du \NK.
+
+\chapter{Ressources}
+%======================================================================
+
+Alimentaires : \uline{orge}, blé amidonnier, légumes, viande.
+
+Manque de bois d'\oe{}uvre, pour les embarcations notamment. 
+
+Le Nil est la voie de communication principale (\donc~utilisation de 
+la roue seulement à partir de la \dyn{18}).
+
+Une ressource particulière : l'or !
+
+Entre Nil et Mer Rouge, d'Assouan au Soudan, zone aurifère parcourue 
+de voies de communication.
+
+Ouadi \Allaqi, dont l'entrée est à Qoubbân.
+
+Il existe une carte de la zone, conservée à Turin.
+
+Berenikè Panchrysos : village de mineurs \ptol : se compose d'une 
+ville et de forts (pour contrôler les ouvriers).
+
+Ils exploitent des filons de quartz aurifères.
+
+Il s'agit de travaux forcés.
+
+Agatharchide de Cnide a écrit un traité sur l'organisation du travail 
+dans ces mines :
+\CaptionPetit
+\begin{wrapfigure}[10]{r}[1cm]{0pt}
+  \begin{tikzpicture}[scale=.4]
+    \lavage
+  \end{tikzpicture}
+  \caption{Plan incliné pour le lavage de la poussière}
+  \label{fig:lavage}
+\end{wrapfigure}
+\CaptionNormal
+\begin{itemize}
+  \item Les condamnés sont déportés en famille ;
+  \item Les gardes ne parlent pas leur langue ;
+  \item Les enfants travaillent dans les filons souterrains ;
+  \item Les blocs sont cassés en morceaux de plus en plus petits, 
+        jusqu'à obtenir des gravillons ;
+  \item Ces gravillons sont ensuite réduits en poussière par les 
+        femmes à l'aide de meules à grain ;
+  \item La poussière est enfin lavée sur des plans inclinés dotés de 
+        cuves : la poussière est entraînée par l'eau alors que l'or, 
+        plus lourd, reste sur la rampe.
+\end{itemize}
+Le rendement était, au pire, de \SI{10}{\g} d'or par tonne de quartz ! 
+C'est le minimum visible à l'\oe{}il nu.
+
+\begin{remarque}
+  Le masque de Toutânkhamon contient \SI{\sim5}{\kg} d'or 
+  \donc~\SI{500}{\tonne} de quartz !
+\end{remarque}
+
+Exemple d'une mine moderne au Soudan (Hassaï sud) : 
+\begin{itemize}
+  \item \SI{\sim1}{\km} de long par \SI{200}{\m} de large ;
+  \item $\ce{[Au]} \approx\SI{1.5}{\g\per\tonne}$.
+\end{itemize}
+
+\bigskip
+
+L'or est le matériau le plus recyclé, potentiellement à perpétuité.
+
+
+\chapter[L'égyptologie]{\protect\faitle{20/03/2012}L'égyptologie}
+%======================================================================
+
+% \faitle{20/03/2012}
+La campagne d'\kmt a permis d'amasser une grande quantité de 
+documents qui ont permis d'aboutir au déchiffrement des {\hiero}es 
+par \gens{Champollion} en \ano[0]{1822}.
+
+\begin{aparte}[title={Déchiffrement des {\hiero}es : le grand raté 
+                      de la Renaissance !}]
+  Contrairement au grec et au latin, il y a un hiatus dans la 
+  connaissance de l'égyptien. Les \source{Hieroglyphica} de 
+  \gens{Hor-Apollon} (présentés comme écrits par un prêtre grec mais 
+  complété ensuite, ils contiennent du faux et du vrai) véhiculent 
+  l'idée que les {\hiero}es sont purement idéographiques, et ne 
+  contiennent donc pas d'information sur la prononciation.\\
+  \donc~Le déchiffrement serait donc inutile !
+\end{aparte}
+
+La \emph{Pierre de Rosette} a été largement diffusée dès sa découverte.
+\gens{Champollion} a supposé qu'une part de phonétique était présente 
+dans les {\hiero}es, et qu'ils notaient l'ancêtre de la langue copte. 
+C'est grâce à cela qu'il a réussi.
+
+Nouvelles expéditions, établissement de missions permanentes (IFAO).
+

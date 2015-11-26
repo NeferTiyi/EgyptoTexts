@@ -1,0 +1,605 @@
+\documentclass[%
+  % draft, %
+  ngerman, %
+  dvipsnames, %
+  svgnames, %
+  a4paper, %
+  twoside, %
+  10pt, %
+  openany, %
+  % oldfontcommands, %
+  article, %
+]{memoir}
+
+\usepackage[firstpage=true,angle=0,opacity=1]{background}
+\usepackage{pdfpages}
+% \usepackage{nefermemoir}
+\usepackage{neferkheops}
+\usepackage{nefertiyi}
+\usepackage[hiero]{neferegypto}
+
+\usetikzlibrary{%
+  backgrounds,
+  shadows,
+  % calc,
+  % patterns,
+  % arrows,
+  % positioning,
+  % decorations.text
+}
+
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+\newcommand{\DirUtils}{../../../../utils}
+\newcommand{\DirImage}{../../../../images}
+
+\graphicspath{%
+  % {\DirUtils/}%
+  {\DirImage/Kheops/Grandet/Khakheperreseneb/}%
+}
+
+\maxtocdepth{subsection}
+
+\sideparmargin{outer}
+
+% \setlength{\parindent}{0pt}
+\setlength\fboxsep{0.5mm}
+\addtolength{\columnsep}{15pt}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+\frenchbsetup{ReduceListSpacing=false,StandardItemizeEnv}
+
+\newcommand{\dk}[1]{\foreignlanguage{ngerman}{#1}}
+\newcommand{\uk}[1]{\foreignlanguage{english}{#1}}
+
+\input{\DirUtils/ChapterStyles}
+% \input{\DirUtils/TitlepageKheops}
+% \input{\DirUtils/HeadingsKheops}
+
+\renewcommand{\appendixpagename}{Annexes}
+\renewcommand{\appendixtocname}{\appendixpagename}
+\renewcommand{\sectionrefname}{\S\,}
+
+\chapterstyle{souligne}
+% \chapterstyle{daleif3}
+% \chapterstyle{monchap}
+% \pagestyle{ruled}
+
+\addbibresource{\DirUtils/Hiero.bib}
+\setlength\bibitemsep{0.5\baselineskip}
+
+% \newcommand{\EASF}{%
+%   L'enseignement d'Amenemhat~I\ier à son fils\xspace%
+% }
+
+
+%======================================================================
+\title{Décret de Coptos}
+\short{Décret de Coptos}
+% \subtitle{de la Préhistoire au \NK}
+\subtitle{}
+\orga{Cours de \textsf{l'\IK} par}
+\lecturer{\PG}
+\author{Sonia~\bsc{Labetoulle}}
+\date{2-16 juin 2015}
+
+\hypersetup{%
+  pdftitle  = {Décret de Coptos}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\backgroundsetup{%
+  contents = \includegraphics{EA6652},
+  position = {30,-67},
+  scale    = 0.25
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% \input{\DirUtils/NeferBabel}
+%##HieroDef.txt
+\begin{hieroglyph}
+  #def Min     R22:R12#
+  #def Gbtyw   V33*b-tyw-\!\!niwt:.#
+  #def vsf     anx-DA-s#
+  #def zA'     zA-\!\!\!1:.#
+\end{hieroglyph}
+
+\thispagestyle{empty}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \DisplayHieroglyphs
+% \EnPetit{}
+\TextHieroglyphs
+\SmallerText
+
+\frontmatter
+\tableofcontents*
+
+\mainmatter
+
+
+\chapter[Introduction]{Introduction\faitle{02/06/2015}}
+%======================================================================
+
+\begin{figure}[h!]
+  \includegraphics[width=0.75\textwidth]{coptos}
+  \caption{Décret de Coptos d'Antef~V, \dyn{xvii}}
+\end{figure}
+
+\chapter{Traduction}
+%======================================================================
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{1}+s rnp-t:zp:1*1*1 Abd:1*1*1 pr:r:t*ra 10*10:1*1*1*1*1 
+    x:r U36-1:n nswbjty <-ra:nbw:3-xpr-sAra-ini-i-n:t:f-> 
+    di-anx-ra:1-mi Dt
+  \end{hieroglyph}
+
+  \tl{\lgn{1} rnp.t sp 3 Abd 3 (ny) pr.t sw 25 xr Hm n(y) 
+      (ny)-sw.t bjt(y) \crtch{Nbw-xpr-Ra-\zero sA Ra Jn(w)\col n-jt=f} 
+      d(=w) anx mj Ra D.t}
+
+  \tg{}
+
+  \td{L'an 3, le 3\ieme mois de \emph{péret}, le 25, sous la Majesté 
+      du roi de \HBE, Néboukhéperrê, le fil de Rê Antef, doté de vie 
+      comme Rê éternellement.}%
+
+  \tcblower
+  \begin{tabular}{l@{\quad=\quad}l}
+    \tl{nbw, xpr Ra \zero} & \td{l'or est une manifestation de Rê.} \\
+    \tl{jn(w)\col n-jt=f}  & \td{celui que son père a acquis.} \\
+  \end{tabular}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    sw-t:n-A44 iz-w-Y1:n N (t:xtm)*HAt:a n:Gbtyw
+    +l\lgn{2}+s Min-m-HAt:t*1
+  \end{hieroglyph}
+
+  \tl{wD n(y)-sw.t n xtmt(y) bjt(y) HAty-a n(y) Gbtjw 
+      \lgn{2} Mnw-m-HA.t}
+
+  \tg{}
+
+  \td{Décret royal destiné au chancelier du roi de \HBE et gouverneur 
+      de Coptos, Minemhat, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    sw-t:n-zA' Tz:z-w-A24 n:Gbtyw q:i-A53-Y1:n:n:3
+  \end{hieroglyph}
+
+  \tl{sA n(y)-sw.t Tsw n(y) Gbtjw Oj-n=n}
+
+  \tg{}
+
+  \td{au fils royal et commandant de Coptos, Qinen, }%
+
+  \tcblower
+  \indent\tl{Oj n=n} = \td{une ressemblance est pour nous}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    N-xtm:t Min-Aa25 zS nTr-O7 nfr-Htp:t:p
+  \end{hieroglyph}
+
+  \tl{xtm(ty) bjt(y) smA(ty) Mnw, sS Hw.t-nTr Nfr-Htp(=w)}
+
+  \tg{}
+
+  \td{au chancelier du roi de \HBE, stoliste de Min et scribe du 
+      temple, Néfer\-hotep}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    sr mSa:3 r-Dr:r:f n:Gbtyw
+    dwA-t:1 .:nTr\s4:t\s4:.-\!\!Hwt mi-i- qd-d:nw:Y1-s
+  \end{hieroglyph}
+
+  \tl{sr mSa r-Dr=f n(y) Gbtjw / wnw.t Hw.t-nTr mj-od=s}
+
+  \tg{}
+
+  \td{au général de toute l'armée de Coptos, et au clergé du temple 
+      tout entier.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    m:\!a-t:n:3 +l\lgn{3}+s ini\s2:\!n--t:w-n:t:n:3 iz-w V12:1*p:n:n 
+    r:r:a:t r:x:Y1-t:n:3
+  \end{hieroglyph}
+
+  \tl{mTn, \lgn{3} jnt=(t)w n=tn wD pn\{n\} r rd.t rx=tn}
+
+  \tg{}
+
+  \td{Voyez, on va vous apporter ce décret afin que vous appreniez}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    r:n:t*t r:a:n U36-A44-vsf-D54-\!w-\!t:. zS nTr-xtm:t-Y1:n 
+    i-mn:n-A40 i-mn:n-zA' sr-w*A1:pt i-mn:n-wsr-s-r:a:1
+  \end{hieroglyph}
+
+  \tl{r-nt(y).t rs\col n Hm(=j) a.w.s. jwt sS xtmt(y) nTr n(y) Jmn 
+      SA-Jmn smsw hAy.t Wsr-Jmn}
+
+  \tg{}
+
+  \td{que Ma Majesté, v.s.f., a fait venir le scribe et chancelier du 
+      dieu d'Amon, Saimen, et le doyen du porche, Ouserimen}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{4}+s r:ir:t s-i-p:t*y:Y1 m \!nTr-O7 n:T Min-A40
+  \end{hieroglyph}
+
+  \tl{\lgn{4} r jr.t sjpty m Hw.t-nTr n(y).t Mnw}
+
+  \tg{}
+
+  \td{pour faire un inventaire dans le temple de Min}%
+
+  \tcblower
+  \indent On traduit \tl{sjpty} par inventaire, mais la racine 
+  correspond plutôt à l'idée de \emph{compter}. En fait, ça s'explique 
+  car il s'agit plus d'un récolement que d'un inventaire : on fait un 
+  pointage de ce qu'il y a par rapport à une liste de ce qu'il devrait 
+  y avoir.
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{09/06/2015}
+  \begin{hieroglyph}
+    r:n:t*t dwA-t:1 nTr-O7 n:\!i*(t*t:f)-A44 .:A40\s6-\!\!\!Min 
+    Abd:\!r:\!D54*r U36-1-A40-vsf r-Dd'
+  \end{hieroglyph}
+
+  \tl{r-nt(y).t wnw.t Hw.t-nTr n(y).t jt(=j) Mnw spr(=w) r Hm(=j) 
+      a.w.s. r-Dd}
+
+  \tg{}
+
+  \td{et que le clergé du temple de mon père Min est venu chez Ma 
+      Majesté v.s.f. pour dire :}%
+
+  \tcblower
+  \indent\tl{spr} a donné la racine \emph{sfr} en arabe, et les mots 
+  safari, ambassadeur,~\dots
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    x:n-\!pA'-A2 b-i-n:G37 N31:\!r-xpr:\!r\s1 m-\!pA'-A 
+    \!+l\lgn{5}+s r:pr:\!1\s2
+  \end{hieroglyph}
+
+  \tl{\og xn bjn wA(=w) r xpr m pA \lgn{5} r(A)-pr}
+
+  \tg{}
+
+  \td{\og Une mauvaise affaire en est arrivée à ce produire dans ce 
+      temple.}%
+
+  \tcblower
+  \indent\tl{r(A)-pr} est le mot le plus neutre pour \td{temple}. Il 
+  était vocalisé \emph{pirpé}, ce qui donne \emph{birbé} en arabe. Il 
+  y a d'ailleurs plein de villes portant le nom de El-Birbé en \kmt. 
+  Ce terme est aussi employé comme nom commun pour désigner les ruines 
+  antiques.
+
+  \noindent\tl{wAj}, \td{s'en aller} \tl{r} \td{vers}. C'est devenu un 
+  semi-auxiliaire : \td{s'éloigner vers} \flech{} \td{en arriver à}, 
+  \td{en venir à}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    TA-A-w:\!a x:\!f:t-tyw-A13 i-n:N31 n:r:n:f-A2 t:t-i zA' Min-Htp:t*p
+  \end{hieroglyph}
+
+  \tl{TA(=w) xfty.w jn, wA n rn=f, \&tj sA Mnw-Htp(=w) \fg}
+
+  \tg{}
+
+  \td{Des délinquants ont été recrutés par -- malédiction à (\litt 
+      malédiction pour) son nom -- le fils de Téti, Minhotep. \fg}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-m-M:a:di' ((.:t:.)-\!w):f Hr*1:tA':1*N23 m \!nTr-O7 
+    n:\!i*(t:t:f)-A44 Min-A40
+  \end{hieroglyph}
+
+  \tl{jm d=tw=f Hr tA m Hw.t-nTr n(y).t jt(=j) Mnw}
+
+  \tg{}
+
+  \td{Qu'il soit débarqué hors du temple de mon père Min !}%
+
+  \tcblower
+  \indent\tl{rdj Hr tA}, littéralement \td{débarquer du bateau} : 
+  illustre bien l'importance du Nil et de la navigation en \kmt où 
+  tout groupe humain est organisé comme un équipage. Et on peut filer 
+  la métaphore : l'état est un bateau\dots
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-m-M:a U35-A24 +l\lgn{6}+s t:w n:f m t:1 V1:\!\!wp:\!wHm-Y1:t:f 
+    n:T nTr-O7 m \!zA'-n:\!(zA-\!\!1:.) E9:n-E9:a
+  \end{hieroglyph}
+
+  \tl{jm xsf\lgn{6}=tw n=f m jA.t=f n(y).t Hwt-nTr m sA n Sa jwa n jwa}
+
+  \tg{}
+
+  \td{Qu'on lui interdise l'exercice de (\litt s'oppose à lui dans) sa 
+      fonction du temple de fils en fils, d'héritier en héritier,}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    p:t-x:D54 Hr:1 tA:1*N23 n:N42-m*w-A24 
+    (aq:O47)-\!\!\!(q\s3:.)-w:3 
+    f:D:\!\!(r\s3*Z5\s3):f-Y1:wab*mw-w-F51:3:t:f
+  \end{hieroglyph}
+
+  \tl{ptx(=w) Hr tA nHm=w aow=f Drf(=f) wab.t=f}
+
+  \tg{}
+
+  \td{étant laissé prostré à terre, ses rations et son droit écrit à 
+      sa portion de (\litt le document de sa) viande d'offrande lui 
+      étant retirés !}%
+
+  \tcblower
+  \begin{vocab}
+    \item [Drf, drf] \td{trait}, \td{ligne}, \td{écrire}, 
+          \td{document écrit}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    tm:\!m s-x-xA-A-\!\!t:.-A2 r:n:f-A2 m r:pr:p:n
+  \end{hieroglyph}
+
+  \tl{tm sxA=t(w) rn=f m r(A)-pr pn}
+
+  \tg{}
+
+  \td{Que son nom ne soit plus évoqué dans ce temple !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{7}+s mi-i-ir:r:t r:mi*(t:y)-i-i-Y1:f s-\!b-i-T14-A13 
+    Hr*1:x*t:f tyw-A13 nTr-1\s2:\!A40-f
+  \end{hieroglyph}
+
+  \tl{\lgn{7} mj jrr(w).t r mjty=f sbj(=w) Hr xfty.w nTr=f}
+
+  \tg{}
+
+  \td{conformément à ce qui est fait contre celui de ses semblables 
+      qui se serait rebellé contre les ennemis de son dieu.}%
+
+  \tcblower
+  \indent On attendrait \tl{mjty=f nb}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    d:r-A24 zS-Y1:3:f m \!nTr-O7 n:T Min m pr:\!HD:pr Hr*1:N38:f 
+    d:w V12:\!(1*.):nb r:mi*(t:t:Y1) i-r
+  \end{hieroglyph}
+
+  \tl{dr sS=f m Hw.t-nTr n(y).t Mnw m pr-HD Hr Sfdw nb r mjt.t jr(y)}
+
+  \tg{}
+
+  \td{Expurgez toute mention écrite le concernant du temple de Min, du 
+      trésor, et de chaque registre semblablement.}%
+
+  \tcblower
+  \indent C'est la \emph{damnatio memoriae}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    sw-t:n-A44:nb +l\lgn{8}+s Y8 m \!A24 ir:f-\!A44 nb:n:t*y 
+    r:Htp:t*p n:f
+  \end{hieroglyph}
+
+  \tl{<jr> n(y)-sw.t nb \lgn{8} sxm-jr=f nb nty r Htp n=f}
+
+  \tg{}
+
+  \td{Quant à tout roi ou toute autorité de fait qui s'apaiserait à 
+      son égard, }%
+
+  \tcblower
+  \indent\tl{sxm jr=f}, \td{autorité de fait (\litt pouvoir 
+  agissant)}, est une paraphrase pour désigner les rois hyksos régnant 
+  en \BE. Antef ne peut les légitimiser en les nommant \tl{ny-sw.t}, 
+  mais il ne peut pas non plus les ignorer.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn Ssp:p-D40:f S2 nn w-V14:z-U39-Y1:f-d:N38 r:t N
+  \end{hieroglyph}
+
+  \tl{nn Ssp=f HD.t / nb wTs=f dSr.t}
+
+  \tg{}
+
+  \td{il ne recevra pas la couronne blanche, il ne portera pas la 
+      couronne rouge,}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn:N42 z:\!A1 f:Hr*1 G5 st-t:pr n:(t:anx)*w-A40-Z3
+  \end{hieroglyph}
+
+  \tl{nn Hms=f Hr s.t-Hr n(y).t anx.w}
+
+  \tg{}
+
+  \td{il ne siégera pas sur le trône d'Horus des vivants, }%
+
+  \tcblower
+  \indent Par opposition au trône d'Osiris, roi des morts.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn Htp:t*p n:f nbty +l\lgn{9}+s m-\!mr-r:r-w-A2 s-n:3
+  \end{hieroglyph}
+
+  \tl{nn Htp n=f nb.ty \lgn{9} m mrrw=sn}
+
+  \tg{}
+
+  \td{les deux maîtresses ne s'apaiseront pas pour lui comme pour 
+      celui qu'elles aiment.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i r:Tz:z-w-D40:nb HAt:\!a:nb n:t*y r:Abd:r-D54:n nb:A40*(vsf) 
+    r Htp:t*p n:f
+  \end{hieroglyph}
+
+  \tl{jr Tsw nb HAt(y)-a nb nty r spr n nb a.w.s. r Htp n=f}
+
+  \tg{}
+
+  \td{Quant à tout commandant, tout gouverneur qui viendrait voir le 
+      seigneur v.s.f. en vue de sa grâce (\litt pour un apaisement en 
+      sa faveur)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aHa-a:D54 r:a r:T-A2-B1-3:t:f x:t-Y1:3:t:f A-H-t:N23:3 t:f:r 
+    nTr-Y1:n +l\lgn{10}+s i-t:f-\!A44-Min nb:\!Gbtyw
+  \end{hieroglyph}
+
+  \tl{aHa \zero rd(=w) rmT=f x.t=f AH.t=f r Htp-nTr n(y) 
+      \lgn{10} jt(=j) Mnw nb Gbtyw}
+
+  \tg{}
+
+  \td{qu'il en résulte que ses gens, ses biens, ses terres soient 
+      donnés à l'offrande divine de mon père Min, maître de Coptos.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    H-n:a tm:\!m r:a:t ini-n:(w-\!t\s2:.) z:\!A1*1 nb:n h:w-A-Y1:3:f 
+    n:g:r A1-B1-Z3 n:\!i\s1*(t*1:f:f) mwt \!(n:t) \!B1 f:r:t m 
+    \!V1:\!\!wp:\!wHm-t:1
+  \end{hieroglyph}
+
+  \tl{Hna tm rd.t jn=tw s nb n(y) hAw=f n(y) Xr(y).w n(y) jt=f 
+      n(y) mw.t=f r tA jA.t}
+
+  \tg{}
+
+  \td{Qu'il soit interdit qu'on recrute (\litt aille chercher), pour 
+      cette charge, aucun membre de sa famille, ni de la domesticité 
+      de ses père et mère.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{16/06/2015}%
+  \begin{hieroglyph}
+    +l\lgn{11}+s H-n:a r:t:\!a di':w*t t:A 
+    t\s2-\!V1:\!\!wp:\!wHm-\!\!(.:1) 
+    n:N t:xtm ns:\!\!M\s2:pr Min m HAt:t*1
+  \end{hieroglyph}
+
+  \tl{\lgn{11} Hna rd.t d=tw tA jA.t n xtmt(y) bjty jmy-rA gs-pr 
+      Mnw-m-HA.t}
+
+  \tg{}
+
+  \td{Qu'il soit fait qu'on donne cette charge au chancelier du 
+      roi de \BE et directeur des magasins (\litt côtés du temple) 
+      Minemhat}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    r:a n:f (aq:O47)-\!\!\!(q\s3:.)-Z3 s D:\!\!r\s2:Y1*\!Z5 
+    f:s*wab-mw-w:t-F51:Z3-s
+  \end{hieroglyph}
+
+  \tl{\zero rd(=w) n=f aow=s Drf=s wab.t=s}
+
+  \tg{}
+
+  \td{Lui sont données les rations \rem{(de la \tl{jA.t} ?)}, 
+      le droit écrit, et la portion de viande d’offrande attachés 
+      à la fonction.}%
+
+  \tcblower
+  \indent Le pronom suffixe \tl{=s} fait référence à \tl{jA.t}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    s-mn:n:Y1-ti-i-Xr:r:f m zS Y1v-Z3 m (.:nTr\s4:t\s4:.)-\!\!Hwt 
+    +l\lgn{12}+s n:T i-t:f-\!A44 .:A40\s6-\!\!\!Min nb:\!Gbtyw m 
+    \!zA'-n:\!(zA-\!\!1:.) E9:n-E9
+  \end{hieroglyph}
+
+  \tl{\zero smn=tj Xr=f m sS m Hw.t-nTr 
+      \lgn{12} n(y).t jt=j Mnw nb Gbtyw m sA n sA jwa n jwa}
+
+  \tg{}
+
+  \td{établi sous lui par écrit dans le temple de mon père Min maître 
+      de Coptos, de fils en fils, d'héritier en héritier.}%
+\end{hierobox}
+
+
+\appendix
+\appendixpage
+
+\backmatter
+\newpage
+
+\listoffigures
+
+\nocite{EG, Faulkner, GM, Hannig, TLA}
+\printbibliography[heading=memoir,title=Bibliographie]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

@@ -1,0 +1,677 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{nefertiyi}
+\usepackage{MesHieros}
+\include{pdfcolor}
+
+\renewcommand\rmdefault{ptm}
+
+\title{Formes verbales}
+\author{Sonia Labetoulle}
+\date{\today}
+
+% Change dimensions a bit
+\addtolength{\hoffset}{-1.7cm}
+\addtolength{\textwidth}{3.4cm}
+\addtolength{\voffset}{-1.7cm}
+\addtolength{\textheight}{3.2cm}
+%\setlength\extrarowheight{4pt}
+%\setlength\ULdepth{.6pt}
+
+\setlength\tabcolsep{2pt}
+\setlength\fboxsep{0pt}
+\setlength\shadowsize{2pt}
+%\setlength\parindent{0pt}
+
+%\newcolumntype{M}[1]{>{\centering}m{#1}}
+\newcolumntype{M}[1]{>{\vspace{2pt}\centering}m{#1}<{\vspace{2pt}}}
+\renewcommand\tabularxcolumn[1]{M{#1}}
+%\def\TblHd#1{{\bfseries\cellcolor{TblHdBg}\color{TblHdTx}{#1}}}
+%%\def\TblHd#1{{\bfseries\color{TblHdTx}{#1}}}
+
+\singlespace
+
+\makeatletter
+  \def\maketitle{
+    {\color{DarkBlue}
+    \shadowbox{%
+      \parbox{\textwidth}{%
+	\vspace*{10pt}%
+        \hspace*{\fill}{\textbf{\LARGE \@title}}\hspace*{\fill}%
+	\vspace*{8pt}%
+      }%
+    }}
+  }
+  \markright{\@title}
+\makeatother
+
+
+\begin{document}
+
+\maketitle
+
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\scriptsize
+
+\vspace{2\baselineskip}
+
+%                                                     01                               02       03       04       05       06       07       08
+\begin{tabular*}{\textwidth}{|>{\columncolor{TblHdBg}}M{1.0cm}|>{\columncolor{TblHdBg}}M{1.0cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|}
+%  \cline{2-13}
+%         12 345678
+  \hhline{~~|------}
+    \multicolumn{2}{c|}{~}                                              &  % 01-02
+    \TblHd{Infinitif}                                                   &  % 03
+    \TblHd{Infinitif ancien}                                            &  % 04
+    \TblHd{Circonstancielle}                                            &  % 05
+    \TblHd{Nominale perfective}                                         &  % 06
+    \TblHd{Nominale prospective}                                        &  % 07
+    \TblHd{Nom. prosp. ancienne}                                           % 08
+  \tabularnewline
+
+%%         12345678
+%  \hhline{--------}
+%    01\\1.0cm                                                           &  % 01
+%    02\\1.0cm                                                           &  % 02
+%    03\\2.7cm                                                           &  % 03
+%    04\\2.7cm                                                           &  % 04
+%    05\\2.7cm                                                           &  % 05
+%    06\\2.7cm                                                           &  % 06
+%    07\\2.7cm                                                           &  % 07
+%    08\\2.7cm                                                              % 08
+%  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{Emploi}}                                &  % 01-02
+    \begin{itemize}
+       \item[\pucea] Progressif
+       \item[\pucea] Progressif interne
+       \item[\pucea] Allatif
+       \item[\pucea] Infinitif complétif
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 03
+    \begin{itemize}
+       \item[\pucea] Inf. compl. négatif
+       \item[\pucea] Prosp. compl. négatif
+       \item[\pucea] Prosp. auto. négatif
+       \item[\pucea] Impératif vétitif
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 04
+    \begin{itemize}
+       \item[\pucea] Aoriste
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 05
+    \begin{itemize}
+       \item[\pucea] Négation de l'aoriste
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 06
+    \begin{itemize}
+       \item[\pucea] Prospectif complétif
+       \item[\pucea] Prospectif autonome
+       \item[\pucea] Négation du prospectif
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 07
+    \begin{itemize}
+       \item[\pucea] Négation du prospectif
+    \end{itemize}\vspace{-1\baselineskip}                                  % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes forts}}                          &  % 01-02
+    \racin\\Caus.~2-lit~: \racin\gram{.t}                               &  % 03
+    \racin\gram{(w)}                                                    &  % 04
+    \racin                                                              &  % 05
+    \racin\gram{$\sim$n}                                                &  % 06
+    \racin\\2-lit~: \gram{j}\racin                                      &  % 07
+    \racin\gram{(w)}\\2-lit~: \gram{j}\racin\gram{(w)}                     % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes faibles}}                        &  % 01-02
+    \radic\gram{.t}                                                     &  % 03
+    \radic\gram{(w)}                                                    &  % 04
+    \radic                                                              &  % 05
+    \radic\gram{$\sim$n}                                                &  % 06
+    \radic\\Avec P.S.~: \radic\gram{y}                                  &  % 07
+    \radic\gram{(w)}\\Avec P.S.~: \radic\gram{y}                           % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+                                                                        &  % 01
+    \TblHd{\tl{rdj}}                                                    &  % 02
+    \tl{[r]d\red{.t}}                                                   &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    ??                                                                  &  % 07
+    ??                                                                     % 08
+  \tabularnewline
+
+%                                     1                          2345678
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|-------}
+    \TblHd{Verbes}                                                      &  % 01
+    \TblHd{\tl{jwj}}                                                    &  % 02
+    \tl{jw\red{.t}}                                                     &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    ??                                                                  &  % 07
+    ??                                                                     % 08
+  \tabularnewline
+
+%                                     1                          2345678
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|-------}
+    \TblHd{anom.}                                                       &  % 01
+    \TblHd{\tl{jjj}}                                                    &  % 02
+    \tl{jj\red{.t}} / \tl{j[j]\red{.t}} / \tl{j\red{.yt}}               &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    ??                                                                  &  % 07
+    ??                                                                     % 08
+  \tabularnewline
+
+%                                     1                          2345678
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|-------}
+                                                                        &  % 01
+    \TblHd{\tl{jnj}}                                                    &  % 02
+    \tl{jn\red{.t}}                                                     &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    ??                                                                  &  % 07
+    ??                                                                     % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes géminés}}                        &  % 01-02
+    \racin\\\tl{mAA} $\Rightarrow$ \tl{mA\red{n}} avec P.S.             &  % 03
+    \nored\gram{(w)}                                                    &  % 04
+    \racin                                                              &  % 05
+    \nored\gram{$\sim$n}                                                &  % 06
+    \nored\\\tl{mA} $\Rightarrow$ \tl{mA\red{n}} avec P.S.              &  % 07
+    \racin\\pas de \tl{w}                                                  % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{\tl{wnn}}}                              &  % 01-02
+    \tl{wnn}                                                            &  % 03
+    \tl{wnn}                                                            &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    \tl{wn=f}        $\Rightarrow$ Qu'il existe !                       &  % 07
+    \tl{wn\red{n}=f} $\Rightarrow$ Il existera !                           % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+\end{tabular*}
+
+\vspace{1\baselineskip}
+
+%                                                     01                               02       03       04       05       06        07        08       09
+\begin{tabular*}{\textwidth}{|>{\columncolor{TblHdBg}}M{1.0cm}|>{\columncolor{TblHdBg}}M{1.0cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|M{1.27cm}|M{1.27cm}|M{2.7cm}|M{2.7cm}|}
+%  \cline{2-13}
+%         12 3456789
+  \hhline{~~|-------}
+    \multicolumn{2}{c|}{~}                                              &  % 01-02
+    \TblHd{Parfait}                                                     &  % 03
+    \TblHd{Nominale perfective ancienne}                                &  % 04
+    \TblHd{Nominale imperfective\\\tl{mrr=f}}                           &  % 05
+    \TblHd{Impératif}                                                   &  % 06
+    \TblHd{Impératif ancien}                                            &  % 07
+    \TblHd{Nom. perfective\\\tl{wnmt=f}}                                &  % 08
+    \TblHd{Nom. perfective\\\tl{wnmyt=f}}                                  % 09
+  \tabularnewline
+
+%%         123456789
+%  \hhline{---------}
+%    01\\1.0cm                                                           &  % 01
+%    02\\1.0cm                                                           &  % 02
+%    03\\2.7cm                                                           &  % 03
+%    04\\2.7cm                                                           &  % 04
+%    05\\2.7cm                                                           &  % 05
+%    06\\1.27cm                                                          &  % 06
+%    07\\1.27cm                                                          &  % 07
+%    08\\2.7cm                                                           &  % 08
+%    09\\2.7cm                                                              % 09
+%  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \multicolumn{2}{|c|}{\TblHd{Emploi}}                                &  % 01-02
+    \begin{itemize}
+       \item[\pucea] Accompli
+       \item[\pucea] Négations existentielles
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 03
+    \begin{itemize}
+       \item[\pucea] Négation de l'accompli
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 04
+    \begin{itemize}
+       \item[\pucea] Circonstancielles\\temporelles
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 05
+    \multicolumn{2}{M{2.7cm}|}{
+      \begin{itemize}
+        \item[\pucea] Impératif
+      \end{itemize}\vspace{-1\baselineskip}
+    }                                                                   &  % 06-07
+    \begin{itemize}
+       \item[\pucea] Circonstancielles\\temporelles
+       \item[\pucea] Négations existentielles
+    \end{itemize}\vspace{-1\baselineskip}                               &  % 08
+    \begin{itemize}
+       \item[\pucea] Circonstancielles\\temporelles
+    \end{itemize}\vspace{-1\baselineskip}                                  % 09
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes forts}}                          &  % 01-02
+    \racin\red{=X}                                                      &  % 03
+    \racin                                                              &  % 04
+    \racin                                                              &  % 05
+    \multicolumn{2}{M{2.7cm}|}{\racin\\2-lit~: \gram{j}\racin}          &  % 06-07
+    \racin\gram{t}                                                      &  % 08
+    \racin\gram{yt}                                                        % 09
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes faibles}}                        &  % 01-02
+    \radic\red{=X}                                                      &  % 03
+    \radic                                                              &  % 04
+    \radic\red{R}                                                       &  % 05
+    \multicolumn{2}{M{2.7cm}|}{\radic{} / \radic\gram{y}}               &  % 06-07
+    \radic\gram{t}                                                      &  % 08
+    \radic\gram{yt}                                                        % 09
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+                                                                        &  % 01
+    \TblHd{\tl{rdj}}                                                    &  % 02
+    \tl{rd}\red{=X} / \tl{d}\red{=X}                                    &  % 03
+    \tl{rd}                                                             &  % 04
+    \tl{d\red{d}}                                                       &  % 05
+    \tl{rd} / \tl{rd\red{y}}                                            &  % 06
+    \tl{d}                                                              &  % 07
+    \tl{rd\red{t}}                                                      &  % 08
+    \tl{rd\red{yt}}                                                        % 09
+  \tabularnewline
+
+%                                     1                          23456789
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|--------}
+    \TblHd{Verbes}                                                      &  % 01
+    \TblHd{\tl{jwj}}                                                    &  % 02
+    ??                                                                  &  % 03
+    ??                                                                  &  % 04
+    \tl{jw\red{w}} / \tl{jw\red{(w)}}                                   &  % 05
+    \multicolumn{2}{M{2.7cm}|}{}                                        &  % 06-07
+    \tl{jw\red{t}}                                                      &  % 08
+    /                                                                      % 09
+  \tabularnewline
+
+%                                     1                          23456789
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|--------}
+    \TblHd{anom.}                                                       &  % 01
+    \TblHd{\tl{jjj}}                                                    &  % 02
+    \tl{j}\red{=X} / \tl{jj}\red{=X}                                    &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    \multicolumn{2}{M{2.7cm}|}{\tl{j} / \tl{jj}}                        &  % 06-07
+    \tl{jj\red{t}} / \tl{j\red{t}}                                      &  % 08
+    /                                                                      % 09
+  \tabularnewline
+
+%                                     1                          23456789
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|--------}
+                                                                        &  % 01
+    \TblHd{\tl{jnj}}                                                    &  % 02
+    ??                                                                  &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    \multicolumn{2}{M{2.7cm}|}{\tl{jn}}                                 &  % 06-07
+    ??                                                                  &  % 08
+    ??                                                                     % 09
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes géminés}}                        &  % 01-02
+    \nored\red{=X}                                                      &  % 03
+    \nored                                                              &  % 04
+    \racin                                                              &  % 05
+    \nored                                                              &  % 06
+    \racin                                                              &  % 07
+    \nored\gram{t}                                                      &  % 08
+    \nored\gram{yt}                                                        % 09
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+    \multicolumn{2}{|c|}{\TblHd{\tl{wnn}}}                              &  % 01-02
+    ??                                                                  &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    ??                                                                  &  % 07
+    ??                                                                  &  % 08
+    ??                                                                     % 09
+  \tabularnewline
+
+%         123456789
+  \hhline{---------}
+\end{tabular*}
+
+\vspace{1\baselineskip}
+
+%                                                     01                               02       03       04       05       06       07        08
+\begin{tabular*}{\textwidth}{|>{\columncolor{TblHdBg}}M{1.0cm}|>{\columncolor{TblHdBg}}M{1.0cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|M{2.7cm}|}
+%  \cline{2-13}
+%         12 345678
+  \hhline{~~|------}
+    \multicolumn{2}{c|}{~}                                              &  % 01-02
+    \TblHd{Participe perfectif actif}                                   &  % 03
+    \TblHd{Participe perfectif passif}                                  &  % 04
+    \TblHd{Participe imperfectif actif}                                 &  % 05
+    \TblHd{Participe imperfectif passif}                                &  % 06
+    \TblHd{Participe prospectif actif}                                  &  % 07
+    \TblHd{Participe prospectif passif}                                    % 08
+  \tabularnewline
+
+%%         12345678
+%  \hhline{--------}
+%    01\\1.0cm                                                           &  % 01
+%    02\\1.0cm                                                           &  % 02
+%    03\\2.7cm                                                           &  % 03
+%    04\\2.7cm                                                           &  % 04
+%    05\\2.7cm                                                           &  % 05
+%    06\\2.7cm                                                           &  % 06
+%    07\\2.7cm                                                           &  % 07
+%    08\\2.7cm                                                              % 08
+%  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{Emploi}}                                &  % 01-02
+                                                                        &  % 03
+                                                                        &  % 04
+                                                                        &  % 05
+                                                                        &  % 06
+                                                                        &  % 07
+                                                                           % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes forts}}                          &  % 01-02
+    \racin\gram{(w)}                                                    &  % 03
+    \racin\gram{(w)}\\2-lit~: \racin\red{R}\gram{(w)}                   &  % 04
+    \racin\gram{(w)}                                                    &  % 05
+    \racin\gram{(w)}                                                    &  % 06
+    \racin\gram{ty=}\red{X}                                             &  % 07
+    \racin\red{X}                                                          % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes faibles}}                        &  % 01-02
+    \radic\gram{(w)}                                                    &  % 03
+    \radic\gram{(y)} / \radic\gram{(w)}                                 &  % 04
+    \radic\red{R}\gram{(w)}                                             &  % 05
+    \radic\red{R}\gram{(w)}                                             &  % 06
+    \radic\gram{ty=}\red{X}\\(\radic\gram{wty=}\red{X}                  &  % 07
+    \radic\red{X}                                                          % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+                                                                        &  % 01
+    \TblHd{\tl{rdj}}                                                    &  % 02
+    \tl{rd\red{(w)}}                                                    &  % 03
+    \tl{(r)d\red{(y)}}                                                  &  % 04
+    \tl{d\red{d(w)}}                                                    &  % 05
+    \tl{d\red{d(w)}}                                                    &  % 06
+    \tl{rd\red{ty=}}\red{X}                                             &  % 07
+    \tl{d}\red{X}                                                          % 08
+  \tabularnewline
+
+%                                     1                          2345678
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|-------}
+                                                                        &  % 01
+    \TblHd{\tl{jwj}}                                                    &  % 02
+    ??                                                                  &  % 03
+    ??                                                                  &  % 04
+    \tl{jw\red{(w)}}                                                    &  % 05
+    ??                                                                  &  % 06
+    \tl{jw\red{ty=}}\red{X}                                             &  % 07
+    ??                                                                     % 08
+  \tabularnewline
+
+%                                     1                          2345678
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|-------}
+    \TblHd{anom.}                                                       &  % 01
+    \TblHd{\tl{jjj}}                                                    &  % 02
+    \tl{jj\red{(w)}}                                                    &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    ??                                                                  &  % 07
+    ??                                                                     % 08
+  \tabularnewline
+
+%                                     1                          2345678
+  \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|-------}
+                                                                        &  % 01
+    \TblHd{\tl{jnj}}                                                    &  % 02
+    ??                                                                  &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    ??                                                                  &  % 07
+    ??                                                                     % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{Verbes géminés}}                        &  % 01-02
+    \nored\gram{(w)}                                                    &  % 03
+    \nored\gram{(w)}                                                    &  % 04
+    \racin\gram{(w)}                                                    &  % 05
+    \racin\gram{(w)}                                                    &  % 06
+    \racin\gram{ty=}\red{X}                                             &  % 07
+    \nored\red{X}                                                          % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+    \multicolumn{2}{|c|}{\TblHd{\tl{wnn}}}                              &  % 01-02
+    ??                                                                  &  % 03
+    ??                                                                  &  % 04
+    ??                                                                  &  % 05
+    ??                                                                  &  % 06
+    ??                                                                  &  % 07
+    ??                                                                     % 08
+  \tabularnewline
+
+%         12345678
+  \hhline{--------}
+\end{tabular*}
+
+
+\vspace{1\baselineskip}
+
+\SmallerText\SmallerText
+
+\begin{minipage}[t]{.60\textwidth}
+ 
+
+  %                                                     01       02        03       04
+  \begin{tabular*}{\textwidth}{|>{\columncolor{TblHdBg}}M{0.5cm}|M{0.5cm}|M{5.0cm}|M{5.0cm}|}
+
+  %         12 34
+    \hhline{~~|--|}
+      \multicolumn{2}{c|}{~}                                              &  % 01-02
+      \TblHd{Masculin}                                                    &  % 03
+      \TblHd{Féminin}                                                        % 04
+    \tabularnewline
+
+  %          1234
+    \hhline{|----|}
+                                                                          &  % 01
+      \TblHd{1}                                                           &  % 02
+      \multicolumn{2}{M{10.1cm}|}{%
+        \begin{hieroglyph}
+          k-w-A1+l~/ +sk:W-A1+l~/ +sk-w-i-A1+l~/ +sk-w-i+l~/ +sk-w+l~/ +sk:W
+        \end{hieroglyph}\hspace{1em}\tl{=kw}\\%
+        \begin{hieroglyph}
+          k-A1+l~/ +sk-i-A1+l~/ +sk-i+l~/ +sk
+        \end{hieroglyph}\hspace{1em}\tl{=k(w)}%
+      }                                                                      % 03-04
+    \tabularnewline
+
+  %                                     1                          234
+    \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|---|}
+      \TblHd{S.}                                                          &  % 01
+      \TblHd{2}                                                           &  % 02
+      \multicolumn{2}{M{10.1cm}|}{%
+        \begin{hieroglyph}ti-i+l~/ +sti\end{hieroglyph}%
+        \hspace{1em}\tl{=tj}\hspace{1em}/\hspace{1em}%
+        \begin{hieroglyph}T\end{hieroglyph}%
+        \hspace{1em}\tl{=T(j)}\hspace{1em}/\hspace{1em}%
+        \begin{hieroglyph}t\end{hieroglyph}%
+        \hspace{1em}\tl{=t(j)}%
+      }                                                                      % 03-04
+    \tabularnewline
+
+  %                                     1                          234
+    \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|---|}
+                                                                          &  % 01
+      \TblHd{3}                                                           &  % 02
+      \begin{hieroglyph}w+l~/ +sW\end{hieroglyph}%
+      \hspace{1em}\tl{=w}\\%
+      \begin{hieroglyph}w-\!y:.+l~/ +sW:y+l~/ +si-i+l~/ +sy\end{hieroglyph}%
+      \hspace{1em}\tl{=y}                                                 &  % 03
+      \begin{hieroglyph}ti-i+l~/ +sti\end{hieroglyph}%
+      \hspace{1em}\tl{=tj}\\%
+      \begin{hieroglyph}T\end{hieroglyph}%
+      \hspace{1em}\tl{=T(j)}\hspace{1em}/\hspace{1em}%
+      \begin{hieroglyph}t\end{hieroglyph}%
+      \hspace{1em}\tl{=t(j)}                                                 % 04
+    \tabularnewline
+
+  %          1234
+    \hhline{|----|}
+                                                                          &  % 01
+      \TblHd{1}                                                           &  % 02
+      \multicolumn{2}{M{10.1cm}|}{%
+        \begin{hieroglyph}W-n:3+l~/ +sw-n\end{hieroglyph}%
+        \hspace{1em}\tl{=wn}\hspace{1em}/\hspace{1em}%
+        \begin{hieroglyph}w:y-n:3+l~/ +si-i-n:3\end{hieroglyph}%
+        \hspace{1em}\tl{=yn}%
+      }                                                                      % 03-04
+    \tabularnewline
+
+  %                                     1                          234
+    \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|---|}
+      \TblHd{P.}                                                          &  % 01
+      \TblHd{2}                                                           &  % 02
+      \multicolumn{2}{M{10.1cm}|}{%
+        \begin{hieroglyph}tyw-n:y\end{hieroglyph}%
+        \hspace{1em}\tl{=tywny}\hspace{1em}/\hspace{1em}%
+        \begin{hieroglyph}tyw-n\end{hieroglyph}%
+        \hspace{1em}\tl{=tywn(y)}\hspace{1em}/\hspace{1em}%
+        \begin{hieroglyph}tyw-n:w+l~/ +styw-n:3\end{hieroglyph}%
+        \hspace{1em}\tl{=tywnw}%
+      }                                                                      % 03-04
+    \tabularnewline
+
+  %                                     1                          234
+    \hhline{|>{\arrayrulecolor{TblHdBg}}->{\arrayrulecolor{black}}|---|}
+                                                                          &  % 01
+      \TblHd{3}                                                           &  % 02
+      \multicolumn{2}{M{10.1cm}|}{%
+        \begin{hieroglyph}w+l~/ +sW\end{hieroglyph}%
+        \hspace{1em}\tl{=w}\hspace{1em}/\hspace{1em}%
+        \begin{hieroglyph}w-\!y:.+l~/ +sW:y+l~/ +si-i+l~/ +sy\end{hieroglyph}%
+        \hspace{1em}\tl{=y}%
+      }                                                                      % 03-04
+    \tabularnewline
+
+  %          1234
+    \hhline{|----|}
+      \TblHd{D.}                                                          &  % 01
+      \TblHd{3}                                                           &  % 02
+      \begin{hieroglyph}W:y\end{hieroglyph}%
+      \hspace{1em}\tl{=wy}                                                &  % 03
+      \begin{hieroglyph}ti-i-i+l~/ +sti-i-i-y\end{hieroglyph}%
+      \hspace{1em}\tl{=ty}                                                   % 04
+    \tabularnewline
+
+  %          1234
+    \hhline{|----|}
+
+  \end{tabular*}
+
+\end{minipage}%
+%
+%\vspace{1\baselineskip}
+\hspace{5em}%
+%
+\begin{minipage}[t]{.60\textwidth}
+  %                                                     01       02       03       04
+  \begin{tabular*}{\textwidth}{|>{\columncolor{TblHdBg}}M{0.5cm}|M{1.2cm}|M{1.5cm}|M{1.5cm}|}
+
+  %         1 234
+    \hhline{~|---|}
+      \multicolumn{1}{c|}{~}                                              &  % 01
+      \multicolumn{2}{c|}{\TblHd{Actif}}                                  &  % 02-03
+      \TblHd{Passif}                                                         % 04
+    \tabularnewline
+
+  %          1234
+    \hhline{|----|}
+      \TblHd{M}                                                           &  % 01
+      \multirow{3}{1.2cm}[-1.0mm]{%
+        \begin{hieroglyph}t:y\end{hieroglyph}\hspace{1em}\tl{ty}\\%
+        \begin{hieroglyph}t\end{hieroglyph}\hspace{1em}\tl{t(y)}\\[1.5\baselineskip]%
+        \begin{hieroglyph}t:3\end{hieroglyph}\hspace{1em}\tl{tw}\\\rem{rare}%
+      }                                                                   &  % 02
+      \begin{hieroglyph}f:y\end{hieroglyph}\hspace{1em}\tl{=fy}\\%
+      \begin{hieroglyph}f\end{hieroglyph}\hspace{1em}\tl{=f(y)}           &  % 03
+      \begin{hieroglyph}y\end{hieroglyph}\hspace{1em}\tl{y}                  % 04
+    \tabularnewline
+
+  %          1234
+    \hhline{|-~--|}
+      \TblHd{F}                                                           &  % 01
+                                                                          &  % 02
+      \begin{hieroglyph}s*y\end{hieroglyph}\hspace{1em}\tl{=sy}\\%
+      \begin{hieroglyph}s\end{hieroglyph}\hspace{1em}\tl{=s(y)}           &  % 03
+      \begin{hieroglyph}ti-i+l~/ +sti\end{hieroglyph}%
+      \hspace{1em}\tl{.tj}\hspace{1em}\\%
+      \begin{hieroglyph}t\end{hieroglyph}%
+      \hspace{1em}\tl{.t(j)}%                                                % 04
+    \tabularnewline
+
+  %          1234
+    \hhline{|-~--|}
+      \TblHd{P}                                                           &  % 01
+                                                                          &  % 02
+      \begin{hieroglyph}s-n:3\end{hieroglyph}\hspace{1em}\tl{=sn}         &  % 03
+      /                                                                      % 04
+    \tabularnewline
+
+  %          1234
+    \hhline{|----|}
+
+  \end{tabular*}
+
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

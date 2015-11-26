@@ -1,0 +1,832 @@
+%!TEX root = Kheops_Grandet_Histoire.htx
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\book{L'\OK}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\part{\texorpdfstring{\dyn{3}}{IIIe dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+La \dyn{3} est presque aussi mal connue que la \dynum{2}.
+
+La liste des rois est sujette à caution, car on connaît surtout le 
+complexe funéraire de \roi{Djoser}.
+
+\begin{itemize}
+  \item \roi{Nebka} (Sanakht)
+  \item \roi{Djoser} (Netcherierkhet)
+  \item \roi{Sékhemkhet}
+  \item \roi{Khâba}
+  \item \roi{Houni}
+\end{itemize}
+
+\bigskip
+
+le premier roi, \roi{Nebka}, est l'époux de Nyhepmaât, fille de 
+Khâsékhemouy, le dernier roi de la dynastie précédente.
+
+Il s'agit d'une période de grand développement technique et 
+technologique.
+
+On assiste à la mise en place de la structure administrative (nomes).
+Le complexe funéraire de Djoser est la manifestation de la prise 
+d'importance du pouvoir royal, dans les provinces, il se manifeste 
+par la construction de petites pyramides.
+
+La \dyn{3} est la première de l'\OK, mais il reste encore des vestiges 
+de l'époque archaïque !
+
+Un des personnages les plus connus de la \dyn{3} est Imhotep. 
+Il est connu surtout au travers de nombreuses statuettes de la \BE, 
+durant laquelle son nom est grécisé en \emph{Imhoutes}. Il es alors 
+associé à Asclépios. Sa renommée s'étend à tout le pays, le temple 
+d'Hatchepsout est transformé en temple d'Imhotep. 
+Mais on ne le connaît pas !
+Son nom apparaît sur le socle de la statue de Djoser trouvée dans son 
+complexe funéraire. à la construction duquel il est associé.
+Il en est souvent présenté comme l'architecte, mais cette notion 
+n'existe pas en \kmt ancienne. Le personnage clé d'un chantier de 
+construction est le chef des travaux qui doit organiser et mener à 
+bien le chantier (faire venir du bois du Liban, de la pierre de Nubie, 
+faire fabriquer les outils,~\dots).
+
+Amenhotep fils de Hapou a également été divinisé tardivement et est 
+parfois associé à Imhotep.
+
+\begin{figure}[htb]
+  \noindent%
+  \begin{minipage}[m]{.45\textwidth}%
+    \centerfloat
+    \begin{tikzpicture}%
+      \sanctBE
+    \end{tikzpicture}
+    \subcaption{Sanctuaire de \BE \label{fig:sanctBE}}
+  \end{minipage}%
+  \quad%
+  \begin{minipage}[m]{.45\textwidth}%
+    \centerfloat
+    \begin{tikzpicture}[remember picture, scale=1.0]
+      \sanctHE
+    \end{tikzpicture}
+    \begin{tikzpicture}[remember picture, overlay, shift={(0.0,4.5)}]
+      \node [above right] (legende) at ( 0.00, 0.00) 
+            {gorge égyptienne} ;
+      \node [below right, text width=2.7cm, font=\smaller] 
+            (texte) at ( 0.00, 0.00) 
+            {\flech pétrification des feuilles de palmiers utilisées 
+                    pour rigidifier le haut des murs} ;
+      \draw [->,=>stealth] 
+            (legende.west) to [in=0,out=180] (gorge.center) ;
+    \end{tikzpicture}
+    \subcaption{Sanctuaire de \HE \label{fig:sanctHE}}
+  \end{minipage}%
+
+  \caption{Sanctuaires}
+  \label{fig:sanctuaire}
+\end{figure}
+
+
+\chapter{\roi{Djoser}}
+%======================================================================
+
+\begin{wrapfigure}[5]{l}{0pt}
+  \EnColonne[1.3\Htm]{%
+    \begin{hieroglyph}G5-<S-nTr-r-X->\end{hieroglyph}%
+  }
+\end{wrapfigure}
+
+Il est connu par des graffiti de touristes de la \dyn{18} 
+\nospace{:)}
+
+\begin{remarque}
+  La racine \tl{Dsr} signifie \frquote{couper}, comme \emph{César}.
+\end{remarque}
+
+À partir de là, on copie en pierre ce qui était en briques, 
+bois,~\dots C'est la \emph{pétrification}.
+
+Le monument le plus connu de ce règne est la \source{Stèle de la 
+Famine} (\fref{fig:famine}), sur l'île de Séhel. Le texte mentionne 
+l'\ar{18} de \roi{Djoser}, mais il s'agit en fait d'un faux datant de 
+\roi{Ptolémée~V} ! Elle entérine le don par \roi{Djoser} de la \BN au 
+dieu Khnoum d'Éléphantine pour le remercier d'avoir mis fin à la 
+famine due à sept ans de mauvaises crues. C'est une justification de 
+l'appartenance de la région au temple de Khnoum. Il est impossible de 
+savoir si cela correspond à une réalité ou non.
+
+\begin{figure}[htb]
+  \includegraphics[width=.66\textwidth]{SteleFamine}
+  \caption{Stèle de la famine}
+  \label{fig:famine}
+\end{figure}
+
+
+Son complexe est un enclos : c'est une évolution de type \SeZ.
+
+Mais la forme de la pyramide ?\nospace{??} Certains y voient une 
+évolution du bouchon fermant le caveau de certains mastabas. Mais 
+les degrés du bouchon se justifient par les contraintes de la 
+construction.
+Pourrait-il s'agir d'une élévation pour rendre la structure visible 
+de l'extérieur de l'enclos ?
+
+On note une meilleure maîtrise des techniques de ronde-bosse. 
+
+Au sud, \roi{Ounas} (\tl{\%xn-X.t}), au nord-est, \roi{Ouserkaf}.
+
+Dans l'enceinte du complexe, on trouve treize portes. Seule l'une 
+d'entre elles, situé au sud-est, est vraie. À l'intérieur de 
+l'enceinte se trouvent des éléments de palais factices
+
+L'espace est délimité par des bornes dont certaines ont été 
+retrouvées, mais jamais à leur emplacement d'origine. Elles sont 
+ornées de serpents (gardiens dangereux).
+
+Lauer a procédé à des anastyloses (reconstructions partielles).
+
+De nombreux éléments montrent la pétrification des structures en 
+bois : le vantail de la porte, par exemple, est taillé dans le mur ; 
+le plafond imite des rondins de bois.
+
+À l'entrée, une fausse colonnade mène vers l'esplanade sud. 
+Ce sont en fait des murs dont l'extrémité est arrondie en forme 
+de colonne. Ils n'avaient pas assez confiance en leur technique 
+pour en réaliser de vraies.
+
+
+\faitle{22/05/2012}
+\begin{remarque}
+  Les constructions en briques vivent : le matériau se contracte et 
+  se dilate en fonction de l'humidité et la température, et peut se 
+  fissurer. Pour pallier à ça, les lits de briques étaient disposés 
+  en vagues (\fref{fig:vagues}). À Phil\ae, on retrouve la même chose 
+  en pierre, c'est là encore un phénomène de pétrification.
+
+  \begin{figure}[htb]
+    \begin{tikzpicture}[scale=0.67]
+      \vagues
+    \end{tikzpicture}
+    \caption{Construction en vagues}
+    \label{fig:vagues}
+  \end{figure}
+\end{remarque}
+
+\bigskip
+
+\paragraph{Course rituelle}
+Lors du couronnement ou de la fête \emph{sed} (renouvellement du 
+couronnement, au bout de \num{30}~ans, c'est à dire la durée d'une 
+génération, symbolique). 
+\begin{itemize}
+  \item démontrer la vigueur physique du roi, sa capacité à régner ;
+  \item s'approprier l'espace : le roi fait le tour de son domaine en 
+        dessinant plus ou moins un cartouche, comme le soleil.
+\end{itemize}
+
+\begin{figure}[htb]
+  \CaptionPetit
+  \includegraphics[width=0.9\paperwidth]{Saqqara}
+  \caption[Complexe funéraire de Djoser à Saqqara]%
+          {Complexe funéraire de Djoser à Saqqara\newline\smaller
+           (1)~\uline{Tombe sud} : puits de \SI{28}{\m} de 
+               profondeur ; décoré de représentations en relief du 
+               roi ; il semble qu'il renfermait les vases canopes de 
+               Djoser\newline
+           (2)~\uline{Chapelle de la tombe sud} : l'extérieur est 
+               décoré d'une frise de cobra\newline
+           (3)~\uline{Terrasses occidentales} : non fouillées, elles 
+               recouvrent plusieurs couloirs avec des chambres de 
+               chaque côté ; des magasins pourraient également s'y 
+               trouver\newline
+           (4)~\uline{Édicules} : construits avec des blocs de 
+               calcaire ; ils ont la forme de la lettre~D et indiquent 
+               le parcours de la course du roi lors de la fête 
+               \emph{sed}\newline
+           (5)~\uline{Cour sud} : son secteur septentrional abrite la 
+               pyramide à degré et une tombe au sud ; on y célébrait 
+               certaines cérémonies de la fête \emph{sed}\newline
+           (6)~\uline{Entrée de la galerie saïte} : accès au profond 
+               puits funéraire creusé pour Djoser qui débouche sur la 
+               chambre funéraire en granit\newline
+           (7)~\uline{Colonnade d'entrée} : couloir d'accès bordé de 
+               colonnes de \SI{6.60}{\m} de haut\newline
+           (8)~\uline{Temple~T ou pavillon royal} : sa fonction reste 
+               inconnue, même s'il ne fait aucun doute qu'il servait 
+               pendant la fête \emph{sed}\newline
+           (9)~\uline{Cour du \emph{heb sed}} : rectangulaire, 
+               elle accueillait la fête \emph{sed}, cérémonie du
+               couronnement rituel du roi, souverain de \HBE\newline
+           (10)~\uline{Pyramide à degrés} : cette grande construction 
+               domine l'ensemble du complexe funéraire ; oe{}uvre 
+               d'Imhotep, elle accueillit la dépouille de Djoser 
+               \newline
+           (11)~\uline{Temple funéraire} : situé sur la façade nord 
+               de la pyramide ; la cour et la salle des ablutions 
+               sont deux des espaces qui furent identifiés\newline
+           (12)~\uline{Maison du sud} : semblable à la maison du nord 
+               et posant les mêmes interrogations quant à son 
+               utilisation ; le roi y recevait peut-être les impôts 
+               du sud du pays\newline
+           (13)~\uline{Cour du \emph{serdab}} : ainsi appelée car elle 
+               abrite une petite chapelle (\emph{serdab}) qui renferme 
+               une grande statue de Djoser\newline
+           (14)~\uline{Maison du nord} : des colonnes sont adossées 
+               à la façade ; on ignore la fonction de cet édifice, 
+               qui a peut-être un rapport avec les impôts du nord du 
+               pays\newline
+           (15)~\uline{Zone de l'enceinte} : dans cette grande cour, 
+               la seule construction identifiable est un petit autel 
+               avec une rampe à l'une de ses extrémités}
+  \label{fig:saqqara}
+\end{figure}
+
+Au sud-ouest de la cour se trouve un simulacre de palais orné du décor 
+en \frquote{façade de palais}, couronné d'ur{\ae}i (cela rappelle le 
+bâtiment dans la \SeZ).
+\donc~mastaba avec son puits et un réseau très complexe de 
+souterrains. 
+Serait-ce une tombe royale de la \dyn{2} ?
+Quelle est la finalité de cet ensemble ? Avec la pyramide, cela fait 
+deux sépultures !
+Une imitation de palais en sous-sol (ornementation avec panneaux de 
+plâtre + plaques de verre) ?
+Dans un des corridors, on trouve trois fausses-portes (il y 
+en a également trois sous la pyramide) : éléments du rituel de
+couronnement : course, mais autour de \num{2x3}~bornes et non 
+\num{2x2} ! Attention aux reconstructions !
+
+À l'est, la cour de la fête \emph{sed}. Très étroite, l'accès se 
+faisait depuis l'entrée. Au sud, une estrade en pierre, un corridor 
+vers l'ouest, le vestiaire du roi ?
+La cour est bordée de chaque côté par des sanctuaires fictifs, 
+\tl{jtr.ty}, \td{les deux rangées}, attestées dans la littérature.
+
+Dans le palais de Memphis, il existe la \frquote{maison de la fête 
+\emph{sed}}, qui sert à exprimer la symbolique de l'unité de \kmt. 
+Elles hébergent les statues des principales divinités du pays, une 
+rangée pour la \HE, un autre pour la \BE. Avant les cérémonies, on 
+va chercher ces statues dans les différentes villes du pays. Elles 
+valident ainsi le règne du roi.
+
+Chaque chapelle est dans un enclos délimitée par un muret, les 
+barrières sont gravées \incise{ouvertes} dans les murs.
+
+Une fois pétrifiées, ces structures deviennent les modèles des façades 
+de temples (cf.~Edfou), adaptées en pierre.
+La Chapelle Rouge est du type de la \fref{fig:sanctHE}. Les temples 
+traditionnels peuvent être vus comme l'emboîtement d'un sanctuaire 
+type \HE (naos, \fref{fig:sanctHE}) dans un sanctuaire type \BE 
+(salle hypostyle, \fref{fig:sanctBE}). D'autres types de sanctuaires, 
+visibles chez \roi{Djoser}, sont en revanche abandonnés.
+
+\begin{aparte}[parbox]
+  \centering
+  Le règne de \roi{Djoser} marque l'acte de naissance de 
+  l'architecture égyptienne en pierre.
+\end{aparte}
+
+Les maisons du sud et du nord ont des façades comme les kiosques de 
+\BE. Les entrées sont en cul-de-sac et masquées. On ne sait pas quel 
+était le rôle de ces maisons. Celles du sud sont dans un cour bordée 
+d'un mur orné de colonnes solidaires de la paroi. Ce sont les 
+premières colonnes papyriformes (ou campaniformes).
+
+La pyramide, à six degrés, recouvre des structures préexistantes. Elle 
+a été remaniée à plusieurs reprises. Pour sa construction, c'est la 
+simplicité qui a prévalu : les blocs sont de petite tailles, disposés 
+sur un plan en biais. Ça tient par tassement.
+
+Les différentes étapes de construction (\fref{fig:djoser}) sont 
+visibles grâce à des éboulements :
+\begin{enumerate}
+  \item à l'origine, un mastaba avec son puits
+  \item agrandissement : adjonctions, plus basses (idée des degrés ?)
+  \item augmentation à l'est : fermeture de l'accès aux tombes 
+        secondaires de la famille royale
+  \item première pyramide à quatre degrés
+  \item pyramide actuelle à six degrés
+\end{enumerate}
+
+\bigskip
+
+\begin{figure}[htb]
+  \begin{tikzpicture}[scale=0.70]
+    \djoser
+  \end{tikzpicture}
+  \caption{Complexe funéraire de \roi{Djoser} : plans successifs}
+ \label{fig:djoser}
+\end{figure}
+
+L'estrade et les bornes sont alignées sur la phase~1.
+
+L'infrastructure est complexe. Il s'agit peut-être d'une réutilisation 
+d'une tombe de la \dyn{2}. Certains couloirs sont de la \dyn{26}. 
+Une partie reprend le décor du mastaba sud : fausses-portes, 
+plaquettes de verre, fête \emph{sed}.
+
+Il n'y a aucun monument comparable sur lequel s'appuyer pour 
+rechercher des explications.
+
+Le temple funéraire est au nord et non à l'est comme c'est l'habitude, 
+et recouvre la descenderie. Il est en très mauvais état. Il comporte 
+deux cours avec des portiques. À gauche de l'entrée est, il y a un 
+édicule dans une pièce dont les vantaux sont gravés dans la pierre et 
+qui offre une vue sur une statue du roi assis\footnote{Cette statue 
+porte une mention d'Imhotep.}. C'est un simulacre d'abris pour le roi.
+Il remplit la même fonction que le \emph{serdab} dans les mastabas 
+ultérieurs : statue du défunt dans une pièce fermée doté d'une 
+ouverture (pour que la statue voit l'extérieur ?), dans le but de 
+préserver son \emph{ka}. Mais la position est inhabituelle : il 
+devrait être près de l'entrée sud-est.
+
+Au nord : autel, plate-forme avec escalier (comme ce qui existe pour 
+le culte solaire, mais dans ce cadre on regarde vers le soleil) : une 
+estrade pour le roi, pour des cérémonies ?
+
+À l'ouest, de grandes banquettes maçonnées : des magasins factices.
+
+
+\faitle{29/05/2012}
+On a trouvé un fragment de chapelle au nom de \roi{Djoser} à 
+Héliopolis, ville qui deviendra le centre de la théologie solaire 
+à la \dyn{4}.
+
+On ne sait rien de l'administration mais on peut déduire que le 
+pouvoir politique du roi est devenu relativement fort. Les sanctuaires 
+de la cour de la fête \emph{sed}, associés aux divinités de \HBE, 
+indiquent qu'il y a déjà une organisation administrative en provinces.
+
+En plus de Saqqara, il existe sept pyramides de \roi{Djoser} en \kmt : 
+Éléphantine \uwave{(aussi appelé El-Kola)}, Edfou, El-Koula (au nord 
+de Hiérakonpolis), Ombos (au nord de Louqsor), Sinki (au nord 
+d'Abydos), Zaouiet el-Maiétin (au nord-ouest de la ville \OK, 
+cimetière copte au nord de Béni Hassan), Seïla (dans le Fayoum, à 
+\SI{8}{\km} à l'ouest de Meïdoum). Elles sont petites (la plus haute 
+fait \SI{6}{\m} de haut), ne comportent pas d'infrastructure et sont 
+plus ou moins achevées. à Sinki, les rampes de construction sont 
+encore visibles. On ne sait pas à quoi elles servaient, on n'est même 
+pas sûrs qu'elles datent vraiment de \roi{Djoser}. Elles pourraient 
+symboliser, manifester le pouvoir royal localement. Le rôle de la 
+pyramide est en effet de servir de relais.
+
+\chapter{Les autres rois}
+%======================================================================
+
+On ne sait pas grand chose du reste de la dynastie, on a très peu 
+de monuments.
+
+Il y a un plan d'enceinte du même type que celui de \roi{Djoser} au 
+sud-ouest de ce dernier. C'est l'ébauche du complexe funéraire de 
+\roi{Sékhemkhet}. 
+Seule la descenderie a été réalisée, la pyramide, à peine ébauchée, 
+n'est qu'un monticule. On peut en conclure que son règne a été bref.
+
+On voit également des traces d'autres enceintes.
+
+À Zaouiet el-Aryan, au nord de Giza, une pyramide du même type est 
+attribuée à \roi{Khâba}, faute de mieux.
+
+On a trouvé un fragment de relief de \roi{Sanakht} dans le 
+Sinaï\footnote{Le Sinaï est une source de cuivre et de turquoise, 
+utilisés pour la fabrication d'outils, et permettant des progrès 
+technologiques.}. Il porte le thème classique du massacre des ennemis.
+
+Le règne d'\roi{Ânkhouâ} a livré les reliefs en bois d'Hésyrê 
+\fref{fig:hesyre}.
+
+
+\begin{figure}
+  \noindent%
+  \begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=\textwidth]{Hesyre_CG1426}%
+    \subcaption{CG\,1426}
+  \end{minipage}%
+  \quad%
+  \noindent%
+  \begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=\textwidth]{Hesyre_CG1427}%
+    \subcaption{CG\,1427}
+  \end{minipage}%
+  \quad%
+  \noindent%
+  \begin{minipage}[b]{0.33\textwidth}%
+    \centerfloat
+    \includegraphics[width=\textwidth]{Hesyre_CG1428}%
+    \subcaption{CG\,1428}
+  \end{minipage}%
+  \caption{Panneaux d'Hésyrê \infos{(\musee{Le Caire})}}%
+  \label{fig:hesyre}%
+\end{figure}
+
+Le dernier roi de la dynastie est \roi{Houni}, qui fait la transition 
+avec la période des pyramides classiques.
+
+\part{\texorpdfstring{\dyn{4}}{IVe dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Généralités}
+%======================================================================
+
+\begin{figure}[htb]
+  \begin{tikzpicture}
+     \geneaIV
+  \end{tikzpicture}
+  \caption{Généalogie de la \dyn{4}}
+  \label{fig:genealogie}
+\end{figure}
+
+La \dyn{4} est l'ère des grandes pyramides.
+
+Certains princes seront plus tard considérés comme des rois, mais ils 
+ne le sont pas dans la documentation de l'époque.
+
+Avec les \dynlist{5}{6}, elle représente un âge d'or du pays que 
+l'on s'efforcera d'imiter à la \dyn{12} et, plus tard encore, à la 
+\dyn{26}.
+
+Mais on ne sait rien de la politique de cette époque, que l'on 
+ne connaît qu'au travers des manifestations artistiques et 
+architecturales.
+
+On voit une accélération technologique et culturelle, une 
+centralisation de l'économie, un pouvoir fort.
+
+Les pyramides sont concentrées dans une zone s'étirant sur 
+\SI{150}{\km}, entre le Caire et le Fayoum.
+La première est bâtie à Meïdoum, puis Dahchour, Giza, Saqqara. Cela 
+accompagne le déplacement de la résidence royale.
+à la \dyn{5}, on construit sur les sites d'Abousir et Saqqara, à la 
+\dyn{6}, à Saqqara.
+
+Transition \dynum{3}-\dyn{4}s :
+\begin{itemize}
+  \item \roi{Djoser}, \roi{Sékhemkhet}, \roi{Khâba} : assises à lits 
+        déversés
+  \item Meïdoum : noyau de pyramide à degrés par Houni (simple 
+        supposition), puis conversion en pyramide lisse par 
+        \roi{Snéfrou}, d'où un manque de cohérence structurale
+  \item \roi{Snéfrou} a ensuite fait construire deux pyramides lisses, 
+        la Rhomboïdale et la Rouge
+  \item puis \roi{Khéops}, \roi{Khéphren}, \roi{Mykérinos} (ce dernier 
+        amorce le reflux qui se confirme après lui)
+\end{itemize}
+
+Parallèlement à la diminution de la taille des pyramides, les tombes 
+privées deviennent plus grandes, c'est leur âge d'or.
+Est-ce parce que la même main d'\oe{}uvre travaille sur les deux ?
+
+\begin{figure}[htb]
+  \begin{tikzpicture}[scale=0.75, font=\scriptsize]
+    \cplxpyram
+  \end{tikzpicture}
+  \caption{Plan type de complexe pyramidal}
+  \label{fig:cplxpyra}
+\end{figure}
+
+La pyramide satellite est un modèle réduit avec une descenderie. 
+À quoi sert-elle ? On n'a aucun texte\dots
+
+La pyramide recouvre une infrastructure dont l'entrée est au nord. 
+L'axe secondaire nord-sud est utilisé pour l'enterrement du roi.
+
+Il n'y a pas de plan type pour le temple bas, chaque cas est unique et 
+fonction de la topographie.
+
+Il y a au moins un cimetière pour les contemporains du roi (famille et 
+courtisans) : on reproduit l'organisation de la société.
+
+La ville de pyramide est utilisée, le temps de leur service, par les 
+prêtres qui rendent le culte. Elle comporte des bâtiments de service.
+
+Meïdoum
+
+La structure interne est en lits déversés, sans chaînage entre les 
+différentes couches.
+Le temple funéraire est un enclos en pierre avec une antichambre, 
+collé à la pyramide et contenant deux grandes stèles et une table 
+d'offrande. L'entrée est en chicane.
+Les stèles de Meïdoum sont anépigraphes alors qu'habituellement elles 
+portent le nom du roi dans un \emph{sékher} : a t-il été effacé par 
+l'érosion éolienne ?
+
+\CaptionPetit
+\begin{figure}[htb]
+  \begin{minipage}[t]{0.45\textwidth}
+    \centerfloat
+    \vspace*{0pt}
+    \begin{tikzpicture}[scale=1.1, thick]
+      \templehaut
+    \end{tikzpicture}
+
+    \bigskip
+
+    \begin{tikzpicture}[scale=0.7]
+      \chicane
+    \end{tikzpicture}
+    \caption{Temple haut type de \roi{Snéfrou}, avec entrée en chicane}
+    \label{fig:templehaut}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{0.45\textwidth}%
+    \centerfloat
+    \vspace*{0pt}
+    \begin{tikzpicture}[scale=.55]
+      \voute
+    \end{tikzpicture}
+    \caption{Pseudo-voute}
+    \label{fig:voute}
+  \end{minipage}%
+\end{figure}
+\CaptionNormal
+
+\begin{remarque}
+  L'architecture égyptienne est toujours marquée par un conflit entre 
+  la ligne droite et la chicane, entre procession, ostentation, et 
+  protection. Il faut séparer le sacré du profane.
+  Voir le temple de Karnak (\fref{fig:karnak}), le temple archaïque 
+  d'Éléphantine (\fref{???}).
+\end{remarque}
+
+\begin{figure}[htb]
+  \begin{tikzpicture}[scale=0.75]
+    \karnak
+  \end{tikzpicture}
+  \caption{Temple de Karnak}
+  \label{fig:karnak}
+\end{figure}
+
+
+\faitle{05/06/2012}
+À côté  de la pyramide, au nord, une nécropole de mastabas constitués 
+d'une enveloppe en brique, avec décor en façade de palais, autour d'un 
+massif de gravats. Les infrastructures sont taillées dans la roche. 
+Les briques sont enduites pour donner l'impression de la pierre.
+
+C'est de là que viennent la célèbre statue de Râhotep et Nofret 
+(\musee{???} \inv{???}, \fref{???}) et les oies de Meïdoum 
+(\musee{???} \inv{???}, \fref{???}).
+
+Dans la blocaille, des puits et chapelles funéraires : structures 
+cruciformes (par ex. Atet, Néfermaât) avec structure en chicane devant.
+
+
+
+\chapter[\roi{Rêdjedef}]{\protect\faitle{19/06/2012}\roi{Rêdjedef}}
+%======================================================================
+
+\begin{sidefig}{0.37\textwidth}
+      {Ensemble pyramide~/ temple~/ chaussée de \roi{Rêdjedef}}
+      {fig:redjedef}
+  \begin{tikzpicture}[scale=0.75]
+    \redjedef
+  \end{tikzpicture}
+\end{sidefig}
+% \begin{figure}[htb]
+%   \begin{tikzpicture}[scale=0.75]
+%     \redjedef
+%   \end{tikzpicture}
+%   \caption{Ensemble pyramide / temple / chaussée de \roi{Rêdjedef}}
+%   \label{fig:redjedef}
+% \end{figure}
+
+\roi{Rêdjedef} est le successeur de \roi{Khéops}, et son fils par une 
+reine secondaire.
+
+On ne sait rien ou presque de son règne.
+
+Son nom est parfois transcrit \emph{Didoufri} ou \emph{Djedefrê} en 
+supposant une antéposition honorifique.
+Il se lit \tl{Ra-Dd=f}, \td{Rê est durable}, à l'aoriste.
+
+Son cartouche est gravé sur une dalle de fermeture de la barque de 
+\roi{Khéops}, sa pyramide est à Abou Rowash, à \SI{10}{\km} au nord 
+de Giza, sur un éperon rocheux qui domine la plaine (ce site abrite 
+également des vestiges d'une pyramide à degrés de la \dyn{3})).
+
+La pyramide est probablement inachevée, et on a retrouvé les vestiges 
+du temple funéraire et d'ateliers. La chaussée placée au nord montre 
+que les constructeurs se sont adaptés à la topographie 
+(\fref{fig:redjedef}).
+
+De la pyramide, il ne reste qu'un socle rocheux. Sa hauteur aurait 
+atteint \SI{68}{\m}, soit la moitié de la pyramide de \roi{Khéops}, 
+mais sa pointe aurait été à la même altitude que celle-ci, grâce à 
+l'éperon rocheux.
+
+La pyramide satellite est également taillée dans la roche.
+
+La descenderie est partiellement achevée, ce qui nous donne un 
+aperçu de la méthode de construction employée : une large excavation 
+est d'abord taillée dans la roche, et un couloir exiguë y est 
+ensuite construit en pierres de taille.
+
+
+\chapter{\roi{Khéfren}}
+%======================================================================
+
+Sa pyramide, à Giza, fait presque la même taille que celle de 
+\roi{Khéops} et une partie de son parement est conservée en hauteur.
+
+Dénivelé sur trois côtés : sol en pente douce nivelée \flech sert de 
+mur d'enceinte.
+
+De la pyramide satellite, il ne reste que la base.
+
+Le temple bas est bien conservé. Juste à côté se trouve le Sphinx, et 
+devant celui-ci, un autre temple. En biais, près de la patte gauche, 
+est situé un temple de la \dyn{18}. Il n'y a rien entre les deux ! 
+
+L'infrastructure est simple, creusée à fleur de roche. On voit une 
+ébauche de double infrastructure qui pourrait indiquer un changement 
+de projet. Des magasins se trouvent en bas de la première descenderie. 
+Il y a des restes de dallage tout autour de la pyramide et des tombes 
+ont été creusées dans la paroi rocheuse derrière elle. 
+
+Au sud, on voit des rigoles dans le sol naturel, typiques de la 
+technique de nivellement.
+
+À l'ouest (?), on trouve des couloirs en pierre sèche, qui ont été  
+interprétés comme des abris pour les ouvriers. En fait, il s'agit de 
+resserres pour l'outillage, le site d'hébergement est, lui, au 
+sud-est\dots
+
+Un site lié à la construction (atelier) se situe au sud-est de 
+la pyramide de \roi{Mykérinos}. Partiellement connu, il est aux 
+trois-quarts détruit à cause des carrières de \roi{Mykérinos}, et 
+rempli de déchets de taille. Entre les blocs, on trouve les tombes des 
+contemporains de \roi{Mykérinos}. Les vestiges de \roi{Khéphren} ne 
+comprennent pas de textes, mais un mur d'enceinte, avec des bureaux à 
+l'extérieur et des lieux de travail à l'intérieur (four pour refondre 
+les outils, restes de sculpture, ratés de taille, par exemple des 
+bases de colonnes).
+
+Il ne reste pas grand chose du temple haut qui est par conséquent 
+très peu lisible. On distingue deux fois cinq salles de statues, 
+une disposition qui devient systématique par la suite. Une stèle 
+fausse porte orne le mur du fond.
+
+La chaussée est parsemée de tombes postérieures (\LP)
+
+Le temple bas est presque complet. Sa façade était parée de plaques 
+de granit et comportait une double entrée bordée de sphinx. Il s'agit 
+d'un temple d'accueil, mais de quoi ? Des traces au sol, des encoches 
+laissent penser à des bases de statues, mais on n'y a trouvé que le 
+\roi{Khéphren} au faucon en diorite, et aucun texte.
+
+Le sphinx est un rocher taillé au centre d'une excavation. Il a été 
+l'objet de plusieurs désensablements (le dernier en \ano[0]{1936}). 
+Il pose de nombreux problèmes d'interprétation. Le plus probable est
+qu'il s'agisse d'une représentation de \roi{Khéphren}. On a retrouvé 
+des fragments de barbe postiche, aujourd'hui conservés au \BM 
+(\fref{???}).
+Autour de quatre-vingt (ou trente ?) stèles ont été retrouvées 
+encastrées dans le mur d'enceinte du sanctuaire de la \dyn{18}. 
+Le sphinx y est représenté accompagné d'une statue royale et portant 
+une barbe et même un pschent ! On ne sait pas si c'est réaliste ou 
+non. La protubérance entre ses pattes est plus probablement un socle 
+de statue qu'une statue.
+
+De face, le Sphinx est caché par le \emph{\frquote{Temple du Sphinx}}. 
+On n'a aucune d'idée de la finalité de ce monument, ni de sa relation 
+avec le Sphinx. C'est un grand espace à ciel ouvert, présentant une 
+grande symétrie. Il s'agit probablement d'un temple solaire (le soleil 
+est en effet le seul dieu que l'on peut adorer directement, sans 
+statue comme support).
+
+\chapter{\roi{Mykérinos}}
+%======================================================================
+
+C'est la plus au sud des trois pyramides de Giza, à l'aplomb du ouadi 
+dans lequel se trouve le temple bas. On compte trois pyramides de 
+reines, dont deux à degrés, au sud.
+
+Il reste une partie du parement inférieur en granit gris. Souvent, 
+le pyramidion était en granit rouge. La pyramide n'était donc pas 
+uniformément blanche mais plutôt tricolore. Cela pourrait correspondre 
+à la structure de la société égyptienne.
+
+À nouveau, l'infrastructure laisse supposer qu'un premier 
+projet a été abandonné : un couloir ascendant ne menant nulle part 
+correspondrait à une pyramide plus petite. 
+
+Un sarcophage en bois à été trouvé sur place (aujourd'hui au \BM, 
+\fref{???}), mais il a été fait à la \dyn{26} pour ré-inhumer le roi.
+
+Le temple haut est mieux conservé que les autres vestiges de Giza. 
+Il se compose d'une grande cour à ciel ouvert, péristyle (?), d'une 
+salle oblongue avec une fausse porte et d'un accès indirect à un 
+temple accolé à la pyramide.
+
+Le temple bas a été bien fouillé au début du \siecle{20}. Il est 
+partiellement construit en briques crues et à connu deux phases : 
+\begin{itemize}
+  \item Avant la \dyn{6}, il comprenait une antichambre, une grande 
+        cour, péristyle, sanctuaire axial ;
+  \item À la \dyn{6}, il était devenu une ville de pyramide et, 
+        sous Pépi~I\ier, le péristyle servait de sanctuaire.
+\end{itemize}
+
+On y a trouvé un décret d'exemption, une statuaire nombreuse et de 
+grande qualité (en pierre de Békhen, tendre et au grain homogène). 
+Entre autre Mykérinos et une reine, quatre triade avec des nomes. 
+Ces dernières pourraient jouer le même rôle que les statues supposées 
+de a fête \emph{sed} de Djoser.
+
+\chapter{\roi{Chepseskaf}}
+%======================================================================
+
+Sa sépulture est à Saqqara sud (entre Saqqara et Dahchour, comme la 
+pyramide de \roi{Pépi~II}). On l'appelle le \emph{Mastabat Faraoun} 
+(\fref{fig:faraoun}).
+Ce n'est pas une pyramide, mais c'est plus grand que celle de 
+\roi{Pépi~II}.
+Il s'agit d'architecture mégalithique, et son parement a disparu.
+
+\begin{figure}[htb]
+  \begin{tikzpicture}[scale=0.75]
+    \faraoun
+  \end{tikzpicture}
+  \caption{Le \emph{Mastabat Faraoun}}
+  \label{fig:faraoun}
+\end{figure}
+
+\chapter{\roi{Khentykaous}}
+%======================================================================
+
+Elle est l'une des reines de \roi{Chepseskaf}, sa sépulture est à 
+Giza. La superstructure est du même type que celle du roi, avec une 
+chaussée flanquée d'une ville de pyramide.
+Il y a un étage naturel de roche, sous le mastaba, ce qui donne 
+l'impression d'une pyramide à deux degrés.
+
+\part{\texorpdfstring{\dyn{5}}{Ve dynastie}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Le premier roi descend de \roi{Khéops} mais pas de \roi{Khéphren}, 
+contrairement aux suivants.
+
+On ne connaît de cette dynastie que les vestiges archéologiques.
+
+Cette dynastie est marquée par des pyramides aux proportions plus 
+raisonnables que les précédentes (de l'ordre de la moitié de 
+\roi{Khéops}), l'amorce d'un plan normalisé pour les temples et les 
+infrastructures (qui sera vraiment en place à la \dyn{6}, et malgré 
+des variations dues à l'emplacement des magasins) et l'apparition des 
+\TP (Ounas). On voit dans le même temps une augmentation des tombes 
+privées, qui comportent de plus en plus de décors (on a déjà sous 
+\roi{Khéops} de très grands mastabas, mais ils sont pleins).
+
+\chapter{\roi{Ouserkaf}}
+%======================================================================
+
+Sa petite (de l'ordre de \SI{20}{\m}) pyramide est à Saqqara, au 
+nord-est de \roi{Djoser}. Elle est en mauvais état.
+À cause de la topographie, le temple funéraire est au sud de la 
+pyramide.
+
+Les rois suivants s'installent à Abousir. Il y a de nombreuses 
+pyramides, nécropoles et des temples solaires.
+
+Par ordre chronologique :
+\begin{itemize}
+  \item temple solaire d'\roi{Ouserkaf} ;
+  \item pyramide de \roi{Sahourê} ;
+  \item pyramide de \roi{Néferirkarê} ;
+  \item pyramide inachevée de \roi{Râneferef} ;
+  \item pyramide de \roi{Niouserrê} (il a détourné la chaussée de 
+        \roi{Neferirkarê} à son profit) et temple solaire (à Abou 
+        Ghorab).
+\end{itemize}
+
+Les temples solaires sont spécifiques à la \dyn{5}. Comme les 
+pyramides, ils sont dotés d'un temple d'accueil et on y accède par 
+une chaussée. Ils comportent une cour avec un obélisque maçonné au 
+centre :
+repro du temple d'Héliopolis. Même symbolique que pyramide, symbole 
+solaire. Pourquoi le temple solaire en plus de la pyramide ? Les 
+textes montrent que les deux sont associés. Pourquoi ne pas avoir 
+intégré les deux ?
+
+Celui d'\roi{Ouserkaf} est en ruines.
+
+\chapter{\roi{Sahourê}}
+%======================================================================
+
+Sa pyramide a été exploitée comme carrière, le revêtement a disparu.
+Mais cela permet de voir qu'elle a été construite comme une pyramide 
+à degrés.
+
+Le temple funéraire comporte \incise{comme toujours} un vestibule 
+\tl{pr-wr.w}, une cour péristyle, une chapelle avec cinq niches, 
+un couloir de contournement menant à la pièce abritant la table 
+d'offrande et la stèle fausse porte.
+\donc Association ombre (Osiris) / lumière (soleil) \flech dynamique 
+de renaissance perpétuelle.
+
+Temple et chaussée étaient couverts de reliefs : annales, hauts-faits 
+du règne. On a retrouvé un peu de statuaire (roi + nomes).
+
+Son règne a duré à peu près quinze ans.

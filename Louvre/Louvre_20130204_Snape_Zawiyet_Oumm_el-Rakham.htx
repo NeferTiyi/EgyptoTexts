@@ -11,8 +11,8 @@
 }
 %\usepackage{fancyhdr}
 \usepackage{nefermemoir}
-\usepackage{nefertiyi}
-\usepackage{neferhiero}
+\usepackage[hiero]{nefertiyi}
+% \usepackage{neferhiero}
 
 \widowpenalty=9999
 \clubpenalty=9999
@@ -33,7 +33,6 @@
 \setlength{\columnsep}{2em}
 
 \newcommand{\ZOR}{Zaouyet Oumm el\nobreakdash-Rakham\xspace}
-% \newcommand{\ZOR}{Zaouyet Oumm el-Rakham\xspace}
 \newcommand{\StS}{Steven~\bsc{Snape}\xspace}
 \newcommand{\zk}{zone~K\xspace}
 
@@ -182,9 +181,9 @@ be semi-nomad people who moved over a wide territory with perhaps a
 concentration of occupation on the fertile Mediterranean coast.
 \end{comment}
 
-Toute la région à l'ouest de la vallée du Nil -- à l'exception des 
-oasis -- est appelée \emph{Libye} et sa population \emph{Libyens} par 
-les égyptologues. 
+Toute la région à l'ouest de la vallée du Nil \incise{à l'exception 
+des oasis} est appelée \emph{Libye} et sa population \emph{Libyens} 
+par les égyptologues.
 
 Du début de l'histoire égyptienne jusqu'à la \dyn{xviii}, les 
 égyptiens connaissaient deux principaux groupes de libyens : les 
@@ -194,35 +193,35 @@ sur la côte fertile de la Méditerranée.
 
 \begin{comment}
 However, to an Egyptian soldier or an administrator who lived during 
-the 18th dynasty -- the period of Egypt's greatest imperial power -- 
-the area to the west of Egypt would have seem to be the least 
+the 18th dynasty \incise{the period of Egypt's greatest imperial 
+power} the area to the west of Egypt would have seem to be the least 
 significant of Egypt immediate neighbours. It is an area which did 
-not attract (to) Egypt because it did not offer any opportunities for
+not attract (to) Egypt because it did not offer any opportunities for 
 economic exploitation. But nor did it offer any threat to the security 
 of Egypt itself. As an area which had neither opportunity nor threat, 
 unlike both of Levant and Nubia which historically had provided plenty 
 of both, Libya was therefore of little interest. It was certainly 
-unworthy of expensive investment in the form of military conquest or 
-the creation of a colonial infrastructure of administration. 
+unworthy of expensive investment in the form of military conquest 
+or the creation of a colonial infrastructure of administration. 
 This situation changed drastically in the period from the reign of 
 Amenhotep III to that of Ramesses II. In that period, Egypt came into 
 contact with new Libyan groups, especially the Meshwesh and the Libu. 
 The origin of these groups is not certain. Perhaps Cyrenaica. But we 
 do know that these groups were real threat to Egypt itself. Their 
-attempted migration into Egypt resulted in major defensive wars 
-under Ramesses II's successor Merenptah and a little later under
-Ramesses III when the survival of the Egyptian state itself was 
-in danger. The threat had been recognised during the reign of
-Ramesses II's father Sethy I and under Ramesses II himself when a 
-new series of fortifications were built for western Delta (desert 
-towns) including Tell el-...yn, ... and Kom el-.... An extension of 
-this west Delta system was the creation of a system of forts or 
-fortress towns along that part of the Mediterranean coast which is 
-referred to as Marmarica.
+attempted migration into Egypt resulted in major defensive wars under 
+Ramesses II's successor Merenptah and a little later under Ramesses 
+III when the survival of the Egyptian state itself was in danger. 
+The threat had been recognised during the reign of Ramesses II's 
+father Sethy I and under Ramesses II himself when a new series of 
+fortifications were built for western Delta (desert towns) including 
+Tell el-...yn, ... and Kom el-.... An extension of this west Delta 
+system was the creation of a system of forts or fortress towns along 
+that part of the Mediterranean coast which is referred to as 
+Marmarica.
 \end{comment}
 
 Jusqu'à la \dyn{xviii}, l'\kmt se désintéresse de cette région qui ne 
-présente -- contrairement à la Nubie et au Levant -- ni opportunité 
+présente \incise{contrairement à la Nubie et au Levant} ni opportunité 
 économique ni danger.
 La situation change cependant radicalement entre les règnes 
 d'Amenhotep~III et celui de Ramsès~II, quand l'\kmt entre en contact 
@@ -231,7 +230,7 @@ avec de nouveaux groupes de Libyens, particulièrement les
 de Cyrénaïque. Ce que l'on sait, c'est que ces groupes représentaient 
 un réel danger et que leur tentative de migration en \kmt a résulté en 
 d'importantes guerres défensives sous Mérenptah et plus tard sous 
-Ramsès~III. Ce danger, identifié déjà sous Séthy~I\ier et Ramsès~II, 
+Ramsès~III. Ce danger, identifié déjà sous Séthi~I\ier et Ramsès~II, 
 est à l'origine de la mise en place d'un réseau de fortifications dans 
 le Delta occidental (notamment Tell el-Abqa'in et Kôm el-Hisn), 
 prolongé par un système de villes fortifiées le long le la côte 
@@ -261,11 +260,11 @@ been subject to the major fieldwork project which I have been
 directing for the university of Liverpool since 1994.
 \end{comment}
 
-\ZOR{} -- découverte par hasard en \ano[0]{1948} -- est le site le 
-mieux connu de cette chaîne de défense de Marmarique. Étudiée 
+\ZOR{} \incise{découverte par hasard en \ano[0]{1948}} est le site 
+le mieux connu de cette chaîne de défense de Marmarique. Étudiée 
 brièvement par Labib~\bsc{Habachi} dans les années cinquante, elle est 
-depuis 1994 l'objet d'un grand programme de fouilles sous la direction 
-de \StS pour le compte de l'Université de Liverpool.
+depuis \ano[0]{1994} l'objet d'un grand programme de fouilles sous la 
+direction de \StS pour le compte de l'Université de Liverpool.
 
 \begin{comment}
 ZUeR is located on the coastal plain which has an average width of 
@@ -377,30 +376,31 @@ d'un gouverneur nommé Nebrê.
 
 \begin{comment}
 The first area I would like to direct attention is the main gate of 
-the fortress. I said "main gate", it was the only. It was located in 
-the middle of the northern wall, composed of two now denuded towers of 
-mud brick, originally with some external limestone cladding and with a 
-central corridor wide and floored with substantial slabs of limestone. 
-Although badly damaged and surviving (less than) 1.5m of ... the outer 
---- that's to say northern faces of this gate --- contain inscriptions 
-which seem to indicate at least part of the agenda for this fortress 
-town. A fragmentary text refers to (menen) fortresses on the hill 
-country of the Tchemay. This is important for several reasons. 
-A (menen) fortress is a large fortress town, not a small simple fort, 
-a description which seems an excellent description of ZUeR. It is also 
-(noteworthy) that the inscription refers to (menen) fortresses in the 
-plural, which suggests other similar fortress towns along the 
-Marmarican coast. A second set of interesting texts is to be found 
-on door jams and door lintels from the area of the main gate. These
-contain short texts which refer to Ramesses II crushing foreign 
-enemies. However, it should be noted that on the door jams which have 
-been recovered to date, and record this activity, only Libyan groups 
-are recorded, especially the Tchemay, the Tjehenou, and the Libu.
+the fortress. I said ``main gate'', it was the only. It was located 
+in the middle of the northern wall, composed of two now denuded 
+towers of mud brick, originally with some external limestone cladding 
+and with a central corridor wide and floored with substantial slabs 
+of limestone. Although badly damaged and surviving (less than) 1.5m 
+of ... the outer \incise{that's to say northern faces of this gate} 
+contain inscriptions which seem to indicate at least part of the 
+agenda for this fortress town. A fragmentary text refers to (menen) 
+fortresses on the hill country of the Tchemay. This is important for 
+several reasons. A (menen) fortress is a large fortress town, not a 
+small simple fort, a description which seems an excellent description 
+of ZUeR. It is also (noteworthy) that the inscription refers to 
+(menen) fortresses in the plural, which suggests other similar 
+fortress towns along the Marmarican coast. A second set of interesting 
+texts is to be found on door jams and door lintels from the area of 
+the main gate. These contain short texts which refer to Ramesses II 
+crushing foreign enemies. However, it should be noted that on the door 
+jams which have been recovered to date, and record this activity, only 
+Libyan groups are recorded, especially the Tchemay, the Tjehenou, and 
+the Libu.
 \end{comment}
 
 La première zone d'intérêt est celle de l'unique entrée 
 (\fref{fig:entree} et~\ref{fig:entreedet}), située au milieu du mur 
-nord et composé de deux (\og denuded \fg ?) tours de briques crues 
+nord et composé de deux (\frquote{denuded} ?) tours de briques crues 
 et à l'origine dotées d'un parement en calcaire.
 
 Le large corridor central est pavé de grandes dalles de calcaire. 
@@ -408,7 +408,7 @@ Bien qu'en mauvais état, et avec seulement \SI{1.5}{\m} d'élévation
 conservée, la face externe de cette entrée comporte des inscriptions 
 qui semblent révéler au moins en partie la raison d'être de la 
 forteresse. Un texte fragmentaire fait référence à des forteresses 
-\emph{\og menen \fg} dans les collines du pays des Tjéméhous.
+\emph{\frquote{menen}} dans les collines du pays des Tjéméhous.
 
 \CaptionPetit
 \begin{wrapfigure}[25]{l}[0.0cm]{0pt}
@@ -470,7 +470,8 @@ title identify the commander of a company which in the Ramesside army
 consisted of between 200 and 250 men. Because two standard bearers 
 are shown together on the stelea it is reasonable to assume that they 
 serve as officers at ZUeR at the same time. And therefore at least two 
-companies were present at ZUeR at one time, making a minimum garrison of 400 to 500 men.
+companies were present at ZUeR at one time, making a minimum garrison 
+of 400 to 500 men.
 \end{comment}
 
 Au sud du temple, on trouve un groupe de trois chapelles utilisées 
@@ -478,13 +479,13 @@ comme lieu de culte privé par des officiers en garnison, comme le
 suggèrent les stèles qui y ont été découvertes.
 Sur l'une d'elles, malgré son mauvais état de conservation, on peut 
 identifier deux officiers portant chacun le titre de 
-\og porte-enseigne \fg (\tl{TAy sry.t} en égyptien). Au \NK, ce titre 
-est porté par les commandants de compagnie, des groupes de deux cents 
-à deux cent cinquante hommes dans les armées ramessides. La présence 
-de ces deux personnages sur une même stèle permet de supposer qu'ils 
-ont servi en même temps en tant qu'officiers à \ZOR. On peut donc 
-estimer à un minimum de quatre cents à cinq cents hommes la garnison 
-de la ville à un moment donné.
+\frquote{porte-enseigne} (\tl{TAy sry.t} en égyptien). Au \NK, ce 
+titre est porté par les commandants de compagnie, des groupes de deux 
+cents à deux cent cinquante hommes dans les armées ramessides. La 
+présence de ces deux personnages sur une même stèle permet de supposer 
+qu'ils ont servi en même temps en tant qu'officiers à \ZOR. On peut 
+donc estimer à un minimum de quatre cents à cinq cents hommes la 
+garnison de la ville à un moment donné.
 
 % \end{multicols}
 
@@ -661,16 +662,16 @@ is used 10h/day => 1500L
 => no more than 7 wells needed.
 \end{comment}
 
-Les besoins en eau -- recouvrant à la fois consommation humaine et 
-animale, et activités annexes telles que boulangerie et brassage -- 
+Les besoins en eau \incise{recouvrant à la fois consommation humaine 
+et animale, et activités annexes telles que boulangerie et brassage} 
 sont très difficiles à évaluer. En considérant une population de 
 cinq cents hommes et une consommation quotidienne de 
-\SIrange{15}{20}{\liter} par personne et par jour, on obtient un 
-volume de \SIrange{7500}{10000}{\liter\per\jour}. Utilisé dix heures 
-par jours, le puits du temple produit entre
-\SIrange[range-phrase=\ et\ ]{1500}{2000}{\liter}. 
-Dans le pire des cas, sept puits de ce type suffisent à couvrir la 
-consommation quotidienne.
+\SIrange{15}{20}{\liter} par personne et par jour, on obtient 
+un volume de \SIrange{7500}{10000}{\liter\per\jour}. Utilisé 
+dix heures par jours, le puits du temple produit entre 
+\SIrange[range-phrase=\ et\ ]{1500}{2000}{\liter}. Dans le pire 
+des cas, sept puits de ce type suffisent à couvrir la consommation 
+quotidienne.
 
 % \end{multicols}
 
@@ -696,12 +697,12 @@ fish bones, ostrich egg shells.
 \end{comment}
 
 Le régime alimentaire des habitants de \ZOR était composé 
-principalement de céréales, à la base de la confection de pain et de 
-bière ---~activité très présente en \zk. Des greniers circulaires en 
-calcaire et mortier de terre ---~au moins quatre~--- ont été trouvés 
-à l'ouest de la \zk et ont été partiellement fouillés. Ils devaient
-servir à la distribution des
-rations ou aux boulangeries et brasseries de la \zk, ou les deux. 
+principalement de céréales, à la base de la confection de pain 
+et de bière \oincise{activité très présente en \zk}. Des greniers 
+circulaires en calcaire et mortier de terre \incise{au moins quatre} 
+ont été trouvés à l'ouest de la \zk et ont été partiellement fouillés. 
+Ils devaient servir à la distribution des rations ou aux boulangeries 
+et brasseries de la \zk, ou les deux.
 Ils font \SI{3}{\m} de diamètre pour au moins \SI{2}{\m} de haut, 
 soit une capacité de \SI{14}{\cubic\m} ou \SI{14000}{\liter} et
 \SI{56}{\cubic\m} pour les quatre greniers.
@@ -753,15 +754,15 @@ pour la poterie.
 
 Certaines catégorie de poterie (\fref{fig:jarres} à~\ref{fig:biere}) 
 étaient clairement importées, de différentes régions de la 
-Méditerranée orientale (jarres crétoises, flasques chypriotes, \dots) 
-ou d'\kmt (grandes amphores à vin élancées, \og gourdes de 
-pèlerin \fg\footnote{\emph{Pilgrim flasks}.}, jarres à lait 
+Méditerranée orientale (jarres crétoises, flasques chypriotes,~\dots) 
+ou d'\kmt (grandes amphores à vin élancées, \frquote{gourdes de 
+pèlerin}\footnote{\emph{Pilgrim flasks}.}, jarres à lait 
 ovoïdes,~\dots).
 
-Mais la plus grande partie se compose de pièces de \og Nile silt 
-ware \fg (récipients de stockage à large col, jarres à bière à fond 
-plat, divers plat, assiettes et bols à fond plat ou rond), de 
-différentes sources, nilotiques et locales. 
+Mais la plus grande partie se compose de pièces de \frquote{Nile silt 
+ware} (récipients de stockage à large col, jarres à bière à fond plat, 
+divers plat, assiettes et bols à fond plat ou rond), de différentes 
+sources, nilotiques et locales.
 
 L'étude de ce matériel va occuper une bonne partie du temps de 
 l'équipe dans les années qui viennent mais il semble d'ores et déjà 
@@ -816,7 +817,7 @@ conditions climatiques (after winter, fertile soil, temperate climate
 without rain) => ideal for flax
 \end{comment}
 
-Des \og bols à filage \fg\footnote{\emph{Spinning bowls}.} ainsi que 
+Des \frquote{bols à filage}\footnote{\emph{Spinning bowls}.} ainsi que 
 des fuseaux trouvés dans la \zk semble attester que du textile était
 produit sur place. Il est en effet peu probable que les fibres aient 
 été importées.
@@ -995,7 +996,7 @@ est aujourd'hui au musée de Louqsor).
   \includegraphics[height=9cm]{nebre2} %
   \includegraphics[height=9cm]{nebre} %
   \includegraphics[height=9cm]{nebre5} %
-  \caption{Le gouverneur Nebrê \rem{(Musée de Louqsor, galerie~N)}}
+  \caption{Le gouverneur Nebrê \infos{(Musée de Louqsor, galerie~N)}}
   \label{fig:nebre}
 \end{figure}
 

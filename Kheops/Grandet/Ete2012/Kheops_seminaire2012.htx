@@ -1,0 +1,1586 @@
+\documentclass[a4paper,twoside,10pt]{article}
+\usepackage{pgf,tikz}
+\usetikzlibrary{calc,patterns,arrows}
+\usepackage{neferalias}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+
+\addtolength{\hoffset}{1cm}
+\addtolength{\textwidth}{-2cm}
+\addtolength{\voffset}{1cm}
+\addtolength{\textheight}{-2cm}
+
+\frenchbsetup{ItemLabelii=\pucea{}}
+
+\newcommand{\DirImg}{../img/Dominique/}
+
+\setlength\fboxsep{0.5mm}
+\setlength\tabcolsep{0mm}
+\setlength\parskip{1.0\baselineskip}
+\setlength{\parindent}{0pt}
+
+\title{Le pillage des tombes thébaines}
+\short{Le pillage des tombes thébaines}
+\author{Pierre \bsc{Grandet}}
+\date{2 - 6 juillet 2012}
+
+\pagestyle{myheadings}
+
+\makeatletter
+  \markboth{\@author}{\@short}
+\makeatother
+
+\input{tikz_Farout}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Epithètes divines
+\begin{hieroglyph}
+  #def tpyDwf     tp*Dw:\!\!\!f#
+\end{hieroglyph}
+
+% Titres
+\begin{hieroglyph}
+  #def nswbjty    sw:\!t\s1 bit:\!t\s1#
+  #def imyrA      ns:\!\!\!pr\s1#
+  #def XryHbt     H-Xr:.-\!\!b#
+  #def smrwaty    s-Ab-wa:t*1#
+  #def jmAx       i-mA-imAx:\!\!\!x\s1#
+  #def jmAxt      i-mA-imAx:\!\!\!t\s1#
+  #def chambellan sw-t:tp-Xr#
+  #def irypat     r:p:\!\!a#
+  #def HAtya      HAt:\!\!a#
+  #def TAty       TA-t:1-A1#
+  #def PraA       aA:pr*pr#
+\end{hieroglyph}
+
+% Noms propres
+\begin{hieroglyph}
+  #def jww        i-w-w-A50#
+  #def shendoua   S:n-dwA-i#
+  #def xntyka     W18\s2:n-t:kA#
+  #def ixxi       i-x:x-i#
+  #def mrytti     <-t:t-i->-mr-i-i#
+  #def wAHkA      wAH:\!\!kA#
+\end{hieroglyph}
+
+% Divers
+\begin{hieroglyph}
+  #def mAdw       mA:d-w-niwt#
+  #def mnTw       mn:n:T-w-C17#
+  #def prxrw      pr:\!\!\!xrw\s1#
+  #def nsty       (n:ns:\!\!\!t)-g:g#
+  #def Ddmdw      D:\!\!\!\!\!md\s1*.#
+  #def Dt         D:\!\!\!\!t\s1:\!N17#
+  #def di'        D37#
+  #def wnn        wn:n:n#
+  #def nn         D35:n#
+  #def ink        nw:k#
+  #def imAa       M1:\!\!a#
+  #def XrytnTr    nTr*\!\!.:\!\!\!Xr\s2#
+\end{hieroglyph}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{myheadings}
+
+\SmallerText
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{hieroglyph}
+  !
+  +l\num{7}+s !
+  i-TA-A- 
+  +l\num{14}+s 
+  +l\num{15}+s 
+  +l\num{16}+s 
+\end{hieroglyph}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\num{3}+s #-rnp-t:zp 10-1*1*1:1*1*1-# Abd:1*1*1 
+      Axt:x*t#4 ra#// 10\R-90 #-1\R90:1\R90:1\R90:1\R90-# 
+      1\R90:1\R90:1\R90:1\R90 x:r Hm-1 G7 sw bit nb:tA:tA:N23*N23 
+      <-ra-nfr-kA-(stp-\!\!\!ra\s1:.):n-G7-> Z5-\!\!Z5-\!\!Z5 G7 
+      +l\num{4}+s zA-\!\!\!ra:. 1 G7-G7 nb:xa*W G7-G7 Z3A 
+      <-#-ra-ms-s-s-xa:M-R19-# U7:r-r i-mn:n-G7-> Z5-\!\!Z5-\!\!Z5 
+      G7 U7:r-i-i-A2 #-i-mn:n-# G7-+l\num{5}+s-ra:r:a-G7 sw-t:n-G7 
+      nTr-\!nTr-\!nTr-G7-Z3A G9 Axt:t*y pr-pr G7-G7 di-anx-n:x Dt 
+      H-ra-H 
+    \end{hieroglyph}
+
+    \tl{\num{3} rnp.t sp 16 Abd 3 Ax.t sw 18 xr Hm (ny)-sw.t bjt(y) 
+        nb \&A.wy Nfr-kA-Ra-stp\col n-Ra a.w.s. \num{4} sA Ra nb xa.w 
+        Ra-ms-sw-xa-m-WAs.t mrr(w) Jmn a.w.s. mry 
+        Jmn-\num{5}Ra-n(y)-sw.t-nTr.w Ra-Hr-Axty d(w) anx D.t nHH}
+
+    \td{L'an de règne 15, 3\ieme{} mois d'akhet, jour 18, sous la 
+        majesté du roi de \HBE, le maître des Deux-Terres, 
+        Néferkarê-Sétepenrê v.s.f., le fils de Rê, maître des 
+        apparitions en gloire, Ramsès-Khâemouaset qu'Amon v.s.f. aime, 
+        aimé d'Amonrasonther et Rê-Horakhty, doté de vie pour 
+        l'éternité des nuits et l'éternité des jours.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\num{6}+s #-h-r:W*ra p:n h-A-b-y:D54 t-W n:A-Z3A-#-rwD 
+      Z5-\!\!Z5-\!\!Z5 Y1 A24:A1-3:n pA'-A x:r-pr aA:Y1 
+      Sps-s-#-y:Y1-# pA'-A +l\num{7}+s zS-A1:n TAty pA'-A zS-A1:n 
+      pA'-A m:r pr-HD-pr n PraA-G7 Z5-\!\!Z5-\!\!Z5 G7
+    \end{hieroglyph}
+
+    \tl{\num{6} hrw pn hAb=tw nA rwDw n(y) pA \#r aA Spsy, pA \num{7} 
+        sS n(y) TAt(y), pA sS n(y) pA (j)m(y)-r(A) pr-HD n(y) Pr-aA 
+        a.w.s.}
+
+    \td{Ce jour où ont été envoyés les administrateurs de la Grande 
+        Tombe auguste, le scribe du vizir, le scribe du directeur du 
+        trésor de Pharaon v.s.f.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      +l\num{8}+s #-r s-i-p:Y1-n:A-Z3A-#- i-iz-s-i-i-t:pr -#-3:n n:A-#- 
+      sw-t:n-i-i-G7-G7-Z3A tp-p-//- G7-Z3A H-n:a +l\num{9}+s n:A 
+      N36:N23-P7-i-i-t:pr-Z3A st-W:t-pr-pr-3:n Htp:t-p-Y1 n n:A 
+      H-Hz-s-i-i-W-A2-A1:3 // // +l\num{10}+s // // // #-n:t*y Hr-1-# 
+      R14-t:t-N23-1 niwt:t*1
+    \end{hieroglyph}
+
+    \tl{\num{8} r sjp nA js.y n(y) nA n(y)-sw.t tp[y.w-a] Hna 
+        \num{9} nA maHa.y s.t n(y) Htp n(y) nA Hsy.w [Drty.w 
+        \num{10} anx-n(y)-Njw.t rmT-n(y)-pA-tA Hr tA] jmnt.t Njw.t}
+
+    \td{pour examiner\,\footnotemark{} des tombes des rois d'antan 
+        ainsi que les sépultures et les lieux de repos des bienheureux 
+        d'autrefois \incise{femmes et hommes} à l'occident de Thèbes.}%
+  \end{hierobox}
+}
+\footnotetext{faire le récolement}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      i-n m:r niwt:t*1#3 TAty xa:a-m-R19-t:niwt-A1 sw-t:n 
+      W23-Z5-\!\!Z5-A24 +l\num{11}+s n:ns:\!z\s1-y:Y1-i-mn:n-A1 
+      pA'-A zS A1:n PraA-G7 Z5-\!\!Z5-\!\!Z5 G7 aA:Y1:n-pr-1-A1:n 
+      pr-1 <-nTr-dwA-//-A30-G7-> G7 +l\num{12}+s Z5-\!\!Z5-\!\!Z5-G7-ti 
+      n i-mn:n-G7-ra:r:a-G7 sw-t:n-G7 nTr-\!nTr-\!nTr-G7-Z3A sw-t:n 
+      W23-Z5-\!\!Z5-Y1-A24 ra-nfr-kA-m-pr-1-i-mn:n-A1 +l\num{13}+s 
+      pA'-A wHm-m-W-A1:n PraA Z5-\!\!Z5-\!\!Z5 G7
+    \end{hieroglyph}
+
+    \tl{jn (j)m(y)-r(A) Njw.t TAt(y) \#a-m-WAs.t wdpw n(y)-sw.t 
+        \num{11} N(y)-sy-Jmn, pA sS n(y) Pr-aA a.w.s., aA-n(y)-pr 
+        n(y) pr \_wA(w.t)-nTr \num{12} a.w.s.=tj n(y) 
+        Jmn-Ra-n(y)-sw.t-nTr.w, wdpw n(y)-sw.t Nfr-kA-Ra-m-pr-Jmn 
+        \num{13} pA wHmw n(y) Pr-aA a.w.s.}
+
+    \td{par le gouverneur de No et vizir Khâemouaset, l'échanson royal 
+        Nésamon, le scribe de Pharaon v.s.f., l'intendant du domaine 
+        de la Divine Adoratrice d'Amonrasonther v.s.f., l'échanson 
+        royal Néferkarêemperimen, le hérault de Pharaon v.s.f.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+      [[-..-..-..-n:A-]] i-TA-..-Z3A [[-n-]] imnt-t:t-N23-xAst 
+      +l\num{14}+s niwt:t*1 i-A2-D:\!\!d-W HAtya pt 
+      m:\!\!a-DA-A-i-i-T14-A1:3 pA'-A-A19-aA:Y1-A1:n pA'-A x:r-pr aA:Y1 
+      +l\num{469/1}+s Sps-s-y:Y1-G7 [[-n-HH-1-3:n-rnp-rnp-rnp-t:3:n-]] 
+      PraA-G7 Z5-\!\!Z5 [[-Hr-1-]] imnt-t:t-Z5-\!\!Z5-xAst 
+      R19-t:niwt G7 s-mi-i-[[-A2-]] i-m W-Z3A +l\num{2}+s n TAty n:A 
+      sr-W-A1:3 W23 Z5-\!\!Z5-\!\!Z5 Y1 A24-A1:3 n PraA-G7 
+      Z5-\!\!Z5-\!\!Z5 G7
+    \end{hieroglyph}
+
+    \tl{[j-th(w) nA] jTA.w n(y) jmnt.t \num{14} Njw.t j-Dd(w) HAt(y)-a 
+        Hry mDAy.w PA-wr-aA n(y) pA \#r aA \num{469/1} Spsy n(y) HH.w 
+        rnp.wt n(y) Pr-aA a.w.s. Hr jmnt.t WAs.t smj jm=w \num{2} n 
+        TAt(y) nA sr.w wdpw n(y) Pr-aA a.w.s.}
+
+    \td{lesquelles tombes que les voleurs de l'occident de Thèbes ont 
+        violées et dont il avait été fait rapport par le gouverneur et 
+        supérieur des gendarmes de la grande Tombe auguste de millions 
+        d'années de Pharaon v.s.f. sur l'Occident de Thèbes, Paourâa, 
+        au vizir, aux magistrats et aux échansons de Pharaon v.s.f.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{[\dots] wD \num{3} m hrw pn HAt(y)-a Hry mDAy.w PA-wr-aA n(y) 
+        pA \#r, \num{4} [Hry mDAy].w BAk-n(y)-wr-nr n(y) pr pn, 
+        [\dots] n(y) pA \#r, \num{5} [\dots] n(y) pr pn, [\dots{} 
+        n(y)] pr pn, [\dots]-Jmn, \num{6} Hry mDAy.w Mntou-(Hr)-xpS=f 
+        n(y) pr pn, pA sS PA-a-n(y)-bjk.w n(y) TAt(y), \num{7} sS aA 
+        wDA PAy=j-nfr n(y) pA (j)m(y)-r(A) pr-HD, Hm-nTr 
+        PA-an-\num{8}xa=w n(y) pr Jmn-Htp a.w.s., Hm-nTr Sr-Jmn n(y) 
+        pr Jmn a.t jrp, \num{9} nA mDAy.w n(y) pA \#r nty jm=w}
+
+    \td{[On a fait] partir ce jour le gouverneur, supérieur des 
+        gendarmes de la Tombe Paourâa, le supérieur des gendarmes 
+        de cette administration Bakenouélé, [\dots] de la Tombe, 
+        [\dots] de cette administration, [\dots{} de] cette 
+        administration, [\dots]-imen, le superieur des gendarmes de 
+        cette administration Montouherkhépechef, le scribe du vizir 
+        Paânybikou, le grand scribe de la réserve du directeur du 
+        trésor Paynéfer, le prêtre du domaine d'Amenhotep v.s.f. 
+        Paânkhâou, le prêtre du domaine d'Amon, section du cellier, 
+        Serimen, les gendarmes de la Tombe qui sont avec eux.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\num{10} nA mr js.y maHa.y spj(=w) m hrw pn jn nA 
+        \num{11} rwDw}
+
+    \td{Les pyramides, tombes et sépultures examinées en ce jour par 
+        les délégués :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{tA Ax.t nHH n(y) n(y)-sw.t \_sr-kA-Ra a.w.s. sA Ra Jmn-Htp 
+        \num{12} a.w.s.  nty (Hr) jr(.t) 120 mH m Dw.t m pAy=s aHa.y, 
+        \og PA a \num{13} qA \fg{} xr=tw r=f, (Hr) mH.t pr Jmn-Htp 
+        a.w.s. n(y) pA kAmw}
+
+    \td{L'horizon d'éternité\,\footnotemark{} du roi Djeserkarê 
+        v.s.f., le fils de Rê Amenhotep v.s.f., qui mesure 
+        \SI{120}{coudées}\footnotemark{} de profondeur dans/depuis 
+        sa chapelle funéraire \rem{(?)}, surnommé \frquote{Le grand 
+        couloir}, au nord du domaine d'Amenhotep v.s.f. du jardin, }%
+  \end{hierobox}
+}
+\addtocounter{footnote}{-1}
+\footnotetext{= tombe}
+\addtocounter{footnote}{+1}
+\footnotetext{= \np[m]{60}}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{\num{14} j-Dd(w) HAt(y)-a PA-sr n(y) Njw.t smj jm=f n 
+        (j)m(y)-r(A) Njw.t TAt(y) \#a-m-WAs.t, \num{15} wdpw n(y)-sw.t 
+        a.w.s. N(y)-sw-Jmn pA sS n(y) Pr-aA a.w.s., aA-n(y)-pr n(y) 
+        \num{470/1} pr +wa(w.t)-nTr a.w.s.=tj n(y) 
+        Jmn-Ra-n(y)-sw.t-nTr.w, wdpw n(y)-sw.t 
+        Nfr-kA-Ra-\num{2}m-pr-Jmn, pA wHmw n(y) Pr-aA, nA sr.w aA.y 
+        r-Dd : \num{3} \og thAy sw jTA.w \fg{} \zero sjp(=w) m hrw pn 
+        sw gm=y \num{4} wDA(=w) jn nA rwDw}
+
+    \td{au sujet de laquelle le gouverneur Paser a fait un rapport 
+        au gouverneur de No et vizir Khâemouaset, à l'échanson royal 
+        Nésamon, le scribe de Pharaon v.s.f., à l'intendant du domaine 
+        de la Divine Adoratrice d'Amonrasonther v.s.f., à l'échanson 
+        royal Néferkarêemperimen, le hérault de Pharaon v.s.f., et aux 
+        grands magistrats en ces termes : \frquote{Les voleurs l'ont 
+        violée} examinée en ce jour, elle a été trouvée intacte par 
+        les délégués.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{\num{5} pA mr n(y) n(y)-sw.t sA Ra Jn<w\col n jt=f>-aA a.w.s. 
+        nty (Hr) mH.t pr \num{6} Jmn-Htp a.w.s. n(y) pA wbA nty pAy=f 
+        mr dr(=w) \num{7} Hr=f nty pAy=f wD smn(=w) m-bAH=f / 
+        jw pA (t)w.t \num{8} n(y) pA n(y)-sw.t aHa(=w) Hr pA wD / 
+        jw pAy=f Tsmw r-\num{9} jwd rd.wy=f Dd(w) n=f BHk / 
+        \zero sjp(=w) m hrw pn sw \num{10} gm=y wDA(=w)}
+
+    \td{La pyramide du roi, le fils de Rê Antef le 
+        Grand\footnotemark{} v.s.f. qui est au nord du domaine 
+        d'Amenhotep v.s.f. de l'avant- cour de sur laquelle la 
+        pyramide a été enlevée et devant laquelle sa stèle est 
+        toujours dressée alors que l'effigie du roi se trouve sur 
+        ladite stèle, son chien surnommé Béhek entre ses pieds, 
+        examinée en ce jour, elle a été trouvée intacte.}%
+  \end{hierobox}
+}
+\footnotetext{Antef\,II, \dyn{XI}}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{\num{11} pA mr n(y) n(y)-sw.t Nbw-xpr-Ra a.w.s. sA Ra Jn(w\col n-jt=wf 
+        \num{12} a.w.s. gmy=f m r(A)-a wtnw m Dr.t nA jTA.w}
+
+    \td{La pyramide du roi Neboukhéperrê v.s.f., le fils de Rê 
+       Antef\footnotemark{} v.s.f., elle a été trouvée en cours de 
+       percement par la main des voleurs}%
+  \end{hierobox}
+}
+\footnotetext{Antef\,V, \dyn{XVII}, Dra Abou el-Naga}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{\num{13} jw jry=w 2 mH gs m wtnw m pAy=f Drw mHty}
+
+    \td{alors qu'ils avaient fait deux coudées et demi de percement 
+        dans son côté nord}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{\num{14} m tA wsx.t n(y) bwnr n(y) tA maHa.t n(y) Hry 
+        ms(w)-wdnw \num{15} \Smaj w-r(A)-y n(y) pr Jmn nty m Aw}
+
+    \td{depuis la cour extérieure de la tombe du supérieur des 
+        porteurs d'offrandes du domaine d'Amon Chouroy qui est 
+        allongé\footnotemark{}}%
+  \end{hierobox}
+}
+\footnotetext{euphémisme pour mort}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{sw wDA(=w) bwpw nA \num{16} jTA.w rx pH=f}
+
+    \td{elle est intacte, les voleurs n'ont pas réussi à (\litt su) 
+        l'atteindre.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{pA mr n(y) n(y)-sw.t \%xm-Ra-wp-mAa.t a.w.s. sA Ra 
+        Jn(w\col n)-jt=wf-aA a.w.s., sw gm=y m r(A)-a wtnw m Dr.t 
+        nA jTA.w m tA s.t smn(=w) pAy=f wD n(y) pAy=f mr}
+
+    \td{La pyramide du roi Sékhemrêoupmaât v.s.f., le fils de Rê 
+       Antef\footnotemark{} v.s.f., elle a été trouvée en cours de 
+       percement par la main des voleurs dans/depuis le lieu où était 
+       établie sa stèle de sa pyramide}%
+  \end{hierobox}
+}
+\footnotetext{Antef\,VI, \dyn{XVII}, Dra Abou el-Naga}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{spj(=w) m hrw pn sw gm=y wDA(=w) bwpw nA jTA.w rx pH=f}
+
+    \td{examinée en ce jour, elle a été trouvée intacte, les voleurs 
+        n'ont pas réussi à (\litt su) l'atteindre.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{pA mr n(y) n(y)-sw.t \%xm-Ra-Sd-tA.wy a.w.s. sA Ra \%bk-m-sA=f 
+        a.w.s., sw gm=y jw thAy st nA jTA.w m bAk-Xrty.w m pA nfr.w 
+        (n(y) pAy=f mr m tA wsx.t n(y) bwnr n(y) tA maHa.t n(y) 
+        (j)m(y)-r(A) Snw.ty Nb-Jmn n(y) n(y)-sw.t Mn-xpr-Ra a.w.s.}
+
+    \td{La pyramide du roi Sékhemrêchedtaouy v.s.f., le fils de Rê 
+        Sobekemsaf\footnotemark{} v.s.f., elle a été trouvée alors 
+        que les voleurs l'avaient violée (\litt{} déjà violée par 
+        les voleurs) par un travail de carrier dans la salle du 
+        sarcophage de sa pyramide depuis la cour extérieure de la 
+        tombe de Nebamon, directeur du double grenier du roi 
+        Menkhéperrê v.s.f.}%
+  \end{hierobox}
+}
+\footnotetext{Sobekemsaf\,II, \dyn{XVII}}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{\zero gm=y tA s.t ors n(y) pA n(y)-sw.t Sw=tj m nb=s a.w.s. 
+        Hna tA s.t ors n(y) Hm.t n(y)-sw.t wr.t Nbw-xa=s a.w.s. tAy=f 
+        Hm.t n(y)-sw.t jw Aw=y nA jTA.w Dr.t=w r=w}
+
+    \td{La place de l'enterrement du roi ayant été trouvée vide de son 
+        maître v.s.f. ainsi que la sépulture de la grande épouse royale 
+        Neboukhâes v.s.f. sa reine, alors que les voleurs avaient porté 
+        (\litt{} tendu) la main contre eux}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{jr=y TAt(y) nA sr.w wdpw smty r=f}
+
+    \td{Le vizir, les magistrats et les échansons ont ouvert une enquête 
+        à son sujet \rem{(la pyramide)}}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{\zero gm=y pA sxr n(y) Aw Dr.t r=w j-jrw nA jTA.w r pAy n(y)-sw.t 
+        Hna tAy=f Hm.t n(y)-sw.t}
+
+    \td{et il a été trouvé le \emph{modus operandi} \rem{(\litt{} la 
+        manière de tendre la main contre eux)} que les voleurs ont employé 
+        contre ce roi et sa reine.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{pA mr n(y) n(y)-sw.t \%on\col n-Ra a.w.s. sA Ra T-aA(=w) a.w.s. 
+        \zero sjp(=w) m hrw pn jn nA rwDw, sw gm=y wDA(=w)}
+
+    \td{La pyramide du roi Séqenenrê v.s.f., le fils de Rê 
+        Tâa\,\footnotemark{} v.s.f., examinée en ce jour par les délégués, 
+        elle a été trouvée intacte.}%
+  \end{hierobox}
+}
+\footnotetext{Tâa\,I\ier}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{pA mr n(y) n(y)-sw.t \%on\col n-Ra a.w.s. sA Ra T-aA(=w)-aA a.w.s. 
+        r-mH 2 n(y)-sw.t T-aA a.w.s. \zero sjp(=w) m hrw pn jn nA rwDw, 
+        sw gm=y wDA(=w)}
+
+    \td{La pyramide du roi Séqenenrê v.s.f., le fils de Rê 
+        Tâa le Grand\,\footnotemark{} v.s.f. ce qui complète deux rois Tâa, 
+        examinée en ce jour par les délégués, elle a été trouvée intacte.}%
+  \end{hierobox}
+}
+\footnotetext{Tâa\,II}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{pA mr n(y) n(y)-sw.t WAD-xpr-Ra a.w.s. sA Ra KA-ms(=w) a.w.s. 
+        \zero sjp(=w) m hrw pn, sw wDA(=w)}
+
+    \td{La pyramide du roi Oudjkhéperrê v.s.f., le fils de Rê Kamosis 
+        v.s.f., examinée en ce jour, elle était intacte.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{pA mr n(y) n(y)-sw.t JaH-ms-sA-pA-jr a.w.s. \zero sjp(=w), 
+        \zero gm=y wDA(=w)}
+
+    \td{La pyramide du roi Iâhmes-Sapaïr v.s.f., examinée, trouvée intacte.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{pA mr n(y) n(y)-sw.t Nb-Hp.t-Ra a.w.s. sA Ra Mntw-Htp a.w.s. nty 
+        m Dsr(-Dsr.w), sw wDA(=w)}
+
+    \td{La pyramide du roi Nebhepetrê v.s.f., le fils de Rê 
+        Montouhotep\,\footnotemark{} v.s.f. qui est dans le Saint des 
+        Saints\,\footnotemark{}, elle est intacte.}%
+  \end{hierobox}
+}
+\addtocounter{footnote}{-1}
+\footnotetext{Montouhotep\,II}
+\addtocounter{footnote}{+1}
+\footnotetext{Deir el-Bahari}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+    \tl{dmD mr n(y) nA n(y)-sw.t tp(y.w)-a sjp(=w) m hrw pn jn nA rwDw : \\
+        \zero gm=y jw=w wDA(=w), 9 mr \\
+        \zero gm=y thA=y, 1 \\
+        dmD 10}
+
+    \td{Total des pyramides des rois d'antan examinées en ce jour par 
+        les délégués : \\
+        trouvées alors qu'elles étaient intactes, 9 pyramides, \\
+        trouvées violée, 1 \\
+        total 10.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{nA maHa.yn(y) nA Smay n(y) pr \_wA(w.t)-nTr a.w.s.=tj n(y) 
+        Jmn-Ra-n(y)-sw.t-nTr.w : \\
+        \zero gm=y wDA(=w) 2 \\
+        \zero gm=y jw thAy s.t nA jTA.w 2 \\
+        dmD 4}
+
+    \td{Les tombes des chanteuses du domaine de la Divine Adoratrice 
+        v.s.f. d'Amonrasonther : \\
+        deux ont été trouvées intactes, deux ont été trouvées alors que 
+        les voleurs les avaient violées. \\
+        Total 4}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{nA maHa.y js.y nty nA Hsy.w Drty.w anx-n(y)-Njw.t 
+        rmT-n(y)-pA-tA Htp(w) jm=sn Hr tA jmnt.t Njw.t gm=y jw thAy 
+        s.t nA jTA.w r-Dr.w jw jry=w xrxr nAy=w nb.w m nAy=sn wt Dbwy 
+        jw=w xAa(=w) Hr onr jw jTA.w nAy=w xt n grg-pr nty tw=tw (Hr) 
+        d.t=w n=w Hna pA nbw pA HD nA apr.t nty m nAy=sn wty.w}
+
+    \td{Les tombes et sépultures dans lesquelles les bienheureux 
+        d'autrefois \incise{femmes et hommes} reposent à l'ouest de 
+        No ont été trouvées alors que les voleurs les avaient toutes 
+        violées et alors qu'ils avaient sorti leurs propriétaires de 
+        leurs sarcophages et cercueils et qu'ils étaient abandonnés 
+        sur le gebel. Ils avaient pris les éléments de mobilier avec 
+        lesquels on les enterre ainsi que l'or, l'argent, et les 
+        ornements qui étaient dans leurs sarcophages.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{Dd HAt(y)-a Hry mDAy.w PA-wr-aA n(y) pA \#r aA Spsy Hna Hry.w 
+        mDAy.w mDAy.w rwDw n(y) pA \#r pA sS n(y) TAt(y) pA sS n(y) pA 
+        (j)m(y)-r(A) pr-HD wn(w.w) Hna=w smj jm=w n (j)m(y)-r(A) Njw.t 
+        TAt(y) \#a-m-WAs.t wdpw n(y)-sw.t N(y)-sw-Jmn pA sS n(y) Pr-aA 
+        a.w.s. aA-n(y)-pr n(y) pr \_wA(w.t)-nTr a.w.s.=tj n(y) 
+        Jmn-Ra-n(y)-sw.t-nTr.w wdpw n(y)-sw.t Nfr-kA-Ra-m-pr-Jmn pA wHmw 
+        n(y) Pr-aA a.w.s. nA sr.w aA.y}
+
+    \td{Le gouverneur, supérieur des gendarmes de la grande Tombe auguste 
+        Paourâa ainsi que les supérieurs des gendarmes, les gendarmes, 
+        les délégués de la Tombe, le scribe du vizir, le scribe du 
+        directeur du trésor qui qui étaient avec eux ont fait un 
+        rapport à leur sujet au gouverneur de No et vizir Khâemouaset, à 
+        l'échanson royal Nésamon, au scribe de Pharaon v.s.f., 
+        à l'intendant du domaine de la Divine Adoratrice v.s.f. 
+        d'Amonrasonther, à l'échanson royal Néferkarêemperimen, au hérault 
+        de Pharaon v.s.f., aux grands magistrats}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{d HAt(y)-a n(y) jmnt.t Hry mDAy.w PA-wr-aA n(y) pA \#r pA rn 2 sp 
+        n(y) nA jTA.w m sS m-bAH TAt(y), nA sr.w, wdpw}
+
+    \td{Le gouverneur de l'ouest et suérieur des gendarmes de la Tombe 
+        Paourâa a soumis \rem{(\litt{} placé \dots{} devant)} la liste 
+        nominative des voleurs au vizir, aux magistrats, aux échansons}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\zero mH(=w) jm=w, s.t Ddh=w jr=w smty=w, Dd=w pA xpr}
+
+    \td{arrêtés, ils furent incarcérés, interrogés, ils racontèrent 
+        ce qui s'était passé.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{rnp.t sp 16 Abd 3 Ax.t sw 19 hrw n(y) Sm r sjp nA s.wt aA.y n(y) 
+        nA msw n(y)-sw.t, Hm.wt n(y)-sw.t mw.wt n(y)-sw.t nty m tA 
+        S.t Nfr.w jn \dots}
+
+    \td{\dots{} le jour d'aller inspecter les grandes places des 
+        enfants, épouses et mères royales qui sont dans la Place de 
+        Beauté\,\footnotemark{} par \dots}%
+  \end{hierobox}
+}
+\footnotetext{Vallée des reines}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\dots m-xt Dd n=sn Hmty Pay-xA-rw sA \#A-rwy, mw.t=f Mjt-Srj n(y) 
+        jmnt.t Njw.t}
+
+    \td{après que le fondeur Paykharou (= le Syrien) fils de Kharouy, 
+        sa mère étant Mitchéri (= petite chatte) de l'occident de No}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{rmT smdt n(y) [Medinet-Habou]}
+
+    \td{homme d'équipe de M.H.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{pA rmT j-gmy jm jw=tw (Hr) mH jm=f m 3 rmT n(y) tA Hw.t r-gs 
+        nA s.wt j-jrwy (j)m(y)-r(A) Njw.t TAt(y) Nb-MAa.t-Ra-nxt pAy=f 
+        smty n rnp.t sp 14}
+
+    \td{l'homme qu'ils avaient trouvé là et qui avait été arrêté alors 
+        qu'il était avec trois hommes du chateau à côté des tombes et 
+        dont N. avait fait son interrogatoire en l'an 14 :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{r-Dd : \og wn=j m pA xr n(y) Hm.t-n(y)-sw.t As.t a.w.s=tj n(y) 
+        n(y)-sw.t Wsr-MAa.t-Ra a.w.s.}
+
+    \td{\og J'étais dans la tombe de l'épouse royale du roi 
+        Ousermaâtrâ v.s.f. Isis v.s.f. }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jn=j nhAy\,\footnotemark n(y) Ax.t jm}
+
+    \td{j'y ai pris quelques objets}%
+  \end{hierobox}
+}
+\footnotetext{presque un artice indéfini pluriel}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jry=j hAw=w \fg}
+
+    \td{et je m'en suis séparé \rem{(\litt{} j'en ai fait la dépense)} \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{xr jr TAt(y) pA wdpw Hr D.t jTA=tw pA hmty r-HA.t=w r nA s.wt}
+
+    \tg{protase}
+
+    \td{puis lorsque le vizir et l'échanson eurent fait amener le 
+        fondeur devant eux aux tombes}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw=f afn=w m rmT D\{r\}jd\{r\}j}
+
+    \td{ayant les yeux bandés \rem{(\litt{} emmaillotés)} en tant 
+        qu'un homme prisonnier}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw=tw (Hr) d.t n=f jr.t=f m-Dr pH=f s.t}
+
+    \tg{apodose}
+
+    \td{on lui rendit la vie \rem{(\litt{} donna son \oe il)} après 
+        qu'il les \rem{(les tombes)} eut atteintes}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw nA sr.w (Hr) Dd n=f : \og j-Sm r-HA.t=n r pA xr j-Dd=k 
+        \og jn=j nA Ax.t jm=f \fg}
+
+    \td{les magistrats lui dirent : \og Conduis nous \rem{(\litt{} va 
+        devant nous)} à la tombe dont tu as dit \og j'y ai pris des 
+        objets \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw pA Hmty (Hr) Sm r-HA.t nA sr.w r wa xr n(y) aHa n(y) nA 
+        msw n(y)-sw.t Wsr-MAa.t-Ra-stp\col n-Ra a.w.s. pA nTr aA}
+
+    \td{le fondeur conduisit les magistrats à une tombe \emph{de série 
+        / collective} \rem{(?)} \footnotemark{} des enfants du roi 
+        Ousermaâtrê-sétepenrê v.s.f., le grand dieu\,\footnotemark{}}%
+  \end{hierobox}
+}
+\addtocounter{footnote}{-1}
+\footnotetext{\tl[black]{aHa} = \og quantité \fg}
+\addtocounter{footnote}{+1}
+\footnotetext{\og grand dieu \fg{} = roi mort, à cette époque}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw bwpwy=tw ors jm=f / jw=f xAa(=w) wn(=w)}
+
+    \td{dans laquelle on n'a pas fait de sépulture et qui était 
+        laissée ouverte}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{Hna tA a.t n(y) rmT js.t Jmn-n-jn.t sA Hwy n(y) pA xr nty 
+        m s.t tn r-Dd :}
+
+    \td{et\,\footnotemark{} la cabane de l'homme d'équipe de la tombe 
+        Imeneninet fils de Houy qui se trouve en ce lieu}%
+  \end{hierobox}
+}
+\footnotetext{il les conduisit à \dots \emph{et} à \dots}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og pt\{r\}j, nA s.wt \zero wn=j jm=w \fg}
+
+    \td{\og Voyez, ce sont les tombes dans lesquelles j'ai été \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{dw nA sr.w jry=tw smty pA Hmty m smty D\{r\}j 2 sp 
+        m-Xnw tA Jn.t aA.t}
+
+    \td{les magistrats ont fait qu'on soumette le fondeur à un 
+        interrogatoire au moyen d'un interrogatoire très sévère 
+        à l'intérieur du Grand Ouadi\,\footnotemark}%
+  \end{hierobox}
+}
+\footnotetext{d'habitude, \tl[black]{tA Jn.t} = \emph{La Vallée} = 
+              vallée de Deir el-Bahari, mais ici nous sommes dans 
+              la Vallée des Reines\dots}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{bwpw=tw gmt=wf jw rx=f s.t nb jm wpw(-Hr) tA 2 sp j-wAH=f 
+        Dr.t Hr=w}
+
+    \td{on n'a pas constaté qu'il connaissait aucun lieu là-bas sauf 
+        deux endroits qu'il avait désigné du geste \rem{(\litt{} qu'il 
+        avait posé la main sur eux)}}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jry=f anx n nb a.w.s. r onon=f < r Sad > fnd=f msDr.wy=f 
+        dd=j Hr tp-xt r-Dd :}
+
+    \td{il a fait une déclaration sous serment par le seigneur sous 
+        la peine d'être battu et qu'on lui coupe le nez et les oreilles 
+        et qu'on me place sur un bâton}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og bw rx=j s.t nb d(y) m-xnw nAy s.wt wpwt(-Hr) pAy xr nty 
+        wn(=w) xr m-dj tAy a.t j-wAH(=j) Dr.t=tn Hr=w}
+
+    \td{\og je ne connais aucune place ici à l'intérieur de ces places, 
+        sauf cette tombe qui est ouverte ainsi que cette pièce que j'ai 
+        indiquée du geste}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{spjw nA sr.w xt(m) n(y) nA s.wt aAy nty m tA \%.t-Nfr.w nty nA 
+        msw n(y)-sw.t, Hm.t n(y)-sw.t, mw.t n(y)-sw.t, jt, mw.t nfr.w 
+        n(y) Pr-aA a.w.s. Htp(=w) m-Xnw=sn s.t gm=y wDA(=w)}
+
+    \td{les magistrats ayant examiné les sceaux des grandes places qui 
+        sont dans Set-Neferou et dans lesquelles reposent les enfants 
+        royaux, épouses royales, mères royales, ancêtres hommes et 
+        femmes ; ils ont été trouvés intacts}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{d nA sr.w aA.y pXr nA rwDw Hwty.w rmT jst n(y) pA xr Hry.w 
+        mDAy.w mDAy.w smd.t nb n(y) pA xr tA jmn.t Njw.t m wpw aA.y 
+        r SAa Njw.t}
+
+    \td{les grands magistrats ont fait en sorte que les délégués, 
+        les chefs, les hommes d'équipe de la Tombe, \dots, tout le 
+        personnel de la Tombe fassent le tour de l'ouest de No, 
+        dans une grande manifestation jusqu'à No}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{rnp.t sp 16 Abd 3 Ax.t sw 19 hrw pn Hr t\{r\}j n(y) rwhA 
+        \dots{} r-gs pr PtH nb WAs.t}
+
+    \td{l'an de règne \dots{} ce jour, au crépuscule \dots{}
+        à côté du temple de Ptah maître de Thèbes}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jy\col jn \dots{} N. \dots{} PA-sr \dots}
+
+    \tg{protase, forme nominale}
+
+    \td{l'échanson \dots{} et le gouverneur de Thèbes \dots{} étant venus}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{gm\col n=w aA n(y) js.t Wsr-xpS, sS Jmn-nxt=w, rmT js.t 
+        Jmn-Htp=w n(y) pA xr}
+
+    \td{et ayant trouvé le chef d'équie de la Tombe Ouserkhepech, 
+        le scribe de la Tombe Imennakhtou et l'homme d'équipe de 
+        la Tombe Imenhétepou}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{Dd pAy HAt(y)-a n(y) Njw.t n nA rmT n(y) pA xr m-bAH pA wdpw 
+        n(y) Pr-aA a.w.s. r-Dd :}
+
+    \td{ledit gouverneur de No dit aux personnes de la Tombe en 
+        présence de l'échanson royal de Pharaon v.s.f. :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og jr tAy wp.t j-jry=tn m pA hrw, bw wp.t jwnA pAy=tn jhAy 
+        \zero pAy jry=tn \fg{} j\col n=f Dd n=w}
+
+    \td{\og Quant à cette manifestation de joie que vous avez faite 
+        aujourd'hui, ce n'est pas une manifestation, c'est votre 
+        procession funéraire \rem{(\litt{} ce sont les clameurs de 
+        votre enterrement)} \fg{} leur dit-il}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jry=f anx n nb a.w.s. m-bAH pAy wdpw n(y) Pr-aA a.w.s. r-Dd :}
+
+    \td{Il fit une déclaration sous serment pour le seigneur en 
+        présence de l'échanson de Pharaon v.s.f.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og Dd n=j sS Hrj-Srj sA Jmn-nxt=wn(y) pA xr n(y) Xny xni 
+        sS PAy-bAs n(y) pA xr djw.t wSb.t n(y) mty aAy 2 sp n(y) 
+        mw.t r=tn}
+
+    \td{\og \dots{} m'on dit cinq grands crimes passibles de la mort 
+        contre vous}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{xr jw=j (r) hAb Hr=w m-bAH Pr-aA a.w.s. pAy(=n) nb a.w.s. 
+        r rd.t wDy=tw rmT Pr-aA a.w.s. r jry hAw=tn r-Drw \fg{} 
+        j\col n=f \fg}
+
+    \td{et je vais écrire un message à leur propos à Pharaon v.s.f. 
+        notre maître v.s.f. pour faire qu'on envoie des gens de 
+        Pharaon pour qu'ils causent votre perte à tous. \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{rnp.t 16 Abd 3 Ax.t sw 20 mjt.t n(y) mDA.t j-d HAt(y)-a n(y) 
+        Jmnt.t Njw.t Hry mDAy.w PA-wr-aA n(y) pA xr m-bAH TAt(y) Hr 
+        nA mty.w j-Ddw HAt(y)-a PA-s\{r\}j n(y) njw.t n(y) nA rmT n(y) 
+        pA xr m-bAH pA wdpw n(y) Pr-aA a.w.s. sS Pay-nDm n(y) pA 
+        (j)m(y)-r(A) pr-HD}
+
+    \td{\dots{} le 20. Copie du document que le gouverneur de 
+        l'occident de Thèbes Paourâa a soumis devant le vizir 
+        concernant les accusations que le gouverneur de No P. a 
+        proférées aux gens de la Tombe en présence de l'échanson de 
+        Pharaon v.s.f., le scribe du directeur du trésor Paynedjem}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{Dd(w).t n(y) HAt(y)-a P. n(y) jmnt.t njw.t r nty }
+
+    \td{ce qu'a dit le gouverneur de l'Occident de Thèbes P. : }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og gm=j \dots{} N. \dots{} jw HAt(y)-a P. n(y) njw.t jrm=f}
+
+    \td{j'ai trouvé N., P. étant avec lui}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw=f aHa Hr TtTt jrm nA rmT n(y) pA xr r-gs pr PtH nb WAs.t}
+
+    \td{et il se tenait là en train de se disputer avec les hommes 
+        de la Tombe à côté du temple de Ptah maître de Thèbes}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw pA HAt(y)-a n(y) Njw.t Dd n nA rmT n(y) pA xr r-Dd :}
+
+    \tg{construction narrative}
+
+    \td{le gouverneur de No a dit aux gens de la Tombe :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og j-jr=tn nhm jm=j m r(A) n(y) tAy=j a.t}
+
+    \tg{forme nominale sujet d'argumentative}
+
+    \td{c'est à la porte de ma maison que vous vous moquez de moi !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{yA jx \zero ? jw jnk pA HAt(y)-a Dd(w) smj n pA HoA a.w.s.}
+
+    \td{Que signifie cela ? Alors que je suis le gouverneur qui fait 
+        rapport au souverain !}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jnn j-jr=tn nhm r pAy wn=tn jm sjp=tw=f jw=tn (Hr) gm.t=wf wDA}
+
+    \td{Si c'est à cause de cet endroit où vous êtes allés, qui a 
+        été inspecté et que vous avez trouvé intact que vous vous 
+        réjouissez, }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{thAy < n(y)-sw.t > () a.w.s. \dots{} Hna Nbw-wa<=s> a.w.s. 
+        tAy=f Hm.t n(y)-sw.t}
+
+    \td{pourtant la tombe du roi () et de Neboukhâes son épouse royale 
+        a été violée.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{wa HoA a.w.s. aA jw jry=f A0 n(y) wpw.t dns.t n(y) J.R.S. pAy 
+        nTr aA (jw) nAy=f mnw wAH(w) m tAy=f Hry-jb pr m pA hrw \fg}
+
+    \td{C'est un grand souverain qui a fait dix actes importants pour 
+        A.R.S., c'est un grand dieu dont les monuments sont installés 
+        en son sein (temple d'Amon) aujourd'hui encore. \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{xr Dd rmT js.t Wsr-xpS nty Xr Dr.t n(y) aA n(y) js.t 
+        Nx-m-Mw.t n(y) pA xr r-Dd :}
+
+    \td{et l'homme d'équipe O. qui est sous la direction du chef 
+        d'équipe N. a dit :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jr n(y)-sw.t nb Hna nAy=w Hm.t n(y)-sw.t, mw.t n(y)-sw.t msw 
+        n(y)-sw.t nty Htp(=w) m pA xr aA Spsy Hna nA nty Htp(=w) m tAy 
+        \%.t-Nfr.w s.t wDA(=w) s.t xw=y-mk=y SAa nHH nA sxr.w nfr.w 
+        n(y) Pr-aA a.w.s. pAy=w Srj (Hr) sA=w smty=w D\{r\}j \fg}
+
+    \td{Concernant tous les rois ainsi que leurs épouses, mères, 
+        enfants qui reposent \dots{} ainsi que ceux qui reposent 
+        \dots{} ils sont intacts, protégés-et-sauvegardés pour 
+        l'éternité. Les mesures parfaites de Pharaon v.s.f., leur 
+        enfant, les protègent et les conservent parfaitement 
+        intacts. \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{Dd n=f pAy HAt(y)-a n(y) Njw.t r-Dd :}
+
+    \td{Ledit gouverneur de No lui a rétorqué :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og nA jry=k m bwA nA Dd=k \fg}
+
+    \td{\og Tes actes dépassent tes paroles \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{xr bn mty Srj jwnA tAy j-Dd pAy HAt(y)-a n(y) Njw.t}
+
+    \tg{commentaire dans la marge - négation de PPN}
+
+    \td{Ce n'est pas une petite accusation, ce qu'a dit le 
+        gouverneur de No}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{wHm pAy HAt(y)-a n(y) Njw.t d n=f r mH mty 2.t r-Dd :}
+
+    \td{Le gouverneur de No a ajouté \rem{(\litt{} a recommencé à dire 
+        pour compléter deux accusations)} : }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og sS H. sA J. n(y) pA xr n(y) Xnw xnj j=w r SAa tAy rj.t aA 
+        n(y) Njw.t r pA nty tw=j jm}
+
+    \td{\og Le scribe H. \dots{} est venu jusqu'à cette grande rive de 
+        No, là où je me trouvais}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{Dd=f n=j 3.t wSb.t n(y) mty aAy 2-sp}
+
+    \td{et il m'a dit trois accusations très graves.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{sS n=w pAy=j sS Hna pA 2 sS DAt.t \rem{(ou \tl{spA.t} ?)} 
+        n(y) Njw.t xr Dd n=j sS PAy-BAs n(y) pA xr kty 2.t mty dmD 5.t, 
+        \zero sS(w) n=w m-mjt.t}
+
+    \td{Mon scribe et les deux scribes du nome de Thèbes les ont 
+        couchées par écrit \rem{(\litt{} ont écrit pour elles)}, puis 
+        le scribe Pabas m'a dit deux autres accusation, total cinq, 
+        couchées par écrit de même.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw bn n(y)-s.t grw Xr=w jwnA}
+
+    \td{alors que ce ne sont pas des choses qu'il faut garder cachées 
+        \rem{(\litt{} qu'il faut se taire sous elles)}, }%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jw=w m btA aAy n(y) xb n(y) d.t Hr mnj.w n(y) jry sbAy.t 
+        nb.t Hr=w}
+
+    \td{mais ce sont des grands crimes (passibles) de 
+        soustraction\,\footnotemark, de placer sur le pieu 
+        et de faire tout châtiment possible à leur propos.}%
+  \end{hierobox}
+}
+\footnotetext{couper le nez et les oreilles}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{xr jw=j (r) hAb Hr=w m-bAH Pr-aA a.w.s. pAy(=n) nb a.w.s. 
+        r rd.t wDy=tw rmT Pr-aA a.w.s. r jr.t hAw=tn \fg{} j\col 
+        n=f n=w m pAy HAt(y)-a n(y) Njw.t}
+
+    \td{Et je vais écrire à ce propos \dots{} pour qu'on envoie des 
+        hommes de Pharaon v.s.f. pour causer votre perte \fg{} a-t-il 
+        dit à eux, à savoir le gouverneur de No.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jry=f 10 n(y) anx-n-nb a.w.s. r-Dd :}
+
+    \td{et il a fait dix \dots{} en ces termes :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\og jw=j (r) jr.t m-mjt.t, sDm=j nA mty jDd pAy HAt(y)-a n(y) 
+        No n nA rmT n(y) pA xr \dots}
+
+    \td{\og Je ferai ainsi \fg{} et j'ai entendu ces accusations qu'a 
+        formulées ce gouverneur de No à ces gens de la Tombe \dots}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{Dd=j smj=w m-bAH pAy(=j) nb xr pA btA ny pA nty mj-od=j \zero 
+        sDm=j mty mtw=f HAp=s.t}
+
+    \td{et j'en ai rendu compte à mon maître car ce serait le crime 
+        de quelqu'un de mon rang d'entendre une accusation et de la 
+        dissimuler.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{}
+
+    \td{}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{xr bw rx=j pH n(y) nA mty aAy 2-sp j-Dd pA HAt(y)-a n(y) Njw.t 
+        Ddw s.t n=j nA sS n(y) pA xr n(y) Xny nty aHa(=w) m-Xnw nA rmT}
+
+    \td{Et je ne sais pas la portée \rem{(le fondement)} de ces 
+        accusations graves que le gouverneur de Thèbes a formulées et 
+        que m'ont répétées les scribes de la Tombe qui se trouvaient 
+        au milieu des gens}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{yA bw jr pAy=j rd.wy pH=w jw=j (Hr) Dd smj=w m-bAH pAy(=j) nb}
+
+    \td{\incise{en effet, mes jambes ne peuvent l'atteindre} et je les 
+        ai soumis à mon maître.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jr pAy(=j) nb jn pH.wy n(y) nA mty j-Dd pAy HAt(y)-a n(y) 
+        Njw.t : \og Dd s.t n=j nA sS.w n(y) pA xr, xr jw=j (r) hAb 
+        Hr=w m-bAH Pr-aA a.w.s. \fg{} j\col n=f}
+
+    \td{Puisse mon maître atteindre le fond des accusations dont le 
+        de gouverneur de Thèbes a dit \og Les scribes de la Tombe 
+        me les ont dites et je vais écrire à ce propos à Pharaon 
+        v.s.f. \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{pAw btA n(y) pAy 2 sS n(y) pA xr \zero / pAy=w pH pAy HAt(y)-a 
+        n(y) Njw.t r Dd n=f smj jw bwpw nAy=w yt.w Dd n=f smj jw 
+        j-Dd=w smj n TAty jw=f m a-rsy xr wnn=f (Hr) xpr m a-mH.t nA 
+        mDAy.w Sms.w n(y) Hm=f a.w.s. n(y) pA xr (Hr) xd r pA nty TAty 
+        jm Xr nAy=w sxAw}
+
+    \td{C'est un crime de ces deux scribes de la Tombe d'aller voir 
+        le gouverneur de No pour lui rapporter car leur père ne lui 
+        faisait pas de rapport, car c'est quand il était dans la 
+        partie sud du pays qu'il faisait rapport au vizir, mais s'il 
+        se trouvait dans la partie nord, les gouverneurs et les 
+        employés de la Tombe descendaient le courant jusque là où il 
+        trouvait en portant leur memoranda.}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jry=j \{n=j\} mty m rnp.t sp 16 \dots{} m nA mty j-sDm=j m 
+        Dr.t pAy HAt(y)-a n(y) Njw.t jw=j (Hr) d.t=w m mDA.t m-bAH 
+        pAy(=j) nb r rd.t jn=tw pH.wy=w xr r(A)-a dwA \fg}
+
+    \td{J'ai fait témoignage en l'an 16 \dots{} de ces dénonciations 
+        que j'ai entendues de la part dudit gouverneur de No et je les 
+        soumis à mon maître sous la forme d'un document écrit pour 
+        qu'on traite l'affaire à fond dès demain \fg}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{\dots{} hrw pn m tA onb.t aA.t n(y) Njw.t r-gs pA 2 wD n(y) 
+        Hry (Hr) mH.t pA wbA n(y) Jmn m pA sbA n(y) \_wA-rxy.t}
+
+    \td{Ce jour dans le grand conseil de Thèbes, à côté des deux 
+        stèles d'en haut, au nord de l'esplanade d'Amon, à la porte 
+        de Douarekhyt}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{sr.w wnw hms(=w) m tA onb.t aA.t n(y) Njw.t m hrw pn : }
+
+    \td{Magistrats qui siègent dans le grand conseil de Thèbes ce 
+        jour :}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{(j)m(y)-r(A) N. TAty K. PPDARS Jmn-Htp(=w), DPDARS, sm N. 
+        tA Hw.t \dots{} n(y) \dots{}}
+
+    \td{\dots{} du temple funéraire \dots{}}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{Ny-s(w)-Jmn \dots{} Ny-sw-Jmn \dots{} Nfr-kA-Ra \dots{}}
+
+    \td{}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{jdnw Hrj-n(y)-tA(n(y).t-Ht\{r\}j}
+
+    \td{le second (lieutenant) de la charrerie}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{TAy-sry Hry n(y) nA Xny}
+
+    \td{le porte-enseigne des rameurs}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{HAt(y)-a PA-sy n(y) Njw.t}
+
+    \td{le gouverneur de No Pasy}%
+  \end{hierobox}
+}
+
+\parbox{\textwidth}{%
+  \begin{hierobox}
+    \begin{hieroglyph}
+    \end{hieroglyph}
+
+    \tl{}
+
+    \td{alors le directeur et vizir K. fit amener le fondeur \dots{} 
+        le f. \dots, le f. \dots{} du château \dots{} sous la 
+        direction du PPDA. Et le vizir a dit aux grands magistrats 
+        du grand conseil de No : \og ledit gouverneur de No a dit un 
+        certain nombre d'accusations aux administrateurs et gens de la 
+        Tombe en l'an~16 \dots, le~19 en présence de l'échanson royale 
+        N. \dots{} et il n'a proféré d'accusations qu'à l'encontre des 
+        grandes places qui sont dans Set-Néférou mais j'y suis allé en 
+        tant que vizir du pays avec l'échanson royal N. \dots. Nous 
+        avons inspecté les places dont le gouverneur de No avait dit 
+        que les fondeurs de Medinet Habou les avaient attaquées 
+        \rem{(\litt{} atteintes)} mais nous les avons trouvées 
+        intactes.
+        Donc il a été trouvé en faux sur tout ce qu'il avait dit. Et 
+        voyez, les fondeurs sont là devant vous. Faites leur dire tout 
+        ce qui est arrivé. Ils furent interrogés et il fut trouvé que 
+        les gens ne connaissaient aucune place dans les places de 
+        Pharaon à propos desquelles le gouverneur avait proféré des 
+        accusations. Il a été condamné \rem{(\litt{} trouvé en tort)} 
+        à ce propos. Les grands magistrats ont libéré les \rem{(\litt 
+        donné l'air aux)} fondeurs de \MH et ils ont été transférés au 
+        PPDARS en ce jour. Il a été écrit à ce propos un document et 
+        il est conservé dans le bureau des archives du vizir.}%
+  \end{hierobox}
+}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

@@ -1,0 +1,757 @@
+\documentclass[a4paper,landscape,9pt,article]{memoir}
+\usepackage[margin=0.5cm]{geometry}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+
+\renewcommand\rmdefault{ptm}
+
+\title{Conjugaison}
+\author{\SL}
+\date{\today}
+
+\setlength\tabcolsep{2pt}
+\setlength\fboxsep{0pt}
+\setlength\shadowsize{2pt}
+\setlength\parindent{0pt}
+\setlength{\ULdepth}{0.75pt}
+
+% \frenchbsetup{ReduceListSpacing=true,StandardItemizeEnv=false}
+\frenchbsetup{ItemLabeli=\pucea, ItemLabelii=\puceb}
+
+\setlength{\listindentFB}{0pt}
+\setlength{\labelwidthFB}{5pt}
+
+% \arrayrulecolor{red}
+
+
+\renewcommand\tabularxcolumn[1]{M{#1}}
+
+\makeatletter
+  \def\maketitle{{%
+    \begin{tcolorbox}
+      [%
+        % sharpish corners, %
+        before   = , 
+        after    = , 
+        width    = \textwidth, %
+        before upper = \centering\bfseries\Huge, %
+        coltext  = DarkBlue, %
+        colframe = DarkBlue, %
+        colback  = TblHdBg, %  
+        fuzzy shadow = {2mm}{-1mm}{0mm}{0.3mm}{DarkBlue}, %
+      ]%
+      {\@title\par}%
+    \end{tcolorbox}
+  }}%
+  \markright{\@title}
+\makeatother
+
+
+% gramchap
+% ========
+\makechapterstyle{gramchap}{%
+  \setlength\afterchapskip{\baselineskip}
+
+  \renewcommand*{\printchaptername}{}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\chaptitlefont}{%
+    \color{DarkBlue}\normalfont\huge\bfseries%
+  }
+  \renewcommand*{\chapnumfont}{\chaptitlefont}
+  \renewcommand*{\printchapternum}{\chapnumfont \thechapter.\space}
+  \renewcommand*{\afterchapternum}{}
+  \renewcommand*{\afterchaptertitle}{%
+    {%
+      \par\nobreak\vskip 2pt
+      \par\offinterlineskip\hbox{%
+        \rule{\textwidth}{1pt}
+      }
+      \par\nobreak\vskip \afterchapskip
+    }
+  }
+}
+\chapterstyle{gramchap}
+
+\renewcommand{\arraystretch}{1.4}
+
+
+\begin{document}
+
+\maketitle
+
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \renewcommand{\labelitemi}{\pucea{}}%
+% \renewcommand{\labelitemii}{\hspace*{-2cm}\puceb{}}%
+% \setlength{\listindentFB}{-1.5ex}
+
+
+\chapter*{PPA avec léxème verbal}
+
+\footnotesize
+
+\begin{tabularx}{\textwidth}
+{%
+  |>{\CellHead}M{1.6cm}|%                       % 01
+  M{3.0cm}|%                                    % 02
+  >{\raggedright}M{4.0cm}|%                     % 03
+  M{2.2cm}|%                                    % 04
+  M{1.0cm}|%                                    % 05
+  M{1.0cm}|%                                    % 06
+  M{1.0cm}|%                                    % 07
+  M{1.0cm}|%                                    % 08
+  M{1.1cm}|%                                    % 09
+  M{1.5cm}|%                                    % 10
+  M{1.5cm}|%                                    % 11
+  M{3.0cm}|%                                    % 12
+  X|%                                           % 13
+}
+% %         1 234567890123
+%   \hhline{~|------------}
+  \cline{12-13}
+    \multicolumn{1}{c|}{~}                    & % 01
+    \multicolumn{2}{c|}{%
+      \CellHead Construction%
+    }                                         & % 02-03
+    \CellHead Forme verbale                   & % 04
+    \CellHead Voix                            & % 05
+    \CellHead Nb                              & % 06
+    \CellHead Aspect                          & % 07
+    \CellHead Tmp                             & % 08
+    \CellHead Excl.~!                         & % 09
+    \CellHead C.O. / S. pronom.               & % 10
+    \CellHead Passif / pseudo-passif          & % 11
+    \CellHead Contrep.                        & % 12
+    \CellHead Remarque                          % 13
+  \tabularnewline
+
+% %         1234567890123
+% %  \hhline{-------------}
+% %    01\\1.6cm                                  & % 01
+% %    02\\2.8cm                                  & % 02
+% %    03\\4.0cm                                  & % 03
+% %    04\\2.2cm                                  & % 04
+% %    05\\1.0cm                                  & % 05
+% %    06\\1.0cm                                  & % 06
+% %    07\\1.0cm                                  & % 07
+% %    08\\1.0cm                                  & % 08
+% %    09\\1.1cm                                  & % 09
+% %    10\\1.5cm                                  & % 10
+% %    11\\1.5cm                                  & % 11
+% %    12\\3.0cm                                  & % 12
+% %    13\\4.6cm                                    % 13
+% %  \tabularnewline
+
+  \cline{1-13}
+    Progressif                                & % 01
+    \tl{jw bAk \red{Hr} jr.t}                 & % 02
+    Le serviteur \red{fait}.                  & % 03
+                                              & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+    \multirow{2}{1.0cm}[-2mm]{\tl{wn}\hspace{1.6ex}\tl{jw}%
+      \hspace{1.6ex}\tl{wnn}}                 & % 08
+                                              & % 09
+                                              & % 10
+    \multirow{2}{1.5cm}[-2.5mm]{/}            & % 11
+    \multirow{2}{3.0cm}[-2.5mm]{%
+      Négation de l'aoriste%
+    }                                         & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{1-3}\cline{13-13}
+    Progressif interne                        & % 01
+    \tl{jw bAk \red{m} jr.t}                  & % 02
+    Le serviteur \red{est occupé à} faire.    & % 03
+    Infinitif                                 & % 04
+                                              & % 05
+    Sing.                                     & % 06
+                                              & % 07
+                                              & % 08
+                                              & % 09
+    P.~Suf.                                   & % 10
+                                              & % 11
+                                              & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{1-3}\cline{8-8}\cline{11-13}
+    Allatif                                   & % 01
+    \tl{jw bAk \red{r} jr.t}                  & % 02
+    Le serviteur \red{va} faire.              & % 03
+                                              & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+    \tl{jw}\hspace{1.6ex}\tl{wnn}             & % 08
+                                              & % 09
+                                              & % 10
+                                              & % 11
+    Négation du prospectif                    & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{1-4}\cline{6-6}\cline{8-8}\cline{10-10}\cline{12-13}
+    Aoriste                                   & % 01
+    \tl{jw \red{bAk} jr\red{=f}}              & % 02
+    Le serviteur fait (\red{chaque jour}).    & % 03
+    Circonstancielle \tl{wnm=f}               & % 04
+    Active                                    & % 05
+    Itér.                                     & % 06
+    Non accompli                              & % 07
+    \tl{wn}\hspace{1.6ex}\tl{jw}%
+      \hspace{1.6ex}\tl{wnn}                  & % 08
+                                              & % 09
+                                              & % 10
+    \multirow{2}{1.5cm}[-0.0mm]{\tl{=tw}}     & % 11
+    Négation de l'aoriste                     & % 12
+    Présent d'habitude, de définition           % 13
+  \tabularnewline
+
+  \cline{1-4}\cline{6-6}\cline{8-8}\cline{12-13}
+    Négation de l'aoriste                     & % 01
+    \tl{\red{n} jr\red{\col n} bAk}           & % 02
+    Le serviteur \red{ne peut} faire.\\%
+      Le serviteur \red{ne saurait} faire.    & % 03
+    Nominale perfective                       & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+    \multirow{2}{1.0cm}[-3.5mm]{/}            & % 08
+                                              & % 09
+    P.~Dép.                                   & % 10
+                                              & % 11
+    Progressif, prog. interne, aoriste        & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{1-4}\cline{11-13}
+    Négation du prospectif                    & % 01
+    \tl{\red{n} jr\red{(w)} bAk}\\%
+      \tl{\red{nn} jr bAk}                    & % 02
+    Le serviteur \red{ne fera pas}            & % 03
+    Nom. prosp.\\ancienne / récente           & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+                                              & % 08
+                                              & % 09
+                                              & % 10
+    \tl{=tw} / \\\tl{\red{n} jr\red{(w)} bAk}\\%
+      \tl{\red{nn} jr\red{r} bAk}             & % 11
+    Allatif                                   & % 12
+    Futur                                       % 13
+  \tabularnewline
+
+  \cline{1-5}\cline{7-8}\cline{10-13}
+    Accompli non-agentiel                     & % 01
+    \tl{jw Hno.t jr\red{=tj}}\\%
+      \tl{jw \red{\zero} jr\red{(=w)} Hno.t}\\%
+      \tl{jw\red{=s} jr\red{=tj}}             & % 02
+    De la bière \red{a été faite}.\\%
+      \red{Il a été fait} de la bière.\\%
+      Elle a été faite.                       & % 03
+                                              & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+                                              & % 08
+                                              & % 09
+    P.~Suf. \emph{(S.)}                       & % 10
+                                              & % 11
+                                              & % 12
+    \pucea{} \uline{Conversion en prospectif}\\%
+      \tl{HA jrp jr(=w) \ex} / \tl{HA \zero jr(=w) jrp \ex}\\%
+      \emph{Puisse du vin être fait !}          % 13
+  \tabularnewline
+
+  \cline{1-3}\cline{10-10}\cline{13-13}
+                                              & % 01
+    \tl{jw Hno.t \red{jr=tj jn} bAk}\\%
+      \tl{jw \red{\zero} jr\red{(=w)} %
+      Hno.t \red{jn} bAk}                     & % 02
+    De la bière \red{a été faite par} le %
+    serviteur.                                & % 03
+                                              & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+                                              & % 08
+                                              & % 09
+    ???                                       & % 10
+                                              & % 11
+    \multirow{2}{3.0cm}[-2.5mm]{%
+      Négation de l'accompli%
+    }                                         & % 12
+    \multirow{2}{4.6cm}[-0.0mm]{%
+      \pucea{} \uline{Conversion en prospectif}\\%
+      \tl{HA jr\col n=f \ex} \emph{Puisse-t-il avoir fait !}\\%
+      \pucea{} \uline{Mise en valeur de l'agent}\\%
+      \tl{jw \red{bAk}, \zero jr\col n=f \ex}%
+    }                                           % 13
+  \tabularnewline
+
+  \cline{10-10}
+    \multirow{-2}{1.6cm}[0.6\baselineskip]{\CellHead%
+      Accompli agentiel%
+    }                                         & % 01
+    \tl{jw jr\red{\col n} bAk Hno.t}\\%
+      \tl{jw jr\red{\col n}=f Hno.t}          & % 02
+    \red{Il a été fait} de la bière \red{par} le serviteur.\\%
+      \red{Il a été fait} de la bière 
+      \red{par} lui.                          & % 03
+                                              & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+                                              & % 08
+    Avec ou sans \tl{mk}                      & % 09
+    ???                                       & % 10
+                                              & % 11
+                                              & % 12
+                                                % 13
+  \tabularnewline
+
+  \cline{1-3}\cline{10-10}\cline{13-13}
+                                              & % 01
+    \tl{jw bAk pr\red{(=w)}}\\\tl{jw=f nfr\red{(=w)}}\\%
+      \tl{jw \red{\zero} nfr\red{(=w)} bAk}   & % 02
+    Le serviteur \red{est sorti}.\\Il \red{est bon}.\\%
+      Le serviteur \red{est bon}. %
+      \rem{(verbes de qualité)}               & % 03
+    Parfait                                   & % 04
+    Passive                                   & % 05
+    Sing.                                     & % 06
+                                              & % 07
+    \tl{wn}\hspace{1.6ex}\tl{jw}%
+      \hspace{1.6ex}\tl{wnn}                  & % 08
+                                              & % 09
+    P.~Suf. \emph{(S.)} sauf :\\%
+      \tl{\zero nfr(=w) sw \ex}               & % 10
+    /                                         & % 11
+                                              & % 12
+    \multirow{2}{4.6cm}[+1.5mm]{%
+      \pucea{} \uline{Conversion en prospectif}\\%
+        \tl{(wn=f) pr(=w) \ex} \emph{Qu'il soit sorti !}\\%
+      \pucea{} \tl{\zero nfr(=w) bAk pn r nb=f \ex}\\%
+        \emph{Ce serviteur est \red{meilleur que} son maître !}%
+    }                                           % 13
+  \tabularnewline
+
+  \cline{2-3}\cline{10-10}\cline{12-12}
+    \multirow{-2}{1.6cm}[1.2\baselineskip]{\CellHead%
+      Accompli des intransitifs%
+    }                                         & % 01
+    \tl{jw \red{\zero} wn\red{(=w)} bAk}      & % 02
+    \red{Il y a} un serviteur.                & % 03
+                                              & % 04
+                                              & % 05
+                                              & % 06
+    Accompli                                  & % 07
+                                              & % 08
+                                              & % 09
+    ???                                       & % 10
+                                              & % 11
+    Négations existentielles                  & % 12
+                                                % 13
+  \tabularnewline
+
+% %           123 4 5 6 7 8 9 0 1 23
+%   % \hhline{---|~|~|~|~|~|~|-|~|--}
+  \cline{1-3}\cline{10-10}\cline{12-13}
+                                              & % 01
+    \tl{jw rx\red{\col n}=f}\\\tl{jw xm\red{\col n}=f}\\%
+      \tl{jw sxA\red{\col n}=f}               & % 02
+    Il a appris. Il connaît par expérience.\\%
+      Il a oublié. Il n'a pas appris.\\%
+      Il a mis en mémoire.                    & % 03
+                                              & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+                                              & % 08
+                                              & % 09
+    ???                                       & % 10
+                                              & % 11
+    \multirow{2}{3.0cm}[-4.5mm]{%
+      Négation de l'accompli%
+    }                                         & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{2-3}\cline{10-10}\cline{13-13}
+    \multirow{-2}{1.6cm}[1.2\baselineskip]{\CellHead%
+      Accompli des verbes de cognition%
+    }                                         & % 01
+    \tl{jw=f rx\red{(=w)}}\\\tl{jw=f xm\red{(=w)}}\\%
+      \tl{jw=f sxA\red{(=w)}}                 & % 02
+    Il s'est informé. Il sait. Il connaît.\\%
+      Il ne sait pas. Il ignore.\\%
+      Il se souvient.                         & % 03
+                                              & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+                                              & % 08
+                                              & % 09
+    ???                                       & % 10
+                                              & % 11
+                                              & % 12
+    \pucea{} \uline{Pseudo C.O.}\\%
+      \tl{jw=f rx(=w) (m/r) bAk}\\%
+      \emph{Il connaît le serviteur.}           % 13
+  \tabularnewline
+
+  \cline{1-5}\cline{8-8}\cline{10-13}
+                                              & % 01
+    \tl{n jr bAk}                             & % 02
+    Le serviteur \red{n'a pas fait}.          & % 03
+    Nom. perfective ancienne                  & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+    ???                                       & % 08
+                                              & % 09
+    P.~Dép.                                   & % 10
+    \multirow{2}{1.5cm}[-1.5mm]{\tl{=tw}}     & % 11
+    \multirow{3}{3.0cm}[-2.5mm]{Accompli}     & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{2-5}\cline{8-8}\cline{10-10}\cline{13-13}
+                                              & % 01
+    \tl{n \red{sp} jr=f}                      & % 02
+    Il \red{n'}a \red{jamais} fait.           & % 03
+    + prospectif                              & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+    ???                                       & % 08
+                                              & % 09
+    ???                                       & % 10
+                                              & % 11
+                                              & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{2-4}\cline{8-8}\cline{10-11}\cline{13-13}
+    \multirow{-3}{1.6cm}[0.5\baselineskip]{\CellHead%
+      Négation de l'accompli%
+    }                                         & % 01
+    \tl{n \red{pA=f} jr.t}                    & % 02
+    Il \red{n'}a \red{jamais encore} fait.    & % 03
+    + infinitif                               & % 04
+    Active                                    & % 05
+                                              & % 06
+                                              & % 07
+    ???                                       & % 08
+                                              & % 09
+    ???                                       & % 10
+    \tl{=tw} \rem{(rare)}                     & % 11
+                                              & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{1-4}\cline{8-13}
+                                              & % 01
+    \tl{\red{n} wn\red{t} bAk}                & % 02
+    \multirow{2}{4.0cm}[-2.0mm]{%
+      \raggedright\red{Il n'y a pas} de serviteur.%
+    }                                         & % 03
+    Nom. perf. \tl{wnmt=f}                    & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+    ???                                       & % 08
+    .                                         & % 09
+    ???                                       & % 10
+    \multirow{2}{1.5cm}[-1.0mm]{/}            & % 11
+    \tl{jw \zero wn(=w) bAk}                  & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{2-2}\cline{4-4}\cline{8-10}\cline{12-13}
+    \multirow{-2}{1.6cm}{%
+      \CellHead Négations existentielles
+    }                                         & % 01
+    \tl{\red{nn \zero} wn\red{(=w)} bAk}      & % 02
+                                              & % 03
+    Parfait                                   & % 04
+                                              & % 05
+                                              & % 06
+                                              & % 07
+    ???                                       & % 08
+    Ellipse de \tl{wn(=w)}                    & % 09
+    ???                                       & % 10
+                                              & % 11
+    .                                         & % 12
+    .                                           % 13
+  \tabularnewline
+
+  \cline{1-13}
+\end{tabularx}
+
+
+\newpage\maketitle
+
+\chapter*{Syntagme complétif}
+
+\begin{tabularx}{\textwidth}{%
+  |>{\CellHead}M{1.9cm}|%                       % 01
+   M{3.1cm}|%                                   % 02
+   >{\raggedright}M{4.0cm}|%                    % 03
+   M{1.5cm}|%                                   % 04
+   M{0.8cm}|%                                   % 05
+   M{0.8cm}|%                                   % 06
+   M{2.8cm}|%                                   % 07
+   M{3.4cm}|%                                   % 08
+   M{1.3cm}|%                                   % 09
+   M{1.5cm}|%                                   % 10
+   M{1.3cm}|%                                   % 11
+   X|%                                          % 12
+}
+%         1 23456789012
+  \hhline{~|-----------}
+    \multicolumn{1}{c|}{~}                    & % 01
+    \multicolumn{2}{c|}{%
+      \CellHead Construction%
+    }                                         & % 02-03
+    \CellHead Forme verbale                   & % 04
+    \CellHead Voc.                            & % 05
+    \CellHead I.E.                            & % 06
+    \CellHead Renforc.                        & % 07
+    \CellHead Emploi                          & % 08
+    \CellHead C.O. / S. pronom.               & % 09
+    \CellHead Passif / pseudo-passif          & % 10
+    \CellHead Contrep.                        & % 11
+    \CellHead Remarque                          % 12
+  \tabularnewline
+
+%%         123456789012
+%  \hhline{------------}
+%    01\\1.9cm                                  & % 01
+%    02\\3.0cm                                  & % 02
+%    03\\4.0cm                                  & % 03
+%    04\\1.5cm                                  & % 04
+%    05\\0.8cm                                  & % 05
+%    06\\0.8cm                                  & % 06
+%    07\\2.8cm                                  & % 07
+%    08\\3.4cm                                  & % 08
+%    09\\1.3cm                                  & % 09
+%    10\\1.5cm                                  & % 10
+%    11\\1.3cm                                  & % 11
+%    12\\4.3cm                                    % 12
+%  \tabularnewline
+
+%         123456789012
+  \hhline{------------}
+    \CellHead{Infinitif complétif}            & % 01
+    \tl{(jw=f Hr rd.t) \red{jr.t}}            & % 02
+    (Il fait en sorte de) \red{faire}.        & % 03
+    Infinitif                                 & % 04
+    .                                         & % 05
+    .                                         & % 06
+    .                                         & % 07
+    \multirow{4}{3.2cm}[2.0mm]{%
+      \noindent\begin{itemize}%
+        \item \uline{C.O. de verbes opérateurs}\\%
+              \begin{itemize}%
+                \item \emph{progressif, allatif, aoriste}%
+                \item \emph{négation de l'aoriste}%
+                \item \emph{négation du prospectif}%
+                \item \emph{prospectif autonome}%
+                \item \emph{impératif}%
+                \item \emph{infinitif}%
+              \end{itemize}%
+        \item \uline{Explicitation du sujet \tl{\zero} d'un accompli}%
+      \end{itemize}%
+    }                                         & % 08
+    P.~Suf.                                   & % 09
+    \multirow{2}{1.5cm}[-3.0mm]{/}            & % 10
+    Inf. compl. négatif                       & % 11
+    \pucea{} \uline{Conversion de PPA \rem{(avec \tl{mrj})}}\\%
+    \tl{jw=f Hr rd.t \red{wn=f} Xr nh.t}        % 12
+  \tabularnewline
+
+%         1234567 8 9 0 12
+  \hhline{-------|~|-|~|--}
+    \CellHead{Inf. compl. négatif}            & % 01
+    \tl{(jw=f Hr rd.t) \red{tm} jr\red{(w)}}  & % 02
+    (Il fait en sorte de) \red{ne pas faire}. & % 03
+    Infinitif ancien                          & % 04
+    .                                         & % 05
+    .                                         & % 06
+    .                                         & % 07
+                                              & % 08
+                                              & % 09
+                                              & % 10
+    Infinitif complétif                       & % 11
+    .                                           % 12
+  \tabularnewline
+
+%         1234567 8 9 012
+  \hhline{-------|~|~|---}
+    \CellHead{Prospectif complétif}              & % 01
+    \tl{(jw=f Hr rd.t) \red{jr} bAk}          & % 02
+    (Il donne) \red{que} le serviteur 
+      \red{fasse}.                            & % 03
+    Nominale prospective récente              & % 04
+    .                                         & % 05
+    .                                         & % 06
+    .                                         & % 07
+                                              & % 08
+                                              & % 09
+    \tl{=tw}                                  & % 10
+    Prospectif complétif négatif              & % 11
+    \pucea{} \uline{Conversion de PPA}\\%
+    \tl{jw=f Hr rd.t \red{wn=f} Xr nh.t}        % 12
+  \tabularnewline
+
+%         1234567 8 9 012
+  \hhline{-------|~|~|---}
+    \CellHead{Prosp. compl. négatif}             & % 01
+    \tl{(jw=f Hr rd.t) \red{tm} jr\red{(w)} bAk}\\%
+      \tl{(jw=f Hr rd.t) 
+      \red{tm}=f~ jr\red{(w)}}                & % 02
+    (Il donne) \red{que} le serviteur \red{ne fasse pas}.\\%
+      (Il donne) \red{qu'} il \red{ne 
+      fasse pas}.                             & % 03
+    Infinitif ancien                          & % 04
+    .                                         & % 05
+    .                                         & % 06
+    .                                         & % 07
+                                              & % 08
+                                              & % 09
+    .                                         & % 10
+    Prospectif complétif                      & % 11
+    .                                           % 12
+  \tabularnewline
+
+%         12345678 9 012
+  \hhline{--------|~|---}
+    \CellHead{Prospectif autonome}               & % 01
+    \tl{\red{jr} bAk \red{\ex}}\\%
+    \tl{\red{jr}=f \red{\ex}}                       & % 02
+    \red{Que} le serviteur \red{fasse !}\\%
+    \red{Qu'} il \red{fasse !}                & % 03
+    Nominale prospective récente              & % 04
+    \yes                                      & % 05
+    \tl{HA}, \tl{jx}                          & % 06
+    Redoubl. (\tl{2sp})\\\tl{(j)rf}, %
+      \tl{m(j)}, \tl{jr=k}                    & % 07
+    .                                         & % 08
+    P.~Dép.                                   & % 09
+    \tl{=tw}                                  & % 10
+    Prospectif autonome négatif               & % 11
+    .                                           % 12
+  \tabularnewline
+
+%         12345678 9 012
+  \hhline{--------|~|---}
+    \CellHead{Prosp. auto. négatif}              & % 01
+    \tl{\red{jm} jr\red{(w)} bAk \red{\ex}}\\%
+    \tl{\red{jm}=f jr\red{(w) \ex}}           & % 02
+    \red{Que} le serviteur \red{ne fasse pas !}\\%
+    \red{Qu'} il \red{ne fasse pas !}         & % 03
+    Infinitif ancien                          & % 04
+    \yes                                      & % 05
+    .                                         & % 06
+    .                                         & % 07
+    .                                         & % 08
+                                              & % 09
+    .                                         & % 10
+    Prospectif autonome                       & % 11
+    .                                           % 12
+  \tabularnewline
+
+%         12345678 9 012
+  \hhline{--------|~|---}
+    \CellHead{Impératif}                         & % 01
+    \tl{jr \red{\ex}}\\%
+    \tl{jr\red{y \ex}}                        & % 02
+    \red{Fait !}                              & % 03
+    Impératif récent / ancien                 & % 04
+    \yes                                      & % 05
+    .                                         & % 06
+    Redoubl. (\tl{2sp})\\%
+      \tl{(j)r=k}, \tl{m(j)}, %
+      \tl{(j)rf}, \tl{(j)n=k}                 & % 07
+    .                                         & % 08
+                                              & % 09
+    \multirow{2}{1.5cm}[-3.5mm]{/}            & % 10
+    Impératif vétitif                         & % 11
+    \pucea{} \uline{Seulement à la deuxième 
+      personne}                                 % 12
+  \tabularnewline
+
+%         12345678 9 0 12
+  \hhline{--------|~|~|--}
+    \CellHead{Impératif vétitif}                 & % 01
+    \tl{\red{m} jr\red{(w) \ex}}              & % 02
+    \red{Ne fait pas !}                       & % 03
+    Infinitif ancien                          & % 04
+    \yes                                      & % 05
+    .                                         & % 06
+    .                                         & % 07
+    .                                         & % 08
+                                              & % 09
+                                              & % 10
+    Impératif                                 & % 11
+    \pucea{} \uline{Seulement à la deuxième personne}\\%
+      \pucea{} \uline{Verbes de qualité}\\%
+      \tl{m aA(w) jb=k \ex} %
+      \emph{Ne t'enorgueillis pas !}            % 12
+  \tabularnewline
+
+%         123456789012
+  \hhline{------------}
+    \CellHead{Forme\\\tl{wnm(w)\col xr=f}}       & % 01
+    \tl{wnm\red{(w)\col xr}=f}\\%
+    \tl{wnm\red{(w)\col kA}=f}                & % 02
+    \multirow{2}{4.0cm}[-2.0mm]{Il mangera}   & % 03
+    Prospectif ancien                         & % 04
+    .                                         & % 05
+    .                                         & % 06
+    .                                         & % 07
+    .                                         & % 08
+    .                                         & % 09
+    .                                         & % 10
+    .                                         & % 11
+    \multirow{2}{4.3cm}[-2.0mm]{%
+      \pucea{} \uline{Apodose de %
+      conditionnelle}%
+    }                                           % 12
+  \tabularnewline
+
+%         12 3 45678901 2
+  \hhline{--|~|--------|~|}
+    \CellHead{Forme\\\tl{xr=f wnm=f}}            & % 01
+    \tl{\red{xr}=f \red{wnm}=f}\\%
+    \tl{\red{kA}=f \red{wnm}=f}               & % 02
+                                              & % 03
+    Prospectif                                & % 04
+    .                                         & % 05
+    .                                         & % 06
+    .                                         & % 07
+    .                                         & % 08
+    .                                         & % 09
+    .                                         & % 10
+    .                                         & % 11
+                                                % 12
+  \tabularnewline
+
+%         123456789012
+  \hhline{------------}
+\end{tabularx}
+
+\chapter*{Proposition à prédicat nominal}
+
+\chapter*{PPA sans léxème verbal}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

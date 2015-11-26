@@ -1,0 +1,1780 @@
+\documentclass[%
+  % draft, %
+  hiero, %
+  background, %
+  dvipsnames, %
+  svgnames, %
+  a4paper, %
+  twoside, %
+  openany, %
+  10pt, %
+  article, %
+  oldfontcommands %
+]{nefermemoir}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  backgrounds,
+  calc,
+  patterns,
+  shapes.multipart,
+  arrows,
+  arrows.meta,
+  positioning,
+  shadows,
+  decorations.text
+}
+\usepackage{xparse}
+\usepackage{pdfpages}
+\usepackage{multicol}
+% \usepackage{minitoc}
+\usepackage{rotating}
+% \usepackage[version=3]{mhchem}
+\usepackage{neferkheops}
+% \usepackage{arabtex}
+
+\addtolength{\columnsep}{15pt}
+
+\newcommand{\DirUtils}{../../../../utils}
+\newcommand{\DirImage}{../../../../images}
+
+\graphicspath{%
+  {\DirImage/Kheops/Grandet/Ete2015/}%
+}
+
+% \addtolength{\intextsep}{-0.5\baselineskip}
+% % \addtolength{\intextsep}{-\baselineskip}
+
+\sideparmargin{outer}
+
+\setlength\fboxsep{0.5mm}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+
+\DeclareCiteCommand{\citeauthor}{%
+  % \defcounter{maxnames}{99}%
+  % \defcounter{minnames}{99}%
+  % \defcounter{uniquename}{2}%
+  \boolfalse{citetracker}%
+  \boolfalse{pagetracker}%
+  \usebibmacro{prenote}%
+}{%
+  \ifciteindex{\indexnames{labelname}}{}%
+  \printnames[first-last]{labelname}%
+}%
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\citetitle}{%
+  \boolfalse{citetracker}%
+  \boolfalse{pagetracker}%
+  \usebibmacro{prenote}%
+}{%
+  \ifciteindex{\indexfield{indextitle}}{}%
+  \printtext[bibhyperref]{\printfield[citetitle]{labeltitle}}%
+}%
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\newlength{\imgwidth}
+\newlength{\offset}
+
+% \newcommand{\lacune}{[\dots]\xspace}
+\newcommand{\lacune}[1][\dots]{%
+  \ensuremath{%
+    \left[\text{#1}\right]%
+  }\xspace%
+}
+\newcommand{\trop}[1]{%
+  \ensuremath{%
+    \left\{\text{#1}\right\}%
+  }\xspace%
+}
+\newcommand{\arc}[1]{%
+  \ensuremath{%
+    \wideparen{\text{#1}}%
+  }\xspace%
+}
+
+\newcommand{\lin}[3][]{%
+  \lgn[#1]{#2\texttimes#3}%
+}
+
+\newcommand{\insertimg}[2]{%
+  \pgfmathsetmacro{\scale}{0.18}
+  \settowidth{\imgwidth}{%
+    \lin{#1}{#2} \includegraphics[scale=\scale]{Mose_#1_#2}%
+  }%
+  \setlength{\offset}{(\textwidth - \imgwidth) / 2}%
+  \noindent%
+  \hspace*{\offset}%
+  \lin[enlarge by=0pt, on line]{#1}{#2} 
+  \raisebox{-0.5\totalheight}{%
+    \includegraphics[scale=\scale]{Mose_#1_#2}%
+  }%
+}
+
+\NewDocumentEnvironment{bloc}{O{6.5} m m}{%
+  \par\nobreak\vfil\penalty0\vfilneg\vtop\bgroup
+  \insertimg{#2}{#3}
+
+  % \begin{hierobox}%
+}{%
+  % \end{hierobox}%
+  \vspace*{#1\baselineskip}%
+  \par\xdef\tpd{\the\prevdepth}\egroup\prevdepth=\tpd
+}
+
+
+\renewenvironment{vocab}[1][\qquad\qquad]%
+{%
+  \begin{list}{}
+    {\renewcommand\makelabel[1]{\hfill\tl{##1}}%
+     \settowidth\labelwidth{\makelabel{#1}}%
+     \setlength\leftmargin{\labelwidth + \labelsep}%
+    }%
+}%
+{\unskip\end{list}}
+
+
+%======================================================================
+\title{Le procès de Mosé}
+\short{Le procès de Mosé}
+\subtitle{}
+\lecturer{\PG}
+\orga{Cours de \textsf{l'\IK} par}
+\author{\SL}
+\date{6-10 juillet 2015}
+
+\hypersetup{%
+  pdftitle  = {Le procès de Mosé, cours de \PG à l'\IK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\addbibresource{\DirUtils/Hiero.bib}
+
+% \backgroundsetup{%
+%   opacity   = 0.18,
+%   contents  = \includegraphics{DeB_Hathor},
+%   % position  = current page.center,
+%   scale     = 0.5
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\tableofcontents*
+
+\mainmatter
+\CaptionNormal
+
+\chapter{Introduction}
+
+\section{Les gens}
+
+\subsection{Rois}
+
+\begin{itemize}
+  \item Âhmosis~I\ier (\dyn{18}, \datesregne[]{1550}{1525})
+        \begin{itemize}
+          \item \tl{ny-sw.t bjty Nb-pH.ty-Ra}, 
+                \td{le roi de \HBE Nebpéhtyrê}
+        \end{itemize}
+  \item Horemheb (\dyn{18}, \datesregne[]{1319}{1291})
+        \begin{itemize}
+          \item \tl{ny-sw.t bjty +sr(=w)-xpr.w-Ra-stp\col n-Ra}, 
+                \td{le roi de \HBE Djéseroukhépérourê Sétepenrê}
+          \item \tl{sA Ra @r-m-Hb-mry-Jmn}, 
+                \td{le fils de Rê Horemheb aimé d'Amon}
+        \end{itemize}
+  \item Ramsès~II (\dyn{19}, \datesregne[]{1279}{1212})
+        \begin{itemize}
+          \item \tl{sA Ra Ra-ms(w)-sw-mry-Jmn}, 
+                \td{le fils de Rê Ramsès aimé d'Amon}
+        \end{itemize}
+\end{itemize}
+
+
+\begin{multicols}{2}[\subsection{Particuliers}]
+\begin{description}
+  \item [\begin{hieroglyph}wr:r-n:3-r:1-B1\end{hieroglyph}] 
+        \tl{Wr\arc{nr}}, \td{Ourel} \\
+        \autocite[83.2]{RK}
+  \item [\begin{hieroglyph}n:S-i-zmA-A1\end{hieroglyph}] 
+        \tl{NSj}, \td{Néchi} \\
+        \autocite[213.8]{RK}
+  \item [\begin{hieroglyph}i-A2-n:y-i-i-A1\end{hieroglyph}] 
+        \tl{Jny}, \td{Iny} \\
+        \autocite[33.16]{RK}
+  \item [\begin{hieroglyph}ms-s-U32-Y1v-A1\end{hieroglyph}] 
+        \tl{Ms-mn}, \td{} \\
+        \autocite[164.24]{RK}
+  \begin{comment}
+  \item [\begin{hieroglyph}anx-n:x-n:t-niwt:t*1-B1\end{hieroglyph}] 
+          \tl{anx-Njw.t}, \td{Ânkhnioutp\
+          \autocite[68.16]{RK}
+  \end{comment}
+  \item [\begin{hieroglyph}t-A-xA-A-rw:1-T14-B1\end{hieroglyph}] 
+        \tl{\&A-xAr.t}, \td{Takharet} \\
+        \autocite[367.3]{RK}
+  \item [\begin{hieroglyph}\end{hieroglyph}] 
+        \tl{\%A-mw.t}, \td{Samout} \\
+        \autocite[282.3]{RK}
+  \item [\begin{hieroglyph}\end{hieroglyph}] 
+        \tl{\Smaj rj.t-Ra}, \td{Chéritrê} \\
+        \autocite[329.15]{RK}
+  \item [\begin{hieroglyph}bH:Y1-i-i-A1\end{hieroglyph}] 
+        \tl{@wy}, \td{Houy} %\\
+        % \autocite[]{RK}
+  \item [\begin{hieroglyph}nbw:N33:N33A-nfr-r:t-B1\end{hieroglyph}] 
+        \tl{Nbw-nfr=t(j)}, \td{Nébounofré} \\
+        \autocite[191.13]{RK}
+  \item [\begin{hieroglyph}i-mn:n:M-i-p*t:pr-A1\end{hieroglyph}] 
+        \tl{Jmn-m-jp.t}, \td{Aménémopé} \\
+        \autocite[?]{RK}
+  \item [\begin{hieroglyph}wAH-H-Y1v-i-mn:n-wAH-H-Y1v\end{hieroglyph}] 
+        \tl{WAH-jmn-wAH}, \td{} \\
+        \autocite[?]{RK}
+  \item [\begin{hieroglyph}mn:n:t*W-M:R22:R12-i-A1\end{hieroglyph}] 
+        \tl{MnTw-m-Mnw}, \td{Montouemmin} \\
+        \autocite[154.6]{RK}
+  \item [\begin{hieroglyph}xa:a:Y1-A1\end{hieroglyph}] 
+        \tl{\#aj}, \td{Khây} \\
+        \autocite[263.7]{RK}
+  \item [\begin{hieroglyph}\end{hieroglyph}] 
+        \tl{\%mn(w)-tA.wy}, \td{Séménoutaouy} \\
+        \autocite[II.360 (150.24)]{RK}
+  % \item [\begin{hieroglyph}.\end{hieroglyph}] 
+  %       \tl{}, \td{} \\
+  %       \autocite[?]{RK}
+\end{description}
+\end{multicols}
+
+
+\tikzset{every node/.style ={font=\smaller}}
+\tikzset{lien/.style  = {rounded corners, thick}}
+\tikzset{union/.style = {lien, draw = red}}
+\tikzset{child/.style = {lien, draw = blue}}
+\tikzset{roi/.style   = {homme, text = DarkGoldenrod}}
+\tikzset{perso/.style = {%
+  draw, 
+  rectangle, rounded corners, 
+  inner sep      = 1ex, 
+  minimum height = 0.5cm, 
+  minimum width  = 1.5cm,
+  text width     = 1.5cm,
+  text height    = 8pt,
+  text depth     = 2pt,
+  align          = center,
+  % fill           = gray!18, 
+}}
+\tikzset{homme/.style = {%
+  perso, 
+  fill = gray!50!blue!20, 
+}}
+\tikzset{femme/.style = {%
+  perso, 
+  fill = gray!50!red!20, 
+}}
+
+\pgfmathsetmacro{\off}{1.00}
+\begin{sidewaysfigure}
+  \begin{tikzpicture}
+    % \draw [help lines, step=0.5] (-9, 0) grid (10,-10) ;
+    % \draw [help lines, red] (-9, 0) grid (10,-10) ;
+
+    \node [homme] (nSj) {Néchi} ;
+    \node [homme] (A)   [below=3.*\off of nSj.center] {A} ;
+    \draw [child, dotted] (nSj) -- (A) 
+          node [pos=0.66, fill=white] {\em8~générations} ;
+
+    \node [femme] (CR)  [left=of A] {Chérytrê} ;
+    \draw [union] (A) -- (CR) node [midway] (n) {} ;
+    \node [femme] (wrl) [below=2*\off of CR.center] {Ourel} ;
+    \node [femme] (txr) [left=of wrl] {Takharet} ;
+    \node [homme] (F)   [left=of txr] {F} ;
+    \node [homme] (G)   [right=of wrl] {G} ;
+    \node [perso] (B)   [below right=\off and 0.5*\off of A.center] 
+          {B} ;
+    \node [perso] (C)   [right= of G] {C} ;
+    \node [perso] (D)   [right=of B] {D} ;
+    \node [perso] (E)   [right=of C] {E} ;
+
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (wrl) ;
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (txr) ;
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (B) ;
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (C) ;
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (D) ;
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (E) ;
+
+    \draw [union] (txr) -- (F) node [midway] (n) {} ;
+    \node [homme] (smn) [below=\off of n.center] {Sémentaouy} ;
+    \draw [child] (n.center) -- (smn) ;
+
+    \draw [union] (wrl) -- (G) node [midway] (n) {} ;
+    \node [homme] (hwy) [below=\off of n.center] {Houy} ;
+    \draw [child] (n.center) -- (hwy) ;
+    \node [femme] (nbw) [right=of hwy] {Nébounofré} ;
+    \draw [union] (hwy) -- (nbw) node [midway] (n) {} ;
+    \node [homme] (msw) [below=\off of n.center] {Mosé} ;
+    \draw [child] (n.center) -- (msw) ;
+    \node [femme] (mwt) [left=of msw] {Moutnofré} ;
+    \draw [union] (msw) -- (mwt) node [midway] (n) {} ;
+
+    \node [homme] (mry) [below=\off of mwt.center] {Mérymaât} ;
+    \node [homme] (amh) [left=of mry] {Amenemheb} ;
+    \node [homme] (hat) [right=of mry] {Hatiay} ;
+    \node [perso] (tje) [right=of hat] {Tjénéry} ;
+
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (mry) ;
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (amh) ;
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (hat) ;
+    \draw [child] (n.center) -- ++ (0,-0.66*\off) -| (tje) ;
+
+    \node [perso] (H) [right=of tje] {H} ;
+    \draw [union] (tje) -- (H) node [midway] (n) {} ;
+    \node [homme] (ahb) [below=\off of n.center] {Amenemheb} ;
+    \draw [child] (n.center) -- (ahb) ;
+
+    \node [homme] (xay) [right=8*\off of msw.center] {Khây} ;
+    \node [homme] (wsr) [above=\off of xay.center] {Ouserhat} ;
+    \node [homme] (TAw) [above=\off of wsr.center] {Tchaouy} ;
+    \node [homme] (htp) [above right=\off and 0.5*\off of TAw.center] 
+          {Parâhotep} ;
+    \node [homme] (hwi) [below right=\off and 0.5*\off of htp.center] 
+          {Houy} ;
+    \draw [child, dotted] (nSj) -- ++ (0,-\off) -| (htp) ;
+    \draw [child] (htp) -- ++ (0,-0.66*\off) -| (TAw) ;
+    \draw [child] (htp) -- ++ (0,-0.66*\off) -| (hwi) ;
+    \draw [child] (TAw) -- (wsr) ;
+    \draw [child] (wsr) -- (xay) ;
+  \end{tikzpicture}
+  \caption{Néchi et sa descendance}
+  \label{genealogie}
+\end{sidewaysfigure}
+
+
+\begin{multicols}{2}[\section{Vocabulaire}]
+\begin{vocab}
+  \item [aro] \td{to swear (an oath)}, \td{to abjure}
+  \item [aS] \td{to summon}
+  \item [aDA] \td{falsehood}, \td{guilt}, \td{to be guilty of}
+  \item [wAH.yt] \td{precinct}, \td{téménos}
+  \item [wH.yt] \td{village}
+  \item [psS.t] \td{partage}, \td{portion}
+  \item [pgA] \td{?}
+  \item [pt\trop{t}j] \td{voir}, \td{regarder}
+  \item [mtrw] \td{témoin}
+  \item [rwD] \td{to control}, \td{to administer}
+  \item [hAw] \td{neighborhood}, \td{environment}, \td{time}, 
+        \td{life-time}, \td{need}, \td{affairs}, \td{belongings}
+  \item [xAa] \td{to turn one's back on}, \td{to negect}
+  \item [SAa] \td{commencement}, \td{début}
+  \item [swA] \td{break}, \td{cut}, \td{cut off}
+  \item [smj] \td{to report}, \td{to complain}
+  \item [smtr] \td{to examine}, \td{to make inquiry}, 
+        \td{to bear witness}
+  \item [Snw.ty] \td{double grenier}
+  \item [Srj.t] \td{fille}
+  \item [sxn] \td{to go to law}, \td{to contend}
+  \item [on.yt] \td{les \frquote{Braves du roi}}
+  \item [onb.t] \td{conseil}, \td{cour de justice}
+  \item [dmj.t] \td{ville}
+  \item [dny.t] \td{cadastre}
+  % \item [] \td{}
+\end{vocab}
+\end{multicols}
+
+
+\chapter{Mur nord}
+
+\insertimg{425}{01}
+
+\begin{hierobox}
+  \tl{\lin{425}{01} \lacune}
+
+  \td{\lacune}
+\end{hierobox}
+
+\insertimg{425}{02}
+
+\insertimg{425}{03}
+
+\begin{hierobox}
+  \tl{\lin{425}{02} \lacune[\dots Hr] a.wy sr Hr jn nA rmT aA n(y) 
+      pA dmj.t \lin{425}{03} r sDm r(A)=sn}
+
+  \td{\lacune[\dots on a apporté un document] transmis par (\litt sur 
+      les mains de) un magistrat citant à comparaître de nombreuses 
+      personnes de la ville pour entendre leur témoignage}
+\end{hierobox}
+
+\insertimg{425}{04}
+
+\section{Déposition de Mosé}
+
+\begin{hierobox}
+  \tl{Dd(w).t\col n \lacune n TAy-xaw Sd(w) rmT \lin{425}{04} \lacune 
+      \crtch{Ra-ms(w)-sw-mry-Jn} \lacune}
+
+  \td{Ce qu'a dit \lacune[\rem{titres et noms de Mosé}] au porteur 
+      de flabellum, celui qui élève les gens \lacune[\rem{titres}] 
+      Ramsès~II \lacune}
+\end{hierobox}
+
+\insertimg{425}{05}
+
+\begin{hierobox}
+  \tl{\og jr jnk \saispas[jnk] Srj n(y) @wy sA \lin{425}{05} 
+      Wr\arc{nr} sA.t NSj}
+
+  \td{\og je suis le fils de Houy, fils de Ourel, descendante de Néchi}
+\end{hierobox}
+
+\insertimg{425}{06}
+
+\begin{hierobox}
+  \tl{jw=tw Hr psS\trop{.t} n Wr\arc{nr} Hna snw=s\trop{.t} 
+      \lin{425}{06} m tA onb.t aA.t m hAw (ny)-sw.t
+      \crtch{+sr(=w)-xpr.w-Ra-stp\col n-Ra} d(=w) anx}
+
+  \td{On fit des parts pour Ourel et sa fratrie dans la grande 
+      \emph{qénébet} à l'époque du roi Djéseroukhépérourê Sétepenrê 
+      doté de vie}
+\end{hierobox}
+
+\insertimg{425}{07}
+
+\insertimg{425}{08}
+
+\begin{hierobox}
+  \tl{jw=tw Hr d.t jw.t wab \lin{425}{07} on.yt Jny nty m sr n(y) 
+      tA onb.t aA.t r tA wH.yt \lin{425}{08} NSj}
+
+  \td{On fit venir le prêtre \emph{ouab} de la chaise à porteur Iny 
+      qui est un magistrat du grand conseil au village de Néchi}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=tw Hr psS\trop{.t} n=j Hna snw=j}
+
+  \td{On fit des parts pour moi et ma fratrie}
+\end{hierobox}
+
+\insertimg{425}{09}
+
+\begin{hierobox}
+  \tl{jw=tw (Hr) d.t mw.t=j anx(.t)-(n(y.t)\trop{w})-njw.t 
+      \lin{425}{09} Wr\arc{nr} m rwD n(y) snw=s\trop{.t}}
+
+  \td{On nomma ma mère, la citadine Ourel, syndic de sa fratrie}
+\end{hierobox}
+
+\insertimg{425}{10}
+
+\begin{hierobox}
+  \tl{jw \&A-xAr.t tA sn.t \lin{425}{10} n(y) Wr\arc{nr} Hr sxn Hna 
+      Wr\arc{nr} m tA onb.t aA.t}
+
+  \td{Takharet, la s{\oe}ur d'Ourel vint avec Ourel faire une demande 
+      dans la grande \emph{qénébet}}
+\end{hierobox}
+
+\insertimg{425}{11}
+
+\begin{hierobox}
+  \tl{jw=tw \lin{425}{11} Hr d.t jw.t sr n(y) onb.t}
+
+  \td{On fit venir le magistrat de la \emph{qénébet} (au village)}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=tw Hr d.t rx s nb psS.t=f m pA 6 jwaw}
+
+  \td{On fit en sorte que chacun apprenne sa part parmi les six 
+      héritiers}
+\end{hierobox}
+
+\insertimg{425}{12}
+
+\insertimg{425}{13}
+
+\begin{hierobox}
+  \tl{\lin{425}{12} xr m n(y)-sw.t \crtch{Nb-pH(.ty)-Ra} 
+      \lacune[j-dw AH.t $x$ spA.t] m foA.w n \lin{425}{13} NSj 
+      pAy=j jt}
+
+  \td{D'ailleurs, c'est le roi Nebpéhtyrê qui avait donné $x$ arroures 
+      de terres en récompense à Néchi mon ancêtre}
+\end{hierobox}
+
+\insertimg{425}{14}
+
+\begin{hierobox}
+  \tl{xr Dr (ny)-sw.t \crtch{Nb-pH(.ty)-Ra} jw tA AH.t \lin{425}{14} 
+      Xr wa n wa r SAa pA hrw}
+
+  \td{et depuis le roi Nebpéhtyrê, la terre était passée d'héritier 
+      en héritier (\litt était soumise à l'un puis à l'autre) jusqu'à 
+      ce jour}
+\end{hierobox}
+
+\insertimg{425}{15}
+
+\insertimg{425}{16}
+
+\begin{hierobox}
+  \tl{jw @wy pAy=j jt \lin{425}{15} Hna mw.t=f Wr\arc{nr} Hr sxn Hna 
+      nAy=w snw \lin{425}{16} m tA onb.t aA.t Hna tA onb.t Mn-nfr 
+      \lacune sS}
+
+  \td{Houy mon père et sa mère Ourel intentent une action avec / 
+      contre \rem{(?)} leur fratrie dans la grande \emph{qénébet} et 
+      la \emph{qénébet} de Memphis \lacune[\dots et ce fut jugé] par 
+      écrit}
+\end{hierobox}
+
+\insertimg{426}{01}
+
+\begin{hierobox}
+  \tl{\lin{426}{01} jw pAy=j jt Hr mwt}
+
+  \td{mon père est mort}
+\end{hierobox}
+
+\insertimg{426}{02}
+
+\begin{hierobox}
+  \begin{gramrule}%
+    \tl{jw Nbw-nfr=t(j) tAy=j mw.t Hr \lin{426}{02} jj.y skA tA psS.t 
+        \lacune[n(y) 
+          \begin{possib}
+            NSj\\
+            @wy\\
+          \end{possib}%
+        ] pAy=j jt
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{Nébounofré ma mère vint pour exploiter la part 
+        \begin{possib}
+          qui lui venait de Néchi mon ancêtre\\
+          de Houy mon père\\
+        \end{possib}
+    }%
+  \end{gramrule}%
+\end{hierobox}
+
+\insertimg{426}{03}
+
+\begin{hierobox}
+  \tl{\lin{426}{03} jw=tw tm Hr d.t skA=s.t}
+
+  \td{On ne lui permit pas de l'exploiter}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=s\trop{.t} Hr smj rwDw \#ay}
+
+  \td{Elle dénonça le syndic Khây}
+\end{hierobox}
+
+\insertimg{426}{04}
+
+\insertimg{426}{05}
+
+\begin{hierobox}
+  \tl{jw\lin{426}{04}=tw Hr d.t jw.t=sn m-bAH TAt(y) Jwnw 
+      m rnp.t sp \lacune[18] n(y) n(y)-sw.t bjt(y) 
+      \crtch{Wsr-MAa.t-Ra-stp\col n-Ra} \lin{426}{05} sA Ra 
+      \crtch{Ra-ms(w)-sw-mry-Jmn} d(=w) anx}
+
+  \td{On les fit comparaître devant le vizir d'Héliopolis en l'an~18 
+      du roi de \HBE Ousermaâtrê Sétepenrê le fils de Rê Ramsès~II 
+      doté de vie}
+\end{hierobox}
+
+\insertimg{426}{06}
+
+\begin{hierobox}
+  En restituant la lacune après \tl{d(=w) anx} par \dots
+  \begin{hieroglyph}
+    i-w s-.:t Hr:1 D:\!\!d\s1 s-mi-i-A2-B1
+  \end{hieroglyph} \dots :
+
+  \tl{\lacune[jw=s Hr Dd : \og smj=j] pA wn tw=j xAa\lin{426}{06}=kw 
+      r-b\arc{nr} m tA AH.t n(y) NSj pAy(=j) jt \fg}
+
+  \td{Elle dit : \frquote{C'est parce que j'ai été expulsée hors de la 
+      terre de Néchi mon ancêtre que je veux porter plainte}}
+\end{hierobox}
+
+\insertimg{426}{07}
+
+\insertimg{426}{08}
+
+\begin{hierobox}
+  \tl{\lin{426}{07} jw s.t Hr Dd \frquote{jm jnt=(t)w n=j tA dny.t 
+      m pr-HD (m-)mjt.t tA s.t tA \lin{426}{08} Snw.ty pr aA a.w.s.}}
+
+  \td{Elle ajouta : \og permets qu'on aille chercher pour moi 
+      le parcellaire au Trésor ainsi qu'au siège du double grenier 
+      de Pharaon v.s.f.}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw jb=j mH(=w) r-Dd \frquote{jnk Srj.t n(y) NSj}}
+
+  \td{car je suis certaine (\litt mon c{\oe}ur est rempli) que je suis 
+      la descendante de Néchi}
+\end{hierobox}
+
+\insertimg{426}{09}
+
+\begin{hierobox}
+  \tl{jw=tw \lin{426}{09} Hr psS\trop{.t} n=j Hna=sn}
+
+  \td{car on a fait des part pour moi et eux}
+\end{hierobox}
+
+\insertimg{426}{10}
+
+\begin{hierobox}
+  \tl{jw bw rx=j rwDw \#ay \lacune m \lin{426}{10} sn}
+
+  \td{je ne reconnais pas le syndic Khây \lacune en tant que frère}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw rwDw \#aj Hr smj m tA onb.t aA.t m rnp.t sp 18}
+
+  \td{Le syndic Khây se plaignit devant la grande \emph{qénébet} en 
+      l'an~18}
+\end{hierobox}
+
+\insertimg{426}{11}
+
+\insertimg{426}{12}
+
+\begin{hierobox}
+  \tl{jw=tw Hr \lin{426}{11} d.t jw.t wab on.yt Jmn-[m]-jp.t nty 
+      m sr n(y) tA onb.t aA.t Hna=f \lin{426}{12} Xr wa n dny.t n(y) 
+      aDA m Dr.t=f}
+
+  \td{On fit venir le prêtre \emph{ouab} de la chaise à porteurs 
+      Aménémopé qui est un magistrat de la grande \emph{qénébet} 
+      avec lui, apportant à la main un parcellaire falsifié}
+\end{hierobox}
+
+\insertimg{426}{13}
+
+\begin{hierobox}
+  \tl{jw=j rwj=kw m Srj.t \lin{426}{13} n(y) NSj}
+
+  \td{J'ai perdu (\litt suis partie de) ma qualité de descendante de 
+      Néchi}
+\end{hierobox}
+
+\insertimg{426}{14}
+
+\begin{hierobox}
+  \tl{jw=tw Hr d.t rwDw \#aj m rwDw n snw\lin{426}{14}=f r tA s.t 
+      n(y) pAy=j jwaw}
+
+  \td{puis on confirma le syndic Khây syndic de sa fratrie à la place 
+      de mon héritier.}
+\end{hierobox}
+
+\insertimg{426}{15}
+
+\begin{hierobox}
+  \tl{jw=j m jwaw n(y) NSj pAy\lin{426}{15}=j jt \fg}
+
+  \td{bien que je fusse une héritière de Néchi, mon ancêtre \fg}
+\end{hierobox}
+
+\insertimg{426}{16}
+
+\begin{hierobox}
+  \tl{xr ptr tw=j m tA wH.yt NSj pAy\lin{426}{16}=j jt nty tA Hnp.t 
+      n(y) NSj pAy=j jt jm=f}
+
+  \td{Or voyez, je suis dans le village de Néchi, mon ancêtre dans 
+      lequel se trouve la parcelle de Néchi, mon ancêtre}
+\end{hierobox}
+
+\insertimg{427}{01}
+
+\insertimg{427}{02}
+
+\begin{hierobox}
+  \tl{\lin{427}{01} jm smty=tw=j mtw=j ptr nA jr Wr\arc{nr}, tA mw.t 
+      \lin{427}{02} n(y) sS @wy pAy=j jt \zero}
+
+  \td{Permettez que je sois interrogé pour déterminer (\litt voir) si 
+      Ourel était la mère du scribe Houy mon père}
+\end{hierobox}
+
+\insertimg{427}{03}
+
+\insertimg{427}{04}
+
+\begin{hierobox}
+  \tl{Dd\lacune[=j \dots] n(y) NSj jw bn \lin{427}{03} sw mn=tj Hr tA 
+      dny.t jr(w.t)\col n rwDw \#ay Hna \lin{427}{04} pA sr n(y) onb.t 
+      jjy jr=j m-a=f}
+
+  \td{\lacune[et je vous dirai qu'il était un descendant] de Néchi, 
+      alors qu'il \rem{(l'acte de propriété)} n'est pas établit dans 
+      le parcellaire fabriqué par le syndic Khây contre moi avec le 
+      magistrat de la grande \emph{qénébet} venu contre moi avec lui}
+\end{hierobox}
+
+\insertimg{427}{05}
+
+\begin{hierobox}
+  \tl{jw(=j) Hr smj r-Dd : \og dny.t n(y) aDA \zero, \lin{427}{05} tA 
+      jry.t r=j}
+
+  \td{Je portai plainte en ces termes : \og C'est un parcellaire 
+      falsifié, ce qui a été fait contre moi}
+\end{hierobox}
+
+\insertimg{427}{06}
+
+\begin{hierobox}
+  \tl{xr jw=j smty=kw Xr-HA.t tw=j gm=kw \lin{427}{06} Hr war.t}
+
+  \td{En effet, j'ai été interrogé auparavant et j'ai été trouvé sur 
+      un registre}
+\end{hierobox}
+
+\insertimg{427}{07}
+
+\begin{hierobox}
+  \tl{jm smty=tw=j Hna nAy=j jwaw.w m-bAH \trop{n} rmT \lin{427}{07} 
+      aA.w n(y) pA dmj.t}
+
+  \td{Confrontez-moi avec mes héritiers à de nombreuses personnes de 
+      la ville, }
+\end{hierobox}
+
+\insertimg{427}{08}
+
+\begin{hierobox}
+  \tl{ptr nA jnk Srj n(y) NSj \lin{427}{08} nA m-bjA.t}
+
+  \td{en leur demandant si je suis un descendant de Néchi ou bien non.}
+\end{hierobox}
+
+\section{Déposition de Khây}
+
+\begin{hierobox}
+  \tl{Dd(w).t\col n rwDw \#ay :}
+  \td{\saispas ce qui a été dit par le syndic Khây :}
+\end{hierobox}
+
+\insertimg{427}{09}
+
+\begin{hierobox}
+  \tl{\og jnk Srj n(y) rwDw \lin{427}{09} Wsr-HA.t sA TAwy sA 
+      PA-Ra-Htp}
+
+  \td{\og je suis le fils du syndic Ouserhat fils de Tchaouy fils de 
+      Parâhotep,}
+\end{hierobox}
+
+\insertimg{427}{10}
+
+\insertimg{427}{11}
+
+\begin{hierobox}
+  \tl{jw=f Hr d.t n=j \lin{427}{10} tAy=f psS.t AH.t m sSw m hAw 
+      n(y)-sw.t \crtch{+sr(=w)-xpr.w-Ra-stp\col n-Ra} d(=w) anx 
+      \lin{427}{11} m-bAH mtrw.w}
+
+  \td{et il m'a donné sa part de terre par écrit à l'époque du roi 
+      Djéseroukhépérourê Sétepenrê doté de vie devant témoins}
+\end{hierobox}
+
+\insertimg{427}{12}
+
+\begin{hierobox}
+  \tl{jw Hry jH(.w) @wy sA PA-Ra-Htp pA wnw \lin{427}{12} Hr skA=s 
+      Dr hAw \crtch{J\lacune} d(=w) anx \zero}
+
+  \td{alors que c'était le supérieur des écuries Houy fils 
+      de Parâhotep, celui qui la cultivait depuis l'époque 
+      d'\lacune[Amenophis~III] \rem{(?)} doté de vie}
+\end{hierobox}
+
+\insertimg{427}{13}
+
+\begin{hierobox}
+  \tl{jw Ssp\col n=\lacune[j] (s.t) m hAw \lin{427}{13} 
+      \crtch{@r-m-Hb-mry-Jmn} r SAa pA hrw}
+
+  \td{Je l'ai reçue à l'époque d'Horemheb jusqu'à ce jour}
+\end{hierobox}
+
+\insertimg{427}{14}
+
+\begin{hierobox}
+  \tl{jw sS @wy anx(.t-ny.t)-njw.t Nbw-nfr=t(j) \lin{427}{14} Hr TA 
+      tAy(=j) psS.t AH.t}
+
+  \td{le scribe Houy et la citadine Nébounofré se sont emparé de ma 
+      part de terres}
+\end{hierobox}
+
+\insertimg{427}{15}
+
+\begin{hierobox}
+  \tl{jw=s(n) Hr d.t \saispas \lin{427}{15} \saispas}
+
+  \td{Ils firent \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=j Hr smj n TAt(y) m Jwnw}
+
+  \td{j'ai porté plainte devant le vizir à Héliopolis}
+\end{hierobox}
+
+\insertimg{427}{16}
+
+\begin{hierobox}
+  \tl{jw=f Hr d.t sxn=j \lin{427}{16} Hna Nbw-nfr=t(j) m-bAH TAt(y) m 
+      tA onb.t aA.t}
+
+  \td{il m'a permis d'intenter une action contre Nébounofré devant le 
+      vizir dans la grande \emph{qénébet}}
+\end{hierobox}
+
+\insertimg{428}{01}
+
+\begin{hierobox}
+  \tl{jw=j Hr jn(.t) nAy\lin{428}{01}=j mtrw.w \lacune m Dr.t=j Dr 
+      \crtch{Nb-pH(.ty)-Ra}}
+
+  \td{je suis allé chercher mes témoins \lacune en ma possession 
+      depuis Nebpéhtyrê}
+\end{hierobox}
+
+\insertimg{428}{02}
+
+\begin{hierobox}
+  \tl{jw Nbw-nfr=t(j) Hr \lin{428}{02} jn(.t) nAy=s mtrw.w m-mjt.t}
+
+  \td{Nébounofré alla chercher ses témoins également}
+\end{hierobox}
+
+\insertimg{428}{03}
+
+\begin{hierobox}
+  \tl{jw=tw Hr pgA m-bAH TAt(y) \lin{428}{03} m tA onb.t aA.t}
+
+  \td{On \saispas[entra / s'assied / se leva] devant le vizir dans la 
+      grande \emph{qénébet}}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw TAt(y) Hr Dd n=s jr nn sS.w : \saispas}
+
+  \td{le vizir lui dit : \saispas}
+\end{hierobox}
+
+\insertimg{428}{04}
+
+\begin{hierobox}
+  \tl{\lin{428}{04} \saispas wa m pA 2 s \saispas}
+
+  \td{\saispas}
+\end{hierobox}
+
+\insertimg{428}{05}
+
+\begin{hierobox}
+  \tl{jw Nbw-nfr=t(j) Hr Dd n TAt(y) : \og jm jn=tw n=j \lin{428}{05} 
+      tA (dny.t n(y) pr-HD n tA s.t tA Snw.ty pr-Aa a.w.s}
+
+  \td{Nébounofré dit au vizir : \frquote{permets qu'on aille chercher 
+      pour moi le parcellaire au Trésor ainsi qu'au siège du Double 
+      Grenier de Pharaon v.s.f.}}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw TAt(y) Hr Dd n=s : \og nfr jor}
+
+  \td{Le vizir lui dit : \og \saispas}
+\end{hierobox}
+
+\insertimg{428}{06}
+
+\begin{hierobox}
+  \tl{\lin{428}{06} pA j-Dd(w)}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=tw Hr jTA=n m xd r pr-\crtch{Ra-ms(w)-sw-mry-Jmn}}
+
+  \td{On nous emmena vers le nord à Pi-Ramsès}
+\end{hierobox}
+
+\insertimg{428}{07}
+
+\begin{hierobox}
+  \tl{jw\lin{428}{07}=tw Hr ao r pr-HD n(y) pr-aA a.w.s m-mjt.t 
+      tA s.t tA Snw.ty pr-aA a.w.s.}
+
+  \td{On entra au Trésor de Pharaon v.s.f. \saispas la place du double 
+      grenier de Pharaon v.s.f.}
+\end{hierobox}
+
+\insertimg{428}{08}
+
+\begin{hierobox}
+  \tl{jw=tw \lin{428}{08} Hr jn(.t) tA dny.t nw.t m-bAH TAt(y) m (tA) 
+      onb.t aA.t}
+
+  \td{On alla chercher le deuxième registre du cadastre devant le 
+      vizir dans le grand conseil}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw TAt(y) Hr Dd n Nbw-nfr=t(j) :}
+
+  \td{Le vizir dit à Nébounofré :}
+\end{hierobox}
+
+\insertimg{428}{09}
+
+\begin{hierobox}
+  \tl{\lin{428}{09} \saispas pAy=j jwaw m \saispas nA jwaw.w 
+      nty Hr tA}
+
+  \td{\saispas mon héritier \saispas les héritiers \saispas}
+\end{hierobox}
+
+\insertimg{428}{10}
+
+\begin{hierobox}
+  \tl{\lin{428}{10} dny.t nw.t nty m Dr.t=n}
+
+  \td{le deuxième registre du cadastre qui est dans notre main}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw Nbw-nfr=t(j) Hr Dd :}
+
+  \td{Nébounofré dit :}
+\end{hierobox}
+
+\insertimg{428}{11}
+
+\begin{hierobox}
+  \tl{nn \zero wn=w jwaw \lin{428}{11} jm=sn}
+
+  \td{il n'y a pas d'héritiers dedans}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\saispas aDA \saispas m TAt(y)}
+\end{hierobox}
+
+\insertimg{428}{12}
+
+\begin{hierobox}
+  \tl{jw \lin{428}{12} sS wdHw (ny)-sw(.t) \saispas}
+
+  \td{le scribe de la table d'offrande du roi \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\saispas sA MnTw-m-Mnw Hr Dd n TAt(y) jx pA sxr jrr=k}
+
+  \td{\saispas fils de Montouemmin dit au vizir \saispas}
+\end{hierobox}
+
+\insertimg{428}{13}
+
+\begin{hierobox}
+  \tl{\lin{428}{13} n Nbw-nfr=t(j)}
+
+  \td{Nébounofré}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw TAt(y) Hr Dd n \saispas}
+
+  \td{le vizir dit à \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{tw=k n Xnw jx Sm=k r pr-HD}
+
+  \td{\saispas on s'en va au Trésor}
+\end{hierobox}
+
+\insertimg{428}{14}
+
+\begin{hierobox}
+  \tl{\lin{428}{14} mtw=k ptr pAy=s sxrw}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw \#aj pr}
+
+  \td{Khây sort}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=f Hr Dd n=s jry}
+
+  \td{il lui dit \saispas}
+\end{hierobox}
+
+\insertimg{428}{15}
+
+\begin{hierobox}
+  \tl{\lin{428}{15} \saispas smtr nA sS.w \saispas m sSw}
+
+  \td{\saispas par écrit}
+\end{hierobox}
+
+\insertimg{428}{16}
+
+\begin{hierobox}
+  \tl{jw=tw Hr \lin{428}{16} aS r wab on.yt Jmn-m-jp.t}
+
+  \td{on convoque le prêtre \emph{ouab} de la chaise à porteurs 
+      Aménémopé}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=tw Hr d.t Sm=f r-Dd nw}
+\end{hierobox}
+
+\insertimg{429}{01}
+
+\begin{hierobox}
+  \tl{\lin{429}{01} nA jwa.w m}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{tw=k d.t ptr=sn nA AH.t m}
+
+  \td{tu fais qu'ils voient les terres \saispas}
+\end{hierobox}
+
+\insertimg{429}{02}
+
+\begin{hierobox}
+  \tl{tw=k \lin{429}{02} psS.t=sn j\col n=tw n=f Hna tA onb.t 
+      Mn-nfr}
+
+  \td{leur portion \saispas pour lui et le conseil de Memphis}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=j Hr d.t jw.t swA}
+\end{hierobox}
+
+\insertimg{429}{03}
+
+\begin{hierobox}
+  \tl{\lin{429}{03} \saispas wnw \saispas jmy-rA ssm.wt}
+
+  \td{\saispas directeur des chevaux}
+\end{hierobox}
+
+\insertimg{429}{04}
+
+\begin{hierobox}
+  \tl{jw \lin{429}{04} sr n(y) onb.t Jmn-m-jp.t r aS r Ms-mn 
+      r-Dd \saispas}
+
+  \td{le magistrat du conseil Aménémopé va convoquer Mesmen \saispas}
+\end{hierobox}
+
+\insertimg{429}{05}
+
+\begin{hierobox}
+  \tl{\lin{429}{05} \lacune}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=tw Hr aS n=f r \saispas jmn.t}
+
+  \td{on le convoque \saispas}
+\end{hierobox}
+
+\insertimg{429}{06}
+
+\begin{hierobox}
+  \tl{\lin{429}{06} jw=tw Hr d.t n=j AH.t jwty 13}
+
+  \td{on me donne les terres \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=tw Hr d.t AH.t jwty}
+
+  \td{on me donne les terres \saispas}
+\end{hierobox}
+
+\insertimg{429}{07}
+
+\begin{hierobox}
+  \tl{\lin{429}{07} \lacune n nA jwa.w \lacune rmT}
+
+  \td{\saispas pour les héritiers \saispas}
+\end{hierobox}
+
+\insertimg{429}{08}
+
+\begin{hierobox}
+  \tl{\lin{429}{08} aA m pA dmj.t \saispas Ms-mn \lacune}
+
+  \td{\saispas dans la ville \saispas}
+\end{hierobox}
+
+\insertimg{429}{09}
+
+\begin{hierobox}
+  \tl{\lin{429}{09} \lacune wAH Jmn wAH pA HoA j-Dd(w) m mAa.t 
+      n pr-aA a.w.s.}
+
+  \td{\saispas le seigneur qui parle en vérité pour Pharaon v.s.f.}
+\end{hierobox}
+
+\insertimg{429}{10}
+
+\begin{hierobox}
+  \tl{\lin{429}{10} bn Dd aDA mtw=j Dd aDA \saispas}
+\end{hierobox}
+
+\insertimg{429}{11}
+
+\begin{hierobox}
+  \tl{\lin{429}{11} \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=j r KS jr sS @wy Srj n(y) Wr\arc{nr}}
+
+  \td{je vais à Kouch \saispas le scribe Houy, fils de Ourel}
+\end{hierobox}
+
+\insertimg{429}{12}
+
+\begin{hierobox}
+  \tl{\lin{429}{12} tw=tw Hr Dd r-Dd Srj n(y) NSj}
+
+  \td{\saispas fils de Néchi}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{tw=j ptr}
+\end{hierobox}
+
+\insertimg{429}{13}
+
+\begin{hierobox}
+  \tl{\lin{429}{13} nA jr Wr\arc{nr} \lacune AH.t}
+
+  \td{\saispas Ourel \saispas terres}
+\end{hierobox}
+
+\insertimg{429}{14}
+
+\begin{hierobox}
+  \tl{\lin{429}{14} rwD(w) \#aj wAH Jmn wAH pA HoA}
+
+  \td{le syndic Khây \saispas}
+\end{hierobox}
+
+\insertimg{429}{15}
+
+\begin{hierobox}
+  \tl{jr sS @wy \lin{429}{15} Srj n(y) Wr\arc{nr} sA.t NSj mtw 
+      \lacune r-Dd}
+
+  \td{le scribe Houy fils de Ourel, fille de Néchi \saispas}
+\end{hierobox}
+
+\insertimg{429}{16}
+
+\begin{hierobox}
+  \tl{\lin{429}{16} bn \saispas nA \saispas}
+
+  \tl{jw=j \saispas wAH Jmn wAH pA HoA}
+\end{hierobox}
+
+\insertimg{430}{01}
+
+\begin{hierobox}
+  \tl{\lin{430}{01} jw bn \lacune \saispas sDm=tw=sn}
+\end{hierobox}
+
+\insertimg{430}{02}
+
+\begin{hierobox}
+  \tl{\lin{430}{02} \saispas r(A)=sn Sd=tw pAy=sn skA}
+\end{hierobox}
+
+\insertimg{430}{03}
+
+\begin{hierobox}
+  \tl{\lin{430}{03} \saispas Dd t n f}
+\end{hierobox}
+
+\insertimg{430}{04}
+
+\begin{hierobox}
+  \tl{\lin{430}{04} wAH Jmn wAH pA HoA}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{mtw=tw smtr mtw=tw gmH}
+\end{hierobox}
+
+\insertimg{430}{05}
+
+\begin{hierobox}
+  \tl{\lin{430}{05} jw skA(w) \lacune psS.t n(y) \lacune Hr=j}
+\end{hierobox}
+
+\insertimg{430}{06}
+
+\begin{hierobox}
+  \tl{jw \lin{430}{06}=j \saispas wab \saispas n pr ptH wAH Jmn 
+      wAH pA HoA}
+\end{hierobox}
+
+\insertimg{430}{07}
+
+\begin{hierobox}
+  \tl{\lin{430}{07} j-Dd(w) m mAa.t}
+
+  \td{qui parle en vérité}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{bn Dd=j aDA \saispas Dd aDA \saispas}
+\end{hierobox}
+
+\insertimg{430}{08}
+
+\begin{hierobox}
+  \tl{\lin{430}{08} \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=j r KS}
+
+  \td{je vais à Kouch}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{tw=j rx=kw}
+
+  \td{je sais}
+\end{hierobox}
+
+\insertimg{430}{09}
+
+\begin{hierobox}
+  \tl{\lin{430}{09} \lacune sS @wy Srj n(y) Wr\arc{nr}}
+
+  \td{\saispas scribe Houy, fils de Ourel}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=f Hr skA}
+
+  \td{il laboure}
+\end{hierobox}
+
+\insertimg{430}{10}
+
+\begin{hierobox}
+  \tl{\lin{430}{10} nAy=f AH.t rnp.t n rnp.t}
+
+  \td{ses champs année après année}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw jr=f Hr skA s.t r-Dd}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jnk}
+
+  \td{je suis}
+\end{hierobox}
+
+\insertimg{430}{11}
+
+\begin{hierobox}
+  \tl{\lin{430}{11} Srj n(y) Wr\arc{nr} sA.t NSj Dd t n \saispas}
+
+  \td{le fils de Ourel, fille de Néchi \saispas}
+\end{hierobox}
+
+\insertimg{430}{12}
+
+\begin{hierobox}
+  \tl{\lin{430}{12} \saispas n(y) pr-HD n(y) pr-aA a.w.s. 
+      wAH Jmn wAH pA HoA}
+
+  \td{\saispas Trésor de Pharaon v.s.f. \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{mtw=j Dd aDA \saispas}
+
+  \td{\saispas}
+\end{hierobox}
+
+\insertimg{430}{13}
+
+\begin{hierobox}
+  \tl{\lin{430}{13} \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=j r KS jr sS @wy}
+
+  \td{je vais à Kouch \saispas scribe Houy}
+\end{hierobox}
+
+\insertimg{430}{14}
+
+\begin{hierobox}
+  \tl{\lin{430}{14} Srj n(y) Wr\arc{nr}}
+
+  \td{fils de Ourel}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{xr jr Wr\arc{nr} Srj.t n(y) NSj}
+
+  \td{Ourel fille de Néchi}
+\end{hierobox}
+
+\insertimg{430}{15}
+
+\begin{hierobox}
+  \tl{\lin{430}{15} Dd t n Hry jH.w Nb-nfr m-mjt.t r-Dd}
+
+  \td{\saispas supérieur des écuries Nebnéfer \saispas}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jr sS @wy wn=f Hr skA}
+
+  \td{quant au scribe Houy, il laboure}
+\end{hierobox}
+
+\insertimg{430}{16}
+
+\begin{hierobox}
+  \tl{\lin{430}{16} nAy=f AH.t rnp.t n rnp.t}
+
+  \td{ses terres année après année}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=f jr t n pA nty nb Hr=f}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=sn Hr=f Atp n=f}
+\end{hierobox}
+
+\insertimg{431}{01}
+
+\begin{hierobox}
+  \tl{\lin{431}{01} pA skA nAy=f AH.t rnp.t n rnp.t}
+
+  \td{\saispas ses terres année après année}
+\end{hierobox}
+
+\insertimg{431}{02}
+
+\begin{hierobox}
+  \tl{xr wnw=f Hr sxn \lin{431}{02} Hna anx-njw.t \&A-xAr.t tA mw.t 
+      n(y) waw \%mn(w)-tA.wy}
+
+  \td{puis il a plaidé avec la citadine Takharet, la mère du soldat 
+      Séménoutaouy}
+\end{hierobox}
+
+\insertimg{431}{03}
+
+\begin{hierobox}
+  \tl{\lin{431}{03} xr sxn=f Hna \%mn(w)-tA.wy pAy=s Srj}
+
+  \td{et il a plaidé avec Séménoutaouy, son fis}
+\end{hierobox}
+
+\insertimg{431}{04}
+
+\begin{hierobox}
+  \tl{mtw=tw \lin{431}{04} d.t nA AH.t n @wy}
+
+  \td{et on donne les terres à Houy}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=sn mn \saispas}
+\end{hierobox}
+
+\insertimg{431}{05}
+
+\begin{hierobox}
+  \tl{\lin{431}{05} \saispas m-mjt.t r-Dd}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jr sS @wy Srj n(y) wr\arc{nr}}
+
+  \td{le sribe Houy fils de Ourel}
+\end{hierobox}
+
+\insertimg{431}{06}
+
+\begin{hierobox}
+  \tl{jr \lin{431}{06} Wr\arc{nr} sA.t NSj Dd t n \saispas}
+
+  \td{Ourel, fille de Néchi \saispas}
+\end{hierobox}
+
+\insertimg{431}{07}
+
+\begin{hierobox}
+  \tl{\lin{431}{07} \saispas wAH Jmn wAH pA HoA}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{mtw=j Dd aDA}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{jw=j r pH.wy pr}
+\end{hierobox}
+
+\insertimg{431}{08}
+
+\begin{hierobox}
+  \tl{\lin{431}{08} jr sS @wy Srj n(y) wr\arc{nr} xr jr wr\arc{nr}}
+
+  \td{le scribe Houy, fils de Ourel \saispas}
+\end{hierobox}
+
+\insertimg{431}{09}
+
+\begin{hierobox}
+  \tl{\lin{431}{09} sA.t NSj Dd t n anx-njw.t \saispas m-mjt.t 
+      Dd t n anx-njw.t}
+
+  \td{file de Néchi \saispas}
+\end{hierobox}
+
+\insertimg{431}{10}
+
+\begin{hierobox}
+  \tl{tw\lin{431}{10}y m-mjt.t}
+\end{hierobox}
+
+\chapter{Mur sud}
+
+\begin{bloc}{432}{01}
+  \tl{\lin{432}{01} }
+\end{bloc}
+
+% \begin{hierobox}
+% \end{hierobox}
+
+\begin{bloc}{432}{02}
+  \tl{\lin{432}{02} }
+\end{bloc}
+
+\begin{bloc}{432}{03}
+  \tl{\lin{432}{03} }
+\end{bloc}
+
+\begin{bloc}{432}{04}
+  \tl{\lin{432}{04} }
+\end{bloc}
+
+\begin{bloc}{432}{05}
+  \tl{\lin{432}{05} }
+\end{bloc}
+
+\begin{bloc}{432}{06}
+  \tl{\lin{432}{06} }
+\end{bloc}
+
+\begin{bloc}{432}{07}
+  \tl{\lin{432}{07} }
+\end{bloc}
+
+\begin{bloc}{432}{08}
+  \tl{\lin{432}{08} }
+\end{bloc}
+
+\begin{bloc}{432}{09}
+  \tl{\lin{432}{09} }
+\end{bloc}
+
+\begin{bloc}{432}{10}
+  \tl{\lin{432}{10} }
+\end{bloc}
+
+\begin{bloc}{432}{11}
+  \tl{\lin{432}{11} }
+\end{bloc}
+
+\begin{bloc}{432}{12}
+  \tl{\lin{432}{12} }
+\end{bloc}
+
+\begin{bloc}{432}{13}
+  \tl{\lin{432}{13} }
+\end{bloc}
+
+\begin{bloc}{432}{14}
+  \tl{\lin{432}{14} }
+\end{bloc}
+
+\begin{bloc}{432}{15}
+  \tl{\lin{432}{15} }
+\end{bloc}
+
+\begin{bloc}{432}{16}
+  \tl{\lin{432}{16} }
+\end{bloc}
+
+\begin{bloc}{433}{01}
+  \tl{\lin{433}{01} }
+\end{bloc}
+
+\begin{bloc}{433}{02}
+  \tl{\lin{433}{02} }
+\end{bloc}
+
+\begin{bloc}{433}{03}
+  \tl{\lin{433}{03} }
+\end{bloc}
+
+\begin{bloc}{433}{04}
+  \tl{\lin{433}{04} }
+\end{bloc}
+
+\begin{bloc}{433}{05}
+  \tl{\lin{433}{05} }
+\end{bloc}
+
+\begin{bloc}{433}{06}
+  \tl{\lin{433}{06} }
+\end{bloc}
+
+\begin{bloc}{433}{07}
+  \tl{\lin{433}{07} }
+\end{bloc}
+
+\begin{bloc}{433}{08}
+  \tl{\lin{433}{08} }
+\end{bloc}
+
+\begin{bloc}{433}{09}
+  \tl{\lin{433}{09} }
+\end{bloc}
+
+\begin{bloc}{433}{10}
+  \tl{\lin{433}{10} }
+\end{bloc}
+
+\begin{bloc}{433}{11}
+  \tl{\lin{433}{11} }
+\end{bloc}
+
+\begin{bloc}{433}{12}
+  \tl{\lin{433}{12} }
+\end{bloc}
+
+\begin{bloc}{433}{13}
+  \tl{\lin{433}{13} }
+\end{bloc}
+
+\begin{bloc}{433}{14}
+  \tl{\lin{433}{14} }
+\end{bloc}
+
+\begin{bloc}{433}{15}
+  \tl{\lin{433}{15} }
+\end{bloc}
+
+\begin{bloc}{433}{16}
+  \tl{\lin{433}{16} }
+\end{bloc}
+
+\begin{bloc}{434}{01}
+  \tl{\lin{434}{01} }
+\end{bloc}
+
+\begin{bloc}{434}{02}
+  \tl{\lin{434}{02} }
+\end{bloc}
+
+\begin{bloc}{434}{03}
+  \tl{\lin{434}{03} }
+\end{bloc}
+
+\begin{bloc}{434}{04}
+  \tl{\lin{434}{04} }
+\end{bloc}
+
+\begin{bloc}{434}{05}
+  \tl{\lin{434}{05} }
+\end{bloc}
+
+\begin{bloc}{434}{06}
+  \tl{\lin{434}{06} }
+\end{bloc}
+
+\begin{bloc}{434}{07}
+  \tl{\lin{434}{07} }
+\end{bloc}
+
+\begin{bloc}{434}{08}
+  \tl{\lin{434}{08} }
+\end{bloc}
+
+\chapter{Fragments non localisés}
+
+\begin{bloc}{434}{11}
+  \tl{\lin{434}{11} }
+\end{bloc}
+
+\begin{bloc}{434}{12}
+  \tl{\lin{434}{12} }
+\end{bloc}
+
+\begin{bloc}{434}{13}
+  \tl{\lin{434}{13} }
+\end{bloc}
+
+\chapter{Victoire finale de Mosé devant la cour de justice}
+
+\section{Au-dessus des juges}
+
+\begin{bloc}{435}{02}
+  \tl{\lin{435}{02} }
+\end{bloc}
+
+\begin{bloc}{435}{03}
+  \tl{\lin{435}{03} }
+\end{bloc}
+
+\begin{bloc}{435}{04}
+  \tl{\lin{435}{04} }
+\end{bloc}
+
+\section{Au-dessus du scribe}
+
+\begin{bloc}{435}{05}
+  \tl{\lin{435}{05} }
+\end{bloc}
+
+\begin{bloc}{435}{06}
+  \tl{\lin{435}{06} }
+\end{bloc}
+
+\begin{bloc}{435}{07}
+  \tl{\lin{435}{07} }
+\end{bloc}
+
+\begin{bloc}{435}{08}
+  \tl{\lin{435}{08} }
+\end{bloc}
+
+\chapter{Texte Au-dessus de la cour de justice}
+
+\begin{bloc}{435}{12}
+  \tl{\lin{435}{12} }
+\end{bloc}
+
+\begin{bloc}{435}{13}
+  \tl{\lin{435}{13} }
+\end{bloc}
+
+\begin{bloc}{435}{14}
+  \tl{\lin{435}{14} }
+\end{bloc}
+
+\begin{bloc}{435}{15}
+  \tl{\lin{435}{15} }
+\end{bloc}
+
+\begin{bloc}{435}{16}
+  \tl{\lin{435}{16} }
+\end{bloc}
+
+
+
+
+
+
+
+
+% \include{Kheops_Grandet_Histoire_Chap0_Intro}
+% \include{Kheops_Grandet_Histoire_Chap1_PD}
+% \include{Kheops_Grandet_Histoire_Chap2_PT}
+% \include{Kheops_Grandet_Histoire_Chap3_AE}
+% \include{Kheops_Grandet_Histoire_Chap4_PPI}
+% \include{Kheops_Grandet_Histoire_Chap5_ME}
+% \include{Kheops_Grandet_Histoire_Chap6_DPI}
+% \include{Kheops_Grandet_Histoire_Chap7_NE_a}
+% \include{Kheops_Grandet_Histoire_Chap7_NE_b}
+% \include{Kheops_Grandet_Histoire_Chap7_NE_c}
+% \include{Kheops_Grandet_Histoire_Chap8_PO}
+
+\appendix
+
+% \appendixpage
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\appendixpagename}
+% \chapter*{\appendixpagename}
+
+% \book{\appendixpagename}
+% \book*{\appendixpagename}
+% \addcontentsline{toc}{book}{\appendixpagename}
+
+% \include{Kheops_Grandet_Histoire_KVTombs}
+% \include{Kheops_Grandet_Histoire_TT}
+% \include{Kheops_Grandet_Histoire_map}
+% \include{Kheops_Grandet_Histoire_ChronoDF}
+
+\backmatter
+\newpage
+\listoffigures
+% \listoftables
+
+\nocite{*}
+\printbibliography[heading=memoir,title=Bibliographie]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

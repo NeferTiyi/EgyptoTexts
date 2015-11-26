@@ -1,0 +1,381 @@
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage{landscape}
+\usepackage{nefertiyi}
+\usepackage{MesHieros}
+
+\renewcommand\rmdefault{ptm}
+%\renewcommand\multirowsetup{\centering}
+
+\title{Participes et Relatives}
+\author{Sonia Labetoulle}
+\date{\today}
+
+% Change dimensions a bit
+%\addtolength{\hoffset}{-2cm}
+\addtolength{\textwidth}{1.7cm}
+\addtolength{\voffset}{-1.3cm}
+\addtolength{\textheight}{0.8cm}
+%\setlength\ULdepth{.6pt}
+
+\setlength\tabcolsep{2pt}
+\setlength\fboxsep{0pt}
+\setlength\shadowsize{2pt}
+%\setlength\parindent{0pt}
+
+\newcommand\PR[1]{{\setlength\fboxsep{1pt}\fcolorbox{Orange}{white}{\rule{0pt}{7pt}#1}}}
+\newcommand\ag{\bgroup\markoverwith{\textcolor{MediumBlue}{\rule[-0.5ex]{2pt}{0.8pt}}}\ULon}
+\newcommand\pa{\bgroup\markoverwith{\textcolor{LightGreen}{\rule[-0.5ex]{2pt}{0.8pt}}}\ULon}
+\newcommand\ci{\bgroup\markoverwith{\textcolor{Bronze}{\rule[-0.5ex]{2pt}{0.8pt}}}\ULon}
+\newcommand\nw{\bgroup\markoverwith{\textcolor{red}{\rule[-0.5ex]{2pt}{0.8pt}}}\ULon}
+
+
+%\newcolumntype{M}[1]{>{\centering}m{#1}}
+\newcolumntype{M}[1]{>{\vspace{2pt}\centering}m{#1}<{\vspace{2pt}}}
+\renewcommand\tabularxcolumn[1]{M{#1}}
+
+\singlespace
+
+\makeatletter
+  \def\maketitle{
+    {\color{DarkBlue}
+    \shadowbox{%
+      \parbox{\textwidth}{%
+	\vspace*{10pt}%
+        \hspace*{\fill}{\textbf{\LARGE \@title}}\hspace*{\fill}%
+	\vspace*{8pt}%
+      }%
+    }}
+  }
+  \markright{\@title}
+\makeatother
+
+
+\begin{document}
+
+\maketitle
+
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace*{\fill}
+
+%\scriptsize
+\footnotesize
+%                                                     01                               02       03       04       05
+\begin{tabular*}{\textwidth}{|>{\columncolor{TblHdBg}}M{1.8cm}|>{\bfseries\columncolor{TblHdBg}}M{1.7cm}|M{8.1cm}|M{8.1cm}|M{8.1cm}|}
+
+%         12 345
+  \hhline{~~|---}
+    \multicolumn{2}{c|}{~}                                              &  % 01-02
+    \TblHd{Perfectif}                                                   &  % 03
+    \TblHd{Imperfectif}                                                 &  % 04
+    \TblHd{Prospectif}                                                     % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Actif}                                                       &  % 01 
+    Participe affirmatif                                                &  % 02 
+    \tl[black]{\ag{sS} \red{rd(w)} \pa{sSn} n bAk.t} \\ 
+        \ag{Le scribe} qui a donné \pa{le lotus} à la servante          &  % 03
+    \tl[black]{\ag{sS} \red{d\nw{d}(w)} \pa{sSn} n bAk.t} \\                   
+        \ag{Le scribe} qui donne \pa{le lotus} à la servante            &  % 04
+    \tl[black]{\ag{sS} \red{\nw{rd}ty=fy} \pa{sSn} n bAk.t} \\                 
+        \ag{Le scribe} qui donnera / donerait \pa{le lotus}                    
+        à la servante                                                      % 05
+  \tabularnewline
+
+%         1 2345
+  \hhline{~|----}
+                                                                        &  % 01 
+    Participe négatif                                                   &  % 02 
+    \tl[black]{\ag{sS} \red{tm(w) rd(w)} \pa{sSn} n bAk.t} \\ 
+        \ag{Le scribe} qui n'a pas donné \pa{le lotus} à la servante    &  % 03
+    \tl[black]{\ag{sS} \red{tm(w) rd(w)} \pa{sSn} n bAk.t} \\                  
+        \ag{Le scribe} qui ne donne pas \pa{le lotus} à la servante     &  % 04
+    \tl[black]{\ag{sS} \red{tmty=fy rd(w)} \pa{sSn} n bAk.t} \\                
+        \ag{Le scribe} qui ne donnera / donerait pas \pa{le lotus}             
+        à la servante                                                      % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Passif}                                                      &  % 01 
+    Participe affirmatif                                                &  % 02 
+    \tl[black]{\pa{sSn} \red{rd(w)} n bAk.t} \\ 
+        \pa{Le lotus} qui a été donné à la servante                     &  % 03
+    \tl[black]{\pa{sSn} \red{d\nw{d}(w)} n bAk.t} \\                           
+        \pa{Le lotus} qui est donné à la servante                       &  % 04
+    \tl[black]{\pa{sSn} \red{\nw{d}y} n bAk.t} \\                              
+        \pa{Le lotus} qui sera / serait donné à la servante                % 05
+  \tabularnewline
+
+%         1 2345
+  \hhline{~|----}
+                                                                        &  % 01 
+    Participe négatif                                                   &  % 02 
+    \tl[black]{\pa{sSn} \red{tm\nw{m}(w) rd(w)} n bAk.t} \\ 
+        \pa{Le lotus} qui n'a pas été donné à la servante               &  % 03
+    \tl[black]{\pa{sSn} \red{tm(w) rd(w)} n bAk.t} \\                          
+        \pa{Le lotus} qui n'est pas donné à la servante                 &  % 04
+    \tl[black]{\pa{sSn} \red{tmy rd(w)} n bAk.t} \\                            
+        \pa{Le lotus} qui ne sera / serait pas donné à la servante         % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Passif agentiel}                                             &  % 01 
+    Participe affirmatif                                                &  % 02 
+    \tl[black]{\pa{sSn} \red{rd(w)}\ag{\col n sS} n bAk.t} \\ 
+        \pa{Le lotus} que \ag{le scribe} a donné à la servante \\
+      \tl[black]{\pa{sSn} \red{rd(w)}\ag{\col n=f} n bAk.t} \\ 
+        \pa{Le lotus} qu'\ag{il} a donné à la servante                  &  % 03
+    \tl[black]{\pa{sSn} \red{d\nw{d}(w)} \ag{sS} n bAk.t} \\                   
+        \pa{Le lotus} que \ag{le scribe} donne à la servante \\
+      \tl[black]{\pa{sSn} \red{d\nw{d}(w)}\ag{=f} n bAk.t} \\                   
+        \pa{Le lotus} qu'\ag{il} donne à la servante                    &  % 04
+    \tl[black]{\pa{sSn} \red{\nw{d}y} \ag{sS} n bAk.t} \\                      
+        \pa{Le lotus} que \ag{le scribe} donnera / donerait à la servante \\
+      \tl[black]{\pa{sSn} \red{\nw{d}y}\ag{=f} n bAk.t} \\                      
+        \pa{Le lotus} qu'\ag{il} donnera / donerait à la servante          % 05
+  \tabularnewline
+
+%         1 2345
+  \hhline{~|----}
+                                                                        &  % 01 
+    Participe négatif                                                   &  % 02 
+    \tl[black]{\pa{sSn} \red{tm(w)}\ag{\col n} \red{rd(w)} \ag{sS} n bAk.t} \\ 
+        \pa{Le lotus} que \ag{le scribe} n'a pas donné à la servante \\
+      \tl[black]{\pa{sSn} \red{tm(w)}\ag{\col n}\ag{=f} \red{rd(w)} n bAk.t} \\ 
+        \pa{Le lotus} qu'\ag{il} n'a pas donné à la servante            &  % 03
+    \tl[black]{\pa{sSn} \red{tm(w)} \ag{sS} n bAk.t} \\                        
+        \pa{Le lotus} que \ag{le scribe} ne donne pas à la servante \\
+      \tl[black]{\pa{sSn} \red{tm(w)}\ag{=f} \red{rd(w)} n bAk.t} \\                        
+        \pa{Le lotus} qu'\ag{il} ne donne pas à la servante             &  % 04
+    \tl[black]{\pa{sSn} \red{tmy rd(w)} \ag{sS} n bAk.t} \\                    
+        \pa{Le lotus} que \ag{le scribe} ne donnera / donerait pas à la servante \\
+      \tl[black]{\pa{sSn} \red{tmy}\ag{=f} \red{rd(w)} n bAk.t} \\                    
+        \pa{Le lotus} qu'\ag{il} ne donnera / donerait as à la servante    % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Pseudo-passif}                                               &  % 01 
+    Participe affirmatif                                                &  % 02 
+    \tl[black]{\ci{bAk.t} \red{rd(w).t} n\PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à qui \pa{le lotus} a été donné                &  % 03
+    \tl[black]{\ci{bAk.t} \red{d\nw{d}(w).t} n\PR{=s} \pa{sSn}} \\             
+        \ci{La servante} à qui \pa{le lotus} est donné                  &  % 04
+    \tl[black]{\ci{bAk.t} \red{\nw{d}.tj} n\PR{=s} \pa{sSn}} \\                
+        \ci{La servante} à qui \pa{le lotus} sera / serait donné           % 05
+  \tabularnewline
+
+%         1 2345
+  \hhline{~|----}
+                                                                        &  % 01 
+    Participe négatif                                                   &  % 02 
+    \tl[black]{\ci{bAk.t} \red{tmm(w).t rd(w)} n\PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à qui \pa{le lotus} n'a pas été donné          &  % 03
+    \tl[black]{\ci{bAk.t} \red{tm(w).t rd(w)} n\PR{=s} \pa{sSn}} \\            
+        \ci{La servante} à qui \pa{le lotus} n'est pas donné            &  % 04
+    \tl[black]{\ci{bAk.t} \red{tm.tj rd(w)} n\PR{=s} \pa{sSn}} \\              
+        \ci{La servante} à qui \pa{le lotus} ne sera / serait pas donné    % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Pseudo-passif agentiel}                                      &  % 01 
+    Participe affirmatif                                                &  % 02 
+    \tl[black]{\ci{bAk.t} \red{rd(w).t}\ag{\col n} n\PR{=s} \ag{sS} \pa{sSn}} \\ 
+        \ci{La servante} à qui \ag{le scribe} a donné \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{rd(w).t}\ag{\col n=f} n\PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à qui \ag{il} a donné \pa{le lotus}            &  % 03
+    \tl[black]{\ci{bAk.t} \red{d\nw{d}(w).t} n\PR{=s} \ag{sS} \pa{sSn}} \\     
+        \ci{La servante} à qui \ag{le scribe} donne \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{d\nw{d}(w).t}\ag{=f} n\PR{=s} \pa{sSn}} \\     
+        \ci{La servante} à qui \ag{il} donne \pa{le lotus}              &  % 04
+    \tl[black]{\ci{bAk.t} \red{\nw{d}.tj} n\PR{=s} \ag{sS} \pa{sSn}} \\        
+        \ci{La servante} à qui \ag{le scribe} donnera / donerait \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{\nw{d}.tj}\ag{=f} n\PR{=s} \pa{sSn}} \\        
+        \ci{La servante} à qui \ag{il} donnera / donerait \pa{le lotus}    % 05
+  \tabularnewline
+
+%         1 2345
+  \hhline{~|----}
+                                                                        &  % 01 
+    Participe négatif                                                   &  % 02 
+    \tl[black]{\ci{bAk.t} \red{tm(w).t}\ag{\col n} \red{rd(w)} n\PR{=s} \ag{sS} \pa{sSn}} \\ 
+        \ci{La servante} à qui \ag{le scribe} n'a pas donné \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{tm(w).t}\ag{\col n=f} \red{rd(w)} n\PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à qui \ag{il} n'a pas donné \pa{le lotus}      &  % 03
+    \tl[black]{\ci{bAk.t} \red{tm(w).t rd(w)} n\PR{=s} \ag{sS} \pa{sSn}} \\    
+        \ci{La servante} à qui \ag{le scribe} ne donne pas \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{tm(w).t}\ag{=f} \red{rd(w)} n\PR{=s} \pa{sSn}} \\    
+        \ci{La servante} à qui \ag{il} ne donne pas \pa{le lotus}       &  % 04
+    \tl[black]{\ci{bAk.t} \red{tm.tj rd(w)} n\PR{=s} \ag{sS} \pa{sSn}} \\      
+        \ci{La servante} à qui \ag{le scribe} ne donnera / donerait pas \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{tm.tj}\ag{=f} \red{rd(w)} n\PR{=s} \pa{sSn}} \\      
+        \ci{La servante} à qui \ag{il} ne donnera / donerait pas 
+        \pa{le lotus}                                                       % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+\end{tabular*}
+
+\vspace{\fill}
+
+\ag{Agent} \hspace{\fill} \pa{Patient} \hspace{\fill} \ci{Circonstant} 
+\hspace{\fill} \PR{Pronom de rappel} \hspace{\fill} \nw{Particularité}
+
+
+\newpage\title{Relatives}\maketitle
+
+
+\vspace{\fill}
+
+%                                                     01                               02       03       04       05
+\begin{tabular*}{\textwidth}{|>{\columncolor{TblHdBg}}M{1.8cm}|>{\bfseries\columncolor{TblHdBg}}M{1.7cm}|M{8.1cm}|M{8.1cm}|M{8.1cm}|}
+
+%         12 345
+  \hhline{~~|---}
+    \multicolumn{2}{c|}{~}                                              &  % 01-02
+    \TblHd{Perfectif}                                                   &  % 03
+    \TblHd{Imperfectif}                                                 &  % 04
+    \TblHd{Prospectif}                                                     % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Actif}                                                       &  % 01 
+    Affirmatif                                                          &  % 02 
+    \tl[black]{\ag{sS} \red{nty} rd\col n=f \pa{sSn} n bAk.t} \\ 
+        \ag{Le scribe} qui a donné \pa{le lotus} à la servante          &  % 03
+    \tl[black]{\ag{sS} \red{nty} Hr rd.t \pa{sSn} n bAk.t} \\ 
+        \ag{Le scribe} qui donne \pa{le lotus} à la servante            &  % 04
+    \tl[black]{\ag{sS} \red{nty} r rd.t \pa{sSn} n bAk.t} \\ 
+        \ag{Le scribe} qui va donner \pa{le lotus} à la servante           % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+                                                                        &  % 01 
+    Négatif                                                             &  % 02 
+    \tl[black]{} \\                                                     &  % 03
+    \tl[black]{} \\                                                     &  % 04
+    \tl[black]{} \\                                                        % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Passif}                                                      &  % 01 
+    Affirmatif                                                          &  % 02 
+    \tl[black]{\pa{sSn} \red{nty} rd(=w) n bAk.t} \\ 
+        \pa{le lotus} qu'on a donné à la servante                       &  % 03
+    \tl[black]{\pa{sSn} \red{nty} tw Hr rd.t\PR{=f} n bAk.t} \\ 
+        \pa{le lotus} qu'on donne à la servante                         &  % 04
+    \tl[black]{\pa{sSn} \red{nty} tw r rd.t\PR{=f} n bAk.t} \\ 
+        \pa{le lotus} qu'on va donner à la servante                        % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+                                                                        &  % 01 
+    Négatif                                                             &  % 02 
+    \tl[black]{} \\                                                     &  % 03
+    \tl[black]{} \\                                                     &  % 04
+    \tl[black]{} \\                                                        % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Passif agentiel}                                             &  % 01 
+    Affirmatif                                                          &  % 02 
+    \tl[black]{\pa{sSn} \red{nty} d\col n \PR{sw} \ag{sS} n bAk.t} \\ 
+        \pa{Le lotus} que \ag{le scribe} a donné à la servante \\
+      \tl[black]{\pa{sSn} \red{nty} d\col n\ag{=f} \PR{sw} n bAk.t} \\ 
+        \pa{Le lotus} qu'\ag{il} a donné à la servante                  &  % 03
+    \tl[black]{\pa{sSn} \red{nty} \ag{sS} Hr rd.t\PR{=f} n bAk.t} \\ 
+        \pa{Le lotus} que \ag{le scribe} donne à la servante \\
+      \tl[black]{\pa{sSn} \red{nty} \ag{sw} Hr rd.t\PR{=f} n bAk.t} \\ 
+        \pa{Le lotus} qu'\ag{il} donne à la servante                    &  % 04
+    \tl[black]{\pa{sSn} \red{nty} \ag{sS} r rd.t\PR{=f} n bAk.t} \\ 
+        \pa{Le lotus} que \ag{le scribe} donnera / donerait à la servante \\
+      \tl[black]{\pa{sSn} \red{nty} \ag{sw} r rd.t\PR{=f} n bAk.t} \\ 
+        \pa{Le lotus} qu'\ag{il} donnera / donerait                    
+        à la servante                                                      % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+                                                                        &  % 01 
+    Négatif                                                             &  % 02 
+    \tl[black]{} \\                                                     &  % 03
+    \tl[black]{} \\                                                     &  % 04
+    \tl[black]{} \\                                                        % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Pseudo-passif}                                               &  % 01 
+    Affirmatif                                                          &  % 02 
+    \tl[black]{\ci{bAk.t} \red{nt(y).t} rd(=w) n\PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à laquelle \pa{le lotus} a été donné           &  % 03
+    \tl[black]{\ci{bAk.t} \red{nt(y).t} tw Hr rd.t n \PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à laquelle \pa{le lotus} est donné             &  % 04
+    \tl[black]{\ci{bAk.t} \red{nt(y).t} tw r rd.t n\PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à laquelle \pa{le lotus} sera / serait donné      % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+                                                                        &  % 01 
+    Négatif                                                             &  % 02 
+    \tl[black]{} \\                                                     &  % 03
+    \tl[black]{} \\                                                     &  % 04
+    \tl[black]{} \\                                                        % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+    \TblHd{Pseudo-passif agentiel}                                      &  % 01 
+    Affirmatif                                                          &  % 02 
+    \tl[black]{\ci{bAk.t} \red{nt(y).t} d\col n n\PR{=s} \ag{sS} \pa{sSn}} \\ 
+        \ci{La servante} à laquelle \ag{le scribe} a donné 
+        \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{nt(y).t} d\col n\ag{=f} n\PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à laquelle \ag{il} a donné \pa{le lotus}       &  % 03
+    \tl[black]{\ci{bAk.t} \red{nt(y).t} \ag{sS} Hr rd.t n \PR{=s} \pa{sSn}} \\
+        \ci{La servante} à laquelle \ag{le scribe} donne \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{nt(y).t} \ag{sw} Hr rd.t n \PR{=s} \pa{sSn}} \\ 
+        \ci{La servante} à laquelle \ag{il} donne \pa{le lotus}         &  % 04
+    \tl[black]{\ci{bAk.t} \red{nt(y).t} \ag{sS} r rd.t n\PR{=s} \ag{sS} \pa{sSn}} \\ 
+        \ci{La servante} à laquelle \ag{le scribe} donnera / donerait               
+        \pa{le lotus} \\
+      \tl[black]{\ci{bAk.t} \red{nt(y).t} \ag{sw} r rd.t n\PR{=s} \ag{sS} \pa{sSn}} \\ 
+        \ci{La servante} à laquelle \ag{il} donnera / donerait               
+        \pa{le lotus}                                                      % 05
+  \tabularnewline
+
+%         1 2345
+  \hhline{~|----}
+                                                                        &  % 01 
+    Négatif                                                             &  % 02 
+    \tl[black]{} \\                                                     &  % 03
+    \tl[black]{} \\                                                     &  % 04
+    \tl[black]{} \\                                                        % 05
+  \tabularnewline
+
+%         12345
+  \hhline{-----}
+\end{tabular*}
+
+\vspace{\fill}
+
+\ag{Agent} \hspace{\fill} \pa{Patient} \hspace{\fill} \ci{Circonstant} 
+\hspace{\fill} \PR{Pronom de rappel} \hspace{\fill} \nw{Particularité}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

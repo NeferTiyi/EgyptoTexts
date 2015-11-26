@@ -1,0 +1,324 @@
+\documentclass[dvipsnames,a4paper,twoside,10pt,openany,oldfontcommands]{memoir}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{%
+  calc,
+  patterns,
+  arrows,
+  positioning,
+  shadows,
+  decorations.text
+}
+\usepackage{multicol}
+\usepackage{nefertiyi}
+\usepackage{neferhiero}
+
+% Numérotation des division et prise en compte dans la TOC
+\maxsecnumdepth{subsection}
+\maxtocdepth{subsection}
+
+\counterwithin{part}{book}
+\counterwithin{chapter}{book}
+%\counterwithout{chapter}{part}
+% \counterwithin{subsection}{section}
+% % \counterwithout{figure}{part}
+% \counterwithout{figure}{chapter}
+
+\renewcommand{\bookname}{Livre}
+
+% Apparence des numéros de divisions
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesubsection}{\alph{subsection})}
+
+% Indentation et largeur des numéros dans la TOC
+\cftsetindents{book}{\cftbookindent}{3.0em}
+\cftsetindents{part}{\cftpartindent}{2.6em}
+\cftsetindents{chapter}{\cftchapterindent}{1.8em}
+\cftsetindents{subsection}{\cftsubsectionindent}{1.4em}
+% Pointillés dans la TOC
+\renewcommand{\cftsectiondotsep}{9}
+\renewcommand{\cftsubsectiondotsep}{1}
+
+
+
+% Entry         Level        Standard        memoir class
+%                         indent numwidth   indent numwidth 
+% ---------------------------------------------------------
+% book             -2       —      —          0.0    —
+% part             -1       0.0    —          0.0    1.5 
+% chapter           0       0.0    1.5        0.0    1.5
+% section           1       1.5    2.3        1.5    2.3
+% subsection        2       3.8    3.2        3.8    3.2
+% subsubsection     3       7.0    4.1        7.0    4.1
+% paragraph         4      10.0    5.0       10.0    5.0
+% subparagraph      5      12.0    6.0       12.0    6.0
+% figure/table     (1)      1.5    2.3        0.0    1.5
+% subfigure/table  (2)      —      —          1.5    2.3
+
+
+% Macro               Default           Usage
+% ---------------------------------------------------------------------
+% \abstractname       Abstract          title for abstract environment
+% \alsoname           see also          used by \seealso
+% \amname             am                used in printing time of day
+% \appendixname       Appendix          name for an appendix heading
+% \appendixpagename   Appendices        name for an \appendixpage
+% \appendixtocname    Appendices        ToC entry announcing appendices
+% \bibname            Bibliography      title for \thebibliography
+% \bookname           Book              name for \book heading
+% \bookrefname        Book              used by \Bref
+% \chaptername        Chapter           name for \chapter heading
+% \chapterrefname     Chapter           used by \Cref
+% \contentsname       Contents          title for \tableofcontents
+% \figurename         Figure            name for ﬁgure \caption
+% \figurerefname      Figure            used by \fref
+% \glossaryname       Glossary          title for \theglossary
+% \indexname          Index             title for \theindex
+% \lcminusname        minus             used in named number formatting
+% \listfigurename     List of Figures   title for \listoffigugres
+% \listtablename      List of Tables    title for \listoftables
+% \minusname          minus             used in named number formatting
+% \namenumberand      and               used in named number formatting
+% \namenumbercomma    ,                 used in named number formatting
+% \notesname          Notes             title of \notedivision
+% \pagename           page              for your use
+% \pagerefname        page              used by \pref
+% \partname           Part              name for \part heading
+% \partrefname        Part              used by \Pref
+% \pmnane             pm                used in printing time of day
+% \sectionrefname     §                 used by \Sref
+% \seename            see               used by \see
+% \tablename          Table             name for table \caption
+% \tablerefname       Table             used by \tref
+% \ucminusname        Minus             used in named number formatting
+% ---------------------------------------------------------------------
+% \renewcommand{\partname}{Part}
+% \renewcommand{\partrefname}{Part~}
+% ---------------------------------------------------------------------
+% \newcommand*{\nNamexi}{\iflowertonumname e\else E\fi leven}
+\renewcommand{\bookrefname}{Livre~}
+\renewcommand{\partrefname}{Partie~}
+\renewcommand{\chapterrefname}{Chapitre~}
+
+\setpnumwidth{2.55em}
+\setrmarg{3.55em}
+
+\addtolength{\columnsep}{15pt}
+
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+
+\graphicspath{%
+  {../../../images/Kheops/Grandet/}%
+}
+
+\setfloatadjustment{figure}{\centerfloat}
+\setfloatadjustment{table}{\centerfloat}
+
+\newsubfloat{figure}
+
+\subcaptionfont{\sffamily}
+\subcaptionlabelfont{\bfseries\sffamily}
+
+\captionnamefont{\bfseries\sffamily}
+\captiontitlefont{\sffamily}
+\captiondelim{~-- }
+
+\newcommand{\CaptionNormal}{%
+  \captionwidth{0.75\linewidth}
+  \changecaptionwidth
+  \hangcaption
+}
+\newcommand{\CaptionPetit}{%
+  \normalcaptionwidth
+  \normalcaption
+}
+
+\setlength\fboxsep{0.5mm}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+\newcommand{\faitle}[1]{\hfill\emph{\smaller#1}}
+
+% Formattage
+% ==========
+\newcommand{\datation}[1]{{\normalfont\emph{#1}}}
+\newcommand{\musee}[1]{\emph{\textcolor{MidnightBlue}{#1}}}
+\newcommand{\inv}[1]{\emph{\textcolor{RawSienna}{#1}}}
+\newcommand{\infos}[1]{{\smaller#1}}
+\newcommand{\titre}[1]{{\sffamily#1}}
+\newcommand{\source}[1]{\emph{#1}}
+
+
+\makechapterstyle{monchap}{%
+  \renewcommand{\chapnamefont}{\raggedleft\normalfont\huge\scshape}
+  \renewcommand*{\chapnumfont}{\raggedleft\normalfont\Huge\scshape}
+  \renewcommand*{\chaptitlefont}{\raggedleft\normalfont\Huge\bfseries}
+  \renewcommand*{\afterchaptertitle}{%
+    {%
+      \par\nobreak\vskip 5pt
+      \par\offinterlineskip\hbox{%
+        \rule{\textwidth}{3pt}
+      }
+      \par\nobreak\vskip \afterchapskip
+    }
+  }
+}
+
+
+\definecolor{chaptercolor}{gray}{0.8}
+
+\newcommand{\numlifter}[1]{\raisebox{-2cm}[0pt][0pt]{\smash{#1}}}
+\newcommand{\numindent}{\kern37pt}
+\newlength{\chaptertitleboxheight}
+
+
+\chapterstyle{monchap}
+
+%======================================================================
+\title{La tombe royale au \MK}
+\short{La tombe royale au \MK}
+\subtitle{}
+\lecturer{\gens[Jean-Luc]{Fissolo}}
+\orga{l'\IK}
+\author{\SL}
+\date{19 et 26 mars 2013}
+
+\hypersetup{%
+  pdftitle  = {La tombe royale au \MK}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject
+% pdfcreator
+% pdfproducer
+% pdfkeywords
+
+%======================================================================
+
+
+\newlength{\drop}% for my convenience
+\makeatletter
+  % Redefine title page
+  \def\maketitle{%
+    \drop = 0.1\textheight
+    \vfill%
+    \hbox{%
+      \hspace*{0.2\textwidth}%
+      \rule{1pt}{\textheight}
+      \hspace*{0.05\textwidth}%
+      \parbox[b]{0.75\textwidth}{
+        \vbox{%
+          \vspace{\drop}
+          {\noindent\HUGE\bfseries \@title}\\[2\baselineskip]
+          {\Large\itshape \@subtitle}\\[4\baselineskip]
+          {\Large Cours de \textsf{\@orga} par\\[0.5\baselineskip] 
+                  \@lecturer}\par
+          \vspace{0.5\textheight}
+          {\noindent \@author}\\[\baselineskip]
+          {\small\itshape\today, \printtime}
+        }% end of vbox
+      }% end of parbox
+    }% end of hbox
+    \vfill%
+  }
+
+  % Redefnine headings
+%  \markboth{\@lecturer}{\@short}
+  \makepagestyle{ruled}
+  \makeevenhead{ruled}{\normalfont\itshape\@title}{}{\normalfont\itshape\leftmark}
+  \makeoddhead{ruled}{\normalfont\itshape\rightmark}{}{\normalfont\itshape\@lecturer}
+  \makeevenfoot{ruled}{}{\thepage}{}
+  \makeoddfoot{ruled}{}{\thepage}{}
+  \makeheadrule{ruled}{\textwidth}{\normalrulethickness}
+%  \makefootrule{ruled}{\textwidth}{\normalrulethickness}{1pt}
+
+
+  \renewcommand\@memfront@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memmain@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+  }
+  \renewcommand\@memback@floats{%
+    \counterwithout{figure}{chapter}
+    \counterwithout{table}{chapter}
+    \setcounter{figure}{0}
+    \setcounter{table}{0}
+  }
+
+
+\makeatother
+
+\makepsmarks{ruled}{%
+  \nouppercaseheads
+  \createmark{chapter}{left}{shownumber}{}{.\ }
+  \createmark{section}{right}{shownumber}{}{.\ }
+  \createplainmark{toc}{both}{\contentsname}
+  \createplainmark{lof}{both}{\listfigurename}
+  \createplainmark{lot}{both}{\listtablename}
+  \createplainmark{bib}{both}{\bibname}
+  \createplainmark{index}{both}{\indexname}
+  \createplainmark{glossary}{both}{\glossaryname}
+}
+
+\pagestyle{ruled}
+
+\addbibresource{../../../utils/Egypto.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\input{../../../utils/NeferBabel}
+
+\thispagestyle{empty}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Le monde des morts}
+%======================================================================
+
+La tombe royale au \MK s'inscrit dans une tradition. 
+
+À l'\OK, il y a deux façons de faire :
+\begin{itemize}
+  \item à la verticale ;
+  \item à l'horizontale (creusé dans la montagne).
+\end{itemize}
+
+\bigskip
+
+Le plus simple est de creuser un trou. Mais il faut assurer la survie 
+du défunt, ce qui nécessite :
+\begin{itemize}
+  \item arsenal magique : survie dans l'au-delà ;
+  \item traces visibles : survie dans la mémoire.
+\end{itemize}
+
+\bigskip
+
+Le mastaba sert aux vivants, ils y accomplissent les rites. Mais même 
+réciter le nom du défunt permet de le maintenir en vie.
+
+À la \dyn{iii} avec Netchérykhet, ça change : le mastaba s'agrandit.
+Plusieurs complexes s'ajoutent à la pyramide, un couloir souterrain 
+relie cette dernière et le tombeau sud.
+
+
+\chapter{Le monde des vivants}
+%======================================================================
+
+\chapter{chapter name}
+%======================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

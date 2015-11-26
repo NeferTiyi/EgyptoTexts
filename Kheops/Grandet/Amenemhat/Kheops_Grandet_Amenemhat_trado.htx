@@ -1,0 +1,622 @@
+%!TEX root = Kheops_Grandet_Amenemhat.htx
+%##HieroDef.txt
+
+
+\chapter{Traduction}
+%======================================================================
+
+\section{Titre (\S~I)}
+%----------------------------------------------------------------------
+
+Le paragraphe~I est le titre du texte. Il le caractérise comme 
+un testament politique.
+
+\subsection{Paragraphe~I}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_01}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.1/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+            at (0,\y) [left] {I\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~I, papyrus \source{Millingen}}
+  \label{fig:par01}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \ruber{HA.t-a m sbAy.t} \scansion%
+      jr(w).t\col n Hm n(y) (ny)-sw.t bjty %
+      \crtch{\%Htp(w)-jb-Ra} \scansion}
+
+  \tg{participe perfectif passif}
+
+  \td{Début de l'enseignement qui a été fait par la Majesté du roi 
+      de \HBE Séhétepibrê (\litt celui qui apaise le c{\oe}ur de Rê)}%
+
+  \tcblower
+
+  \tl{sbA} : c'est l'idée de guider, de chemin.
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{Ib} sA Ra \crtch{Jmn-m-HA.t} \scansion mAa-xrw \scansion}
+
+  \tg{}
+
+  \td{le fils de Rê Amenemhat (\litt Amon est en avant), à la voix 
+      juste}%
+
+  \tcblower
+
+  Amenemhat est le premier roi à avoir Amon dans son nom. Le dieu 
+  apparaît au \MK, mais les rois de la \dyn{xi} ont privilégié Montou, 
+  dieu de Médamoud où ils avaient un palais.
+
+  \tl{mAa-xrw} : le roi est défunt, c'est un enseignement 
+  d'outre-tombe.
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{Ic} Dd=f m wp.t mAa.t \scansion %
+      n sA=f (m) Nd-r-Dr \scansion}
+
+  \tg{prospectif séquentiel consécutif}
+
+  \td{voulant révéler oralement (\litt dire) la manière adéquate 
+      de se comporter pour son fils, en tant que \frquote{seigneur 
+      universel} (\litt jusqu'à la limite (du monde connu))}%
+
+  \tcblower
+
+  \tl{wp}, c'est l'idée de séparer, départager. Ça va avec l'idée de 
+  Maât et les procédures contradictoires. \tl{wp mAa.t}, c'est faire 
+  la part de Maât dans un jugement.
+
+  Ajout d'un \tl{(m)} assimilé au \tl{n} initial de \tl{Nb-r-Dr}. 
+  L'expression se rapporte alors au roi et non à son fils. Mort, il 
+  est assimilé à Rê.
+
+  Le roi d'\kmt, c'est un ornithorynque : il est inclassable, ni tout 
+  à fait homme, ni vraiment dieu. C'est un homme avec un attribut 
+  divin \oincise{la royauté}. Les textes égyptiens disent qu'il est 
+  le seul de son espèce.
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{Id} Dd=f (jw=f) xa(=w) m nTr \scansion}
+
+  \tg{prospectif, accompli séquentiel}
+
+  \td{voulant dire, après sa mort (\litt étant apparu comme un dieu),}%
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\og sDm n Dd.tj=j n=k \scansion %
+      n(y)-swty=k tA \scansion %
+      hoAy=k jdb.w \scansion %
+      \lgn{Ie} jr=k HA.w Hr nfr \scansion}
+
+  \tg{discours direct à l'impératif, et prospectifs consécutifs}
+
+  \td{\og écoute ce que je vais te dire, et tu seras roi du pays,
+      tu dirigeras les rives, et tu ajouteras un excédant aux biens.}%
+\end{hierobox}
+
+\begin{figure}[!h]
+  \includegraphics[scale=1.0]{Helck_Amenemhat_01a}
+  \caption{Paragraphe~I, fin}
+  \label{fig:par01a}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Mi\,20} [rnp.t sp] 5 Abd 4 pr.t}
+
+  \td{l'an 5, 4\ieme~mois de \emph{péret}}%
+
+  \tcbligne
+
+  \tl{\lgn{DM\,1175} grH}
+
+  \tg{Marquer une pause (didascalie)}%
+
+  \tcbligne
+
+  \tl{\lgn{BM\,5623} grH}
+
+  \tg{Marquer une pause (didascalie)}%
+\end{hierobox}
+
+\section{Première partie (\S~II à~V)}
+%----------------------------------------------------------------------
+
+Cette section est une suite de préceptes. En résumé : \emph{ne faire 
+confiance à personne, et surtout pas à ses proches}.
+
+\subsection{Paragraphe~II}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_02}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.1/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+            at (0,\y) [left] {II\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~II, papyrus \source{Millingen}}
+  \label{fig:par02}
+\end{figure}
+
+\begin{hierobox}[breakable]
+  \tl{\lgn{IIa} \ruber{sAq tw r "smd.t rf tm(w).t xpr(w)} \scansion 
+      \lgn{IIb} tmm(w).t rd(w) jb m sAH Hr.w=s \zero" \scansion}
+
+  \tg{impératif / citation avec participe négatif perfectif actif, 
+      PPN avec participe négatif perfectif passif}
+
+  \td{Garde-toi du précepte ``Comme c'est un groupe de serviteurs 
+      qui n'est pas encore advenu, c'est un groupe de personnes des 
+      complots de qui on ne s'est jamais préoccupé''}%
+
+  \tcblower
+
+  \begin{vocab}
+    \item [sAq] \td{se garder}, \td{se protéger}
+    \item [smd.t] groupe de gens au service d'un autre. 
+          Le terme est notamment employé à \DeM. Il pourrait dériver 
+          de \tl{s(y)-m-Dr.t}, \td{qui est dans la main}
+    \item [rdj jb m sA] \td{se préoccuper de \emph{qqch}} 
+          (\litt{} \td{placer le c{\oe}ur derrière \emph{qqch}})
+    \item [Hr] \td{projet}, \td{préparatif}
+  \end{vocab}
+
+  \tcbligne
+
+  Ce passage est généralement rendu comme \tl{sAq tw r smd.t {r=f} 
+  tm(w).t xpr(w)}, \td{Garde-toi d'un groupe de serviteurs qui n'est 
+  pas encore advenu}, mais ça ne tient pas compte 
+  de~\begin{hieroglyph}r:f\end{hieroglyph}.
+
+  À partir du \NK, \tl{=f} a parfois un sens neutre. Une piste 
+  consistait à faire de~\begin{hieroglyph}r:f\end{hieroglyph}, 
+  \tl{r=f} \td{à ce propos}, se rapportant au paragraphe qui précède. 
+  Mais il serait mal placé.
+
+  Ou alors \tl{smd.t} serait vu comme un masculin.
+
+  Finalement, on a placé \tl{rf} de sorte qu'il puisse être particule 
+  enclitique et jouer son rôle de marqueur de protase, rendu dans la 
+  traduction par \td{comme}.
+
+  \tcbligne
+
+  \begin{description}
+    \item [anaphore :] le fait qu'un pronom se réfère à quelque chose 
+          qui précède ;
+    \item [cataphore :] le fait qu'un pronom se réfère à quelque chose 
+          qui suit.
+  \end{description}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IId} +s-m t:k':n-D54 i-m s-n:3 m wa:a-W G37:k'-W-A1
+    +l\lgn{IId} +s-m mH:Y1 ib*1:k' m sn-A1 m r:x-Y1 
+    x:n-nm-m-s-A21-Y1:A1
+  \end{hieroglyph}
+
+  \tl{\lgn{IIc} m tkn(w) jm=sn / m waw \scansion 
+      \lgn{IId} m mH(w) jb=k m sn / m rx(w) xnms \scansion}
+
+  \tg{impératifs vétitifs}
+
+  \td{Ne sois pas proche d'eux, ne \saispas, ne fais pas confiance à 
+      un frère, ne reconnaît pas d'ami}%
+
+  \tcblower
+
+  \begin{vocab}
+    \item [tkn m] \td{être proche de \emph{qqn}}
+    \item [waj] \vi{3} \td{être seul}
+    \item [mH jb m] \vl{2} \td{faire confiance à \emph{qqn}} 
+          (\litt{} \td{remplir son c{\oe}ur avec \emph{qqn}})
+    \item [xnms] \td{ami}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{IIe} +s-m s-xpr-r-W n:k' aq-\!\!q\s2:.-D54-rmT 
+    nn km-m-Y1 i-r:y
+  \end{hieroglyph}
+
+  \tl{\lgn{IIe} m sxprw n=k ao.w nn (\zero wn=w) km jry \scansion}
+
+  \tg{impératif vétitif, }
+
+  \td{Ne fais pas advenir pour toi des intimes sans but approprié}%
+\end{hierobox}
+
+\subsection{Paragraphe~III}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_03}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.1/d, 0.35/c, 0.65/b, 0.9/a} 
+            at (0,\y) [left] {III\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~III, papyrus \source{Millingen}}
+  \label{fig:par03}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{IIIa} \ruber{sDr=k sAw n=k jb=k Ds=k} \scansion}
+
+  \tg{}
+
+  \td{}%
+
+  \tcblower
+
+  \begin{vocab}
+    \item [sAw] \vi{3} \td{se garder}, \td{surveiller}, 
+          \td{empêcher que}
+    \item [sAw] \td{gardien}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{IIIb} Hr nt(y).t nn wnn mr.w n s hrw n(y) kns.t 
+      \scansion}
+
+  \tg{}
+
+  \td{}%
+
+  \tcblower
+
+  \begin{vocab}
+    \item [kns.t] \td{trouble}, \td{misfortune}
+    \item [mr.w] \td{partisan}, \td{supporter}
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{IIIc} \scansion}
+
+  \tg{}
+
+  \td{}%
+
+  \tcblower
+
+  \begin{vocab}
+    \item [SwA] \td{poor}
+    \item [SwAw] \td{poor man}
+    \item [nmH] \vl{3} \td{be poor} ; \tl{m} \td{deprive of} ; 
+          \td{poverty}, \td{humility}
+    \item [nmH(y)] \td{orphan}, \td{private person}, \td{free man} of 
+          low degree
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \tl{\lgn{IIIa} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~IV}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_04}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.1/d, 0.35/c, 0.65/b, 0.9/a} 
+            at (0,\y) [left] {IV\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~IV, papyrus \source{Millingen}}
+  \label{fig:par04}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~V}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_05}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.09/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+            at (0,\y) [left] {V\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~V, papyrus \source{Millingen}}
+  \label{fig:par05}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\section{Deuxième partie (\S~VI à~VIII)}
+%----------------------------------------------------------------------
+
+Les paragraphes~VI à~VIII présentent des exemples des préceptes 
+définis précédemment, tirés de l'expérience personnelle d'Amenemhat.
+
+\subsection{Paragraphe~VI}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_06}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.05/f, 0.23/e, 0.4/d, 
+                              0.6/c, 0.75/b, 0.94/a} 
+            at (0,\y) [left] {VI\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~VI, papyrus \source{Millingen}}
+  \label{fig:par06}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~VII}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_07}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.05/f, 0.23/e, 0.4/d, 
+                              0.6/c, 0.75/b, 0.94/a} 
+            at (0,\y) [left] {VII\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~VII, papyrus \source{Millingen}}
+  \label{fig:par07}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~VIII}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_08}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.1/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+            at (0,\y) [left] {VIII\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~VIII, papyrus \source{Millingen}}
+  \label{fig:par08}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\section{Troisième partie (\S~IX à~XV)}
+%----------------------------------------------------------------------
+
+Cette dernière section tire les conséquences de ce qui précède : il 
+faut être prêt.
+
+\subsection{Paragraphe~IX}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_09}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.05/f, 0.23/e, 0.4/d, 
+                              0.6/c, 0.75/b, 0.94/a} 
+            at (0,\y) [left] {IX\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~IX, papyrus \source{Millingen}}
+  \label{fig:par09}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~X}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_10}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.15/c, 0.5/b, 0.85/a} 
+            at (0,\y) [left] {X\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~X, papyrus \source{Millingen}}
+  \label{fig:par10}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~XI}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_11}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.15/c, 0.5/b, 0.85/a} 
+            at (0,\y) [left] {XI\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~XI, papyrus \source{Millingen}}
+  \label{fig:par11}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~XII}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_12}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.15/c, 0.5/b, 0.85/a} 
+            at (0,\y) [left] [left] {XII\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~XII, papyrus \source{Millingen}}
+  \label{fig:par12}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~XIII}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_13}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.15/c, 0.5/b, 0.85/a} 
+            at (0,\y) [left] {XIII\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~XIII, papyrus \source{Millingen}}
+  \label{fig:par13}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~XIV}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_14}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.1/d, 0.35/c, 0.65/b, 0.9/a} 
+            at (0,\y) [left] {XIV\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~XIV, papyrus \source{Millingen}}
+  \label{fig:par14}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+
+\subsection{Paragraphe~XV}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{figure}[!h]
+  \begin{tikzpicture}
+    \node [anchor=south west, inner sep=0] (image) at (0,0) 
+          {\includegraphics[scale=1.0]{Helck_Amenemhat_15}} ;
+    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+      \node foreach \y/\l in {0.1/e, 0.3/d, 0.5/c, 0.7/b, 0.9/a} 
+            at (0,\y) [left] {XV\l} ;
+    \end{scope}
+  \end{tikzpicture}
+  \caption{Paragraphe~XV, papyrus \source{Millingen}}
+  \label{fig:par15}
+\end{figure}
+
+\begin{hierobox}
+  \tl{\lgn{Ia} \scansion}
+
+  \tg{}
+
+  \td{}%
+\end{hierobox}
+

@@ -1,0 +1,1816 @@
+\documentclass[%
+  % draft, %
+  ngerman, %
+  dvipsnames, %
+  svgnames, %
+  a4paper, %
+  twoside, %
+  10pt, %
+  openany, %
+  % oldfontcommands, %
+  article, %
+]{memoir}
+
+\usepackage[firstpage=true,angle=0, opacity=1]{background}
+\usepackage{pdfpages}
+% \usepackage{nefermemoir}
+\usepackage{neferkheops}
+\usepackage{nefertiyi}
+\usepackage[hiero]{neferegypto}
+
+\usetikzlibrary{%
+  backgrounds,
+  shadows,
+  % calc,
+  % patterns,
+  % arrows,
+  % positioning,
+  % decorations.text
+}
+
+\settypeblocksize{22cm}{15cm}{*}
+\setulmargins{*}{*}{1}
+\setlrmargins{*}{*}{1.3}
+% \setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{5\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\checkandfixthelayout
+
+\newcommand{\DirUtils}{../../../../utils}
+\newcommand{\DirImage}{../../../../images}
+
+\graphicspath{%
+  % {\DirUtils/}%
+  {\DirImage/Kheops/Grandet/Khakheperreseneb/}%
+}
+
+\maxtocdepth{subsection}
+
+\sideparmargin{outer}
+
+% \setlength{\parindent}{0pt}
+\setlength\fboxsep{0.5mm}
+\addtolength{\columnsep}{15pt}
+%\setlength\tabcolsep{0mm}
+%\setlength\parskip{1.0\baselineskip}
+
+\frenchbsetup{ReduceListSpacing=false,StandardItemizeEnv}
+
+\newcommand{\dk}[1]{\foreignlanguage{ngerman}{#1}}
+\newcommand{\uk}[1]{\foreignlanguage{english}{#1}}
+
+
+\input{\DirUtils/ChapterStyles}
+% \input{\DirUtils/TitlepageKheops}
+% \input{\DirUtils/HeadingsKheops}
+
+\renewcommand{\appendixpagename}{Annexes}
+\renewcommand{\appendixtocname}{\appendixpagename}
+\renewcommand{\sectionrefname}{\S\,}
+
+\chapterstyle{souligne}
+% \chapterstyle{daleif3}
+% \chapterstyle{monchap}
+% \pagestyle{ruled}
+
+\addbibresource{\DirUtils/Hiero.bib}
+\setlength\bibitemsep{0.5\baselineskip}
+
+% \newcommand{\EASF}{%
+%   L'enseignement d'Amenemhat~I\ier à son fils\xspace%
+% }
+
+
+%======================================================================
+\title{Les lamentations de \mbox{Khâkhéperrêséneb}}
+\short{Les lamentations de Khâkhéperrêséneb}
+% \subtitle{de la Préhistoire au \NK}
+\subtitle{}
+\orga{Cours de \textsf{l'\IK} par}
+\lecturer{\PG}
+\author{Sonia~\bsc{Labetoulle}}
+\date{7 avril -- 2 juin 2015}
+
+\hypersetup{%
+  pdftitle  = {Les lamentations de Khâkhéperrêséneb}, 
+  pdfauthor = {Sonia Labetoulle}
+}
+% pdfsubject % pdfcreator % pdfproducer % pdfkeywords
+
+%======================================================================
+
+\backgroundsetup{%
+  contents = \includegraphics{EA5645_1},
+  position = {65,-120},
+  scale    = 0.15
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% \input{\DirUtils/NeferBabel}
+%##HieroDef.txt
+
+\thispagestyle{empty}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \DisplayHieroglyphs
+% \EnPetit{}
+\TextHieroglyphs
+\SmallerText
+
+\frontmatter
+\tableofcontents*
+
+\mainmatter
+
+
+\chapter[Introduction]{Introduction\faitle{07/04/2015}}
+%======================================================================
+
+Ce texte est connu par une source unique --~la tablette \inv{EA\,5645} 
+du \musee{\BM} (\fref{fig:EA5645})~-- et par un fragment d'ostracon 
+(\musee{Caire} \inv{JE\,50249}). La tablette daterait de l'époque de 
+la rédaction du titre, ce qui nous épargne les habituels problèmes 
+d'interprétations\dots
+
+L'utilisation d'une tablette pour un texte de ce type est étonnant : 
+ces supports servent en général à des textes d'écoliers, transitoires.
+
+La disposition du texte sur la tablette montre un découpage en quatre 
+parties plus un texte supplémentaire.
+
+\chapter{Traduction}
+%======================================================================
+
+\section{Première partie}
+%----------------------------------------------------------------------
+
+\begin{figure}[!h]
+  \includegraphics[width=0.75\textwidth]{EA5645_1}
+
+  \includegraphics[width=0.75\textwidth]{EA5645_2}
+  \caption{Tablette \infos{(\musee{\BM} \inv{EA\,5645})}}
+  \label{fig:EA5645}
+\end{figure}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{1}+s s-H-W-y-pA'-Y1:3 md-d:t-A2:3 qd-d:f-D51:D40 
+    Tz:z-W-Y1-A2-3 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{1} sHwy md.wt, odf Ts.w \scansion}
+
+  \tg{énoncés-titres}
+
+  \td{Collection d'expressions, recueil de belles phrases (bouquet 
+      de fleurs de rhétorique)}%
+
+  % \tcblower
+  % \tl{sbA} : c'est l'idée de guider, de chemin.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    D:\!\!\!a\s2-r-T14-D54 x:n-nw-W-pA'-A2:3 m H-H-y:D54 n ib-1
+    +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Dar xn.w m HHy n jb \scansion}
+
+  \tg{énoncé-titre}
+
+  \td{exploration de sentences à visée spirituelle (\litt étant une 
+      recherche pour le \emph{ib})}%
+
+  \tcblower
+  \indent\tl{m HHy\col n jb}, \td{étant ce que le \emph{ib} a 
+  recherché} n'est pas possible car le \emph{ib} n'est pas actif, 
+  c'est seulement un réceptacle d'influence. Cela élimine également 
+  \tl{m HHy n(y) jb}, \td{qui viennent de recherches par le \emph{ib}}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    ir:n wab-mw-A1:n iwn-nw:niwt +l\scansion +s z:n-X5:H8*A1 
+    ra-xa:a*Y1-xpr-r-s-n:b*W-Y1:A1 Dd'-W n:f anx-n:x-A1 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{jr(w)\col n wab n(y) Jwnw \scansion sA \%nj \#a-xpr-Ra-snb=w 
+      Ddw n=f anx=w \scansion}
+
+  \tg{\ppper agentiel}
+
+  \td{qu'a composé le prêtre \emph{ouab} d'Héliopolis, fils de 
+      Séni, Khâkhéperrêséneb \rem{(Sésostris est en bonne santé)} 
+      dit Ânkhou.}%
+
+  \tcblower
+  \indent Pour les Égyptiens, la parole est ailée, associée au 
+  \emph{ba}.
+
+  \tl{snb=w} est vocalisé \emph{sonbé}.
+
+  On a l'état civil complet de Khâkhéperrêséneb : patronyme + nom + 
+  surnom + lieu + profession.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+   +l\lgn{2}+s Dd'-f +l\scansion +s xA-A-A2 n:\!A1\s2 
+   x:n-nw-W-pA'-A2:3 x-m-m-y:Y1 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{2} Dd=f : \scansion \frquote{HA (wn) \zero n=j xn.w 
+      xmmy \ex} \scansion}
+
+  \tg{deux prospectifs, participe passif perfectif}
+
+  \td{\frquote{Que n'ai-je les sentences inouïes (\litt qu'on ne 
+      connaît pas) !}}%
+
+  \tcblower
+  \indent L'expression \tl{HA (wn) \zero n=j} évolue en néo-égyptien 
+  en \tl{HAnr}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Tz:z-W-Y1-A2-3 x-p-p-i-i-A2-3 +l\scansion +s m md-d:t-A2 mA-A-t:Y1 
+    t:tm-m:t-Z9:D54 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Ts.w xppy.w \scansion m md.t mA.t tmw.t swA(w) \scansion}
+
+  \tg{participe actif perfectif (ou imperfectif ?)}
+
+  \td{les phrases originales (\litt venues d'ailleurs) exprimées 
+      d'une manière nouvelle qui n'a jamais passé}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Sw-w:t-G37:3 m wHm-m-m-i-i-t-A2 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{(jw=s) Sw=t(j) m wHmm.yt \scansion}
+
+  \tg{accompli séquentiel}
+
+  \td{purgées de poncifs}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn Tz:z-Y1-A2 n zb-b-t:3 r-1-A2 +l\scansion 
+    \lgn{3}+s Dd'-t:n tp-p-W-a-1-A50 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{nn (\zero wn=w) Ts n(y) sb.t-r(A) \scansion 
+      \lgn{3} Dd(w).t\col n tp(y).w-a \scansion}
+
+  \tg{forme en \tl{nfr-Hr}}
+
+  \td{sans expression tenant à une manière de parler dépassée 
+      qu'employaient les ancêtres}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    s-XA:\!\!\!A\s1*k\s1-Y1-S28-A24-A1 X:\!\!\!t\s1*1\s1*A1\s2 
+    Hr-1 n:t*t i-m-s +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{sXAk=j X.t=j Hr nt(y).t jm=s \scansion}
+
+  \tg{prospectif}
+
+  \td{Que je filtre mon ventre de ce qu'il contient}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    m-f:x-V12:D54 n Dd'-A1 nb +l\scansion+s
+  \end{hieroglyph}
+
+  \begin{gramrule}%
+    \tl{m fx n(y)
+      \begin{possib}
+        Dd(w)\\
+        Dd(y)=j\\
+      \end{possib}
+       nb \scansion
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{
+      \begin{possib}
+        \paimp\\
+        \pppro agentiel\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{par la délivrance propre à 
+      \begin{possib}
+        quiconque parle\\
+        tout ce que je dirai\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Hr-1 n:t*t r:f wHm-m-W-A2 Dd'-d:t*1*1*1 +l\scansion+s
+    i-W Dd'-d*t*1*1*1 Dd' +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Hr-nt(y).t rf \zero wHm=w Dddw.t \scansion / 
+      jw Ddd.wt Dd(=w) \scansion}
+
+  \tg{causale en protase / apodose}
+
+  \td{Quand a été répété ce qui a déjà été dit, ce qui a été dit est 
+      redit}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn a:b*W-F16-A2 md-d:t-A2 imi-m-W-3-+l\lgn{4}+s-HAt:t*1-A50-3 
+    +l\scansion+s gm-m-i s imi-m-W:3 xt:x*t-D54-A1:3 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{nn (\zero wn=w) abw md.t jmy.w-\lgn{4}HA.t \scansion 
+      gmy s(.t) jmy.w-xt \scansion}
+
+  \tg{négation existentielle, prospectif consécutif}
+
+  \td{Il est inutile de singer (\litt adhérer à) la manière de 
+      parler de ceux qui précèdent de peur que ceux qui suivent 
+      ne le découvrent}%
+
+  \tcblower
+  \indent\tl{gmy} est écrit avec un seul 
+  \begin{hieroglyph}i\end{hieroglyph}, probablement par confusion avec 
+  le \begin{hieroglyph}s\end{hieroglyph} qui suit.
+\end{hierobox}
+
+
+\section{Deuxième partie}
+%----------------------------------------------------------------------
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{5}+s n' Dd' Dd'-A1 Dd' Dd'-t:f-y +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{5} n Dd Dd(w) Dd Dd.t(y)=fy \scansion}
+
+  \tg{négation de l'accompli / prospectif / \papro}
+
+  \td{Celui qui a parlé n'a pas parlé pour que parle celui qui doit 
+      parler}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    gm-m-i-i-k-i-i-A1 Dd'-ti-f +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{gmy ky Dd.tj=f \scansion}
+
+  \tg{prospectif, \pppro agentiel}
+
+  \td{ou qu'un autre trouve ce qu'il voudra dire.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    n' md-d:t-A2 n md-d:t-A2 Hr-1 Aa18-1 i-r:y +l\scansion+s 
+    ir:n-s-n:3 Dr:r-a-1 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{(j)n md=tw n md.t Hr-sA jry \scansion 
+      jr(w)\col n=sn Dr-a \scansion}
+
+  \tg{PPA argumentative interrogative avec sujet au prospectif}
+
+  \td{Doit-on ne s'exprimer que selon un moyen d'expression dépassé 
+      (\litt qui suit cela) en tirant argument du fait qu'ils l'ont 
+      fait depuis longtemps ?}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn md-d:t-A2-3 n:t*t k:\!A\s2-A2 s-Dd' s-1 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{nn md.t nt(y).t kA(=w) sDd s(.y) \scansion}
+
+  \tg{syntagme relatif, accompli}
+
+  \td{ce n'est pas une manière de s'exprimer dont il a été pensé la 
+      faire utiliser}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{6}+s H-H-y:D54 p-W r A-q:Z9*G37 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{6} HHy pw r Ao \scansion}
+
+  \tg{PPN, \tl[Gramm]{r} + infinitif}
+
+  \td{car ce serait rechercher en pure perte (\litt pour périr).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    g:r-grg-G37:3 p-W
+  \end{hieroglyph}
+
+  \tl{grg.w pw}
+
+  \tg{PPN}
+
+  \td{Ce serait des paroles inutiles.}%
+
+  \tcblower
+  \indent Au \MK, \tl{grg} est l'antonyme de \tl{mAa.t}, toujours 
+  des paroles. C'est la parole qui permet aux gens de pêcher contre 
+  les dieux (cf~le \LVdC), c'est une contestation de l'autorité.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    nn s-xA-A-A2-t:f-y +l\scansion+s 
+    r:n-A2-f n k:t-x:y-A1*B1:3 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{nn (\zero wn=w) shAt(y)=fy \scansion rn=f n ktx.w \scansion}
+
+  \tg{négation existentielle, \papro}
+
+  \td{Il n'y a personne qui rappellerait son nom à d'autres.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Dd'-n:\!\!A1\s2 nn' x:f*t U2:ir-A-n:\!\!A1\s2 +l\scansion+s 
+    SA-A-a:Y1 r X:t*1*A1 B1:3 tp-p:t nfr-f:r-i-i-t:Y1 
+    +l\lgn{7}+s r D54-W-D54:3 Hr-1 Aa18-1 +l\scansion+s 
+    z:n*y-N18:D54 s-n:3 r Z9:t-D54:3 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Dd\col n=j nn xft mA\col n=j \scansion 
+      SAa r X.t tp(y).t nfr.yt 
+      \lgn{7} r jww Hr sA \scansion
+      sny=sn r swA.wt \scansion}
+
+  \tg{argumentative / aoriste}
+
+  \td{Je n'ai dit cela que parce que, depuis le premier ventre 
+      jusqu'à ceux qui sont venus après, (tous) copient le passé 
+      (\litt passent vers le passage)}%
+
+  \tcblower
+  \indent\tl{SAa-r X.t tp(y).t nfr.yt-r jww Hr sA} est l'équivalent 
+  d'un nom, sujet d'un aoriste.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    HA-A-A2-A r:x-Y1:A1 x-\!m-nn:y k:y-w-y-A1*B1:3 +l\scansion+s 
+    m t:tm-m-m-t:Y1 wHm-m-t:Y1
+  \end{hieroglyph}
+
+  \tl{HA rx=j xm\col n\{y\} kywy.w \scansion m tmm(w).t wHm(w).t}
+
+  \tg{prospectif, accompli séquentiel / }
+
+  \td{Ah ! Puissé-je apprendre, alors que les autres ignorent, ce qui 
+      n'a jamais été dit auparavant}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Dd'-A1 s-t w-S-b-Z9-A2 n:\!\!A1\s2 ib-1-A1 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Dd=j s.t wSb n=j jb=j \scansion}
+
+  \tg{prospectifs}
+
+  \td{Que je le dise et que mon esprit me réponde !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    +l\lgn{8}+s s-HD-D:\!\!\!ra-A1 n:f r mn:n-G37:A1 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{8} sHD=j n=f r mn=j \scansion}
+
+  \tg{prospectif}
+
+  \td{Que je le guide (\litt rende lumineux pour lui (le chemin)) vers 
+      ma souffrance !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{05/05/2015}
+  \begin{hieroglyph}
+    w-i-in:n-D41:D40:A1 n:f A-t:p-w-A9-A24 
+    nty Hr-1 p:z-d-F37B-F51:\!A1\s2 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{wjn=j n=f Atpw nty Hr psd=j \scansion}
+
+  \tg{prospectif, syntagme relatif en PPA}
+
+  \td{Que j'écarte pour lui la charge qui est sur mon dos !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    x:n-nw-w-pA':D54-A2-3 m s-f:n-fnd-G37:n-w-A1 +l\scansion+s
+  \end{hieroglyph}
+
+  \begin{gramrule}%
+    \tl{%
+      xn.w m 
+      \begin{possib}
+        \zero sfn(w) nwj\\
+        sfn=\{nw\}j\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{%
+      \begin{possib}
+        \paimp\\
+        progressif\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{%
+      \begin{possib}
+        les poncifs sont ceux qui\\
+        alors que les poncifs\\
+      \end{possib}
+      me rendent faible
+    }%
+  \end{gramrule}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    s-Ss:r-A2-A1\s1:\!\!n-A1\s2:\!\!n-f mn:n*t-G37:3-A1 m:a-f 
+    +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{sSr=j n=f mn.t=j m-a=f \scansion}
+
+  \tg{prospectif}
+
+  \td{que je le débarrasse de (\litt j'essuie pour lui) la souffrance 
+      qu'il me cause}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Dd'-A1 i-H-A2 Hr-1 s-r:f-Q7-Y1:A1 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{9} Dd=j \frquote{jH} Hr srf=j \scansion}
+
+  \tg{prospectif}
+
+  \td{Que je dise \frquote{Aïe !} à cause de ma brûlure !}\\
+  $\equiv$\\
+  \td{Que je puisse exprimer ma douleur !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    N12:1*1 S:mw-ra 10\R90-10\R90 
+    1\R90:1\R90:1\R90:1\R90-1\R90:1\R90:1\R90:1\R90 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\ruber{Abd 2(-nw ny) Smw sw 28} \scansion}
+
+  \td{Deuxième mois de \emph{chémou}, le 28.}%
+\end{hierobox}
+
+
+\section{Troisième partie}
+%----------------------------------------------------------------------
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{10} jnk pw (jw=j) Hr nkAy m xprwt}
+
+  \tg{PPN, progressif, \paimp}
+
+  \td{C'est moi et je médite sur ce qui se produit.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{sxr.w xpr(=w) xt tA / xpr.w Hr xpr}
+
+  \tg{accompli / progressif}
+
+  \td{Des états de choses (déplorables) sont arrivés à travers le pays 
+      et des événements se produisent}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{nn \zero mj snf}
+
+  \tg{négation de PPA}
+
+  \td{et ce n'est pas comme l'année dernière}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\zero dns(=w) rnp.t r 2-nw.t=s}
+
+  \tg{accompli}
+
+  \td{Chaque année est pire qe l'autre (\litt l'année est plus lourde 
+      que sa deuxième)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\zero shA(=w) tA / (jw=f) xpr(=w) m HD(w) n=j}
+
+  \tg{protase et apodose à l'accompli}
+
+  \td{Ayant été abandonné, le pays est devenu un \frquote{cassé pour 
+      moi}}%
+
+  \tcblower
+  \indent
+  \begin{hieroglyph}HD-D:\!\!(Z9:\!G37\s2) n:\!A1\s2\end{hieroglyph} : 
+  c'est sûrement un mot-phrase, une proposition 
+  nominalisée. \tl{\zero HD\col n=j} \td{\frquote{un j'ai cassé}}, 
+  \tl{HD n=j} \td{\frquote{un cassé pour moi}} ?
+  Ou une variante \tl{HD.t-a} \td{\frquote{bras cassé}}, mais que 
+  faire dans ce cas du \tl{=j} ?
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{jr=w m Htpw}
+
+  \tg{accompli}
+
+  \td{transformé en un chose inerte (\litt quelque chose qui repose).}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{11} rd=tw MAa.t (r) rwty / jsf.t m-Xnw sH}
+
+  \tg{conditionnelle au prospectif ancien / PPA}
+
+  \td{Si on met \emph{Maât} dehors, \emph{Iséfet} siège au conseil.}%
+
+  \tcblower
+  \indent Ici \emph{Maât} et \emph{Iséfet} sont personnifiés, on 
+  peut donc les garder tels quels. Sinon, mieux vaut les traduire 
+  par \emph{ordre} et \emph{désordre}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Xnn=tw sxr.w nTr.w}
+
+  \tg{conditionnelle}
+
+  \td{Si on bouleverse les intentions des dieux, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{wnt=tw mXrw=sn}
+
+  \tg{conditionnelle}
+
+  \td{et qu'on abandonne leurs principes, }%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{wnn tA (m) sn\{t\}y-mn(.t)}
+
+  \tg{PPA sans lexème verbal}
+
+  \td{le pays sera dans un surcroît de souffrance}%
+
+  \tcblower
+  \indent le \tl{m} est assimilé au \tl{A} de \tl{tA}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{jrty.w m s.t nb.t}
+
+  \tg{PPA sans lexème verbal}
+
+  \td{et les lamentations partout,}%
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{12/05/2015}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{njw.wt \lgn{12} spA.wt m janw}
+
+  \tg{PPA sans lexème verbal}
+
+  \td{les villes et les provinces en deuil}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Hr-nb twt(=w) Xr jww}
+
+  \tg{accompli}
+
+  \td{tous (\litt chacun, réuni) seront accablés par le besoin}%
+
+  \tcblower
+  \indent\tl{Hr-nb twt(=w)} : c'est le même type de construction, avec 
+  un accompli séquentiel, que \tl{\Smaj maw MHw, dmD(=w)}, \td{\HBE 
+  réunies}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{(jr) Sf.yt, \zero rd=w sA r=s}
+
+  \tg{thématisation, accompli}
+
+  \td{Même la majesté sera ignorée (\litt La majesté, le dos sera 
+      tourné vers elle)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\zero tk=w nb.w-sr\{r\}j}
+
+  \tg{accompli}
+
+  \td{les seigneurs du silence seront agressés}\\
+  $\equiv$\\
+  \td{les tombes seront pillés}
+
+  \tcblower
+  \indent\begin{hieroglyph}A1:3\end{hieroglyph} est le déterminatif 
+  du mot composé.
+
+  \tl{tkk} \vg{2} : c'est en fait le même verbe que \tl{tkn} \vl{3} 
+  dont le \tl{n} est assimilé.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{(m wn) nhpw Hr xpr ra nb Hr tnbX(=w) r xpr(w).t}
+
+  \tg{accompli, \paper}
+
+  \td{le matin, chaque jour, le visage sera grimaçant (\litt devenu 
+      sauvage) à cause de ce qui se sera passé (pendant la nuit)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{d=j r(A) Hr=sn}
+
+  \tg{prospectif}
+
+  \td{je veux m'exprimer à ce propos}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{13} \zero Atp(=w) a.wt=j}
+
+  \tg{accompli}
+
+  \td{(car) surchargés sont mes membres !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\zero snnj(=w) wj Hr jb=j}
+
+  \tg{accompli}
+
+  \td{malade je suis, à cause de mon esprit !}%
+
+  \tcblower
+  \indent\tl{snnj} : c'est de la souffrance relevant d'un médecin 
+  (\tl{swnw} = \td{médecin})
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\zero wxd=w sw / \zero HAp(=w) X.t=j Hr=f}
+
+  \tg{accompli / accompli}
+
+  \td{il fonctionne mal (car) mes envies (?) lui sont cachées}%
+
+  \tcblower
+  \indent Le \emph{jb} ne peut pas réguler ce qui ne va pas s'il n'en 
+  a pas connaissance.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{ks(w) pw ky jb}
+
+  \tg{PPN}
+
+  \td{comme un autre esprit est une chose qui s'adapte}%
+
+  \tcblower
+  \indent On pourrait aussi envisager : \tl{\zero ks(=w) pw ky jb}, 
+  \td{cela signifie qu'un autre esprit est une chose respectueuse}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{jr jb on(=w) m s.t-ons.t / sn-nw pw n nb=f}
+
+  \tg{thématisation, PPN}
+
+  \td{un esprit courageux dans la difficulté est un compagnon pour son 
+      maître}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{HA n=j jb (jw=f) m rx(w) wxd}
+
+  \begin{gramrule}%
+    \tg{%
+      \begin{possib}
+        \paimp\\
+        \paper\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{%
+      Ah ! Si j'avais un \emph{ib} qui 
+      \begin{possib}
+        sache discerner\\
+        connaisse\\
+      \end{possib}
+      les causes de la souffrance !
+    }%
+  \end{gramrule}%
+
+  \tcblower
+  \indent Dans les textes médicaux, \tl{wxdw} est traduits par 
+  \td{agents pathogènes}.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{kA(=j) jry=j sxn.y Hr=f}
+
+  \tg{forme \tl[Gramm]{kA=f wnm=f}, infinitif de \vl{2}}
+
+  \td{j'en ferais un reposoir (\litt je voudrais faire un perchoir 
+      sur lui)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Atpw=j sw m md.t n(y).t mA\{r\}j}
+
+  \tg{prospectif}
+
+  \td{que je chargerais de paroles de détresse}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{dr=j n=f mn(.t)=j}
+
+  \tg{prospectif}
+
+  \td{je chasserais vers lui ma souffrance}%
+\end{hierobox}
+
+
+\section{Quatrième partie}
+%----------------------------------------------------------------------
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{1} Dd=f n jb=f : \frquote{mj m(j) jb=j mdw=j n=k}}
+
+  \tg{impératif, prospectif complétif}
+
+  \td{Il dit à son \emph{ib} : \frquote{Viens donc, mon \emph{ib}, 
+      que je te tienne des discours}}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{wSb=k n=j Ts.w=j}
+
+  \tg{prospectif, apposition d'une partie au tout (antéposition 
+      badale)}
+
+  \td{que tu réagisses à moi et es phrases}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{wHa=k n=j nA nty Xt tA}
+
+  \tg{prospectif}
+
+  \td{que tu m'expliques ce qui se passe à travers le pays.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{nty.w HD=w ptx=w}
+
+  \tg{accomplis}
+
+  \td{Les vivants (\litt ceux qui s'étaient levé tôt) sont des morts 
+      (\litt allongés)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{19/05/2015}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{jnk pw (jw=j) Hr nkAy m xpr.(w)t}
+
+  \tg{PPN, progressif séquentiel}
+
+  \td{C'est moi et je médite sur ce qui se passe.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{jhw bs(=w) \lgn{2} m mjn}
+
+  \tg{accompli}
+
+  \td{Les cris de deuil ont envahi le quotidien (\litt sont entrés 
+      dans aujourd'hui)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \begin{gramrule}%
+    \tl{%
+      nhpw.w n 
+      \begin{possib}
+        swA(=f) Dr Dr(ty).w\\
+        swA DrDr(y)w\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \tg{négation de l'accompli}
+
+  \begin{gramrule}%
+    \td{%
+      \begin{possib}
+        l'aube, elle n'est pas passée depuis les ancêtres (\litt ceux 
+        des origines\\
+        (car) à l'aube, les morts (\litt habitants des confins) ne 
+        sont pas passés\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \tcblower
+  \begin{vocab}
+    \item [DrDry.w] \td{étrangers}, \td{habitants des confins}
+    \item [nty.w-swA=w] \td{les trépassés}, = ceux qui sont passés 
+          de l'autre côté
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Hr-nb gr(=w) Hr=f}
+
+  \tg{accompli}
+
+  \td{chacun reste silencieux à cause d'eux}%
+
+  \tcblower
+  \indent On suppose que \tl{DrDrw} est un collectif et que \tl{=f} 
+  s'y rapporte.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{tA r-Dr=f m sxr aA}
+
+  \tg{PPA sans lexème verbal}
+
+  \td{le pays est dans un grand état de chose (déplorable)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{nn (\zero wn=w) X.t (jw=s) Sw=t(j) m jww}
+
+  \tg{négation existentielle, accompli séquentiel}
+
+  \td{il n'y a personne (\litt pas de ventre) qui soit exempt de 
+      disette}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{bw nb twt(=w) Hr jr.t s.t}
+
+  \tg{accompli, progressif}
+
+  \td{tous (\litt chacun, rassemblé) subissent (\litt font) cela}%
+
+  \tcblower
+  \indent Cf~\tl{jrj mAa.t} = \td{\emph{pratiquer} Maât} et non 
+  \td{\emph{fabriquer} Maât}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{HAty.w snm(=w)}
+
+  \tg{accompli}
+
+  \td{tous (\litt les c\oe urs) sont égarés}%
+
+  \tcblower
+  \begin{vocab}
+    \item [nmj] \td{errer} \begin{hieroglyph}D54\end{hieroglyph} /
+          \td{crier (prophète)} 
+          \begin{hieroglyph}A2\end{hieroglyph} : \\
+          \quad \flech{} \tl{tnm(j)} \td{se fourvoyer} 
+                \flech{} \tl{stnm(j)} \td{faire se fourvoyer} \\
+          \quad \flech{} \tl{nm(j)} \td{vagabonder} 
+                \flech{} \tl{snm(j)} \td{faire vagabonder}
+  \end{vocab}
+
+  \tcbligne
+
+  préfixe \tl{t} : action qui se fait d'elle-même ou sur soi-même.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{dd(w)-Hr \lgn{3} m ddw-n=f-Hr}
+
+  \tg{\paimp, \ppimp}
+
+  \td{celui qui prêtait attention \rem{(inférieur, subalterne)} est 
+      quelqu'un à qui on prête attention \rem{(supérieur, chef)}}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{jb n(y) sny hr(=w) dwA=tw r=s m Xr(y).t-hrw \scansion}
+
+  \tg{accompli / argumentative}
+
+  \td{Que l'esprit de deux personne soient en accord, voilà pourquoi 
+      on prie toute la journée !}%
+
+  \tcblower
+  \begin{vocab}
+    \item [hr] terme juridique, \td{être d'accord} pour un contrat 
+          (\tl{jw hr\col n=wyn})
+  \end{vocab}
+
+  \tcbligne
+
+  Poncif des autobiographies : \tl{rd\col n=j pr sn-wj jb=sn Htp=w}, 
+  \td{j'ai fait que les deux hommes sortent (du tribunal) le c\oe ur 
+  apaisé.}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{n wjn\col n s.t jb.w \scansion}
+
+  \tg{les esprits ne peuvent rejeter cela sur le côté}
+
+  \td{négation de l'aoriste}%
+
+  \tcblower
+  \begin{vocab}
+    \item [wjn] \td{rejeter sur les côtés}, c'est l'action de la 
+          barque sacrée \tl{wjA}.
+  \end{vocab}
+
+  \tcbligne
+
+  \indent$\equiv$ les esprits ne peuvent oublier la situation, la 
+  mettre entre parenthèses.
+
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Xry.t sf jm mj pA hrw \scansion}
+
+  \tg{PPA sans lexème verbal}
+
+  \td{la durée d'hier est de ce fait aussi longue que (celle) 
+      d'aujourd'hui (\litt ce jour)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \begin{gramrule}%
+    \tl{%
+      \begin{possib}
+        Hr sn(=w) r=s n aSA\\
+        Hr(-nty.t) \zero sn(=w) r=s n aSA\\
+      \end{possib}
+      \scansion
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{%
+      \begin{possib}
+        accompli\\
+        circonstancielle avec accompli\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{%
+      \begin{possib}
+        le visage a dépassé cela pour la multitude \rem{(bof !)}\\
+        parce que celle-ci équivaut à celle-là en quantité (\litt 
+        multitude) (?)\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \tcblower
+  \indent\tl{sn r jt.w=k tpy.w-a=k}, \td{dépasse tes pères et tes 
+  ancêtres}
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{26/05/2015}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{Hr D\{r\}j(=w) nn (\zero wn=w) aro(w) SsA=f \scansion}
+
+  \tg{accompli, négation existentielle, \paimp}
+
+  \td{le visage est fermé (car) il n'y a personne qui maîtrise 
+      (\litt fasse le tour de) son savoir}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\lgn{4} nn (\zero wn=w) Dnd(w) \scansion d=f r(A) \scansion}
+
+  \tg{négation existentielle, \paimp / aoriste séquentiel}
+
+  \td{il n'y a (même) pas de colérique qui donne de la voix}%
+
+  \tcblower
+  \indent\td{qui donne de la voix} $\equiv$ \td{qui s'extériorise}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{dwA=tw r wxdw rA nb \scansion}
+
+  \tg{argumentative}
+
+  \td{(comme) c'est pour supporter (souffrir) chaque jour que l'on 
+      prie}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{\zero Aw=w wdn{mn}=j \scansion}
+
+  \tg{accompli}
+
+  \td{longue est mon oppression}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{nn (\zero wn=w) pHty n mAj\{r\}(w) \{m a r=f\} \scansion
+      m a wsr(w) r=f \scansion}
+
+  \tg{négation existentielle / aoriste séquentiel}
+
+  \td{(d'autant qu')il n'y a pas pour le misérable de force qui le 
+      sauve de l'action d'un plus puissant que lui}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+  +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{xA.t pw gr r sDm(w).t \scansion}
+
+  \tg{PPN}
+
+  \td{(car) c'est une maladie que de se taire envers ce qu'on entend}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-h-G37 p-W W-S-b-Z9-A2 n x-m-D35:\!A1\s2 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{jh pw wSb n \lgn{5} xm(w) \scansion}
+
+  \tg{PPN}
+
+  \td{(mais comme) c'est un malheur (équivalent) que de répondre à 
+      un fou (\litt ignorant)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    HD#f-A24 x:n-pA':D54-A2 Hr-1 s-xpr-r r:q-W-D1:D54 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{xsf xn Hr sxpr row \scansion}
+
+  \tg{progressif}
+
+  \td{interdire l'expression provoque un déséquilibre}%
+
+  \tcblower
+  \begin{vocab}
+    \item [row] inclinaison du plateau de la balance dans la pesée de 
+          l'âme.
+  \end{vocab}
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    n' Ssp-p:D40 n ib-1 U5:a-t-Z5-Y1:3 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{n Ssp\col n jb MAa.t \scansion}
+
+  \tg{négation de l'aoriste}
+
+  \td{(et) l'esprit ne peut s'imprégner (\litt recevoir) Maât}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    n' W-x-d:Aa2-Y1:3-t-W s-mi-i-A2 n md-d:t-A2 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{n wxd=tw smj n(y) md.t \scansion}
+
+  \tg{négation ancienne du prospectif}
+
+  \td{(comme) on ne souffrira plus la répétition d'un discours}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    U2:r-A2 nb z:\!A1\s2*1 Tz:z-Y1-A2=f +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{mr(w) nb s Ts=f \zero \scansion}
+
+  \tg{PPA convertie en PPN, \pppro}
+
+  \td{(et que) tout ce que préférera un homme c'est sa propre parole}%
+\end{hierobox}
+
+\begin{hierobox}
+  \faitle{02/06/2015}
+  \begin{hieroglyph}
+    b-W nb:A1\s2*B1\s2-3 g:r grg Y1:3 Hr-1 XA:\!A\s1 b-b U2:U2
+    +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{bw nb grg(=w) Hr XAbb \scansion}
+
+  \tg{accompli}
+
+  \td{chacun sera établi sur des bases mouvantes (\litt tordues)}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    b-V15:t-D54 mt:t-T14-T14-Y1:3 md-d:t-A2-3 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{bT(=w) mty md.t\scansion}
+
+  \tg{accompli}
+
+  \td{la rectitude du discours sera abandonnée}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    Dd' A1 n:k +l\lgn{6}+s ib-1 A1 W-S-b-Z9-A2:k n:\!A1\s2
+    +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{(m) Dd=j n=k jb=j, wSb=k n=j \scansion}
+
+  \tg{protase / apodose}
+
+  \td{Quand je te parle, mon esprit, veuille me répondre !}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    n' g:r-A2 n ib-1 pH-D54 +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{n gr\col n jb pH(=w) \scansion}
+
+  \tg{négation de l'aoriste}
+
+  \td{Un esprit que l'on a sollicité (\litt atteint) n'a pas le droit 
+      de se taire}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    m:a:k Xr:r-t-Y1:3 bA:k-A1 mi-i nb:A1
+    +l\scansion+s
+  \end{hieroglyph}
+
+  \tl{mk Xr(y).t bAk mj nb\scansion}
+
+  \tg{PPA sans lexème verbal exclamative}
+
+  \td{Vois, le lot du serviteur est semblable (au lot du) maître}%
+
+  \tcblower
+  \indent Le maître et le serviteur sont le narrateur et son 
+  \emph{ib}, leurs destins sont liés.
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    aSA:t*1*1*1-W d:n-U32-O39 Hr:r 1:k
+    +l\scansion+s
+  \end{hieroglyph}
+
+  \begin{gramrule}%
+    \tl{%
+      \begin{possib}
+        \zero aSA\{t\} wdn(=w)\\
+        aSAw.t wdn\\
+      \end{possib}
+       Hr=k \scansion
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \tg{%
+      \begin{possib}
+        accompli\\
+        ?\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+
+  \begin{gramrule}%
+    \td{%
+      \begin{possib}
+        nombreuses sont les choses qui t'oppressent\\
+        de nombreuses choses t'oppressent\\
+      \end{possib}
+    }%
+  \end{gramrule}%
+\end{hierobox}
+
+
+\section{Texte supplémentaire}
+%----------------------------------------------------------------------
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-m-m:a ini n:t*W n:\!A1\s2 X1:X2-N18:3 n s w:t N33:3 Dd' Aa2 A24 
+    n i w:t f F51:3 ini-n:n:t*1*1*1 nb:t m M8:N23-1-!
+  \end{hieroglyph}
+
+  \tl{jm jnt=(t)w n=j t n(y) sw.t, Dd(A) n(y) jw\{t\}f, jnnw.t nb.t 
+      m SA}
+
+  \tg{impératif de verbe opérateur + CO au prospectif complétif}
+
+  \td{Procure-moi (\litt Fais qu'on aille me chercher) du pain de blé, 
+      du gras de viande et tout autre produit de la campagne.}%
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-m-m:a ini-n:t*W n:\!A1\s2 HAt:t*1-f \!m U2:A-i-F27-1-F27-1 
+    pH-f:y m U1-A-i-F27-1 Hr-1-y:ib-f m nty m s-\!b-n:K5:D54 n
+    U7:r i-i-t:N23-1 
+  \end{hieroglyph}
+
+  \tl{jm jnt=(t)w n=j HA.t=f m mAj, pH(.wy)=fy m mAj, 
+      Hry-jb=f m nty m sbn(w) n mry.t}
+
+  \tg{impératif de verbe opérateur + CO au prospectif complétif}
+
+  \td{Procure-moi son avant sous la forme d'un (avant de) lion, 
+      son arrière sous la forme d'un (arrière de) lion, sa partie 
+      centrale sous la forme de (la partie centrale de) ce qui dérive 
+      vers la rive.}%
+
+  \tcblower
+  \indent À quoi le \tl{=f} se rapporte t-il ? L'\kmt ? Un texte ?
+  Est-ce une blague sur le colophon ?
+\end{hierobox}
+
+\begin{hierobox}
+  \begin{hieroglyph}
+    i-r t:k-n:D54 nb Hr:r-1 f n:s*b-Y1 ib-1 Hr:r-1 f
+  \end{hieroglyph}
+
+  \tl{jr tkn(w) nb Hr=f, snb(=w) jb Hr=f}
+
+  \tg{\paimp en thématisation, accompli}
+
+  \td{Quiconque l'approche, son esprit en est guérit}%
+\end{hierobox}
+
+
+\appendix
+\appendixpage
+
+% \chapter[Extrait de la publication de \bsc{Helck}]
+%         {Extrait de la publication de \bsc{Helck} \autocite{Helck}}
+% \label{sec:pdf}
+
+% Voir pages suivantes.
+
+% \includepdf[pages=1, frame, noautoscale, scale=0.85,
+%             pagecommand={\pagestyle{ruled}}]
+%            {Helck_Lehre_Amenemhat}
+
+\backmatter
+\newpage
+
+\listoffigures
+
+\nocite{EG, Faulkner, GM, Hannig, TLA}
+\printbibliography[heading=memoir,title=Bibliographie]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
+    Object type
+        writing-tablet term details
+    Museum number
+
+    EA5645
+    Description
+
+    Rectangular white stuccoed and painted wooden writing-board with a hole pierced in one side; inscribed with the Sayings of Khakheperraseneb.
+    Culture/period
+        18th Dynasty (early to mid) term details
+    Findspot
+        Found/Acquired: Egypt term details
+        (Africa,Egypt)
+    Materials
+        wood
+        stucco term details
+    Technique
+        pierced
+        painted term details
+    Dimensions
+        Height: 30.1 centimetres
+        Depth: 55.7 centimetres
+        Width: 0.8 centimetres
+        Weight: 1.1 kilograms
+    Inscriptions
+            Inscription Type
+            inscription
+            Inscription Script
+            Hieratic
+            Inscription Position
+            recto and verso
+            Inscription Translation
+            Titles/epithets include : Pure-Priest of Heliopolis
+            Full text:
+            r.1 The collection of words, the gathering of verses,
+            the seeking of utterances with heart-searching,
+            made by the priest of Heliopolis,
+            Seni’s son Khakheperreseneb,
+            called Ankhu.
+            He says, `If only I had unknown utterances
+            and extraordinary verses,
+            in a new language that does not pass away,
+            free from repetition,
+            without a verse of worn-out speech
+            spoken by the ancestors!
+            I shall wring my body for what is in it,
+            - a release of all my speech.
+            For what is already said can only be repeated;
+            what is said once has been said;
+            this is no vain boast of the ancients’ speech
+            that those who are later should find it good.
+
+            r.5 No speaker has now spoken yet - may one who will speak now speak
+            and another find what he will speak good!
+            No one has now spoken yet for a matter spoken afterwards,
+            as they have done long before.
+            Here is no speaking what is only planned to be said:
+            this is searching after ruin, this is falsehood -
+            there is none who will remember his name to others!
+            I have said these things as I have seen them;
+            from the first generation until those who come after,
+            they are now like what has passed away.
+            If only I knew what was unknown to others,
+            what is still unrepeated.
+            I would speak this and then my heart would answer me;
+            and I would enlighten it about my anguish.
+            I would unload onto it the weight which is on my back,
+            the utterances that make me helpless.
+            I would announce to it the anguish I feel because of it.
+            I would say "Ah!" on account of my relief.
+
+            r.10 I am meditating on what has happened,
+            the state of things that have happened throughout the land;
+            changes are happening - it is not like last year.
+            Each year is more burdensome than its fellow.
+            The land is in uproar, has become what destroys me,
+            has been made into what rests in peace.
+            Truth is put outside,
+            Chaos within the council.
+            The counsels of the Gods are thrown into tumult,
+            and Their directives are neglected.
+            The land is <in> calamity,
+            mourning in every place,
+            towns and districts in woe,
+            and everyone alike is wronged.
+            The back is turned on reverence;
+            the Lords of Silence are violated;
+            morning still happens every day,
+            but the face shrinks from what happens.
+            I shall give voice to these things, for my limbs are weighed down.
+            I am in distress because of my heart.
+            It is a cause of suffering, yet I keep quiet about it!
+            Another heart would show respect.
+            A brave heart amid pain
+            is a companion for its lord.
+            If only I had a heart which knew suffering!
+            Then I should alight on it,
+            load it with words of misery,
+            and drive away my anguish onto it.’
+
+
+            v.1 He says to his heart:
+            `O come, my heart, that I may speak to you,
+            and you shall answer me my verses,
+            explain to me what is throughout the land,
+            how the once bright ones are cast down!
+            I am meditating on what has happened:
+            misery has appeared today -
+            a morning when strangers have not passed away;
+            everyone is silent about it;
+            the whole land is in an extreme state.
+            There is no person free from wrong,
+            and everyone alike is doing it;
+            breasts are saddened;
+            he who commands is as he who is commanded,
+            and yet the hearts of both of them are calm.
+            Each day one must wake to it.
+            Hearts cannot put it aside;
+            yesterday’s share of it is like today’s,
+            because the many imitate it, because of harshness.
+            There is no one clever enough to understand;
+            there is no one angry enough to give voice.
+            Every day one wakes to suffering.
+            Long and heavy is my anguish.
+            The pauper has no strength
+            to <save himself> from the more powerful man.
+            Silence against what is heard is a disease,
+            v.5 but to answer the ignorant is sorrow,
+            to oppose an utterance now creates enmity.
+            The heart cannot accept Truth.
+            They have had no patience with the reply to a speech;
+            all a man loves is his own phrase;
+            everyone is based on crookedness,
+            and honest speech is abandoned.
+            I speak to you, my heart, so that you shall answer me.
+            A heart which is touched cannot be silent.
+            Look, the servant’s lot is like the lord’s,
+            and many things are burdensome because of you.’
+            Inscription Comment
+            Collection of the sayings of Khakheperraseneb, wab-priest of Heliopolis.
+    Curator's comments
+
+    Parkinson R B, 1996, in Fs. Simpson, p.647 Lichtheim: Ancient Egyptian Literature: Volume I (1973), p.145-149.
+    Translation: R. Parkinson, The Tale of Sinuhe and Other ancient Egyptian Poems 1940-1649 BC (Oxford World's Classics 1999), 144-50.
+    Published: R. Parkinson 'The Text of Khakheperreseneb: New Readings of EA 5645, and an Unpublished Ostracon'. JEA 83 (1997), 55-68.
+
+    More 
+    Bibliography
+        Shaw & Nicholson 1995 p164 bibliographic details
+    Condition
+
+    fair (cracked)
+    Associated names
+        Named in inscription: Khakheperraseneb biography
+    Associated places
+        Named in inscription: Matariya
+        (Africa,Egypt,Lower Egypt,Nile Delta,Matariya)
+    Department
+
+    Ancient Egypt & Sudan
+    BM/Big number
+
+    EA5645
+    Registration number
+
+    .5645
+    Additional IDs
+        BS.5645 (Birch Slip Number)
+
+COMPASS Title: Wooden writing board and text of the Words of Khakheperresoneb
