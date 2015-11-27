@@ -33,9 +33,9 @@ natation, aviron (\frquote{il magnait des rames de \num{20}~coudées
 de long}).
 
 Le tir à l'arc sert également à des fins de propagande, comme par 
-exemple la démonstration faite par \roi{Aménophis~II} devant la famille 
-régnante de Qadesh : c'est une manifestation de la puissance du roi, 
-une mise en scène de l'idéologie de la flèche et de la cible 
+exemple la démonstration faite par \roi{Aménophis~II} devant la 
+famille régnante de Qadesh : c'est une manifestation de la puissance 
+du roi, une mise en scène de l'idéologie de la flèche et de la cible 
 (cf.~conseil lors de la campagne de \roi{Thoutmosis~III} à Megiddo,
 \Sref{sec:TIII_pol_ext}\,\ref{sub:TIII_PO}~%
 \titleref{subs:TIII_Megiddo}).
@@ -850,7 +850,6 @@ Touya, quant à elle, est rattachée au clergé de Min.
 Anen, frère de Tiyi, était \PPA[Deuxième ] (\musee{Museo Egizio} de 
 Turin, \no\inv{5484}, voir \fref{fig:Turin_5484}).
 
-
 Ay est représenté en tant que roi chez \roi{Toutânkhamon}.
 
 De \roi{Thoutmosis}, on a divers objets au Louvre, à Berlin, au Caire, 
@@ -927,7 +926,8 @@ en Asie, en Nubie,~\dots Dans l'ordre chronologique :
 \end{figure}
 
 \begin{aparte}[title={Le \emph{scarabée du mariage}}, 
-                fontlower=\itshape, breakable, before upper=]
+                fontlower=\itshape, breakable, 
+                before upper={\setlength{\parindent}{0pt}}]
   \begin{hieroglyph}
     anx G5 E1:D40 xa:\!m Sw 
     G16 s-mn:n:Y1 h:p-w:\!N33A s-g:r-D41:tA':tA'

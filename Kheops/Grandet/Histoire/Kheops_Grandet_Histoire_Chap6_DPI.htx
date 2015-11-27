@@ -65,9 +65,9 @@ législation, pour désigner le régime de Vichy : \emph{\frquote{les
 actes dits lois de l'autorité de fait se prétendant gouvernement de 
 l'État Français}}.}.
 
-\gens{Manéthon} mentionne des \frquote{Grands Hyksos}, la \dyn{15}, et 
-des \frquote{Petits Hyksos}, la \dyn{16}. De ces derniers, on ne sait 
-rien : aucun autre texte, pas de traces archéologiques\dots
+\gens{Manéthon} mentionne des \frquote{grands Hyksos}, la \dyn{15}, 
+et des \frquote{petits Hyksos}, la \dyn{16}. De ces derniers, on ne 
+sait rien : aucun autre texte, pas de traces archéologiques\dots
 
 \bigskip
 
@@ -587,7 +587,6 @@ partie à cette époque.
   \label{fig:C11_C12}
 \end{figure}
 
-
 \section[Mermécha]{Mermécha\protect\faitle{09/04/2013}}
 %----------------------------------------------------------------------
 
@@ -866,8 +865,9 @@ presque pas de monuments, le \CT donne \num{74}~rois. Pas de tradition
 onomastique particulière, plein de noms bizarres : peut-être liés à un 
 problème de mise en séquence du \CT.
 
+\chapter{Les rois}
 
-Néhésy
+\section{Néhésy}
 
 Le deuxième roi de la dynastie. On a des mentions de lui en tant que 
 prince héritier d'un roi dont on ne sait rien. Son nom, signifiant 
@@ -913,9 +913,9 @@ avec hache et dague ; scarabée en égyptien (directeur des choses
 scellées). Coutume : le maître est enterré avec ses serviteurs, et un 
 âne à l'entrée de la tombe.
 
+\section{Merdjéfarê}
 
-Merdjéfarê, le sixième roi. Son nom est sur un monument.
-
+Le sixième roi. Son nom est sur un monument.
 
 Les rois \num{7} à \num{74} ne sont connus que par le \CT : Ibis, 
 Canard, Apis, Celui-aux-nobles-femmes,~\dots
@@ -923,7 +923,7 @@ Problème de séquençage du \CT ? \donc~rois mythiques des dynasties
 antérieures aux dynasties humaines.
 
 
-Périodes des Hyksos
+\chapter{Périodes des Hyksos}
 
 Contemporains de la \dyn{17} et du début de la \dyn{18}.
 \begin{itemize}
@@ -974,8 +974,8 @@ $S_{\text{cercle}} = \left(\frac{7}{8}d\right)^2$)). En ce qui
 concerne la statuaire, on n'a pas suffisamment de pièces, 
 essentiellement des usurpations.
 
-La situation au \PO
 
+\chapter{La situation au \PO}
 
 \faitle{?\nospace{??}/2013}
 Avant la \DPI : morcellement politique, de nombreuses cités-états plus 
@@ -985,19 +985,21 @@ Canaan est une région agricole qui vivote.
 
 La \DPI correspond au Bronze Moyen au \PO, à la période amorrite.
 
-Les Hittites
+\section{Les Hittites}
 
 Ils s'installent dans le nord de l'Anatolie, une zone de vallées 
 enclavées dans les montagnes. Ils parlent une langue indo-européenne 
 et viendraient d'au-delà du Caucase.
 
-Plus à l'est, les Hourrites, dont la langue est agglutinante. 
-Contrairement aux Hittites, ils ne forment pas un état mais vont 
-un peu partout. En Canaan par exemple, que les Égyptiens nomment
-\emph{Kharou}, \td{le pays des Hourrites}. Ils s'adonnent à la 
-métallurgie (cuivre et étain).
+\section{Les Hourrites}
 
-\Mtn
+Plus à l'est, on trouve les Hourrites, dont la langue est 
+agglutinante. Contrairement aux Hittites, ils ne forment pas un état 
+mais vont un peu partout. En Canaan par exemple, que les Égyptiens 
+nomment d'ailleurs \emph{Kharou}, \td{le pays des Hourrites}. Ils 
+s'adonnent à la métallurgie (cuivre et étain).
+
+\section{\Mtn}
 
 C'est l'ennemi par excellence à la \dyn{18}. Ils parlent une langue 
 indo-européenne apparentée au sanskrit (\uwave{\emph{pala}}, langue 
@@ -1014,16 +1016,20 @@ se répand. Tout se fond dans la culture sémitique : l'écriture, les
 dieux,~\dots Ils ne conservent que les noms propres qui se propagent 
 par effet de mode.
 
-Le point culminant est l'unification de la région par Hammourabi 
-(destruction de Mari en \ano{1756}) pour fonder le royaume de 
-Mésopotamie.
+\section{Les autres}
+
+Le point culminant de la période est l'unification de la région par 
+Hammourabi (destruction de Mari en \ano{1756}) pour fonder le royaume 
+de Mésopotamie.
 
 Les autres royaumes amorrites, Ébla, Qatna, Yamkhad (capitale Alep), 
 qui absorbent progressivement les états de Syrie, vivent du commerce 
 de l'étain.
 
+\section{Évolution}
+
 Au moment où la monarchie hyksos émerge en \kmt, vers \ano{1650}, le 
-premier roi hittite important, Hattousil~I\ier, apparait sur la scène 
+premier roi hittite important, Hattousil~I\ier, apparaît sur la scène 
 internationale avec la volonté de conquérir la Syrie.
 C'est un pays riche en minerai, porté sur la métallurgie, et qui a 
 donc besoin d'étain. \\
@@ -1047,10 +1053,12 @@ Les Hourrites continuent leur progression vers le sud. La Babylonie
 est occupée par les Kassites, descendus eux-aussi des montagnes pour 
 former le royaume de Karduniash.
 
-Le lien entre cette situation au \PO et l'émergence des Hyksos en \kmt 
-existe bien mais on ne sait pas le formuler. Est-ce lié à l'expansion 
-démographique ? Un peuple qui en pousse un autre ? Les Hyksos 
-connaissent les avancées technologiques de la région (char).
+\section{Et les Hyksos dans tout ça ?}
+
+Le lien entre cette situation au \PO et l'émergence des Hyksos en 
+\kmt existe bien mais on ne sait pas le formuler. Est-ce lié à 
+l'expansion démographique ? Un peuple qui en pousse un autre ? Les 
+Hyksos connaissent les avancées technologiques de la région (char).
 
 \begin{remarque}
   La selle n'a pas encore été inventée, il n'y a donc pas de chevaux 
@@ -1068,7 +1076,7 @@ quel ennemi ? Les Hyksos ? Les nomades et semi-nomades locaux ?
 Ça se retrouve dans l'architecture hyksos.
 
 
-\TeD
+\chapter{\TeD}
 
 Consolidation de l'aire sacrée
 

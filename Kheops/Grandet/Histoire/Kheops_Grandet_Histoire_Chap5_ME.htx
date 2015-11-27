@@ -63,9 +63,10 @@ réunification du pays.
 
 \begin{table}[htb]
   {\addtolength{\tabcolsep}{1em}
-  \begin{tabular}{c c c c}
-      \multicolumn{2}{c}{~}                  & 
-      \bfseries Horus & \bfseries ny-sout-bity \\
+  \begin{tabular}{>{\bfseries}+c *{3}{^c}}
+    \rowstyle{\bfseries}
+      ~ & ~ & 
+      Horus & ny-sout-bity \\
     \toprule
       \multirow{2}{*}{PPI} & Montouhotep~II  & 
       Séânkhibtaouy   & \texttimes             \\
@@ -330,16 +331,21 @@ Montouhotep était décoré et quelle était la fonction des différents
 espaces.
 
 \begin{figure}[htb!]
-  % \includegraphics[height=4.5cm]{MontouhotepII_temple2}
-  % \includegraphics[height=4.5cm]{MontouhotepII_temple4}
-  % \includegraphics[width=0.6\textwidth]{MontouhotepII_temple6a}
-  % \includegraphics[width=0.6\textwidth]{MontouhotepII_temple6b}
-
-  % \includegraphics[width=0.6\textwidth]{MontouhotepII_temple6c}
-  \includegraphics[width=0.6\textwidth]{MontouhotepII_DeB_7a}%
-  \includegraphics[width=0.6\textwidth]{MontouhotepII_DeB_7b}
-
-  \includegraphics[width=0.6\textwidth]{MontouhotepII_DeB_7c}
+  \begin{minipage}[t]{0.29\paperwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{MontouhotepII_DeB_7a}
+    \subcaption{une véritable pyramide par \gens[E.]{Naville}}
+  \end{minipage}%
+  \begin{minipage}[t]{0.29\paperwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{MontouhotepII_DeB_7b} 
+    \subcaption{terre-plein en pierre par \gens[D.]{Arnold}}
+  \end{minipage}%
+  \begin{minipage}[t]{0.29\paperwidth}
+    \centerfloat
+    \includegraphics[width=\textwidth]{MontouhotepII_DeB_7c}
+    \subcaption{butte de terre arborée par \gens[R.]{Stadelmann}}
+  \end{minipage}
   \caption{Tentatives de restitution du temple funéraire de 
            Montouhotep~II à \DeB}
   \label{fig:mntwhtpII_tple2}
@@ -1073,7 +1079,7 @@ noyau est une structure à caissons de pierres remplis de briques crues.
 %----------------------------------------------------------------------
 
 Se basant sur deux textes littéraires, certains égyptologues pensent 
-que des circonstances troubles entourent la mort d'Amenemhat~I\ier.
+que des circonstances trou\-bles entourent la mort d'Amenemhat~I\ier.
 
 \paragraph{\source{L'enseignement d'Amenemhat pour son fils 
 Sésostris}} Connu par des copies du \NK, le texte est très 
@@ -1784,8 +1790,8 @@ Les titres correspondent à du personnel de temple, des scribes, des
 policiers,~\dots
 
 L'organisation de la ville montre la conception sociologique 
-bureaucratique, rigide et sans nuance, de l'époque : il n'y a que 
-deux classes dans la population, es inférieurs et les supérieurs.
+bureaucratique \incise{rigide et sans nuance} de l'époque : il n'y a 
+que deux classes dans la population, es inférieurs et les supérieurs.
 
 On retrouve cette rigidité dans la conception de certains sites, 
 orientés coûte que coûte selon les points cardinaux, en dépit de 
@@ -1806,17 +1812,18 @@ Son épouse est Khénémetnéferhedjet~II.
 
 \begin{remarque}
   On a utilisé un événement astronomique pour obtenir une datation 
-  absolue. Les archives du temple funéraire de Kahoûn mentionnent le 
-  lever héliaque de l'étoile Sothis en l'\ar{7}, le 16~du quatrième 
-  mois de péret sous Sésostris~III. Cette date correspondrait, selon 
-  les calculs de \gens{Parker}, au 17/07/1872\,BC. Ceci a été depuis 
-  contesté : un changement du lieu d'observation peut induire jusqu'à 
-  \num{30}~ans d'écart. Sothis est liée à l'inondation, le lieu 
-  d'observation devrait donc être Éléphantine plutôt que Kahoûn\dots\\
-  La période sothiaque est une invention des grecs. 
-  Le calendrier égyptien étant de \num{365}~jours, il se décale de 
-  \slashfrac{1}{4}~jour par an. Tous les \num{1467}~ans, le levé de 
-  Sothis coïncide avec l'inondation.\\
+  absolue. Les archives du temple funéraire de Kahoûn mentionnent 
+  le lever héliaque de l'étoile Sothis en l'\ar{7}, le \num{16}~du 
+  quatrième mois de péret sous Sésostris~III. Cette date 
+  correspondrait, selon les calculs de \gens{Parker}, au 
+  17/07/1872\,BC. Ceci a été depuis contesté : un changement du lieu 
+  d'observation peut induire jusqu'à \num{30}~ans d'écart. Sothis 
+  est liée à l'inondation, le lieu d'observation devrait donc être 
+  Éléphantine plutôt que Kahoûn\dots\\
+  La période sothiaque est une invention des grecs. Le 
+  calendrier égyptien étant de \num{365}~jours, il se décale de 
+  \slashfrac{1}{4}~jour par an. Tous les \num{1467}~ans, le levé 
+  de Sothis coïncide avec l'inondation.\\
   Au début du \siecle{19}, on croyait que les égyptiens avaient 
   inventé leur calendrier au début d'un tel cycle\dots Mais la crue 
   n'est pas un événement régulier, il peut y avoir jusqu'à 
@@ -2239,7 +2246,7 @@ colons égyptiens si les terres alentour se prêtaient à l'agriculture
 raffinage des minéraux (or et cuivre).
 
 De nombreux éléments (chenal aménagé, glissière, portages, escaliers, 
-quais, port,~\dots) témoignent de l'importance du fleuve dans le 
+quais, port,~\dots) témoi\-gnent de l'importance du fleuve dans le 
 réseau de forteresses nubiennes. Les soldats en garnison à Semna ont 
 noté sur les rochers les hauteurs du Nil, on a donc des dates.
 
@@ -2311,7 +2318,7 @@ Des pyramides de princesses encadrent celle du roi, quatre au nord et
 trois, plus anciennes, au sud, dont la pyramide satellite au sud-est.
 Les deux autres pyramides sud, sont celles de deux reines, Ouret~I et 
 Ouret~II, respectivement mère et principale épouse du roi. La pyramide 
-d'Ouaret~I ne comporte pas d'infrastructure. C'est peut-être un 
+de Ouaret~I ne comporte pas d'infrastructure. C'est peut-être un 
 monument commémoratif. Elle est peut-être enterrée à Illahoûn avec 
 Sésostris~II.
 Les pyramides nord, de princesses, sont reliées par un long couloir 

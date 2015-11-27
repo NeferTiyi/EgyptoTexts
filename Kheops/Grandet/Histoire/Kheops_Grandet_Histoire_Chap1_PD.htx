@@ -20,41 +20,81 @@
 \chapter{Généralités}
 %======================================================================
 
+% \noindent%
+% \begin{table}[htb]
+%   % \begin{tabular*}{11cm + 2\tabcolsep}{|>{\columncolor{TblHdBg}}M{3.0cm}|M{4cm}|M{4cm}|}
+%   \begin{tabular}{|>{\columncolor{TblHdBg}}M{3cm}|M{4cm}|M{4cm}|}
+%   %         1 23
+%     \hhline{~|--|}
+%       \multicolumn{1}{c|}{~}                                 &  % 01
+%       \CellHead\HE                                           &  % 02
+%       \CellHead\BE                                              % 03
+%     \tabularnewline
+%   %          123
+%     \hhline{|---|}
+%       \CellHead\PD ancien\\\rem{\anorange[0]{5500}{3500}}    &  % 01
+%       Badarien \\ \uline{Nagada~I} (Amratien)                &  % 02
+%       Fayoum~A \\ Mérimdé Béni Salamé \\ El-Omari               % 03
+%     \tabularnewline
+%   %          123
+%     \hhline{|---|}
+%       \CellHead\PD récent\\\rem{\anorange[0]{3500}{3200}}    &  % 01
+%       \uline{Nagada~II} \\ (Gerzéen ancien)                  &  % 02
+%       Maadien \\ Bouto                                          % 03
+%     \tabularnewline
+%   %          123
+%     \hhline{|---|}
+%       \CellHead%
+%       Protodynastique\\\rem{\anorange[0]{3200}{3100}}        &  % 01
+%       \multicolumn{2}{M{8cm}|}{\centering%
+%         \uline{Nagada~III}\\(Gerzéen récent, \frquote{dynastie~0})%
+%       }                                                         % 02-03
+%     \tabularnewline
+%   %          123
+%     \hhline{|---|}
+%   \end{tabular}
+%   \caption{Subdivisions du Prédynastique}
+% \end{table}
+
 \noindent%
 \begin{table}[htb]
-  % \begin{tabular*}{11cm + 2\tabcolsep}{|>{\columncolor{TblHdBg}}M{3.0cm}|M{4cm}|M{4cm}|}
-  \begin{tabular}{|>{\columncolor{TblHdBg}}M{3.0cm}|M{4cm}|M{4cm}|}
-  %         1 23
-    \hhline{~|--|}
-      \multicolumn{1}{c|}{~}                                 &  % 01
-      \CellHead{\HE}                                         &  % 02
-      \CellHead{\BE}                                            % 03
+  \newlength{\colonne}\newlength{\coltitr}\newlength{\largeur}
+
+  \deflength{\coltitr}{3cm}
+  \deflength{\colonne}{4cm}
+  \deflength{\largeur}{2\colonne+2\tabcolsep}
+
+  % \begin{tabular}{>{\bfseries\color{TblHdTx}}+C{\coltitr} *{2}{^C{\colonne}}}
+    % \rowstyle{\bfseries\color{TblHdTx}}
+  % \begin{tabular}{>{\CellHead}+C{\coltitr} *{2}{^C{\colonne}}}
+  %   \rowstyle{\CellHead}
+  \begin{tabular}{>{\bfseries}+C{\coltitr} *{2}{^C{\colonne}}}
+    \rowstyle{\bfseries}
+      ~   & 
+      \HE & 
+      \BE
     \tabularnewline
-  %          123
-    \hhline{|---|}
-      \CellHead{\PD ancien\\\rem{\anorange[0]{5500}{3500}}}  &  % 01
-      Badarien \\ \uline{Nagada~I} (Amratien)                &  % 02
-      Fayoum~A \\ Mérimdé Béni Salamé \\ El-Omari               % 03
+    \otoprule
+      \PD ancien\\\rem{\anorange[0]{5500}{3500}} & 
+      Badarien\\\uline{Nagada~I} (Amratien) & 
+      Fayoum~A\\Mérimdé Béni Salamé\\El-Omari
     \tabularnewline
-  %          123
-    \hhline{|---|}
-      \CellHead{\PD récent\\\rem{\anorange[0]{3500}{3200}}}  &  % 01
-      \uline{Nagada~II} \\ (Gerzéen ancien)                  &  % 02
-      Maadien \\ Bouto                                          % 03
+    \midrule
+      \PD\\récent\\\rem{\anorange[0]{3500}{3200}} & 
+      \uline{Nagada~II}\\(Gerzéen ancien) & 
+      Maadien\\Bouto  
     \tabularnewline
-  %          123
-    \hhline{|---|}
-      \CellHead{Protodynastique\\
-                \rem{\anorange[0]{3200}{3100}}}              &  % 01
-      \multicolumn{2}{M{8cm}|}{\centering%
+    \midrule
+      Protodynastique\\\rem{\anorange[0]{3200}{3100}} & 
+      \multicolumn{2}{C{\largeur}}{%
         \uline{Nagada~III}\\(Gerzéen récent, \frquote{dynastie~0})%
-      }                                                         % 02-03
+      } 
     \tabularnewline
-  %          123
-    \hhline{|---|}
+    \bottomrule
   \end{tabular}
-  \caption{Subdivisions du \PD}
+  \caption{Subdivisions du Prédynastique}
 \end{table}
+
 
 Il n'y a pas de peuplement continu, mais des villes indépendantes.
 

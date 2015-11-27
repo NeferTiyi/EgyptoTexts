@@ -1,0 +1,3 @@
+*.dat
+# Ignore tex files
+*.tex

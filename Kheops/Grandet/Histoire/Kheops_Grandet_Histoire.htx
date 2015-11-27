@@ -144,6 +144,17 @@
 {\usebibmacro{postnote}}
 
 
+\setlength{\heavyrulewidth}{0.1em}
+
+\renewcommand{\tabularxcolumn}[1]{C{#1}}
+
+\newcolumntype{+}{>{\global\let\currentrowstyle\relax}}
+\newcolumntype{^}{>{\currentrowstyle}}
+\newcommand{\rowstyle}[1]{%
+  \gdef\currentrowstyle{#1}#1\ignorespaces%
+}
+
+
 %======================================================================
 \title{Histoire de l'\kmt}
 \short{Histoire de l'\kmt}

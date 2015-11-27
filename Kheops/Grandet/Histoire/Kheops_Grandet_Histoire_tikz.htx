@@ -1,67 +1,90 @@
 %!TEX root = Kheops_Grandet_Histoire.htx
 %% Ce fichier est encodé en UTF-8 (juste pour WinMerge)
 
-\tikzset{soleil/.style   = {
-  thick, 
-  color = LightOrange, 
-  ball color = LightOrange
-  }}
-\tikzset{aile/.style     = {thick, draw = black, fill = black!10}}
-\tikzset{ba/.style       = {BaColor}}
-\tikzset{ka/.style       = {KaColor}}
-\tikzset{xt/.style       = {XtColor}}
-\tikzset{limdyn/.style   = {thick, dashed, DarkGreen, rounded corners}}
-\tikzset{gouv/.style     = {homme, draw = blue}}
-\tikzset{roi/.style      = {homme, draw = red}}
-\tikzset{personne/.style = {%
-  rectangle, rounded corners, 
-  font           = \smaller, 
-  inner sep      = 1ex, 
-  minimum height = 0.5cm, 
-  minimum width  = 2.2cm,
-  text width     = 2.2cm,
-  align          = center
-}}
-\tikzset{homme/.style = {%
-  personne, 
-  fill = gray!50!blue!20, 
-}}
-\tikzset{femme/.style = {%
-  personne, 
-  fill = gray!50!red!20,  
-}}
-\tikzset{lien/.style     = {rounded corners, thick}}
-\tikzset{union/.style    = {lien, draw = red}}
-\tikzset{child/.style    = {lien, draw = blue}}
-\tikzset{poteau/.style   = {
-  thick, 
-  fill = brown!80!white
-%  opacity=0.7
-}}
-\tikzset{porte/.style    = {fill = white, thick}}
-\tikzset{mur/.style      = {%
-  thick, 
-  fill = brown!50!yellow!50
-%  opacity=0.7
-}}
-\tikzset{sol/.style      = {very thick}}
-\tikzset{block/.style    = {%
-  rounded corners = 1, 
-  thick, 
-  fill = gray!25
-}}
-\tikzset{pyram/.style    = {fill = red!50}}
-\tikzset{temple/.style   = {fill = gray!33}}
-\tikzset{enceinte/.style = {thick}}
-\tikzset{pylone/.style   = {thick, fill = gray!50}}
-\tikzset{colonne/.style  = {fill = gray!50}}
-\tikzset{chemin/.style   = {%
-  rounded corners, 
-  thick, 
-  DarkRed, 
-  opacity=0.7, 
-  ->, >=stealth
-}}
+\tikzset{
+  soleil/.style = {
+    thick, 
+    color = LightOrange, 
+    ball color = LightOrange
+  },
+  aile/.style = {
+    thick, 
+    draw = black, 
+    fill = black!10
+  },
+  ba/.style = {BaColor},
+  ka/.style = {KaColor},
+  xt/.style = {XtColor},
+  limdyn/.style = {
+    thick, 
+    dashed, 
+    DarkGreen, 
+    rounded corners
+  },
+  gouv/.style = {homme, draw = blue},
+  roi/.style = {homme, draw = red},
+  personne/.style = {
+    rectangle, rounded corners, 
+    font           = \smaller, 
+    inner sep      = 1ex, 
+    minimum height = 0.5cm, 
+    minimum width  = 2.2cm,
+    text width     = 2.2cm,
+    align          = center
+  },
+  homme/.style = {
+    personne, 
+    fill = gray!50!blue!20, 
+  },
+    femme/.style = {
+    personne, 
+    fill = gray!50!red!20, 
+  },
+  lien/.style = {
+    rounded corners, 
+    thick
+  },
+  union/.style = {
+    lien, 
+    draw = red
+  },
+  child/.style = {
+    lien, 
+    draw = blue
+  },
+  poteau/.style = {
+    thick, 
+    fill = brown!80!white
+  %  opacity=0.7
+  },
+  porte/.style = {
+    fill = white, 
+    thick
+  },
+  mur/.style = {
+    thick, 
+    fill = brown!50!yellow!50
+  %  opacity=0.7
+  },
+  sol/.style = {very thick},
+  block/.style = {
+    rounded corners = 1, 
+    thick, 
+    fill = gray!25
+  },
+  pyram/.style    = {fill = red!50},
+  temple/.style   = {fill = gray!33},
+  enceinte/.style = {thick},
+  pylone/.style   = {thick, fill = gray!50},
+  colonne/.style  = {fill = gray!50},
+  chemin/.style   = {
+    rounded corners, 
+    thick, 
+    DarkRed, 
+    opacity=0.7, 
+    ->, >=stealth
+  }
+}
 
 
 % #1 : Époux

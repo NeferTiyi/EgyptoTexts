@@ -1,0 +1,64 @@
+%!TEX root = Kheops_Grandet_Histoire.htx
+
+\chapter{Carte de l'\kmt}
+
+\clearpage
+
+\input{Kheops_Grandet_Histoire_map_cmd}
+
+\pgfmathsetmacro{\xmin}{-155.74}
+\pgfmathsetmacro{\xmax}{ 231.49}
+\pgfmathsetmacro{\ymin}{-319.18}
+\pgfmathsetmacro{\ymax}{ 213.34}
+
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture, overlay, anchor=north west,
+                    inner sep=0, outer sep=0]
+
+  \node at (current page.north west) {%
+
+    % \rule{\paperwidth}{\paperheight}
+
+    \begin{tikzpicture}[%
+          remember picture, overlay,
+          framed, tight background,
+          background rectangle/.style={ultra thick, draw},
+          scale=13.5, y=0.118pt, x=0.118pt, 
+          inner sep=0pt, outer sep=0pt,
+          shift={(-\xmin,-\ymax)}
+    ]
+
+      % .. Define the four angles of the map ..
+      \coordinate (A) at (\xmin, \ymin) ;
+      \coordinate (B) at (\xmax, \ymin) ;
+      \coordinate (C) at (\xmin, \ymax) ;
+      \coordinate (D) at (\xmax, \ymax) ;
+
+      % \clip ([shift={(0,5)}] A) rectangle ([shift={(0,-5)}] D) ;
+
+      \fullmap
+
+      % .. Boussole ..
+      \begin{scope}[shift={(-120.00,-250.00)}]
+        \boussole
+      \end{scope}
+
+      % .. Echelle ..
+      \begin{scope}[shift={(-110.00,-290.00)}]
+        \echelle
+      \end{scope}
+
+      % \fill [opacity=0.25, red] ([shift={(0,5)}] A) rectangle ([shift={(0,-5)}] D) ;
+
+      % \draw [help lines, step=1] (A) grid (D) ;
+      % \draw [help lines, step=5] (A) grid (D) ;
+      % \draw [help lines, step=10] (A) grid (D) ;
+      % \node [red] at (0.00, 0.00) {O} ;
+      % \node [red, above right] at (A) {A} ;
+      % \node [red, above left] at (B) {B} ;
+      % \node [red, below right] at (C) {C} ;
+      % \node [red, below left] at (D) {D} ;
+    \end{tikzpicture}
+
+  } ;
+\end{tikzpicture}

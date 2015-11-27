@@ -141,6 +141,16 @@ elle correspond à une réalité physique.
 \section{Capitales}
 %----------------------------------------------------------------------
 
+\CaptionPetit
+\begin{wrapfigure}[9]{r}[1cm]{0pt}
+  \centerfloat
+  \includegraphics[height=4cm]{semataouy}
+  \caption{Séma-taouy}
+  \label{fig:smatawy}
+  % \vspace*{-4\baselineskip}
+\end{wrapfigure}
+\CaptionNormal
+
 Au cour de l'histoire de l'\kmt, la capitale a été déplacée à 
 plusieurs reprises. Les plus importantes sont \textbf{Memphis} au nord 
 et \textbf{Thèbes} au sud.
@@ -150,16 +160,6 @@ que Le~Caire est aujourd'hui situé.
 
 \section{Armoiries\index{séma-taouy}}
 %----------------------------------------------------------------------
-
-\CaptionPetit
-\begin{wrapfigure}[8]{r}[1cm]{0pt}
-  \centerfloat
-  \includegraphics[height=4cm]{semataouy}
-  \caption{Séma-taouy}
-  \label{fig:smatawy}
-  % \vspace*{-4\baselineskip}
-\end{wrapfigure}
-\CaptionNormal
 
 Le \textbf{séma-taouy} (\fref{fig:smatawy}), symbole politique, peut 
 être considéré comme les armoiries du pays.
@@ -397,78 +397,146 @@ choses.
 %----------------------------------------------------------------------
 
 % \faitle{13/03/2012}
+% \begin{table}[htb]
+%   \begin{tabular}{|>{\bfseries}L{1.2cm}M{2.8cm}|%
+%                    >{\bfseries}L{1.2cm}M{2.8cm}|%
+%                    >{\bfseries}L{1.2cm}M{2.8cm}|}
+%     \hline
+%       \multicolumn{2}{|c|}{\CellHead{\kmt}}                  &  % 01-02
+%       \multicolumn{2}{c|}{\CellHead{Grèce}}                  &  % 03-04
+%       \multicolumn{2}{c|}{\CellHead{Rome}}                      % 05-06
+%     \tabularnewline
+%     \hline
+%       \ano[0]{-3000} &                                       &  % 01-02
+%                      &                                       &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%                      & \OK                                   &  % 01-02
+%                      &                                       &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%       \ano[0]{-2000} &                                       &  % 01-02
+%                      &                                       &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%                      & \MK                                   &  % 01-02
+%                      &                                       &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%       \ano[0]{-1500} &                                       &  % 01-02
+%                      &                                       &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%                      & \NK                                   &  % 01-02
+%                      &                                       &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%       \ano[0]{-1000} &                                       &  % 01-02
+%       \ano[0]{ -800} &                                       &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%                      & \LP                                   &  % 01-02
+%                      & Ép. archaïque                         &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%       \ano[0]{ -500} &                                       &  % 01-02
+%       \ano[0]{ -510} &                                       &  % 03-04
+%       \ano[0]{ -510} &                                          % 05-06
+%     \tabularnewline
+%                      &                                       &  % 01-02
+%                      & Ép. classique                         &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%       \ano[0]{ -342} &                                       &  % 01-02
+%       \ano[0]{ -323} &                                       &  % 03-04
+%                      & République                               % 05-06
+%     \tabularnewline
+%                      &                                       &  % 01-02
+%                      & Ép. hellénistique                     &  % 03-04
+%                      &                                          % 05-06
+%     \tabularnewline
+%                      &                                       &  % 01-02
+%       \ano[0]{  -30} &                                       &  % 03-04
+%       \ano[0]{  -27} &                                          % 05-06
+%     \tabularnewline
+%                      &                                       &  % 01-02
+%                      &                                       &  % 03-04
+%                      & Empire                                   % 05-06
+%     \tabularnewline
+%                      &                                       &  % 01-02
+%                      &                                       &  % 03-04
+%       \ano[0]{ +395} &                                          % 05-06
+%     \tabularnewline
+%     \hline
+%   \end{tabular}
+%   \caption{Chronologie comparée}
+%   \label{tab:chrono}
+% \end{table}
+
 \begin{table}[htb]
-  \begin{tabular}{|>{\bfseries}L{1.2cm}M{2.8cm}|%
-                   >{\bfseries}L{1.2cm}M{2.8cm}|%
-                   >{\bfseries}L{1.2cm}M{2.8cm}|}
-    \hline
-      \multicolumn{2}{|c|}{\CellHead{\kmt}}                  &  % 01-02
-      \multicolumn{2}{c|}{\CellHead{Grèce}}                  &  % 03-04
-      \multicolumn{2}{c|}{\CellHead{Rome}}                      % 05-06
-    \tabularnewline
-    \hline
-      \ano[0]{-3000} &                                       &  % 01-02
-                     &                                       &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-                     & \OK                                   &  % 01-02
-                     &                                       &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-      \ano[0]{-2000} &                                       &  % 01-02
-                     &                                       &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-                     & \MK                                   &  % 01-02
-                     &                                       &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-      \ano[0]{-1500} &                                       &  % 01-02
-                     &                                       &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-                     & \NK                                   &  % 01-02
-                     &                                       &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-      \ano[0]{-1000} &                                       &  % 01-02
-      \ano[0]{ -800} &                                       &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-                     & \LP                                   &  % 01-02
-                     & Ép. archaïque                         &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-      \ano[0]{ -500} &                                       &  % 01-02
-      \ano[0]{ -510} &                                       &  % 03-04
-      \ano[0]{ -510} &                                          % 05-06
-    \tabularnewline
-                     &                                       &  % 01-02
-                     & Ép. classique                         &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-      \ano[0]{ -342} &                                       &  % 01-02
-      \ano[0]{ -323} &                                       &  % 03-04
-                     & République                               % 05-06
-    \tabularnewline
-                     &                                       &  % 01-02
-                     & Ép. hellénistique                     &  % 03-04
-                     &                                          % 05-06
-    \tabularnewline
-                     &                                       &  % 01-02
-      \ano[0]{  -30} &                                       &  % 03-04
-      \ano[0]{  -27} &                                          % 05-06
-    \tabularnewline
-                     &                                       &  % 01-02
-                     &                                       &  % 03-04
-                     & Empire                                   % 05-06
-    \tabularnewline
-                     &                                       &  % 01-02
-                     &                                       &  % 03-04
-      \ano[0]{ +395} &                                          % 05-06
-    \tabularnewline
-    \hline
-  \end{tabular}
+  \begin{tikzpicture}[x=0.5cm, y=0.4cm]
+
+    \pgfmathsetmacro{\taille}{8.00}
+    \tikzset{%
+      every node/.style={font=\small},
+      axe/.style={<-, >=stealth, thick},
+      trait/.style={dotted, thick},
+      date/.style={left, font=\small\bfseries},
+      pays/.style={
+        text depth = 0.25ex,
+        text height = 2ex,
+        font=\normalsize\bfseries
+      }
+    }
+
+    \begin{scope}
+      \draw [axe] (0.00, 5.00) -- (0.00, -31.00) ;
+
+      \node [pays] at (0.5*\taille, 5.00) {\kmt} ;
+
+      \foreach \y in {-3000, -2000, -1500, -1000, -332}{%
+        \node [date] at (0.00, 0.01*\y) {\ano[0]{\y}} ;
+        \draw [trait] (0.00, 0.01*\y) -- (\taille, 0.01*\y) ;
+      }
+
+      \foreach \y/\n in {-25.00/\OK, -17.50/\MK, 
+                         -12.50/\NK,  -6.66/\LP}{%
+        \node at (0.5*\taille, \y) {\n} ;
+      }
+    \end{scope}
+
+    \begin{scope}[shift={(10.00, 0.00)}]
+      \draw [axe] (0.00, 5.00) -- (0.00, -31.00) ;
+
+      \node [pays] at (0.5*\taille, 5.00) {Grèce} ;
+
+      \foreach \y in {-800, -510, -323, -30}{%
+        \node [date] at (0.00, 0.01*\y) {\ano[0]{\y}} ;
+        \draw [trait] (0.00, 0.01*\y) -- (\taille, 0.01*\y) ;
+      }
+
+      \foreach \y/\n in {-6.55/Ép. archaïque, 
+                         -4.17/Ép. classique, 
+                         -1.77/Ép. hellénistique}{%
+        \node at (0.5*\taille, \y) {\n} ;
+      }
+    \end{scope}
+
+    \begin{scope}[shift={(20.00, 0.00)}]
+      \draw [axe] (0.00, 5.00) -- (0.00, -31.00) ;
+
+      \node [pays] at (0.5*\taille, 5.00) {Rome} ;
+
+      \foreach \y in {-510, -27, 395}{%
+        \node [date] at (0.00, 0.01*\y) {\ano[0]{\y}} ;
+        \draw [trait] (0.00, 0.01*\y) -- (\taille, 0.01*\y) ;
+      }
+
+      \foreach \y/\n in {-2.69/République, 1.84/Empire}{%
+        \node at (0.5*\taille, \y) {\n} ;
+      }
+    \end{scope}
+  \end{tikzpicture}
   \caption{Chronologie comparée}
   \label{tab:chrono}
 \end{table}
