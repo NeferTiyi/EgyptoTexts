@@ -926,8 +926,8 @@ en Asie, en Nubie,~\dots Dans l'ordre chronologique :
 \end{figure}
 
 \begin{aparte}[title={Le \emph{scarabée du mariage}}, 
-                fontlower=\itshape, breakable, 
-                before upper={\setlength{\parindent}{0pt}}]
+               fontlower=\itshape, breakable, 
+               before upper={\setlength{\parindent}{0pt}}]
   \begin{hieroglyph}
     anx G5 E1:D40 xa:\!m Sw 
     G16 s-mn:n:Y1 h:p-w:\!N33A s-g:r-D41:tA':tA'

@@ -35,8 +35,9 @@ Il y a de grandes différences entre les \dynlist{11}{12} :
         associé au retour aux symboles solaires : Amon-Rê.
 \end{itemize}
 
-% On parle de \frquote{solarisation} du panthéon, un syncrétisme autour 
-% de Rê. Tous les dieux peuvent ainsi voir leur nom suffixé par Rê.
+% On parle de \frquote{solarisation} du panthéon, un syncrétisme 
+% autour de Rê. Tous les dieux peuvent ainsi voir leur nom suffixé 
+% par Rê.
 
 % Dans le domaine de l'art aussi, la \dyn{12} est marquée par un 
 % retour aux canons de l'\OK.
@@ -338,7 +339,7 @@ espaces.
   \end{minipage}%
   \begin{minipage}[t]{0.29\paperwidth}
     \centerfloat
-    \includegraphics[width=\textwidth]{MontouhotepII_DeB_7b} 
+    \includegraphics[width=\textwidth]{MontouhotepII_DeB_7b}
     \subcaption{terre-plein en pierre par \gens[D.]{Arnold}}
   \end{minipage}%
   \begin{minipage}[t]{0.29\paperwidth}

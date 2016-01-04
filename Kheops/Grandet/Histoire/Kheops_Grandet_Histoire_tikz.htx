@@ -36,7 +36,7 @@
     personne, 
     fill = gray!50!blue!20, 
   },
-    femme/.style = {
+  femme/.style = {
     personne, 
     fill = gray!50!red!20, 
   },
@@ -55,7 +55,7 @@
   poteau/.style = {
     thick, 
     fill = brown!80!white
-  %  opacity=0.7
+    % opacity=0.7
   },
   porte/.style = {
     fill = white, 
@@ -64,7 +64,7 @@
   mur/.style = {
     thick, 
     fill = brown!50!yellow!50
-  %  opacity=0.7
+    % opacity=0.7
   },
   sol/.style = {very thick},
   block/.style = {

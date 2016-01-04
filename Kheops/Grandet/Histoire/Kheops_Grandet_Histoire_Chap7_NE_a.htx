@@ -2214,7 +2214,8 @@ divinités sont inscrits sur la chapelle de \roi{Thoutmosis~III}
 
 \bigskip
 
-\noindent\begin{tikzpicture}[>=stealth]
+\noindent%
+\begin{tikzpicture}[>=stealth]
   \node at (-4,0) {\includegraphics[width=2.5cm]{AmonRe}} ;
   \draw [->,ultra thick] (-2.5, 0.0) -- (-1.5, 0.0) ;
   \node [opacity=0.5] at ( 0,0) 

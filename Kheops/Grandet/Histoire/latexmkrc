@@ -4,5 +4,5 @@ $recorder = 0;
 
 add_cus_dep('htx', 'tex', 1, 'htx2tex');
 sub htx2tex{
-  system("sesh < \"$_[0].htx\" > \"$_[0].tex\"");
+  system("htx2tex \"$_[0].htx\"");
 }
